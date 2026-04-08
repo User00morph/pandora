@@ -1,0 +1,337 @@
+# WF_DRD_RESEARCH_TOPIC
+**D.R.D — Sovereign Research & Deconstruction/Reconstruction**
+**Workflow: Research Any Topic to Documented Output**
+
+---
+
+## WHAT THIS WORKFLOW IS
+
+The core executable sequence of D.R.D. Takes any topic — from any department, at any scale — from raw question to fully tiered, documented research output. This workflow runs every time a department needs research done rather than opinion generated.
+
+---
+
+## TRIGGER
+
+Any of the following activates this workflow:
+
+- A department file routes to `DRD.md` for sourcing or investigation
+- A direct research request with a specific topic or question
+- An existing belief or claim in the OS that needs evidence evaluation
+- A new concept or framework encountered that requires understanding before integration
+
+---
+
+## INPUT REQUIRED
+
+Before beginning, establish:
+
+```
+TOPIC: What is being researched?
+ORIGIN DEPARTMENT: Which department is requesting this?
+RESEARCH DEPTH: Surface (overview) / Standard (documented) / Deep (exhaustive)?
+SPECIFIC QUESTION: What specifically needs to be answered?
+EXISTING POSITION: Is there already a belief or claim being held about this?
+                   If yes — state it explicitly before researching.
+                   Researching to confirm is different from researching to find.
+DEADLINE: Is this time-sensitive or open-ended?
+```
+
+---
+
+## THE WORKFLOW — STEP BY STEP
+
+### STEP 1 — DECONSTRUCTION
+**Break the topic into its component questions.**
+
+No topic is a single question. Before researching anything, map what actually needs to be answered.
+
+```
+ACTION:
+Take the stated topic and write out every sub-question
+it contains. Do not answer yet — only map.
+
+Example:
+Topic: "Does ashwagandha reduce cortisol?"
+Sub-questions:
+- What is cortisol and how is it measured?
+- What does ashwagandha actually contain?
+- What studies exist on this specific claim?
+- What populations were studied?
+- What were the dosages and forms used?
+- What were the effect sizes?
+- Are there contradicting studies?
+- What are the confounding factors?
+
+OUTPUT: A numbered list of sub-questions.
+        This list governs all subsequent steps.
+```
+
+---
+
+### STEP 2 — SOURCE IDENTIFICATION
+**Find where the answers actually live.**
+
+Before consuming any content, identify what types of sources exist for this topic and assign them to the D.R.D tier system before reading.
+
+```
+SOURCE TIER SYSTEM:
+
+TIER 1 — Primary sources
+Original research, primary texts, archaeological records,
+peer-reviewed studies with no major conflicts of interest,
+direct transcripts or documents
+
+TIER 2 — Credentialed secondary sources
+Academic books, peer-reviewed review articles,
+credentialed experts whose work can be evaluated
+
+TIER 3 — Serious independent researchers
+Non-credentialed researchers with documented methodology,
+primary source engagement, transparent reasoning,
+consistent track record
+
+TIER 4 — Secondary claims
+Information that cannot be traced to a primary source,
+claims with unclear origin, aggregator content
+
+TIER 5 — Unsourced assertion
+No traceable origin, no methodology, no primary source
+Used only to identify what is being claimed in the field —
+never as factual foundation
+
+ACTION:
+For each sub-question from Step 1, identify:
+- What tier of source is available?
+- Where specifically does that source live?
+- What is the source's relationship to the topic?
+  (author, funder, incentive structure)
+
+OUTPUT: Source map — sub-question matched to source(s) with tier assigned.
+```
+
+---
+
+### STEP 3 — EVIDENCE EXTRACTION
+**Read with discipline, not with confirmation.**
+
+This step is where the actual research happens. The discipline: extract what the source actually says, not what supports the prior position.
+
+```
+FOR EACH SOURCE:
+
+READ: What does this source actually claim?
+EXTRACT: The specific claim, with precision
+         (not paraphrase that loses important nuance)
+TIER: Confirm the tier assigned in Step 2
+NOTE: What is this source's limitation?
+      (sample size, funding, methodology, date)
+FLAG: Does this source contradict another source?
+      If yes — log the contradiction. Do not resolve it yet.
+
+CRITICAL DISCIPLINE:
+If a source says something that contradicts
+a belief already held in the OS —
+log it at full strength.
+Do not soften it. Do not explain it away in this step.
+That is what Step 5 is for.
+
+OUTPUT: Evidence log — each source entry with:
+        [SOURCE] [TIER] [CLAIM] [LIMITATION] [CONTRADICTION FLAG]
+```
+
+---
+
+### STEP 4 — PATTERN RECOGNITION
+**Find what the evidence actually shows.**
+
+With all evidence extracted, step back and look at the whole picture.
+
+```
+QUESTIONS TO ANSWER IN THIS STEP:
+
+1. WHERE IS THERE GENUINE CONSENSUS?
+   Multiple Tier 1-2 sources pointing in the same direction
+   = high confidence finding
+
+2. WHERE IS THERE GENUINE DISAGREEMENT?
+   Tier 1-2 sources contradicting each other
+   = document the disagreement honestly, do not pick a side
+   without examining why the disagreement exists
+
+3. WHERE IS THE EVIDENCE THIN?
+   Only Tier 3-4 sources available
+   = finding is possible, not established
+
+4. WHERE IS THE EVIDENCE ABSENT?
+   Widely claimed but no traceable primary source
+   = Tier 5 — flag as assertion, not finding
+
+5. WHAT IS THE STRONGEST CASE FOR AND AGAINST?
+   Even if a conclusion seems clear —
+   articulate the strongest version of the opposing evidence.
+   If the opposing case cannot be articulated,
+   the research is incomplete.
+
+OUTPUT: Pattern summary — findings organized by confidence level:
+        ESTABLISHED / PROBABLE / POSSIBLE / CONTESTED / UNSUPPORTED
+```
+
+---
+
+### STEP 5 — RECONSTRUCTION
+**Build the sovereign position.**
+
+This is where D.R.D produces its actual output — not just what the sources say, but what the sovereign mind concludes after honest evaluation of all of it.
+
+```
+THE RECONSTRUCTION ANSWERS:
+
+- What is now known with high confidence?
+- What is probable but not established?
+- What remains genuinely uncertain?
+- What was believed before this research that requires revision?
+- What does this finding mean for the department that requested it?
+- What follow-up research would strengthen the weakest findings?
+
+CRITICAL RULE:
+The reconstruction must be honest about uncertainty.
+"The evidence suggests X, though Y remains contested"
+is a stronger sovereign position than false certainty.
+False certainty fails when tested.
+Honest uncertainty can be built on.
+
+OUTPUT: Sovereign position document — structured as:
+        FINDINGS → CONFIDENCE LEVELS → IMPLICATIONS → OPEN QUESTIONS
+```
+
+---
+
+### STEP 6 — DOCUMENTATION AND FILING
+**Make the research retrievable.**
+
+Research that is not filed is research that has to be redone.
+
+```
+FILE NAMING:
+drd_research_[topic]_[YYYY-MM].md
+
+FILE STRUCTURE:
+- Research question(s)
+- Source map with tiers
+- Evidence log
+- Pattern summary
+- Sovereign position
+- Open questions
+- Filed: [date]
+- Requested by: [department]
+
+CROSS-LINK:
+If this research serves a specific department file —
+add a reference to the research file in that department's
+context file so it is findable from both directions.
+
+OUTPUT: Completed research file filed in /DRD/research/[topic area]/
+        Reference added to requesting department's context file.
+```
+
+---
+
+## QUALITY CHECKS
+
+Before the workflow output is considered complete, confirm:
+
+```
+[ ] Every sub-question from Step 1 was addressed
+    (even if the answer is "no evidence found")
+
+[ ] No source was used above its assigned tier
+
+[ ] Contradicting evidence was logged at full strength,
+    not softened or omitted
+
+[ ] The reconstruction distinguishes what is known
+    from what is concluded from what is speculated
+
+[ ] The file is named correctly and cross-linked
+    to the requesting department
+```
+
+---
+
+## OUTPUT FORMATS BY DEPTH
+
+```
+SURFACE (overview requested)
+Steps 1, 4, 5 only — abbreviated
+Produces: 1-2 page position summary
+Turnaround: Single session
+
+STANDARD (documented requested)
+All 6 steps — standard depth
+Produces: Full research file with source map and evidence log
+Turnaround: 1-3 sessions depending on topic
+
+DEEP (exhaustive requested)
+All 6 steps — maximum source coverage
+Multiple passes through Steps 2-4 as new sources are identified
+Produces: Comprehensive research document with full evidence log
+Turnaround: Multiple sessions, topic-dependent
+```
+
+---
+
+## CONNECTS TO
+
+```
+ALL DEPARTMENTS — D.R.D research serves the entire OS.
+Specific handoff points:
+
+→ DSS.md       Ancient knowledge, cosmological frameworks,
+                suppressed science — route findings there
+
+→ DBS.md       Herb library, nutrition, women's health —
+                route findings to relevant herb or topic file
+
+→ DII.md       Technology and AI research findings
+
+→ DPSA.md      Consciousness research, identity frameworks
+
+→ DSE.md       Business, legal, financial research
+
+→ DRA.md       Property data, market research, architecture
+
+→ pandora.md   If findings require OS-level doctrine update
+```
+
+---
+
+## FAILURE MODES TO AVOID
+
+```
+CONFIRMATION RESEARCH
+Searching for sources that support a prior position
+rather than mapping what the evidence actually shows.
+Indicator: No contradicting evidence found in any topic.
+           Contradicting evidence always exists.
+
+TIER INFLATION
+Treating a Tier 3-4 source as Tier 1-2
+because it says something important or resonant.
+The tier is determined by the source's methodology
+and accountability — not by whether the finding is significant.
+
+PREMATURE CLOSURE
+Moving to reconstruction before extraction is complete.
+Indicator: The reconstruction does not address
+           all sub-questions from Step 1.
+
+FALSE CERTAINTY IN OUTPUT
+Stating a finding as established when it is only probable.
+The sovereign position is stronger when it is honest
+about its own confidence levels.
+```
+
+---
+
+*WF_DRD_RESEARCH_TOPIC | D.R.D | Pandora OS*
+*"The quality of what you build is determined by the quality of what you know. The quality of what you know is determined by the honesty of how you found it."*
