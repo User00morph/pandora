@@ -241,5 +241,17 @@ dce_distribution_[piece-title].md
 
 ---
 
+## SKILL ROUTING TABLE
+
+| Workflow Stage | Load These Skills |
+|---------------|-------------------|
+| Brief and drafting | `skills/skill_copywriting.md` |
+| Full production pipeline | `skills/skill_content-production.md` |
+| Research-backed content | `skills/skill_source-evaluation.md` (via D.R.D) |
+
+**Workflow file:** `workflow.md` — WF_DCE_CONTENT_CREATION
+
+---
+
 *D.C.E | Pandora OS | Department 3 of 12*
 *"The most honest expression is the most useful one."*

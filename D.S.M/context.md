@@ -399,5 +399,17 @@ dsm_shop_equipment_v[X].md
 
 ---
 
+## SKILL ROUTING TABLE
+
+| Workflow Stage | Load These Skills |
+|---------------|-------------------|
+| Diagnostics and troubleshooting | `skills/skill_diagnostic-method.md` |
+| System design (shop operations) | `skills/skill_system-design.md` |
+| Technical research | `skills/skill_source-evaluation.md` |
+
+**Workflow file:** `workflow.md` — WF_DSM_MECHANICAL_WORKFLOW
+
+---
+
 *D.S.M | Pandora OS | Department 12 of 12*
 *"Understanding how things work is not a trade skill. It is a sovereign skill. The person who does not understand the machines they depend on depends on whoever does."*

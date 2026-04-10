@@ -124,21 +124,21 @@ Morph is a self-aware sovereign entity. No external authority — institutional,
 
 **Claude reads this table at the start of every session to determine where to navigate.**
 
-| Task or Topic | Primary Department | Read First | Then Read |
-|--------------|-------------------|-----------|----------|
-| New system or project | D.S.C | `DSC/DSC.md` | `DSC/context_dsc.md` |
-| Research, history, decoding | D.R.D | `DRD/DRD.md` | `DRD/context_drd.md` |
-| Content, YouTube, scripts | D.C.E | `DCE/DCE.md` | `DCE/context_dce.md` |
-| Business, clients, revenue | D.S.E | `DSE/DSE.md` | `DSE/context_dse.md` |
-| Real estate, architecture | D.R.A | `DRA/DRA.md` | `DRA/context_dra.md` |
-| Home design, materials, environment | D.H.S | `DHS/DHS.md` | `DHS/context_dhs.md` |
-| AI, technology, Techgnosis | D.I.I | `DII/DII.md` | `DII/context_dii.md` |
-| Science, alchemical science | D.S.S | `DSS/DSS.md` | `DSS/context_dss.md` |
-| Magik, ritual, energy work | D.O.M | `DOM/DOM.md` | `DOM/context_dom.md` |
-| Spiritual practice, identity, perception | D.P.S.A | `DPSA/DPSA.md` | `DPSA/context_dpsa.md` |
-| Body, health, herbs, women's autonomy | D.B.S | `DBS/DBS.md` | `DBS/context_dbs.md` |
-| Vehicles, mechanics, shop | D.S.M | `DSM/DSM.md` | `DSM/context_dsm.md` |
-| Cross-department synthesis | All | This file | Relevant department files |
+| Task or Topic | Primary Department | Read First | Then Read | Workflow |
+|--------------|-------------------|-----------|----------|----------|
+| New system or project | D.S.C | `D.S.C/context.md` | Skill routing table | `D.S.C/workflow.md` |
+| Research, history, decoding | D.R.D | `D.R.D/context` | Skill routing table | `D.R.D/workflow` |
+| Content, YouTube, scripts | D.C.E | `D.C.E/Context.md` | Skill routing table | `D.C.E/workflow.md` |
+| Business, clients, revenue | D.S.E | `D.S.E/Context.md` | Skill routing table | `D.S.E/workflow.md` |
+| Real estate, architecture | D.R.A | `D.R.A/context.md` | Skill routing table | `D.R.A/workflow.md` |
+| Home design, materials, environment | D.H.S | `D.H.S/Context.md` | Skill routing table | `D.H.S/workflow.md` |
+| AI, technology, Techgnosis | D.I.I | `D.I.I/Context.md` | Skill routing table | `D.I.I/workflow.md` |
+| Science, alchemical science | D.S.S | `D.S.S/context.md` | Skill routing table | `D.S.S/workflow.md` |
+| Magik, ritual, energy work | D.O.M | `D.O.M/context.md` | Skill routing table | `D.O.M/workflow.md` |
+| Spiritual practice, identity, perception | D.P.S.A | `D.P.S.A/context.md` | Skill routing table | `D.P.S.A/workflow.md` |
+| Body, health, herbs, women's autonomy | D.B.S | `D.B.S/context.md` | Skill routing table | `D.B.S/workflow.md` |
+| Vehicles, mechanics, shop | D.S.M | `D.S.M/context.md` | Skill routing table | `D.S.M/workflow.md` |
+| Cross-department synthesis | All | This file | Relevant department files | — |
 
 ---
 
@@ -198,10 +198,11 @@ expressed through content creation.
 
 ## SECTION 7 — THE SKILLS LAYER
 
-**Two layers operate simultaneously:**
+**Three layers operate simultaneously:**
 
-**Shared Skills Library** — accessible by all 12 departments
-**Department-Specific Skills** — cultivated within each department
+**Skills Library (`skills/`)** — loadable process files used on-demand by departments at specific workflow stages. See `skills/INDEX.md` for the full list and department mappings.
+
+**Workflow Files (`D.*/workflow.md`)** — each department has a staged pipeline that defines when to load which skills. The workflow is the process; the skills are the tools loaded at each stage.
 
 **Shared Skills — Professional Roles Through the Sovereign Quantum Lens:**
 
@@ -241,18 +242,24 @@ Identify the department from Morph's message.
 Cross-reference the routing table.
 
 STEP 3 — NAVIGATE
-Open the correct department file.
+Open the correct department context file.
 Read only what the task requires.
 
-STEP 4 — ALIGN
+STEP 4 — LOAD WORKFLOW AND SKILLS
+Read the department's workflow.md for multi-step tasks.
+Check the Skill Routing Table in the context file.
+Load only the skills needed for the current workflow stage.
+
+STEP 5 — ALIGN
 Confirm understanding of the task before executing.
 State the plan clearly.
+For complex builds: produce a PRD before execution.
 
-STEP 5 — EXECUTE
+STEP 6 — EXECUTE
 Produce output with maximum precision and depth.
 The quality of intention behind the work is the standard.
 
-STEP 6 — REFLECT
+STEP 7 — REFLECT
 Every output is a mirror of the input.
 If the input was clear and aligned, the output will be.
 If not, transmute — refine the input and try again.
@@ -288,7 +295,7 @@ dii_ / dss_ / dom_ / dpsa_ / dbs_ / dsm_
 TYPE EXAMPLES:
 blueprint / research / protocol / script / ritual /
 decode / reconstruct / formula / framework / archive /
-project / audit / SOP / concept / log
+project / audit / SOP / concept / log / prd
 
 STATUS:
 _draft / _final / _active / _v2 / _v3 / _archived

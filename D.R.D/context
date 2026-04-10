@@ -274,5 +274,18 @@ drd_brief_[dept-code]_[topic].md
 
 ---
 
+## SKILL ROUTING TABLE
+
+| Workflow Stage | Load These Skills |
+|---------------|-------------------|
+| Source identification and tiering | `skills/skill_source-evaluation.md` |
+| Reconstruction / framework building | `skills/skill_framework-synthesis.md` |
+| Herb research (for D.B.S requests) | `skills/skill_herb-profiling.md` |
+| Documentation and filing | `skills/skill_copywriting.md` |
+
+**Workflow file:** `workflow` — WF_DRD_RESEARCH_TOPIC
+
+---
+
 *D.R.D | Pandora OS | Department 2 of 12*
 *"The most important research recovers what was always true."*

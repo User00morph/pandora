@@ -267,7 +267,7 @@
 35:4235 minutes, 42 secondsseed grain in this an energy lies dormant this energy causes the stock to
 35:4935 minutes, 49 secondssprout from the kernel nature can awaken this energy which reposes in the seed modern man cannot do it at will
 35:5835 minutes, 58 secondshe must bury the seed in the ground and leave the Awakening to the forces of nature the Atlantean could do something
-36:0636 minutes, 6 secondselse he knew how one can change the energy of a pile of grain into technical power just as modern man can change the
+minutes, 6 secondselse he knew how one can change the energy of a pile of grain into technical power just as modern man can change the
 36:1336 minutes, 13 secondsheat energy of a pile of coal into such power plants were cultivated in the Atlantean period not merely for use as
 36:2236 minutes, 22 secondsfood stuffs but also in order to make the energies dormant in them available to Commerce and
 36:2936 minutes, 29 secondsIndustry just as we have mechanisms for transforming the energy dormant in Coal into energy of motion in our locomotives

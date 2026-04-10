@@ -88,6 +88,14 @@ it is maintenance, optimization, and continued cultivation.
    When a system or project breaks down or underperforms
    The breakdown becomes raw material — refined into better design
    Output: dsc_transmutation_[system-name]_v[X].md
+
+6. PRD CREATION (Product Requirements Document)
+   Before any complex build begins — software, multi-phase project,
+   or anything Claude will execute autonomously — a PRD is produced first.
+   The PRD translates vision into structured specification.
+   Claude can generate the draft. Morph reviews and approves before execution.
+   Load: skills/skill_prd-creation.md
+   Output: dsc_prd_[project-name]_v[X].md
 ```
 
 ---
@@ -100,6 +108,7 @@ it is maintenance, optimization, and continued cultivation.
 ├── context_dsc.md            ← Active projects, current OS version, open tasks
 ├── blueprints/               ← New system designs in Nigredo → Citrinitas stage
 ├── projects/                 ← All active and completed project files
+├── PRDs/                     ← Product Requirements Documents (pre-build specs)
 ├── SOPs/                     ← Proven repeatable sovereign protocols
 ├── audits/                   ← Legitimacy review records
 └── transmutations/           ← Breakdown-to-refinement records
@@ -247,6 +256,7 @@ The breakdown is now an asset.
 ```
 dsc_blueprint_[system-name]_v[X].md
 dsc_project_[name]_[nigredo/albedo/citrinitas/rubedo].md
+dsc_prd_[project-name]_v[X].md
 dsc_sop_[process-name].md
 dsc_audit_[system-name]_YYYY-MM.md
 dsc_transmutation_[system-name]_v[X].md
@@ -264,6 +274,20 @@ dsc_transmutation_[system-name]_v[X].md
 - **Scroll XXIX — 2027 Sleeping Phoenix**: All systems must be operational and compounding before the threshold — D.S.C governs that timeline
 - **5D Creation Protocol**: Every system follows frequency → field → timeline → anchor → action
 - **K8 Nation System**: D.S.C maps to HQ Nation — the supreme design authority of the entire OS
+
+---
+
+## SKILL ROUTING TABLE
+
+| Workflow Stage | Load These Skills |
+|---------------|-------------------|
+| System design (any stage) | `skills/skill_system-design.md` |
+| Writing SOPs or documentation | `skills/skill_copywriting.md` |
+| Building a complex project (pre-build) | `skills/skill_prd-creation.md` |
+| Synthesizing cross-department frameworks | `skills/skill_framework-synthesis.md` |
+| Diagnosing broken systems | `skills/skill_diagnostic-method.md` |
+
+**Workflow file:** `workflow.md` — WF_DSC_PROJECT_INTAKE
 
 ---
 

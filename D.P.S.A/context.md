@@ -328,5 +328,16 @@ dpsa_doctrine_[name].md
 
 ---
 
+## SKILL ROUTING TABLE
+
+| Workflow Stage | Load These Skills |
+|---------------|-------------------|
+| Pattern investigation and synthesis | `skills/skill_framework-synthesis.md` |
+| Practice design (routing to D.O.M) | `skills/skill_ritual-design.md` |
+
+**Workflow file:** `workflow.md` — WF_DPSA_INNER_WORK
+
+---
+
 *D.P.S.A | Pandora OS | Department 10 of 12*
 *"The most significant territory you will ever govern is the space between stimulus and response. That is where sovereignty actually lives."*

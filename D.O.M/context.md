@@ -300,5 +300,16 @@ dom_log_YYYY-MM.md
 
 ---
 
+## SKILL ROUTING TABLE
+
+| Workflow Stage | Load These Skills |
+|---------------|-------------------|
+| Practice and ritual design | `skills/skill_ritual-design.md` |
+| Tradition research | `skills/skill_source-evaluation.md` |
+
+**Workflow file:** `workflow.md` — WF_DOM_PRACTICE_DEVELOPMENT
+
+---
+
 *D.O.M | Pandora OS | Department 9 of 12*
 *"The practitioner who does not document their practice does not have a practice. They have a habit."*

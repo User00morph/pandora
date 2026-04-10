@@ -252,5 +252,17 @@ dhs_sacred_[space].md
 
 ---
 
+## SKILL ROUTING TABLE
+
+| Workflow Stage | Load These Skills |
+|---------------|-------------------|
+| Environment audit | `skills/skill_environment-audit.md` |
+| Improvement planning | `skills/skill_system-design.md` |
+| Product/material research | `skills/skill_source-evaluation.md` (via D.R.D) |
+
+**Workflow file:** `workflow.md` — WF_DHS_ENVIRONMENT_OPTIMIZATION
+
+---
+
 *D.H.S | Pandora OS | Department 6 of 12*
 *"Design your environment deliberately. It is designing you whether you choose it or not."*

@@ -281,5 +281,18 @@ dra_design_[space-name]_v[X].md
 
 ---
 
+## SKILL ROUTING TABLE
+
+| Workflow Stage | Load These Skills |
+|---------------|-------------------|
+| Deal analysis (real estate) | `skills/skill_deal-analysis.md` |
+| Architecture design | `skills/skill_system-design.md` |
+| Environment assessment | `skills/skill_environment-audit.md` |
+| Materials and principles research | `skills/skill_source-evaluation.md` |
+
+**Workflow file:** `workflow.md` — WF_DRA_PROPERTY_PIPELINE
+
+---
+
 *D.R.A | Pandora OS | Department 5 of 12*
 *"The most important structure you will ever build is the one you live your life inside."*

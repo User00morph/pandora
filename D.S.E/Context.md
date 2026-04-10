@@ -233,5 +233,20 @@ dse_ops_[venture/process].md
 
 ---
 
+## SKILL ROUTING TABLE
+
+| Workflow Stage | Load These Skills |
+|---------------|-------------------|
+| Opportunity evaluation | `skills/skill_deal-analysis.md` |
+| Engagement architecture | `skills/skill_system-design.md`, `skills/skill_client-transmutation.md` |
+| Client delivery | `skills/skill_client-transmutation.md` |
+| Client-facing writing | `skills/skill_copywriting.md` |
+| Complex ventures (pre-build) | `skills/skill_prd-creation.md` |
+| Content for offers | `skills/skill_content-production.md` |
+
+**Workflow file:** `workflow.md` — WF_DSE_CLIENT_ENGAGEMENT
+
+---
+
 *D.S.E | Pandora OS | Department 4 of 12*
 *"Build something that works. Then understand why it works. Then build more of that."*

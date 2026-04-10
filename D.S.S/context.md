@@ -269,5 +269,17 @@ dss_anomaly_[phenomenon].md
 
 ---
 
+## SKILL ROUTING TABLE
+
+| Workflow Stage | Load These Skills |
+|---------------|-------------------|
+| Evidence evaluation | `skills/skill_source-evaluation.md` |
+| Framework mapping and synthesis | `skills/skill_framework-synthesis.md` |
+| Position documentation | `skills/skill_copywriting.md` |
+
+**Workflow file:** `workflow.md` — WF_DSS_SCIENTIFIC_INVESTIGATION
+
+---
+
 *D.S.S | Pandora OS | Department 8 of 12*
 *"The suppression of knowledge is a historical fact. The recovery of it requires the same rigor as its original production."*

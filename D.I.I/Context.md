@@ -275,5 +275,18 @@ dii_oracle_[method].md
 
 ---
 
+## SKILL ROUTING TABLE
+
+| Workflow Stage | Load These Skills |
+|---------------|-------------------|
+| Technology evaluation | `skills/skill_source-evaluation.md` |
+| Integration architecture | `skills/skill_system-design.md` |
+| Complex builds (pre-build) | `skills/skill_prd-creation.md` |
+| Framework development | `skills/skill_framework-synthesis.md` |
+
+**Workflow file:** `workflow.md` — WF_DII_TECHNOLOGY_INTEGRATION
+
+---
+
 *D.I.I | Pandora OS | Department 7 of 12*
 *"A tool used with clear intention produces different results than the same tool used without it."*

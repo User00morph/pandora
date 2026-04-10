@@ -326,5 +326,17 @@ dbs_system_[component].md
 
 ---
 
+## SKILL ROUTING TABLE
+
+| Workflow Stage | Load These Skills |
+|---------------|-------------------|
+| Evidence evaluation | `skills/skill_source-evaluation.md` |
+| Herb profiling | `skills/skill_herb-profiling.md` |
+| Protocol synthesis | `skills/skill_framework-synthesis.md` |
+
+**Workflow file:** `workflow.md` — WF_DBS_HEALTH_RESEARCH
+
+---
+
 *D.B.S | Pandora OS | Department 11 of 12*
 *"To know your body is to know the most sophisticated system you will ever inhabit. Most people live in it their entire lives without learning its language."*
