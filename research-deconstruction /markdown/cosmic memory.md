@@ -1,449 +1,449 @@
-099 secondsSteiner chapter 1 contemporary civilization in the mirror of the science of the spirit from
-0:2121 seconds1904 The Observer of the course of scientific development in the last decades cannot doubt that a great
-0:2828 secondsRevolution is in preparation today when a scientist talks about the so-called enigmas of existence it sounds
-0:3838 secondsquite different than it did a short time ago around the middle of the 19th century some of the most daring Spirits
-0:4646 secondssaw in scientific materialism the only Creed possible to one familiar with the then recent results of
-0:5555 secondsresearch the blunt saying of that time has become famous quote thoughts stand in about the same relationship to the
-1:021 minute, 2 secondsbrain as Gaul to the liver unquote this was stated by Carl WT in his K GL Vision
-1:111 minute, 11 secondsshaft blind science and excuse me Blind Faith and Science and in other writings
-1:181 minute, 18 secondsdeclared everything to be superannuated which did not make spiritual activity in the life of the Soul proceed from the
-1:261 minute, 26 secondsmechanism of the nervous system and of the brain in the same manner in which the physicist explains that the movement
-1:331 minute, 33 secondsof the hands proceeds from the mechanism of the clock that was the time when ludvig
-1:421 minute, 42 secondsboer's craftuno titled craftuno force and matter became a sort of gospel among
-1:501 minute, 50 secondswide Circles of the educated one may well say that excellent independently thinking Minds came to
-1:581 minute, 58 secondssuch con convictions because of the powerful impression made by the successes of Science in those times a
-2:062 minutes, 6 secondsshort time before the microscope had shown the synthesis of living beings out of their smallest Parts the cells
-2:132 minutes, 13 secondsgeology the science of the formation of the Earth had come to the point of explaining the development of the planets in terms of the same laws which
-2:222 minutes, 22 secondsstill operate today Darwinism promised to explain the origin of man in a completely natural
-2:302 minutes, 30 secondsway and began its Victorious course through the educated world so auspiciously that for many it seemed to
-2:372 minutes, 37 secondsdispose of all quote unquote old belief a short time ago all this became
-2:442 minutes, 44 secondsquite different it is true that stragglers who adhere to these opinions can still be found in men like ladenburg
-2:512 minutes, 51 secondsat the Congress of scientists in 1903 who proclaim the materialistic gospel but against them stand others who have
+Steiner chapter 1 contemporary civilization in the mirror of the science of the spirit from
+1904 The Observer of the course of scientific development in the last decades cannot doubt that a great
+Revolution is in preparation today when a scientist talks about the so-called enigmas of existence it sounds
+quite different than it did a short time ago around the middle of the 19th century some of the most daring Spirits
+saw in scientific materialism the only Creed possible to one familiar with the then recent results of
+research the blunt saying of that time has become famous quote thoughts stand in about the same relationship to the
+brain as Gaul to the liver unquote this was stated by Carl WT in his K GL Vision
+shaft blind science and excuse me Blind Faith and Science and in other writings
+declared everything to be superannuated which did not make spiritual activity in the life of the Soul proceed from the
+mechanism of the nervous system and of the brain in the same manner in which the physicist explains that the movement
+of the hands proceeds from the mechanism of the clock that was the time when ludvig
+boer's craftuno titled craftuno force and matter became a sort of gospel among
+wide Circles of the educated one may well say that excellent independently thinking Minds came to
+such con convictions because of the powerful impression made by the successes of Science in those times a
+short time before the microscope had shown the synthesis of living beings out of their smallest Parts the cells
+geology the science of the formation of the Earth had come to the point of explaining the development of the planets in terms of the same laws which
+still operate today Darwinism promised to explain the origin of man in a completely natural
+way and began its Victorious course through the educated world so auspiciously that for many it seemed to
+dispose of all quote unquote old belief a short time ago all this became
+quite different it is true that stragglers who adhere to these opinions can still be found in men like ladenburg
+at the Congress of scientists in 1903 who proclaim the materialistic gospel but against them stand others who have
 3:003 minutesarrived at a quite different way of speaking through more mature reflection on scientific questions a work has just appeared which
-3:083 minutes, 8 secondsBears the title science and World conception its
-3:153 minutes, 15 secondsauthor is Max faon a physiologist of the school of Hackle in this work one can read the
-3:243 minutes, 24 secondsfollowing quote indeed even if we possess the most complete knowledge of the physiological events in the cells and fibers of the cerebral cortex with
-3:333 minutes, 33 secondswhich psychic events are connected even if we could look into the mechanism of the brain as we look into the works of a
-3:403 minutes, 40 secondsclock we would never find anything but moving atoms no human being could see or otherwise perceive through his senses
-3:493 minutes, 49 secondshow Sensations and ideas arise in this mechanism the results which the materialistic conception has obtained in
-3:573 minutes, 57 secondsits attempt to trace mental processes back to the movements of atoms illustrates its efficiency very clearly
-4:064 minutes, 6 secondsas long as the materialistic conception has existed it has not explained the simplest sensation by movements of atoms
-4:144 minutes, 14 secondsthus it has been and thus it will be in the future how could it be conceivable that things which are not perceptible by
-4:214 minutes, 21 secondsthe senses such as the psychic processes could ever be explained by a mere splitting up of large bodies into their
-4:284 minutes, 28 secondssmallest parts the atom is still a body after all and no movement of atoms is ever capable of Bridging the gulf
-4:364 minutes, 36 secondsbetween the material world and the psyche however fruitful the materialistic point of view has been as
-4:444 minutes, 44 secondsa scientific working hypothesis however fruitful it will doubtless remain in this sense in the future I point only to the successes of
-4:544 minutes, 54 secondsstructural chemistry just as useless is it as the basis for a world conception here it shows itself to be
-5:025 minutes, 2 secondstoo narrow philosophical materialism has finished playing its historical role this attempt at a scientific world at
-5:105 minutes, 10 secondsconception has failed forever end quote thus at the beginning of the 20th
-5:185 minutes, 18 secondscentury a scientist speaks about the conception which around the middle of the 19th century was proclaimed as a new
-5:265 minutes, 26 secondsgospel demanded by the advances of science it is especially the 50s the 60s and the
-5:345 minutes, 34 seconds70s of the 19th century which may be designated as the years of the high tide of materialism the explanation of mental
-5:435 minutes, 43 secondsand spiritual phenomena on the basis of purely mechanical processes exercised a really fascinating influence at that
-5:525 minutes, 52 secondstime the materialists could tell themselves that they had won a victory over the adherence of a spiritual World
-5:595 minutes, 59 secondscons ception those also who had not started from scientific studies joined
-6:066 minutes, 6 secondstheir ranks while bner fol mshot and others still built on Purely scientific
-6:126 minutes, 12 secondspremises in his title Alton no glavin old and new belief 1872 David friedi Strauss attempted to
-6:216 minutes, 21 secondsobtain bases for the new Creed from his theological and philosophical ideas decades before he had already
-6:306 minutes, 30 secondsintervened in the intellectual life with his title lean Yu life of Jesus in a manner which caused a
-6:396 minutes, 39 secondssensation he seemed to be equipped with the full theological and philosophical culture of his time he now said boldly
-6:466 minutes, 46 secondsthat the materialistic explanation of the phenomena of the universe including man had to form the basis for a new
-6:546 minutes, 54 secondsgospel for a new moral comprehension and formation of existence The Descent of Man from a purely animal
-7:027 minutes, 2 secondsancestors excuse me from purely animal ancestors seemed about to become a new dogma and in the eyes of scientific
-7:107 minutes, 10 secondsphilosophers all adherence to spiritual Soul origin of our race amounted to an Antiquated Superstition from the infancy
-7:197 minutes, 19 secondsof mankind with which one did not have to disturb oneself further the historians of culture came
-7:297 minutes, 29 secondsto the the aid of those who built on the new science the customs and ideas of savage tribes were made the object of
-7:377 minutes, 37 secondsstudy the remains of primitive cultures which are dug out of the ground like the bones of prehistoric animals and the
-7:447 minutes, 44 secondsimpressions of extinct extinct plants were to Bear witness to the fact that at his first appearance on Earth man was
-7:527 minutes, 52 secondsdistinguished only in degree from the higher animals and that mentally and spiritually he had risen to his present
-7:597 minutes, 59 secondsEminence from the level of animalism pure and simple a time had come when everything
-8:078 minutes, 7 secondsin this materialistic edifice seemed to be right under a kind of coercion which the ideas of the time exercised on them
-8:168 minutes, 16 secondsmen thought as a faithful materialist has written quote the assiduous study of science has brought me to the point
-8:248 minutes, 24 secondswhere I accept everything calmly bear the inevitable patiently and for the rest help in the work of gradually
-8:328 minutes, 32 secondsreducing the misery of mankind the Fantastic consolations which a credulous
-8:388 minutes, 38 secondsmind seeks in marvelous formulas I can renounce all the more easily since my imagination receives the most beautiful
-8:468 minutes, 46 secondsstimulation through literature and art when I follow the plot of a great drama or under the guidance of scientists make
-8:558 minutes, 55 secondsa journey to other stars an Excursion through prehistoric Landscapes when I admire the Majesty of nature on mountain
-9:049 minutes, 4 secondspeaks or venerate the art of man in tones and colors do I not then have enough of the
-9:119 minutes, 11 secondselevating do I then still need something which contradicts my reason the fear of death which torments so many of the
-9:199 minutes, 19 secondspious is completely unknown to me I know that I no more survive than my body decays excuse me I know that I no more
-9:289 minutes, 28 secondssurvive after my body decays than I lived before my birth the agonies of purgatory and of
-9:359 minutes, 35 secondshell do not exist for me I return to the boundless realm of nature who Embraces all her children lovingly my life was
-9:439 minutes, 43 secondsnot in vain I have made good use of the strength which I possessed I depart from Earth in The Firm belief that everything
-9:509 minutes, 50 secondswill become better and More Beautiful end quote title from
-10:0710 minutes, 7 secondson the belief in knowledge an instructive course of development described in a manner Faithfully true to
-10:1410 minutes, 14 secondslife by Kuno Fran many people who are still subject to the compulsive ideas which acted upon
-10:2310 minutes, 23 secondsthe representatives of the materialistic World conception in the time mentioned above also so think in this manner
-10:3210 minutes, 32 secondstoday those however who tried to maintain themselves on the heights of scientific thought have come to other
-10:4010 minutes, 40 secondsideas the first reply to Scientific materialism made by an eminent scientist at the Congress of scientists in leig
-10:4910 minutes, 49 seconds1876 has become famous Duong at that time made his quote ignorabimus speech
-10:5610 minutes, 56 secondsunquote he tried to demonstrate that this scientific materialism could in fact do nothing but ascertain the
-11:0411 minutes, 4 secondsmovements of the smallest material particles and he demanded that it should be satisfied with doing
-11:1111 minutes, 11 secondsthis but he emphasized at the same time that in doing this contributes absolutely it contributes absolutely
-11:1911 minutes, 19 secondsnothing to an explanation of mental and spiritual processes one may take whatever attitude one pleases toward these statements of
-11:2811 minutes, 28 secondsdubo ront but this much is clear they represented a rejection of the materialistic interpretation of the
-11:3511 minutes, 35 secondsworld they showed how as a scientist one could lose confidence in this
-11:4211 minutes, 42 secondsinterpretation the materialistic interpretation of the world had thereby entered the stage where it declared
-11:4811 minutes, 48 secondsitself to be unassuming as far as the life of the soul is concerned it admitted its ignorance
-11:5711 minutes, 57 secondsagnosticism it is true that it declared its intention of remaining scientific and of not having recourse to other
-12:0312 minutes, 3 secondssources of knowledge but on the other hand it did not want to ascend with its means to a higher World
-12:1212 minutes, 12 secondsconception in recent times Raul FR a scientist has shown in comprehensive fashion the inadequacy of scientific
-12:2012 minutes, 20 secondsresults for a higher World conception this is an undertaking to which we would like to refer again on
-12:2812 minutes, 28 secondsanother occasion the facts now steadily increased which showed the impossibility of the attempt
-12:3612 minutes, 36 secondsto build up a science of the Soul on the investigation of material phenomena science was forced to study certain
-12:4412 minutes, 44 secondsabnormal phenomena of the life of of the Soul like hypnotism suggestion somnambulism became apparent that in the
-12:5312 minutes, 53 secondsface of these phenomena a materialistic view is completely inadequate or a truly thinking person the facts with which one
-13:0213 minutes, 2 secondsbecame acquainted were not new they were phenomena which had already been studied in earlier times and up to the beginning
-13:0913 minutes, 9 secondsof the 19th century but which in the time of the materialistic flood had simply been put aside as
-13:1913 minutes, 19 secondsinconvenient to this was added something else it became more and more apparent on how weak a basis the scientists had
-13:2713 minutes, 27 secondsbuilt even as far as their their explanations of the origin of animal species and consequently of man were
-13:3413 minutes, 34 secondsconcerned let me read that again it became more and more apparent on how weak a basis the scientists had built
-13:4113 minutes, 41 secondseven as far as their explanations of the origin of animal species and consequently of man were concerned for a
-13:4813 minutes, 48 secondswhile the ideas of quote unquote adaptation and of the quote struggle for existence unquote had exercised an
-13:5513 minutes, 55 secondsattraction in the explanation of the Origin of Species one learned to understand that in following them one
-14:0314 minutes, 3 secondshad followed mirages a school was formed under the leadership of feon which denied that
-14:1114 minutes, 11 secondscharacteristics which an organism had acquired through adaptation to the environment could be transmitted by inheritance and that in this way a
-14:2014 minutes, 20 secondstransformation of organisms could occur one therefore ascribed everything
-14:2714 minutes, 27 secondsto the quote struggle for existence un quot and spoke of an quote omnipotence of natural selection unquote a stark
-14:3414 minutes, 34 secondscontrast to this view was presented by those who relying on unquestionable facts declared that a quote struggle for
-14:4214 minutes, 42 secondsexistence unquote had been spoken of in cases where it did not even exist they wanted to demonstrate that nothing could
-14:5014 minutes, 50 secondsbe explained by it they spoke of an impotence of natural selection moreover in the last years def defreeze was was
-14:5914 minutes, 59 secondsable to show experimentally that changes of one lifetime into another can occur by leaps
-15:0615 minutes, 6 secondsmutation with this what was regarded as a firm Article of Faith by the darwinists namely that animal and plant
-15:1315 minutes, 13 secondsforms change only gradually was shaken more and more the ground on which one had built for decades simply disappeared
-15:2215 minutes, 22 secondsbeneath one's feet even earlier thinking scientists had realized that they had to abandon this ground thus wh rol who died young
-15:3115 minutes, 31 secondsin 1884 declared in his book titled
-15:4015 minutes, 40 secondsbiologa e biological problems with an attempt at the development of rational ethics quote only through the
-15:4715 minutes, 47 secondsintroduction of insatiability does the darwinian principle of the struggle for Life become acceptable because it is
-15:5515 minutes, 55 secondsonly then that we have an explanation for the fact that wherever it can a creature requires more than it needs for maintaining the status quo that it grows
-16:0316 minutes, 3 secondsto excess where the occasion for this is given while for the darwinists there is no struggle for existence wherever the existence of a creature is not
-16:1216 minutes, 12 secondsthreatened for me the struggle is an omnipresent one it is primarily a struggle for Life a struggle for the
-16:1916 minutes, 19 secondsincrease of life not a struggle for existence unquote it is only natural that in view
-16:2716 minutes, 27 secondsof these facts that the judicious confess to themselves quote the materialistic Universe of thought is not
-16:3416 minutes, 34 secondsfit for the construction of a world conception if we base ourselves on it we cannot say anything about mental and spiritual phenomena
-16:4316 minutes, 43 secondsunquote today there are already numerous scientists who seek to erect a structure of the world for themselves based on
-16:5116 minutes, 51 secondsquite different ideas one need only recall the work of the botanist Rik Rea
-16:5816 minutes, 58 secondsquote a title devel Alat the world as deed however it becomes apparent that such scientists have not been trained
-17:0617 minutes, 6 secondswith impunity amidst purely materialistic ideas what they utter from their new idealistic standpoint is
-17:1317 minutes, 13 secondsinadequate can satisfy them for a while but not those who look more deeply into the enigmas of the world such scientists
-17:2217 minutes, 22 secondscannot bring themselves to approach those methods which proceed from a real contemplation of the mind and the soul
-17:3117 minutes, 31 secondsthey have the greatest fear of mysticism of nosis or theosophy this appears clearly for example in the work of faor
-17:3817 minutes, 38 secondsquoted above he says quote there is a ferment in science things which seemed clear and transparent to everybody have
-17:4517 minutes, 45 secondsbecome cloudy today long tested symbols and ideas with with which everyone dealt and worked at every step without
-17:5317 minutes, 53 secondshesitation a short time ago have begun to totter and are looked upon with suspicion fundamental concepts such as those of
-18:0118 minutes, 1 secondmatter appear to have been shaken and the firmest ground is beginning to sway under the scientists
-18:0818 minutes, 8 secondssteps certain problems alone stand with rock-like firmness problems on which until now all attempts all efforts of
-18:1518 minutes, 15 secondsscience have been shattered in the face of this knowledge one who is despondent resignedly throws himself into the arms
-18:2418 minutes, 24 secondsof mysticism which has always been the last Refuge when the tormented intellect could see no way out a sensible man
-18:3118 minutes, 31 secondslooks for new symbols and attempts to create new bases on which he can build further
-18:3818 minutes, 38 secondsunquote one can see that because of his habits of conceptualization the scientific thinker of today is not in a position to think
-18:4718 minutes, 47 secondsof mysticism otherwise than as implying intellectual confusion and vagueness what concepts of the life of
-18:5518 minutes, 55 secondsthe Soul does such a thinker not reach at the end of the work referred to above we read quote prehistoric man formed the
-19:0519 minutes, 5 secondsidea of a separation of body and soul in face of death the soul separated itself from the body and led an independent
-19:1319 minutes, 13 secondsexistence it found no rest and returned as a ghost unless it was banned by SE sepulcral ceremonies man was terrorized
-19:2219 minutes, 22 secondsby fear and Superstition the remains of these ideas have come down to our time the fear of death that is of what is to
-19:3019 minutes, 30 secondscome after is widespread today how differently does all this appear from the standpoint of psycho monism since
-19:3719 minutes, 37 secondsthe psychic experiences of the individual only take place when certain regular connections exist they cease when these connections are in any way
-19:4519 minutes, 45 secondsDisturbed as happens numberless times in the course of a day with the bodily changes at death these connections stop
-19:5319 minutes, 53 secondsentirely thus no sensation and conception no thought and no feeling of the individual can remain the individual
-20:0320 minutes, 3 secondssoul is dead nevertheless the sensations and thoughts and feelings continue to live they live beyond the transitory
-20:1020 minutes, 10 secondsindividual in other individuals wherever the same complexes of conditions exist they are transmitted from Individual to
-20:1820 minutes, 18 secondsindividual from generation to generation from people to people they weave at the Eternal Loom of the Soul they work at
-20:2620 minutes, 26 secondsthe history of the human spirit thus we all survive after death as links in the great interconnected chain of
-20:3420 minutes, 34 secondsSpiritual Development end quote but is that something different
-20:4220 minutes, 42 secondsfrom the survival of the wave in others which it has caused itself meanwhile
-20:4920 minutes, 49 secondsdisappearing let me read that again but is that something different from the survival of the wave in others which it
-20:5620 minutes, 56 secondshas caused itself meanwhile disappearing does one really survive
-21:0421 minutes, 4 secondswhen one continues to exist only in one's effects does one not have such a survival in common with all phenomena
-21:1121 minutes, 11 secondseven those of physical nature one can see that the materialistic World conception had to undermine its own
-21:2021 minutes, 20 secondsfoundations as yet it cannot lay new ones only a true understanding of mysticism theosophy and nosis will
-21:2821 minutes, 28 secondsenable it to do so the chemist ustal spoke several years ago at the Congress of scientists at lbeck of the
-21:3821 minutes, 38 secondsquote overcoming of materialism unquote and for this purpose founded a new periodical dealing with the philosophy of nature science is ready to receive
-21:4721 minutes, 47 secondsthe fruits of a higher World conception all resistance will Avail at nothing it will have to take into account the needs
-21:5521 minutes, 55 secondsof the longing human soul the end of chapter
-22:0422 minutes, 4 seconds1 this is a reading of the book Cosmic memory chapter 2 is entitled from the Akasha Chronicle it is a
-22:1522 minutes, 15 secondspreface by means of ordinary history man can learn only a small part of what Humanity experienced in
-22:2322 minutes, 23 secondsprehistory historical documents shed light on but a few millennial what Archaeology paleontology and
-22:3222 minutes, 32 secondsgeology can teach us is very limited furthermore everything built on external evidence is
-22:4022 minutes, 40 secondsunreliable one need only consider how the picture of an event or people not so very remote from us as changed when new
-22:4922 minutes, 49 secondshistorical evidence has been discovered one need but compare the descriptions of one and the same thing as given by
-22:5722 minutes, 57 secondsdifferent historians and he will soon realize on what uncertain ground he stands in these matters everything
-23:0423 minutes, 4 secondsbelonging to the external world of the senses is subject to time in addition time destroys what has originated in
-23:1423 minutes, 14 secondstime on the other hand external history is dependent on what has been preserved in time nobody can say that the
-23:2223 minutes, 22 secondsessential has been preserved if he remains content with external evidence everything which comes into being in
-23:3123 minutes, 31 secondstime has its origin in the Eternal but the Eternal is not accessible to sensory perception nevertheless the ways to the
-23:4023 minutes, 40 secondsperception of the Eternal are open for man he can develop forces dormant in him
-23:4723 minutes, 47 secondsso that he can recognize the Eternal in the essays
-23:5423 minutes, 54 secondstitled title how does one attain knowledge of higher worlds which appear in this periodical footnote these essays were published in book form
-24:0324 minutes, 3 secondsBerlin 1909 this development is referred to these present essays will also show that
-24:1024 minutes, 10 secondsat a certain high level of his cognitive power man can penetrate to the Eternal origins of the things which vanish with
-24:1924 minutes, 19 secondstime a man broadens his power of cognition in this way if he is no longer limited to external evidence where
-24:2724 minutes, 27 secondsknowledge of the past is concerned then he can see in events what
-24:3424 minutes, 34 secondsis not perceptible to the senses that part which time cannot destroy he penetrates from transitory to
-24:4224 minutes, 42 secondsnon-transitory history it is a fact that this history is written in other characters than is
-24:4924 minutes, 49 secondsordinary history in nosis and in theosophy it is called the Akasha
-24:5624 minutes, 56 secondsChronicle only a f conception of this Chronicle can be given in our language for our language corresponds to the
-25:0425 minutes, 4 secondsworld of the senses that which is described by our language at once receives the character
-25:1125 minutes, 11 secondsof this sense world to the uninitiated who cannot yet convince himself of the reality of a separate spiritual world
-25:2025 minutes, 20 secondsthrough his own experience the initiate easily appears to be a Visionary if not
-25:2625 minutes, 26 secondssomething worse the one who has acquired the ability to perceive in the spiritual world comes to
-25:3425 minutes, 34 secondsknow past events in their Eternal character they do not stand before him like the dead testimony of history but
-25:4325 minutes, 43 secondsappear in full life in a certain sense what has happened takes place before
-25:5125 minutes, 51 secondshim those initiated into the reading of such a living script can look back into a much more remote past than is
+Bears the title science and World conception its
+author is Max faon a physiologist of the school of Hackle in this work one can read the
+following quote indeed even if we possess the most complete knowledge of the physiological events in the cells and fibers of the cerebral cortex with
+which psychic events are connected even if we could look into the mechanism of the brain as we look into the works of a
+clock we would never find anything but moving atoms no human being could see or otherwise perceive through his senses
+how Sensations and ideas arise in this mechanism the results which the materialistic conception has obtained in
+its attempt to trace mental processes back to the movements of atoms illustrates its efficiency very clearly
+as long as the materialistic conception has existed it has not explained the simplest sensation by movements of atoms
+thus it has been and thus it will be in the future how could it be conceivable that things which are not perceptible by
+the senses such as the psychic processes could ever be explained by a mere splitting up of large bodies into their
+smallest parts the atom is still a body after all and no movement of atoms is ever capable of Bridging the gulf
+between the material world and the psyche however fruitful the materialistic point of view has been as
+a scientific working hypothesis however fruitful it will doubtless remain in this sense in the future I point only to the successes of
+structural chemistry just as useless is it as the basis for a world conception here it shows itself to be
+too narrow philosophical materialism has finished playing its historical role this attempt at a scientific world at
+conception has failed forever end quote thus at the beginning of the 20th
+century a scientist speaks about the conception which around the middle of the 19th century was proclaimed as a new
+gospel demanded by the advances of science it is especially the 50s the 60s and the
+70s of the 19th century which may be designated as the years of the high tide of materialism the explanation of mental
+and spiritual phenomena on the basis of purely mechanical processes exercised a really fascinating influence at that
+time the materialists could tell themselves that they had won a victory over the adherence of a spiritual World
+cons ception those also who had not started from scientific studies joined
+their ranks while bner fol mshot and others still built on Purely scientific
+premises in his title Alton no glavin old and new belief 1872 David friedi Strauss attempted to
+obtain bases for the new Creed from his theological and philosophical ideas decades before he had already
+intervened in the intellectual life with his title lean Yu life of Jesus in a manner which caused a
+sensation he seemed to be equipped with the full theological and philosophical culture of his time he now said boldly
+that the materialistic explanation of the phenomena of the universe including man had to form the basis for a new
+gospel for a new moral comprehension and formation of existence The Descent of Man from a purely animal
+ancestors excuse me from purely animal ancestors seemed about to become a new dogma and in the eyes of scientific
+philosophers all adherence to spiritual Soul origin of our race amounted to an Antiquated Superstition from the infancy
+of mankind with which one did not have to disturb oneself further the historians of culture came
+to the the aid of those who built on the new science the customs and ideas of savage tribes were made the object of
+study the remains of primitive cultures which are dug out of the ground like the bones of prehistoric animals and the
+impressions of extinct extinct plants were to Bear witness to the fact that at his first appearance on Earth man was
+distinguished only in degree from the higher animals and that mentally and spiritually he had risen to his present
+Eminence from the level of animalism pure and simple a time had come when everything
+in this materialistic edifice seemed to be right under a kind of coercion which the ideas of the time exercised on them
+men thought as a faithful materialist has written quote the assiduous study of science has brought me to the point
+where I accept everything calmly bear the inevitable patiently and for the rest help in the work of gradually
+reducing the misery of mankind the Fantastic consolations which a credulous
+mind seeks in marvelous formulas I can renounce all the more easily since my imagination receives the most beautiful
+stimulation through literature and art when I follow the plot of a great drama or under the guidance of scientists make
+a journey to other stars an Excursion through prehistoric Landscapes when I admire the Majesty of nature on mountain
+peaks or venerate the art of man in tones and colors do I not then have enough of the
+elevating do I then still need something which contradicts my reason the fear of death which torments so many of the
+pious is completely unknown to me I know that I no more survive than my body decays excuse me I know that I no more
+survive after my body decays than I lived before my birth the agonies of purgatory and of
+hell do not exist for me I return to the boundless realm of nature who Embraces all her children lovingly my life was
+not in vain I have made good use of the strength which I possessed I depart from Earth in The Firm belief that everything
+will become better and More Beautiful end quote title from
+on the belief in knowledge an instructive course of development described in a manner Faithfully true to
+life by Kuno Fran many people who are still subject to the compulsive ideas which acted upon
+the representatives of the materialistic World conception in the time mentioned above also so think in this manner
+today those however who tried to maintain themselves on the heights of scientific thought have come to other
+ideas the first reply to Scientific materialism made by an eminent scientist at the Congress of scientists in leig
+1876 has become famous Duong at that time made his quote ignorabimus speech
+unquote he tried to demonstrate that this scientific materialism could in fact do nothing but ascertain the
+movements of the smallest material particles and he demanded that it should be satisfied with doing
+this but he emphasized at the same time that in doing this contributes absolutely it contributes absolutely
+nothing to an explanation of mental and spiritual processes one may take whatever attitude one pleases toward these statements of
+dubo ront but this much is clear they represented a rejection of the materialistic interpretation of the
+world they showed how as a scientist one could lose confidence in this
+interpretation the materialistic interpretation of the world had thereby entered the stage where it declared
+itself to be unassuming as far as the life of the soul is concerned it admitted its ignorance
+agnosticism it is true that it declared its intention of remaining scientific and of not having recourse to other
+sources of knowledge but on the other hand it did not want to ascend with its means to a higher World
+conception in recent times Raul FR a scientist has shown in comprehensive fashion the inadequacy of scientific
+results for a higher World conception this is an undertaking to which we would like to refer again on
+another occasion the facts now steadily increased which showed the impossibility of the attempt
+to build up a science of the Soul on the investigation of material phenomena science was forced to study certain
+abnormal phenomena of the life of of the Soul like hypnotism suggestion somnambulism became apparent that in the
+face of these phenomena a materialistic view is completely inadequate or a truly thinking person the facts with which one
+became acquainted were not new they were phenomena which had already been studied in earlier times and up to the beginning
+of the 19th century but which in the time of the materialistic flood had simply been put aside as
+inconvenient to this was added something else it became more and more apparent on how weak a basis the scientists had
+built even as far as their their explanations of the origin of animal species and consequently of man were
+concerned let me read that again it became more and more apparent on how weak a basis the scientists had built
+even as far as their explanations of the origin of animal species and consequently of man were concerned for a
+while the ideas of quote unquote adaptation and of the quote struggle for existence unquote had exercised an
+attraction in the explanation of the Origin of Species one learned to understand that in following them one
+had followed mirages a school was formed under the leadership of feon which denied that
+characteristics which an organism had acquired through adaptation to the environment could be transmitted by inheritance and that in this way a
+transformation of organisms could occur one therefore ascribed everything
+to the quote struggle for existence un quot and spoke of an quote omnipotence of natural selection unquote a stark
+contrast to this view was presented by those who relying on unquestionable facts declared that a quote struggle for
+existence unquote had been spoken of in cases where it did not even exist they wanted to demonstrate that nothing could
+be explained by it they spoke of an impotence of natural selection moreover in the last years def defreeze was was
+able to show experimentally that changes of one lifetime into another can occur by leaps
+mutation with this what was regarded as a firm Article of Faith by the darwinists namely that animal and plant
+forms change only gradually was shaken more and more the ground on which one had built for decades simply disappeared
+beneath one's feet even earlier thinking scientists had realized that they had to abandon this ground thus wh rol who died young
+in 1884 declared in his book titled
+biologa e biological problems with an attempt at the development of rational ethics quote only through the
+introduction of insatiability does the darwinian principle of the struggle for Life become acceptable because it is
+only then that we have an explanation for the fact that wherever it can a creature requires more than it needs for maintaining the status quo that it grows
+to excess where the occasion for this is given while for the darwinists there is no struggle for existence wherever the existence of a creature is not
+threatened for me the struggle is an omnipresent one it is primarily a struggle for Life a struggle for the
+increase of life not a struggle for existence unquote it is only natural that in view
+of these facts that the judicious confess to themselves quote the materialistic Universe of thought is not
+fit for the construction of a world conception if we base ourselves on it we cannot say anything about mental and spiritual phenomena
+unquote today there are already numerous scientists who seek to erect a structure of the world for themselves based on
+quite different ideas one need only recall the work of the botanist Rik Rea
+quote a title devel Alat the world as deed however it becomes apparent that such scientists have not been trained
+with impunity amidst purely materialistic ideas what they utter from their new idealistic standpoint is
+inadequate can satisfy them for a while but not those who look more deeply into the enigmas of the world such scientists
+cannot bring themselves to approach those methods which proceed from a real contemplation of the mind and the soul
+they have the greatest fear of mysticism of nosis or theosophy this appears clearly for example in the work of faor
+quoted above he says quote there is a ferment in science things which seemed clear and transparent to everybody have
+become cloudy today long tested symbols and ideas with with which everyone dealt and worked at every step without
+hesitation a short time ago have begun to totter and are looked upon with suspicion fundamental concepts such as those of
+matter appear to have been shaken and the firmest ground is beginning to sway under the scientists
+steps certain problems alone stand with rock-like firmness problems on which until now all attempts all efforts of
+science have been shattered in the face of this knowledge one who is despondent resignedly throws himself into the arms
+of mysticism which has always been the last Refuge when the tormented intellect could see no way out a sensible man
+looks for new symbols and attempts to create new bases on which he can build further
+unquote one can see that because of his habits of conceptualization the scientific thinker of today is not in a position to think
+of mysticism otherwise than as implying intellectual confusion and vagueness what concepts of the life of
+the Soul does such a thinker not reach at the end of the work referred to above we read quote prehistoric man formed the
+idea of a separation of body and soul in face of death the soul separated itself from the body and led an independent
+existence it found no rest and returned as a ghost unless it was banned by SE sepulcral ceremonies man was terrorized
+by fear and Superstition the remains of these ideas have come down to our time the fear of death that is of what is to
+come after is widespread today how differently does all this appear from the standpoint of psycho monism since
+the psychic experiences of the individual only take place when certain regular connections exist they cease when these connections are in any way
+Disturbed as happens numberless times in the course of a day with the bodily changes at death these connections stop
+entirely thus no sensation and conception no thought and no feeling of the individual can remain the individual
+soul is dead nevertheless the sensations and thoughts and feelings continue to live they live beyond the transitory
+individual in other individuals wherever the same complexes of conditions exist they are transmitted from Individual to
+individual from generation to generation from people to people they weave at the Eternal Loom of the Soul they work at
+the history of the human spirit thus we all survive after death as links in the great interconnected chain of
+Spiritual Development end quote but is that something different
+from the survival of the wave in others which it has caused itself meanwhile
+disappearing let me read that again but is that something different from the survival of the wave in others which it
+has caused itself meanwhile disappearing does one really survive
+when one continues to exist only in one's effects does one not have such a survival in common with all phenomena
+even those of physical nature one can see that the materialistic World conception had to undermine its own
+foundations as yet it cannot lay new ones only a true understanding of mysticism theosophy and nosis will
+enable it to do so the chemist ustal spoke several years ago at the Congress of scientists at lbeck of the
+quote overcoming of materialism unquote and for this purpose founded a new periodical dealing with the philosophy of nature science is ready to receive
+the fruits of a higher World conception all resistance will Avail at nothing it will have to take into account the needs
+of the longing human soul the end of chapter
+1 this is a reading of the book Cosmic memory chapter 2 is entitled from the Akasha Chronicle it is a
+preface by means of ordinary history man can learn only a small part of what Humanity experienced in
+prehistory historical documents shed light on but a few millennial what Archaeology paleontology and
+geology can teach us is very limited furthermore everything built on external evidence is
+unreliable one need only consider how the picture of an event or people not so very remote from us as changed when new
+historical evidence has been discovered one need but compare the descriptions of one and the same thing as given by
+different historians and he will soon realize on what uncertain ground he stands in these matters everything
+belonging to the external world of the senses is subject to time in addition time destroys what has originated in
+time on the other hand external history is dependent on what has been preserved in time nobody can say that the
+essential has been preserved if he remains content with external evidence everything which comes into being in
+time has its origin in the Eternal but the Eternal is not accessible to sensory perception nevertheless the ways to the
+perception of the Eternal are open for man he can develop forces dormant in him
+so that he can recognize the Eternal in the essays
+titled title how does one attain knowledge of higher worlds which appear in this periodical footnote these essays were published in book form
+Berlin 1909 this development is referred to these present essays will also show that
+at a certain high level of his cognitive power man can penetrate to the Eternal origins of the things which vanish with
+time a man broadens his power of cognition in this way if he is no longer limited to external evidence where
+knowledge of the past is concerned then he can see in events what
+is not perceptible to the senses that part which time cannot destroy he penetrates from transitory to
+non-transitory history it is a fact that this history is written in other characters than is
+ordinary history in nosis and in theosophy it is called the Akasha
+Chronicle only a f conception of this Chronicle can be given in our language for our language corresponds to the
+world of the senses that which is described by our language at once receives the character
+of this sense world to the uninitiated who cannot yet convince himself of the reality of a separate spiritual world
+through his own experience the initiate easily appears to be a Visionary if not
+something worse the one who has acquired the ability to perceive in the spiritual world comes to
+know past events in their Eternal character they do not stand before him like the dead testimony of history but
+appear in full life in a certain sense what has happened takes place before
+him those initiated into the reading of such a living script can look back into a much more remote past than is
 26:0026 minutesrepresented by external history and on the basis of direct spiritual perception they can also describe much more
-26:0826 minutes, 8 secondsdependably the things of which history tells in order to avoid possible misund understanding it should be said that
-26:1626 minutes, 16 secondsspiritual perception is not infallible this perception also can ER can see in
-26:2226 minutes, 22 secondsan inexact oblique wrong manner no man is free from error in this field no matter how high he stands therefore one
-26:3226 minutes, 32 secondsshould not object when Communications emanating from such spiritual sources do not always entirely
-26:4026 minutes, 40 secondscorrespond but the dependability of observation is much greater here than in the external world of the senses what
-26:4826 minutes, 48 secondsvarious initiates can relate about history and prehistory will be in essential agreement such a history and prehistory
-26:5626 minutes, 56 secondsdoes in fact exist in all mystery schools here for Millennia the agreement has been so complete that the Conformity
-27:0527 minutes, 5 secondsexisting among external historians of even a single Century cannot be compared with it the initiates describe essentially
-27:1427 minutes, 14 secondsthe same things at all times and in all places following this introduction
-27:2227 minutes, 22 secondsseveral chapters from the Akasha Chronicle will be given first those events will be described which took
-27:2927 minutes, 29 secondsplace when the so-called atlantian continent still existed between America and
-27:3627 minutes, 36 secondsEurope this part of our Earth's surface was once land today this forms the floor
-27:4327 minutes, 43 secondsof the Atlantic Ocean Plato tells of The Last Remnant of this land at the island posidon which lay Westward of Europe and
-27:5127 minutes, 51 secondsAfrica entitled The Story of Atlantis and lost Lura by W Scott Elliot the reader conf find that the floor of the
-27:5927 minutes, 59 secondsAtlantic Ocean was once a continent that for about a million years it was the scene of a civilization which to be sure
-28:0728 minutes, 7 secondswas quite different from our modern ones and the fact that the last remnants of this continent sank in the 10th millennium
-28:1628 minutes, 16 secondsBC in this present book the intention is to give information which will supplement what is said by Scott
-28:2328 minutes, 23 secondsElliot while he describes more the outer the external events on among our Atlantean ancestors the aim here is to
-28:3228 minutes, 32 secondsrecord some details concerning their spiritual character and the inner nature of the conditions under which they
-28:3928 minutes, 39 secondslived therefore the reader must go back in imagination to a period which lies almost 10,000 years behind us and which
-28:4828 minutes, 48 secondslasted for many Millennia what is described here however did not take place only on the continent now covered By the Waters of the
-28:5628 minutes, 56 secondsAtlantic Ocean but also so in the neighboring regions of what today is Asia Africa Europe and America what took
-29:0429 minutes, 4 secondsplace in these regions later developed from this earlier civilization today I am still obliged to
-29:1429 minutes, 14 secondsremain silent about the sources of the information given here one who knows anything at all about such sources will
-29:2129 minutes, 21 secondsunderstand why this has to be so but events can occur which will make a Breaking of this silence possible very
-29:2729 minutes, 27 secondssoon soon how much of the knowledge hidden within the theosophical movement May gradually be communicated depends
-29:3529 minutes, 35 secondsentirely on the attitude of our contemporaries now follows the first of the writings which can be given
-29:4229 minutes, 42 secondshere that is the end of chapter 2 this is a reading of the book by Rudolph Steiner Cosmic memory this is
-29:5129 minutes, 51 secondschapter 3 our Atlantean ancestors our atlan ancestors differed
-29:5929 minutes, 59 secondsmore from present day man than he would imagine whose knowledge is confined wholly to the world of the
-30:0630 minutes, 6 secondssenses this difference extended not only to the external appearance but also to spiritual faculties their knowledge their
-30:1530 minutes, 15 secondstechnical Arts indeed their entire civilization differed from what can be observed today if we go back to the first periods
-30:2330 minutes, 23 secondsof Atlantean Humanity we find a mental capacity quite different from ours logical reason the power of arithmetical
-30:3230 minutes, 32 secondscombining on which everything rests that is produced today were totally absent among the first
-30:3930 minutes, 39 secondsatlanteans on the other hand they had a highly developed memory this memory was one of their most prominent mental
-30:4830 minutes, 48 secondsfaculties for example the Atlantean did not calculate as we do by learning certain rules which he then applied a
-30:5530 minutes, 55 secondsquote unquote multiplication table was something totally unknown in Atlantean times nobody impressed upon his
-31:0331 minutes, 3 secondsintellect a 3 * 4 is 12 in the event that he had to perform such a calculation he could manage because he
-31:1031 minutes, 10 secondsremembered identical or similar situations he remembered how it had been on previous
-31:1731 minutes, 17 secondsoccasions one need only realize that each time a new faculty develops in an organism an old faculty loses power and
-31:2731 minutes, 27 secondsacuteness the man of today is superior to the Atlantean in logical reasoning in the ability to
-31:3531 minutes, 35 secondscombine on the other hand memory has deteriorated nowadays man thinks in
-31:4131 minutes, 41 secondsConcepts the Atlantean thought in images when an image appeared in his soul he remembered a great many similar
-31:5031 minutes, 50 secondsimages which he had already experienced he directed his judgment accordingly for this reason
-31:5831 minutes, 58 secondsall teaching at that time was different from what it became later it was not calculated to further the child with
-32:0532 minutes, 5 secondsrules to sharpen his reason instead life was presented to him in Vivid images so that later he could
-32:1332 minutes, 13 secondsremember as much as possible when he had to act under particular conditions when the child had grown and had gone out
-32:2032 minutes, 20 secondsinto life for everything he had to do he could remember something similar which had been presented to him in the course of his
-32:2832 minutes, 28 secondseducation he could manage best when the new situation was similar to one he had already
-32:3532 minutes, 35 secondsseen under totally new conditions the atlantian had to rely on experiment while in this respect much has been
-32:4332 minutes, 43 secondsspared Modern Man due to the fact that he is equipped with rules he can easily apply these in those situations which
-32:5032 minutes, 50 secondsare new to him the Atlantean system of Education gave a uniformity to all of life for
-32:5932 minutes, 59 secondslong periods things were done again and again in the same way the faithful memory did not allow anything to develop
-33:0733 minutes, 7 secondswhich was even remotely similar to the rapidity of our present day progress one
-33:1333 minutes, 13 secondsdid what one had always seen before one did not invent one
-33:2133 minutes, 21 secondsremembered he was not an authority who had learned much but rather he who had experienced much and therefore could
-33:2833 minutes, 28 secondsremember much in the Atlantean period it would have been impossible for someone to decide an important matter before
-33:3633 minutes, 36 secondsreaching a certain age one had confidence only in a person who could look back upon long
-33:4533 minutes, 45 secondsexperience what has been said here was not true of the initiates and their schools for they are in advance of the
-33:5333 minutes, 53 secondsstage of development of their period for admission into such schools the decisive
+dependably the things of which history tells in order to avoid possible misund understanding it should be said that
+spiritual perception is not infallible this perception also can ER can see in
+an inexact oblique wrong manner no man is free from error in this field no matter how high he stands therefore one
+should not object when Communications emanating from such spiritual sources do not always entirely
+correspond but the dependability of observation is much greater here than in the external world of the senses what
+various initiates can relate about history and prehistory will be in essential agreement such a history and prehistory
+does in fact exist in all mystery schools here for Millennia the agreement has been so complete that the Conformity
+existing among external historians of even a single Century cannot be compared with it the initiates describe essentially
+the same things at all times and in all places following this introduction
+several chapters from the Akasha Chronicle will be given first those events will be described which took
+place when the so-called atlantian continent still existed between America and
+Europe this part of our Earth's surface was once land today this forms the floor
+of the Atlantic Ocean Plato tells of The Last Remnant of this land at the island posidon which lay Westward of Europe and
+Africa entitled The Story of Atlantis and lost Lura by W Scott Elliot the reader conf find that the floor of the
+Atlantic Ocean was once a continent that for about a million years it was the scene of a civilization which to be sure
+was quite different from our modern ones and the fact that the last remnants of this continent sank in the 10th millennium
+BC in this present book the intention is to give information which will supplement what is said by Scott
+Elliot while he describes more the outer the external events on among our Atlantean ancestors the aim here is to
+record some details concerning their spiritual character and the inner nature of the conditions under which they
+lived therefore the reader must go back in imagination to a period which lies almost 10,000 years behind us and which
+lasted for many Millennia what is described here however did not take place only on the continent now covered By the Waters of the
+Atlantic Ocean but also so in the neighboring regions of what today is Asia Africa Europe and America what took
+place in these regions later developed from this earlier civilization today I am still obliged to
+remain silent about the sources of the information given here one who knows anything at all about such sources will
+understand why this has to be so but events can occur which will make a Breaking of this silence possible very
+soon soon how much of the knowledge hidden within the theosophical movement May gradually be communicated depends
+entirely on the attitude of our contemporaries now follows the first of the writings which can be given
+here that is the end of chapter 2 this is a reading of the book by Rudolph Steiner Cosmic memory this is
+chapter 3 our Atlantean ancestors our atlan ancestors differed
+more from present day man than he would imagine whose knowledge is confined wholly to the world of the
+senses this difference extended not only to the external appearance but also to spiritual faculties their knowledge their
+technical Arts indeed their entire civilization differed from what can be observed today if we go back to the first periods
+of Atlantean Humanity we find a mental capacity quite different from ours logical reason the power of arithmetical
+combining on which everything rests that is produced today were totally absent among the first
+atlanteans on the other hand they had a highly developed memory this memory was one of their most prominent mental
+faculties for example the Atlantean did not calculate as we do by learning certain rules which he then applied a
+quote unquote multiplication table was something totally unknown in Atlantean times nobody impressed upon his
+intellect a 3 * 4 is 12 in the event that he had to perform such a calculation he could manage because he
+remembered identical or similar situations he remembered how it had been on previous
+occasions one need only realize that each time a new faculty develops in an organism an old faculty loses power and
+acuteness the man of today is superior to the Atlantean in logical reasoning in the ability to
+combine on the other hand memory has deteriorated nowadays man thinks in
+Concepts the Atlantean thought in images when an image appeared in his soul he remembered a great many similar
+images which he had already experienced he directed his judgment accordingly for this reason
+all teaching at that time was different from what it became later it was not calculated to further the child with
+rules to sharpen his reason instead life was presented to him in Vivid images so that later he could
+remember as much as possible when he had to act under particular conditions when the child had grown and had gone out
+into life for everything he had to do he could remember something similar which had been presented to him in the course of his
+education he could manage best when the new situation was similar to one he had already
+seen under totally new conditions the atlantian had to rely on experiment while in this respect much has been
+spared Modern Man due to the fact that he is equipped with rules he can easily apply these in those situations which
+are new to him the Atlantean system of Education gave a uniformity to all of life for
+long periods things were done again and again in the same way the faithful memory did not allow anything to develop
+which was even remotely similar to the rapidity of our present day progress one
+did what one had always seen before one did not invent one
+remembered he was not an authority who had learned much but rather he who had experienced much and therefore could
+remember much in the Atlantean period it would have been impossible for someone to decide an important matter before
+reaching a certain age one had confidence only in a person who could look back upon long
+experience what has been said here was not true of the initiates and their schools for they are in advance of the
+stage of development of their period for admission into such schools the decisive
 34:0034 minutesfactor is not age but whether in this in his previous incarnations the applicant has acquired the faculties for receiving
-34:0934 minutes, 9 secondshigher wisdom the confidence placed in the initiates and their representatives during the Atlantean period was not
-34:1834 minutes, 18 secondsbased on the richness of their personal experience but rather on the Antiquity of their
-34:2534 minutes, 25 secondswisdom in the case of the initiate personality ceases to have any importance he is totally in the service
-34:3234 minutes, 32 secondsof Eternal wisdom therefore the characteristic features of a particular period do not apply to
-34:4134 minutes, 41 secondshim while the power to think logically was absent among the atlantans especially the earlier ones in their
-34:4934 minutes, 49 secondshighly developed memory they possessed something which gave a special character to everything they did but with the nature of one human
-34:5834 minutes, 58 secondspower others are always connected memory is closer to the deeper natural basis of
-35:0535 minutes, 5 secondsman than reason and in connection with it other powers were developed which were still closer to those of
-35:1235 minutes, 12 secondssubordinate natural beings than our contemporary human powers thus the atlanteans could control
-35:2035 minutes, 20 secondswhat one calls the life force as today one extracts the energy of heat from coal and transforms it into
-35:2835 minutes, 28 secondsMotive Power for our means of locomotion the atlanteans knew how to put the germinal energy of organisms
-35:3635 minutes, 36 secondsinto the service of their technology one can form an idea of this from the following think of a kernel of
-35:4235 minutes, 42 secondsseed grain in this an energy lies dormant this energy causes the stock to
-35:4935 minutes, 49 secondssprout from the kernel nature can awaken this energy which reposes in the seed modern man cannot do it at will
-35:5835 minutes, 58 secondshe must bury the seed in the ground and leave the Awakening to the forces of nature the Atlantean could do something
+higher wisdom the confidence placed in the initiates and their representatives during the Atlantean period was not
+based on the richness of their personal experience but rather on the Antiquity of their
+wisdom in the case of the initiate personality ceases to have any importance he is totally in the service
+of Eternal wisdom therefore the characteristic features of a particular period do not apply to
+him while the power to think logically was absent among the atlantans especially the earlier ones in their
+highly developed memory they possessed something which gave a special character to everything they did but with the nature of one human
+power others are always connected memory is closer to the deeper natural basis of
+man than reason and in connection with it other powers were developed which were still closer to those of
+subordinate natural beings than our contemporary human powers thus the atlanteans could control
+what one calls the life force as today one extracts the energy of heat from coal and transforms it into
+Motive Power for our means of locomotion the atlanteans knew how to put the germinal energy of organisms
+into the service of their technology one can form an idea of this from the following think of a kernel of
+seed grain in this an energy lies dormant this energy causes the stock to
+sprout from the kernel nature can awaken this energy which reposes in the seed modern man cannot do it at will
+he must bury the seed in the ground and leave the Awakening to the forces of nature the Atlantean could do something
 minutes, 6 secondselse he knew how one can change the energy of a pile of grain into technical power just as modern man can change the
-36:1336 minutes, 13 secondsheat energy of a pile of coal into such power plants were cultivated in the Atlantean period not merely for use as
-36:2236 minutes, 22 secondsfood stuffs but also in order to make the energies dormant in them available to Commerce and
-36:2936 minutes, 29 secondsIndustry just as we have mechanisms for transforming the energy dormant in Coal into energy of motion in our locomotives
-36:3836 minutes, 38 secondsso the atlantans had mechanisms in which they so to speak burned plant seeds and in which the life force was transformed
-36:4636 minutes, 46 secondsinto technically utilizable power the vehicles of the atlantans which floated a short distance above the ground were
-36:5436 minutes, 54 secondsmoved in this way these vehicles traveled at a height lower than that of the mountain ranges of the Atlantean period and they had steering mechanisms
-37:0337 minutes, 3 secondsby the aid of which they could rise above these mountain ranges one must imagine that with the
-37:1037 minutes, 10 secondspassage of time all conditions on our Earth have changed very much today the above mentioned vehicles of the
-37:1737 minutes, 17 secondsatlantans would be totally useless their usefulness depended on the fact that then the cover of air which envelops the
-37:2537 minutes, 25 secondsEarth was much denser than at present whether in face of current scientific beliefs one can easily imagine such
-37:3537 minutes, 35 secondsgreater density of air must not occupy us here because of their very nature science and logical thinking can never
-37:4337 minutes, 43 secondsdecide what is possible or impossible their only function is to explain what has been ascertained by experience and
-37:5137 minutes, 51 secondsobservation the above mentioned density of air is as certain for occult experience as any fact of today given by the senses
+heat energy of a pile of coal into such power plants were cultivated in the Atlantean period not merely for use as
+food stuffs but also in order to make the energies dormant in them available to Commerce and
+Industry just as we have mechanisms for transforming the energy dormant in Coal into energy of motion in our locomotives
+so the atlantans had mechanisms in which they so to speak burned plant seeds and in which the life force was transformed
+into technically utilizable power the vehicles of the atlantans which floated a short distance above the ground were
+moved in this way these vehicles traveled at a height lower than that of the mountain ranges of the Atlantean period and they had steering mechanisms
+by the aid of which they could rise above these mountain ranges one must imagine that with the
+passage of time all conditions on our Earth have changed very much today the above mentioned vehicles of the
+atlantans would be totally useless their usefulness depended on the fact that then the cover of air which envelops the
+Earth was much denser than at present whether in face of current scientific beliefs one can easily imagine such
+greater density of air must not occupy us here because of their very nature science and logical thinking can never
+decide what is possible or impossible their only function is to explain what has been ascertained by experience and
+observation the above mentioned density of air is as certain for occult experience as any fact of today given by the senses
 38:0038 minutescan be equally certain however is the fact perhaps even more inexplicable for contemporary physics and chemistry that
-38:0938 minutes, 9 secondsat that time the water on the whole Earth was much thinner than today because of this thinness the water could
-38:1738 minutes, 17 secondsbe directed by the germinal energy used by the atlanteans into Technical Services which today are
-38:2538 minutes, 25 secondsimpossible as a result of The increased density of the water it has become impossible to move and to direct it in
-38:3338 minutes, 33 secondssuch ingenious ways as once were possible from this it must be sufficiently clear that the civilization
-38:4338 minutes, 43 secondsof the Atlantean period was radically different from ours it will also be understood that the physical nature of an Atlantean was quite different from
-38:5138 minutes, 51 secondsthat of a contemporary man the atlantian took into himself water which could be used by the life
-38:5838 minutes, 58 secondsforce inherent in his own body in a manner quite different from that possible in today's physical body it was due to this that the
-39:0839 minutes, 8 secondsAtlantean could consciously employ his physical powers in an entirely different way from a man of today he had so to
-39:1639 minutes, 16 secondsspeak the means to increase the physical powers in himself when he needed them for what he was doing in order to have
-39:2339 minutes, 23 secondsan accurate conception of the atlantans one must know that their ideas of fatigue and the depletion of forces were
-39:3039 minutes, 30 secondsquite different from those of present day man an Atlantean settlement as must be
-39:3839 minutes, 38 secondsevident from everything we have described had a character which in no way resembled that of a modern city in such a settlement everything was
-39:4739 minutes, 47 secondson the contrary still in Alliance with nature only a vaguely similar picture is given if one should say that in the
-39:5639 minutes, 56 secondsfirst Atlantean period about to the middle of the third subrace a settlement resembled a garden in which the houses were built of trees with
-40:0540 minutes, 5 secondsartfully intertwined branches what the work of human hands created at that time grew out of Nature
-40:1440 minutes, 14 secondsand man himself felt wholly related to Nature hence his social sense also is quite different from that of
-40:2140 minutes, 21 secondstoday after all nature is common to all men what the atlantian built up on the basis of nature he considered to be
-40:2840 minutes, 28 secondscommon property just as a man of today thinks it only natural to consider as his private property what his Ingenuity
-40:3640 minutes, 36 secondshis intelligence have created for him one familiar with the idea that the
-40:4440 minutes, 44 secondsatlanteans were equipped with such spiritual and physical Powers as have been described will also understand that in still earlier times mankind presented
-40:5340 minutes, 53 secondsa picture which reminds him in only a few particulars of what he is accustomed to see today not only men but also the surrounding
-41:0241 minutes, 2 secondsNature has changed enormously in the course of time plant and animal forms have become different all of Earthly
-41:1041 minutes, 10 secondsNature has been subjected to Transformations once inhabited regions of Earth have been destroyed others have
-41:1841 minutes, 18 secondscome into existence the ancestors of the atlanteans lived in a region which has
-41:2541 minutes, 25 secondsdisappeared the main part of which lay south of contemporary Asia in theosophical writings they are called the
-41:3341 minutes, 33 secondslorans after they had passed through various stages of development the greatest part of them declined these became stunted men whose descendants
-41:4241 minutes, 42 secondsstill inhabit certain parts of the Earth today as so-called Savage tribes only a small part of loran humanity was capable
-41:5141 minutes, 51 secondsof further development from this part the atlantans were formed later something similar again
-41:5841 minutes, 58 secondstook place the greatest part of the atlantian population declined and from a small portion are descended the
-42:0642 minutes, 6 secondsso-called Aryans who comprise present day civilized Humanity according to the nomenclature of the science of the spirit the lorans
-42:1442 minutes, 14 secondsatlanteans and arens are root races of mankind if one imagines that two such root races preceded the lorans and that
-42:2342 minutes, 23 secondstwo will succeed the Aran in the future one obtains a total of seven one always arises from another in
-42:3142 minutes, 31 secondsthe manner just Des indicated with respect to the lorans atlanteans and arens each root race has physical and
-42:3842 minutes, 38 secondsmental characteristics which are quite different from those of the preceding one while for example the atlanteans
-42:4542 minutes, 45 secondsespecially developed memory and everything connected with it at the present time it is the task of the arens to develop the faculty of thought and
-42:5442 minutes, 54 secondsall that belongs to it in each root race various stages must also be gone through there are always
-43:0343 minutes, 3 secondsseven of these in the beginning of a period identified with a root race its principal characteristics are in a
-43:1043 minutes, 10 secondsyouthful condition slowly they attain maturity and finally enter a decline the population of a root race is
-43:1743 minutes, 17 secondsthereby divided into seven subraces but one must not imagine that one subrace immediately disappears when
-43:2543 minutes, 25 secondsa new one develops each one may maintain itself for a long time While others are developing beside
-43:3243 minutes, 32 secondsit thus there are always populations which show different stages of development living beside each other on
-43:4143 minutes, 41 secondsEarth the first subrace of the atlanteans developed from a very Advanced part of the lorans who had a
-43:4843 minutes, 48 secondshigh evolutionary potential The Faculty of memory appeared only in its rudiments among the lorans and then only in the
-43:5743 minutes, 57 secondslast period of their development one must imagine that while a luran could form ideas of what he was
-44:0444 minutes, 4 secondsexperiencing he could not preserve these ideas he immediately forgot what he had represented to himself nevertheless that
-44:1344 minutes, 13 secondshe lived in a certain civilization that for example he had tools erected buildings and so forth this he owed not
-44:2144 minutes, 21 secondsto his own powers of conception but to a mental force in him which was instinctive however one must not imagine this to
-44:2944 minutes, 29 secondshave been the present-day Instinct of animals but one of a different kind theosophical writings call the
-44:3844 minutes, 38 secondsfirst subrace of the atlanteans that of the rohal raoa Halls let's say r m o a h a
-44:4944 minutes, 49 secondsLS the memory of this race was primarily directed toward Vivid sense Impressions colors which the eye had
-44:5644 minutes, 56 secondsseen sounds which the ear had heard had a long after effect in the soul this was expressed in the fact that
-45:0445 minutes, 4 secondsthe reahals developed feelings which their lorean ancestors did not yet know for example the attachment to what has
-45:1345 minutes, 13 secondsbeen experienced in the past is a part of these feelings with the development of memory
-45:2145 minutes, 21 secondswas connected that of language as long as man did not preserve what was past a communication of what had been experienced could not take place through
-45:2945 minutes, 29 secondsthe medium of language because in the last lorean period the first beginnings of memory appeared at that time it was
-45:3745 minutes, 37 secondsalso possible for the faculty of naming what had been seen and heard to have its Inception only men who have the faculty
-45:4645 minutes, 46 secondsof recollection can make use of a name which has been given to something the Atlantean period therefore
-45:5445 minutes, 54 secondsis the one in which the development of language took place place with language a bond was established between the human soul and the things outside man he
-46:0346 minutes, 3 secondsproduced a speech word inside himself and this speech word belonged to the objects of the external World a new bond
-46:1246 minutes, 12 secondsis also formed among men by Communications through the medium of language it is true that all this
-46:1946 minutes, 19 secondsexisted in a still youthful form among the Rah halls but nevertheless it distinguished them profoundly from their loran forefathers
-46:2946 minutes, 29 secondsthe sole powers of these first atlanteans still possessed something of the forces of nature these men were more
-46:3646 minutes, 36 secondsclosely related to the beings of nature which surrounded them than were their successors their soul Powers were more
-46:4446 minutes, 44 secondsconnected with forces of nature than are those of modern man thus the speech word which they produced had something of the
-46:5246 minutes, 52 secondspower of nature they not only named things but in their words was a power over things and also over their fellow
-47:0147 minutes, 1 secondmen the word of the Rah Halls not only had meaning but also power the magic Power of Words is something which was
-47:0947 minutes, 9 secondsFar truer for those men than it is for men of today when a Rah Halls man pronounced a
-47:1747 minutes, 17 secondsword this word developed a power similar to that of the object it designated because of this words at that time were
-47:2447 minutes, 24 secondsCurative they could Advance the growth of plants tame the Rage of animals and perform other similar
-47:3247 minutes, 32 secondsfunctions all this progressively decreased in force among the later subraces of the atlanteans one could say that the
-47:4047 minutes, 40 secondsoriginal fullness of power was gradually lost the Rah Halls men felt this plenitude of power to be a gift of
-47:4847 minutes, 48 secondsMighty nature and the relationship to the latter had a religious character for them language was something especially sacred the the
-47:5647 minutes, 56 secondsmisuse of certain sounds which possessed an important power was an impossibility each man felt that such
-48:0448 minutes, 4 secondsmisuse must cause him enormous harm the good magic of such words would have changed into its opposite that which
-48:1248 minutes, 12 secondswould have brought blessings if used properly would bring ruin to the author if used criminally in a kind of innocence of
-48:2048 minutes, 20 secondsfeeling the Rah Halls ascribed their power not so much to themselves as to the divine nature acting within
-48:2948 minutes, 29 secondsthem this changed among the second subrace the so-called plat peoples t l a v a t l i
-48:4148 minutes, 41 secondstatle travat I guess sorry the men of this race began to feel their own personal value ambition a quality
-48:4948 minutes, 49 secondsunknown to the rals made itself felt among them memory was in a sense transferred to the ception of communal
-48:5848 minutes, 58 secondslife he who could not excuse me he who could look back upon certain Deeds demanded recognition of them from his
-49:0649 minutes, 6 secondsfellow men he demanded that his Works be preserved in memory based upon this memory of Deeds a group of men who
-49:1449 minutes, 14 secondsbelonged together elected one as leader a kind of Regal rank developed this connection this recognition was even
-49:2249 minutes, 22 secondspreserved Beyond Death the memory the remembrance of the an ancestors or of those who had acquired Merit in life
-49:3149 minutes, 31 secondsdeveloped from this there emerged among some tribes a kind of religious veneration of the deceased and ancestor
-49:3949 minutes, 39 secondscult this cult continued into much later times and took the most varied forms among the Rah Halls a man was
-49:4749 minutes, 47 secondsstill esteemed only to the degree to which he could command respect at a particular moment through his
-49:5549 minutes, 55 secondspowers if someone among them wanted recognition for what he had done in earlier days he had to demonstrate by new Deeds that he still possessed his
-50:0450 minutes, 4 secondsold Power he had to recall the old Works to memory by means of new ones what had been done was not esteemed for its own
-50:1350 minutes, 13 secondssake only the second subrace considered the personal character of a man to the point where he took his past life into
-50:2050 minutes, 20 secondsaccount in the evaluation of this character a further consequence of memory for the communal life of man was
-50:2950 minutes, 29 secondsthe fact that groups of men were formed which were held together by the remance of common Deeds previously the formation
-50:3850 minutes, 38 secondsof groups depended wholly upon Natural Forces upon common descent man did not add anything through his own mind to
-50:4750 minutes, 47 secondswhat nature had made of him now a powerful personality recruited a number of people for a joint
-50:5550 minutes, 55 secondsundertaking and and the memory of this joint action formed a social group this kind of social communal life
-51:0351 minutes, 3 secondsbecame fully developed only during the third subrace the toltech it was therefore the men of this race who first
-51:1051 minutes, 10 secondsfounded what can be called a community the first method of forming a state the leadership the government of
-51:1851 minutes, 18 secondsthese communities was transmitted from one generation to the next the father now gave over to the son what previously
-51:2551 minutes, 25 secondssurvived only in the memory of contemporaries the Deeds of the ancestors were not to be forgotten by
-51:3351 minutes, 33 secondstheir whole line of descent what an ancestor had done was esteemed by his descendants however one must realize
-51:4251 minutes, 42 secondsthat in those times Men actually had the power to transmit their gifts to their descendants education after all was
-51:5051 minutes, 50 secondscalculated to mold life through Vivid images the effectiveness of this education
-51:5751 minutes, 57 secondshad its foundation in the personal power which emanated from the educator he did not sharpen the power of thought but in
-52:0452 minutes, 4 secondsfact developed those gifts which were of a more instinctive kind through such a system of Education
-52:1152 minutes, 11 secondsthe capacities of the father would generally transmitted to the son under such conditions personal experience acquired more and more
-52:1952 minutes, 19 secondsimportance among the third subrace when one group of men separated from another for the foundation of a new
-52:2852 minutes, 28 secondscommunity it carried along the remembrance of what it had experienced at the old scene but at the same time
-52:3652 minutes, 36 secondsthere was something in this remembrance which the group did not find suitable for itself in which it did not feel at
-52:4452 minutes, 44 secondsease therefore then tried something new thus conditions improved with every one of these New
-52:5252 minutes, 52 secondsFoundations it was only natural that what was better was imitated these are the facts which explain the
-52:5952 minutes, 59 secondsdevelopment of those flourishing Communities In the period of the third subrace described in theosophic literature the personal experiences
-53:0853 minutes, 8 secondswhich were acquired found support from those who were initiated into the Eternal laws of Spiritual
-53:1553 minutes, 15 secondsDevelopment powerful rulers themselves were initiated so that personal ability might have full
-53:2253 minutes, 22 secondssupport through the his personal ability man slowly prep prepares himself for initiation he must first develop his
-53:3053 minutes, 30 secondspowers from below in order that the Enlightenment from above can be given to him in this way the initiated Kings and
-53:3853 minutes, 38 secondsleaders of the atlanteans came into being enormous power was in their hands and they were greatly
-53:4753 minutes, 47 secondsvenerated but in this fact also lay the reason for Decline and Decay the development of memory led to the
-53:5453 minutes, 54 secondspreeminent power of a personal ity man wanted to count for something through his power the greater the power became
-54:0354 minutes, 3 secondsthe more he wanted to exploit it for himself the ambition which had developed turned into marked selfishness thus the misuse of these
-54:1254 minutes, 12 secondsPowers arose when one considers the capabilities of the atlanteans resulting from their Mastery of the life force one
-54:2054 minutes, 20 secondswill understand that this misuse inevitably had enormous consequences a broad power over nature nature could be
-54:2754 minutes, 27 secondsput at the service of personal egotism this was accomplished in full measure by the fourth subrace the Primal
-54:3654 minutes, 36 secondstrinians the members of this race who were instructed in the Mastery of the ab mentioned Powers often used them in
-54:4354 minutes, 43 secondsorder to satisfy their selfish wishes and desires but used in such a manner these Powers destroy each other in their
-54:5154 minutes, 51 secondsreciprocal effects it is as if the feet were stubbornly to carry a man forward while his torso wanted to go
+at that time the water on the whole Earth was much thinner than today because of this thinness the water could
+be directed by the germinal energy used by the atlanteans into Technical Services which today are
+impossible as a result of The increased density of the water it has become impossible to move and to direct it in
+such ingenious ways as once were possible from this it must be sufficiently clear that the civilization
+of the Atlantean period was radically different from ours it will also be understood that the physical nature of an Atlantean was quite different from
+that of a contemporary man the atlantian took into himself water which could be used by the life
+force inherent in his own body in a manner quite different from that possible in today's physical body it was due to this that the
+Atlantean could consciously employ his physical powers in an entirely different way from a man of today he had so to
+speak the means to increase the physical powers in himself when he needed them for what he was doing in order to have
+an accurate conception of the atlantans one must know that their ideas of fatigue and the depletion of forces were
+quite different from those of present day man an Atlantean settlement as must be
+evident from everything we have described had a character which in no way resembled that of a modern city in such a settlement everything was
+on the contrary still in Alliance with nature only a vaguely similar picture is given if one should say that in the
+first Atlantean period about to the middle of the third subrace a settlement resembled a garden in which the houses were built of trees with
+artfully intertwined branches what the work of human hands created at that time grew out of Nature
+and man himself felt wholly related to Nature hence his social sense also is quite different from that of
+today after all nature is common to all men what the atlantian built up on the basis of nature he considered to be
+common property just as a man of today thinks it only natural to consider as his private property what his Ingenuity
+his intelligence have created for him one familiar with the idea that the
+atlanteans were equipped with such spiritual and physical Powers as have been described will also understand that in still earlier times mankind presented
+a picture which reminds him in only a few particulars of what he is accustomed to see today not only men but also the surrounding
+Nature has changed enormously in the course of time plant and animal forms have become different all of Earthly
+Nature has been subjected to Transformations once inhabited regions of Earth have been destroyed others have
+come into existence the ancestors of the atlanteans lived in a region which has
+disappeared the main part of which lay south of contemporary Asia in theosophical writings they are called the
+lorans after they had passed through various stages of development the greatest part of them declined these became stunted men whose descendants
+still inhabit certain parts of the Earth today as so-called Savage tribes only a small part of loran humanity was capable
+of further development from this part the atlantans were formed later something similar again
+took place the greatest part of the atlantian population declined and from a small portion are descended the
+so-called Aryans who comprise present day civilized Humanity according to the nomenclature of the science of the spirit the lorans
+atlanteans and arens are root races of mankind if one imagines that two such root races preceded the lorans and that
+two will succeed the Aran in the future one obtains a total of seven one always arises from another in
+the manner just Des indicated with respect to the lorans atlanteans and arens each root race has physical and
+mental characteristics which are quite different from those of the preceding one while for example the atlanteans
+especially developed memory and everything connected with it at the present time it is the task of the arens to develop the faculty of thought and
+all that belongs to it in each root race various stages must also be gone through there are always
+seven of these in the beginning of a period identified with a root race its principal characteristics are in a
+youthful condition slowly they attain maturity and finally enter a decline the population of a root race is
+thereby divided into seven subraces but one must not imagine that one subrace immediately disappears when
+a new one develops each one may maintain itself for a long time While others are developing beside
+it thus there are always populations which show different stages of development living beside each other on
+Earth the first subrace of the atlanteans developed from a very Advanced part of the lorans who had a
+high evolutionary potential The Faculty of memory appeared only in its rudiments among the lorans and then only in the
+last period of their development one must imagine that while a luran could form ideas of what he was
+experiencing he could not preserve these ideas he immediately forgot what he had represented to himself nevertheless that
+he lived in a certain civilization that for example he had tools erected buildings and so forth this he owed not
+to his own powers of conception but to a mental force in him which was instinctive however one must not imagine this to
+have been the present-day Instinct of animals but one of a different kind theosophical writings call the
+first subrace of the atlanteans that of the rohal raoa Halls let's say r m o a h a
+LS the memory of this race was primarily directed toward Vivid sense Impressions colors which the eye had
+seen sounds which the ear had heard had a long after effect in the soul this was expressed in the fact that
+the reahals developed feelings which their lorean ancestors did not yet know for example the attachment to what has
+been experienced in the past is a part of these feelings with the development of memory
+was connected that of language as long as man did not preserve what was past a communication of what had been experienced could not take place through
+the medium of language because in the last lorean period the first beginnings of memory appeared at that time it was
+also possible for the faculty of naming what had been seen and heard to have its Inception only men who have the faculty
+of recollection can make use of a name which has been given to something the Atlantean period therefore
+is the one in which the development of language took place place with language a bond was established between the human soul and the things outside man he
+produced a speech word inside himself and this speech word belonged to the objects of the external World a new bond
+is also formed among men by Communications through the medium of language it is true that all this
+existed in a still youthful form among the Rah halls but nevertheless it distinguished them profoundly from their loran forefathers
+the sole powers of these first atlanteans still possessed something of the forces of nature these men were more
+closely related to the beings of nature which surrounded them than were their successors their soul Powers were more
+connected with forces of nature than are those of modern man thus the speech word which they produced had something of the
+power of nature they not only named things but in their words was a power over things and also over their fellow
+men the word of the Rah Halls not only had meaning but also power the magic Power of Words is something which was
+Far truer for those men than it is for men of today when a Rah Halls man pronounced a
+word this word developed a power similar to that of the object it designated because of this words at that time were
+Curative they could Advance the growth of plants tame the Rage of animals and perform other similar
+functions all this progressively decreased in force among the later subraces of the atlanteans one could say that the
+original fullness of power was gradually lost the Rah Halls men felt this plenitude of power to be a gift of
+Mighty nature and the relationship to the latter had a religious character for them language was something especially sacred the the
+misuse of certain sounds which possessed an important power was an impossibility each man felt that such
+misuse must cause him enormous harm the good magic of such words would have changed into its opposite that which
+would have brought blessings if used properly would bring ruin to the author if used criminally in a kind of innocence of
+feeling the Rah Halls ascribed their power not so much to themselves as to the divine nature acting within
+them this changed among the second subrace the so-called plat peoples t l a v a t l i
+tatle travat I guess sorry the men of this race began to feel their own personal value ambition a quality
+unknown to the rals made itself felt among them memory was in a sense transferred to the ception of communal
+life he who could not excuse me he who could look back upon certain Deeds demanded recognition of them from his
+fellow men he demanded that his Works be preserved in memory based upon this memory of Deeds a group of men who
+belonged together elected one as leader a kind of Regal rank developed this connection this recognition was even
+preserved Beyond Death the memory the remembrance of the an ancestors or of those who had acquired Merit in life
+developed from this there emerged among some tribes a kind of religious veneration of the deceased and ancestor
+cult this cult continued into much later times and took the most varied forms among the Rah Halls a man was
+still esteemed only to the degree to which he could command respect at a particular moment through his
+powers if someone among them wanted recognition for what he had done in earlier days he had to demonstrate by new Deeds that he still possessed his
+old Power he had to recall the old Works to memory by means of new ones what had been done was not esteemed for its own
+sake only the second subrace considered the personal character of a man to the point where he took his past life into
+account in the evaluation of this character a further consequence of memory for the communal life of man was
+the fact that groups of men were formed which were held together by the remance of common Deeds previously the formation
+of groups depended wholly upon Natural Forces upon common descent man did not add anything through his own mind to
+what nature had made of him now a powerful personality recruited a number of people for a joint
+undertaking and and the memory of this joint action formed a social group this kind of social communal life
+became fully developed only during the third subrace the toltech it was therefore the men of this race who first
+founded what can be called a community the first method of forming a state the leadership the government of
+these communities was transmitted from one generation to the next the father now gave over to the son what previously
+survived only in the memory of contemporaries the Deeds of the ancestors were not to be forgotten by
+their whole line of descent what an ancestor had done was esteemed by his descendants however one must realize
+that in those times Men actually had the power to transmit their gifts to their descendants education after all was
+calculated to mold life through Vivid images the effectiveness of this education
+had its foundation in the personal power which emanated from the educator he did not sharpen the power of thought but in
+fact developed those gifts which were of a more instinctive kind through such a system of Education
+the capacities of the father would generally transmitted to the son under such conditions personal experience acquired more and more
+importance among the third subrace when one group of men separated from another for the foundation of a new
+community it carried along the remembrance of what it had experienced at the old scene but at the same time
+there was something in this remembrance which the group did not find suitable for itself in which it did not feel at
+ease therefore then tried something new thus conditions improved with every one of these New
+Foundations it was only natural that what was better was imitated these are the facts which explain the
+development of those flourishing Communities In the period of the third subrace described in theosophic literature the personal experiences
+which were acquired found support from those who were initiated into the Eternal laws of Spiritual
+Development powerful rulers themselves were initiated so that personal ability might have full
+support through the his personal ability man slowly prep prepares himself for initiation he must first develop his
+powers from below in order that the Enlightenment from above can be given to him in this way the initiated Kings and
+leaders of the atlanteans came into being enormous power was in their hands and they were greatly
+venerated but in this fact also lay the reason for Decline and Decay the development of memory led to the
+preeminent power of a personal ity man wanted to count for something through his power the greater the power became
+the more he wanted to exploit it for himself the ambition which had developed turned into marked selfishness thus the misuse of these
+Powers arose when one considers the capabilities of the atlanteans resulting from their Mastery of the life force one
+will understand that this misuse inevitably had enormous consequences a broad power over nature nature could be
+put at the service of personal egotism this was accomplished in full measure by the fourth subrace the Primal
+trinians the members of this race who were instructed in the Mastery of the ab mentioned Powers often used them in
+order to satisfy their selfish wishes and desires but used in such a manner these Powers destroy each other in their
+reciprocal effects it is as if the feet were stubbornly to carry a man forward while his torso wanted to go
 55:0055 minutesbackward such a destructive effect could only be halted through the development of a higher faculty in man this was the
-55:0855 minutes, 8 secondsfaculty of thought logical thinking has a restraining effect on selfish personal Wishes the origin of logical thinking
-55:1755 minutes, 17 secondsmust be sought among the fifth subrace the Primal semites men begin to go beyond a mere
-55:2455 minutes, 24 secondsremembrance of the past and to compare different experiences the faculty of judgment developed wishes and appetites were
-55:3255 minutes, 32 secondsregulated in accordance with this faculty of judgment one began to calculate to combine one learned to work
-55:4155 minutes, 41 secondswith thoughts if previously one had abandoned oneself to every desire now one first asked whether thought could
-55:4955 minutes, 49 secondsapprove this desire while the men of the fourth subrace rushed wildly toward the satisf action of their appetites those of the
-55:5855 minutes, 58 secondsfifth began to listen to an inner voice this inner voice checks the appetites although it cannot destroy the claims of
-56:0556 minutes, 5 secondsThe Selfish personality thus the fifth subrace transferred the impulses for Action to
-56:1456 minutes, 14 secondswithin the human being man wishes to come to terms within himself as to what he must or must not do but what thus has
-56:2356 minutes, 23 secondswon within with respect to the faculty of thought was lost with respect to the control of external Natural
-56:3256 minutes, 32 secondsForces with this combining thought mentioned above one can Master only the forces of the mineral world not the life
-56:4256 minutes, 42 secondsforce the fifth subrace therefore developed thought at the expense of control of the life force and it was
-56:4956 minutes, 49 secondsjust an and it was just through this that It produced The Germ of the further development of mankind now personality
-56:5756 minutes, 57 secondsself-love even complete selfishness could grow freely For Thought alone which works wholly within and can no
-57:0457 minutes, 4 secondslonger give direct orders to Nature is not capable of producing such devastating effects as the previously
-57:1257 minutes, 12 secondsmisused powers from this fifth subrace the most gifted part was selected which survived
-57:2057 minutes, 20 secondsthe decline of the fourth root race and formed the germ of the fifth the Aryan race whose is the complete development
-57:2757 minutes, 27 secondsof the thinking faculty the men of the sixth subrace the acadians developed the faculty of
-57:3657 minutes, 36 secondsthought even further than the fifth they differed from the so-called Primal semites in that they employed this faculty in a more comprehensive sense
-57:4557 minutes, 45 secondsthan the former it has been said that while the development of the faculty of thought prevented the claims of The Selfish
-57:5357 minutes, 53 secondspersonality from having the same devastating effect effects as among the earlier races these claims were not
+faculty of thought logical thinking has a restraining effect on selfish personal Wishes the origin of logical thinking
+must be sought among the fifth subrace the Primal semites men begin to go beyond a mere
+remembrance of the past and to compare different experiences the faculty of judgment developed wishes and appetites were
+regulated in accordance with this faculty of judgment one began to calculate to combine one learned to work
+with thoughts if previously one had abandoned oneself to every desire now one first asked whether thought could
+approve this desire while the men of the fourth subrace rushed wildly toward the satisf action of their appetites those of the
+fifth began to listen to an inner voice this inner voice checks the appetites although it cannot destroy the claims of
+The Selfish personality thus the fifth subrace transferred the impulses for Action to
+within the human being man wishes to come to terms within himself as to what he must or must not do but what thus has
+won within with respect to the faculty of thought was lost with respect to the control of external Natural
+Forces with this combining thought mentioned above one can Master only the forces of the mineral world not the life
+force the fifth subrace therefore developed thought at the expense of control of the life force and it was
+just an and it was just through this that It produced The Germ of the further development of mankind now personality
+self-love even complete selfishness could grow freely For Thought alone which works wholly within and can no
+longer give direct orders to Nature is not capable of producing such devastating effects as the previously
+misused powers from this fifth subrace the most gifted part was selected which survived
+the decline of the fourth root race and formed the germ of the fifth the Aryan race whose is the complete development
+of the thinking faculty the men of the sixth subrace the acadians developed the faculty of
+thought even further than the fifth they differed from the so-called Primal semites in that they employed this faculty in a more comprehensive sense
+than the former it has been said that while the development of the faculty of thought prevented the claims of The Selfish
+personality from having the same devastating effect effects as among the earlier races these claims were not
 58:0058 minutesdestroyed by it the Primal semites at first arranged their personal circumstances as their faculty of thought directed intelligence took the
-58:0958 minutes, 9 secondsplace of mere appetites and desires the conditions of Life changed if preceding races were inclined
-58:1958 minutes, 19 secondsto acknowledge as leader one whose Deeds had impressed themselves deeply upon their memory or who could look back upon
-58:2758 minutes, 27 secondsa life of Rich memories this role was now conferred upon the intelligent if previously that which
-58:3458 minutes, 34 secondslived in a clear remembrance was decisive one now regarded as best what was most convincing to
-58:4258 minutes, 42 secondsthought under the influence of memory one formerly held fast to a thing until one found it to be inadequate and in
-58:4958 minutes, 49 secondsthat case it was quite natural that he who was in a position to remedy a want could introduce an innovation
-58:5758 minutes, 57 secondsbut as a result of the faculty of thought a fondness for Innovations and changes developed each wanted to put
-59:0459 minutes, 4 secondsinto effect what his intelligence suggested to him turbulent conditions therefore began to Prevail under the
-59:1259 minutes, 12 secondsfifth subrace and in the sixth they led to a feeling of the need to bring the obdurate thinking of the individual
-59:2059 minutes, 20 secondsunder general laws the Splendor of the communities of the third sub race was based on the fact
-59:2859 minutes, 28 secondsthat common memories brought about order and Harmony in the sixth this order had to be brought about by thought out laws
-59:3759 minutes, 37 secondsthus it is in this sixth subrace that one must look for the origin of regulations of justice and
-59:4459 minutes, 44 secondslaw during the third subrace the separation of a group of men took place only when they were forced out of their
-59:5159 minutes, 51 secondscommunity so to speak because they no longer felt at ease in the conditions prevailing as a result of memory in the
-59:5859 minutes, 58 secondssixth this was considerably different the calculating faculty of thought sought the new as such it spurred men to
+place of mere appetites and desires the conditions of Life changed if preceding races were inclined
+to acknowledge as leader one whose Deeds had impressed themselves deeply upon their memory or who could look back upon
+a life of Rich memories this role was now conferred upon the intelligent if previously that which
+lived in a clear remembrance was decisive one now regarded as best what was most convincing to
+thought under the influence of memory one formerly held fast to a thing until one found it to be inadequate and in
+that case it was quite natural that he who was in a position to remedy a want could introduce an innovation
+but as a result of the faculty of thought a fondness for Innovations and changes developed each wanted to put
+into effect what his intelligence suggested to him turbulent conditions therefore began to Prevail under the
+fifth subrace and in the sixth they led to a feeling of the need to bring the obdurate thinking of the individual
+under general laws the Splendor of the communities of the third sub race was based on the fact
+that common memories brought about order and Harmony in the sixth this order had to be brought about by thought out laws
+thus it is in this sixth subrace that one must look for the origin of regulations of justice and
+law during the third subrace the separation of a group of men took place only when they were forced out of their
+community so to speak because they no longer felt at ease in the conditions prevailing as a result of memory in the
+sixth this was considerably different the calculating faculty of thought sought the new as such it spurred men to
 1:00:061 hour, 6 secondsEnterprises and New Foundations the acadians were therefore an enterprising people with an inclination to
 1:00:151 hour, 15 secondscolonization it was Commerce especially which nourished the waxing faculty of thought and judgment among the seventh subrace the
 1:00:241 hour, 24 secondsMongols The Faculty of thought was also developed but characteristics of the earlier subraces especially of the

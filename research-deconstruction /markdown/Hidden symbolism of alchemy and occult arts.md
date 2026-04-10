@@ -1,456 +1,456 @@
-2:142 minutes, 14 secondsHidden Symbolism of Alchemy and the Occult Arts by Dr. Herbert Silberer.
-2:232 minutes, 23 secondsNarrated by Matthew Schmidtz. Preface.
-2:312 minutes, 31 secondsProminent among the stones of a fireplace in my country den, one large rounded giant stands out. It was born by
-2:392 minutes, 39 secondsthe glacial streams from a more northern resting place and is marked by a fossil of a mollisk that inhabited the northern
-2:452 minutes, 45 secondsseas many million years ago. Yet, in spite of the eons of time that have passed, it can be compared with specimens of mollisks that live today.
-2:552 minutes, 55 secondsDown through the countless centuries,
-2:572 minutes, 57 secondsthe living stream has carved its structural habitations in much the same form. The science of paleontology has collected this history and has attempted
-3:063 minutes, 6 secondsa reconstruction of life from its beginnings. The same principle here illustrated is true for the thought life of mankind. The forms in which it has
-3:153 minutes, 15 secondsbeen preserved, however, are not so evident. These structuralizations are not so definite. If they were, evolution
-3:223 minutes, 22 secondswould not have been possible, for the living stream of energy which is utilized by mind stuff cannot be confined if it would advance to more
-3:303 minutes, 30 secondscomplex integrations. Hence, the products of mind in evolution are more plastic, more subtle, and more changing.
-3:383 minutes, 38 secondsThey are to be found in the myths and the folklore of ancient peoples, the poetry, dramatic art, and the language of later races. From age to age,
-3:473 minutes, 47 secondshowever, these strivings continue the same. The living vessels must continue,
-3:523 minutes, 52 secondsand the products express the most fundamental strivings in varying though related forms. We thus arrive at a
+Hidden Symbolism of Alchemy and the Occult Arts by Dr. Herbert Silberer.
+Narrated by Matthew Schmidtz. Preface.
+Prominent among the stones of a fireplace in my country den, one large rounded giant stands out. It was born by
+the glacial streams from a more northern resting place and is marked by a fossil of a mollisk that inhabited the northern
+seas many million years ago. Yet, in spite of the eons of time that have passed, it can be compared with specimens of mollisks that live today.
+Down through the countless centuries,
+the living stream has carved its structural habitations in much the same form. The science of paleontology has collected this history and has attempted
+a reconstruction of life from its beginnings. The same principle here illustrated is true for the thought life of mankind. The forms in which it has
+been preserved, however, are not so evident. These structuralizations are not so definite. If they were, evolution
+would not have been possible, for the living stream of energy which is utilized by mind stuff cannot be confined if it would advance to more
+complex integrations. Hence, the products of mind in evolution are more plastic, more subtle, and more changing.
+They are to be found in the myths and the folklore of ancient peoples, the poetry, dramatic art, and the language of later races. From age to age,
+however, these strivings continue the same. The living vessels must continue,
+and the products express the most fundamental strivings in varying though related forms. We thus arrive at a
 4:004 minutesscience which may be called paleocsychology.
-4:044 minutes, 4 secondsIts fossils are the thought forms throughout the ages and such a science seeks to show fundamental likenesses behind the more superficial dissimilarities.
-4:134 minutes, 13 secondsThe present work is a contribution to such a science in that it shows the essential relationships of what is found in the unconscious of present-day
-4:224 minutes, 22 secondsmankind to many forms of thinking of the Middle Ages. These same trends are present today in all of us though hidden
-4:294 minutes, 29 secondsbehind a different set of structural terms utilizing different mechanisms for energy expression. The unceasing
-4:364 minutes, 36 secondscomplexity of life's accumulations has created a great principle for energy expression. It is termed sublimation and
-4:444 minutes, 44 secondsin popular parliament represents the spiritual striving of mankind towards the perfecting of a relation with the world of reality, the environment, which
-4:534 minutes, 53 secondsshall mean human happiness in its truest sense. One of the products of this sublimation tendency is called mysticism. This work would seek to aid
-5:025 minutes, 2 secondsus in an understanding of this manifestation of human conduct as expressed in concrete or contemplated action through thought. It does so by
-5:115 minutes, 11 secondsthe comparative method and it is for this reason I have been led to present it to an English reading public. Much of
-5:195 minutes, 19 secondsthe strange and outra as well as the commonplace in human activity conceals energy transformations of inestimable
-5:265 minutes, 26 secondsvalue in the work of sublimation. The race would go mad without it. It sometimes does even with it a sign that
-5:345 minutes, 34 secondssublimation is still imperfect and that the race is far from being spiritually well. A comprehension of the principles
-5:415 minutes, 41 secondshere involved would further the spread of sympathy for all forms of thinking and tend to further spiritual health in such mutual comprehension of the needs
-5:495 minutes, 49 secondsof others and of the forms taken by sublimation processes.
-5:545 minutes, 54 secondsFor the actual work of translation, I wish to express my obligations to friends Wilfried Le and Leo Stein.
-6:016 minutes, 1 secondWithout their generous and gifted assistance, I would not have been able to accomplish the task.
-6:076 minutes, 7 secondsSmith Eli Jellyfy, MD, New York, October 27th, 1917.
-6:176 minutes, 17 secondsPart one, the parable. Section one, the parable.
-6:286 minutes, 28 secondsIn an old book, I discovered an extraordinary narrative entitled Parabola. I take it as the starting point of my observations because it
-6:376 minutes, 37 secondsaffords a welcome guide. In the endeavor to understand the parable and get a psychological insight into it, we are led on to journey through these very
-6:466 minutes, 46 secondsrealms of fancy into which I should like to conduct the reader. At the end of our journey, we shall have acquired with the
-6:536 minutes, 53 secondsunderstanding of the first example the knowledge of certain psychical laws. I shall then, without further prelude,
+Its fossils are the thought forms throughout the ages and such a science seeks to show fundamental likenesses behind the more superficial dissimilarities.
+The present work is a contribution to such a science in that it shows the essential relationships of what is found in the unconscious of present-day
+mankind to many forms of thinking of the Middle Ages. These same trends are present today in all of us though hidden
+behind a different set of structural terms utilizing different mechanisms for energy expression. The unceasing
+complexity of life's accumulations has created a great principle for energy expression. It is termed sublimation and
+in popular parliament represents the spiritual striving of mankind towards the perfecting of a relation with the world of reality, the environment, which
+shall mean human happiness in its truest sense. One of the products of this sublimation tendency is called mysticism. This work would seek to aid
+us in an understanding of this manifestation of human conduct as expressed in concrete or contemplated action through thought. It does so by
+the comparative method and it is for this reason I have been led to present it to an English reading public. Much of
+the strange and outra as well as the commonplace in human activity conceals energy transformations of inestimable
+value in the work of sublimation. The race would go mad without it. It sometimes does even with it a sign that
+sublimation is still imperfect and that the race is far from being spiritually well. A comprehension of the principles
+here involved would further the spread of sympathy for all forms of thinking and tend to further spiritual health in such mutual comprehension of the needs
+of others and of the forms taken by sublimation processes.
+For the actual work of translation, I wish to express my obligations to friends Wilfried Le and Leo Stein.
+Without their generous and gifted assistance, I would not have been able to accomplish the task.
+Smith Eli Jellyfy, MD, New York, October 27th, 1917.
+Part one, the parable. Section one, the parable.
+In an old book, I discovered an extraordinary narrative entitled Parabola. I take it as the starting point of my observations because it
+affords a welcome guide. In the endeavor to understand the parable and get a psychological insight into it, we are led on to journey through these very
+realms of fancy into which I should like to conduct the reader. At the end of our journey, we shall have acquired with the
+understanding of the first example the knowledge of certain psychical laws. I shall then, without further prelude,
 7:007 minutesintroduce the example, and purposely avoid at the outset mentioning the title of the old book, so that the reader may be in a position to allow the narrative
-7:097 minutes, 9 secondsto affect him without any preconceived ideas. explanatory interpolations in the text which come from me. I distinguish with square brackets.
-7:207 minutes, 20 secondsAs once I strolled in a fair forest,
-7:237 minutes, 23 secondsyoung and green, and contemplated the painfulness of this life, and lamented how, through the dire fall of our first
-7:307 minutes, 30 secondsparents, we inherited such misery and distress. I chanced, while thinking these thoughts, to depart from the usual path, and found myself, I know not how,
-7:417 minutes, 41 secondson a narrow footpath that was rough,
-7:437 minutes, 43 secondsuntrodden, and impassible, and overgrown with so much underbrush and bushes that it was easy to see it was very little
-7:517 minutes, 51 secondsused. Therefore, I was dismayed and would gladly have gone back, but it was not in my power to do so, since a strong
-7:587 minutes, 58 secondswind so powerfully blew on me that I could rather take 10 steps in advance than one backward. Therefore, I had to go on and not mind the rough walking.
-8:108 minutes, 10 secondsAfter I had advanced a good while, I came finally to a lovely meadow hedged about with a round circle of fruitbearing trees, and called by the dwellers, Pratam Felicitatus.
-8:218 minutes, 21 secondsthe meadow of Felicity. I was in the midst of a company of old men with beards as gray as ice, except for one,
-8:288 minutes, 28 secondswho was quite a young man with a pointed black beard. Also there was among them one whose name was well known to me, but
-8:358 minutes, 35 secondshis visage I could not yet see, who was still younger, and they debated on all kinds of subjects, particularly about a
-8:438 minutes, 43 secondsgreat and lofty mystery hidden in nature, which God kept concealed from the great world, and revealed to only a
-8:508 minutes, 50 secondsfew who loved him. I listened long, and their discourse pleased me well. Only some would break forth from restraint,
-8:578 minutes, 57 secondsnot touching upon the matter or work, but what touched upon the parables,
-9:019 minutes, 1 secondsimilitudes, and other peraga in which they followed the poetic fancies of Aristotle, Ply, and others which the one
-9:089 minutes, 8 secondshad copied from the other. so I could contain myself no longer, and mixed in my own mustard, put in my own word,
-9:169 minutes, 16 secondsrefuted such trivial things from experience, and the majority sided with me, examined me and their faculty, and
-9:249 minutes, 24 secondsmade it quite hot for me. However, the foundation of my knowledge was so good that I passed with all honors, whereupon
-9:319 minutes, 31 secondsthey all were amazed, unanimously included, and admitted me in their collegium, of which I was heartily glad.
-9:399 minutes, 39 secondsBut they said I could not be a real colleague till I learned to know their lion and became thoroughly acquainted with his powers and abilities. For that
-9:479 minutes, 47 secondspurpose I should use diligence so as to subdue him. I was quite confident in myself and promised them I would do my
-9:549 minutes, 54 secondsbest, for their company pleased me so well that I would not have parted from them for a great deal.
-10:0110 minutes, 1 secondThey led me to the lion and described him very carefully. But what I should undertake with him none could tell me.
-10:0810 minutes, 8 secondsSome of them indeed hinted, but very darkly, so that the thousandth one could not have understood him. But when I should first succeed in subduing him,
-10:1710 minutes, 17 secondsand should have assured myself against his sharp claws and keen teeth, then they would conceal nothing from me. Now
-10:2410 minutes, 24 secondsthe lion was very old, ferocious, and large, his yellow hair hung over his neck. He appeared quite unconquerable,
-10:3210 minutes, 32 secondsso that I was almost afraid of my temerity, and would gladly have turned back if my promise, and also the circumstance that the elders stood about
-10:4010 minutes, 40 secondsme, and were waiting to see what I would do, had allowed me to give up. In great confidence, I approached the lion in his
-10:4710 minutes, 47 secondsden, and began to caress him, but he looked at me so fiercely with his brightly shining eyes that I could hardly restrain my tears. Just then I
-10:5710 minutes, 57 secondsremembered that I had learned from one of the elders while we were going to the lion's den that very many people had undertaken to overcome the lion and very
-11:0611 minutes, 6 secondsfew could accomplish it. I was unwilling to be disgraced and I recalled several grips that I had learned with great
-11:1211 minutes, 12 secondsdiligence in athletics besides which I was well-versed in natural magic. So I gave up the caresses and seized the lion
-11:2011 minutes, 20 secondsso dextrously, artfully, and subtly that before he was well aware of it, I forced the blood out of his body, yay, even out of his heart. It was beautifully red,
-11:3211 minutes, 32 secondsbut very coleric. I dissected him further, and found a fact which caused me much wonder, that his bones were
-11:3911 minutes, 39 secondswhite as snow, and there was much more bone than there was blood.
-11:4411 minutes, 44 secondsNow when my dear elders, who stood above around the den and looked at me, were aware of it, they disputed earnestly with each other, for so much I could
-11:5311 minutes, 53 secondsinfer from their motions. But what they said I could not hear, since I was deep down in the den. Yet, as they came close
+to affect him without any preconceived ideas. explanatory interpolations in the text which come from me. I distinguish with square brackets.
+As once I strolled in a fair forest,
+young and green, and contemplated the painfulness of this life, and lamented how, through the dire fall of our first
+parents, we inherited such misery and distress. I chanced, while thinking these thoughts, to depart from the usual path, and found myself, I know not how,
+on a narrow footpath that was rough,
+untrodden, and impassible, and overgrown with so much underbrush and bushes that it was easy to see it was very little
+used. Therefore, I was dismayed and would gladly have gone back, but it was not in my power to do so, since a strong
+wind so powerfully blew on me that I could rather take 10 steps in advance than one backward. Therefore, I had to go on and not mind the rough walking.
+After I had advanced a good while, I came finally to a lovely meadow hedged about with a round circle of fruitbearing trees, and called by the dwellers, Pratam Felicitatus.
+the meadow of Felicity. I was in the midst of a company of old men with beards as gray as ice, except for one,
+who was quite a young man with a pointed black beard. Also there was among them one whose name was well known to me, but
+his visage I could not yet see, who was still younger, and they debated on all kinds of subjects, particularly about a
+great and lofty mystery hidden in nature, which God kept concealed from the great world, and revealed to only a
+few who loved him. I listened long, and their discourse pleased me well. Only some would break forth from restraint,
+not touching upon the matter or work, but what touched upon the parables,
+imilitudes, and other peraga in which they followed the poetic fancies of Aristotle, Ply, and others which the one
+had copied from the other. so I could contain myself no longer, and mixed in my own mustard, put in my own word,
+refuted such trivial things from experience, and the majority sided with me, examined me and their faculty, and
+made it quite hot for me. However, the foundation of my knowledge was so good that I passed with all honors, whereupon
+they all were amazed, unanimously included, and admitted me in their collegium, of which I was heartily glad.
+But they said I could not be a real colleague till I learned to know their lion and became thoroughly acquainted with his powers and abilities. For that
+purpose I should use diligence so as to subdue him. I was quite confident in myself and promised them I would do my
+best, for their company pleased me so well that I would not have parted from them for a great deal.
+They led me to the lion and described him very carefully. But what I should undertake with him none could tell me.
+Some of them indeed hinted, but very darkly, so that the thousandth one could not have understood him. But when I should first succeed in subduing him,
+and should have assured myself against his sharp claws and keen teeth, then they would conceal nothing from me. Now
+the lion was very old, ferocious, and large, his yellow hair hung over his neck. He appeared quite unconquerable,
+so that I was almost afraid of my temerity, and would gladly have turned back if my promise, and also the circumstance that the elders stood about
+me, and were waiting to see what I would do, had allowed me to give up. In great confidence, I approached the lion in his
+den, and began to caress him, but he looked at me so fiercely with his brightly shining eyes that I could hardly restrain my tears. Just then I
+remembered that I had learned from one of the elders while we were going to the lion's den that very many people had undertaken to overcome the lion and very
+few could accomplish it. I was unwilling to be disgraced and I recalled several grips that I had learned with great
+diligence in athletics besides which I was well-versed in natural magic. So I gave up the caresses and seized the lion
+so dextrously, artfully, and subtly that before he was well aware of it, I forced the blood out of his body, yay, even out of his heart. It was beautifully red,
+but very coleric. I dissected him further, and found a fact which caused me much wonder, that his bones were
+white as snow, and there was much more bone than there was blood.
+Now when my dear elders, who stood above around the den and looked at me, were aware of it, they disputed earnestly with each other, for so much I could
+infer from their motions. But what they said I could not hear, since I was deep down in the den. Yet, as they came close
 12:0012 minutesin dispute, I heard that one said, "He must bring him to life again, else he cannot be our colleague."
-12:0812 minutes, 8 secondsI was unwilling to undertake further difficulties, and betook myself out of the den to a great place, and came, I
-12:1512 minutes, 15 secondsknow not how, on a very high wall, whose height rose over 100 L's towards the clouds, but on top was not 1 ft wide.
-12:2412 minutes, 24 secondsAnd there went up from the beginning,
-12:2512 minutes, 25 secondswhere I ascended, to the end an iron handrail along the center of the wall with many leaded supports. On this wall
-12:3312 minutes, 33 secondsI came, I say, and me seems there went on the right side of the railing a man several paces before me. But as I
-12:4112 minutes, 41 secondsfollowed him a while, I saw another following me on the other side. Yet it was doubtful whether man or woman that called to me and said that it was better walking on his side than where I went,
-12:5212 minutes, 52 secondsas I readily believed, because the railing that stood near the middle made the path so narrow that the going at such a height was very bad.
-13:0113 minutes, 1 secondThen I saw also some that wish to go on that path fall down below behind me. Therefore I swung under the railing,
-13:0913 minutes, 9 secondsholding tight with my hands, and went forward on the other left side, till I finally came to a place on the wall which was very precipitous and dangerous
-13:1713 minutes, 17 secondsto descend. Then first I repented that I had not stayed on the other right side,
-13:2313 minutes, 23 secondsand I could not go under to the other side, as it was also impossible to turn around and get on the other path.
-13:3013 minutes, 30 secondsSo I risked it, trusted to my good feet,
-13:3313 minutes, 33 secondsheld myself tight, and came down without harm. And as I walked a little further,
-13:3813 minutes, 38 secondslooked and knew of no other danger, but also knew not what had become of wall and railing.
-13:4513 minutes, 45 secondsAfter I came down, there stood in that place a beautiful rose bush, on which beautiful red and white roses were growing. The red more numerous, however,
-13:5513 minutes, 55 secondsthan the white. I broke off some roses from the bush and put them on my hat.
+I was unwilling to undertake further difficulties, and betook myself out of the den to a great place, and came, I
+know not how, on a very high wall, whose height rose over 100 L's towards the clouds, but on top was not 1 ft wide.
+And there went up from the beginning,
+where I ascended, to the end an iron handrail along the center of the wall with many leaded supports. On this wall
+I came, I say, and me seems there went on the right side of the railing a man several paces before me. But as I
+followed him a while, I saw another following me on the other side. Yet it was doubtful whether man or woman that called to me and said that it was better walking on his side than where I went,
+as I readily believed, because the railing that stood near the middle made the path so narrow that the going at such a height was very bad.
+Then I saw also some that wish to go on that path fall down below behind me. Therefore I swung under the railing,
+holding tight with my hands, and went forward on the other left side, till I finally came to a place on the wall which was very precipitous and dangerous
+to descend. Then first I repented that I had not stayed on the other right side,
+and I could not go under to the other side, as it was also impossible to turn around and get on the other path.
+So I risked it, trusted to my good feet,
+held myself tight, and came down without harm. And as I walked a little further,
+looked and knew of no other danger, but also knew not what had become of wall and railing.
+After I came down, there stood in that place a beautiful rose bush, on which beautiful red and white roses were growing. The red more numerous, however,
+than the white. I broke off some roses from the bush and put them on my hat.
 14:0014 minutesBut there seemed to be in the same place a wall surrounding a great garden. In the garden were lads and their lasses who would gladly be in the garden, but
-14:0914 minutes, 9 secondswould not wander widely or take the trouble to come to the gates. So I pied them. I went further along the path by which I had come, still on the level,
-14:1914 minutes, 19 secondsand went so fast that I soon came to some houses where I supposed I should find the gardener's house. But I found there many people, each having his own
-14:2714 minutes, 27 secondsroom. They were slow. Two together they worked diligently, yet each had his own work. The meaning may be either that
-14:3614 minutes, 36 secondsworking alone they were slow, but in twos they worked diligently, or two of them worked together and were diligent.
-14:4314 minutes, 43 secondsBoth amount to the same thing, as we shall later realize.
-14:4814 minutes, 48 secondsBut what they did, it seems, I had myself done before, and all their work was familiar to me. Especially thought I
-14:5614 minutes, 56 secondssee if so many other people do so much dirty and sloppy work that is only an appearance according to each one's
-15:0215 minutes, 2 secondsconceit but has no reason in nature so it may also be pardoned in you. I wished therefore because I knew such tricks
-15:1115 minutes, 11 secondsvanished like smoke to remain here no longer in vain and proceeded on my former way.
-15:1815 minutes, 18 secondsAfter I had arrived at the gate of the garden, some on one side looked sourly at me, so that I was afraid they might hinder me in my project, but others said, "See, he will go into the garden,
-15:3015 minutes, 30 secondsand we have done garden service here so long, and have never gotten in. We will laugh him down if he fails."
-15:3715 minutes, 37 secondsBut I did not regard all that, as I knew the conditions of this garden better than they, even if I had never been in it, but went right to a gate that was
-15:4615 minutes, 46 secondstight shut, so that one could neither see nor find a keyhole. I noticed, however, that a little round hole that,
-15:5415 minutes, 54 secondswith ordinary eyes could not be seen,
-15:5615 minutes, 56 secondswas in the door, and thought immediately, that must be the way the door is opened, was ready with my specially prepared deer, unlocked, and
-16:0416 minutes, 4 secondswent in. When I was inside the door, I found several other bolted doors which I yet opened without trouble. Here,
-16:1216 minutes, 12 secondshowever, was a passageway just as if it was in a well-built house, some 6 ft wide and 20 long, with a roof above. And
-16:2116 minutes, 21 secondsthough the other doors were still locked, I could easily see through them into the garden as the first door was open.
-16:2816 minutes, 28 secondsI wandered into the garden in God's name, and found in the midst of it a small garden that was square and six roots long, hedged in with rose thorns,
-16:3816 minutes, 38 secondsand the roses bloomed beautifully. But as it was raining gently, and the sun shone in it, it caused a very lovely
-16:4516 minutes, 45 secondsrainbow. When I had passed beyond the little garden, and would go to the place where I was to help the maids, behold, I
-16:5216 minutes, 52 secondswas aware that instead of the walls, a low hurdle stood there. And there went along by the rose garden the most beautiful maiden arrayed in white satin,
-17:0117 minutes, 1 secondwith the most stately youth, who was in scarlet, each giving arm to the other,
-17:0617 minutes, 6 secondsand carrying in their hands many fragrant roses. I spoke to them and asked them how they had come over the hurdle.
-17:1417 minutes, 14 secondsThis, my beloved bridegroom, said she,
-17:1717 minutes, 17 secondshas helped me over, and we are going now out of this beautiful garden into our apartment to enjoy the pleasures of
-17:2317 minutes, 23 secondslove. I am glad, said I, that without any further trouble on my part, your desires are satisfied, yet see how I
-17:3217 minutes, 32 secondshave hurried, and have run so long away and so short a time to serve you." After that, I came into a great mill built
-17:4017 minutes, 40 secondsinside of stones, in which were no flower bins or other things that pertained to grinding, but one saw through the walls several water wheels
-17:4817 minutes, 48 secondsgoing in water. I asked why it had equipment for grinding. An old miller answered that the mill was shut down on
-17:5617 minutes, 56 secondsthe other side. Just then I also saw a miller's boy go in from the slle plank,
-18:0118 minutes, 1 secondand I followed after him. When I had come over the plank, which had the water wheels on the left, I stood still and
-18:0718 minutes, 7 secondswas amazed at what I saw there, for the wheels were now higher than the plank,
-18:1218 minutes, 12 secondsthe water coal, black, but its drops were yet white, and the slle planks were not over three fingers wide. Still I
-18:2018 minutes, 20 secondsventured back, and held on to the sticks that were over the slle planks, and so came safely and dry over the water. Then
-18:2718 minutes, 27 secondsI asked the old miller how many water wheels he had. Turn, answered he. The adventure stuck in my mind. I should have gladly known what the meaning was,
-18:3818 minutes, 38 secondsbut as I noticed that the miller would not leave, I went away, and there was in front of the mill a lofty paved hill, on which were some of the previously mentioned elders who walked in the sun,
-18:4918 minutes, 49 secondswhich then shone very warm, and they had a letter from the whole faculty written to them, on which they were consulting.
-18:5618 minutes, 56 secondsIn our modern mode of expression, the elders had directed a letter to the son,
-19:0119 minutes, 1 secondand so I find the passage in an English version of the parable. This generally bungling translation is nevertheless not
-19:0819 minutes, 8 secondsin the least authoritative, and although an acceptable meaning is derived from it, if one regards the sun as the just
-19:1519 minutes, 15 secondsmentioned prince, yet I believe a freer translation should be given. The elders walked in the warm sunshine. They
-19:2319 minutes, 23 secondsconsulted about a letter written to them by the faculty.
-19:2719 minutes, 27 secondsI soon noticed what the contents must be and that it concerned me. I went therefore to them and said, "Gentlemen,
-19:3519 minutes, 35 secondsdoes it concern me?" "Yes," said they,
-19:3819 minutes, 38 seconds"you must keep in marriage the woman that you have recently taken, or we must notify our prince." I said, "That is no
-19:4619 minutes, 46 secondstrouble, as I was born at the same time as she and brought up as a child with her, and as I have taken her once, I
-19:5319 minutes, 53 secondswill keep her forever, and death itself shall not part us, for I have an ardent affection for her." "What have we then
-20:0120 minutes, 1 secondto complain of?" replied they, "The bride is content, and we have your will. You must culate."
-20:0920 minutes, 9 secondsContented, said I. Well, said one, the lion will then regain his life and become more powerful and mighty than before.
-20:1920 minutes, 19 secondsThen occurred to me my previous trouble and labor, and I thought to myself that for particular reasons it must not concern me, but some other that is well
-20:2820 minutes, 28 secondsknown to me. Then I saw our bridegroom and his bride go by in their previous attire, ready and prepared for culation,
-20:3620 minutes, 36 secondswhich gave me great joy, for I was in great distress, lest the thing might concern me. When then, as mentioned, our
-20:4420 minutes, 44 secondsbridegroom in his brilliant scarlet clothes with his dearest bride, whose white satin coat shot forth bright rays,
-20:5020 minutes, 50 secondscame to the proper marriage age, they joined the two so quickly that I wondered naughty little that this maid that was supposed to be the mother of
-20:5820 minutes, 58 secondsthe bridegroom, was still so young that she appeared to be just born. Now I do not know what sin these two must have
-21:0621 minutes, 6 secondscommitted except that although they were brother and sister, they were in such wise bound by ties of love that they could not be separated and so as it were
-21:1521 minutes, 15 secondswished to be punished for incest. These two were, instead of a bridebed and magnificent marriage, condemned and shut
-21:2321 minutes, 23 secondsup in an enduring and everlasting prison, which because of their high birth and goodly state, and also so that in future they should not be guilty in
-21:3221 minutes, 32 secondssecret, but all their conduct should be known to the guard placed over them and in his sight, was made quite transparent, bright and clear like a
-21:4021 minutes, 40 secondscrystal, and round like a sphere of heaven. And there they were with continual tears and true contrition to atone and make reparation for their past misdeeds.
-21:5121 minutes, 51 secondsInstead of to a bridebed, the two were brought to a prison so that their actions could be watched. The prison was
-21:5821 minutes, 58 secondstransparent. It was a bright crystal clearar chamber like a sphere of heaven corresponding to the high position of the two persons.
-22:0822 minutes, 8 secondsPreviously, however, all their rare clothing and finery that they had put on for ornament was taken away, so that in
-22:1522 minutes, 15 secondssuch a chamber they must be quite naked and merely dwell with each other. It is not directly understood by these words
-22:2222 minutes, 22 secondsthat a cohabitation in modern sense or coition is meant according to modern language the passage must be rendered
-22:2922 minutes, 29 secondshad to dwell near each other naked and bare. One is reminded, moreover, of the nuptual customs that are observed,
-22:3622 minutes, 36 secondsparticularly in the marriage of persons of high birth. In any case, and in spite of my reservation, what occurs is conducive or designed to lead to the sexual union.
-22:4722 minutes, 47 secondsBesides, they gave them no one that had to go into the chamber to wait on them.
-22:5222 minutes, 52 secondsBut after they put in all the necessities in the way of meat and drink, which were created from the aforementioned water, the door of the
-22:5922 minutes, 59 secondschamber was fast bolted and locked. The faculty seal impressed on it, and I was enjoined that I should guard them here,
-23:0723 minutes, 7 secondsand spend the winter before the door.
-23:0923 minutes, 9 secondsThe chamber should be duly warmed so that they be neither too hot nor too cold, and they could neither come out nor escape. But should they, on account of any hope of breaking this mandate,
-23:2023 minutes, 20 secondsescape, I would thereupon be justly subjected to heavy punishment. I was not pleased by the thing. My fear and
-23:2723 minutes, 27 secondssolicitude made me faint-hearted, for I communed with myself that it was no small thing that had befallen me, as I knew also that the college of wisdom was
-23:3623 minutes, 36 secondsaccustomed not to lie, but to put into action what it said. Yet, because I could not change it, beside which this locked chamber stood in the center of a
-23:4523 minutes, 45 secondsstrong tower, and surrounded with strong bull works and high walls, in which one could, with a small but continuous fire,
-23:5223 minutes, 52 secondswarm the whole chamber. I undertook this office and began in God's name to warm the chamber and protect the imprisoned pair from the cold. But what happened?
-24:0224 minutes, 2 secondsAs soon as they perceived the slightest warmth, they embraced each other so tenderly that the like will not soon be seen and stayed so hot that the young
-24:1124 minutes, 11 secondsbridegroom's heart in his body dissolved for ardent love. Also, his whole body almost melted in his beloveds arms and
-24:1824 minutes, 18 secondsfell apart. When she who loved him no less than he did her, saw this, she wept over him passionately, and as it were
-24:2724 minutes, 27 secondsburied him with her tears, so that one could not see, for her gushing tears that overflowed everything where he went. Her weeping and sorrowing had
-24:3624 minutes, 36 secondsdriven her to this in a short time, and she would not, for deep anguish of heart, live longer, but voluntarily give
-24:4324 minutes, 43 secondsherself to death. Ah, woe is me. In what pain and need and trouble was I that my
-24:5124 minutes, 51 secondstwo charges had quite disappeared in water and death alone was left for me.
-24:5624 minutes, 56 secondsMy certain destruction stood before my eyes, and what was the greatest hardship to me? I feared the threatened shame and disgrace that would happen to me more than the injury that would overtake me.
-25:0825 minutes, 8 secondsAs I now passed several days in such solitude and pondered over the question how I could remedy my affairs, it
-25:1525 minutes, 15 secondsoccurred to me how Ma had revived the dead body of Aasan, and I thought to myself, if Ma could do such a thing, why
-25:2325 minutes, 23 secondsshould such a thing fail me? I began at once to bethink me how I would do it.
-25:2925 minutes, 29 secondsfound, however, no better way than I should persist with continual warmth until the waters disappeared, and I might again see the corpses of our
-25:3725 minutes, 37 secondslovers. As I hoped to come off without danger, and with great advantage and praise, I went on with my warmth, that I
-25:4425 minutes, 44 secondshad begun, and continued it 40 whole days, as I was aware that the water kept on diminishing the longer I kept it up,
-25:5225 minutes, 52 secondsand the corpses that were yet as black as coal began again to be visible. And truly this would have occurred before if
-25:5925 minutes, 59 secondsthe chamber had not been all too securely locked and bolted, which I yet did not avail to open. For I noted
-26:0626 minutes, 6 secondsparticularly that the water that rose and hastened to the clouds collected above in the chamber and fell down like rain, so that nothing could come of it
-26:1626 minutes, 16 secondsuntil our bridegroom, with his dearest bride, dead and rotten, and therefore hideously stinking, lay before my eyes.
-26:2426 minutes, 24 secondsAll the while the sunshine in the moist weather caused an exceedingly beautiful rainbow to be seen in the chamber with surprisingly beautiful colors which
-26:3326 minutes, 33 secondsoverjoyed not a little my overpowering affliction.
-26:3726 minutes, 37 secondsMuch more was I delighted that I saw my two lovers lying before me again. But as no joy is so great but is mixed with
-26:4526 minutes, 45 secondsmuch sadness, so I was troubled in my joy, thinking that my charges lay still dead before me, and one could trace no life in them.
-26:5426 minutes, 54 secondsBut because I knew that their chamber was made of such pure and thick material, also so tight locked that their soul and spirit could not get out,
-27:0227 minutes, 2 secondsbut was still closely guarded within, I continued with my steady warmth day and night to perform my delegated office,
-27:1027 minutes, 10 secondsquite impressed with the fact that the two would not return to their bodies as long as the moisture continued. For in
-27:1727 minutes, 17 secondsthe moist state nature keeps itself the same. As I then also found in fact and in truth. For I was aware upon careful
-27:2627 minutes, 26 secondsexamination that from the earth at evening through the power of the sun many vapors arose and drew themselves up just as the sun draws water.
-27:3627 minutes, 36 secondsThey were condensed in the night in a lovely and very fruitful dew which very early in the morning fell and moistened the earth and washed our dead corpses,
-27:4427 minutes, 44 secondsso that from day to day, the longer such bathing and washing continued, the more beautiful and whiter they became.
-27:5327 minutes, 53 secondsBut the fairer and whiter they became,
-27:5527 minutes, 55 secondsthe more they lost moisture, till finally the air being bright and beautiful, and all the mist and moist weather having passed, the spirit and
-28:0328 minutes, 3 secondssoul of the bride could hold itself no longer in the bright air, but went back into the clarified and still more transfigured body of the queen, who soon
-28:1228 minutes, 12 secondsexperienced it, in other words, her soul and spirit, and at once lived again. This then, as I could easily observe,
-28:2128 minutes, 21 secondsnot a little pleased me, especially as I saw her arise in surpassingly costly garments, whose like was never seen on
-28:2828 minutes, 28 secondsearth, and with a precious crown decked with bright diamonds, and also heard her speak.
-28:3428 minutes, 34 secondsHear ye children of men, and perceive ye that are born of women, that the most high power can set up kings, and can
-28:4228 minutes, 42 secondsremove kings. He makes rich and poor according to his will. He kills and makes again to live. See in me a true
-28:5128 minutes, 51 secondsand living example of all that. I was great and became small, but now after having been humbled, I am a queen
-28:5928 minutes, 59 secondselevated over many kingdoms. I have been killed and made to live. To poor me have been trusted and given over the great treasures of the sages and the mighty.
-29:1029 minutes, 10 secondsTherefore, power is also given me to make the poor rich, show kindness to the lowly, and bring health to the sick. But
-29:1829 minutes, 18 secondsI am not yet like my well-beloved brother, the great and powerful king who is still to be awakened from the dead.
-29:2529 minutes, 25 secondsWhen he comes, he will prove that my words are true.
-29:2929 minutes, 29 secondsAnd when she said that, the sun shone very bright, and the day was warmer than before, and the dog days were at hand.
-29:3729 minutes, 37 secondsBut because a long time before there were prepared for the lordly and great wedding of our new queen many costly robes as of black velvet, ash and damasque, gray silk, silver to feta,
-29:4929 minutes, 49 secondssnow white satin, even ones studded with surpassingly beautiful silver pieces and with precious pearls and lordly bright
-29:5729 minutes, 57 secondsgleaming diamonds. So likewise different garments were arranged and prepared for the young king, namely of carnation,
-30:0430 minutes, 4 secondsyellow oranian colors, precious gear,
-30:0730 minutes, 7 secondsand finally a red velvet garment with precious rubies and thickly encrusted with carbunkles. But the tailor that made their clothes were quite invisible,
-30:1630 minutes, 16 secondsso that I also wondered as I saw one coat prepared after another, and one garment after another, how these things
-30:2330 minutes, 23 secondscame to pass, since I well knew that no one came into the chamber except the bridegroom with his bride. So that what
-30:3130 minutes, 31 secondsI wondered at most of all was that as soon as another coat or garment was ready, the first immediately vanished before my eyes, so that I knew not once they came, for who had taken them away.
-30:4330 minutes, 43 secondsWhen now this precious clothing was ready, the great and mighty king appeared in great splendor and magnificence to which nothing might be
-30:5030 minutes, 50 secondscompared. and when he found himself shut in, he begged me with friendly and very gracious words to open the door for him
-30:5830 minutes, 58 secondsand permit him to go out. It would prove of great advantage to me. Although I was strictly forbidden to open the chamber,
-31:0531 minutes, 5 secondsyet the grand appearance and the winning persuasiveness of the king disconcerted me so that I cheerfully let him go. And
-31:1231 minutes, 12 secondswhen he went out, he was so friendly and so gracious, and yet so meek that he proved indeed that nothing did so grace high persons as did these virtues.
-31:2231 minutes, 22 secondsBut because he had passed the dog days in great heat, he was very thirsty, also faint and tired, and directed me to dig
-31:3031 minutes, 30 secondsup some of the swift running water under the mill wheels, and bring it. And when I did, he drank a large part with great eagerness, and went back into his
-31:3931 minutes, 39 secondschamber, and bade me close the door fast behind him, so that no one might disturb him or wake him from sleep.
-31:4631 minutes, 46 secondsHere he rested for a few days, and called to me to open the door. Mei thought, however, that he was much more
-31:5331 minutes, 53 secondsbeautiful, more ruddy, and lordly, which he then also remarked, and deemed it a lordly and wholesome water, drank much
+would not wander widely or take the trouble to come to the gates. So I pied them. I went further along the path by which I had come, still on the level,
+and went so fast that I soon came to some houses where I supposed I should find the gardener's house. But I found there many people, each having his own
+room. They were slow. Two together they worked diligently, yet each had his own work. The meaning may be either that
+working alone they were slow, but in twos they worked diligently, or two of them worked together and were diligent.
+Both amount to the same thing, as we shall later realize.
+But what they did, it seems, I had myself done before, and all their work was familiar to me. Especially thought I
+see if so many other people do so much dirty and sloppy work that is only an appearance according to each one's
+conceit but has no reason in nature so it may also be pardoned in you. I wished therefore because I knew such tricks
+vanished like smoke to remain here no longer in vain and proceeded on my former way.
+After I had arrived at the gate of the garden, some on one side looked sourly at me, so that I was afraid they might hinder me in my project, but others said, "See, he will go into the garden,
+and we have done garden service here so long, and have never gotten in. We will laugh him down if he fails."
+But I did not regard all that, as I knew the conditions of this garden better than they, even if I had never been in it, but went right to a gate that was
+tight shut, so that one could neither see nor find a keyhole. I noticed, however, that a little round hole that,
+with ordinary eyes could not be seen,
+was in the door, and thought immediately, that must be the way the door is opened, was ready with my specially prepared deer, unlocked, and
+went in. When I was inside the door, I found several other bolted doors which I yet opened without trouble. Here,
+however, was a passageway just as if it was in a well-built house, some 6 ft wide and 20 long, with a roof above. And
+though the other doors were still locked, I could easily see through them into the garden as the first door was open.
+I wandered into the garden in God's name, and found in the midst of it a small garden that was square and six roots long, hedged in with rose thorns,
+and the roses bloomed beautifully. But as it was raining gently, and the sun shone in it, it caused a very lovely
+rainbow. When I had passed beyond the little garden, and would go to the place where I was to help the maids, behold, I
+was aware that instead of the walls, a low hurdle stood there. And there went along by the rose garden the most beautiful maiden arrayed in white satin,
+with the most stately youth, who was in scarlet, each giving arm to the other,
+and carrying in their hands many fragrant roses. I spoke to them and asked them how they had come over the hurdle.
+This, my beloved bridegroom, said she,
+has helped me over, and we are going now out of this beautiful garden into our apartment to enjoy the pleasures of
+love. I am glad, said I, that without any further trouble on my part, your desires are satisfied, yet see how I
+have hurried, and have run so long away and so short a time to serve you." After that, I came into a great mill built
+inside of stones, in which were no flower bins or other things that pertained to grinding, but one saw through the walls several water wheels
+going in water. I asked why it had equipment for grinding. An old miller answered that the mill was shut down on
+the other side. Just then I also saw a miller's boy go in from the slle plank,
+and I followed after him. When I had come over the plank, which had the water wheels on the left, I stood still and
+was amazed at what I saw there, for the wheels were now higher than the plank,
+the water coal, black, but its drops were yet white, and the slle planks were not over three fingers wide. Still I
+ventured back, and held on to the sticks that were over the slle planks, and so came safely and dry over the water. Then
+I asked the old miller how many water wheels he had. Turn, answered he. The adventure stuck in my mind. I should have gladly known what the meaning was,
+but as I noticed that the miller would not leave, I went away, and there was in front of the mill a lofty paved hill, on which were some of the previously mentioned elders who walked in the sun,
+which then shone very warm, and they had a letter from the whole faculty written to them, on which they were consulting.
+In our modern mode of expression, the elders had directed a letter to the son,
+and so I find the passage in an English version of the parable. This generally bungling translation is nevertheless not
+in the least authoritative, and although an acceptable meaning is derived from it, if one regards the sun as the just
+mentioned prince, yet I believe a freer translation should be given. The elders walked in the warm sunshine. They
+consulted about a letter written to them by the faculty.
+I soon noticed what the contents must be and that it concerned me. I went therefore to them and said, "Gentlemen,
+does it concern me?" "Yes," said they,
+"you must keep in marriage the woman that you have recently taken, or we must notify our prince." I said, "That is no
+trouble, as I was born at the same time as she and brought up as a child with her, and as I have taken her once, I
+will keep her forever, and death itself shall not part us, for I have an ardent affection for her." "What have we then
+to complain of?" replied they, "The bride is content, and we have your will. You must culate."
+Contented, said I. Well, said one, the lion will then regain his life and become more powerful and mighty than before.
+Then occurred to me my previous trouble and labor, and I thought to myself that for particular reasons it must not concern me, but some other that is well
+known to me. Then I saw our bridegroom and his bride go by in their previous attire, ready and prepared for culation,
+which gave me great joy, for I was in great distress, lest the thing might concern me. When then, as mentioned, our
+bridegroom in his brilliant scarlet clothes with his dearest bride, whose white satin coat shot forth bright rays,
+came to the proper marriage age, they joined the two so quickly that I wondered naughty little that this maid that was supposed to be the mother of
+the bridegroom, was still so young that she appeared to be just born. Now I do not know what sin these two must have
+committed except that although they were brother and sister, they were in such wise bound by ties of love that they could not be separated and so as it were
+wished to be punished for incest. These two were, instead of a bridebed and magnificent marriage, condemned and shut
+up in an enduring and everlasting prison, which because of their high birth and goodly state, and also so that in future they should not be guilty in
+secret, but all their conduct should be known to the guard placed over them and in his sight, was made quite transparent, bright and clear like a
+crystal, and round like a sphere of heaven. And there they were with continual tears and true contrition to atone and make reparation for their past misdeeds.
+Instead of to a bridebed, the two were brought to a prison so that their actions could be watched. The prison was
+transparent. It was a bright crystal clearar chamber like a sphere of heaven corresponding to the high position of the two persons.
+Previously, however, all their rare clothing and finery that they had put on for ornament was taken away, so that in
+such a chamber they must be quite naked and merely dwell with each other. It is not directly understood by these words
+that a cohabitation in modern sense or coition is meant according to modern language the passage must be rendered
+had to dwell near each other naked and bare. One is reminded, moreover, of the nuptual customs that are observed,
+particularly in the marriage of persons of high birth. In any case, and in spite of my reservation, what occurs is conducive or designed to lead to the sexual union.
+Besides, they gave them no one that had to go into the chamber to wait on them.
+But after they put in all the necessities in the way of meat and drink, which were created from the aforementioned water, the door of the
+chamber was fast bolted and locked. The faculty seal impressed on it, and I was enjoined that I should guard them here,
+and spend the winter before the door.
+The chamber should be duly warmed so that they be neither too hot nor too cold, and they could neither come out nor escape. But should they, on account of any hope of breaking this mandate,
+escape, I would thereupon be justly subjected to heavy punishment. I was not pleased by the thing. My fear and
+solicitude made me faint-hearted, for I communed with myself that it was no small thing that had befallen me, as I knew also that the college of wisdom was
+accustomed not to lie, but to put into action what it said. Yet, because I could not change it, beside which this locked chamber stood in the center of a
+strong tower, and surrounded with strong bull works and high walls, in which one could, with a small but continuous fire,
+warm the whole chamber. I undertook this office and began in God's name to warm the chamber and protect the imprisoned pair from the cold. But what happened?
+As soon as they perceived the slightest warmth, they embraced each other so tenderly that the like will not soon be seen and stayed so hot that the young
+bridegroom's heart in his body dissolved for ardent love. Also, his whole body almost melted in his beloveds arms and
+fell apart. When she who loved him no less than he did her, saw this, she wept over him passionately, and as it were
+buried him with her tears, so that one could not see, for her gushing tears that overflowed everything where he went. Her weeping and sorrowing had
+driven her to this in a short time, and she would not, for deep anguish of heart, live longer, but voluntarily give
+herself to death. Ah, woe is me. In what pain and need and trouble was I that my
+two charges had quite disappeared in water and death alone was left for me.
+My certain destruction stood before my eyes, and what was the greatest hardship to me? I feared the threatened shame and disgrace that would happen to me more than the injury that would overtake me.
+As I now passed several days in such solitude and pondered over the question how I could remedy my affairs, it
+occurred to me how Ma had revived the dead body of Aasan, and I thought to myself, if Ma could do such a thing, why
+should such a thing fail me? I began at once to bethink me how I would do it.
+found, however, no better way than I should persist with continual warmth until the waters disappeared, and I might again see the corpses of our
+lovers. As I hoped to come off without danger, and with great advantage and praise, I went on with my warmth, that I
+had begun, and continued it 40 whole days, as I was aware that the water kept on diminishing the longer I kept it up,
+and the corpses that were yet as black as coal began again to be visible. And truly this would have occurred before if
+the chamber had not been all too securely locked and bolted, which I yet did not avail to open. For I noted
+particularly that the water that rose and hastened to the clouds collected above in the chamber and fell down like rain, so that nothing could come of it
+until our bridegroom, with his dearest bride, dead and rotten, and therefore hideously stinking, lay before my eyes.
+All the while the sunshine in the moist weather caused an exceedingly beautiful rainbow to be seen in the chamber with surprisingly beautiful colors which
+overjoyed not a little my overpowering affliction.
+Much more was I delighted that I saw my two lovers lying before me again. But as no joy is so great but is mixed with
+much sadness, so I was troubled in my joy, thinking that my charges lay still dead before me, and one could trace no life in them.
+But because I knew that their chamber was made of such pure and thick material, also so tight locked that their soul and spirit could not get out,
+but was still closely guarded within, I continued with my steady warmth day and night to perform my delegated office,
+quite impressed with the fact that the two would not return to their bodies as long as the moisture continued. For in
+the moist state nature keeps itself the same. As I then also found in fact and in truth. For I was aware upon careful
+examination that from the earth at evening through the power of the sun many vapors arose and drew themselves up just as the sun draws water.
+They were condensed in the night in a lovely and very fruitful dew which very early in the morning fell and moistened the earth and washed our dead corpses,
+so that from day to day, the longer such bathing and washing continued, the more beautiful and whiter they became.
+But the fairer and whiter they became,
+the more they lost moisture, till finally the air being bright and beautiful, and all the mist and moist weather having passed, the spirit and
+soul of the bride could hold itself no longer in the bright air, but went back into the clarified and still more transfigured body of the queen, who soon
+experienced it, in other words, her soul and spirit, and at once lived again. This then, as I could easily observe,
+not a little pleased me, especially as I saw her arise in surpassingly costly garments, whose like was never seen on
+earth, and with a precious crown decked with bright diamonds, and also heard her speak.
+Hear ye children of men, and perceive ye that are born of women, that the most high power can set up kings, and can
+remove kings. He makes rich and poor according to his will. He kills and makes again to live. See in me a true
+and living example of all that. I was great and became small, but now after having been humbled, I am a queen
+elevated over many kingdoms. I have been killed and made to live. To poor me have been trusted and given over the great treasures of the sages and the mighty.
+Therefore, power is also given me to make the poor rich, show kindness to the lowly, and bring health to the sick. But
+I am not yet like my well-beloved brother, the great and powerful king who is still to be awakened from the dead.
+When he comes, he will prove that my words are true.
+And when she said that, the sun shone very bright, and the day was warmer than before, and the dog days were at hand.
+But because a long time before there were prepared for the lordly and great wedding of our new queen many costly robes as of black velvet, ash and damasque, gray silk, silver to feta,
+snow white satin, even ones studded with surpassingly beautiful silver pieces and with precious pearls and lordly bright
+gleaming diamonds. So likewise different garments were arranged and prepared for the young king, namely of carnation,
+yellow oranian colors, precious gear,
+and finally a red velvet garment with precious rubies and thickly encrusted with carbunkles. But the tailor that made their clothes were quite invisible,
+so that I also wondered as I saw one coat prepared after another, and one garment after another, how these things
+came to pass, since I well knew that no one came into the chamber except the bridegroom with his bride. So that what
+I wondered at most of all was that as soon as another coat or garment was ready, the first immediately vanished before my eyes, so that I knew not once they came, for who had taken them away.
+When now this precious clothing was ready, the great and mighty king appeared in great splendor and magnificence to which nothing might be
+compared. and when he found himself shut in, he begged me with friendly and very gracious words to open the door for him
+and permit him to go out. It would prove of great advantage to me. Although I was strictly forbidden to open the chamber,
+yet the grand appearance and the winning persuasiveness of the king disconcerted me so that I cheerfully let him go. And
+when he went out, he was so friendly and so gracious, and yet so meek that he proved indeed that nothing did so grace high persons as did these virtues.
+But because he had passed the dog days in great heat, he was very thirsty, also faint and tired, and directed me to dig
+up some of the swift running water under the mill wheels, and bring it. And when I did, he drank a large part with great eagerness, and went back into his
+chamber, and bade me close the door fast behind him, so that no one might disturb him or wake him from sleep.
+Here he rested for a few days, and called to me to open the door. Mei thought, however, that he was much more
+beautiful, more ruddy, and lordly, which he then also remarked, and deemed it a lordly and wholesome water, drank much
 32:0032 minutesof it, more than before, so that I was resolved to build the chamber much larger. evidently because the inmate
-32:0832 minutes, 8 secondsincreased in size. When now the king had drunk to his satisfaction of this precious drink, which yet the unknowing
-32:1532 minutes, 15 secondsregard as nothing, he became so beautiful and lordly that in my whole life I never saw a more lordly person,
-32:2232 minutes, 22 secondsnor more lordly demeanor. Then he led me into his kingdom and showed me all the treasures and riches of the world, so
-32:3032 minutes, 30 secondsthat I must confess that not only had the queen announced the truth, but also had omitted to describe the greater part of it, as it seemed to those that know
-32:3832 minutes, 38 secondsit. For there was no end of gold and noble carbuncle there. Rejuvenation and restoration of natural forces, and also
-32:4732 minutes, 47 secondsrecovery of lost health, and removal of all diseases were a common thing in that place. The most precious of all was that
-32:5532 minutes, 55 secondsthe people of that land knew their creator, feared and honored him, and asked of him wisdom and understanding.
-33:0233 minutes, 2 secondsAnd finally, after this transitory glory, an everlasting blessedness. To that end, help us God the Father,
-33:1133 minutes, 11 secondsSon, and Holy Ghost. Amen.
-33:1633 minutes, 16 secondsThe author of the preceding narrative calls it a parable. Its significance may have indeed appeared quite transparent to him, and he presupposes that the
-33:2533 minutes, 25 secondsreaders of his day knew what form of learning he masked in it. The story impresses us as rather a fairy story or
-33:3233 minutes, 32 secondsa picturesque dream. If we compare parables that come nearer to our modern point of view, and are easily understood on account of their simplicity, like
-33:4133 minutes, 41 secondsthose of Ruckert or those of the New Testament, the difference can be clearly seen. The unnamed author evidently
-33:4833 minutes, 48 secondspursues a definite aim. One does find some unity in the bizarre confusion of his ideas, but what he is aiming at and
-33:5533 minutes, 55 secondswhat he wishes to tell us with his images, we cannot immediately conceive.
+increased in size. When now the king had drunk to his satisfaction of this precious drink, which yet the unknowing
+regard as nothing, he became so beautiful and lordly that in my whole life I never saw a more lordly person,
+nor more lordly demeanor. Then he led me into his kingdom and showed me all the treasures and riches of the world, so
+that I must confess that not only had the queen announced the truth, but also had omitted to describe the greater part of it, as it seemed to those that know
+it. For there was no end of gold and noble carbuncle there. Rejuvenation and restoration of natural forces, and also
+recovery of lost health, and removal of all diseases were a common thing in that place. The most precious of all was that
+the people of that land knew their creator, feared and honored him, and asked of him wisdom and understanding.
+And finally, after this transitory glory, an everlasting blessedness. To that end, help us God the Father,
+Son, and Holy Ghost. Amen.
+The author of the preceding narrative calls it a parable. Its significance may have indeed appeared quite transparent to him, and he presupposes that the
+readers of his day knew what form of learning he masked in it. The story impresses us as rather a fairy story or
+a picturesque dream. If we compare parables that come nearer to our modern point of view, and are easily understood on account of their simplicity, like
+those of Ruckert or those of the New Testament, the difference can be clearly seen. The unnamed author evidently
+pursues a definite aim. One does find some unity in the bizarre confusion of his ideas, but what he is aiming at and
+what he wishes to tell us with his images, we cannot immediately conceive.
 34:0034 minutesThe main fact for us is that the anonymous writer speaks in the language that shows decided affinity with that of dreams and myths. Therefore, however we
-34:0934 minutes, 9 secondsmay explain in what follows the peculiarly visionary character of the parable, we feel compelled to examine it with the help of a psychological method,
-34:1834 minutes, 18 secondswhich endeavoring to get from the surface to the depths, will be able to trace analytically the formative powers of the dream life and allied phenomena
-34:2634 minutes, 26 secondsand explain their mysterious symbols. I have still to reveal in what book and in what circumstances the parable appears.
-34:3434 minutes, 34 secondsIt is in the second volume of a book G Figuran D Roen Croitzer Odem 16 and 17
-34:4234 minutes, 42 secondsYarund published at Altona about 1785 to 90. Its chief contents are large plates
-34:4934 minutes, 49 secondswith pictorial representations and with them a number of pages of text. According to a note on the title page,
-34:5734 minutes, 57 secondsthe contents are for the first time brought to light from an old manuscript.
-35:0135 minutes, 1 secondThe parable is in the second volume of a three volume series which bears the subtitle a golden tract on the philosophical stone of a still living
-35:1035 minutes, 10 secondsbut unnamed philosophy the filious doctrine for teaching but described the fratbus aurora cusus for information ano
-35:2035 minutes, 20 seconds1625 if I add that this book is a hermetic treatise or alchemistic it may furnish a general classification for it but will
-35:2835 minutes, 28 secondshardly give any definite idea of its nature not merely on account of the oblivion into which this kind of writing has now fallen, but also because the few ideas
-35:3735 minutes, 37 secondsusually connected with it produce a distorted picture. The hermetic art, as it is treated here, the principles of
-35:4535 minutes, 45 secondswhich strike us today as fantastic, is related to several secret sciences and organizations, some of which have been discredited, magic, cabala,
-35:5435 minutes, 54 secondsrosacrushianism, etc. It is particularly closely connected with alchemy so that the terms hermetic art and alchemy and
-36:0236 minutes, 2 secondseven royal art are often used synonymously.
-36:0636 minutes, 6 secondsThis art to call it by the name that not without some justification it applies to itself leads us by virtue of its many
-36:1336 minutes, 13 secondsramifications into a large number of provinces which furnish us desirable material for our research. So I will
-36:2036 minutes, 20 secondsfirst purposely advancing on one line regard the parable as a dream or a fairy tale and analyze it psychoanalytically.
-36:2836 minutes, 28 secondsThis treatment will for the information of the reader be preceded by a short exposition of psychoanalysis as a method
-36:3536 minutes, 35 secondsof interpretation of dreams and fairy tales. Then I will still seeking for the roots of the matter introduce the doctrines that the pictorial language of
-36:4436 minutes, 44 secondsthe parable symbolizes. I will give consideration to the chemical viewpoint of alchemy and also the hermetic philosophy and its hieroglyphic educational methods.
-36:5536 minutes, 55 secondsConnections will be developed with religious and ethical topics and we shall have to take into account the historical and psychological relations
-37:0237 minutes, 2 secondsof hermetic thought with rosacrrucianism in its various forms and freemasonry.
-37:0737 minutes, 7 secondsAnd when we begin at the conclusion of the analytical section of my work to apply to the solution of our parable and of several folktales the insight we have
-37:1637 minutes, 16 secondsgained, we shall be confronted with a problem in which we shall face two apparently contradictory interpretations according to whether we follow the lead
-37:2437 minutes, 24 secondsof psychoanalysis or of the hermetic hieroglyphic solution. A question will then arise whether and how the
-37:3137 minutes, 31 secondscontradiction occurs. How shall we bring into relation with each other and reconcile the two different interpretations which are quite different and complete in themselves?
-37:4137 minutes, 41 secondsThe question arising from these several illustrations expands into a general problem to which the synthetic part of my book is devoted. This will among
-37:5037 minutes, 50 secondsother considerations lead us into the psychology of symbolm where again the discoveries of psychoanalysis come to
-37:5837 minutes, 58 secondsour aid. We shall not be satisfied with analysis, but endeavor to follow up certain evolutionary tendencies which
-38:0538 minutes, 5 secondsexpressed in psychological symbols developing according to natural laws will allow us to conjecture a spiritual
-38:1238 minutes, 12 secondsbuilding up or progression that one might call an anabasis.
-38:1738 minutes, 17 secondsWe shall see plainly by this method of study how the original contradiction arises and how what was previously irreconcilable turns out to be two poles
-38:2638 minutes, 26 secondsof an evolutionary process. By that means several principles of myth interpretation will be derived.
-38:3438 minutes, 34 secondsI have just spoken of an anabasis. By that we are to understand a forward movement in a moral or religious sense.
-38:4238 minutes, 42 secondsThe most intensive exampler of the anabasis, whatever this may be, is mysticism. I can but grope about in the
-38:4938 minutes, 49 secondspsychology of mysticism. I trust I may have more confidence at that point where I look at its symbolism from the ethical point of view.
-38:5938 minutes, 59 secondsSection two, dream and myth interpretation.
-39:0639 minutes, 6 secondsReaders versed in Freud's psychoanalysis are requested to pass over this chapter, as they will find only familiar matter.
-39:1439 minutes, 14 secondsIn the narrative which we have just examined, its dreamlike character is quite noticeable. On what does it depend? Evidently, the parable must bear
-39:2339 minutes, 23 secondsmarks that are peculiar to the dream. In looking for correspondences, we discover them even upon superficial examination.
-39:3139 minutes, 31 secondsMost noticeable is the complete and sudden change of place. The wanderer, as I will hereafter call the narrator of the parable, sees himself immediately
-39:4039 minutes, 40 secondstransported from the place near the lion's den to the top of a wall and does not know how he has come there. Later,
-39:4639 minutes, 46 secondshe comes down just as suddenly, and in still other parts of the story, there occurs just as rapid changes of scene as one is accustomed to in dreams.
-39:5639 minutes, 56 secondsCharacteristic also is the fact that objects change or vanish. The shift of scene resembles also, as often in a dream, a complete transformation.
-40:0540 minutes, 5 secondsThus, for instance, as soon as the wanderer has left the wall, it vanishes without leaving a trace as if it had never been. A similar change is also
-40:1440 minutes, 14 secondsrequired in the garden scene, where instead of the previously observed enclosing wall, a low hedge appears in a surprising manner. Further, we are
-40:2340 minutes, 23 secondssurprised by instances of knowledge without perception. Often in a dream one knows something without having experienced it in person. We simply know
-40:3240 minutes, 32 secondswithout knowing how that in such a house something definite and full of mystery has happened. Or we know that this man whom we see now for the first time is
-40:4140 minutes, 41 secondscalled so and so. We are in some place for the first time but know quite surely that there must be a fountain behind that wall to which for any reason we
-40:4940 minutes, 49 secondshave to go etc. Such unmediated knowledge occurs several times in the parable. In the beginning of the narrative, the wanderer, although a
-40:5840 minutes, 58 secondsstranger, knows that the lovely meadow is called by its inhabitants, Pum Festatus.
-41:0441 minutes, 4 secondsHe knows intuitively the name of one of the men unknown to him. In the garden scene, he knows, although he has noticed only the young men, that some young
-41:1241 minutes, 12 secondswomen, whom, on account of the nature of the place, he cannot then see, are desirous of going into the garden to these young men. One might say that all
-41:2141 minutes, 21 secondsthis is merely a peculiarity of the representation in as much as the author has for convenience or on account of
-41:2741 minutes, 27 secondslack of skill or for brevity left out some connecting link which would have afforded us the means of acquiring this unexplained knowledge. The likeness to
-41:3641 minutes, 36 secondsthe dream therefore would in that case be inadmissible. To this objection it may be replied that the dream does exactly like the author of the parable.
-41:4541 minutes, 45 secondsOur study is chiefly concerned with the product of the fancy and forces us to the observation, whatever may be the cause of it, that the parable and the
-41:5441 minutes, 54 secondsdream life have certain peculiarities of representation in common. In contrast to the miraculous knowledge, we find in the
-42:0242 minutes, 2 secondsdream a peculiar unsuress in many things, particularly in those which concern the personality of the wanderer.
-42:0842 minutes, 8 secondsWhen the elders inform the wanderer that he must marry the woman that he has taken, he does not know clearly whether the matter at all concerns him or not.
-42:1642 minutes, 16 secondsThe remarkable fluctuation in his attitude takes place. We wonder whether he has taken on the role of the bridegroom, or quite the reverse, the
-42:2542 minutes, 25 secondsbridegroom has taken the wanderers. We are likewise struck by similar uncertainties like those during the walk on top of the wall where the wanderer is
-42:3342 minutes, 33 secondsfollowed by someone of whom he does not know whether it is a man or a woman.
-42:3842 minutes, 38 secondsHere belong also those passages of the narrative introduced by the wanderer with as if etc. In the search for the
-42:4642 minutes, 46 secondsgardener's house he chances upon many people and it seems that he has himself done what these people are there doing.
-42:5342 minutes, 53 secondsQuite characteristic also are the different obstructions and other difficulties placed in the path of the wanderer. Even in the first paragraph of
-43:0143 minutes, 1 secondthe narrative, we hear that he is startled, would gladly turn back, but cannot because a strong wind prevents him. On top of the wall, the railing
-43:1043 minutes, 10 secondsmakes his progress difficult. On other occasions, a wall or a door. The first experience especially recalls those
-43:1843 minutes, 18 secondsfrequent occurrences in dreams where anxiously turning in flight or oppressed by tormenting haste we cannot move. In
-43:2543 minutes, 25 secondsconnection with what is distressing and threatening as described in the precipitous slope of the wall and the narrow plank by the mill belong also the
-43:3443 minutes, 34 secondsdesperate tasks and demands quite usual in dreams and myths that meet the wanderer. Among such tasks or dangers, I
-43:4243 minutes, 42 secondswill only mention the severe examination by the elders, the struggle with the lion, the obligation to marry, and the burden of responsibility for the nuptual
-43:5143 minutes, 51 secondspair, all of which cause the wanderer so much anxiety. Among the evident dream analogies belong finally, without,
-43:5843 minutes, 58 secondshowever, completing my list of them, the peculiar logic that appears quite conventional to the wanderer or the dreamer, but seldom satisfies the reader
-44:0744 minutes, 7 secondsor the careful reasoner. As examples, I mentioned that the dead lion will be called to life again if the wanderer marries the woman that he recently took,
-44:1644 minutes, 16 secondsand that they put the two lovers that they want to punish for incest after they have carefully removed all the clothes from their bodies into a prison
-44:2344 minutes, 23 secondswhere these lovingly embrace. So much for the external resemblances of the parable with the dream life. The deeper affinity which can be shown in its
-44:3244 minutes, 32 secondsinnermost structure will first appear in the psychoanalytic treatment. And now it will be advisable for me to give readers
-44:3944 minutes, 39 secondsnot intimately acquainted with dream psychology some information concerning modern investigations in dream life and in particular concerning psychoanalytic
-44:4944 minutes, 49 secondsdoctrines and discoveries. Naturally I can do this only in the briefest manner.
-44:5444 minutes, 54 secondsFor a more thorough study, I must refer the reader to the work of Freud and his school. The most important books are mentioned in the bibliography at the
-45:0245 minutes, 2 secondsend. Modern scientific investigation of dreams, in which Freud has been a pioneer, has come to the conclusion, but
-45:1045 minutes, 10 secondsin a different sense from the popular belief that dreams have a significance.
-45:1545 minutes, 15 secondsWhile the popular belief says that they foretell something of the future,
-45:1845 minutes, 18 secondsscience shows that they have a meaning that is present in the psyche and determined by the past. Dreams are then,
-45:2545 minutes, 25 secondsas Freud's results show, always wish fantasies. I give here only exposition,
-45:3045 minutes, 30 secondsnot criticism. My later application of psychoanalysis, will show what reservations I make concerning Freud's doctrines. In them, wishes, strivings,
-45:4145 minutes, 41 secondsimpulses work themselves out, rising to the surface from the depths of the soul.
-45:4645 minutes, 46 secondsWhen they come in waking life, wish fantasies are sometimes called castles in the air. In dreams, we have the fulfillment of wishes that are not or
-45:5445 minutes, 54 secondscannot be fulfilled. But the impulses that the dreams call up are principally such wishes and impulses as we cannot
-46:0246 minutes, 2 secondsourselves acknowledge and such as in a waking state we reject as soon as they attempt to announce themselves as for
-46:0946 minutes, 9 secondsinstance animal tendencies or such sexual desires as we are unwilling to admit and also suppressed or repressed
-46:1746 minutes, 17 secondsimpulses as a result of being repressed. They have the peculiarity of being in general inaccessible to consciousness. Freud
-46:2646 minutes, 26 secondsspeaks particularly of crassly egoistic actuations. The criminal element in them is emphasized by Stickle.
-46:3446 minutes, 34 secondsOne not initiated into dream analysis may object that the obvious evidence is against this theory, for the majority of
-46:4146 minutes, 41 secondsdreams picture quite inoffensive processes that have nothing to do with impulses and passions which are worthy of rejection on either moral or other
-46:5046 minutes, 50 secondsgrounds. The objection appears at first sight to be wellfounded, but collapses as soon as we learn that the critical power of morality, which does not desert
-46:5946 minutes, 59 secondsus by day, retains by night a part of its power. And that therefore the fugitive impulses and tendencies that seek the darkness and dare not come
-47:0847 minutes, 8 secondsforth by day dare not even at night unveil their true aspect but have to approach as it were in costumes or
-47:1547 minutes, 15 secondsdisguised as symbols or allegorories in order to pass unchallenged.
-47:2047 minutes, 20 secondsThe superintending power that I just now called the power of morality is compared very pertinently to a sensor. What our psyche produces is, so to speak,
-47:3147 minutes, 31 secondssubjected to a sensor before it is allowed to emerge into the light of consciousness. And if the fugitive elements want to venture forth, they
-47:3847 minutes, 38 secondsmust be correspondingly disguised in order to pass the sensor. Freud calls this disguising or paraphrasing process
-47:4647 minutes, 46 secondsthe dream disfigurement. The literal is thereby displaced by the figurative, an illusion intimated through a nebulous
-47:5447 minutes, 54 secondsatmosphere. Thus, in the following example, an unconscious death wish is exhibited. In the examination of a
-48:0148 minutes, 1 secondlady's dream, it struck me that the motive of a dead child occurred repeatedly, generally in connection with picnics. During an analysis, the lady
-48:1048 minutes, 10 secondsobserved that when she was a girl, the children, her younger brothers and sisters, were often the obstacles when it was proposed to have a party or
-48:1748 minutes, 17 secondscelebration or the like. The association kinder equaling children, hinderness,
-48:2448 minutes, 24 secondsequaling obstacle, furnished the key to a solution of the stereotyped dream motive. As further indications showed,
-48:3248 minutes, 32 secondsit concerned the children of a married man whom she loved. The children prevented the man separating from his wife in order to marry the lady. In waking life, she would not, of course,
-48:4248 minutes, 42 secondsadmit a wish for the death of the embarrassing children, but in dreams the wish broke through and represented the secretly wished situation. The children
-48:5148 minutes, 51 secondsare dead, and nothing now stands in the way of the party or the celebration or wedding. The double sense of the word
-48:5848 minutes, 58 secondsparty is noticeable. In German, a party makin means both to go on an excursion
-49:0449 minutes, 4 secondsand to make a matrimonial match. Such puns are readily made use of by dreams in order to make the objectionable
-49:1249 minutes, 12 secondsappear unobjectionable and so to get by the sensor. Psychoanalytic procedure employed in the interpretation of dreams
-49:2049 minutes, 20 secondsof any person can be called a scientifically organized confession that traces out with infinite patience even to the smallest ramifications the
-49:2949 minutes, 29 secondsspiritual inventory of what was tucked away in the mind of the person undergoing it. Psychoanalysis is used in medical practice to discover and relieve
-49:3849 minutes, 38 secondsthe spiritual causes of neurotic phenomena. The patient is induced to tell more and more starting from a given
-49:4549 minutes, 45 secondspoint thereby going into the most intimate details and yet we are aware in the network of outcropping thoughts and
-49:5249 minutes, 52 secondsmemories of certain points of connection which have dominating significance for the effective life of the person being
-49:5949 minutes, 59 secondsstudied. Here the path begins to be hard because it leads into the intimately personal. The secret places of the soul
-50:0750 minutes, 7 secondsset up a powerful opposition to the intruder even without the propulsive action of the patient. Right there are,
-50:1350 minutes, 13 secondshowever, to speak the sore spots, the pathogenic complexes of the psyche towards which the research is directed.
-50:2150 minutes, 21 secondsFirmly advancing in spite of the limitations, we lay bare these roots of the soul that strive to cling to the unconscious. Those are the disfigured
-50:3050 minutes, 30 secondselements just mentioned. All of the items of the spiritual inventory from which the person in question has toilsomely worked himself out and from
-50:3950 minutes, 39 secondswhich he suppososes himself free. They must be silent because they stand in some contradictory relation to the character in which the person has
-50:4750 minutes, 47 secondsclothed himself. And if they, these subterranean elements, still try to announce themselves, he hurls them back
-50:5450 minutes, 54 secondsimmediately into their underworld. He allows himself to think of nothing that offends too much his attitudes, his morality, and his feelings. He does not
-51:0351 minutes, 3 secondsgive verbal expression to the disturbers of the peace that dwell in his heart of hearts. The mischief makers are,
-51:1151 minutes, 11 secondshowever, merely repressed, not dead.
-51:1451 minutes, 14 secondsThey are like the Titans. On this similarity rests the psychologic term Titanic, used frequently by me in what
-51:2251 minutes, 22 secondsfollows, which were not crushed by the gods of Olympus, but only shut up in the depths of Tartarus. There they wait for
-51:2951 minutes, 29 secondsthe time when they can again arise and show their faces in daylight. The earth trembles at their attempts to free themselves. Thus the titanic forces of
-51:3851 minutes, 38 secondsthe soul strive powerfully upward, and as they may not live in the light of consciousness, they rave in darkness.
-51:4551 minutes, 45 secondsThey take the main part in the procreation of dreams, produce in some cases hysterical symptoms, compulsion ideas and acts, anxiety, neurosis, etc.
-51:5651 minutes, 56 secondsThe examination of these psychic disturbances is not without importance for our later researches.
-52:0352 minutes, 3 secondsPsychoanalysis, which has not at any time been limited to medical practice,
-52:0752 minutes, 7 secondsbut soon began with its torch to illumin the activity of the human spirit in all its forms, poetry, mythmaking, etc., was
-52:1652 minutes, 16 secondsdecrieded as pernicious in many quarters. The question as to how widely psychoanalysis may be employed would at
-52:2252 minutes, 22 secondsthis time lead us too far. Yet, it will be considered in section one of the synthetic part of this volume.
-52:3052 minutes, 30 secondsNow it is indeed true that it leads us towards all kinds of spiritual refues.
-52:3452 minutes, 34 secondsIt does so however in the service of truth and it would be unfortunate to deny to truth its right to justify itself. Any one determined to do so
-52:4452 minutes, 44 secondscould in that case defend a theory that sexual maladies are acquired by catching a cold. The spiritual refuge that
-52:5152 minutes, 51 secondspsychoanalysis uncovers is like the manure on which our cultivated fruits thrive. The dark titanic impulses are
-52:5952 minutes, 59 secondsthe raw material from which in every man the work of civilization forms an ethical character. Where there is a strong light, there are deep shadows.
-53:0853 minutes, 8 secondsShould we be so insincere as to deny because of supposed danger the shadows in our inmost selves? Do we not diminish
-53:1653 minutes, 16 secondsthe light by doing so? Morality, in whose name we are so scrupulous, demands above everything else truth and sincerity.
-53:2553 minutes, 25 secondsBut the beginning of all truth is that we do not impose upon ourselves. Know thyself is written over the entrance of
-53:3153 minutes, 31 secondsthe Pythian sanctuary. And it is this inspiring summons of the radiant god of delelfi that psychoanalysis seeks to
-53:3953 minutes, 39 secondsmeet. After this introductory notice, it will be possible properly to understand the following instructive example which contains exquisite sexual symbolism.
-53:5053 minutes, 50 secondsDream of Mr. T. I dreamed I was riding on the railroad. Near me sat a delicate,
-53:5653 minutes, 56 secondseffeminite young man or boy. His presence caused erotic feelings in me to a certain extent. It appeared as if I
-54:0354 minutes, 3 secondsput my arm about him. The train came to a standstill. We had arrived at a station and got out. I went with the boy
-54:1054 minutes, 10 secondsinto a valley through which ran a small brook on whose bank were strawberries.
-54:1554 minutes, 15 secondsWe picked a great many. After I had gathered a large number, I returned to the railway and awoke.
-54:2254 minutes, 22 secondssupplementary communication.
-54:2554 minutes, 25 secondsI think I remember that an uncomfortable feeling came over me in the boy's company. The valley branched off to the left from the railway.
-54:3354 minutes, 33 secondsFrom a discussion of the dream, it next appeared that T, who, as far as I knew,
-54:3754 minutes, 37 secondsentertained a pronounced aversion to homosexuality, had read a short time before a detailed account of a notorious
-54:4454 minutes, 44 secondstrial then going on in Germany that was concerned with real homosexual actions.
-54:4954 minutes, 49 secondsIn consciousness, of course, in the suppressed depths of the unconsciousness, the infantile homosexual component also will surely be
-54:5754 minutes, 57 secondsfound. An incident from it, probably supported by some unconscious impulse,
-55:0255 minutes, 2 secondscrowded its way into the dream as an erotic wish, hence the affectionate scene in the railway train. So far, the
-55:1055 minutes, 10 secondsmatter would be intelligible, even if in an erotic daydream the image of a boy,
-55:1455 minutes, 14 secondsconsidering the existing sexual tendency of tea, had been resolutely rejected by him. How are the other processes in the
-55:2155 minutes, 21 secondsdream related to it? Do they not at first sight appear unconnected or meaningless? And yet in them are manifested the fulfillment of the wish
-55:3055 minutes, 30 secondsimplied in the erotic excitement in the company of the boy. The homosexual action of this wish fulfillment would have been insufferable to the dream
-55:3855 minutes, 38 secondssensor. It must be intimated symbolically, and the remainder of the dream is accordingly nothing but a dextrous veiling of a procedure hostile to the sensor.
-55:4955 minutes, 49 secondsEven that the train comes to a standstill is a polite paraphrase.
-55:5355 minutes, 53 secondsParaphrase, as the dreamer communicated to me, of an actual physical condition,
-55:5755 minutes, 57 secondsan erection. Similar meaning is conveyed by the word station which reminds us of the Latin word status from stare to
-56:0656 minutes, 6 secondsstand. The scene in the car recalls moreover the joke in the story which often used to occur to te a lady invited
-56:1456 minutes, 14 secondsto a reception where there were also young girls a Hungarian accentuated now on account of what follows the typical
-56:2156 minutes, 21 secondsVienna joker who is feared on account of his racy wit. She enjoined him at the same time in view of the presence of the
-56:2856 minutes, 28 secondsgirls not to treat them to any of his spicy gests. The Hungarian agreed and appeared at the party. To the amazement
-56:3656 minutes, 36 secondsof the lady, he proposed the following riddle. One can enter from in front or from behind. Only one has to stand up.
-56:4456 minutes, 44 secondsObserving the despair of the lady, he with a sly, innocent look said, but well then, what is it? Simply a trolley car.
-56:5356 minutes, 53 secondsNext day, the daughter of the house appeared before her schoolmates in the high school with the following. Girls, I heard a great joke yesterday. One can go
-57:0257 minutes, 2 secondsin from in front or behind. Only one must be stiff. A neat contribution, by the way, to the psychology of innocent
-57:0957 minutes, 9 secondsgirlhood. The anecdote was related to Te by a man later known to him as a homosexual. Te had been with a few Hungarians, but with these few,
-57:1857 minutes, 18 secondshomosexuality had been, as it happened, a favorite subject of conversation.
-57:2357 minutes, 23 secondsIn the above we find many highly suggestive elements. The most suggestive is however the strawberries. Ti had as
-57:3057 minutes, 30 secondsappeared during the process of the analysis a couple of days before the dream read a French story where the expression new to him quailier de Frzes
-57:4057 minutes, 40 secondsoccurred. He went to a Frenchman for the explanation of this phrase and learned that it was a delicate way of speaking of the sexual act because lovers like to
-57:4857 minutes, 48 secondsgo into the woods under the pretext of picking strawberries and thus separate themselves from the rest of the company.
-57:5557 minutes, 55 secondsIn whatever way the dream wish conceived its gratification, the valley between the two hills through which the brook flowed furnishes quite a definite suggestion.
-58:0458 minutes, 4 secondsHere also the above mentioned from behind probably gets a meaning. The circumstance that the dream has, as it
-58:1158 minutes, 11 secondswere, two faces, with one that openly exposes to view, implies that a distinction must be made between the manifest and the latent material. The
-58:2058 minutes, 20 secondsopenly exposed face is the manifest dream content, as the wording of the dream report represents the dream. What is concealed is the latent dream
-58:2958 minutes, 29 secondsthoughts. For the most part, a broad tissue of dream thoughts is condensed into a dream. A part of the dream thoughts, not all, belongs regularly to
-58:3858 minutes, 38 secondsthe titanic elements of our psyche. The shaping of the dream out of the dream thoughts is called by Freud the dream work. Four principles direct it.
-58:4758 minutes, 47 secondsCondensation, displacement,
-58:4958 minutes, 49 secondsrepresentability, and secondary elaboration. Condensation was just now mentioned.
-58:5558 minutes, 55 secondsMany dream thoughts are condensed to relatively few, but therefore all the more significant images. Every image,
-59:0359 minutes, 3 secondsperson, object, etc. is want to be determined by several dream thoughts.
-59:0859 minutes, 8 secondsHence, we speak of multiple determination or overdetermination.
-59:1259 minutes, 12 secondsDisplacement shows itself in the fact that the dream evidently in the service of distortion pushes forward the unreal
-59:1959 minutes, 19 secondsand pushes aside the real. in short rearranges the psychic values or interest in such a way that the dream in
-59:2659 minutes, 26 secondscomparison with its latent thoughts appears as it were displaced or elsewhere centered. As the dream is a perceptual representation, it must put
-59:3559 minutes, 35 secondsinto perceptually comprehensible form everything that it wants to express,
-59:4059 minutes, 40 secondseven that which is most abstract. The tendency to vividly perceptual or plastic expression that is characteristic of the dream corresponds accordingly to the representability.
-59:5259 minutes, 52 secondsTo the secondary elaboration, we have to credit the last polishing of the dream fabric. It looks after the logical connection in the pictorial material
+may explain in what follows the peculiarly visionary character of the parable, we feel compelled to examine it with the help of a psychological method,
+which endeavoring to get from the surface to the depths, will be able to trace analytically the formative powers of the dream life and allied phenomena
+and explain their mysterious symbols. I have still to reveal in what book and in what circumstances the parable appears.
+It is in the second volume of a book G Figuran D Roen Croitzer Odem 16 and 17
+Yarund published at Altona about 1785 to 90. Its chief contents are large plates
+with pictorial representations and with them a number of pages of text. According to a note on the title page,
+the contents are for the first time brought to light from an old manuscript.
+The parable is in the second volume of a three volume series which bears the subtitle a golden tract on the philosophical stone of a still living
+but unnamed philosophy the filious doctrine for teaching but described the fratbus aurora cusus for information ano
+1625 if I add that this book is a hermetic treatise or alchemistic it may furnish a general classification for it but will
+hardly give any definite idea of its nature not merely on account of the oblivion into which this kind of writing has now fallen, but also because the few ideas
+usually connected with it produce a distorted picture. The hermetic art, as it is treated here, the principles of
+which strike us today as fantastic, is related to several secret sciences and organizations, some of which have been discredited, magic, cabala,
+rosacrushianism, etc. It is particularly closely connected with alchemy so that the terms hermetic art and alchemy and
+even royal art are often used synonymously.
+This art to call it by the name that not without some justification it applies to itself leads us by virtue of its many
+ramifications into a large number of provinces which furnish us desirable material for our research. So I will
+first purposely advancing on one line regard the parable as a dream or a fairy tale and analyze it psychoanalytically.
+This treatment will for the information of the reader be preceded by a short exposition of psychoanalysis as a method
+of interpretation of dreams and fairy tales. Then I will still seeking for the roots of the matter introduce the doctrines that the pictorial language of
+the parable symbolizes. I will give consideration to the chemical viewpoint of alchemy and also the hermetic philosophy and its hieroglyphic educational methods.
+Connections will be developed with religious and ethical topics and we shall have to take into account the historical and psychological relations
+of hermetic thought with rosacrrucianism in its various forms and freemasonry.
+And when we begin at the conclusion of the analytical section of my work to apply to the solution of our parable and of several folktales the insight we have
+gained, we shall be confronted with a problem in which we shall face two apparently contradictory interpretations according to whether we follow the lead
+of psychoanalysis or of the hermetic hieroglyphic solution. A question will then arise whether and how the
+contradiction occurs. How shall we bring into relation with each other and reconcile the two different interpretations which are quite different and complete in themselves?
+The question arising from these several illustrations expands into a general problem to which the synthetic part of my book is devoted. This will among
+other considerations lead us into the psychology of symbolm where again the discoveries of psychoanalysis come to
+our aid. We shall not be satisfied with analysis, but endeavor to follow up certain evolutionary tendencies which
+expressed in psychological symbols developing according to natural laws will allow us to conjecture a spiritual
+building up or progression that one might call an anabasis.
+We shall see plainly by this method of study how the original contradiction arises and how what was previously irreconcilable turns out to be two poles
+of an evolutionary process. By that means several principles of myth interpretation will be derived.
+I have just spoken of an anabasis. By that we are to understand a forward movement in a moral or religious sense.
+The most intensive exampler of the anabasis, whatever this may be, is mysticism. I can but grope about in the
+psychology of mysticism. I trust I may have more confidence at that point where I look at its symbolism from the ethical point of view.
+Section two, dream and myth interpretation.
+Readers versed in Freud's psychoanalysis are requested to pass over this chapter, as they will find only familiar matter.
+In the narrative which we have just examined, its dreamlike character is quite noticeable. On what does it depend? Evidently, the parable must bear
+marks that are peculiar to the dream. In looking for correspondences, we discover them even upon superficial examination.
+Most noticeable is the complete and sudden change of place. The wanderer, as I will hereafter call the narrator of the parable, sees himself immediately
+transported from the place near the lion's den to the top of a wall and does not know how he has come there. Later,
+he comes down just as suddenly, and in still other parts of the story, there occurs just as rapid changes of scene as one is accustomed to in dreams.
+Characteristic also is the fact that objects change or vanish. The shift of scene resembles also, as often in a dream, a complete transformation.
+Thus, for instance, as soon as the wanderer has left the wall, it vanishes without leaving a trace as if it had never been. A similar change is also
+required in the garden scene, where instead of the previously observed enclosing wall, a low hedge appears in a surprising manner. Further, we are
+surprised by instances of knowledge without perception. Often in a dream one knows something without having experienced it in person. We simply know
+without knowing how that in such a house something definite and full of mystery has happened. Or we know that this man whom we see now for the first time is
+called so and so. We are in some place for the first time but know quite surely that there must be a fountain behind that wall to which for any reason we
+have to go etc. Such unmediated knowledge occurs several times in the parable. In the beginning of the narrative, the wanderer, although a
+stranger, knows that the lovely meadow is called by its inhabitants, Pum Festatus.
+He knows intuitively the name of one of the men unknown to him. In the garden scene, he knows, although he has noticed only the young men, that some young
+women, whom, on account of the nature of the place, he cannot then see, are desirous of going into the garden to these young men. One might say that all
+this is merely a peculiarity of the representation in as much as the author has for convenience or on account of
+lack of skill or for brevity left out some connecting link which would have afforded us the means of acquiring this unexplained knowledge. The likeness to
+the dream therefore would in that case be inadmissible. To this objection it may be replied that the dream does exactly like the author of the parable.
+Our study is chiefly concerned with the product of the fancy and forces us to the observation, whatever may be the cause of it, that the parable and the
+dream life have certain peculiarities of representation in common. In contrast to the miraculous knowledge, we find in the
+dream a peculiar unsuress in many things, particularly in those which concern the personality of the wanderer.
+When the elders inform the wanderer that he must marry the woman that he has taken, he does not know clearly whether the matter at all concerns him or not.
+The remarkable fluctuation in his attitude takes place. We wonder whether he has taken on the role of the bridegroom, or quite the reverse, the
+bridegroom has taken the wanderers. We are likewise struck by similar uncertainties like those during the walk on top of the wall where the wanderer is
+followed by someone of whom he does not know whether it is a man or a woman.
+Here belong also those passages of the narrative introduced by the wanderer with as if etc. In the search for the
+gardener's house he chances upon many people and it seems that he has himself done what these people are there doing.
+Quite characteristic also are the different obstructions and other difficulties placed in the path of the wanderer. Even in the first paragraph of
+the narrative, we hear that he is startled, would gladly turn back, but cannot because a strong wind prevents him. On top of the wall, the railing
+makes his progress difficult. On other occasions, a wall or a door. The first experience especially recalls those
+frequent occurrences in dreams where anxiously turning in flight or oppressed by tormenting haste we cannot move. In
+connection with what is distressing and threatening as described in the precipitous slope of the wall and the narrow plank by the mill belong also the
+desperate tasks and demands quite usual in dreams and myths that meet the wanderer. Among such tasks or dangers, I
+will only mention the severe examination by the elders, the struggle with the lion, the obligation to marry, and the burden of responsibility for the nuptual
+pair, all of which cause the wanderer so much anxiety. Among the evident dream analogies belong finally, without,
+however, completing my list of them, the peculiar logic that appears quite conventional to the wanderer or the dreamer, but seldom satisfies the reader
+or the careful reasoner. As examples, I mentioned that the dead lion will be called to life again if the wanderer marries the woman that he recently took,
+and that they put the two lovers that they want to punish for incest after they have carefully removed all the clothes from their bodies into a prison
+where these lovingly embrace. So much for the external resemblances of the parable with the dream life. The deeper affinity which can be shown in its
+innermost structure will first appear in the psychoanalytic treatment. And now it will be advisable for me to give readers
+not intimately acquainted with dream psychology some information concerning modern investigations in dream life and in particular concerning psychoanalytic
+doctrines and discoveries. Naturally I can do this only in the briefest manner.
+For a more thorough study, I must refer the reader to the work of Freud and his school. The most important books are mentioned in the bibliography at the
+end. Modern scientific investigation of dreams, in which Freud has been a pioneer, has come to the conclusion, but
+in a different sense from the popular belief that dreams have a significance.
+While the popular belief says that they foretell something of the future,
+science shows that they have a meaning that is present in the psyche and determined by the past. Dreams are then,
+as Freud's results show, always wish fantasies. I give here only exposition,
+not criticism. My later application of psychoanalysis, will show what reservations I make concerning Freud's doctrines. In them, wishes, strivings,
+impulses work themselves out, rising to the surface from the depths of the soul.
+When they come in waking life, wish fantasies are sometimes called castles in the air. In dreams, we have the fulfillment of wishes that are not or
+cannot be fulfilled. But the impulses that the dreams call up are principally such wishes and impulses as we cannot
+ourselves acknowledge and such as in a waking state we reject as soon as they attempt to announce themselves as for
+instance animal tendencies or such sexual desires as we are unwilling to admit and also suppressed or repressed
+impulses as a result of being repressed. They have the peculiarity of being in general inaccessible to consciousness. Freud
+speaks particularly of crassly egoistic actuations. The criminal element in them is emphasized by Stickle.
+One not initiated into dream analysis may object that the obvious evidence is against this theory, for the majority of
+dreams picture quite inoffensive processes that have nothing to do with impulses and passions which are worthy of rejection on either moral or other
+grounds. The objection appears at first sight to be wellfounded, but collapses as soon as we learn that the critical power of morality, which does not desert
+us by day, retains by night a part of its power. And that therefore the fugitive impulses and tendencies that seek the darkness and dare not come
+forth by day dare not even at night unveil their true aspect but have to approach as it were in costumes or
+disguised as symbols or allegorories in order to pass unchallenged.
+The superintending power that I just now called the power of morality is compared very pertinently to a sensor. What our psyche produces is, so to speak,
+subjected to a sensor before it is allowed to emerge into the light of consciousness. And if the fugitive elements want to venture forth, they
+must be correspondingly disguised in order to pass the sensor. Freud calls this disguising or paraphrasing process
+the dream disfigurement. The literal is thereby displaced by the figurative, an illusion intimated through a nebulous
+atmosphere. Thus, in the following example, an unconscious death wish is exhibited. In the examination of a
+lady's dream, it struck me that the motive of a dead child occurred repeatedly, generally in connection with picnics. During an analysis, the lady
+observed that when she was a girl, the children, her younger brothers and sisters, were often the obstacles when it was proposed to have a party or
+celebration or the like. The association kinder equaling children, hinderness,
+equaling obstacle, furnished the key to a solution of the stereotyped dream motive. As further indications showed,
+it concerned the children of a married man whom she loved. The children prevented the man separating from his wife in order to marry the lady. In waking life, she would not, of course,
+admit a wish for the death of the embarrassing children, but in dreams the wish broke through and represented the secretly wished situation. The children
+are dead, and nothing now stands in the way of the party or the celebration or wedding. The double sense of the word
+party is noticeable. In German, a party makin means both to go on an excursion
+and to make a matrimonial match. Such puns are readily made use of by dreams in order to make the objectionable
+appear unobjectionable and so to get by the sensor. Psychoanalytic procedure employed in the interpretation of dreams
+of any person can be called a scientifically organized confession that traces out with infinite patience even to the smallest ramifications the
+spiritual inventory of what was tucked away in the mind of the person undergoing it. Psychoanalysis is used in medical practice to discover and relieve
+the spiritual causes of neurotic phenomena. The patient is induced to tell more and more starting from a given
+point thereby going into the most intimate details and yet we are aware in the network of outcropping thoughts and
+memories of certain points of connection which have dominating significance for the effective life of the person being
+studied. Here the path begins to be hard because it leads into the intimately personal. The secret places of the soul
+set up a powerful opposition to the intruder even without the propulsive action of the patient. Right there are,
+however, to speak the sore spots, the pathogenic complexes of the psyche towards which the research is directed.
+Firmly advancing in spite of the limitations, we lay bare these roots of the soul that strive to cling to the unconscious. Those are the disfigured
+elements just mentioned. All of the items of the spiritual inventory from which the person in question has toilsomely worked himself out and from
+which he suppososes himself free. They must be silent because they stand in some contradictory relation to the character in which the person has
+clothed himself. And if they, these subterranean elements, still try to announce themselves, he hurls them back
+immediately into their underworld. He allows himself to think of nothing that offends too much his attitudes, his morality, and his feelings. He does not
+give verbal expression to the disturbers of the peace that dwell in his heart of hearts. The mischief makers are,
+however, merely repressed, not dead.
+They are like the Titans. On this similarity rests the psychologic term Titanic, used frequently by me in what
+follows, which were not crushed by the gods of Olympus, but only shut up in the depths of Tartarus. There they wait for
+the time when they can again arise and show their faces in daylight. The earth trembles at their attempts to free themselves. Thus the titanic forces of
+the soul strive powerfully upward, and as they may not live in the light of consciousness, they rave in darkness.
+They take the main part in the procreation of dreams, produce in some cases hysterical symptoms, compulsion ideas and acts, anxiety, neurosis, etc.
+The examination of these psychic disturbances is not without importance for our later researches.
+Psychoanalysis, which has not at any time been limited to medical practice,
+but soon began with its torch to illumin the activity of the human spirit in all its forms, poetry, mythmaking, etc., was
+decrieded as pernicious in many quarters. The question as to how widely psychoanalysis may be employed would at
+this time lead us too far. Yet, it will be considered in section one of the synthetic part of this volume.
+Now it is indeed true that it leads us towards all kinds of spiritual refues.
+It does so however in the service of truth and it would be unfortunate to deny to truth its right to justify itself. Any one determined to do so
+could in that case defend a theory that sexual maladies are acquired by catching a cold. The spiritual refuge that
+psychoanalysis uncovers is like the manure on which our cultivated fruits thrive. The dark titanic impulses are
+the raw material from which in every man the work of civilization forms an ethical character. Where there is a strong light, there are deep shadows.
+Should we be so insincere as to deny because of supposed danger the shadows in our inmost selves? Do we not diminish
+the light by doing so? Morality, in whose name we are so scrupulous, demands above everything else truth and sincerity.
+But the beginning of all truth is that we do not impose upon ourselves. Know thyself is written over the entrance of
+the Pythian sanctuary. And it is this inspiring summons of the radiant god of delelfi that psychoanalysis seeks to
+meet. After this introductory notice, it will be possible properly to understand the following instructive example which contains exquisite sexual symbolism.
+Dream of Mr. T. I dreamed I was riding on the railroad. Near me sat a delicate,
+effeminite young man or boy. His presence caused erotic feelings in me to a certain extent. It appeared as if I
+put my arm about him. The train came to a standstill. We had arrived at a station and got out. I went with the boy
+into a valley through which ran a small brook on whose bank were strawberries.
+We picked a great many. After I had gathered a large number, I returned to the railway and awoke.
+supplementary communication.
+I think I remember that an uncomfortable feeling came over me in the boy's company. The valley branched off to the left from the railway.
+From a discussion of the dream, it next appeared that T, who, as far as I knew,
+entertained a pronounced aversion to homosexuality, had read a short time before a detailed account of a notorious
+trial then going on in Germany that was concerned with real homosexual actions.
+In consciousness, of course, in the suppressed depths of the unconsciousness, the infantile homosexual component also will surely be
+found. An incident from it, probably supported by some unconscious impulse,
+crowded its way into the dream as an erotic wish, hence the affectionate scene in the railway train. So far, the
+matter would be intelligible, even if in an erotic daydream the image of a boy,
+considering the existing sexual tendency of tea, had been resolutely rejected by him. How are the other processes in the
+dream related to it? Do they not at first sight appear unconnected or meaningless? And yet in them are manifested the fulfillment of the wish
+implied in the erotic excitement in the company of the boy. The homosexual action of this wish fulfillment would have been insufferable to the dream
+sensor. It must be intimated symbolically, and the remainder of the dream is accordingly nothing but a dextrous veiling of a procedure hostile to the sensor.
+Even that the train comes to a standstill is a polite paraphrase.
+Paraphrase, as the dreamer communicated to me, of an actual physical condition,
+an erection. Similar meaning is conveyed by the word station which reminds us of the Latin word status from stare to
+stand. The scene in the car recalls moreover the joke in the story which often used to occur to te a lady invited
+to a reception where there were also young girls a Hungarian accentuated now on account of what follows the typical
+Vienna joker who is feared on account of his racy wit. She enjoined him at the same time in view of the presence of the
+girls not to treat them to any of his spicy gests. The Hungarian agreed and appeared at the party. To the amazement
+of the lady, he proposed the following riddle. One can enter from in front or from behind. Only one has to stand up.
+Observing the despair of the lady, he with a sly, innocent look said, but well then, what is it? Simply a trolley car.
+Next day, the daughter of the house appeared before her schoolmates in the high school with the following. Girls, I heard a great joke yesterday. One can go
+in from in front or behind. Only one must be stiff. A neat contribution, by the way, to the psychology of innocent
+girlhood. The anecdote was related to Te by a man later known to him as a homosexual. Te had been with a few Hungarians, but with these few,
+homosexuality had been, as it happened, a favorite subject of conversation.
+In the above we find many highly suggestive elements. The most suggestive is however the strawberries. Ti had as
+appeared during the process of the analysis a couple of days before the dream read a French story where the expression new to him quailier de Frzes
+occurred. He went to a Frenchman for the explanation of this phrase and learned that it was a delicate way of speaking of the sexual act because lovers like to
+go into the woods under the pretext of picking strawberries and thus separate themselves from the rest of the company.
+In whatever way the dream wish conceived its gratification, the valley between the two hills through which the brook flowed furnishes quite a definite suggestion.
+Here also the above mentioned from behind probably gets a meaning. The circumstance that the dream has, as it
+were, two faces, with one that openly exposes to view, implies that a distinction must be made between the manifest and the latent material. The
+openly exposed face is the manifest dream content, as the wording of the dream report represents the dream. What is concealed is the latent dream
+thoughts. For the most part, a broad tissue of dream thoughts is condensed into a dream. A part of the dream thoughts, not all, belongs regularly to
+the titanic elements of our psyche. The shaping of the dream out of the dream thoughts is called by Freud the dream work. Four principles direct it.
+Condensation, displacement,
+representability, and secondary elaboration. Condensation was just now mentioned.
+Many dream thoughts are condensed to relatively few, but therefore all the more significant images. Every image,
+person, object, etc. is want to be determined by several dream thoughts.
+Hence, we speak of multiple determination or overdetermination.
+Displacement shows itself in the fact that the dream evidently in the service of distortion pushes forward the unreal
+and pushes aside the real. in short rearranges the psychic values or interest in such a way that the dream in
+comparison with its latent thoughts appears as it were displaced or elsewhere centered. As the dream is a perceptual representation, it must put
+into perceptually comprehensible form everything that it wants to express,
+even that which is most abstract. The tendency to vividly perceptual or plastic expression that is characteristic of the dream corresponds accordingly to the representability.
+To the secondary elaboration, we have to credit the last polishing of the dream fabric. It looks after the logical connection in the pictorial material
 1:00:011 hour, 1 secondwhich is created by the displacing dream work. This function, in other words, the secondary elaboration, proceeds after
 1:00:081 hour, 8 secondsthe manner which the poet maliciously ascribes to the philosopher with its shreds and patches. It stops the gaps in the structure of the dream. The result
 1:00:171 hour, 17 secondsof its effort is that the dream loses its appearance of absurdity and disconnectedness and approaches the standard of a comprehensible experience.

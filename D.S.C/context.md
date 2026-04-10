@@ -282,6 +282,11 @@ dsc_transmutation_[system-name]_v[X].md
 | Workflow Stage | Load These Skills |
 |---------------|-------------------|
 | System design (any stage) | `skills/skill_system-design.md` |
+| Evaluating a new idea or opportunity | `skills/skill_project-evaluation.md` |
+| Pre-deployment quality gate / audit | `skills/skill_legitimacy-review.md` |
+| System breakdown or underperformance | `skills/skill_transmutation-protocol.md` |
+| Ongoing system health review | `skills/skill_systems-cultivation.md` |
+| Determining alchemical stage position | `skills/skill_alchemical-stage-assessment.md` |
 | Writing SOPs or documentation | `skills/skill_copywriting.md` |
 | Building a complex project (pre-build) | `skills/skill_prd-creation.md` |
 | Synthesizing cross-department frameworks | `skills/skill_framework-synthesis.md` |
