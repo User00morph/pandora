@@ -80,6 +80,7 @@ Skills are reusable process files in `skills/` that are loaded at specific workf
 | Environment Audit | `skill_environment-audit.md` | D.H.S, D.R.A |
 | Ritual Design | `skill_ritual-design.md` | D.O.M, D.P.S.A |
 | Herb Profiling | `skill_herb-profiling.md` | D.B.S, D.R.D |
+| Concept Distillation | `skill_concept-distillation.md` | D.R.D, D.C.E, D.S.S, D.P.S.A, D.I.I |
 | Diagnostic Method | `skill_diagnostic-method.md` | D.S.M, D.S.C |
 | PRD Creation | `skill_prd-creation.md` | D.S.C, D.I.I, D.S.E |
 

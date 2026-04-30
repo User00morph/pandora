@@ -46,6 +46,20 @@ DEADLINE: Is this time-sensitive or open-ended?
 No topic is a single question. Before researching anything, map what actually needs to be answered.
 
 ```
+PRE-STEP:
+Check DRD_INDEX.md — has this topic already been researched?
+If yes: read the existing file and determine whether to
+        extend it or start a parallel investigation.
+If no:  proceed.
+
+Assign the topic to one of the 6 research domains:
+  1. Human History & Origins
+  2. Suppressed & Alternative Science
+  3. Pre-Western Knowledge Systems
+  4. The Divine Feminine
+  5. Consciousness Research
+  6. Systemic Analysis
+
 ACTION:
 Take the stated topic and write out every sub-question
 it contains. Do not answer yet — only map.
@@ -106,7 +120,17 @@ For each sub-question from Step 1, identify:
 - What is the source's relationship to the topic?
   (author, funder, incentive structure)
 
+Check drd_sources_[domain].md — has this source been evaluated before?
+If yes: use the existing tier assignment unless new information warrants re-evaluation.
+If no:  evaluate, assign tier, and register in both the domain source file
+        AND drd_sources_master.md.
+
 OUTPUT: Source map — sub-question matched to source(s) with tier assigned.
+
+FILING:
+Save as: drd_research_[topic]_raw-extract.md
+    in: research/[domain]/
+Update: DRD_INDEX.md — add row with stage "raw-extract"
 ```
 
 ---
@@ -137,6 +161,12 @@ That is what Step 5 is for.
 
 OUTPUT: Evidence log — each source entry with:
         [SOURCE] [TIER] [CLAIM] [LIMITATION] [CONTRADICTION FLAG]
+
+FILING:
+Save as: drd_decode_[topic]_decoded.md
+    in: deconstructions/[domain]/
+Update: DRD_INDEX.md — move stage to "decoded"
+The raw-extract file in research/ is preserved as the evidence trail.
 ```
 
 ---
@@ -173,7 +203,41 @@ QUESTIONS TO ANSWER IN THIS STEP:
    the research is incomplete.
 
 OUTPUT: Pattern summary — findings organized by confidence level:
-        ESTABLISHED / PROBABLE / POSSIBLE / CONTESTED / UNSUPPORTED
+        ESTABLISHED / PROBABLE / POSSIBLE / CONTESTED / NEEDS EVIDENCE
+
+NOTE ON "NEEDS EVIDENCE":
+This replaces the former "UNSUPPORTED" label. A claim labeled
+NEEDS EVIDENCE is not dismissed — it is flagged as requiring
+more sourcing before it can be confidently placed. The label
+includes a brief note on what specific evidence would strengthen
+or resolve the claim. This keeps the research pipeline alive
+rather than closing doors prematurely.
+```
+
+---
+
+### STEP 4.5 — CONCEPT DISTILLATION
+**Extract the fundamentals. Make them receivable.**
+
+Before building the sovereign position, distill the core concepts that emerged from pattern recognition. This ensures the reconstruction is built on clearly understood foundations — not on half-absorbed complexity.
+
+```
+LOAD: shared/skills/skill_concept-distillation.md
+
+FOR EACH KEY CONCEPT identified in Step 4:
+
+1. EXTRACT THE ROOT — one sentence, no jargon
+2. IDENTIFY THE PILLARS — 3-5 load-bearing elements
+3. MAP THE RELATIONSHIPS — how pillars connect
+4. BUILD THE LAYERS:
+   - Layer 1 (The Seed): 1-3 sentences, zero background needed
+   - Layer 2 (The Scaffold): ~1 page, terms defined inline
+   - Layer 3 (The Full Architecture): complete with nuance
+5. DISTORTION CHECK — does Layer 1 still carry Layer 3's truth?
+
+OUTPUT: Concept distillation(s) embedded in or appended to
+        the decoded file in deconstructions/[domain]/
+        These distillations feed directly into Step 5.
 ```
 
 ---
@@ -181,7 +245,7 @@ OUTPUT: Pattern summary — findings organized by confidence level:
 ### STEP 5 — RECONSTRUCTION
 **Build the sovereign position.**
 
-This is where D.R.D produces its actual output — not just what the sources say, but what the sovereign mind concludes after honest evaluation of all of it.
+This is where D.R.D produces its actual output — not just what the sources say, but what the sovereign mind concludes after honest evaluation of all of it. The distillations from Step 4.5 are the building blocks.
 
 ```
 THE RECONSTRUCTION ANSWERS:
@@ -202,6 +266,11 @@ Honest uncertainty can be built on.
 
 OUTPUT: Sovereign position document — structured as:
         FINDINGS → CONFIDENCE LEVELS → IMPLICATIONS → OPEN QUESTIONS
+
+FILING:
+Save as: drd_reconstruct_[topic]_reconstructed.md
+    in: reconstructions/[domain]/
+Update: DRD_INDEX.md — move stage to "reconstructed", assign confidence level
 ```
 
 ---
@@ -212,26 +281,30 @@ OUTPUT: Sovereign position document — structured as:
 Research that is not filed is research that has to be redone.
 
 ```
-FILE NAMING:
-drd_research_[topic]_[YYYY-MM].md
-
-FILE STRUCTURE:
-- Research question(s)
-- Source map with tiers
-- Evidence log
-- Pattern summary
-- Sovereign position
-- Open questions
-- Filed: [date]
-- Requested by: [department]
+DEPLOYMENT:
+Create: drd_brief_[dept-code]_[topic]_deployed.md
+    in: briefs/
+Format the brief for the receiving department's needs.
+Each destination department gets its own brief if the framing differs.
 
 CROSS-LINK:
-If this research serves a specific department file —
-add a reference to the research file in that department's
-context file so it is findable from both directions.
+Add a reference to the brief in the destination department's context file
+so it is findable from both directions.
 
-OUTPUT: Completed research file filed in /DRD/research/[topic area]/
-        Reference added to requesting department's context file.
+UPDATE INDEX:
+DRD_INDEX.md — move stage to "deployed"
+Move entry from ACTIVE RESEARCH to COMPLETED & DEPLOYED table.
+Update DOMAIN COUNTS.
+
+SOURCE REGISTRY:
+Confirm all sources used are registered in:
+  - drd_sources_[domain].md (domain-specific)
+  - drd_sources_master.md (central registry)
+
+OUTPUT: Brief filed in briefs/
+        Index updated.
+        Source registry updated.
+        Destination department cross-linked.
 ```
 
 ---
@@ -264,17 +337,21 @@ Before the workflow output is considered complete, confirm:
 SURFACE (overview requested)
 Steps 1, 4, 5 only — abbreviated
 Produces: 1-2 page position summary
+Pipeline: Goes directly to reconstructed stage (no raw-extract or decode file)
+Filed in: reconstructions/[domain]/
 Turnaround: Single session
 
 STANDARD (documented requested)
 All 6 steps — standard depth
-Produces: Full research file with source map and evidence log
+Produces: Full pipeline — raw-extract → decoded → reconstructed → deployed
+Filed across: research/ → deconstructions/ → reconstructions/ → briefs/
 Turnaround: 1-3 sessions depending on topic
 
 DEEP (exhaustive requested)
 All 6 steps — maximum source coverage
 Multiple passes through Steps 2-4 as new sources are identified
-Produces: Comprehensive research document with full evidence log
+Produces: Comprehensive pipeline with expanded evidence logs
+Filed across: research/ → deconstructions/ → reconstructions/ → briefs/
 Turnaround: Multiple sessions, topic-dependent
 ```
 

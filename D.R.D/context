@@ -98,16 +98,75 @@ It becomes the foundation other work builds on.
 ## FILE STRUCTURE
 
 ```
-/DRD/
-├── DRD.md                         ← THIS FILE — read first every session
-├── context_drd.md                 ← Active research topics, open questions
-├── research/                      ← Deep topic investigations
-├── deconstructions/               ← Narrative breakdowns
-├── reconstructions/               ← Rebuilt frameworks
-├── sources/                       ← Tiered source library by category
+D.R.D/
+├── context                        ← THIS FILE — read first every session
+├── workflow                       ← WF_DRD_RESEARCH_TOPIC — the executable pipeline
+├── DRD_INDEX.md                   ← MASTER INDEX — all research tracked here
+│
+├── sources/                       ← Tiered source library
+│   ├── drd_sources_master.md      ← Central registry (cross-domain lookup)
+│   ├── drd_sources_human-history.md
+│   ├── drd_sources_suppressed-science.md
+│   ├── drd_sources_pre-western-knowledge.md
+│   ├── drd_sources_divine-feminine.md
+│   ├── drd_sources_consciousness.md
+│   └── drd_sources_systemic-analysis.md
+│
+├── research/                      ← STAGE 1: Raw extracts & initial investigation
+│   ├── human-history/
+│   ├── suppressed-science/
+│   ├── pre-western-knowledge/
+│   ├── divine-feminine/
+│   ├── consciousness/
+│   └── systemic-analysis/
+│
+├── deconstructions/               ← STAGE 2: Evidence extracted, claims examined
+│   ├── human-history/
+│   ├── suppressed-science/
+│   ├── pre-western-knowledge/
+│   ├── divine-feminine/
+│   ├── consciousness/
+│   └── systemic-analysis/
+│
+├── reconstructions/               ← STAGE 3: Sovereign position built, framework complete
+│   ├── human-history/
+│   ├── suppressed-science/
+│   ├── pre-western-knowledge/
+│   ├── divine-feminine/
+│   ├── consciousness/
+│   └── systemic-analysis/
+│
 ├── codex-support/                 ← Evidence files for Codex Scrolls
-└── briefs/                        ← Intelligence packages for other departments
+└── briefs/                        ← STAGE 4: Deployed intelligence for other departments
 ```
+
+## THE PIPELINE
+
+Files move through the system as they are refined:
+
+```
+STAGE 1 — RAW EXTRACT           → research/[domain]/
+  drd_research_[topic]_raw-extract.md
+  Raw information, sub-questions mapped, sources identified.
+  Workflow Steps 1-2 complete.
+
+STAGE 2 — DECODED                → deconstructions/[domain]/
+  drd_decode_[topic]_decoded.md
+  Evidence extracted, contradictions logged, patterns identified.
+  Workflow Steps 3-4 complete.
+
+STAGE 3 — RECONSTRUCTED          → reconstructions/[domain]/
+  drd_reconstruct_[topic]_reconstructed.md
+  Sovereign position built, confidence levels assigned.
+  Workflow Step 5 complete.
+
+STAGE 4 — DEPLOYED               → briefs/
+  drd_brief_[dept-code]_[topic]_deployed.md
+  Refined data packaged for destination department(s).
+  Workflow Step 6 complete. Index updated.
+```
+
+**Rule:** A file's location tells you its refinement stage. A file's name tells you its topic and type. The index tells you everything at a glance.
 
 ---
 
@@ -251,13 +310,24 @@ D.R.D refined outputs flow to all 12 departments:
 ## NAMING CONVENTIONS
 
 ```
-drd_research_[topic]_v[X].md
-drd_decode_[topic].md
-drd_reconstruct_[topic].md
-drd_sources_[category].md
-drd_codex_support_scroll_[number].md
-drd_brief_[dept-code]_[topic].md
+PIPELINE FILES (stage determines directory):
+  drd_research_[topic]_raw-extract.md        → research/[domain]/
+  drd_decode_[topic]_decoded.md              → deconstructions/[domain]/
+  drd_reconstruct_[topic]_reconstructed.md   → reconstructions/[domain]/
+  drd_brief_[dept-code]_[topic]_deployed.md  → briefs/
+
+SOURCE FILES:
+  drd_sources_master.md                      → sources/
+  drd_sources_[domain].md                    → sources/
+
+CODEX FILES:
+  drd_codex_support_scroll_[number].md       → codex-support/
+
+INDEX:
+  DRD_INDEX.md                               → D.R.D/ (root)
 ```
+
+**Pipeline status suffixes replace version numbers.** A file at `_raw-extract` that gets refined does not become `_v2` — it becomes a new `_decoded` file in `deconstructions/`. The raw extract is preserved as the evidence trail.
 
 ---
 
@@ -278,10 +348,11 @@ drd_brief_[dept-code]_[topic].md
 
 | Workflow Stage | Load These Skills |
 |---------------|-------------------|
-| Source identification and tiering | `skills/skill_source-evaluation.md` |
-| Reconstruction / framework building | `skills/skill_framework-synthesis.md` |
-| Herb research (for D.B.S requests) | `skills/skill_herb-profiling.md` |
-| Documentation and filing | `skills/skill_copywriting.md` |
+| Source identification and tiering | `shared/skills/skill_source-evaluation.md` |
+| Concept extraction and simplification | `shared/skills/skill_concept-distillation.md` |
+| Reconstruction / framework building | `shared/skills/skill_framework-synthesis.md` |
+| Herb research (for D.B.S requests) | `shared/skills/skill_herb-profiling.md` |
+| Documentation and filing | `shared/skills/skill_copywriting.md` |
 
 **Workflow file:** `workflow` — WF_DRD_RESEARCH_TOPIC
 

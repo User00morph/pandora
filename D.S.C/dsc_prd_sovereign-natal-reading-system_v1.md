@@ -1,6 +1,7 @@
 # PRD — SOVEREIGN NATAL READING SYSTEM (SNRS)
-**Product Requirements Document | v1 | _draft (pending Morph review)**
+**Product Requirements Document | v1 | APPROVED**
 **Date Created: 2026-04-11**
+**Date Approved: 2026-04-24**
 **Primary Home:** D.P.S.A (with D.R.D, D.O.M, D.S.C as structural co-owners)
 **Filed In:** D.S.C (per OS PRD convention)
 
@@ -444,25 +445,25 @@ KC-6  A better approach is discovered mid-build — e.g., a
 
 ---
 
-## 9. DECISIONS REQUIRED FROM MORPH BEFORE EXECUTION
+## 9. DECISIONS — LOCKED
 
-Before Phase 1 begins, the following decisions must be locked. They are flagged here so nothing is assumed silently:
+All decisions locked by Morph on 2026-04-24.
 
-**D-1 — Birth data.** Morph provides exact date, time (to the minute if known), and city/country of birth. Without this, nothing in Phase 2+ can run. If exact time is not available, flag rectification as a pre-Phase-1 task.
+**D-1 — Birth data.** LOCKED. Birth data captured in `D.P.S.A/natal/dpsa_natal_morph_birthdata.md`. Date: May 12, 2006. Time: 08:00 AM CDT. Place: Green Bay, Wisconsin, USA. Hospital: HSHS St. Vincent Hospital.
 
-**D-2 — House system.** §4.3 recommends Whole Sign primary + Placidus overlay. Morph confirms, overrides, or chooses both-as-parallel.
+**D-2 — House system.** LOCKED. Whole Sign primary + Placidus angle retention (exact MC/IC/ASC/DSC degrees). Per `drd_framework_houses-energetic-domains_v1.md`.
 
-**D-3 — Zodiac stance.** §4.4 recommends Tropical primary + Sidereal (Lahiri) overlay. Morph confirms or overrides.
+**D-3 — Zodiac stance.** LOCKED. Tropical primary. Sidereal (Lahiri ayanamsa) as parallel overlay in Phase 2, filed separately as `dpsa_natal_morph_sidereal_v1.md`. No interpretive conflict — both clearly labeled.
 
-**D-4 — Asteroid scope.** §4.2 lists Chiron, Ceres, Pallas, Juno, Vesta, BML, Eris, Selena as v1. Morph can expand (e.g., Sedna, centaurs like Nessus and Pholus) or contract.
+**D-4 — Asteroid scope.** LOCKED. v1 includes: Chiron, Ceres, Pallas, Juno, Vesta, Black Moon Lilith (Mean + True), Eris, Selena (White Moon). Sedna, Nessus, Pholus, Hygeia, Astraea deferred to v2.
 
-**D-5 — Vulcan handling.** Bailey's esoteric framework requires Vulcan, which is a hypothetical planet with no real orbit. Options: (a) use Uranian ephemeris approximation, (b) use L.H. Weston's tables, (c) skip and annotate as unavailable. Recommendation: (a) with a confidence caveat.
+**D-5 — Vulcan handling.** LOCKED. Option (a) — Uranian ephemeris approximation. Position carried with explicit `confidence: modeled` flag. Required for Bailey's esoteric ruler of Taurus (Morph's Sun sign).
 
-**D-6 — Sensitivity of birth data file.** Does `dpsa_natal_morph_birthdata.md` stay in the repo? Add to `.gitignore`? Kept out of committed history entirely? Recommendation: keep in repo (OS is personal), but flag as sensitive so any future sharing workflow strips it.
+**D-6 — Sensitivity of birth data file.** LOCKED. Option 3 — `dpsa_natal_morph_birthdata.md` added to `.gitignore`. File lives on disk, not committed. Natal overlay preserves all computed placements in-repo; only raw coordinates + exact time are compartmentalized.
 
-**D-7 — PDF deconstruction depth.** Phase 1 can run the PDF at Surface / Standard / Deep depth per `D.R.D/workflow`. Since the PDF is narrative and single-source, recommendation is **Standard** — enough to extract the archetypal voice cleanly without over-mining a Tier 3–4 source.
+**D-7 — PDF deconstruction depth.** LOCKED. Deferred. `drd_decode_celestial-archetypes.md` will be produced after the natal overlay has been used in practice — deconstruction will then target real gaps in Layer B rather than generic coverage. Current Layer B in `dpsa_natal_morph_complete_v1.md` stands for v1.
 
-**D-8 — PRD approval itself.** Once D-1 through D-7 are answered, this PRD is renamed from `_draft` to `_v1` (no suffix) and Phase 1 begins.
+**D-8 — PRD approval.** LOCKED. PRD approved 2026-04-24. File renamed from `_draft` to `_v1`. Phase 2 (full pyswisseph computation) is now active.
 
 ---
 
@@ -488,5 +489,5 @@ These do not block Phase 1, but will need answers before they become relevant:
 
 ---
 
-*dsc_prd_sovereign-natal-reading-system_v1_draft.md | Pandora OS | D.S.C (primary home: D.P.S.A)*
+*dsc_prd_sovereign-natal-reading-system_v1.md | Pandora OS | D.S.C (primary home: D.P.S.A)*
 *"The chart is not what you are. The chart is the instrument through which what you are learns to read itself."*

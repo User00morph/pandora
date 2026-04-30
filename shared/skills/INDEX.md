@@ -26,6 +26,7 @@ These skills are loaded on demand by departments at specific workflow stages. Th
 | Transmutation Protocol | `skill_transmutation-protocol.md` | D.S.C, D.S.E, D.P.S.A |
 | Systems Cultivation | `skill_systems-cultivation.md` | D.S.C |
 | Alchemical Stage Assessment | `skill_alchemical-stage-assessment.md` | D.S.C, all departments |
+| Concept Distillation | `skill_concept-distillation.md` | D.R.D, D.C.E, D.S.S, D.P.S.A, D.I.I |
 
 ---
 
