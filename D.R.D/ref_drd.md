@@ -13,7 +13,7 @@
 | Reconstructed | 4 | Deploy to departments — load `wf_stage-6_deploy.md` |
 | Deployed | 0 | — |
 
-**Most recent work:** Prof. Jiang Secret History 28-ep series decoded (Stage 3+4), game theory framework + Pandora mapping complete — 2026-04-30
+**Most recent work:** Jiang game theory reconstructed (Stage 5) — narcissism layer integrated across 7 realms, sovereign counter-architecture built — 2026-04-30
 
 ---
 

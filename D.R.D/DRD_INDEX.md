@@ -70,7 +70,10 @@ STAGE 4 — DEPLOYED            briefs/
 | ↳ [Astrology as Cosmic Code System](deconstructions/consciousness/drd_decode_pandora-tiktok-astrology-as-code_decoded.md) | consciousness | decoded | Probable | D.P.S.A, D.O.M, D.S.S, D.I.I | 2026-04-29 |
 | ↳ [Feminine as Source](deconstructions/divine-feminine/drd_decode_pandora-tiktok-feminine-as-source_decoded.md) | divine-feminine | decoded | Probable | D.P.S.A, D.B.S, D.O.M | 2026-04-29 |
 | ↳ [Indigenous Technology vs Colonial Frameworks](deconstructions/systemic-analysis/drd_decode_pandora-tiktok-indigenous-tech-vs-colonial_decoded.md) | systemic-analysis | decoded | Probable | D.P.S.A, D.S.S, D.O.M | 2026-04-29 |
-| **[Professor Jiang — Secret History (28 Episodes)](deconstructions/systemic-analysis/drd_decode_jiang-secret-history_decoded.md)** | **systemic-analysis** | **decoded (Stage 3+4 complete)** | **Mixed — see file** | **D.R.D, D.S.C, D.S.E, D.P.S.A, D.C.E, D.I.I, D.O.M, D.S.S, D.B.S** | **2026-04-30** |
+| **[Esoteric Cosmology & Modern Physics — Full Extract](research/drd_research_esoteric-cosmology-modern-physics_raw-extract.md)** | **consciousness / sovereign-science** | **raw-extract** | **—** | **D.P.S.A, D.S.S, D.I.I, D.O.M** | **2026-04-30** |
+| ↳ [Esoteric Cosmology + Physics Applied to Natal](deconstructions/consciousness/drd_decode_esoteric-cosmology-modern-physics-natal_decoded.md) | consciousness | decoded | Mixed (see file) | D.P.S.A (natal), D.S.S, D.I.I | 2026-04-30 |
+| **[Professor Jiang — Secret History (28 Episodes)](deconstructions/systemic-analysis/drd_decode_jiang-secret-history_decoded.md)** | **systemic-analysis** | **reconstructed (Stage 5 complete)** | **Mixed — see file** | **D.S.C, D.S.E, D.P.S.A, D.C.E, D.I.I, D.O.M, D.S.S, D.B.S** | **2026-04-30** |
+| ↳ [Reconstruction — Power Game Theory + Narcissism Layer](reconstructions/systemic-analysis/drd_reconstruct_power-game-theory_reconstructed.md) | systemic-analysis | reconstructed | Mixed — see file | D.S.C, D.S.E, D.P.S.A, D.C.E, D.I.I, D.O.M, D.S.S, D.B.S | 2026-04-30 |
 | ↳ [Raw Transcripts (28 episodes)](research/systemic-analysis/drd_research_jiang-secret-history_raw-extract.md) | systemic-analysis | raw-extract | Tier 3 source | D.R.D | 2026-04-30 |
 
 ---
@@ -79,7 +82,11 @@ STAGE 4 — DEPLOYED            briefs/
 
 | Topic | Domain | Requested By | Priority | Date Queued |
 |-------|--------|-------------|----------|-------------|
-| — | — | — | — | — |
+| Sam Vaknin — Malignant Self-Love / Collective Narcissism | systemic-analysis / consciousness | D.R.D Stage 5 (power-game-theory) | HIGH | 2026-04-30 |
+| Turchin — Ages of Discord + Secular Cycles (elite overproduction metrics) | systemic-analysis | D.R.D Stage 5 (power-game-theory) | HIGH | 2026-04-30 |
+| Criminology: transgression-cohesion in organized crime literature | systemic-analysis | D.R.D Stage 5 (power-game-theory) | MEDIUM | 2026-04-30 |
+| Primary source: secret society theology (Pike, Crowley OTO, Hall) | systemic-analysis / human-history | D.R.D Stage 5 (power-game-theory) | MEDIUM | 2026-04-30 |
+| Quantum consciousness primary literature (Rovelli, Fuchs, Penrose-Hameroff) | D.S.S | D.R.D Stage 5 (power-game-theory) | MEDIUM | 2026-04-30 |
 
 ---
 
@@ -100,10 +107,10 @@ STAGE 4 — DEPLOYED            briefs/
 | Pre-Western Knowledge | 1 | 1 | 0 | 0 | 2 |
 | Divine Feminine | 1 | 2 | 0 | 0 | 3 |
 | Consciousness | 5 | 4 | 2 | 0 | 11 |
-| Systemic Analysis | 3 | 4 | 1 | 0 | 8 |
+| Systemic Analysis | 3 | 4 | 2 | 0 | 9 |
 | Cross-Domain | 3 | 1 | 1 | 0 | 5 |
 | **Kemetic** | **4** | **1** | **0** | **0** | **5** |
-| **TOTAL** | **20** | **16** | **4** | **0** | **40** |
+| **TOTAL** | **20** | **16** | **5** | **0** | **41** |
 
 ---
 
