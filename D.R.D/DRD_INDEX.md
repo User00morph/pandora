@@ -70,6 +70,8 @@ STAGE 4 — DEPLOYED            briefs/
 | ↳ [Astrology as Cosmic Code System](deconstructions/consciousness/drd_decode_pandora-tiktok-astrology-as-code_decoded.md) | consciousness | decoded | Probable | D.P.S.A, D.O.M, D.S.S, D.I.I | 2026-04-29 |
 | ↳ [Feminine as Source](deconstructions/divine-feminine/drd_decode_pandora-tiktok-feminine-as-source_decoded.md) | divine-feminine | decoded | Probable | D.P.S.A, D.B.S, D.O.M | 2026-04-29 |
 | ↳ [Indigenous Technology vs Colonial Frameworks](deconstructions/systemic-analysis/drd_decode_pandora-tiktok-indigenous-tech-vs-colonial_decoded.md) | systemic-analysis | decoded | Probable | D.P.S.A, D.S.S, D.O.M | 2026-04-29 |
+| **[Professor Jiang — Secret History (28 Episodes)](deconstructions/systemic-analysis/drd_decode_jiang-secret-history_decoded.md)** | **systemic-analysis** | **decoded (Stage 3+4 complete)** | **Mixed — see file** | **D.R.D, D.S.C, D.S.E, D.P.S.A, D.C.E, D.I.I, D.O.M, D.S.S, D.B.S** | **2026-04-30** |
+| ↳ [Raw Transcripts (28 episodes)](research/systemic-analysis/drd_research_jiang-secret-history_raw-extract.md) | systemic-analysis | raw-extract | Tier 3 source | D.R.D | 2026-04-30 |
 
 ---
 
@@ -98,12 +100,12 @@ STAGE 4 — DEPLOYED            briefs/
 | Pre-Western Knowledge | 1 | 1 | 0 | 0 | 2 |
 | Divine Feminine | 1 | 2 | 0 | 0 | 3 |
 | Consciousness | 5 | 4 | 2 | 0 | 11 |
-| Systemic Analysis | 2 | 3 | 1 | 0 | 6 |
+| Systemic Analysis | 3 | 4 | 1 | 0 | 8 |
 | Cross-Domain | 3 | 1 | 1 | 0 | 5 |
 | **Kemetic** | **4** | **1** | **0** | **0** | **5** |
-| **TOTAL** | **19** | **15** | **4** | **0** | **38** |
+| **TOTAL** | **20** | **16** | **4** | **0** | **40** |
 
 ---
 
 *D.R.D Master Index | Pandora OS*
-*Updated: 2026-04-29*
+*Updated: 2026-04-30*
