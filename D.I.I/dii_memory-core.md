@@ -57,6 +57,25 @@ Cross-session decisions, discoveries, and patterns. Most recent first.
 
 ---
 
+### 2026-05-01 — Sovereignty Architecture + Hardware Roadmap
+**Context:** Morph intends to decentralize tech stack by leveraging open-source AI as big tech monopoly weakens. Full exit from API dependency is the end state.
+
+**Decisions made:**
+- 4-phase hardware sovereignty roadmap built → `D.I.I/dii_hardware-sovereignty-roadmap.md`
+- VRAM identified as #1 hardware parameter for local model inference
+- Phase 2 trigger: open-source 13–30B models reach GPT-4 quality (Llama 4, DeepSeek R2 — happening now)
+- Phase 2 targets: Mac Mini M4 Pro (24GB) ~$1,300 or RTX 3090 (24GB) ~$700–900 used
+- Open source repo integration queue opened — Morph sourcing repos for Pandora + VS Code layer
+
+**Strategic frame:**
+- Big tech AI monopoly rests on compute, data, distribution — open source breaks all three
+- Window: 2–4 years until $2,000 machine runs what costs $20/month via API today
+- Pandora OS built now positions ahead of that curve
+
+**Next:** Source open-source repos for integration. Populate `dii_hardware-sovereignty-roadmap.md` → Open Source Repo Integration Queue.
+
+---
+
 ## AGENTIC ARCHITECTURE LOG
 
 Agents, MCPs, and automation built or planned.
@@ -75,7 +94,9 @@ Significant cross-codebase or cross-tool decisions.
 |------|----------|-----------|
 | 2026-05-01 | Exclude `.mp4` from repo permanently | Raw data not knowledge — bloats repo, no git value |
 | 2026-05-01 | VS Code as primary editor (not Cursor, not Codespaces) | Hardware constraint; local is lighter than browser-based |
-| 2026-05-01 | No local AI models (Ollama etc.) | 1.6 GHz dual-core insufficient; use Anthropic API instead |
+| 2026-05-01 | No local AI models (Ollama etc.) now | 1.6 GHz dual-core insufficient; use Anthropic API instead |
+| 2026-05-01 | Sovereign hardware roadmap adopted — 4-phase plan | Strategic intent: full exit from big tech AI infrastructure as open-source models reach parity |
+| 2026-05-01 | Open source repo integration queue opened in roadmap | Morph sourcing repos to interface with Pandora + VS Code agentic layer |
 
 ---
 

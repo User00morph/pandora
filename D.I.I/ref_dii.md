@@ -39,6 +39,10 @@ Cross-session intelligence log — agentic codebases, tools, decisions, hardware
 Load when: starting a new tool, connecting an external repo, or continuing agentic build work.
 → `D.I.I/dii_memory-core.md`
 
+## SOVEREIGNTY ROADMAP
+4-phase hardware decentralization plan. Open source repo integration queue lives here.
+→ `D.I.I/dii_hardware-sovereignty-roadmap.md`
+
 ---
 
 *D.I.I | Technology fused with divine stewardship. Read this. Load only what the session requires.*
