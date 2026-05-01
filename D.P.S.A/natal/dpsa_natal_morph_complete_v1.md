@@ -549,5 +549,101 @@ Ten new Layer C reads developed in this overlay for: Mercury, Venus, Uranus, Nep
 
 ---
 
+---
+
+## 9. TIKTOK FRAMEWORK INTEGRATION — D.R.D ROUTED DATA (2026-04-30)
+
+*Source: Pandora TikTok Collection — decoded files in D.R.D/deconstructions/*
+*Three frameworks extracted and integrated below. Birth time also corrected this session: 08:00 AM → 08:07 AM (see `dpsa_natal_morph_birthdata.md` for impact assessment).*
+
+---
+
+### 9.1 — THE FOUR-PART READING SYSTEM (Source: @moonruledmami, V01)
+
+This framework is an operational read-key for navigating the chart as a question-and-answer system. It is additive to the existing Layer A/B/C structure.
+
+**The four-part key:**
+- **Planets = the actors** (what is happening / which frequency of consciousness is active)
+- **Signs = the costume** (the energetic quality / bandwidth through which the planet operates)
+- **Houses = the stage** (the life domain where the frequency acts)
+- **Aspects = the interactions between actors** (how the frequencies modify, support, or tension each other)
+
+**Operational protocol from V01:** The chart is not read all-at-once. You identify what you are asking about → navigate to the relevant house → find the ruling planet → trace it to its placement → read the aspects. This is a *question-specific navigation system*, not a total-access oracle.
+
+**Applied to Morph's chart:**
+- Money / resources → 2nd house (Saturn Leo) → Saturn rules 8th (Capricorn DSC) → traces to Leo 2nd → aspects: trine Venus, opposition Neptune (wide). Read: slow-build material architecture, aesthetic work as primary funding vector.
+- Creative work / self-expression → 5th house (Moon-Jupiter-Vertex stellium in Scorpio) → ruler Mars (Cancer 1st) → Angular, initiating. Read: creative emission is bodily, protective, initiating in nature — and carries the full Scorpio depth-felt charge.
+- Public mission / legacy → 10th house / MC (Pisces) → ruler Jupiter (Scorpio 5th) → and Neptune (Aquarius 8th, squaring multiple planets). Read: legacy vocation is fed by emotional-depth creative work, filtered through visionary-dissolving frequency.
+- Evolution / growth edge → North Node (Aries 10th) → ruler Mars (Cancer 1st) → aspects: squares ASC. Read: evolutionary directive to self-initiate publicly is in direct tension with the Cancer-ASC protective body threshold.
+
+---
+
+### 9.2 — THE THREE-CHART SYSTEM: TROPICAL / SIDEREAL / DRACONIC (Source: @astrocodefairy, V05)
+
+**Critical addition.** The v1 natal overlay uses only the Tropical chart. V05 establishes a three-layer astrology system that directly upgrades the Extension Vectors in Section 7.
+
+**The three-chart framework (from V05):**
+
+| Chart | Function | Current Status in Morph's Natal |
+|-------|----------|----------------------------------|
+| **Tropical** | How you interact within the matrix / the simulation. How you appear to others. Your operational interface. | ✅ ACTIVE — this entire v1 file |
+| **Sidereal** | Soul's coding. The energy that powers the tropical chart. Deeper layer of who you are beneath the matrix interaction. | 🔲 PENDING — listed in Section 7 extension vectors as "D-3 decision" |
+| **Draconic** | Compass. The specific energy you need to embody in each placement to align with your highest timeline. Prescriptive, not descriptive. | 🔲 NOT YET IN EXTENSION VECTORS — **new priority, added here** |
+
+**Why the Draconic chart is now a priority:**
+V05's creator validated this framework across her own chart, her mother's, and multiple clients before publishing. The draconic finding — "the more I embody my draconic placements, the more aligned my timeline becomes" — is the most practically sovereign-navigational finding in the entire TikTok collection. For a chart like Morph's, where the North Node work (self-initiation against Cancer-ASC comfort) is the primary evolutionary directive, the draconic chart provides the specific energies to embody at each placement to activate the highest timeline.
+
+**Draconic calculation method:** The Draconic chart is computed by setting the True North Node to 0° Aries and shifting all planetary positions accordingly. Morph's North Node is at 03° Aries 28' 53" R — this means a shift of approximately -3° 28' to all tropical positions (subtracting the North Node's longitude from each planet's longitude).
+
+**Estimated draconic placements (approximate — requires precise computation):**
+
+| Planet | Tropical | Estimated Draconic |
+|--------|----------|--------------------|
+| Sun | 21° Taurus 40' | ~18° Taurus 12' |
+| Moon | 12° Scorpio 52' | ~09° Scorpio 24' |
+| Mercury | 14° Taurus 14' | ~10° Taurus 46' |
+| Venus | 10° Aries 21' | ~06° Aries 53' |
+| Mars | 16° Cancer 41' | ~13° Cancer 13' |
+| Jupiter | 12° Scorpio 59' R | ~09° Scorpio 31' |
+| Saturn | 05° Leo 34' | ~02° Leo 06' |
+| ASC | 00° Cancer 42' | ~27° Gemini 14' |
+| MC | 03° Pisces 47' | ~00° Pisces 19' |
+
+*Note: These are rough estimates. Precise draconic chart requires ephemeris computation. Priority action: run `pyswisseph` draconic calculation.*
+
+**Sovereign application:** Once the draconic chart is precisely computed, each draconic placement gives the *energy to embody* — not who Morph currently is (that is tropical), but what frequency, when consciously inhabited, aligns the life to its highest expression. This is the navigation layer the v1 file does not yet have.
+
+---
+
+### 9.3 — THE CHART AS PROGRAM / ASTROLOGY AS CODING LANGUAGE (Source: @astrocodefairy, V04)
+
+**Frame integration.** V04 proposes that Earth is a computer program running on a quartz-crystal substrate, and that the birth chart is the individual's source code — "all your code is written down in nice neat little lines of code."
+
+**Relevance to Morph's natal:**
+
+This framing is structurally coherent with the Pandora OS architecture. The OS is already built as a *digital mirror of reality* — V04's "Earth as computer" and "astrology as coding language" maps directly onto the OS's sovereign premise. The birth chart is not just a map; it is the original program from which the OS's architecture is being built.
+
+**Applied reads:**
+- The **D.I.I** (Infinite Intelligence — Techgnosis) framing for the natal: the birth chart is the sovereign's source code. The OS is the execution environment. Claude is the runtime interpreter.
+- The **triple Neptune-square** on Sun/Moon/Mercury = Neptune as a corrupting variable in the execution environment. The Identity Anchoring Challenge re-framed: Neptune interference with source-code integrity.
+- The **Draconic chart** (Section 9.2) = the highest-timeline branch of the codebase. Embodying draconic placements = running on the main branch, not a degraded fork.
+- The **Uranus-proximate MC** = the disruptive/upgrading function broadcasting at peak amplitude. The vocation is to upgrade other programs' operating systems by dissolving their current frames.
+
+**Cross-link:** Route this frame to D.I.I for the Techgnosis layer — the natal chart as source code is a valid D.I.I framework element, not just a D.P.S.A one.
+
+---
+
+### 9.4 — PRIORITY ACTIONS FROM THIS INTEGRATION
+
+| Priority | Action | Department |
+|----------|--------|------------|
+| 1 | Recompute chart at 08:07 AM CDT to get corrected ASC/MC/cusp degrees | D.P.S.A |
+| 2 | Compute precise Draconic chart positions via pyswisseph | D.P.S.A |
+| 3 | Run three-layer read on Draconic chart once computed | D.P.S.A |
+| 4 | Build Sidereal chart overlay (Section 7 D-3 decision, now elevated by V05 framework) | D.P.S.A |
+| 5 | Cross-link chart-as-source-code frame to D.I.I Techgnosis layer | D.I.I |
+
+---
+
 *dpsa_natal_morph_complete_v1.md | D.P.S.A | Pandora OS*
 *"The chart is the tuning. The substrate is the weather. The coherence is the variable. The broadcast is the work."*
