@@ -34,4 +34,11 @@ Business tech tools → D.S.E | OS-level update → pandora.md
 
 ---
 
+## MEMORY CORE
+Cross-session intelligence log — agentic codebases, tools, decisions, hardware profile.
+Load when: starting a new tool, connecting an external repo, or continuing agentic build work.
+→ `D.I.I/dii_memory-core.md`
+
+---
+
 *D.I.I | Technology fused with divine stewardship. Read this. Load only what the session requires.*
