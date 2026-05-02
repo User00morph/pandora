@@ -27,12 +27,23 @@
 
 ---
 
+## D.R.D MIRROR INTAKE
+When arriving from D.R.D session intake, expect a pre-refined brief containing:
+- Task + goal (one line each)
+- Output type confirmed as: Build / Tool / Integration / Repo / Agent
+- Raw material identified (repos, APIs, existing code, nothing)
+- Skills flagged: check against D.I.I session routing table above
+
 ## CROSS-DEPARTMENT ROUTING
 Complex builds → D.S.C (PRD first) | Suppressed tech research → D.R.D
 Content about tech → D.C.E | Tech-magik convergence → D.O.M
 Business tech tools → D.S.E | OS-level update → pandora.md
 
 ---
+
+## DEVELOPMENT RAILWAY
+D.I.I is the execution layer. Repos and builds arrive here after D.S.C intake + PRD approval.
+→ `shared/protocols/proto_dev-railway.md`
 
 ## MEMORY CORE
 Cross-session intelligence log — agentic codebases, tools, decisions, hardware profile.

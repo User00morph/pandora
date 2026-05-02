@@ -28,9 +28,22 @@
 
 ---
 
+## D.R.D MIRROR INTAKE
+When arriving from D.R.D session intake, expect a pre-refined brief containing:
+- Task + goal (one line each)
+- Output type confirmed as: Project / System / Blueprint / SOP / PRD
+- Raw material identified and filed
+- Skills flagged: check against D.S.C session routing table above
+
 ## CROSS-DEPARTMENT ROUTING
 Research needed → D.R.D | Revenue dimension → D.S.E | Content component → D.C.E
 Property or space → D.R.A | Technology design → D.I.I | OS-level update → pandora.md
+
+---
+
+## DEVELOPMENT RAILWAY
+All incoming repos, builds, and agentic systems enter through D.S.C first — intake → PRD → hand off to D.I.I → tracking back here.
+→ `shared/protocols/proto_dev-railway.md`
 
 ---
 

@@ -9,7 +9,7 @@ Pandora OS is a knowledge architecture and sovereign operating system created by
 ## Session Protocol
 
 1. Read `pandora.md` first — it contains the sovereign declaration, all 12 department definitions, the routing table, naming conventions, and operating protocol.
-2. Identify which department the user's task belongs to using the routing table (Section 5 of `pandora.md`).
+2. **INTAKE — MANDATORY before routing:** Load `shared/skills/skill_session-intake.md` and run the intake protocol. Ask the 6 questions. Refine answers through D.R.D logic. Confirm routing before proceeding. Skip only if continuing mid-session with no ambiguity.
 3. Read the department's **`ref_[dept].md`** first (25–35 lines) — this is the orientation card that tells you exactly which files to load. Do NOT load the full context file unless the ref card explicitly routes to it.
 4. Load only the active workflow stage file from `D.*/workflow/wf_stage-[N]_[name].md` — never the full workflow.
 5. **SKILL SELECTION — MANDATORY before any build or research:**
@@ -44,6 +44,7 @@ See `shared/protocols/proto_data-refinement.md` for the full protocol.
 | Context Hygiene (ICM) | `shared/protocols/proto_context-hygiene.md` | All departments — governs token loading |
 | Session Log | `shared/protocols/proto_session-log.md` | All departments — end-of-session update |
 | MCP Connectors | `shared/protocols/proto_mcp-connectors.md` | All departments — external tool connections |
+| Development Railway | `shared/protocols/proto_dev-railway.md` | D.S.C + D.I.I — governs all repos, builds, agentic systems |
 
 No raw content — from PDFs, repos, web, transcripts, or AI outputs — is written into department files, skills, workflows, or agent definitions without first passing the D.R.D tier and confidence system. Raw content is filed in `research/` only until refined.
 
@@ -137,6 +138,7 @@ Skills are reusable process files in `shared/skills/` loaded at specific workflo
 
 | Skill | File | Primary Departments |
 |-------|------|-------------------|
+| Session Intake | `skill_session-intake.md` | ALL — fire first, before routing, every new session |
 | File Extraction | `skill_file-extraction.md` | ALL — load before reading any file > 50 lines |
 | PDF Extraction | `skill_pdf-extraction.md` | D.R.D, D.I.I, D.S.S, D.B.S, D.R.A |
 | Repo Extraction | `skill_repo-extraction.md` | D.I.I, D.S.C, D.R.D |
