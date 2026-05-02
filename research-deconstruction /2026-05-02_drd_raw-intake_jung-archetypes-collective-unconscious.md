@@ -25,9 +25,8 @@
 |-------|--------|-------|
 | Metadata | ✅ Extracted | Filed above |
 | Transcript | ❌ Unavailable | YouTube blocking auto-captions — PO token required |
-| Full text (PDF) | 🔲 Pending | Video description links a free PDF — primary source for full content |
-
-**Next action:** Source the PDF directly — it is the canonical text and superior to a transcript. File as `celestial archetypes` equivalent in D.R.D or shared reference.
+| Full text (PDF) | ✅ Downloaded | 589 pages, Princeton/Bollingen edition — filed in `research-deconstruction /` |
+| D.R.D Decode | ✅ Complete | `2026-05-02_drd_decode_jung-archetypes-trading-philosophy_draft.md` |
 
 ---
 
