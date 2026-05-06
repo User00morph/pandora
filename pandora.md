@@ -338,5 +338,5 @@ Department-specific Scrolls are called within each department's own file. The Sc
 
 ---
 
-*Pandora OS | v1.0 | 12 Departments | Supreme Authority: Morph*
+*Pandora OS | v1.1 | 12 Departments | Supreme Authority: Morph*
 *"The OS is the Empire before the Empire is visible."*
