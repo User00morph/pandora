@@ -238,6 +238,36 @@ Then use `offset` + `limit` on the Read tool to load only the relevant lines.
 ## REGISTERED PLAYLIST SOURCES
 
 ```
+Professor Jiang — Game Theory Series
+URL:      https://youtube.com/playlist?list=PLWKcfqsabTLVQ0W6b99OM_aH_Fkxs1ywL
+Domain:   systemic-analysis, geopolitics, power-mechanics
+Added:    2026-05-05
+Status:   Partially extracted — see below
+
+EXTRACTED (raw extract files exist in D.R.D/research/systemic-analysis/):
+  Full playlist:  Secret History series — 28 episodes, ~346,286 words  → DECODED (drd_decode_jiang-secret-history_decoded.md)
+  GT#7:           America's Game — ~7,773 words                         → DECODED (drd_decode_jiang-game-theory-7-americas-game_v1.md)
+
+---
+
+Rev. Saaja — Divine Feminine / Narcissistic System Framework
+URL:      (individual videos, no single playlist)
+Domain:   divine-feminine, consciousness, nervous-system
+Added:    2026-05-05
+Status:   7 videos extracted + full decode complete
+
+EXTRACTED (raw extract files exist in D.R.D/research/divine-feminine/):
+  1. Nervous System as Cosmic Battlefield               → ~5,675 words  → DECODED
+  2. Origin of Narcissistic Abuse                       → ~6,326 words  → DECODED
+  3. War on Love — Patriarchy Spell                     → ~6,631 words  → DECODED
+  4. Only True Sin — Forgetting Your Magic              → ~6,180 words  → DECODED
+  5. Masculine Energy Reframe                           → ~8,441 words  → DECODED
+  6. Narcissism and Creative Thinking                   → ~4,728 words  → DECODED
+  7. Healing from Narcissism — Inner Child Reality      → ~6,320 words  → DECODED
+Decode filed: drd_decode_rev-saaja_narcissistic-system-framework_v1.md
+
+---
+
 Hermetic / Egyptian / Occult / Consciousness Studies
 URL:      https://www.youtube.com/playlist?list=PLWKcfqsabTLUlFcf6ec4C5Vn5yf9Dm36Y
 Domain:   consciousness, pre-western-knowledge

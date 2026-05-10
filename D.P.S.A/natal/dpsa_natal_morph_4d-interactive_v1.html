@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MORPH — 4D NATAL LANDSCAPE · ALL LAYERS</title>
+<style>
+:root {
+  --bg:#03050e;--panel:rgba(6,9,22,0.94);--border:rgba(110,80,210,0.28);
+  --gold:#c9a84c;--gold2:#f0d080;--cyan:#4fc3f7;--violet:#9c6fda;--mint:#66ffb2;
+  --fire:#ff6e3a;--water:#5060c8;--earth:#5faa60;--air:#f0c840;
+  --trine:rgba(70,140,255,0.75);--sextile:rgba(60,210,160,0.65);
+  --square:rgba(255,70,70,0.65);--opp:rgba(255,150,40,0.65);--conj:rgba(220,190,255,0.85);
+  --text:#ddd8f0;--dim:rgba(170,150,230,0.5);
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(--text);font-family:'Georgia',serif;}
+#starfield{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;}
+
+.layout{
+  position:relative;z-index:1;display:grid;
+  grid-template-columns:240px 1fr 290px;
+  grid-template-rows:52px 1fr;
+  height:100vh;
+}
+
+/* HEADER */
+.header{
+  grid-column:1/-1;padding:0 20px;border-bottom:1px solid var(--border);
+  background:var(--panel);display:flex;align-items:center;justify-content:space-between;
+}
+.header-title{font-size:1em;letter-spacing:.18em;color:var(--gold);}
+.header-sub{font-size:.62em;color:var(--dim);letter-spacing:.1em;margin-top:2px;}
+.dim-pills{display:flex;gap:5px;}
+.dim-pill{
+  padding:4px 11px;font-size:.65em;letter-spacing:.1em;border:1px solid var(--border);
+  border-radius:12px;background:transparent;color:var(--dim);cursor:pointer;transition:all .3s;
+}
+.dim-pill.on{color:var(--gold);border-color:var(--gold);background:rgba(201,168,76,.12);}
+.dim-pill.on.sid{color:var(--cyan);border-color:var(--cyan);background:rgba(79,195,247,.1);}
+.dim-pill.on.drac{color:var(--mint);border-color:var(--mint);background:rgba(102,255,178,.08);}
+.dim-pill.on.es{color:#d080ff;border-color:#d080ff;background:rgba(208,128,255,.08);}
+
+/* LAYER PANEL */
+.layer-panel{
+  background:var(--panel);border-right:1px solid var(--border);
+  overflow-y:auto;padding:8px 0;scrollbar-width:thin;scrollbar-color:var(--violet) transparent;
+}
+.lg-title{
+  font-size:.58em;letter-spacing:.18em;color:var(--violet);padding:8px 12px 3px;
+  text-transform:uppercase;border-bottom:1px solid rgba(110,80,210,.12);margin-bottom:2px;
+}
+.li{
+  display:flex;align-items:center;gap:6px;padding:4px 10px;
+  cursor:pointer;transition:background .2s;border-left:2px solid transparent;
+}
+.li:hover{background:rgba(110,80,210,.1);}
+.li.focused{background:rgba(201,168,76,.12);border-left-color:var(--gold);}
+.li-dot{
+  width:8px;height:8px;border-radius:50%;flex-shrink:0;
+  box-shadow:0 0 4px currentColor;
+}
+.li-n{font-size:.55em;color:var(--dim);width:16px;flex-shrink:0;}
+.li-name{font-size:.65em;color:var(--text);flex:1;line-height:1.3;}
+.li.focused .li-name{color:var(--gold2);}
+.li-badge{font-size:.48em;padding:1px 4px;border-radius:2px;flex-shrink:0;}
+.t1{background:rgba(80,200,120,.15);color:#70e090;border:1px solid rgba(80,200,120,.25);}
+.t2{background:rgba(200,170,.80,.12);color:#c0a050;border:1px solid rgba(200,170,80,.2);}
+.t3{background:rgba(180,80,220,.12);color:#d060f0;border:1px solid rgba(180,80,220,.2);}
+
+/* CHART */
+.chart-wrap{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  overflow:hidden;position:relative;
+  background:radial-gradient(ellipse at center,rgba(18,8,45,.7) 0%,transparent 72%);
+}
+.scene{perspective:1400px;width:580px;height:580px;}
+.wheel3d{
+  width:100%;height:100%;transform-style:preserve-3d;
+  transform:rotateX(10deg) rotateZ(-1.5deg);transition:transform .9s ease;
+}
+.wheel3d:hover{transform:rotateX(5deg) rotateZ(0deg);}
+#W{width:100%;height:100%;filter:drop-shadow(0 0 24px rgba(90,60,180,.45));}
+
+.bottom-bar{
+  position:absolute;bottom:12px;left:50%;transform:translateX(-50%);
+  background:rgba(3,5,14,.92);border:1px solid var(--gold);border-radius:3px;
+  padding:6px 16px;font-size:.62em;letter-spacing:.09em;color:var(--gold);
+  max-width:440px;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+
+/* INFO PANEL */
+.info-panel{
+  background:var(--panel);border-left:1px solid var(--border);
+  overflow-y:auto;padding:14px;scrollbar-width:thin;scrollbar-color:var(--violet) transparent;
+}
+.ih{font-size:.6em;letter-spacing:.14em;color:var(--violet);text-transform:uppercase;
+    margin-bottom:10px;padding-bottom:5px;border-bottom:1px solid var(--border);}
+.pf{text-align:center;padding:12px 0;}
+.psym{font-size:3.2em;display:block;margin-bottom:3px;}
+.pname{font-size:.95em;color:var(--gold);letter-spacing:.14em;}
+.ppos{font-size:.68em;color:var(--dim);margin-top:3px;}
+.isec{margin-top:11px;padding-top:8px;border-top:1px solid rgba(110,80,210,.14);}
+.ist{font-size:.56em;letter-spacing:.14em;color:var(--violet);text-transform:uppercase;margin-bottom:5px;}
+.ir{display:flex;justify-content:space-between;align-items:flex-start;gap:6px;margin-bottom:4px;}
+.il{font-size:.6em;color:var(--dim);flex-shrink:0;}
+.iv{font-size:.62em;color:var(--text);text-align:right;}
+.iv.g{color:var(--gold2);}
+.iv.c{color:var(--cyan);}
+.iv.m{color:var(--mint);}
+.iv.v{color:#d090ff;}
+.itext{font-size:.61em;color:var(--text);line-height:1.6;margin-top:3px;font-style:italic;opacity:.85;}
+.dim-badge{
+  display:inline-block;padding:1px 6px;border-radius:10px;font-size:.55em;
+  margin-right:4px;letter-spacing:.06em;
+}
+.db-t{background:rgba(255,110,58,.15);color:var(--fire);border:1px solid rgba(255,110,58,.25);}
+.db-s{background:rgba(79,195,247,.12);color:var(--cyan);border:1px solid rgba(79,195,247,.25);}
+.db-d{background:rgba(102,255,178,.1);color:var(--mint);border:1px solid rgba(102,255,178,.2);}
+.db-e{background:rgba(208,128,255,.1);color:#d080ff;border:1px solid rgba(208,128,255,.2);}
+
+/* Tooltip */
+#tip{
+  position:fixed;background:rgba(6,9,22,.97);border:1px solid var(--gold);border-radius:3px;
+  padding:7px 11px;font-size:.62em;pointer-events:none;z-index:999;
+  max-width:200px;line-height:1.6;display:none;
+}
+#tip.on{display:block;}
+
+::-webkit-scrollbar{width:3px;}
+::-webkit-scrollbar-thumb{background:rgba(110,80,210,.4);border-radius:2px;}
+@keyframes fadein{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+.fi{animation:fadein .35s ease forwards;}
+</style>
+</head>
+<body>
+
+<canvas id="starfield"></canvas>
+<div id="tip"></div>
+
+<div class="layout">
+
+<!-- HEADER -->
+<div class="header">
+  <div>
+    <div class="header-title">◈ MORPH — 4D NATAL LANDSCAPE · ALL 30 LAYERS ACTIVE</div>
+    <div class="header-sub">May 12 2006 · 08:07 CDT · Green Bay WI · SNRS v3</div>
+  </div>
+  <div class="dim-pills">
+    <button class="dim-pill on" data-dim="tropical">I Tropical</button>
+    <button class="dim-pill on sid" data-dim="sidereal">II Sidereal</button>
+    <button class="dim-pill on drac" data-dim="draconic">III Draconic</button>
+    <button class="dim-pill on es" data-dim="esoteric">IV Esoteric</button>
+  </div>
+</div>
+
+<!-- LAYER PANEL -->
+<div class="layer-panel" id="LP"></div>
+
+<!-- CHART -->
+<div class="chart-wrap">
+  <div class="scene">
+    <div class="wheel3d">
+      <svg id="W" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg"></svg>
+    </div>
+  </div>
+  <div class="bottom-bar" id="BB">All 30 layers active simultaneously · Click any layer to focus · Click any planet to explore</div>
+</div>
+
+<!-- INFO PANEL -->
+<div class="info-panel" id="IP">
+  <div class="ih">◈ Planet Focus — All Dimensions</div>
+  <div class="pf">
+    <span class="psym" id="FS">◈</span>
+    <div class="pname" id="FN">Select a Planet</div>
+    <div class="ppos" id="FP">Click any planet on the wheel</div>
+  </div>
+  <div id="FD"></div>
+</div>
+
+</div><!-- end layout -->
+
+<script>
+// ─────────────────────────────────────────
+// CONSTANTS
+// ─────────────────────────────────────────
+const CX=350,CY=350;
+const R_OUT=310, R_SIGN=278, R_HSE=252, R_INNER=54;
+const R_T=198, R_S=162, R_D=228; // tropical / sidereal / draconic radii
+const ASC=90.71, MC=337.19;
+
+const SIGNS=['♈','♉','♊','♋','♌','♍','♎','♏','♐','♑','♒','♓'];
+const SNAMES=['Aries','Taurus','Gemini','Cancer','Leo','Virgo','Libra','Scorpio','Sagittarius','Capricorn','Aquarius','Pisces'];
+const ELEMS=['fire','earth','air','water','fire','earth','air','water','fire','earth','air','water'];
+const ECOLS={fire:'rgba(255,110,58,.13)',earth:'rgba(95,170,96,.1)',air:'rgba(240,200,64,.09)',water:'rgba(80,96,200,.16)'};
+const ETXT={fire:'#ff8050',earth:'#70c070',air:'#e0c040',water:'#7080e0'};
+
+// Tropical positions
+const TP={
+  sun:    {n:'Sun',    s:'☉',lon:51.67, rt:false,dp:"21°♉40'",h:11,e:'earth'},
+  moon:   {n:'Moon',  s:'☽',lon:222.93,rt:false,dp:"12°♏56'",h:5, e:'water'},
+  mercury:{n:'Mercury',s:'☿',lon:44.25, rt:false,dp:"14°♉15'",h:11,e:'earth'},
+  venus:  {n:'Venus', s:'♀',lon:10.37, rt:false,dp:"10°♈22'",h:10,e:'fire'},
+  mars:   {n:'Mars',  s:'♂',lon:106.70,rt:false,dp:"16°♋42'",h:1, e:'water'},
+  jupiter:{n:'Jupiter',s:'♃',lon:222.99,rt:true, dp:"12°♏59'R",h:5,e:'water'},
+  saturn: {n:'Saturn',s:'♄',lon:125.58,rt:false,dp:"05°♌35'",h:2, e:'fire'},
+  uranus: {n:'Uranus',s:'♅',lon:344.16,rt:false,dp:"14°♓10'",h:9, e:'water'},
+  neptune:{n:'Neptune',s:'♆',lon:319.79,rt:false,dp:"19°♒47'",h:8,e:'air'},
+  pluto:  {n:'Pluto', s:'♇',lon:266.28,rt:true, dp:"26°♐17'R",h:6,e:'fire'},
+  nn:     {n:'N.Node',s:'☊',lon:3.48,  rt:true, dp:"03°♈29'R",h:10,e:'fire'},
+  sn:     {n:'S.Node',s:'☋',lon:183.48,rt:true, dp:"03°♎29'R",h:4, e:'air'},
+  chiron: {n:'Chiron',s:'⚷',lon:309.77,rt:false,dp:"09°♒46'",h:8, e:'air'},
+  pof:    {n:'Pt Fortune',s:'⊕',lon:260.99,rt:false,dp:"20°♐59'",h:6,e:'fire'},
+};
+
+// Sidereal positions (Lahiri)
+const SP={
+  sun:{lon:26.84,sign:'Aries'}, moon:{lon:198.10,sign:'Libra'},
+  mercury:{lon:19.42,sign:'Aries'}, venus:{lon:345.54,sign:'Pisces'},
+  mars:{lon:81.87,sign:'Gemini'}, jupiter:{lon:198.16,sign:'Libra'},
+  saturn:{lon:100.75,sign:'Cancer'}, uranus:{lon:319.33,sign:'Aquarius'},
+  neptune:{lon:294.96,sign:'Capricorn'}, pluto:{lon:241.45,sign:'Sagittarius'},
+  nn:{lon:338.65,sign:'Pisces'},
+  chiron:{lon:285,sign:'Capricorn'}, pof:{lon:236.16,sign:'Scorpio'},
+};
+
+// Draconic positions (subtract N.Node 3.475°)
+const DP={
+  sun:48.20,moon:219.45,mercury:40.78,venus:6.89,mars:103.22,
+  jupiter:219.51,saturn:122.11,uranus:340.69,neptune:316.31,
+  pluto:262.80,nn:0,sn:180,chiron:306.30,pof:257.52,
+};
+
+// Esoteric data per planet
+const ES={
+  sun:    {god:'Ra',      ruler:'Vulcan',  archon:'Iao',       sabian:'"White dove over troubled waters"',ray:'Ray 2',dig:'Standard ♉'},
+  moon:   {god:'Khonsu',  ruler:'Neptune', archon:'Sabbede',   sabian:'"Inventor in a laboratory"',      ray:'Ray 4',dig:'FALL ♏'},
+  mercury:{god:'Thoth',   ruler:'Venus',   archon:'Adonin',    sabian:'"Man braves elements"',            ray:'Ray 5',dig:'♉ Standard'},
+  venus:  {god:'Inanna',  ruler:'Mercury', archon:'Sabaoth',   sabian:'"Ruler of a nation"',              ray:'Ray 5',dig:'DET ♈ / EXALT ♓ sid'},
+  mars:   {god:'Hapi/Sekhmet',ruler:'Mars',archon:'Astaphanos',sabian:'"Multilevel potentialities"',      ray:'Ray 6',dig:'FALL ♋ / DISPOSITOR'},
+  jupiter:{god:'Horus',   ruler:'Jupiter', archon:'Eloaios',   sabian:'"Inventor in a laboratory"',      ray:'Ray 2',dig:'♏ Strong'},
+  saturn: {god:'Horus-Bull',ruler:'Saturn',archon:'Yaldabaoth',sabian:'"Old lady meets hippie girl"',     ray:'Ray 3',dig:'DET ♌'},
+  uranus: {god:'[Beyond]', ruler:'Uranus', archon:'8th Sphere', sabian:'"Officer prepares disembarkation"',ray:'Ray 7',dig:'♓'},
+  neptune:{god:'Nun',      ruler:'Neptune',archon:'Ogdoad',    sabian:'"White dove bears message"',       ray:'Ray 6',dig:'♒ / Cancer soul ruler'},
+  pluto:  {god:'Osirian Cycle',ruler:'Pluto',archon:'Transformer',sabian:'"Sculptor\'s vision takes form"',ray:'Ray 1',dig:'♐ Rx'},
+  nn:     {god:'Becoming', ruler:'N/A',    archon:'Soul vector',sabian:'"Two lovers in secluded walk"',  ray:'—',dig:'♈ H10 — evolution'},
+  sn:     {god:'Memory',   ruler:'N/A',    archon:'Past pattern',sabian:'"—"',                           ray:'—',dig:'♎ H4 — release'},
+  chiron: {god:'Wounded Healer',ruler:'Chiron',archon:'The wound',sabian:'"—"',                          ray:'—',dig:'♒ H8'},
+  pof:    {god:'Fortune',  ruler:'Jupiter',archon:'—',         sabian:'"A grand army of the republic"', ray:'—',dig:'♐ H6'},
+};
+
+// Aspects
+const ASPS=[
+  {a:'sun',b:'neptune',t:'square',   c:'var(--square)',  w:1.5,d:'Identity Anchoring Challenge — Sun sq Neptune 1°53\''},
+  {a:'mars',b:'moon',  t:'trine',    c:'var(--trine)',   w:2.2,d:'Grand Water Trine — Mars △ Moon 5°46\''},
+  {a:'mars',b:'jupiter',t:'trine',   c:'var(--trine)',   w:2.2,d:'Grand Water Trine — Mars △ Jupiter 5°52\''},
+  {a:'moon',b:'jupiter',t:'conj',    c:'var(--conj)',    w:2.5,d:'Moon ☌ Jupiter 0°07\' — near-exact stellium'},
+  {a:'moon',b:'uranus',t:'trine',    c:'var(--trine)',   w:1.8,d:'Grand Water Trine — Moon △ Uranus 11°14\''},
+  {a:'jupiter',b:'uranus',t:'trine', c:'var(--trine)',   w:1.8,d:'Grand Water Trine — Jupiter △ Uranus 11°08\''},
+  {a:'mercury',b:'moon',t:'opp',     c:'var(--opp)',     w:1.5,d:'Mercury Kite axis — Merc ☍ Moon/Jup 2°37\''},
+  {a:'mercury',b:'jupiter',t:'opp',  c:'var(--opp)',     w:1.5,d:'Mercury Kite — Merc ☍ Jupiter 2°43\''},
+  {a:'mercury',b:'uranus',t:'sext',  c:'var(--sextile)', w:1.8,d:'Kite sextile — Merc ⚹ Uranus 0°10\' near-exact'},
+  {a:'mercury',b:'mars',  t:'sext',  c:'var(--sextile)', w:1.2,d:'Kite sextile — Merc ⚹ Mars 5°26\''},
+  {a:'saturn', b:'venus', t:'trine', c:'var(--trine)',   w:1,  d:'Saturn △ Venus 4°13\' — disciplined beauty'},
+  {a:'pluto',  b:'nn',    t:'sext',  c:'var(--sextile)', w:0.8,d:'Pluto ⚹ N.Node — soul evolution through service'},
+];
+
+// Antiscia lines (Layer 24) — mirror across Cancer/Capricorn axis
+// antiscia of lon L = 180 - L (mod 360) simplified: mirror across 0°Cancer / 0°Capricorn axis
+// Actually antiscia: reflect across Cancer-Capricorn solstice axis = 90°-270°
+// antiscia(L) = 180 - L (if we define axis at 0°/180° in sign space)
+// Actually the standard formula: antiscion = (180 - lon + 90 + 90) ...
+// Simplest: antiscia lon = (360 - lon + 90*2) % 360 = antiscia across the 0°Cancer/0°Cap axis
+// antiscia across Cancer/Capricorn: antiscia(L) = (180 - L + 360) % 360... no
+// The correct formula: antiscia are reflections across the 0°Cancer - 0°Capricorn axis (90°-270° in the zodiac)
+// For a planet at longitude L: antiscia = 180 - L (if L measured from 0°Aries)
+// No wait: the Cancer-Capricorn axis is at 90° and 270°.
+// Reflection across the 90°-270° axis: antiscia(L) = 180 - L + 180 = 360 - L... no
+// antiscia = reflection across the 0°Cancer (90°) - 0°Capricorn (270°) axis
+// A point at L reflected across the vertical axis (90°-270°) = 180° - L
+// Sun at 51.67°: antiscia = 180 - 51.67 = 128.33° = 08° Leo → near Saturn 05° Leo ✓
+// Moon at 222.93°: antiscia = 180 - 222.93 = -42.93 = 317.07° = 17° Aquarius → near Neptune 19° Aquarius ✓
+const ANTISCIA=[
+  {a:'sun',    alon:128.33, label:'Sun antiscia→ 08°♌ (near Saturn)'},
+  {a:'moon',   alon:317.07, label:'Moon antiscia→ 17°♒ (near Neptune)'},
+  {a:'mercury',alon:135.75, label:'Mercury antiscia→ 15°♌'},
+  {a:'mars',   alon:73.30,  label:'Mars antiscia→ 13°♊'},
+];
+
+// Polarity axes (background structure lines)
+const AXES=[
+  {lon1:10, lon2:190, label:'♈/♎ Initiation/Relationship'},
+  {lon1:40, lon2:220, label:'♉/♏ Resource/Transformation'},
+  {lon1:70, lon2:250, label:'♊/♐ Information/Meaning'},
+  {lon1:100,lon2:280, label:'♋/♑ Roots/Structure'},
+  {lon1:130,lon2:310, label:'♌/♒ Expression/Collective'},
+  {lon1:160,lon2:340, label:'♍/♓ Refinement/Dissolution'},
+];
+
+// Fixed star markers
+const FSTARS=[
+  {lon:120,label:'Regulus',note:'00°♌ near Saturn'},
+  {lon:267,label:'Gal.Ctr',note:'27°♐ near Pluto/PoF'},
+  {lon:344,label:'Achernar',note:'15°♓ near Uranus'},
+];
+
+// ─────────────────────────────────────────
+// LAYER DATA (all 30)
+// ─────────────────────────────────────────
+const LAYERS=[
+  {n:1, name:'Structural Astrology',       tier:1,dot:'#66e090',highlights:Object.keys(TP),badge:'LIVE',desc:'Tropical chart: sign, house, aspect architecture, dignity, sect, chart ruler.'},
+  {n:2, name:'Aspect Architecture',        tier:1,dot:'#6090ff',highlights:['sun','moon','mercury','mars','jupiter','uranus','neptune','pluto'],badge:'LIVE',desc:'Grand Water Trine · Mercury Kite · Sun-Neptune sq · Moon-Jupiter ☌ 0°07\' · Pluto opp ASC 4°43\''},
+  {n:3, name:'WS House Domains',           tier:1,dot:'#80a0e0',highlights:[],badge:'LIVE',desc:'Whole Sign primary — Cancer H1 through Gemini H12. Placidus angles retained for ASC/MC exact degrees.'},
+  {n:4, name:'Lundsted Psychological',     tier:1,dot:'#ff9060',highlights:['moon','mars','saturn','venus'],badge:'LIVE',desc:'Planets as childhood actors. Moon/Scorpio Fall: intensity without healthy emotional modeling. Mars/Cancer Fall: action force emotionally suppressed.'},
+  {n:5, name:'Energetic Domains',          tier:1,dot:'#80c8a0',highlights:[],badge:'LIVE',desc:'Each WS house personalized per drd_framework_houses-energetic-domains_v1.md.'},
+  {n:6, name:'Birth Data Canonical',       tier:1,dot:'#a0a0c0',highlights:[],badge:'LIVE',desc:'May 12, 2006 / 08:07 AM CDT / HSHS St. Vincent Hospital, Green Bay WI. ASC 00°♋43\' · MC 03°♓47\'.'},
+  {n:7, name:'Complete Natal Overlay v3',  tier:1,dot:'#c9a84c',highlights:Object.keys(TP),badge:'LIVE',desc:'Three-layer synthesis reading: structural + Lundsted + Hickey applied to every placement. All prior files integrated.'},
+  {n:8, name:'Hickey Spiritual Substrate', tier:1,dot:'#e0a060',highlights:['moon','mars','venus','saturn','pluto','neptune'],badge:'LIVE',desc:'Soul contracts; Minerva principle. Keynote: CONSECRATION. The capacity to be a channel.'},
+  {n:9, name:'Draconic Chart',             tier:1,dot:'#66ffb2',highlights:['venus','nn','mars','moon','jupiter'],badge:'LIVE',desc:'Soul memory. Draconic ♀ conjunct N.Node — beauty IS the evolutionary direction. Soul fully committed to this incarnation.'},
+  {n:10,name:'Sidereal Chart (Lahiri)',    tier:1,dot:'#4fc3f7',highlights:['moon','venus','jupiter','mars','sun'],badge:'LIVE',desc:'ASC→Gemini, Moon→Libra (Swati nakshatra), Venus→Pisces EXALTATION. Moon-Jupiter conjunction holds in Libra (0°04\' orb).'},
+  {n:11,name:'Chart Ruler Lens',           tier:2,dot:'#c0c060',highlights:['moon','mercury'],badge:'ID',desc:'Tropical ruler: ☽ Moon (Cancer ASC) → Scorpio H5. Sidereal ruler: ☿ Mercury (Gemini ASC) → Aries H11. Two OS running simultaneously.'},
+  {n:12,name:'Polarity Model (CodeFairy)', tier:2,dot:'#d0a040',highlights:['sun','mercury','moon','jupiter'],badge:'ID',desc:'12 signs = 6 polar energies. Dominant: ♉/♏ Resource/Transformation. Three-chart integration method active.'},
+  {n:13,name:'Kemetic / 9-Ether',          tier:2,dot:'#c080ff',highlights:['mars','moon','mercury','venus','sun'],badge:'ID',desc:'God bodies. Grand Water Trine = 9-ether receiver circuit. Mars=Hapi+Sekhmet. Moon=Khonsu. Mercury=Thoth. Venus=Inanna/Isis.'},
+  {n:14,name:'Vedic Nakshatras',           tier:2,dot:'#ffd060',highlights:['moon','nn'],badge:'ID',desc:'Moon at 18°♎06\' (sidereal) = Swati nakshatra (Rahu-ruled, Vayu/Wind deity). Blade of grass — bends without breaking.'},
+  {n:15,name:'Jaimini Jyotish',            tier:2,dot:'#90a0d0',highlights:[],badge:'ID',desc:'Atmakaraka (highest degree planet = soul significator), Chara Dasha timing. Pending: dpsa_natal_morph_jaimini_v1.md.'},
+  {n:16,name:'Sabian Symbols',             tier:2,dot:'#f0c050',highlights:Object.keys(TP),badge:'ID',desc:'Sun: "White dove over troubled waters." Moon/Jup: "Inventor in laboratory." ASC: "Sailor raises new flag." Pluto: "Sculptor\'s vision taking form."'},
+  {n:17,name:'Fixed Stars',                tier:2,dot:'#ffffa0',highlights:['saturn','pluto','uranus'],badge:'ID',desc:'Saturn near Regulus (00°♌). Pluto/PoF near Galactic Center (27°♐). Uranus near Achernar 15°♓ (1° orb).'},
+  {n:18,name:'Asteroid Goddesses',         tier:2,dot:'#f090c0',highlights:[],badge:'ID',desc:'Ceres, Pallas Athena (Minerva), Juno, Vesta — pre-patriarchal feminine bodies. Hickey\'s Minerva principle = Pallas. Requires ephemeris.'},
+  {n:19,name:'Hermetic Lots',              tier:2,dot:'#a0d0a0',highlights:['pluto','nn'],badge:'ID',desc:'PoF: 20°♐59\' H6. Lot of Spirit: 12°♑28\'. Seven Hermetic Lots. Zodiacal Releasing from Lot of Spirit pending.'},
+  {n:20,name:'Sumerian / Babylonian',      tier:2,dot:'#e0b080',highlights:['venus','saturn','jupiter'],badge:'ID',desc:'Oldest layer. Venus = Inanna (supreme deity). Saturn = Ninurta. Jupiter = Marduk. Moon = Sin. Sun = Shamash.'},
+  {n:21,name:'Alice Bailey / Seven Rays',  tier:3,dot:'#d060ff',highlights:['moon','sun','neptune','venus'],badge:'OCC',desc:'Cancer ASC esoteric ruler = Neptune. Taurus Sun esoteric ruler = Vulcan. Triple rulership: exoteric/esoteric/hierarchical.'},
+  {n:22,name:'Gnostic Archon Framework',   tier:3,dot:'#ff6080',highlights:['saturn','moon','sun','neptune','mars','jupiter','uranus'],badge:'OCC',desc:'7 planetary archons as soul-veils. Saturn=Yaldabaoth. Neptune in 8th = Ogdoad. Grand Water Trine = liberation circuit.'},
+  {n:23,name:'Picatrix / Talismanic',      tier:3,dot:'#ffa040',highlights:['moon','jupiter','mercury','mars'],badge:'OCC',desc:'Planets as conscious intelligences petitioned through material correspondences. Moon-Jupiter talisman: silver+tin, lapis, cedar.'},
+  {n:24,name:'Advanced Hellenistic',       tier:3,dot:'#c0a830',highlights:['moon','neptune','mercury','saturn','mars','jupiter'],badge:'OCC',desc:'Antiscia: Moon→17°♒ (conjunct Neptune secretly). Mars dod = 20°♑. Age 20 = H9 profected, Jupiter Lord of Year 2026.'},
+  {n:25,name:'Kemetic Primary Source',     tier:3,dot:'#80ffb0',highlights:['sn','nn','pluto'],badge:'OCC',desc:'Dendera Zodiac. 36 Decans as original zodiac (pre-Greek). Amduat: 12 hours = 12 houses. Ma\'at (Libra/S.Node) as organizing principle.'},
+  {n:26,name:'Sabian Circuit',             tier:3,dot:'#ffe070',highlights:Object.keys(TP),badge:'OCC',desc:'Full narrative arc: Sailor raises flag → Inventor in lab → Dove over waters → Sculptor\'s vision forms. Soul journey in images.'},
+  {n:27,name:'Vedic Divisional Charts',    tier:3,dot:'#a0c8ff',highlights:['moon','venus','mercury','sun'],badge:'OCC',desc:'D-9 Navamsa (chart behind the chart), D-10 Dashamsa (career), D-3 Drekkana, D-2 Hora. Priority: compute Navamsa.'},
+  {n:28,name:'Astrocartography',           tier:3,dot:'#60e0c0',highlights:['moon','mercury','mars','sun'],badge:'OCC',desc:'Natal chart by location. Where are Moon, Mercury, Mars angular on Earth? Natchitoches relocation pending.'},
+  {n:29,name:'Planetary Nodes',            tier:3,dot:'#d0a0ff',highlights:['venus','mars','jupiter','nn'],badge:'OCC',desc:'Venus Node = relational evolution beyond Moon\'s Node. Mars Node = will evolution. Deeper map than Lunar Nodes alone.'},
+  {n:30,name:'Uranian / Hamburg School',   tier:3,dot:'#80d0ff',highlights:['moon','jupiter','sun','neptune'],badge:'OCC',desc:'8 trans-Neptunian points. Midpoints: Moon/Jup = 22°♏ (creative trigger). Sun/Nep = 20°♓ (mystical identity). 90° dial.'},
+];
+
+// ─────────────────────────────────────────
+// STATE
+// ─────────────────────────────────────────
+let focusedLayer=null;
+let selectedPlanet=null;
+let dimVis={tropical:true,sidereal:true,draconic:true,esoteric:true};
+
+// ─────────────────────────────────────────
+// UTILITIES
+// ─────────────────────────────────────────
+function svgA(lon){
+  const fa=((lon-ASC)%360+360)%360;
+  return (180-fa+360)%360;
+}
+function polar(a,r){
+  const rad=a*Math.PI/180;
+  return{x:CX+r*Math.cos(rad),y:CY+r*Math.sin(rad)};
+}
+function ppos(lon,r){return polar(svgA(lon),r);}
+function ecol(e){return{fire:'var(--fire)',water:'var(--water)',earth:'var(--earth)',air:'var(--air)'}[e]||'#aaa';}
+function el(t,a={}){
+  const e=document.createElementNS('http://www.w3.org/2000/svg',t);
+  Object.entries(a).forEach(([k,v])=>e.setAttribute(k,v));
+  return e;
+}
+function addStop(g,off,c){
+  const s=document.createElementNS('http://www.w3.org/2000/svg','stop');
+  s.setAttribute('offset',off);s.setAttribute('stop-color',c);g.appendChild(s);
+}
+
+// ─────────────────────────────────────────
+// PLANET RADIUS (collision offset)
+// ─────────────────────────────────────────
+const P_R={moon:R_T+18,jupiter:R_T-18,nn:R_T+26,sn:R_T-14,chiron:R_T-24,pof:R_T+14};
+const P_R_S={moon:R_S+14,jupiter:R_S-14,nn:R_S+20,sn:R_S-10,chiron:R_S-16,pof:R_S+10};
+const P_R_D={moon:R_D+16,jupiter:R_D-16,nn:R_D+22,sn:R_D-12,chiron:R_D-18,pof:R_D+12};
+function pr(k,base,map){return map[k]||base;}
+
+// ─────────────────────────────────────────
+// DRAW
+// ─────────────────────────────────────────
+function draw(){
+  const svg=document.getElementById('W');
+  svg.innerHTML='';
+
+  // DEFS
+  const df=el('defs');
+  ['glow-trine','glow-planet','glow-gold','glow-sidereal','glow-drac'].forEach((id,i)=>{
+    const f=el('filter',{id,x:'-60%',y:'-60%',width:'220%',height:'220%'});
+    f.appendChild(el('feGaussianBlur',{in:'SourceGraphic',stdDeviation:[3,4,5,3,3][i]}));
+    df.appendChild(f);
+  });
+  const rg=el('radialGradient',{id:'cg',cx:'50%',cy:'50%',r:'50%'});
+  addStop(rg,'0%','rgba(60,30,120,.5)');addStop(rg,'100%','rgba(3,5,14,0)');
+  df.appendChild(rg);
+  svg.appendChild(df);
+
+  // BG
+  svg.appendChild(el('circle',{cx:CX,cy:CY,r:R_OUT+6,fill:'rgba(3,5,14,.65)',stroke:'rgba(110,80,210,.2)','stroke-width':1}));
+
+  // POLARITY AXES (background)
+  if(dimVis.tropical){
+    AXES.forEach((ax,i)=>{
+      const p1=ppos(ax.lon1,R_OUT+4),p2=ppos(ax.lon2,R_OUT+4);
+      const active=focusedLayer===12;
+      svg.appendChild(el('line',{
+        x1:p1.x,y1:p1.y,x2:p2.x,y2:p2.y,
+        stroke:active?'rgba(240,200,64,.35)':'rgba(110,80,210,.07)',
+        'stroke-width':active?0.8:0.5,'stroke-dasharray':'2,8'
+      }));
+    });
+    // Highlight Taurus/Scorpio (dominant axis)
+    const tax=AXES[1];
+    const tp1=ppos(tax.lon1,R_OUT+4),tp2=ppos(tax.lon2,R_OUT+4);
+    svg.appendChild(el('line',{
+      x1:tp1.x,y1:tp1.y,x2:tp2.x,y2:tp2.y,
+      stroke:'rgba(150,100,240,.18)','stroke-width':1.5,'stroke-dasharray':'4,6',
+      filter:'url(#glow-trine)'
+    }));
+  }
+
+  // SIGN BANDS
+  for(let i=0;i<12;i++){
+    const sl=i*30,ea=svgA(sl),eb=svgA((sl+30)%360);
+    const s1=polar(ea,R_SIGN),e1=polar(eb,R_SIGN);
+    const s2=polar(ea,R_OUT),e2=polar(eb,R_OUT);
+    svg.appendChild(el('path',{
+      d:`M ${s2.x} ${s2.y} A ${R_OUT} ${R_OUT} 0 0 1 ${e2.x} ${e2.y} L ${e1.x} ${e1.y} A ${R_SIGN} ${R_SIGN} 0 0 0 ${s1.x} ${s1.y} Z`,
+      fill:ECOLS[ELEMS[i]],stroke:'rgba(110,80,210,.18)','stroke-width':.5
+    }));
+    const ma=svgA(sl+15),mp=polar(ma,(R_SIGN+R_OUT)/2+2);
+    const sigT=el('text',{x:mp.x,y:mp.y,'text-anchor':'middle','dominant-baseline':'central',
+      fill:ETXT[ELEMS[i]],'font-size':'13','font-family':'Georgia',opacity:'.88'});
+    sigT.textContent=SIGNS[i]; svg.appendChild(sigT);
+    const ts=polar(svgA(sl),R_SIGN),te=polar(svgA(sl),R_OUT-2);
+    svg.appendChild(el('line',{x1:ts.x,y1:ts.y,x2:te.x,y2:te.y,stroke:'rgba(110,80,210,.4)','stroke-width':.8}));
+  }
+  svg.appendChild(el('circle',{cx:CX,cy:CY,r:R_OUT,fill:'none',stroke:'rgba(110,80,210,.45)','stroke-width':1.5}));
+  svg.appendChild(el('circle',{cx:CX,cy:CY,r:R_SIGN,fill:'none',stroke:'rgba(110,80,210,.25)','stroke-width':.8}));
+
+  // HOUSE CUSPS
+  for(let h=0;h<12;h++){
+    const cl=(ASC+h*30)%360,a=svgA(cl);
+    const p1=polar(a,R_SIGN),p2=polar(a,R_INNER);
+    const isAng=h===0||h===3||h===6||h===9;
+    svg.appendChild(el('line',{
+      x1:p1.x,y1:p1.y,x2:p2.x,y2:p2.y,
+      stroke:isAng?'rgba(201,168,76,.65)':'rgba(110,80,210,.18)',
+      'stroke-width':isAng?1.5:.7,'stroke-dasharray':isAng?'':'3,5'
+    }));
+    const hma=svgA((ASC+(h+.5)*30)%360),hmp=polar(hma,(R_HSE+R_SIGN)/2);
+    const ht=el('text',{x:hmp.x,y:hmp.y,'text-anchor':'middle','dominant-baseline':'central',
+      fill:'rgba(170,150,230,.55)','font-size':'8','font-family':'Georgia'});
+    ht.textContent=h+1; svg.appendChild(ht);
+  }
+  svg.appendChild(el('circle',{cx:CX,cy:CY,r:R_INNER,fill:'url(#cg)',stroke:'rgba(201,168,76,.28)','stroke-width':.8}));
+  svg.appendChild(el('circle',{cx:CX,cy:CY,r:R_HSE,fill:'none',stroke:'rgba(110,80,210,.15)','stroke-width':.5}));
+
+  // ANGLE LABELS
+  [{lon:ASC,l:'ASC'},{lon:(ASC+180)%360,l:'DSC'},{lon:MC,l:'MC'},{lon:(MC+180)%360,l:'IC'}].forEach(({lon,l})=>{
+    const p=ppos(lon,R_INNER-15);
+    const t=el('text',{x:p.x,y:p.y,'text-anchor':'middle','dominant-baseline':'central',
+      fill:'rgba(201,168,76,.85)','font-size':'7.5','font-weight':'bold'});
+    t.textContent=l; svg.appendChild(t);
+  });
+
+  // CENTER
+  const ct=el('text',{x:CX,y:CY,'text-anchor':'middle','dominant-baseline':'central',fill:'rgba(201,168,76,.35)','font-size':'20'});
+  ct.textContent='◈'; svg.appendChild(ct);
+
+  // FIXED STARS (Layer 17)
+  if(dimVis.tropical){
+    const foc17=focusedLayer===17;
+    FSTARS.forEach(fs=>{
+      const p=ppos(fs.lon,R_OUT-10);
+      svg.appendChild(el('circle',{cx:p.x,cy:p.y,r:3,fill:'rgba(255,255,160,.5)',stroke:'rgba(255,255,100,.7)','stroke-width':.5,filter:'url(#glow-gold)'}));
+      if(foc17||true){
+        const t=el('text',{x:p.x,y:p.y-9,'text-anchor':'middle',fill:'rgba(255,255,120,.55)','font-size':'5.5'});
+        t.textContent='★'+fs.label; svg.appendChild(t);
+      }
+    });
+  }
+
+  // ANTISCIA LINES (Layer 24)
+  if(dimVis.tropical){
+    const foc24=focusedLayer===24;
+    ANTISCIA.forEach(ant=>{
+      const planet=TP[ant.a];
+      if(!planet)return;
+      const p1=ppos(planet.lon,R_T+8),p2=ppos(ant.alon,R_T+8);
+      svg.appendChild(el('line',{
+        x1:p1.x,y1:p1.y,x2:p2.x,y2:p2.y,
+        stroke:foc24?'rgba(220,180,40,.7)':'rgba(220,180,40,.25)',
+        'stroke-width':foc24?1.2:.6,'stroke-dasharray':'3,5',
+        filter:foc24?'url(#glow-gold)':''
+      }));
+    });
+  }
+
+  // ASPECTS (Layer 2)
+  drawAspects(svg);
+
+  // DRACONIC RING (Layer 9)
+  if(dimVis.draconic){
+    const foc=focusedLayer===9;
+    const opacity=foc?0.85:0.45;
+    svg.appendChild(el('circle',{cx:CX,cy:CY,r:R_D,fill:'none',stroke:`rgba(102,255,178,${foc?0.2:0.08})`,'stroke-width':foc?1:.5,'stroke-dasharray':'1,4'}));
+    Object.entries(TP).forEach(([k,p])=>{
+      if(!DP[k]&&DP[k]!==0)return;
+      const r=pr(k,R_D,P_R_D);
+      const pos=ppos(DP[k],r);
+      svg.appendChild(el('circle',{cx:pos.x,cy:pos.y,r:foc?4:2.5,fill:'rgba(102,255,178,.6)',opacity,filter:foc?'url(#glow-drac)':''}));
+      if(foc){
+        const t=el('text',{x:pos.x,y:pos.y-8,'text-anchor':'middle',fill:'rgba(102,255,178,.8)','font-size':'8'});
+        t.textContent=p.s; svg.appendChild(t);
+      }
+    });
+  }
+
+  // SIDEREAL RING (Layer 10)
+  if(dimVis.sidereal){
+    const foc=focusedLayer===10;
+    const opacity=foc?0.9:0.5;
+    svg.appendChild(el('circle',{cx:CX,cy:CY,r:R_S,fill:'none',stroke:`rgba(79,195,247,${foc?0.2:0.08})`,'stroke-width':foc?1:.5,'stroke-dasharray':'2,6'}));
+    Object.entries(TP).forEach(([k,p])=>{
+      const sd=SP[k];if(!sd)return;
+      const r=pr(k,R_S,P_R_S);
+      const pos=ppos(sd.lon,r);
+      svg.appendChild(el('circle',{cx:pos.x,cy:pos.y,r:foc?4.5:2.8,fill:'rgba(79,195,247,.65)',opacity,filter:foc?'url(#glow-sidereal)':''}));
+      if(foc||focusedLayer===10){
+        const t=el('text',{x:pos.x,y:pos.y-9,'text-anchor':'middle',fill:'rgba(79,195,247,.85)','font-size':'8.5'});
+        t.textContent=p.s; svg.appendChild(t);
+      } else if(!foc){
+        // tiny indicator
+        const t=el('text',{x:pos.x,y:pos.y-6,'text-anchor':'middle',fill:'rgba(79,195,247,.35)','font-size':'6'});
+        t.textContent=p.s; svg.appendChild(t);
+      }
+    });
+    // Connecting lines trop→sid for planets that shift significantly
+    if(dimVis.tropical){
+      Object.entries(TP).forEach(([k,p])=>{
+        const sd=SP[k];if(!sd)return;
+        const diff=Math.abs(((p.lon-sd.lon)+360)%360);
+        const d2=Math.min(diff,360-diff);
+        if(d2>3){ // only show lines for significant shifts
+          const pt=ppos(p.lon,pr(k,R_T,P_R));
+          const ps=ppos(sd.lon,pr(k,R_S,P_R_S));
+          svg.appendChild(el('line',{
+            x1:pt.x,y1:pt.y,x2:ps.x,y2:ps.y,
+            stroke:'rgba(79,195,247,.2)','stroke-width':.5,'stroke-dasharray':'2,4'
+          }));
+        }
+      });
+    }
+  }
+
+  // TROPICAL PLANETS (Layer 1 — main ring, drawn last so on top)
+  drawTropicalPlanets(svg);
+
+  // ESOTERIC OVERLAYS (Layer 13, 21, 22)
+  if(dimVis.esoteric) drawEsotericOverlays(svg);
+}
+
+function drawAspects(svg){
+  const hl=focusedLayer?LAYERS.find(l=>l.n===focusedLayer)?.highlights||[]:[];
+  ASPS.forEach(asp=>{
+    const pa=TP[asp.a],pb=TP[asp.b];if(!pa||!pb)return;
+    const r=R_T-6;
+    const p1=ppos(pa.lon,pr(asp.a,r,P_R));
+    const p2=ppos(pb.lon,pr(asp.b,r,P_R));
+    const isWT=asp.d.includes('Grand Water');
+    const isKite=asp.d.includes('Kite');
+    const focused=focusedLayer===2||(!focusedLayer);
+    const hlit=hl.length===0||(hl.includes(asp.a)&&hl.includes(asp.b));
+    svg.appendChild(el('line',{
+      x1:p1.x,y1:p1.y,x2:p2.x,y2:p2.y,
+      stroke:asp.c,
+      'stroke-width':focusedLayer&&!hlit?asp.w*.3:asp.w,
+      opacity:focusedLayer&&!hlit?0.08:isWT?0.8:isKite?0.7:0.45,
+      filter:isWT?'url(#glow-trine)':isKite?'url(#glow-gold)':'',
+      'stroke-dasharray':asp.t==='sext'?'4,3':asp.t==='square'?'2,3':asp.t==='trine'?'':asp.t==='opp'?'6,2':''
+    }));
+  });
+}
+
+function drawTropicalPlanets(svg){
+  const hl=focusedLayer?LAYERS.find(l=>l.n===focusedLayer)?.highlights||[]:[];
+  if(!dimVis.tropical)return;
+  Object.entries(TP).forEach(([k,p])=>{
+    const r=pr(k,R_T,P_R);
+    const pos=ppos(p.lon,r);
+    const isSel=selectedPlanet===k;
+    const isHL=hl.length===0||hl.includes(k);
+    const opacity=isHL?1:0.2;
+    const col=ecol(p.e);
+
+    // Glow ring
+    if(isSel){
+      svg.appendChild(el('circle',{cx:pos.x,cy:pos.y,r:16,fill:'none',stroke:'var(--gold)','stroke-width':1.8,filter:'url(#glow-gold)',opacity:.9}));
+    } else if(isHL&&focusedLayer){
+      svg.appendChild(el('circle',{cx:pos.x,cy:pos.y,r:13,fill:'none',stroke:col,'stroke-width':.8,opacity:.45}));
+    }
+
+    // Chart ruler indicators (Layer 11)
+    if((k==='moon'||k==='mercury')&&(dimVis.esoteric||focusedLayer===11)){
+      const cr=k==='moon'?'♋':'♊';
+      const ct=el('text',{x:pos.x+11,y:pos.y-11,'text-anchor':'middle',fill:'rgba(201,168,76,.75)','font-size':'7'});
+      ct.textContent=cr+'✦'; svg.appendChild(ct);
+    }
+
+    // Fall/Detriment badge (Layer 4)
+    if((k==='moon'||k==='mars')&&dimVis.tropical){
+      const ft=el('text',{x:pos.x-10,y:pos.y+12,'text-anchor':'middle',fill:'rgba(255,140,80,.55)','font-size':'5.5'});
+      ft.textContent='fall'; svg.appendChild(ft);
+    }
+    if((k==='venus'||k==='saturn')&&dimVis.tropical){
+      const ft=el('text',{x:pos.x-10,y:pos.y+12,'text-anchor':'middle',fill:'rgba(255,160,100,.5)','font-size':'5.5'});
+      ft.textContent='det'; svg.appendChild(ft);
+    }
+
+    // Planet dot
+    svg.appendChild(el('circle',{cx:pos.x,cy:pos.y,r:isSel?5.5:3.8,fill:col,opacity,filter:isHL?'url(#glow-planet)':''}));
+
+    // Symbol
+    const sym=el('text',{
+      x:pos.x,y:pos.y-12,'text-anchor':'middle','dominant-baseline':'central',
+      fill:isSel?'var(--gold2)':col,'font-size':isSel?'15.5':'13.5','font-family':'Georgia',
+      opacity,'cursor':'pointer','data-planet':k,
+      filter:isHL&&(isSel||focusedLayer)?'url(#glow-planet)':''
+    });
+    sym.textContent=p.s; svg.appendChild(sym);
+
+    // Retrograde
+    if(p.rt){
+      const rt=el('text',{x:pos.x+9,y:pos.y-9,'text-anchor':'middle',fill:col,'font-size':'7',opacity:opacity*.8});
+      rt.textContent='ℛ'; svg.appendChild(rt);
+    }
+
+    // Hit target
+    const hit=el('circle',{cx:pos.x,cy:pos.y,r:18,fill:'transparent',cursor:'pointer','data-planet':k});
+    svg.appendChild(hit);
+  });
+}
+
+function drawEsotericOverlays(svg){
+  const foc13=focusedLayer===13;
+  const foc21=focusedLayer===21;
+  const foc22=focusedLayer===22;
+  const hl=focusedLayer?LAYERS.find(l=>l.n===focusedLayer)?.highlights||[]:[];
+
+  Object.entries(TP).forEach(([k,p])=>{
+    const es=ES[k];if(!es)return;
+    const r=pr(k,R_T,P_R);
+    const pos=ppos(p.lon,r);
+    const isHL=hl.length===0||hl.includes(k);
+    if(!isHL)return;
+
+    // God body name (Layer 13 / always dim)
+    if(foc13){
+      const t=el('text',{x:pos.x,y:pos.y+18,'text-anchor':'middle',fill:'rgba(200,140,255,.9)','font-size':'7','font-weight':'bold'});
+      t.textContent=es.god; svg.appendChild(t);
+    } else {
+      const t=el('text',{x:pos.x,y:pos.y+16,'text-anchor':'middle',fill:'rgba(180,120,240,.4)','font-size':'5.5'});
+      t.textContent=es.god.split('/')[0].split(' ')[0]; svg.appendChild(t);
+    }
+
+    // Esoteric ruler (Layer 21)
+    if(foc21){
+      const t=el('text',{x:pos.x,y:pos.y+26,'text-anchor':'middle',fill:'rgba(220,160,255,.85)','font-size':'6.5'});
+      t.textContent='→'+es.ruler; svg.appendChild(t);
+    }
+
+    // Archon (Layer 22)
+    if(foc22){
+      const t=el('text',{x:pos.x,y:pos.y+26,'text-anchor':'middle',fill:'rgba(255,100,130,.75)','font-size':'6'});
+      t.textContent=es.archon; svg.appendChild(t);
+    }
+
+    // Archon indicator dot (always dim)
+    if(!foc22&&dimVis.esoteric){
+      const da=ppos(p.lon+4,r+4);
+      svg.appendChild(el('circle',{cx:da.x,cy:da.y,r:1.5,fill:'rgba(255,100,130,.25)'}));
+    }
+  });
+}
+
+// ─────────────────────────────────────────
+// LAYER PANEL BUILD
+// ─────────────────────────────────────────
+function buildLayers(){
+  const lp=document.getElementById('LP');
+  const groups=[{t:'Tier 1 — Active (1–10)',tier:1},{t:'Tier 2 — Identified (11–20)',tier:2},{t:'Tier 2B — Esoteric (21–30)',tier:3}];
+  groups.forEach(g=>{
+    const gt=document.createElement('div');gt.className='lg-title';gt.textContent=g.t;lp.appendChild(gt);
+    LAYERS.filter(l=>l.tier===g.tier).forEach(layer=>{
+      const item=document.createElement('div');item.className='li';item.dataset.n=layer.n;
+      const bc={'LIVE':'t1','ID':'t2','OCC':'t3'}[layer.badge]||'t1';
+      item.innerHTML=`<div class="li-dot" style="background:${layer.dot};color:${layer.dot}"></div><span class="li-n">${layer.n}</span><span class="li-name">${layer.name}</span><span class="li-badge ${bc}">${layer.badge}</span>`;
+      item.addEventListener('click',()=>focusLayer(layer.n));
+      lp.appendChild(item);
+    });
+  });
+}
+
+function focusLayer(n){
+  focusedLayer=focusedLayer===n?null:n;
+  document.querySelectorAll('.li').forEach(i=>i.classList.toggle('focused',parseInt(i.dataset.n)===focusedLayer));
+  const l=LAYERS.find(x=>x.n===focusedLayer);
+  document.getElementById('BB').textContent=l?`Layer ${l.n}: ${l.name} — ${l.desc}`:'All 30 layers active simultaneously · Click any layer to focus · Click any planet to explore';
+  draw();
+}
+
+// ─────────────────────────────────────────
+// DIM PILLS
+// ─────────────────────────────────────────
+document.querySelectorAll('.dim-pill').forEach(pill=>{
+  pill.addEventListener('click',()=>{
+    const d=pill.dataset.dim;
+    dimVis[d]=!dimVis[d];
+    pill.classList.toggle('on',dimVis[d]);
+    draw();
+  });
+});
+
+// ─────────────────────────────────────────
+// PLANET INTERACTION
+// ─────────────────────────────────────────
+document.getElementById('W').addEventListener('click',e=>{
+  const k=e.target.getAttribute('data-planet');
+  if(!k||!TP[k])return;
+  selectedPlanet=selectedPlanet===k?null:k;
+  draw();
+  if(selectedPlanet)showInfo(selectedPlanet);
+  else resetInfo();
+});
+
+document.getElementById('W').addEventListener('mousemove',e=>{
+  const k=e.target.getAttribute('data-planet');
+  const tip=document.getElementById('tip');
+  if(k&&TP[k]){
+    const p=TP[k],es=ES[k]||{};
+    tip.innerHTML=`<b style="color:var(--gold)">${p.s} ${p.n}</b><br>${p.dp} · H${p.h}<br><span style="color:#a080e0">${es.god||''}</span>`;
+    tip.style.left=(e.clientX+14)+'px';tip.style.top=(e.clientY-10)+'px';tip.classList.add('on');
+  } else tip.classList.remove('on');
+});
+document.getElementById('W').addEventListener('mouseleave',()=>document.getElementById('tip').classList.remove('on'));
+
+// ─────────────────────────────────────────
+// INFO PANEL
+// ─────────────────────────────────────────
+function showInfo(k){
+  const p=TP[k],es=ES[k]||{},sd=SP[k]||{},dc=DP[k];
+  document.getElementById('FS').textContent=p.s;
+  document.getElementById('FN').textContent=p.n;
+  document.getElementById('FP').textContent=`${p.dp} · WS H${p.h}`;
+  const fd=document.getElementById('FD');fd.className='fi';
+  fd.innerHTML=`
+    <div class="isec"><div class="ist">◈ DIM I — Tropical</div>
+      <div class="ir"><span class="il">Position</span><span class="iv g">${p.dp}</span></div>
+      <div class="ir"><span class="il">WS House</span><span class="iv">${p.h}</span></div>
+      <div class="ir"><span class="il">Element</span><span class="iv">${p.e}</span></div>
+      <div class="ir"><span class="il">Dignity</span><span class="iv">${es.dig||'—'}</span></div>
+      ${p.rt?'<div class="ir"><span class="il">Motion</span><span class="iv" style="color:#ff9966">Retrograde</span></div>':''}
+    </div>
+    <div class="isec"><div class="ist">◈ DIM II — Sidereal (Lahiri)</div>
+      <div class="ir"><span class="il">Sign</span><span class="iv c">${sd.sign||'—'}</span></div>
+      <div class="ir"><span class="il">Longitude</span><span class="iv c">${sd.lon!==undefined?sd.lon.toFixed(2)+'°':'—'}</span></div>
+      ${k==='moon'?'<div class="ir"><span class="il">Nakshatra</span><span class="iv c">Swati (Rahu/Vayu)</span></div>':''}
+      ${k==='venus'?'<div class="ir"><span class="il">Note</span><span class="iv c">EXALTATION in Pisces</span></div>':''}
+    </div>
+    <div class="isec"><div class="ist">◈ DIM III — Draconic</div>
+      <div class="ir"><span class="il">Longitude</span><span class="iv m">${dc!==undefined?dc.toFixed(2)+'°':'—'}</span></div>
+      <div class="ir"><span class="il">Soul memory</span><span class="iv m">≈ Tropical (confirmed)</span></div>
+      ${k==='venus'?'<div class="ir"><span class="il">Cross-contact</span><span class="iv m">conjunct N.Node 3.4°</span></div>':''}
+    </div>
+    <div class="isec"><div class="ist">◈ DIM IV — Esoteric</div>
+      <div class="ir"><span class="il">God Body</span><span class="iv v">${es.god||'—'}</span></div>
+      <div class="ir"><span class="il">Esoteric Ruler</span><span class="iv v">${es.ruler||'—'}</span></div>
+      <div class="ir"><span class="il">Archon-veil</span><span class="iv" style="color:#ff8090">${es.archon||'—'}</span></div>
+      <div class="ir"><span class="il">Seven Rays</span><span class="iv">${es.ray||'—'}</span></div>
+    </div>
+    <div class="isec"><div class="ist">◈ Sabian Image</div>
+      <div class="itext">${es.sabian||'—'}</div>
+    </div>
+    <div class="isec"><div class="ist">◈ Active Layers</div>
+      ${LAYERS.filter(l=>l.highlights.includes(k)).map(l=>`<span class="dim-badge ${['','db-t','db-t','db-s','db-d','db-e'][Math.min(l.tier,5)]||'db-e'}">L${l.n} ${l.name.split(' ').slice(0,2).join(' ')}</span>`).join('')}
+    </div>`;
+}
+
+function resetInfo(){
+  document.getElementById('FS').textContent='◈';
+  document.getElementById('FN').textContent='Select a Planet';
+  document.getElementById('FP').textContent='Click any planet on the wheel';
+  document.getElementById('FD').innerHTML='';
+}
+
+// ─────────────────────────────────────────
+// STAR FIELD
+// ─────────────────────────────────────────
+function initStars(){
+  const c=document.getElementById('starfield'),ctx=c.getContext('2d');
+  c.width=window.innerWidth;c.height=window.innerHeight;
+  const stars=Array.from({length:360},()=>({
+    x:Math.random()*c.width,y:Math.random()*c.height,
+    r:Math.random()*1.3+.15,op:Math.random()*.75+.1,
+    sp:Math.random()*.004+.0008,ph:Math.random()*Math.PI*2
+  }));
+  let t=0;
+  function draw(){
+    ctx.clearRect(0,0,c.width,c.height);
+    stars.forEach(s=>{
+      const a=s.op*(0.45+0.55*Math.sin(t*s.sp+s.ph));
+      ctx.beginPath();ctx.arc(s.x,s.y,s.r,0,Math.PI*2);
+      ctx.fillStyle=`rgba(255,255,255,${a})`;ctx.fill();
+    });
+    t++;requestAnimationFrame(draw);
+  }
+  draw();
+  window.addEventListener('resize',()=>{c.width=window.innerWidth;c.height=window.innerHeight;});
+}
+
+// ─────────────────────────────────────────
+// INIT
+// ─────────────────────────────────────────
+initStars();
+buildLayers();
+draw();
+</script>
+</body>
+</html>

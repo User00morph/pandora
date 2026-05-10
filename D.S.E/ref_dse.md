@@ -43,6 +43,13 @@ clients/
 - Clarity before commitment: scope must be clear before Stage 2 begins
 - Deliver functional structures, not advice
 
+## D.R.D MIRROR INTAKE
+When arriving from D.R.D session intake, expect a pre-refined brief containing:
+- Task + goal (one line each)
+- Output type confirmed as: Deal / Offer / Client / Venture / Revenue play
+- Raw material identified (leads, scope, existing clients, nothing)
+- Skills flagged: check against D.S.E session routing table above
+
 ## CROSS-DEPARTMENT
 D.R.D → D.S.E: research informs offer positioning and solution architecture
 D.I.I → D.S.E: technical builds deployed as products/tools

@@ -32,6 +32,13 @@ D.C.E/_config/
 ```
 Load constraints.md on every draft. Load voice-and-tone.md on first drafts. Load format-patterns.md when format is specified.
 
+## D.R.D MIRROR INTAKE
+When arriving from D.R.D session intake, expect a pre-refined brief containing:
+- Task + goal (one line each)
+- Output type confirmed as: Content / Script / Voice / Series
+- Raw material identified and filed
+- Skills flagged: check against D.C.E session routing table above
+
 ## CROSS-DEPARTMENT
 D.R.D → D.C.E: Reconstructed research becomes DECODED series content
 D.S.E → D.C.E: Offer positioning becomes content series

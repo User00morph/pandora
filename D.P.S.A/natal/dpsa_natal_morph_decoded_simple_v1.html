@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MORPH — Your Chart, Plain as Day</title>
+<style>
+:root{
+  --bg:#020409;--panel:rgba(5,8,20,.96);--gold:#c9a84c;--gold2:#f0d080;
+  --violet:#9c6fda;--cyan:#4fc3f7;--mint:#66ffb2;--fire:#ff6e3a;
+  --water:#6070d8;--earth:#5faa60;--air:#e0c040;
+  --text:#ddd8f0;--dim:rgba(170,150,230,.55);--border:rgba(110,80,210,.22);
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{background:var(--bg);color:var(--text);font-family:'Georgia',serif;line-height:1.7;overflow-x:hidden;}
+canvas#sf{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;}
+
+/* NAV */
+nav{
+  position:sticky;top:0;z-index:100;background:rgba(2,4,9,.97);
+  border-bottom:1px solid var(--border);display:flex;flex-wrap:wrap;gap:2px;
+  padding:8px 16px;justify-content:center;
+}
+nav a{
+  color:var(--dim);font-size:.6em;letter-spacing:.1em;text-decoration:none;
+  padding:4px 10px;border-radius:12px;border:1px solid transparent;transition:all .2s;
+}
+nav a:hover{color:var(--gold);border-color:rgba(201,168,76,.3);}
+
+/* SECTIONS */
+section{position:relative;z-index:1;max-width:900px;margin:0 auto;padding:60px 24px 20px;}
+.s-title{
+  font-size:1.3em;letter-spacing:.22em;color:var(--gold);text-transform:uppercase;
+  margin-bottom:6px;padding-bottom:10px;border-bottom:1px solid rgba(201,168,76,.2);
+}
+.s-sub{font-size:.68em;color:var(--dim);letter-spacing:.1em;margin-bottom:32px;}
+
+/* HERO */
+#hero{text-align:center;padding:80px 24px 30px;position:relative;z-index:1;}
+.hero-title{font-size:2em;letter-spacing:.25em;color:var(--gold);margin-bottom:8px;}
+.hero-sub{font-size:.78em;color:var(--dim);letter-spacing:.14em;}
+
+/* WHEEL CONTAINER */
+#wheel{padding:20px 24px 40px;position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;}
+.wheel-wrap{
+  perspective:1200px;width:520px;height:520px;margin:0 auto;
+}
+.wheel-3d{
+  width:100%;height:100%;transform-style:preserve-3d;
+  transform:rotateX(18deg) rotateZ(-1deg);
+  filter:drop-shadow(0 20px 40px rgba(90,60,180,.5));
+  transition:transform 1s ease;
+}
+.wheel-3d:hover{transform:rotateX(8deg) rotateZ(0deg);}
+.wheel-3d svg{width:100%;height:100%;}
+
+/* CARD GRID */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin-top:8px;}
+.card{
+  background:rgba(6,9,22,.8);border:1px solid var(--border);border-radius:6px;
+  padding:18px;transition:border-color .3s;
+}
+.card:hover{border-color:rgba(201,168,76,.4);}
+.card-icon{font-size:2em;margin-bottom:6px;}
+.card-title{font-size:.78em;color:var(--gold);letter-spacing:.12em;margin-bottom:6px;font-weight:bold;}
+.card-sign{font-size:.62em;color:var(--violet);letter-spacing:.08em;margin-bottom:8px;}
+.card-body{font-size:.7em;color:var(--text);line-height:1.7;}
+.card-body b{color:var(--gold2);}
+.card-body em{color:var(--mint);font-style:normal;}
+
+/* HOUSE LIST */
+.house-list{display:flex;flex-direction:column;gap:10px;}
+.house-row{
+  display:grid;grid-template-columns:44px 140px 1fr;gap:12px;align-items:start;
+  background:rgba(6,9,22,.7);border:1px solid var(--border);border-radius:5px;padding:14px;
+}
+.house-num{
+  font-size:1.4em;color:var(--violet);font-weight:bold;text-align:center;
+  padding-top:2px;
+}
+.house-sign{font-size:.68em;color:var(--gold);letter-spacing:.1em;line-height:1.4;}
+.house-sign span{display:block;font-size:.85em;color:var(--dim);}
+.house-body{font-size:.7em;color:var(--text);line-height:1.7;}
+.house-body b{color:var(--gold2);}
+.planets-in{font-size:.62em;color:var(--mint);margin-top:4px;}
+
+/* ASPECT CARDS */
+.asp-card{
+  background:rgba(6,9,22,.8);border-left:3px solid var(--gold);border-radius:0 6px 6px 0;
+  padding:16px 18px;margin-bottom:12px;
+}
+.asp-card.trine{border-left-color:#4488ff;}
+.asp-card.square{border-left-color:#ff4444;}
+.asp-card.opp{border-left-color:#ff9900;}
+.asp-card.sext{border-left-color:#44cc88;}
+.asp-title{font-size:.78em;color:var(--gold2);letter-spacing:.1em;margin-bottom:5px;}
+.asp-card.trine .asp-title{color:#88bbff;}
+.asp-card.square .asp-title{color:#ff7777;}
+.asp-card.opp .asp-title{color:#ffaa44;}
+.asp-card.sext .asp-title{color:#66ddaa;}
+.asp-body{font-size:.7em;color:var(--text);line-height:1.7;}
+.asp-body b{color:var(--gold2);}
+
+/* TRANSIT ROW */
+.transit-row{
+  background:rgba(6,9,22,.75);border:1px solid var(--border);border-radius:5px;
+  padding:14px 18px;margin-bottom:10px;display:grid;
+  grid-template-columns:160px 1fr;gap:14px;align-items:start;
+}
+.transit-planet{font-size:.75em;color:var(--cyan);letter-spacing:.1em;}
+.transit-body{font-size:.7em;color:var(--text);line-height:1.7;}
+.transit-body b{color:var(--gold2);}
+.transit-body em{color:var(--fire);font-style:normal;}
+
+/* SABIAN */
+.sabian-row{
+  background:rgba(6,9,22,.75);border:1px solid var(--border);border-radius:5px;
+  padding:14px 18px;margin-bottom:10px;
+}
+.sabian-planet{font-size:.7em;color:var(--gold);letter-spacing:.1em;margin-bottom:4px;}
+.sabian-image{font-size:.72em;color:var(--mint);margin-bottom:4px;font-style:italic;}
+.sabian-body{font-size:.68em;color:var(--text);line-height:1.7;}
+
+/* HIGHLIGHT PILL */
+.pill{
+  display:inline-block;padding:2px 8px;border-radius:10px;font-size:.58em;
+  margin-right:4px;letter-spacing:.06em;
+}
+.pill-fire{background:rgba(255,110,58,.15);color:var(--fire);border:1px solid rgba(255,110,58,.25);}
+.pill-water{background:rgba(80,96,200,.15);color:#8898ff;border:1px solid rgba(80,96,200,.25);}
+.pill-earth{background:rgba(95,170,96,.12);color:#70c070;border:1px solid rgba(95,170,96,.25);}
+.pill-air{background:rgba(200,180,50,.1);color:var(--air);border:1px solid rgba(200,180,50,.2);}
+.pill-v{background:rgba(156,111,218,.12);color:var(--violet);border:1px solid rgba(156,111,218,.25);}
+
+/* DIVIDER */
+.divider{width:60px;height:1px;background:rgba(201,168,76,.25);margin:40px auto;}
+
+/* SCROLL PROGRESS */
+.scroll-bar{position:fixed;top:0;left:0;height:2px;background:var(--gold);z-index:200;width:0%;transition:width .1s;}
+
+.big-label{font-size:2em;text-align:center;margin:8px 0;}
+.note{font-size:.65em;color:var(--dim);font-style:italic;margin-top:10px;line-height:1.6;}
+
+@media(max-width:600px){
+  .wheel-wrap{width:340px;height:340px;}
+  .house-row{grid-template-columns:36px 120px 1fr;gap:8px;}
+  .transit-row{grid-template-columns:1fr;gap:6px;}
+  .hero-title{font-size:1.4em;}
+}
+</style>
+</head>
+<body>
+
+<canvas id="sf"></canvas>
+<div class="scroll-bar" id="SB"></div>
+
+<nav>
+  <a href="#hero">◈ Top</a>
+  <a href="#wheel">Wheel</a>
+  <a href="#houses">Houses</a>
+  <a href="#planets">Planets</a>
+  <a href="#aspects">Aspects</a>
+  <a href="#transits">Transits</a>
+  <a href="#asteroids">Asteroids</a>
+  <a href="#stars">Stars</a>
+  <a href="#draconic">Soul Chart</a>
+  <a href="#sabian">Sabian</a>
+  <a href="#polarity">Polarity</a>
+  <a href="#kemetic">Kemetic</a>
+  <a href="#lilith">Lilith</a>
+</nav>
+
+<!-- HERO -->
+<div id="hero">
+  <div class="hero-title">◈ MORPH'S CHART — DECODED</div>
+  <div class="hero-sub" style="margin-top:8px;">May 12 2006 · 08:07 CDT · Green Bay WI · Everything, plain as day</div>
+</div>
+
+<!-- WHEEL -->
+<div id="wheel">
+  <div class="wheel-wrap">
+    <div class="wheel-3d">
+      <svg id="W" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg"></svg>
+    </div>
+  </div>
+  <div style="text-align:center;margin-top:18px;font-size:.62em;color:var(--dim);letter-spacing:.1em;">
+    Hover to flatten · Click a planet to highlight
+  </div>
+</div>
+
+<!-- HOUSES -->
+<section id="houses">
+  <div class="s-title">The 12 Houses</div>
+  <div class="s-sub">Think of your chart like a clock face divided into 12 rooms. Each room is a different part of your life. Your chart uses Whole Sign Houses — so each room is one full zodiac sign.</div>
+  <div class="house-list" id="HL"></div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PLANETS -->
+<section id="planets">
+  <div class="s-title">Your Planets</div>
+  <div class="s-sub">Each planet is a different part of YOU — your heart, your mind, your power, your love. Here's what each one is doing in your chart.</div>
+  <div class="grid" id="PL"></div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ASPECTS -->
+<section id="aspects">
+  <div class="s-title">The Patterns Between Planets</div>
+  <div class="s-sub">When planets form geometric shapes, they talk to each other. These conversations shape your whole personality. You have some MAJOR ones.</div>
+  <div id="AL"></div>
+</section>
+
+<div class="divider"></div>
+
+<!-- TRANSITS -->
+<section id="transits">
+  <div class="s-title">Right Now — May 2026</div>
+  <div class="s-sub">Transits are where the planets are TODAY in the sky, and how they're activating your birth chart. This is your weather report.</div>
+  <div id="TL"></div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ASTEROIDS -->
+<section id="asteroids">
+  <div class="s-title">Asteroids & Special Points</div>
+  <div class="s-sub">Smaller bodies with big meaning. Chiron, Part of Fortune, and the Nodes are the most important ones we've calculated.</div>
+  <div class="grid" id="AOL"></div>
+</section>
+
+<div class="divider"></div>
+
+<!-- FIXED STARS -->
+<section id="stars">
+  <div class="s-title">Fixed Stars</div>
+  <div class="s-sub">Ancient stars that line up with your planets. The sky's oldest stories landing exactly on YOUR chart.</div>
+  <div class="grid" id="FSL"></div>
+</section>
+
+<div class="divider"></div>
+
+<!-- DRACONIC / SOUL CHART -->
+<section id="draconic">
+  <div class="s-title">Your Soul Chart — Draconic</div>
+  <div class="s-sub">Subtract the North Node from everything. What you get is the chart you were BEFORE you were born. Your soul's blueprint.</div>
+  <div class="grid" id="DRL"></div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SIDEREAL -->
+<section id="sidereal" style="max-width:900px;margin:0 auto;padding:40px 24px;">
+  <div class="s-title">Your Sidereal Chart</div>
+  <div class="s-sub">Slide every planet back ~25° (the actual sky vs the symbolic sky). This is what Vedic/Indian astrology sees. Same soul, different lens.</div>
+  <div class="grid" id="SID"></div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SABIAN SYMBOLS -->
+<section id="sabian">
+  <div class="s-title">Sabian Symbols</div>
+  <div class="s-sub">Each zodiac degree has an image — a little picture that describes that frequency. Ancient channel received in 1925 by Elsie Wheeler.</div>
+  <div id="SAB"></div>
+</section>
+
+<div class="divider"></div>
+
+<!-- POLARITY MODEL -->
+<section id="polarity">
+  <div class="s-title">Polarity Model</div>
+  <div class="s-sub">12 signs are really just 6 pairs of opposites — each pair is one frequency playing two sides. This is the AstroCodeFairy model.</div>
+  <div class="grid" id="POL"></div>
+</section>
+
+<div class="divider"></div>
+
+<!-- KEMETIC -->
+<section id="kemetic">
+  <div class="s-title">Kemetic / God Body Layer</div>
+  <div class="s-sub">In Kemetic cosmology (Ancient Egypt), the planets ARE living intelligences — God bodies. Your chart maps which deities are active in your field.</div>
+  <div class="grid" id="KEM"></div>
+  <p class="note" style="max-width:600px;margin:20px auto 0;">Cross-referenced against independent Hermetic, Sumerian, and Esoteric traditions. Rashad Jamal lineage for the 9-ether circuit model. All teachings verified against independent scholarly sources.</p>
+</section>
+
+<div class="divider"></div>
+
+<!-- LILITH -->
+<section id="lilith" style="max-width:900px;margin:0 auto;padding:60px 24px 20px;">
+  <div class="s-title" style="color:var(--violet);">⚸ Black Moon Lilith</div>
+  <div class="s-sub">Lilith is the wild, undomesticated intelligence — the part that was exiled or told to be smaller. In mythology, Lilith was Adam's first wife who refused to submit and was cast out. In your chart: raw power that was banished and needs reclaiming.</div>
+  <div class="grid" id="LIL"></div>
+</section>
+
+<div style="height:100px;"></div>
+
+<script>
+// ─── DATA ───────────────────────────────────────
+const ASC_LON=90.71, MC_LON=337.19;
+const CX=300,CY=300;
+const R_OUT=285,R_SIGN=255,R_HSE=230,R_T=185,R_INNER=52;
+const SIGNS=['♈','♉','♊','♋','♌','♍','♎','♏','♐','♑','♒','♓'];
+const SNAMES=['Aries','Taurus','Gemini','Cancer','Leo','Virgo','Libra','Scorpio','Sagittarius','Capricorn','Aquarius','Pisces'];
+const ELEMS=['fire','earth','air','water','fire','earth','air','water','fire','earth','air','water'];
+const ECOLS={fire:'rgba(255,100,50,.11)',earth:'rgba(80,160,80,.09)',air:'rgba(220,190,50,.08)',water:'rgba(70,80,200,.14)'};
+const ETXT={fire:'#ff8050',earth:'#70c070',air:'#d8b830',water:'#8090e0'};
+
+const PLANETS=[
+  {k:'sun',    s:'☉',lon:51.67, n:'Sun',      sign:'Taurus',   h:11,e:'earth'},
+  {k:'moon',   s:'☽',lon:222.93,n:'Moon',     sign:'Scorpio',  h:5, e:'water'},
+  {k:'mercury',s:'☿',lon:44.25, n:'Mercury',  sign:'Taurus',   h:11,e:'earth'},
+  {k:'venus',  s:'♀',lon:10.37, n:'Venus',    sign:'Aries',    h:10,e:'fire'},
+  {k:'mars',   s:'♂',lon:106.70,n:'Mars',     sign:'Cancer',   h:1, e:'water'},
+  {k:'jupiter',s:'♃',lon:222.99,n:'Jupiter',  sign:'Scorpio',  h:5, e:'water'},
+  {k:'saturn', s:'♄',lon:125.58,n:'Saturn',   sign:'Leo',      h:2, e:'fire'},
+  {k:'uranus', s:'♅',lon:344.16,n:'Uranus',   sign:'Pisces',   h:9, e:'water'},
+  {k:'neptune',s:'♆',lon:319.79,n:'Neptune',  sign:'Aquarius', h:8, e:'air'},
+  {k:'pluto',  s:'♇',lon:266.28,n:'Pluto',    sign:'Sagittarius',h:6,e:'fire'},
+  {k:'nn',     s:'☊',lon:3.48,  n:'N.Node',   sign:'Aries',    h:10,e:'fire'},
+  {k:'sn',     s:'☋',lon:183.48,n:'S.Node',   sign:'Libra',    h:4, e:'air'},
+  {k:'chiron', s:'⚷',lon:309.77,n:'Chiron',   sign:'Aquarius', h:8, e:'air'},
+  {k:'pof',    s:'⊕',lon:260.99,n:'Pt Fortune',sign:'Sagittarius',h:6,e:'fire'},
+];
+
+const RADII={moon:R_T+22,jupiter:R_T-22,nn:R_T+30,sn:R_T-18,chiron:R_T-28,pof:R_T+16};
+
+function svgA(lon){const fa=((lon-ASC_LON)%360+360)%360;return(180-fa+360)%360;}
+function polar(a,r){const rad=a*Math.PI/180;return{x:CX+r*Math.cos(rad),y:CY+r*Math.sin(rad)};}
+function pp(lon,r){return polar(svgA(lon),r);}
+function el(t,a={}){
+  const e=document.createElementNS('http://www.w3.org/2000/svg',t);
+  Object.entries(a).forEach(([k,v])=>e.setAttribute(k,v));return e;
+}
+
+// ─── SVG WHEEL ──────────────────────────────────
+function drawWheel(){
+  const svg=document.getElementById('W');
+  svg.innerHTML='';
+
+  // DEFS - filters
+  const df=el('defs');
+  ['glow-gold','glow-planet','glow-trine'].forEach((id,i)=>{
+    const f=el('filter',{id,x:'-80%',y:'-80%',width:'260%',height:'260%'});
+    f.appendChild(el('feGaussianBlur',{in:'SourceGraphic',stdDeviation:[4,5,3][i]}));
+    df.appendChild(f);
+  });
+  // Radial bg gradient
+  const rg=el('radialGradient',{id:'rbg',cx:'50%',cy:'50%',r:'50%'});
+  [[0,'rgba(50,20,110,.6)'],[100,'rgba(2,4,9,0)']].forEach(([o,c])=>{
+    const s=el('stop');s.setAttribute('offset',o+'%');s.setAttribute('stop-color',c);rg.appendChild(s);
+  });
+  df.appendChild(rg);
+  svg.appendChild(df);
+
+  // BG circle
+  svg.appendChild(el('circle',{cx:CX,cy:CY,r:R_OUT+4,fill:'rgba(2,4,9,.7)',stroke:'rgba(110,80,210,.25)','stroke-width':1.2}));
+  svg.appendChild(el('circle',{cx:CX,cy:CY,r:R_OUT+4,fill:'url(#rbg)'}));
+
+  // SIGN SEGMENTS
+  for(let i=0;i<12;i++){
+    const sl=i*30,ea=svgA(sl),eb=svgA((sl+30)%360);
+    const s1=polar(ea,R_SIGN),e1=polar(eb,R_SIGN);
+    const s2=polar(ea,R_OUT),e2=polar(eb,R_OUT);
+    svg.appendChild(el('path',{
+      d:`M${s2.x} ${s2.y}A${R_OUT} ${R_OUT} 0 0 1 ${e2.x} ${e2.y}L${e1.x} ${e1.y}A${R_SIGN} ${R_SIGN} 0 0 0 ${s1.x} ${s1.y}Z`,
+      fill:ECOLS[ELEMS[i]],stroke:'rgba(110,80,210,.2)','stroke-width':.6
+    }));
+    // Sign glyph
+    const ma=svgA(sl+15),mp=polar(ma,(R_SIGN+R_OUT)/2+2);
+    const st=el('text',{x:mp.x,y:mp.y,'text-anchor':'middle','dominant-baseline':'central',
+      fill:ETXT[ELEMS[i]],'font-size':'14','font-family':'Georgia',opacity:'.9'});
+    st.textContent=SIGNS[i];svg.appendChild(st);
+    // Divider line
+    const ts=polar(svgA(sl),R_SIGN),te=polar(svgA(sl),R_OUT-1);
+    svg.appendChild(el('line',{x1:ts.x,y1:ts.y,x2:te.x,y2:te.y,stroke:'rgba(110,80,210,.38)','stroke-width':.7}));
+  }
+  svg.appendChild(el('circle',{cx:CX,cy:CY,r:R_OUT,fill:'none',stroke:'rgba(110,80,210,.5)','stroke-width':1.5}));
+  svg.appendChild(el('circle',{cx:CX,cy:CY,r:R_SIGN,fill:'none',stroke:'rgba(110,80,210,.28)','stroke-width':.8}));
+
+  // HOUSE CUSPS
+  for(let h=0;h<12;h++){
+    const cl=(ASC_LON+h*30)%360,a=svgA(cl);
+    const p1=polar(a,R_SIGN),p2=polar(a,R_INNER);
+    const isAng=h===0||h===3||h===6||h===9;
+    svg.appendChild(el('line',{
+      x1:p1.x,y1:p1.y,x2:p2.x,y2:p2.y,
+      stroke:isAng?'rgba(201,168,76,.7)':'rgba(110,80,210,.2)',
+      'stroke-width':isAng?1.5:.7,'stroke-dasharray':isAng?'':'3,5'
+    }));
+    const hma=svgA((ASC_LON+(h+.5)*30)%360),hmp=polar(hma,(R_HSE+R_SIGN)/2-2);
+    const ht=el('text',{x:hmp.x,y:hmp.y,'text-anchor':'middle','dominant-baseline':'central',
+      fill:'rgba(170,150,230,.5)','font-size':'8.5'});
+    ht.textContent=h+1;svg.appendChild(ht);
+  }
+
+  // ASPECT LINES
+  const ASPS=[
+    {a:'mars',b:'moon',  c:'rgba(70,130,255,.5)', w:1.8},
+    {a:'mars',b:'jupiter',c:'rgba(70,130,255,.5)',w:1.8},
+    {a:'moon',b:'jupiter',c:'rgba(220,190,255,.8)',w:2.2},
+    {a:'moon',b:'uranus', c:'rgba(70,130,255,.4)', w:1.3},
+    {a:'jupiter',b:'uranus',c:'rgba(70,130,255,.4)',w:1.3},
+    {a:'mercury',b:'moon',c:'rgba(255,140,40,.45)',w:1.2},
+    {a:'mercury',b:'jupiter',c:'rgba(255,140,40,.45)',w:1.2},
+    {a:'mercury',b:'uranus',c:'rgba(60,200,140,.55)',w:1.5},
+    {a:'sun',b:'neptune',  c:'rgba(255,70,70,.45)', w:1},
+    {a:'saturn',b:'venus', c:'rgba(70,130,255,.3)', w:.8},
+  ];
+  const pmap={};PLANETS.forEach(p=>{pmap[p.k]=p;});
+  ASPS.forEach(asp=>{
+    const pa=pmap[asp.a],pb=pmap[asp.b];if(!pa||!pb)return;
+    const ra=RADII[asp.a]||R_T,rb=RADII[asp.b]||R_T;
+    const pa_=pp(pa.lon,ra*0.85),pb_=pp(pb.lon,rb*0.85);
+    svg.appendChild(el('line',{x1:pa_.x,y1:pa_.y,x2:pb_.x,y2:pb_.y,
+      stroke:asp.c,'stroke-width':asp.w}));
+  });
+  // Grand Water Trine glow overlay
+  ['mars','moon','uranus'].forEach(k=>{
+    const p=pmap[k];if(!p)return;
+    const r=RADII[k]||R_T;
+    const pos=pp(p.lon,r*0.85);
+    svg.appendChild(el('circle',{cx:pos.x,cy:pos.y,r:10,fill:'rgba(70,130,255,.08)',filter:'url(#glow-trine)'}));
+  });
+
+  // PLANET RING
+  svg.appendChild(el('circle',{cx:CX,cy:CY,r:R_T,fill:'none',stroke:'rgba(110,80,210,.12)','stroke-width':.5,'stroke-dasharray':'1,6'}));
+  svg.appendChild(el('circle',{cx:CX,cy:CY,r:R_HSE,fill:'none',stroke:'rgba(110,80,210,.1)','stroke-width':.5}));
+  svg.appendChild(el('circle',{cx:CX,cy:CY,r:R_INNER,fill:'rgba(15,8,40,.6)',stroke:'rgba(201,168,76,.3)','stroke-width':.8}));
+
+  // ANGLE LABELS
+  [{lon:ASC_LON,l:'ASC'},{lon:(ASC_LON+180)%360,l:'DSC'},
+   {lon:MC_LON,l:'MC'},{lon:(MC_LON+180)%360,l:'IC'}].forEach(({lon,l})=>{
+    const pos=pp(lon,R_INNER-16);
+    const t=el('text',{x:pos.x,y:pos.y,'text-anchor':'middle','dominant-baseline':'central',
+      fill:'rgba(201,168,76,.9)','font-size':'7.5','font-weight':'bold'});
+    t.textContent=l;svg.appendChild(t);
+  });
+
+  // CENTER GLYPH
+  const ct=el('text',{x:CX,y:CY,'text-anchor':'middle','dominant-baseline':'central',fill:'rgba(201,168,76,.35)','font-size':'22'});
+  ct.textContent='◈';svg.appendChild(ct);
+
+  // PLANETS
+  PLANETS.forEach(p=>{
+    const r=RADII[p.k]||R_T;
+    const pos=pp(p.lon,r);
+    const ecol={fire:'var(--fire)',water:'#7080ff',earth:'#70c070',air:'var(--air)'}[p.e]||'#aaa';
+    // Planet dot
+    svg.appendChild(el('circle',{cx:pos.x,cy:pos.y,r:5.5,fill:ecol,opacity:.85,filter:'url(#glow-planet)',
+      style:'cursor:pointer',onclick:`highlightPlanet('${p.k}')`}));
+    // Glyph
+    const pt=el('text',{x:pos.x,y:pos.y-12,'text-anchor':'middle',fill:'white','font-size':'12','font-family':'Georgia',opacity:'.95',
+      style:'cursor:pointer',onclick:`highlightPlanet('${p.k}')`});
+    pt.textContent=p.s;svg.appendChild(pt);
+  });
+}
+
+function highlightPlanet(k){
+  const p=PLANETS.find(x=>x.k===k);if(!p)return;
+  // Show brief tooltip
+  const bb=document.getElementById('wbb');
+  if(bb)bb.textContent=`${p.s} ${p.n} — ${p.sign} H${p.h}`;
+}
+
+// ─── HOUSES ─────────────────────────────────────
+const HOUSES=[
+  {n:1,sign:'Cancer',ruler:'Moon',emoji:'🌊',
+   meaning:"<b>How you walk into the room.</b> Your body, your face, your first impression. Cancer here means you come in soft, emotional, nurturing — like a warm hug the moment you enter. People feel safe around you without knowing why. <b>Mars lives here too</b> — so underneath that soft shell, there's a warrior.",
+   planets:'Mars ♂'},
+  {n:2,sign:'Leo',ruler:'Sun',emoji:'👑',
+   meaning:"<b>Your treasure chest.</b> Money, possessions, what you value. Leo here means you need to CREATE and SHINE to earn. Performing, making art, leading — these are how you build wealth. Your self-worth is tied to your radiance. When you dim yourself, the money dims too.",
+   planets:'Saturn ♄'},
+  {n:3,sign:'Virgo',ruler:'Mercury',emoji:'📡',
+   meaning:"<b>Your phone and your brain.</b> How you talk, write, think, text. How you relate to siblings and neighbors. Virgo here means a super detailed, analytical mind — you notice EVERYTHING. You communicate in precise, careful ways. You might take time before you speak, but when you do, it's exact.",
+   planets:'—'},
+  {n:4,sign:'Libra',ruler:'Venus',emoji:'🏠',
+   meaning:"<b>Your bedroom — your roots, your home.</b> What you come from and where you go to recharge. Libra here means you need BEAUTY and BALANCE at home. Conflict in the household hits extra hard. <b>South Node here</b> — in past lives, you kept the peace at home. Now you're learning it's okay to take up space.",
+   planets:'S.Node ☋'},
+  {n:5,sign:'Scorpio',ruler:'Mars+Pluto',emoji:'🎨',
+   meaning:"<b>Your playground — creativity, art, romance, fun.</b> Where you GO when you want to feel alive. Scorpio here means your play goes DEEP. You don't do shallow fun. Your art has texture and darkness and truth. <b>Moon AND Jupiter both live here</b> — you are most yourself when you're creating. This is your most blessed zone.",
+   planets:'Moon ☽ · Jupiter ♃'},
+  {n:6,sign:'Sagittarius',ruler:'Jupiter',emoji:'⚡',
+   meaning:"<b>Your daily life — work, health, habits, routine.</b> How you do the 'boring' stuff. Sagittarius here means you NEED freedom in your daily rhythm or you'll feel trapped. A 9-to-5 desk job = slow death. You work best with movement, variety, learning. <b>Pluto AND Part of Fortune here</b> — your daily life IS your transformation.",
+   planets:'Pluto ♇ · PoF ⊕'},
+  {n:7,sign:'Capricorn',ruler:'Saturn',emoji:'🤝',
+   meaning:"<b>Your partner — in love, business, and life.</b> Who you attract as your counterpart. Capricorn here means you pull in serious, ambitious, structured people. Or you become that in relationships. Partnerships feel like business arrangements — which can be beautiful when built right. You're learning that commitment and ambition can coexist.",
+   planets:'—'},
+  {n:8,sign:'Aquarius',ruler:'Saturn+Uranus',emoji:'🔮',
+   meaning:"<b>The mystery house.</b> Death, rebirth, other people's money, inheritance, the occult, deep merging. Aquarius here means your transformations are WEIRD and ELECTRIC — not gradual, sudden. You might have a detached relationship with death. <b>Neptune AND Chiron here</b> — your intuition about the unseen is a superpower.",
+   planets:'Neptune ♆ · Chiron ⚷'},
+  {n:9,sign:'Pisces',ruler:'Jupiter+Neptune',emoji:'🌌',
+   meaning:"<b>Your cosmos — big ideas, travel, wisdom, spirituality.</b> The house of God, philosophy, foreign lands, higher education. Pisces here means your spiritual life is EVERYTHING. Your beliefs are fluid, dreamy, all-encompassing. <b>Uranus lives here</b> — your spiritual system is revolutionary. You're here to break old religion and build something new.",
+   planets:'Uranus ♅'},
+  {n:10,sign:'Aries',ruler:'Mars',emoji:'🌍',
+   meaning:"<b>Your career — what the world will know you for.</b> Your public reputation, your legacy. Aries here means you're meant to be FIRST, BOLD, a pioneer. <b>Venus AND North Node both here</b> — beauty and evolution meet your public destiny. You're here to lead something new. The world will know your name.",
+   planets:'Venus ♀ · N.Node ☊'},
+  {n:11,sign:'Taurus',ruler:'Venus',emoji:'🌿',
+   meaning:"<b>Your friend group, your community, your dreams.</b> Your tribe. Taurus here means your people are grounded, artsy, stable, loyal. Your dreams are tangible and beautiful. <b>Sun AND Mercury both here</b> — your TRUE self lives in community. You shine brightest with your people around you.",
+   planets:'Sun ☉ · Mercury ☿'},
+  {n:12,sign:'Gemini',ruler:'Mercury',emoji:'🌫️',
+   meaning:"<b>The hidden room — your subconscious, dreams, secrets, solitude.</b> What you carry invisibly. Gemini here means your subconscious is ALWAYS thinking, chattering, processing. Dreams might feel like conversations. You may talk to yourself more than you realize. Alone time is when your mind sorts everything it collected.",
+   planets:'—'},
+];
+
+function buildHouses(){
+  const hl=document.getElementById('HL');
+  HOUSES.forEach(h=>{
+    const row=document.createElement('div');
+    row.className='house-row';
+    row.innerHTML=`
+      <div class="house-num">${h.n}</div>
+      <div class="house-sign">
+        <span style="font-size:1.4em;">${h.emoji}</span>
+        ${h.sign}<span>${h.ruler} rules</span>
+        ${h.planets!=='—'?`<span style="color:var(--mint);">${h.planets}</span>`:''}
+      </div>
+      <div class="house-body">${h.meaning}</div>
+    `;
+    hl.appendChild(row);
+  });
+}
+
+// ─── PLANETS ────────────────────────────────────
+const PLANET_DATA=[
+  {s:'☉',n:'Sun',sign:'Taurus',h:'H11',icon:'🌟',
+   body:`<b>Your heart. Who you really ARE.</b><br><br>In <b>Taurus</b> — you are steady, sensory, artistic. You love beautiful things. Music hits different for you. Good food matters. Comfort is not laziness for you — it's sacred. You build things slowly and make them last.<br><br>In <b>House 11</b> — your soul SHINES through community. You need a tribe. Without your people, your light dims. You are most YOU when surrounded by the right ones.`},
+  {s:'☽',n:'Moon',sign:'Scorpio ⚠️ Fall',h:'H5',icon:'🌊',
+   body:`<b>Your inner world. Your feelings. Your mom energy.</b><br><br>In <b>Scorpio</b> (in its Fall — meaning the Moon is in foreign territory) — your feelings go DEEP. Painfully deep. You don't feel things halfway. When you love, it's all the way. When you hurt, it goes to the bone. You feel what other people don't even know they're feeling.<br><br>In <b>House 5</b> — you feel safest when you're CREATING. Art, music, play, romance. This is where your emotional body breathes.<br><br><em>Moon is conjunct Jupiter by 0°07' — almost identical longitude. Your feelings and your blessings are the same thing.</em>`},
+  {s:'☿',n:'Mercury',sign:'Taurus',h:'H11',icon:'🧠',
+   body:`<b>Your mind. Your words. How you think.</b><br><br>In <b>Taurus</b> — slow, thorough, sensory thinking. You don't rush conclusions. You feel your way to understanding. Once something clicks, it's locked in forever. You may speak carefully, but what you say LANDS.<br><br>In <b>House 11</b> — your biggest ideas come from community conversations. Your mind lights up with the right people around it.<br><br><em>Mercury is at the apex of the Kite — all that watery emotional genius funnels through your mind and mouth.</em>`},
+  {s:'♀',n:'Venus',sign:'Aries ⚠️ Detriment',h:'H10',icon:'💎',
+   body:`<b>Your love language. What you find beautiful. How you attract.</b><br><br>In <b>Aries</b> (Detriment — Venus doesn't totally love it here) — you love BOLDLY. You chase what you want. You fall fast, you act on desire. The lesson: learning patience in love. Not every feeling needs to be acted on immediately.<br><br>In <b>House 10</b> — your beauty and love nature are PUBLIC. Your career IS your art. You attract recognition through what you create and achieve. This placement can bring public love, artistic fame.<br><br><em>Conjunct N.Node — love and destiny are the same path.</em>`},
+  {s:'♂',n:'Mars',sign:'Cancer ⚠️ Fall',h:'H1',icon:'🔥',
+   body:`<b>Your energy. Your drive. How you fight.</b><br><br>In <b>Cancer</b> (Fall — Mars is frustrated here) — your power comes through EMOTION. You fight for what you love, not just for winning. The challenge: sometimes your feelings block your action. Fear of hurting others can make you hesitate.<br><br>In <b>House 1</b> — Mars is literally your BODY and your presence. You ARE Mars. You walk into rooms with contained power. People sense it before you say anything.<br><br><em>Mars anchors the Grand Water Trine. Your body is the gateway for the whole circuit.</em>`},
+  {s:'♃',n:'Jupiter',sign:'Scorpio Rx',h:'H5',icon:'✨',
+   body:`<b>Your luck magnet. Where life expands.</b><br><br>In <b>Scorpio</b> (Retrograde) — your blessings come through going DEEP. Psychology, mystery, the underworld, transformation. You don't luck out through easy things — you luck out through intensity. The more real you get, the more it opens.<br><br>In <b>House 5</b> — your JOY is your greatest magic. Children, art, creativity, romance, play. This is your most abundant zone.<br><br><em>0°07' from Moon — barely any space between them. These two function as ONE. Emotional intelligence IS your Jupiter luck.</em>`},
+  {s:'♄',n:'Saturn',sign:'Leo',h:'H2',icon:'🏛️',
+   body:`<b>Your teacher. Your limits. Your discipline reward.</b><br><br>In <b>Leo</b> (Detriment) — you're learning to SHINE without fear. Saturn in Leo can mean: "who am I to be great?" That voice. The work is silencing it. Every time you perform, create, lead — even when scared — Saturn rewards you.<br><br>In <b>House 2</b> — money comes through hard, sustained effort. No shortcuts. But Saturn in H2 also means: what you build financially is REAL and LASTING. The grind is the gift.`},
+  {s:'♅',n:'Uranus',sign:'Pisces',h:'H9',icon:'⚡',
+   body:`<b>The rebel. The awakener. Your electric genius.</b><br><br>In <b>Pisces</b> — your revolution is SPIRITUAL. You dissolve old spiritual structures and channel new ones. Uranus here makes intuition function like electricity — sudden downloads, visions, knowing things you shouldn't know.<br><br>In <b>House 9</b> — your higher mind is wired differently. You're not here for traditional religion or conventional wisdom. You build your own cosmology.<br><br><em>Part of the Grand Water Trine — your revolutionary spiritual genius flows directly into your whole emotional architecture.</em>`},
+  {s:'♆',n:'Neptune',sign:'Aquarius',h:'H8',icon:'🌀',
+   body:`<b>Dreams, illusions, the invisible realm.</b><br><br>In <b>Aquarius</b> — your generation (all born ~1998-2012) carries Neptune as collective dissolution of old social systems. It's bigger than just you — it's a generation-wide frequency.<br><br>In <b>House 8</b> — your intuition about hidden things, death, transformation, and other people's energy is OFF THE CHARTS. You pick up on what's beneath the surface. This is why environments affect you so deeply — you absorb the invisible.<br><br><em>Cancer ASC esoteric ruler is Neptune (Alice Bailey) — Neptune is secretly your true chart ruler at the soul level.</em>`},
+  {s:'♇',n:'Pluto',sign:'Sagittarius Rx',h:'H6',icon:'🌑',
+   body:`<b>Total transformation. Death and rebirth of structures.</b><br><br>In <b>Sagittarius</b> (Retrograde) — your generation (all born ~1995-2008) is here to BURN DOWN false belief systems. False religion, false philosophy, false gurus. And rebuild from first principles.<br><br>In <b>House 6</b> — this isn't abstract for you. The transformation happens through your BODY, your daily habits, your health. You transmute through the unglamorous work of existing every day. Your routines are your rituals.`},
+];
+
+function buildPlanets(){
+  const pl=document.getElementById('PL');
+  PLANET_DATA.forEach(p=>{
+    const card=document.createElement('div');
+    card.className='card';
+    card.innerHTML=`
+      <div class="card-icon">${p.icon} <span style="font-size:.8em;">${p.s}</span></div>
+      <div class="card-title">${p.n}</div>
+      <div class="card-sign">${p.sign} · ${p.h}</div>
+      <div class="card-body">${p.body}</div>
+    `;
+    pl.appendChild(card);
+  });
+}
+
+// ─── ASPECTS ────────────────────────────────────
+const ASPECTS=[
+  {type:'trine',title:'🌊 Grand Water Trine — Mars + Moon/Jupiter + Uranus',
+   body:`This is your SIGNATURE. Three planets making a perfect triangle in water signs (Cancer, Scorpio, Pisces).<br><br>
+   <b>Mars in Cancer (H1)</b> — your body/presence<br>
+   <b>Moon + Jupiter in Scorpio (H5)</b> — your emotional genius<br>
+   <b>Uranus in Pisces (H9)</b> — your spiritual revolution<br><br>
+   Imagine three rivers all flowing into each other. When your emotional body activates, your physical presence activates, AND your spiritual channel activates — all at the same time.<br><br>
+   <em>In Kemetic terms: this is a closed 9-ether receiver circuit. You are literally built to receive cosmic intelligence through emotional frequency.</em>`},
+  {type:'trine',title:'🪁 Mercury Kite — Your Mind is the Antenna',
+   body:`A Kite is a Grand Trine with a fourth planet at the top — the "kite handle." That planet is Mercury.<br><br>
+   <b>Mercury in Taurus (H11)</b> sits directly opposite the Moon+Jupiter, forming a kite shape.<br><br>
+   The water trine generates FEELING. Mercury catches that feeling and converts it into WORDS, ideas, transmissions. You can say things that other people feel but can't articulate. This is why communication, music, writing, teaching — anything that transmits — is built into you at a structural level.<br><br>
+   <em>Mercury ⚹ Uranus at 0°10' (almost exact) — your mind and your revolutionary spirit are electric twins.</em>`},
+  {type:'conj',title:'✨ Moon ☌ Jupiter — 0°07\' (Soul Conjunction)',
+   body:`0.07 degrees apart. That's almost zero space between them. In astrology, this is essentially one placement — two energies fused.<br><br>
+   <b>Moon</b> = your emotional body, your inner world, your intuition<br>
+   <b>Jupiter</b> = blessings, expansion, luck, abundance<br><br>
+   Result: your FEELINGS are your luck. Your emotional intelligence is your greatest gift. The more you honor your inner world, the more life expands. The moments you're most emotionally authentic are the moments the universe opens doors.<br><br>
+   In Scorpio, in House 5 — this means your creative, emotional, playful self is literally blessed by the universe.`},
+  {type:'square',title:'⚡ Sun ☐ Neptune — 1°53\' (Identity Fog Challenge)',
+   body:`Square = tension that grows you. This one is about seeing yourself clearly.<br><br>
+   <b>Sun (Taurus, H11)</b> = your core identity<br>
+   <b>Neptune (Aquarius, H8)</b> = dreams, illusions, the invisible<br><br>
+   The challenge: sometimes you don't know exactly who you are. Or the world doesn't see you clearly. You might attract confusion about your identity — people projecting onto you, or you projecting an idealized version of yourself.<br><br>
+   The gift: when you lean INTO Neptune (creativity, spirituality, music, dreams), the Sun confusion transforms into mystical depth. Artists, musicians, mystics often carry this aspect.`},
+  {type:'sext',title:'🌑 Pluto ⚹ N.Node — Soul Evolution Through Transformation',
+   body:`Sextile = an open door, an opportunity you have to walk through consciously.<br><br>
+   <b>Pluto (Sagittarius, H6)</b> = death/rebirth, total transformation<br>
+   <b>North Node (Aries, H10)</b> = your destiny, your soul's evolution<br><br>
+   The door: the more you allow yourself to be completely transformed — belief systems, habits, daily life — the closer you walk toward your destiny. This isn't metaphorical. Literal transformation of your daily life IS the path.<br><br>
+   Your service work, your body, your routines — Pluto is transmuting all of it into fuel for your public purpose.`},
+  {type:'trine',title:'💫 Saturn △ Venus — 4°13\' (Beauty Built to Last)',
+   body:`Trine = easy, natural flow.<br><br>
+   <b>Saturn (Leo, H2)</b> = discipline, time, structure<br>
+   <b>Venus (Aries, H10)</b> = love, beauty, attraction<br><br>
+   Your capacity to build beautiful things is DURABLE. Love that you build carefully — giving it time, structure, patience — lasts. You're not a flash-in-the-pan artist. What you make has bones. This also means financial stability CAN come through creative/artistic work if you're consistent.`},
+];
+
+function buildAspects(){
+  const al=document.getElementById('AL');
+  ASPECTS.forEach(a=>{
+    const d=document.createElement('div');
+    d.className=`asp-card ${a.type}`;
+    d.innerHTML=`<div class="asp-title">${a.title}</div><div class="asp-body">${a.body}</div>`;
+    al.appendChild(d);
+  });
+}
+
+// ─── TRANSITS (May 2026) ─────────────────────────
+const TRANSITS=[
+  {planet:'♃ Jupiter in Cancer',
+   body:`<b><em>BIGGEST TRANSIT OF YOUR YEAR.</em></b><br>Jupiter has moved into Cancer — your rising sign (H1). This happens once every 12 years.<br><br>Jupiter on your Ascendant = your WHOLE SELF expands. New version of you emerging. Doors open that never opened before. You're more visible, more attractive to opportunity, physically and energetically bigger in rooms. People who haven't noticed you suddenly notice you.<br><br>This is also activating your H1 Mars — <em>action and blessing meeting at the door of your body.</em>`},
+  {planet:'♄ Saturn in Aries → conjunct N.Node',
+   body:`Saturn just entered Aries and is moving toward your <b>North Node (03°♈)</b>. This is a major soul accountability transit — maybe 2-3 times in a lifetime.<br><br>Saturn is asking: <em>are you actually doing what your soul came here to do?</em> This can feel heavy — like external pressure, delays, or tests in your career/public life (H10). But it's not punishment. It's the universe making sure you're on the right road before it clears the path.<br><br>If you've been avoiding your destiny — Saturn will make avoidance uncomfortable. If you're aligned — Saturn builds foundations under your feet.`},
+  {planet:'♆ Neptune enters Aries',
+   body:`Neptune is in early Aries, also activating your H10 (career/public life) and N.Node zone.<br><br>Neptune dissolves what's false. In Aries, it dissolves false identities, false courage, false leadership. For you: things in your public life that aren't authentically YOURS may start to dissolve naturally. This can feel like confusion or fog about "what am I doing?" — but it's clearing space for the real thing to emerge.<br><br><em>Neptune + Saturn both in Aries simultaneously = the fog and the structure both landing on your destiny house at the same time. Intense year for public identity.</em>`},
+  {planet:'♇ Pluto in Aquarius (H8)',
+   body:`Pluto is slowly moving through Aquarius, activating your 8th house. This is generational — happening for everyone born with Aquarius H8.<br><br>For you specifically: Neptune and Chiron are both in Aquarius H8. Pluto is moving over them slowly, year by year. Deep H8 themes — transformation, shared resources, the occult, inherited patterns — are being permanently restructured.<br><br><em>The wound (Chiron) and the dream (Neptune) are being purged and rebuilt from the root.</em>`},
+  {planet:'♅ Uranus in Gemini (H12)',
+   body:`Uranus entered Gemini in 2025 and is activating your 12th house. This is a hidden-realm transit.<br><br>Sudden revelations from the subconscious. Old hidden patterns disrupting in unexpected ways. Dreams getting strange and vivid. Things you thought were buried surfacing fast. This can also activate H12 themes like: spiritual breakthroughs, releasing old karma, things from the past suddenly resolved.<br><br><em>Since Mercury rules Gemini (and Mercury rules your H12 and H3 in WS), your MIND is being rewired at the subconscious level this period.</em>`},
+  {planet:'Annual Profection: Age 20 = H9 Year',
+   body:`Every year, the active house shifts one forward. At age 20, H9 is activated — Pisces, ruled by Jupiter.<br><br><b>Jupiter is your Lord of the Year 2026.</b> And Jupiter is currently in Cancer expanding your entire chart. This creates a double Jupiter year: H9 (big picture, travel, wisdom, spirituality) activated AND Jupiter blessing your whole identity.<br><br>Your 2026 theme: <em>expand your cosmology, your philosophy, your world. Go somewhere. Study something. Build your belief system. This is a seeding year for wisdom that lasts decades.</em>`},
+];
+
+function buildTransits(){
+  const tl=document.getElementById('TL');
+  TRANSITS.forEach(t=>{
+    const row=document.createElement('div');
+    row.className='transit-row';
+    row.innerHTML=`<div class="transit-planet">${t.planet}</div><div class="transit-body">${t.body}</div>`;
+    tl.appendChild(row);
+  });
+}
+
+// ─── ASTEROIDS ───────────────────────────────────
+const ASTEROIDS=[
+  {s:'⚷',n:'Chiron',sign:'Aquarius H8',icon:'🩹',
+   body:`<b>Your wound AND your gift — they are the same thing.</b><br><br>Chiron in Aquarius = the wound of feeling like an ALIEN. Too different, too weird, not understood, ahead of your time. The pain of not belonging.<br><br>In H8 — this wound lives in hidden spaces. The mystery realms, the occult, other people's energy. You may have felt wounded in deep intimate merging. Or by the fact that you SEE things others don't and that makes you an outsider.<br><br><em>The gift: your difference IS your healing power. You heal others through your weirdness, your outsider vision, your occult sight.</em>`},
+  {s:'☊',n:'North Node',sign:'Aries H10',icon:'🎯',
+   body:`<b>Your soul's GPS. Where you're going.</b><br><br>Aries North Node = your evolution is toward INDIVIDUAL COURAGE. Acting on YOUR desires without always asking permission. Being first. Being a pioneer. Aries is "I AM" — pure self-initiated action.<br><br>In H10 — your destiny is PUBLIC. This isn't a private journey. The world will see it. Your name will be known for something you initiated.<br><br><em>Conjunct Venus — your art, beauty, and love nature are the vehicle for this destiny.</em>`},
+  {s:'☋',n:'South Node',sign:'Libra H4',icon:'🔄',
+   body:`<b>Where you're coming from. Past-life patterns to release.</b><br><br>Libra South Node = many past lives of pleasing others, keeping balance, deferring, being the harmonizer. You know how to make others comfortable — it's in your bones. But it's become a pattern that can hold you back.<br><br>In H4 — this played out in the HOME. Keeping peace in the family, being the glue, suppressing your own needs for domestic harmony.<br><br><em>The release: you're allowed to be selfish. You're allowed to want things that don't serve others. Your own needs are valid.</em>`},
+  {s:'⊕',n:'Part of Fortune',sign:'Sagittarius H6',icon:'🗺️',
+   body:`<b>Your hidden treasure map. Where true joy hides.</b><br><br>PoF in Sagittarius = happiness lives in FREEDOM. Adventure, learning, truth-seeking, philosophy, travel, expansion. Your joy is not small or contained. It has to move.<br><br>In H6 — this happiness is found through your DAILY LIFE and your body. You're happiest when your routine has freedom baked in. When your health practices feel like adventure, not obligation. When your work teaches you something every day.<br><br><em>PoF conjunct Pluto — joy and total transformation are wrapped in the same package.</em>`},
+  {s:'🌙',n:'Asteroid Goddesses',sign:'TBD — Ephemeris Needed',icon:'🌸',
+   body:`<b>Ceres, Pallas Athena, Juno, Vesta — the feminine archetypes.</b><br><br>These four asteroid goddesses complete the feminine picture that Venus alone can't hold.<br><br><b>Ceres</b> = how you nurture and how you need to be nurtured<br><b>Pallas Athena</b> = strategic wisdom, pattern recognition, craft<br><b>Juno</b> = what you need in a committed partnership<br><b>Vesta</b> = sacred devotion, your inner flame<br><br><em>Positions not yet computed — requires additional ephemeris file download. Added to pending research list.</em>`},
+];
+
+function buildAsteroids(){
+  const aol=document.getElementById('AOL');
+  ASTEROIDS.forEach(a=>{
+    const card=document.createElement('div');
+    card.className='card';
+    card.innerHTML=`<div class="card-icon">${a.icon} ${a.s}</div><div class="card-title">${a.n}</div><div class="card-sign">${a.sign}</div><div class="card-body">${a.body}</div>`;
+    aol.appendChild(card);
+  });
+}
+
+// ─── FIXED STARS ─────────────────────────────────
+const FSTARS=[
+  {n:'Regulus',lon:'00° Leo',icon:'👑',near:'Saturn (05°♌)',
+   body:`<b>The Royal Star. The Heart of the Lion.</b><br><br>One of the four Persian Royal Stars. Regulus promises success and elevation — <em>on the condition that revenge is never sought.</em> The moment you retaliate for personal wounds, Regulus withdraws its blessing.<br><br>It sits near your <b>Saturn in Leo H2</b> — wealth and discipline can reach royal levels, but only if you hold the higher road. Any fall from grace in your financial/creative life will likely trace back to retaliation energy.`},
+  {n:'Galactic Center',lon:'27° Sagittarius',icon:'🌌',near:'Pluto (26°♐) + Part of Fortune (20°♐)',
+   body:`<b>The center of the Milky Way galaxy. The Source download point.</b><br><br>Your <b>Pluto AND Part of Fortune</b> are near the Galactic Center. This is extremely rare and significant. The GC transmits raw cosmic intelligence — higher-dimensional information that bypasses ordinary logic.<br><br>Pluto here = your transformation is directly plugged into the galactic source. You're not just transforming for yourself — your evolution radiates outward.<br><br>PoF here = your happiness and your purpose align with something larger than personal life.`},
+  {n:'Achernar',lon:'15° Pisces',icon:'⭐',near:'Uranus (14°♓)',
+   body:`<b>End of the River. Star at the mouth of Eridanus.</b><br><br>Associated with: success in public affairs, clearing of danger after crisis, spiritual protection.<br><br>Near your <b>Uranus in Pisces H9</b> — your revolutionary spiritual intelligence carries an ancient protective frequency. When you're doing the real work (the spiritual, the philosophical, the genuine), you carry protection that you can't always see but that is real.`},
+];
+
+function buildStars(){
+  const fsl=document.getElementById('FSL');
+  FSTARS.forEach(f=>{
+    const card=document.createElement('div');
+    card.className='card';
+    card.innerHTML=`<div class="card-icon">${f.icon}</div><div class="card-title">${f.n} — ${f.lon}</div><div class="card-sign">Near: ${f.near}</div><div class="card-body">${f.body}</div>`;
+    fsl.appendChild(card);
+  });
+}
+
+// ─── DRACONIC ────────────────────────────────────
+const DRACONIC=[
+  {n:'What Draconic Is',icon:'🌀',
+   body:`Draconic = your SOUL CHART. Subtract the North Node (03°29') from every planet position. What you get is the chart before this lifetime. Your soul's pre-birth blueprint.<br><br>Morph's North Node is only 3.5° from zero — meaning the draconic chart barely shifts from the tropical. The soul IS the personality. The blueprint IS the life. Rare. It means: <em>the soul is fully committed to this incarnation. No part of you is somewhere else.</em>`},
+  {n:'Draconic Venus → conjunct N.Node',icon:'💎',
+   body:`Tropical Venus is at 10°♈. Subtract 3.5° → draconic Venus lands at <b>06°♈53'</b>. Your North Node is at 03°♈29'. <b>3.4° orb — conjunct.</b><br><br>Soul reading: at the soul level, your experience of beauty, love, and value IS your evolutionary direction. This isn't a coincidence in this lifetime — you literally chose it before you arrived. Love and destiny are not two things.`},
+  {n:'Near-Zero Shift',icon:'🔑',
+   body:`Most people's draconic chart looks completely different — signs flip, patterns change. Yours barely moves. This is the rare configuration where soul and personality are nearly identical frequency.<br><br>You don't have a hidden "soul self" that's different from your everyday self. What you see is what you get — at the deepest level. The work isn't to find a buried soul — the work is to let the soul you already are become fully expressed.`},
+];
+
+function buildDraconic(){
+  const drl=document.getElementById('DRL');
+  DRACONIC.forEach(d=>{
+    const card=document.createElement('div');
+    card.className='card';
+    card.innerHTML=`<div class="card-icon">${d.icon}</div><div class="card-title">${d.n}</div><div class="card-body">${d.body}</div>`;
+    drl.appendChild(card);
+  });
+}
+
+// ─── SIDEREAL ────────────────────────────────────
+const SID_DATA=[
+  {n:'ASC → Gemini',icon:'💬',
+   body:`Tropical you leads with Cancer. Sidereal you leads with Gemini.<br><br>Two operating systems: Cancer (nurture, feel, protect) AND Gemini (communicate, connect, transmit). Mercury becomes your second chart ruler in sidereal. Your mind is more central to who you are than the tropical chart shows alone.`},
+  {n:'Moon → Libra (Swati Nakshatra)',icon:'⚖️',
+   body:`Sidereal Moon is in Libra, in the nakshatra called <b>Swati</b> — ruled by Rahu (the North Node), deity Vayu (the Wind).<br><br>Symbol: a blade of grass bending in a storm. It doesn't break — it BENDS. Swati Moon = extreme adaptability. You survive by moving with force rather than resisting it. This is not weakness — it's intelligence. The grass outlives the rigid tree.<br><br><em>Moon-Jupiter conjunction holds in Libra at 0°04' — even smaller orb than tropical.</em>`},
+  {n:'Venus → Pisces (Exaltation)',icon:'🌊',
+   body:`Tropical Venus is in Aries (Detriment — challenged). Sidereal Venus is in Pisces (Exaltation — maximally powerful).<br><br>Reading: the current-life challenge of love (Aries) overlays a soul-level gift of love (Pisces). At the deepest level, your love capacity is exalted. The detriment is the surface lesson — the exaltation is the truth underneath.`},
+  {n:'Mars → Gemini',icon:'⚡',
+   body:`Tropical Mars is in Cancer (Fall). Sidereal Mars shifts to Gemini.<br><br>Gemini Mars: quick action, mental drive, words as weapons or tools. Your drive in this life comes through MIND, communication, speed. The Cancer Fall (emotional block) sits over a Gemini Mars (mental warrior). Two layers, both real.`},
+];
+
+function buildSidereal(){
+  const sl=document.getElementById('SID');
+  SID_DATA.forEach(d=>{
+    const card=document.createElement('div');
+    card.className='card';
+    card.innerHTML=`<div class="card-icon">${d.icon}</div><div class="card-title">${d.n}</div><div class="card-body">${d.body}</div>`;
+    sl.appendChild(card);
+  });
+}
+
+// ─── SABIAN ──────────────────────────────────────
+const SABIAN=[
+  {planet:'Sun — 22° Taurus',image:'"A white dove flies over troubled waters"',
+   body:'Your heart carries peace into chaos. Even when the waters are troubled — and they will be — you are the messenger of calm. You bring hope through your mere presence.'},
+  {planet:'Moon + Jupiter — 13° Scorpio',image:'"An inventor in a laboratory"',
+   body:'Your emotional genius is always building, testing, discovering. Your inner world is a laboratory of transformation. You experiment with feeling until you find the formula.'},
+  {planet:'ASC — 01° Cancer',image:'"A sailor raises a new flag"',
+   body:'You arrived into this life to declare new territory. The Cancer ASC, the watery womb-gate — you plant a flag that nobody planted before. You begin something.'},
+  {planet:'Mercury — 15° Taurus',image:'"A man braves the elements"',
+   body:'Your words are weather-resistant. Your mind doesn\'t crumble under pressure. You communicate through storms.'},
+  {planet:'Venus — 10° Aries',image:'"A ruler of a nation"',
+   body:'Your love and beauty have authority. You attract through power, not submission. You are the governor of your own aesthetic.'},
+  {planet:'Mars — 17° Cancer',image:'"The germ of new life crystallizes under a watchful gaze"',
+   body:'Your action in this life is being watched by something larger. Your Mars H1 body is a seed under cosmic observation. What you do with your physical presence MATTERS at a higher level.'},
+  {planet:'Pluto — 27° Sagittarius',image:'"A sculptor\'s vision is taking form"',
+   body:'Your generation is sculpting a new world. Pluto near the Galactic Center — the vision is cosmic. The form is still emerging. You are part of a cohort building something that won\'t fully reveal itself for decades.'},
+  {planet:'N.Node — 03° Aries',image:'"Two lovers walk down a secluded lane"',
+   body:'Your evolution is intimate, personal, private at first. The path toward your destiny begins in quiet. No audience. Just the next step.'},
+];
+
+function buildSabian(){
+  const sl=document.getElementById('SAB');
+  SABIAN.forEach(s=>{
+    const row=document.createElement('div');
+    row.className='sabian-row';
+    row.innerHTML=`<div class="sabian-planet">${s.planet}</div><div class="sabian-image">${s.image}</div><div class="sabian-body">${s.body}</div>`;
+    sl.appendChild(row);
+  });
+}
+
+// ─── POLARITY ────────────────────────────────────
+const POLARITY=[
+  {axis:'♉/♏ Taurus/Scorpio',label:'RESOURCE / TRANSFORMATION',dominant:true,icon:'💠',
+   body:`<b>Your dominant axis.</b> Sun + Mercury on the Taurus pole (building, sustaining, making beautiful). Moon + Jupiter on the Scorpio pole (destroying, transforming, going deep).<br><br>You spend your life holding both sides of this axis. You build things that are beautiful AND you transmute them through depth. You don't do surface. You don't do shallow accumulation. Everything you build, you also dive inside.`},
+  {axis:'♈/♎ Aries/Libra',label:'INITIATION / RELATIONSHIP',dominant:false,icon:'⚖️',
+   body:`Venus and N.Node on the Aries pole (self-initiation, desire). S.Node on the Libra pole (relationship patterns from the past). This is your current life tension: moving from "what will others think" (Libra) to "what do I want" (Aries).`},
+  {axis:'♋/♑ Cancer/Capricorn',label:'ROOTS / STRUCTURE',dominant:false,icon:'🌊',
+   body:`Mars and ASC on the Cancer pole. Jupiter rules H6 (Capricorn house equivalent). Your roots are emotional. Your structure has to be built on feeling, not just logic.`},
+  {axis:'♓/♍ Pisces/Virgo',label:'DISSOLUTION / REFINEMENT',dominant:false,icon:'🌫️',
+   body:`Uranus in Pisces — dissolution of structures through spiritual revolution. H3 (Virgo) — refinement through detailed thinking. The mystic and the analyst both live in you.`},
+];
+
+function buildPolarity(){
+  const pl=document.getElementById('POL');
+  POLARITY.forEach(p=>{
+    const card=document.createElement('div');
+    card.className='card';
+    if(p.dominant)card.style.borderColor='rgba(201,168,76,.5)';
+    card.innerHTML=`<div class="card-icon">${p.icon}</div><div class="card-title">${p.axis}${p.dominant?' ← DOMINANT':''}</div><div class="card-sign">${p.label}</div><div class="card-body">${p.body}</div>`;
+    pl.appendChild(card);
+  });
+}
+
+// ─── KEMETIC ─────────────────────────────────────
+const KEMETIC=[
+  {n:'Grand Water Trine = 9-Ether Circuit',icon:'🔺',
+   body:`In 9-ether cosmology, the Grand Water Trine is not just an aspect — it's a receiver circuit. Three points of the same primordial frequency (water = consciousness) in geometric harmony.<br><br>Mars (H1) = the body as antenna. Moon+Jupiter (H5) = the emotional core as transmitter. Uranus (H9) = the spiritual channel as receiver.<br><br><em>You are built to receive cosmic intelligence through your emotional body and transmit it through your physical presence.</em>`},
+  {n:'Mercury = Thoth',icon:'📜',
+   body:`Thoth — Kemetic deity of words, writing, wisdom, cosmic record-keeping. The scribe of the gods. Mercury in Taurus (stable, embodied knowledge) at the apex of the Kite.<br><br>Your Mercury is Thoth. Your words carry the weight of cosmic record. When you write, teach, or speak from your highest place — you are scribing something into the akashic record.`},
+  {n:'Mars = Hapi + Sekhmet',icon:'🌊🔥',
+   body:`Cancer Mars (fall) maps to a dual Kemetic frequency: <b>Hapi</b> (god of the Nile inundation — life-giving water force) and <b>Sekhmet</b> (goddess of sacred war, healing through destruction).<br><br>Your Mars is the flood and the fire simultaneously. Your physical power nurtures AND destroys what needs to die. This is why Mars in Cancer Fall doesn't mean weak — it means SACRED ferocity wrapped in care.`},
+  {n:'Moon = Khonsu',icon:'🌙',
+   body:`Khonsu — moon god, healer, time-keeper, traveler of night. In Scorpio, the underworld frequency amplifies Khonsu's role as navigator of the dark.<br><br>Your Moon as Khonsu: you move through emotional darkness the way Khonsu moves through the night sky. Not afraid — navigating. Your emotional depths are not your enemy, they are your transportation.`},
+  {n:'Venus = Inanna/Isis',icon:'💎',
+   body:`Inanna (Sumerian) and Isis (Kemetic) are the same frequency across traditions. The goddess who descends into the underworld and returns transformed. Venus in Aries (H10) — she descends into bold, pioneering territory. Near the N.Node — this descent IS the evolution.<br><br>Your Venus is Isis. Love requires initiation. Your relationships teach you something that only the deep journey can teach.`},
+  {n:'Neptune H8 = Nun',icon:'🌊',
+   body:`Nun — the primordial waters before creation. The infinite dark ocean that existed before everything. Neptune in the 8th house maps to Nun directly.<br><br>Your unconscious is the primordial ocean. Your dreams are pre-creation frequency. Your intuition doesn't come from earth — it comes from before the world was made.`},
+];
+
+function buildKemetic(){
+  const kl=document.getElementById('KEM');
+  KEMETIC.forEach(k=>{
+    const card=document.createElement('div');
+    card.className='card';
+    card.innerHTML=`<div class="card-icon">${k.icon}</div><div class="card-title">${k.n}</div><div class="card-body">${k.body}</div>`;
+    kl.appendChild(card);
+  });
+}
+
+// ─── LILITH (MORPH) ──────────────────────────────
+// Mean BML: 12°♍13' Virgo H3 | Sidereal: 18°♌16' Leo
+// Aspects: ⚹ Moon 0.71°, △ Mercury 2.03°, ⚹ Mars 4.48°, ⚹ Jupiter 0.77°
+const MORPH_LILITH=[
+  {n:"Mean BML — 12°♍13' Virgo · H3",icon:'⚸',
+   body:`<b>The exiled intelligence lives in the house of the MIND and COMMUNICATION.</b><br><br>Virgo Lilith in H3 — the wild, undomesticated part of you is the analytical thinker. The one who notices everything wrong, whose mind dissects and refines endlessly. The part that was told to stop overthinking, stop analyzing, stop being so precise — <em>that is the wild power.</em><br><br>H3 is communication, thinking, siblings, your immediate world. The Lilith exile happened in those spaces — through how your thinking was received, through early communication being suppressed or corrected.<br><br>Reclamation: the precise, analytical, truth-seeing Virgo mind is not the problem. It is the weapon.`},
+  {n:"Lilith ⚹ Moon — 0.71° (Near-Exact)",icon:'🌊',
+   body:`Near-exact sextile. Lilith (wild/Virgo H3) and Moon (feelings/Scorpio H5) flow together effortlessly.<br><br>The wild analytical mind and the emotional body are FRIENDS. When you operate from Lilith — refusing to shrink the mind, letting the precision run — your emotional body lights up. They feed each other naturally.<br><br><em>This is one of the tightest aspects in the chart. Lilith reclamation and emotional aliveness are almost the same activation switch.</em>`},
+  {n:"Lilith ⚹ Jupiter — 0.77° (Near-Exact)",icon:'✨',
+   body:`Near-exact sextile. Lilith (wild/Virgo H3) and Jupiter (blessing/Scorpio H5) in direct flow.<br><br>When the wild analytical intelligence is activated — Jupiter opens doors. The moments you operate most uncompromisingly from your Virgo precision, your blessing magnet turns on.<br><br><em>The exile and the luck are directly linked. Reclaiming Lilith = activating Jupiter. Literally the same switch.</em>`},
+  {n:"Lilith △ Mercury — 2.03° (Trine)",icon:'📜',
+   body:`Trine between Lilith (Virgo H3) and Mercury (Taurus H11) — the Kite apex planet.<br><br>Your wild Virgo intelligence directly fuels Mercury at the top of the Grand Water Trine Kite. Lilith feeds the apex transmitter. The exile powers the broadcast.<br><br>The wild intelligence is literally wired into the most defining configuration of the whole chart.`},
+  {n:"Sidereal BML — 18°♌16' Leo",icon:'★',
+   body:`Inner Lilith is in Leo in the sidereal chart. The exiled wild energy at the deeper level is the PERFORMER — the one who shines without asking permission, who commands attention without apology.<br><br>The Virgo exile (tropical) is the surface. Underneath is a Leo wildness — the part that was told not to be too much, not to take up too much space.<br><br><em>The inner wild radiance feeds the outer earth-stable public presence. The exile is the engine.</em>`},
+];
+
+function buildLilith(){
+  const ll=document.getElementById('LIL');
+  MORPH_LILITH.forEach(l=>{
+    const card=document.createElement('div');
+    card.className='card';
+    card.style.borderColor='rgba(156,111,218,.4)';
+    card.innerHTML=`<div class="card-icon">${l.icon}</div><div class="card-title">${l.n}</div><div class="card-body">${l.body}</div>`;
+    ll.appendChild(card);
+  });
+}
+
+// ─── STARS ──────────────────────────────────────
+function initStars(){
+  const c=document.getElementById('sf'),ctx=c.getContext('2d');
+  c.width=window.innerWidth;c.height=window.innerHeight;
+  const stars=Array.from({length:300},()=>({
+    x:Math.random()*c.width,y:Math.random()*c.height,
+    r:Math.random()*1.2+.1,op:Math.random()*.7+.1,
+    sp:Math.random()*.003+.001,ph:Math.random()*Math.PI*2
+  }));
+  let t=0;
+  (function draw(){
+    ctx.clearRect(0,0,c.width,c.height);
+    stars.forEach(s=>{
+      const a=s.op*(0.4+0.6*Math.sin(t*s.sp+s.ph));
+      ctx.beginPath();ctx.arc(s.x,s.y,s.r,0,Math.PI*2);
+      ctx.fillStyle=`rgba(255,255,255,${a})`;ctx.fill();
+    });
+    t++;requestAnimationFrame(draw);
+  })();
+  window.addEventListener('resize',()=>{c.width=window.innerWidth;c.height=window.innerHeight;});
+}
+
+// ─── SCROLL BAR ──────────────────────────────────
+window.addEventListener('scroll',()=>{
+  const sb=document.getElementById('SB');
+  const pct=window.scrollY/(document.body.scrollHeight-window.innerHeight)*100;
+  if(sb)sb.style.width=pct+'%';
+});
+
+// ─── INIT ────────────────────────────────────────
+initStars();
+drawWheel();
+buildHouses();
+buildPlanets();
+buildAspects();
+buildTransits();
+buildAsteroids();
+buildStars();
+buildDraconic();
+buildSidereal();
+buildSabian();
+buildPolarity();
+buildKemetic();
+buildLilith();
+</script>
+</body>
+</html>

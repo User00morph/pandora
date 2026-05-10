@@ -17,6 +17,22 @@
 
 ---
 
+## SESSION ENTRY — INTAKE FIRST
+
+**Every session begins here. Before any research or routing, run intake.**
+
+```
+DEFAULT FIRST ACTION (any new session):
+  Load skill_session-intake.md → ask the 6 intake questions → refine → route
+
+SKIP INTAKE ONLY WHEN:
+  - Continuing an active session already mid-stage
+  - Morph explicitly names the stage ("pick up at Stage 3")
+  - Returning to a single open task with no ambiguity
+```
+
+---
+
 ## SESSION ROUTING
 
 | Session Type | Load | Skip |
