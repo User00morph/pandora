@@ -75,6 +75,12 @@ STAGE 4 — DEPLOYED            briefs/
 | **[Professor Jiang — Secret History (28 Episodes)](deconstructions/systemic-analysis/drd_decode_jiang-secret-history_decoded.md)** | **systemic-analysis** | **reconstructed (Stage 5 complete)** | **Mixed — see file** | **D.S.C, D.S.E, D.P.S.A, D.C.E, D.I.I, D.O.M, D.S.S, D.B.S** | **2026-04-30** |
 | ↳ [Reconstruction — Power Game Theory + Narcissism Layer](reconstructions/systemic-analysis/drd_reconstruct_power-game-theory_reconstructed.md) | systemic-analysis | reconstructed | Mixed — see file | D.S.C, D.S.E, D.P.S.A, D.C.E, D.I.I, D.O.M, D.S.S, D.B.S | 2026-04-30 |
 | ↳ [Raw Transcripts (28 episodes)](research/systemic-analysis/drd_research_jiang-secret-history_raw-extract.md) | systemic-analysis | raw-extract | Tier 3 source | D.R.D | 2026-04-30 |
+| **SNRS v3 — Firdaria: Persian Time-Lord System** | consciousness / pre-western-knowledge | raw-extract | Established (within tradition) | D.P.S.A, D.O.M | 2026-05-10 |
+| **SNRS v3 — Uranian Astrology / Hamburg School** | consciousness / pre-western-knowledge | raw-extract | Established (within tradition) | D.P.S.A | 2026-05-10 |
+| **SNRS v3 — Primary Directions** | consciousness / pre-western-knowledge | raw-extract | Established (within tradition) | D.P.S.A | 2026-05-10 |
+| **SNRS v3 — Western Lunar Mansions (28 Manzil)** | pre-western-knowledge | raw-extract | Established (within tradition) | D.P.S.A, D.O.M | 2026-05-10 |
+| **SNRS v3 — Progressed Lunar Phases** | consciousness | raw-extract | Established (within tradition) | D.P.S.A | 2026-05-10 |
+| **SNRS v3 — Heliocentric Astrology / Soul Chart** | consciousness | raw-extract | Established (Bailey tradition) | D.P.S.A | 2026-05-10 |
 
 ---
 
@@ -104,13 +110,13 @@ STAGE 4 — DEPLOYED            briefs/
 |--------|-----|---------|---------------|----------|-------|
 | Human History & Origins | 1 | 1 | 0 | 0 | 2 |
 | Suppressed Science | 2 | 2 | 0 | 0 | 4 |
-| Pre-Western Knowledge | 1 | 1 | 0 | 0 | 2 |
+| Pre-Western Knowledge | 3 | 1 | 0 | 0 | 4 |
 | Divine Feminine | 1 | 2 | 0 | 0 | 3 |
-| Consciousness | 5 | 4 | 2 | 0 | 11 |
+| Consciousness | 10 | 4 | 2 | 0 | 16 |
 | Systemic Analysis | 3 | 4 | 2 | 0 | 9 |
 | Cross-Domain | 3 | 1 | 1 | 0 | 5 |
 | **Kemetic** | **4** | **1** | **0** | **0** | **5** |
-| **TOTAL** | **20** | **16** | **5** | **0** | **41** |
+| **TOTAL** | **27** | **16** | **5** | **0** | **48** |
 
 ---
 
