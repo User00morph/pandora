@@ -338,5 +338,15 @@ dbs_system_[component].md
 
 ---
 
+## INCOMING D.R.D RESEARCH
+
+| Topic | Brief | Confidence | Deployed |
+|-------|-------|------------|---------|
+| US Corporation / Sovereign Living Entity | [`drd_brief_dbs_us-corporation-sovereign-living-entity_deployed.md`](../D.R.D/briefs/drd_brief_dbs_us-corporation-sovereign-living-entity_deployed.md) | Mixed (Established core + Probable mechanisms) | 2026-05-19 |
+
+Key findings for D.B.S: Food system designed for consumption extraction, not nourishment (SWF investment vehicle); bioengineered food engineered for non-satiation; food = one of three energies of human mastery (alongside money and sex/relationships); body sovereignty is empirical not ideological (5% veganism success rate); trauma is somatic — body carries what the mind hasn't processed; plant medicine (ayahuasca/mushrooms) as somatic trauma resolution.
+
+---
+
 *D.B.S | Pandora OS | Department 11 of 12*
 *"To know your body is to know the most sophisticated system you will ever inhabit. Most people live in it their entire lives without learning its language."*

@@ -1,0 +1,186 @@
+//@version=6
+// Markov State Matrix — Hedge Fund Transition Probability System
+// STIS Pine Script Library | D.S.E Trading | Pandora OS
+// Decodes: drd_decode_quant-options-ai-trading-stack_v1.md
+// Method: "Rowan" hedge fund quant method via STIS sovereign lens
+//
+// PURPOSE: Displays the live 3×3 state transition matrix on any asset.
+// Identifies current market state (Bull/Sideways/Bear) using 20-day cumulative returns.
+// Calculates historical transition probabilities.
+// Generates a signal (bull probability - bear probability) for position bias.
+//
+// HOW TO READ:
+//   State label (top-right): Current state
+//   Signal (top-right): Positive = long bias, Negative = short bias, magnitude = conviction
+//   Matrix table: P(today's state → tomorrow's state) from full history
+//   Stickiness: diagonal probability — how likely current state persists
+
+indicator("Markov State Matrix [STIS]", overlay=false, max_bars_back=500)
+
+// ─── INPUTS ───────────────────────────────────────────────────────────────────
+
+lookback     = input.int(20,    "State Lookback (days)",    minval=5,  maxval=60,  group="State Settings")
+bull_thresh  = input.float(5.0, "Bull State Threshold (%)", minval=1.0, maxval=20.0, step=0.5, group="State Settings")
+bear_thresh  = input.float(-5.0,"Bear State Threshold (%)  ", minval=-20.0, maxval=-1.0, step=0.5, group="State Settings")
+show_signal  = input.bool(true, "Show Signal Line",          group="Display")
+show_matrix  = input.bool(true, "Show Transition Matrix",    group="Display")
+signal_smooth = input.int(3,   "Signal Smoothing",          minval=1, maxval=10, group="Display")
+
+// ─── STATE CLASSIFICATION ─────────────────────────────────────────────────────
+
+// 20-day cumulative return
+cum_return_raw = (close - close[lookback]) / close[lookback] * 100
+
+// State: 1 = Bull, 0 = Sideways, -1 = Bear
+get_state(ret) =>
+    ret >= bull_thresh ? 1 : ret <= bear_thresh ? -1 : 0
+
+current_state = get_state(cum_return_raw)
+
+// ─── TRANSITION MATRIX CALCULATION ───────────────────────────────────────────
+// Count transitions over lookback history (max_bars_back - lookback window)
+
+// We count: from each state (1,0,-1), transitions to each next state
+// State encoding: 1=bull, 0=sideways, -1=bear
+// Matrix[from][to] = count
+
+var float bb_count = 0.0  // bear → bear
+var float bs_count = 0.0  // bear → sideways
+var float bu_count = 0.0  // bear → bull
+var float sb_count = 0.0  // sideways → bear
+var float ss_count = 0.0  // sideways → sideways
+var float su_count = 0.0  // sideways → bull
+var float ub_count = 0.0  // bull → bear
+var float us_count = 0.0  // bull → sideways
+var float uu_count = 0.0  // bull → bull
+
+// Accumulate counts from full history
+if not na(current_state) and not na(current_state[1])
+    from_state = current_state[1]
+    to_state   = current_state
+
+    if from_state == -1  // from bear
+        if to_state == -1 then bb_count += 1
+        else if to_state == 0 then bs_count += 1
+        else bu_count += 1
+    else if from_state == 0  // from sideways
+        if to_state == -1 then sb_count += 1
+        else if to_state == 0 then ss_count += 1
+        else su_count += 1
+    else  // from bull
+        if to_state == -1 then ub_count += 1
+        else if to_state == 0 then us_count += 1
+        else uu_count += 1
+
+// Row totals
+bear_total  = bb_count + bs_count + bu_count
+side_total  = sb_count + ss_count + su_count
+bull_total  = ub_count + us_count + uu_count
+
+// Transition probabilities (safe division)
+safe(n, d) => d > 0 ? n / d : 0.333
+
+p_bb = safe(bb_count, bear_total)
+p_bs = safe(bs_count, bear_total)
+p_bu = safe(bu_count, bear_total)
+
+p_sb = safe(sb_count, side_total)
+p_ss = safe(ss_count, side_total)
+p_su = safe(su_count, side_total)
+
+p_ub = safe(ub_count, bull_total)
+p_us = safe(us_count, bull_total)
+p_uu = safe(uu_count, bull_total)
+
+// ─── SIGNAL GENERATION ───────────────────────────────────────────────────────
+// Signal = P(bull tomorrow) - P(bear tomorrow), given current state
+
+p_bull_tomorrow = current_state == 1 ? p_uu : current_state == 0 ? p_su : p_bu
+p_bear_tomorrow = current_state == 1 ? p_ub : current_state == 0 ? p_sb : p_bb
+
+raw_signal = p_bull_tomorrow - p_bear_tomorrow
+signal     = ta.sma(raw_signal, signal_smooth)
+
+// Stickiness (diagonal probability for current state)
+stickiness = current_state == 1 ? p_uu : current_state == 0 ? p_ss : p_bb
+
+// ─── VISUALS ─────────────────────────────────────────────────────────────────
+
+// Signal line
+bull_col  = color.new(color.lime,   20)
+bear_col  = color.new(color.red,    20)
+side_col  = color.new(color.yellow, 40)
+zero_col  = color.new(color.gray,   60)
+
+sig_color = signal > 0.05 ? bull_col : signal < -0.05 ? bear_col : side_col
+
+hline(0,    "Zero",    color=zero_col,  linestyle=hline.style_dotted)
+hline(0.2,  "Bias+",   color=bull_col,  linestyle=hline.style_dashed)
+hline(-0.2, "Bias−",   color=bear_col,  linestyle=hline.style_dashed)
+
+plot(show_signal ? signal : na, "Signal", color=sig_color, linewidth=2)
+plot(show_signal ? raw_signal : na, "Raw Signal", color=color.new(sig_color, 60), linewidth=1, style=plot.style_area)
+
+// ─── STATE TABLE ─────────────────────────────────────────────────────────────
+
+state_label = current_state == 1 ? "BULL" : current_state == -1 ? "BEAR" : "SIDEWAYS"
+state_color = current_state == 1 ? color.lime : current_state == -1 ? color.red : color.yellow
+bias_label  = signal > 0.05 ? "LONG" : signal < -0.05 ? "SHORT" : "NEUTRAL"
+
+if show_matrix and barstate.islast
+    var tbl = table.new(position.top_right, 5, 6,
+      border_width=1,
+      border_color=color.new(color.gray, 50),
+      frame_color=color.new(color.white, 70),
+      frame_width=1)
+
+    // Header row
+    table.cell(tbl, 0, 0, "→ TOMORROW", text_color=color.white, bgcolor=color.new(color.gray, 40), text_size=size.small)
+    table.cell(tbl, 1, 0, "BEAR",       text_color=color.red,   bgcolor=color.new(color.gray, 40), text_size=size.small)
+    table.cell(tbl, 2, 0, "SIDE",       text_color=color.yellow,bgcolor=color.new(color.gray, 40), text_size=size.small)
+    table.cell(tbl, 3, 0, "BULL",       text_color=color.lime,  bgcolor=color.new(color.gray, 40), text_size=size.small)
+    table.cell(tbl, 4, 0, "STICK",      text_color=color.white, bgcolor=color.new(color.gray, 40), text_size=size.small)
+
+    // Bear row
+    bear_bg = current_state == -1 ? color.new(color.red, 60) : color.new(color.gray, 70)
+    table.cell(tbl, 0, 1, "BEAR",                         text_color=color.red,   bgcolor=bear_bg, text_size=size.small)
+    table.cell(tbl, 1, 1, str.tostring(p_bb*100, "#.0") + "%", text_color=color.red,   bgcolor=bear_bg, text_size=size.small)
+    table.cell(tbl, 2, 1, str.tostring(p_bs*100, "#.0") + "%", text_color=color.yellow,bgcolor=bear_bg, text_size=size.small)
+    table.cell(tbl, 3, 1, str.tostring(p_bu*100, "#.0") + "%", text_color=color.lime,  bgcolor=bear_bg, text_size=size.small)
+    table.cell(tbl, 4, 1, str.tostring(p_bb*100, "#.0") + "%", text_color=color.white, bgcolor=bear_bg, text_size=size.small)
+
+    // Sideways row
+    side_bg = current_state == 0 ? color.new(color.yellow, 70) : color.new(color.gray, 70)
+    table.cell(tbl, 0, 2, "SIDE",                         text_color=color.yellow, bgcolor=side_bg, text_size=size.small)
+    table.cell(tbl, 1, 2, str.tostring(p_sb*100, "#.0") + "%", text_color=color.red,    bgcolor=side_bg, text_size=size.small)
+    table.cell(tbl, 2, 2, str.tostring(p_ss*100, "#.0") + "%", text_color=color.yellow, bgcolor=side_bg, text_size=size.small)
+    table.cell(tbl, 3, 2, str.tostring(p_su*100, "#.0") + "%", text_color=color.lime,   bgcolor=side_bg, text_size=size.small)
+    table.cell(tbl, 4, 2, str.tostring(p_ss*100, "#.0") + "%", text_color=color.white,  bgcolor=side_bg, text_size=size.small)
+
+    // Bull row
+    bull_bg = current_state == 1 ? color.new(color.lime, 70) : color.new(color.gray, 70)
+    table.cell(tbl, 0, 3, "BULL",                         text_color=color.lime,  bgcolor=bull_bg, text_size=size.small)
+    table.cell(tbl, 1, 3, str.tostring(p_ub*100, "#.0") + "%", text_color=color.red,   bgcolor=bull_bg, text_size=size.small)
+    table.cell(tbl, 2, 3, str.tostring(p_us*100, "#.0") + "%", text_color=color.yellow,bgcolor=bull_bg, text_size=size.small)
+    table.cell(tbl, 3, 3, str.tostring(p_uu*100, "#.0") + "%", text_color=color.lime,  bgcolor=bull_bg, text_size=size.small)
+    table.cell(tbl, 4, 3, str.tostring(p_uu*100, "#.0") + "%", text_color=color.white, bgcolor=bull_bg, text_size=size.small)
+
+    // Summary row
+    sig_str = str.tostring(signal, "#.##")
+    table.cell(tbl, 0, 4, "NOW: " + state_label, text_color=state_color, bgcolor=color.new(color.black, 60), text_size=size.small)
+    table.cell(tbl, 1, 4, "CUM%: " + str.tostring(cum_return_raw, "#.1") + "%", text_color=color.white, bgcolor=color.new(color.black, 60), text_size=size.small)
+    table.cell(tbl, 2, 4, "SIG: " + sig_str, text_color=sig_color, bgcolor=color.new(color.black, 60), text_size=size.small)
+    table.cell(tbl, 3, 4, "BIAS: " + bias_label, text_color=sig_color, bgcolor=color.new(color.black, 60), text_size=size.small)
+    table.cell(tbl, 4, 4, "STICK: " + str.tostring(stickiness*100, "#.0") + "%", text_color=color.white, bgcolor=color.new(color.black, 60), text_size=size.small)
+
+    // Source note
+    table.cell(tbl, 0, 5, "Markov State Matrix [STIS]", text_color=color.new(color.gray, 30), bgcolor=color.new(color.black, 80), text_size=size.tiny)
+    table.merge_cells(tbl, 0, 5, 4, 5)
+
+// ─── BACKGROUND SHADING ──────────────────────────────────────────────────────
+
+bg_color = current_state == 1 ? color.new(color.lime, 95) :
+           current_state == -1 ? color.new(color.red, 95) :
+           color.new(color.yellow, 97)
+
+bgcolor(bg_color)

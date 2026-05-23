@@ -52,6 +52,7 @@ STAGE 4 — DEPLOYED            briefs/
 | ↳ [Concept Distillations](deconstructions/drd_concept-distillations_transcripts-10.md) | all | decoded (4.5) | — | ALL | 2026-04-24 |
 | ↳ [Melanin & Frequency Science](deconstructions/suppressed-science/drd_decode_melanin-frequency-science_decoded.md) | suppressed-science | decoded | Mixed | D.S.S, D.B.S, D.I.I | 2026-04-24 |
 | ↳ [Feminine Sovereignty & Patriarchy Spell](deconstructions/divine-feminine/drd_decode_feminine-sovereignty-patriarchy-spell_decoded.md) | divine-feminine | decoded | Probable | D.P.S.A, D.S.C | 2026-04-24 |
+| **[Christianity: Cultivation, Weaponization & Fall of the Divine Feminine](deconstructions/human-history/drd_decode_christianity-cultivation-weaponization-divine-feminine-fall_draft.md)** | **human-history / divine-feminine / pre-western-knowledge** | **decoded** | **Mixed (see file)** | **D.P.S.A, D.O.M, D.C.E, D.S.S, D.S.E** | **2026-05-21** |
 | ↳ [Nervous System as Consciousness Tech](deconstructions/consciousness/drd_decode_nervous-system-consciousness-technology_decoded.md) | consciousness | decoded | Mixed | D.P.S.A, D.B.S, D.S.S | 2026-04-24 |
 | ↳ [Non-Human Intelligence & Hidden History](deconstructions/human-history/drd_decode_non-human-intelligence-hidden-history_decoded.md) | human-history | decoded | Mixed | D.S.S, D.R.D | 2026-04-24 |
 | ↳ [Astrology, Sacred Geometry & Ancient Systems](deconstructions/pre-western-knowledge/drd_decode_astrology-sacred-geometry-ancient-systems_decoded.md) | pre-western-knowledge | decoded | Probable | D.P.S.A, D.O.M, D.S.S | 2026-04-24 |
@@ -100,7 +101,29 @@ STAGE 4 — DEPLOYED            briefs/
 
 | Topic | Domain | Confidence | Deployed To | Date Deployed | File |
 |-------|--------|------------|-------------|--------------|------|
-| — | — | — | — | — | — |
+| **US Corporation / Sovereign Living Entity** | human-history / systemic-analysis / metaphysics | Mixed (Established core + Probable mechanisms + Uncertain instruments) | D.P.S.A, D.S.E, D.B.S, D.I.I | 2026-05-19 | [Reconstruction](reconstructions/human-history/drd_reconstruct_us-corporation-sovereign-living-entity_reconstructed.md) · [Decode](deconstructions/drd_decode_us-corporation-sovereign-living-entity_v1.md) · [Brief-DPSA](briefs/drd_brief_dpsa_us-corporation-sovereign-living-entity_deployed.md) · [Brief-DSE](briefs/drd_brief_dse_us-corporation-sovereign-living-entity_deployed.md) · [Brief-DBS](briefs/drd_brief_dbs_us-corporation-sovereign-living-entity_deployed.md) · [Brief-DII](briefs/drd_brief_dii_us-corporation-sovereign-living-entity_deployed.md) |
+
+↳ Sources: 17 total across 5 sessions. Raw extracts filed in `research/human-history/` (4 files) and `research/metaphysics/` (2 files). Full source list in decode document.
+
+---
+
+## QUEUED RESEARCH
+
+| Topic | Domain | Requested By | Priority | Date Queued |
+|-------|--------|-------------|----------|-------------|
+| Sam Vaknin — Malignant Self-Love / Collective Narcissism | systemic-analysis / consciousness | D.R.D Stage 5 (power-game-theory) | HIGH | 2026-04-30 |
+| Turchin — Ages of Discord + Secular Cycles (elite overproduction metrics) | systemic-analysis | D.R.D Stage 5 (power-game-theory) | HIGH | 2026-04-30 |
+| Criminology: transgression-cohesion in organized crime literature | systemic-analysis | D.R.D Stage 5 (power-game-theory) | MEDIUM | 2026-04-30 |
+| Primary source: secret society theology (Pike, Crowley OTO, Hall) | systemic-analysis / human-history | D.R.D Stage 5 (power-game-theory) | MEDIUM | 2026-04-30 |
+| Quantum consciousness primary literature (Rovelli, Fuchs, Penrose-Hameroff) | D.S.S | D.R.D Stage 5 (power-game-theory) | MEDIUM | 2026-04-30 |
+| **Historical Form 56 — revocation/termination section + correct OMB number** | **human-history / legal** | **D.R.D Stage 5 (sovereign-living-entity)** | **CRITICAL** | **2026-05-19** |
+| **PIQ-99-05 — full citation, scope, still operative?** | **human-history / legal** | **D.R.D Stage 5 (sovereign-living-entity)** | **CRITICAL** | **2026-05-19** |
+| **W-8BEN — employer submission mechanics + legal establishment** | **human-history / legal** | **D.R.D Stage 5 (sovereign-living-entity)** | **HIGH** | **2026-05-19** |
+| **Form 4029 — exact OASDI exemption requirements and conditions** | **human-history / legal** | **D.R.D Stage 5 (sovereign-living-entity)** | **HIGH** | **2026-05-19** |
+| **Wyoming LLC + DAO LLC — sovereign business structure research** | **systemic-analysis / legal** | **D.R.D Stage 5 (sovereign-living-entity) → D.S.E** | **HIGH** | **2026-05-19** |
+| **Birth certificate bond — CUSIP/CINS cross-reference evidence** | **human-history / legal** | **D.R.D Stage 5 (sovereign-living-entity)** | **MEDIUM** | **2026-05-19** |
+| **Treasury Primary Dealer System — current 24 banks + implications** | **systemic-analysis** | **D.R.D Stage 5 (sovereign-living-entity)** | **MEDIUM** | **2026-05-19** |
+| **Bioengineered food mechanisms — non-satiation additives + SWF investors** | **systemic-analysis** | **D.R.D Stage 5 (sovereign-living-entity) → D.B.S** | **MEDIUM** | **2026-05-19** |
 
 ---
 
@@ -108,17 +131,18 @@ STAGE 4 — DEPLOYED            briefs/
 
 | Domain | Raw | Decoded | Reconstructed | Deployed | Total |
 |--------|-----|---------|---------------|----------|-------|
-| Human History & Origins | 1 | 1 | 0 | 0 | 2 |
+| Human History & Origins | 5 | 2 | 0 | 1 | 8 |
 | Suppressed Science | 2 | 2 | 0 | 0 | 4 |
 | Pre-Western Knowledge | 3 | 1 | 0 | 0 | 4 |
-| Divine Feminine | 1 | 2 | 0 | 0 | 3 |
+| Divine Feminine | 1 | 3 | 0 | 0 | 4 |
 | Consciousness | 10 | 4 | 2 | 0 | 16 |
 | Systemic Analysis | 3 | 4 | 2 | 0 | 9 |
-| Cross-Domain | 3 | 1 | 1 | 0 | 5 |
+| Metaphysics | 2 | 0 | 0 | 0 | 2 |
+| Cross-Domain | 3 | 1 | 1 | 1 | 6 |
 | **Kemetic** | **4** | **1** | **0** | **0** | **5** |
-| **TOTAL** | **27** | **16** | **5** | **0** | **48** |
+| **TOTAL** | **33** | **18** | **5** | **2** | **58** |
 
 ---
 
 *D.R.D Master Index | Pandora OS*
-*Updated: 2026-04-30*
+*Updated: 2026-05-21*

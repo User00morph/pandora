@@ -31,31 +31,38 @@ Each domain also has its own source file (`drd_sources_[domain].md`) with domain
 
 | Source | Type | Domains Used In | Topics | Date Added |
 |--------|------|----------------|--------|-----------|
-| — | — | — | — | — |
+| Federal Reserve Act (1913) | US federal legislation | Systemic Analysis, Human History | Fed private bank status; debt architecture | 2026-05-19 |
+| Dodge v. Ford Motor Co. (1919) | US case law | Systemic Analysis | Shareholder primacy — corporations cannot prioritize public good | 2026-05-19 |
+| 26 USC 7701(a)(31) | IRS Code — statute | Human History, Systemic Analysis | Foreign Irrevocable Express Trust definition; sovereign exit mechanism | 2026-05-19 |
+| 14th Amendment (1868) | US Constitution | Human History | Secondary federal citizenship layer; identity fork analysis | 2026-05-19 |
+| Bretton Woods Agreement (1944) | International treaty | Systemic Analysis, Human History | Dollar as world reserve currency; IMF/World Bank creation | 2026-05-19 |
 
 ### Tier 2 — Credentialed Secondary
 
 | Source | Type | Domains Used In | Topics | Date Added |
 |--------|------|----------------|--------|-----------|
-| — | — | — | — | — |
+| Nicole Pervy (The Profit Door) — 3 videos: American Debt System, Sovereign Wealth Funds, US Economic Repricing | YouTube financial analysis | Systemic Analysis, Human History | Fed mechanics, SWF architecture, dollar dominance, consumerism machine, repricing window | 2026-05-19 |
+| G. Edward Griffin — *The Creature from Jekyll Island* | Book (financial history) | Systemic Analysis, Human History | Jekyll Island meeting 1910; Federal Reserve origin documented | 2026-05-19 |
 
 ### Tier 3 — Independent Researchers
 
 | Source | Type | Domains Used In | Topics | Date Added |
 |--------|------|----------------|--------|-----------|
-| — | — | — | — | — |
+| 19 Keys ft. Wise Money Santino (High Level Conversations) | YouTube long-form interview | Systemic Analysis, Human History, Metaphysics | Money etymology, Continental Currency, BlackRock/Vanguard concentration, trust architecture, opt-out imperative | 2026-05-19 |
+| Danny Morel (Health Optimization Podcast ft. Tim Gray) | YouTube interview | Metaphysics, Consciousness | Awakening architecture, abundance as birthright, manifestation = God-energy, trauma-abundance connection, three energies of mastery | 2026-05-19 |
 
 ### Tier 4 — Secondary Claims
 
 | Source | Type | Domains Used In | Topics | Date Added |
 |--------|------|----------------|--------|-----------|
-| — | — | — | — | — |
+| Sovereignty practitioner community (unattributed) | Oral/online tradition | Human History, Systemic Analysis | Birth cert bond, Form 56 historical version, PIQ-99-05, UCC-1 SPC, passport pages — all flagged as uncertain/unverified | 2026-05-19 |
 
 ### Tier 5 — Unsourced Assertions
 
 | Source | Claim | Domain | Flagged From | Date Added |
 |--------|-------|--------|-------------|-----------|
-| — | — | — | — | — |
+| Sovereignty practitioners (unattributed) | Historical Form 56 contained revocation/termination section | Human History | US Corporation / Sovereign Living Entity decode | 2026-05-19 |
+| Sovereignty practitioners (unattributed) | PIQ-99-05 governs tax treatment of living beings vs. PERSONS | Human History | US Corporation / Sovereign Living Entity decode | 2026-05-19 |
 
 ---
 
@@ -65,7 +72,10 @@ Sources that appear across multiple domains — these are high-value references.
 
 | Source | Tier | Domains | Notes |
 |--------|------|---------|-------|
-| — | — | — | — |
+| Nicole Pervy (The Profit Door) — 3 videos | 2 | Systemic Analysis, Human History, D.I.I | Fed mechanics, SWF architecture, dollar dominance, consumerism machine, AI bubble, repricing window |
+| 19 Keys ft. Wise Money Santino (HLC) | 3 | Systemic Analysis, Human History, Metaphysics, D.S.E | Money etymology, trust architecture, BlackRock/Vanguard, opt-out imperative |
+| Danny Morel (Health Optimization Podcast ft. Tim Gray) | 3 | Metaphysics, Consciousness, D.P.S.A, D.B.S | Awakening architecture, trauma-abundance connection, three energies of mastery, food sovereignty |
+| G. Edward Griffin — *The Creature from Jekyll Island* | 2 | Systemic Analysis, Human History | Federal Reserve origin; Jekyll Island 1910 documented |
 
 ---
 

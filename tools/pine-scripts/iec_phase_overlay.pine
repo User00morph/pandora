@@ -1,0 +1,187 @@
+// STIS — IEC Phase Overlay
+// Layer 1 | Institutional Expansion Cycle — 5-Phase Algorithmic Estimate
+// Companion to: skill_iec-phase-detection.md, regime_detector.pine
+// Source framework: Nathan Banks (@tradewithbanks) — decoded via STIS
+//
+// NOTE: This is an algorithmic ESTIMATE to assist discretionary phase reading.
+// IEC phase is ultimately a chart-reading skill. Use this as a prompt, not a verdict.
+// If the indicator says P3 but the chart looks like P4 — trust the chart.
+// Pine Script v6
+
+//@version=6
+indicator("STIS — IEC Phase", overlay=true, max_labels_count=100, max_lines_count=50)
+
+// ─── INPUTS ───────────────────────────────────────────────────────────────────
+range_len      = input.int(20,  "Range lookback (Donchian)",   minval=5)
+atr_len        = input.int(14,  "ATR Length",                  minval=1)
+baseline_len   = input.int(50,  "ATR Baseline MA",             minval=10)
+show_bg        = input.bool(true,  "Show phase background")
+show_labels    = input.bool(true,  "Show phase transition labels")
+show_table     = input.bool(true,  "Show phase table")
+show_midline   = input.bool(false, "Show range midline")
+opacity        = input.int(93, "Background opacity (0=solid)", minval=80, maxval=99)
+
+// ─── ATR REGIME ──────────────────────────────────────────────────────────────
+atr_raw   = ta.atr(atr_len)
+atr_pct   = (atr_raw / close) * 100.0
+baseline  = ta.sma(atr_pct, baseline_len)
+ratio     = atr_pct / baseline
+
+// ─── RANGE STRUCTURE (Donchian) ───────────────────────────────────────────────
+don_high = ta.highest(high, range_len)
+don_low  = ta.lowest(low,  range_len)
+don_mid  = (don_high + don_low) / 2.0
+
+// Price position relative to range (using prior bar values to avoid repainting)
+inside_range = close[0] <= don_high[1] and close[0] >= don_low[1]
+broke_above  = close[0] > don_high[1]
+broke_below  = close[0] < don_low[1]
+
+// Range width as % of close — tight range = compression
+range_pct = ((don_high - don_low) / close) * 100.0
+
+// ─── MOMENTUM ────────────────────────────────────────────────────────────────
+ema9       = ta.ema(close, 9)
+ema21      = ta.ema(close, 21)
+trend_up   = ema9 > ema21
+trend_down = ema9 < ema21
+
+// Momentum divergence: price still making new high/low but momentum fading
+// Used for Phase 4 Exhaustion detection
+rsi        = ta.rsi(close, 14)
+new_high   = ta.highestbars(high, 10) == 0  // current bar is 10-bar high
+new_low    = ta.lowestbars(low,  10) == 0   // current bar is 10-bar low
+rsi_div_bear = new_high  and rsi  < ta.valuewhen(new_high[1],  rsi, 1)   // price higher, RSI lower
+rsi_div_bull = new_low   and rsi  > ta.valuewhen(new_low[1],   rsi, 1)   // price lower,  RSI higher
+
+// ─── IEC PHASE DETECTION ─────────────────────────────────────────────────────
+//
+// P1 ACCUMULATION:  Low ATR ratio + inside range + no breakout
+// P2 IMPULSE TRAP:  Price broke range but is reversing back — wick/close inside
+//                   ATR ratio NOT yet in expansion (no follow-through)
+// P3 EXPANSION:     ATR ratio ≥ 1.25 + strong directional move + structure breaking
+// P4 EXHAUSTION:    Post-expansion: ATR declining from recent peak + RSI divergence
+//                   or momentum fading while price still pushing
+// P5 MITIGATION:    After expansion + price returning toward range origin
+//                   50% retracement of recent expansion candle = institutional re-fill
+
+// Detect if we are returning after a prior expansion
+var float peak_ratio   = 0.0
+var bool  in_expansion = false
+
+// Track the highest ATR ratio seen recently
+peak_ratio := math.max(peak_ratio * 0.99, ratio)   // slow decay of peak (not vars — use nz)
+
+// Expansion state: currently above expansion threshold
+in_expansion := ratio >= 1.25
+
+// Phase conditions
+p1_condition = ratio < 0.75 and inside_range
+
+// P2: broke above or below range BUT close came back inside (wick through range then rejected)
+p2_up   = high > don_high[1] and close < don_high[1] and ratio < 1.50  // fake up break
+p2_down = low  < don_low[1]  and close > don_low[1]  and ratio < 1.50  // fake down break
+p2_condition = p2_up or p2_down
+
+// P3: clear expansion
+p3_condition = ratio >= 1.25 and (broke_above or broke_below or (trend_up and not inside_range) or (trend_down and not inside_range))
+
+// P4: ATR was high, now declining, momentum divergence
+p4_condition = ratio >= 0.75 and ratio < 1.50 and peak_ratio > 1.25 and (rsi_div_bear or rsi_div_bull) and not p3_condition
+
+// P5: ATR returned to low after expansion, price pulling back into range
+p5_condition = ratio < 0.75 and peak_ratio > 1.25 and inside_range and not p1_condition
+
+// Priority: P2 > P3 > P4 > P5 > P1 (P2 is a brief window, must catch it first)
+var string phase_label  = "P1 ACCUMULATION"
+var color  phase_color  = color.gray
+var string phase_action = "Wait. Map the range."
+var string phase_short  = "P1"
+
+if p2_condition
+    phase_label  := "P2 IMPULSE TRAP"
+    phase_color  := color.orange
+    phase_action := "Trap forming. Await reversal back through level."
+    phase_short  := "P2"
+else if p3_condition
+    phase_label  := "P3 EXPANSION"
+    phase_color  := color.green
+    phase_action := "Trade direction. Enter early or 50% retracement."
+    phase_short  := "P3"
+else if p4_condition
+    phase_label  := "P4 EXHAUSTION"
+    phase_color  := color.red
+    phase_action := "No new entries. Exits only. Watch P5 setup forming."
+    phase_short  := "P4"
+else if p5_condition
+    phase_label  := "P5 MITIGATION"
+    phase_color  := color.purple
+    phase_action := "Grade A re-entry at 50% mitigation level."
+    phase_short  := "P5"
+else
+    phase_label  := "P1 ACCUMULATION"
+    phase_color  := color.new(color.gray, 30)
+    phase_action := "Wait. Map the range. Do not trade."
+    phase_short  := "P1"
+
+// ─── BACKGROUND TINT ─────────────────────────────────────────────────────────
+bgcolor(show_bg ? color.new(phase_color, opacity) : na, title="IEC phase background")
+
+// ─── RANGE MIDLINE ────────────────────────────────────────────────────────────
+plot(show_midline ? don_mid : na, "Range Mid",  color=color.new(color.gray, 60), linewidth=1, style=plot.style_line)
+plot(show_midline ? don_high : na, "Don High", color=color.new(color.gray, 70), linewidth=1, style=plot.style_circles)
+plot(show_midline ? don_low  : na, "Don Low",  color=color.new(color.gray, 70), linewidth=1, style=plot.style_circles)
+
+// ─── PHASE TRANSITION LABELS ─────────────────────────────────────────────────
+phase_changed = phase_short != phase_short[1]
+
+if show_labels and phase_changed and barstate.isconfirmed
+    label.new(
+         bar_index, high,
+         text=phase_short,
+         color=color.new(phase_color, 20),
+         textcolor=color.white,
+         style=label.style_label_down,
+         size=size.small
+         )
+
+// ─── PHASE TABLE ─────────────────────────────────────────────────────────────
+if show_table and barstate.islast
+    var table t = table.new(position.top_left, 2, 7, border_width=1)
+
+    table.cell(t, 0, 0, "IEC PHASE",    text_color=color.gray,    bgcolor=color.new(color.black, 70), text_size=size.small)
+    table.cell(t, 1, 0, phase_label,    text_color=phase_color,   bgcolor=color.new(color.black, 70), text_size=size.normal)
+
+    table.cell(t, 0, 1, "ACTION",       text_color=color.gray,    bgcolor=color.new(color.black, 80), text_size=size.small)
+    table.cell(t, 1, 1, phase_action,   text_color=color.yellow,  bgcolor=color.new(color.black, 80), text_size=size.tiny)
+
+    table.cell(t, 0, 2, "ATR RATIO",    text_color=color.gray,    bgcolor=color.new(color.black, 80), text_size=size.small)
+    table.cell(t, 1, 2, str.tostring(ratio, "#.##") + "x",
+               text_color=ratio >= 1.25 ? color.green : ratio < 0.75 ? color.gray : color.white,
+               bgcolor=color.new(color.black, 80), text_size=size.small)
+
+    table.cell(t, 0, 3, "RANGE %",      text_color=color.gray,    bgcolor=color.new(color.black, 80), text_size=size.small)
+    table.cell(t, 1, 3, str.tostring(range_pct, "#.##") + "%",
+               text_color=color.white, bgcolor=color.new(color.black, 80), text_size=size.small)
+
+    in_range_txt = inside_range ? "INSIDE ✓" : broke_above ? "ABOVE ↑" : "BELOW ↓"
+    in_range_clr = inside_range ? color.teal  : broke_above ? color.green : color.red
+    table.cell(t, 0, 4, "POSITION",     text_color=color.gray,    bgcolor=color.new(color.black, 80), text_size=size.small)
+    table.cell(t, 1, 4, in_range_txt,   text_color=in_range_clr,  bgcolor=color.new(color.black, 80), text_size=size.small)
+
+    trap_txt = p2_up ? "BULL TRAP (up sweep)" : p2_down ? "BEAR TRAP (down sweep)" : "—"
+    table.cell(t, 0, 5, "TRAP",         text_color=color.gray,    bgcolor=color.new(color.black, 80), text_size=size.small)
+    table.cell(t, 1, 5, trap_txt,       text_color=p2_condition ? color.orange : color.gray,
+               bgcolor=color.new(color.black, 80), text_size=size.tiny)
+
+    mom_txt = rsi_div_bear ? "BEAR DIV (P4 warning)" : rsi_div_bull ? "BULL DIV (P4 warning)" : "no divergence"
+    table.cell(t, 0, 6, "MOMENTUM",     text_color=color.gray,    bgcolor=color.new(color.black, 80), text_size=size.small)
+    table.cell(t, 1, 6, mom_txt,
+               text_color=(rsi_div_bear or rsi_div_bull) ? color.red : color.gray,
+               bgcolor=color.new(color.black, 80), text_size=size.tiny)
+
+// ─── ALERTS ───────────────────────────────────────────────────────────────────
+alertcondition(phase_short == "P2" and phase_short[1] != "P2", "IEC → P2 Impulse Trap",  "Phase 2 forming — sweep of range detected. Await reversal.")
+alertcondition(phase_short == "P3" and phase_short[1] != "P3", "IEC → P3 Expansion",     "Phase 3 expansion confirmed. Entry window open.")
+alertcondition(phase_short == "P4" and phase_short[1] != "P4", "IEC → P4 Exhaustion",    "Phase 4 — momentum fading. No new entries. Watch for P5.")
+alertcondition(phase_short == "P5" and phase_short[1] != "P5", "IEC → P5 Mitigation",    "Phase 5 mitigation — institutional re-fill zone. Grade A re-entry.")

@@ -1,0 +1,110 @@
+// STIS — Volatility Regime Detector
+// Layer 1b/1c | ATR Volatility Regime Classification
+// Companion to: gex_levels_v1.pine, skill_gex-regime-read.md, skill_regime-detection.md
+// Works on any timeframe. Designed for daily + H4 session analysis.
+// Pine Script v6
+
+//@version=6
+indicator("STIS — Volatility Regime", overlay=false, max_labels_count=50)
+
+// ─── INPUTS ───────────────────────────────────────────────────────────────────
+atr_len        = input.int(14,  "ATR Length",         minval=1)
+baseline_len   = input.int(50,  "Baseline MA Length", minval=10)
+show_bg        = input.bool(true, "Show background tint")
+show_table     = input.bool(true, "Show regime table")
+
+// ─── CORE CALCULATIONS ────────────────────────────────────────────────────────
+atr_raw   = ta.atr(atr_len)
+atr_pct   = (atr_raw / close) * 100.0          // ATR as % of price (normalised)
+baseline  = ta.sma(atr_pct, baseline_len)       // rolling average ATR%
+ratio     = atr_pct / baseline                  // current vs normal
+
+// ─── REGIME CLASSIFICATION ────────────────────────────────────────────────────
+// Boundaries tuned to IEC + GEX framework language
+// Compression < 0.50  — Accumulation phase, coiling before impulse
+// Low Vol     < 0.75  — Positive gamma likely, range-bound, fades valid
+// Normal      < 1.25  — Baseline regime
+// Elevated    < 2.00  — Approaching expansion; positive → negative gamma transition zone
+// Expansion   ≥ 2.00  — Negative gamma likely, strong trending, no fades
+
+COMPRESSION = color.new(color.gray,   50)
+LOW_VOL     = color.new(color.teal,   50)
+NORMAL      = color.new(color.blue,   70)
+ELEVATED    = color.new(color.orange, 50)
+EXPANSION   = color.new(color.red,    40)
+
+var string regime_label = "NORMAL"
+var color  regime_color = NORMAL
+
+if ratio < 0.50
+    regime_label := "COMPRESSION"
+    regime_color := COMPRESSION
+else if ratio < 0.75
+    regime_label := "LOW VOL"
+    regime_color := LOW_VOL
+else if ratio < 1.25
+    regime_label := "NORMAL"
+    regime_color := NORMAL
+else if ratio < 2.00
+    regime_label := "ELEVATED"
+    regime_color := ELEVATED
+else
+    regime_label := "EXPANSION"
+    regime_color := EXPANSION
+
+// ─── PLOTS ────────────────────────────────────────────────────────────────────
+plot(atr_pct,   "ATR %",       color=color.white,  linewidth=2)
+plot(baseline,  "Baseline MA", color=color.gray,   linewidth=1, style=plot.style_line)
+plot(baseline * 1.25, "Elevated threshold", color=color.new(color.orange, 70), linewidth=1)
+plot(baseline * 2.00, "Expansion threshold", color=color.new(color.red,   70), linewidth=1)
+plot(baseline * 0.75, "Low vol threshold",   color=color.new(color.teal,  70), linewidth=1)
+plot(baseline * 0.50, "Compression floor",   color=color.new(color.gray,  70), linewidth=1)
+hline(0, "", color=color.new(color.white, 90))
+
+// Background tint
+bgcolor(show_bg ? color.new(regime_color, 88) : na, title="Regime background")
+
+// ─── REGIME TABLE ─────────────────────────────────────────────────────────────
+if show_table and barstate.islast
+    var table t = table.new(position.top_right, 2, 6, border_width=1)
+
+    table.cell(t, 0, 0, "REGIME",       text_color=color.gray,  bgcolor=color.new(color.black, 70), text_size=size.small)
+    table.cell(t, 1, 0, regime_label,   text_color=regime_color, bgcolor=color.new(color.black, 70), text_size=size.normal)
+
+    table.cell(t, 0, 1, "ATR%",         text_color=color.gray,  bgcolor=color.new(color.black, 80), text_size=size.small)
+    table.cell(t, 1, 1, str.tostring(atr_pct, "#.###") + "%",
+               text_color=color.white,  bgcolor=color.new(color.black, 80), text_size=size.small)
+
+    table.cell(t, 0, 2, "BASELINE",     text_color=color.gray,  bgcolor=color.new(color.black, 80), text_size=size.small)
+    table.cell(t, 1, 2, str.tostring(baseline, "#.###") + "%",
+               text_color=color.gray,   bgcolor=color.new(color.black, 80), text_size=size.small)
+
+    table.cell(t, 0, 3, "RATIO",        text_color=color.gray,  bgcolor=color.new(color.black, 80), text_size=size.small)
+    table.cell(t, 1, 3, str.tostring(ratio, "#.##") + "x",
+               text_color=ratio > 1.25 ? color.orange : ratio < 0.75 ? color.teal : color.white,
+               bgcolor=color.new(color.black, 80), text_size=size.small)
+
+    gex_read = ratio >= 2.00 ? "← -GAMMA likely" :
+               ratio >= 1.25 ? "← watch flip" :
+               ratio <= 0.50 ? "← coiling" :
+               "← +GAMMA likely"
+    table.cell(t, 0, 4, "GEX HINT",     text_color=color.gray,  bgcolor=color.new(color.black, 80), text_size=size.small)
+    table.cell(t, 1, 4, gex_read,       text_color=color.yellow, bgcolor=color.new(color.black, 80), text_size=size.tiny)
+
+    iec_read = ratio >= 2.00 ? "Phase 3 Expansion" :
+               ratio >= 1.25 ? "Phase 2/3 Boundary" :
+               ratio <= 0.50 ? "Phase 1 Accumulation" :
+               "Phase 1–2 Range"
+    table.cell(t, 0, 5, "IEC PHASE",    text_color=color.gray,  bgcolor=color.new(color.black, 80), text_size=size.small)
+    table.cell(t, 1, 5, iec_read,       text_color=color.white,  bgcolor=color.new(color.black, 80), text_size=size.tiny)
+
+// ─── REGIME CHANGE ALERTS ─────────────────────────────────────────────────────
+entered_expansion  = ratio >= 2.00 and ratio[1] < 2.00
+entered_elevated   = ratio >= 1.25 and ratio[1] < 1.25
+entered_normal     = ratio < 1.25  and ratio[1] >= 1.25
+entered_low        = ratio < 0.75  and ratio[1] >= 0.75
+
+alertcondition(entered_expansion, "Regime → EXPANSION",   "ATR ratio ≥ 2.0x — negative gamma likely, trend mode active")
+alertcondition(entered_elevated,  "Regime → ELEVATED",    "ATR ratio ≥ 1.25x — approaching expansion zone")
+alertcondition(entered_normal,    "Regime → NORMAL",      "ATR ratio returned to baseline band")
+alertcondition(entered_low,       "Regime → LOW VOL",     "ATR ratio < 0.75x — compression / range mode")

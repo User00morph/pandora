@@ -1,0 +1,55 @@
+// PANDORA — GEX LEVELS OVERLAY v1
+// STIS Layer 1b | Sovereign GEX Engine | Paste levels from gex_engine.py --pine
+// This is the static template — run gex_engine.py --pine to get populated version
+// Usage: Run `python3 tools/gex-engine/gex_engine.py --symbol SPY --pine`
+//        Copy the output and paste it here, replacing the placeholder values below.
+
+//@version=6
+indicator("GEX Levels [Pandora L1b]", overlay=true, max_lines_count=20)
+
+// ── INPUT: Paste computed levels from gex_engine.py --pine ────────────────────
+// Replace these with today's computed values, or use the auto-generated version.
+hvl_input        = input.float(0.0,  "HVL — Gamma Flip",         group="GEX Levels")
+call_wall_input  = input.float(0.0,  "Call Wall",                 group="GEX Levels")
+put_wall_input   = input.float(0.0,  "Put Wall",                  group="GEX Levels")
+max_gamma_input  = input.float(0.0,  "Max Gamma Strike",          group="GEX Levels")
+vol_trigger      = input.float(0.0,  "Volatility Trigger (ATM)",  group="GEX Levels")
+
+show_regime_bg   = input.bool(true,  "Show Gamma Regime Background", group="Display")
+show_labels      = input.bool(true,  "Show Level Labels",            group="Display")
+
+// ── Level Lines ────────────────────────────────────────────────────────────────
+hvl_line       = hvl_input       > 0 ? hline(hvl_input,       "HVL",        color.new(color.yellow, 0),  linewidth=2, linestyle=hline.style_dashed)  : na
+call_wall_line = call_wall_input > 0 ? hline(call_wall_input, "Call Wall",  color.new(color.green,  0),  linewidth=2, linestyle=hline.style_solid)   : na
+put_wall_line  = put_wall_input  > 0 ? hline(put_wall_input,  "Put Wall",   color.new(color.red,    0),  linewidth=2, linestyle=hline.style_solid)   : na
+max_gamma_line = max_gamma_input > 0 ? hline(max_gamma_input, "Max Gamma",  color.new(color.purple, 0),  linewidth=1, linestyle=hline.style_dotted)  : na
+vt_line        = vol_trigger     > 0 ? hline(vol_trigger,     "Vol Trigger",color.new(color.white, 30),  linewidth=1, linestyle=hline.style_dotted)  : na
+
+// ── Gamma Regime Background ────────────────────────────────────────────────────
+is_positive_gamma = hvl_input > 0 and close > hvl_input
+if show_regime_bg
+    bgcolor(is_positive_gamma ? color.new(color.green, 94) : color.new(color.red, 94),
+            title="Gamma Regime")
+
+// ── Labels (right edge) ────────────────────────────────────────────────────────
+if barstate.islast and show_labels
+    if hvl_input > 0
+        label.new(bar_index + 2, hvl_input,
+                  "HVL " + str.tostring(hvl_input, "#.##"),
+                  style=label.style_label_left, color=color.yellow,
+                  textcolor=color.black, size=size.small)
+    if call_wall_input > 0
+        label.new(bar_index + 2, call_wall_input,
+                  "CALL WALL " + str.tostring(call_wall_input, "#.##"),
+                  style=label.style_label_left, color=color.green,
+                  textcolor=color.white, size=size.small)
+    if put_wall_input > 0
+        label.new(bar_index + 2, put_wall_input,
+                  "PUT WALL " + str.tostring(put_wall_input, "#.##"),
+                  style=label.style_label_left, color=color.red,
+                  textcolor=color.white, size=size.small)
+    if max_gamma_input > 0
+        label.new(bar_index + 2, max_gamma_input,
+                  "MG " + str.tostring(max_gamma_input, "#.##"),
+                  style=label.style_label_left, color=color.purple,
+                  textcolor=color.white, size=size.small)

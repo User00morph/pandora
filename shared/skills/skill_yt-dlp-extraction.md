@@ -288,6 +288,23 @@ TRANSCRIPT_UNAVAILABLE (subtitles disabled by uploader):
 
 RESERVED:
   9. How To Connect Claude to TradingView         → D.I.I / D.S.E Trading System (not yet initiated)
+
+---
+
+Quant / Options Flow / AI Trading Stack
+URL:      https://youtube.com/playlist?list=PLWKcfqsabTLVlzJSqJCr3deYDRCG195zK
+Domain:   trading-systems, quant-methodology, options-mechanics, ai-agentic-trading
+Added:    2026-05-20
+Status:   Fully extracted + decoded
+
+EXTRACTED (raw extract + decode in D.R.D/research/trading-systems/):
+  Full playlist: 7 videos, ~2h 50m → DECODED (drd_decode_quant-options-ai-trading-stack_v1.md)
+  
+OUTPUTS GENERATED:
+  drd_research_quant-options-ai-trading-stack_raw-extract.md   → raw transcripts + structured notes
+  drd_decode_quant-options-ai-trading-stack_v1.md              → full D.R.D decode + STIS integration map
+  dse_framework_gex-options-mechanics.md                       → new L1 fundamental framework (GEX + Greeks)
+  tools/pine-scripts/markov_state_matrix.pine                  → Markov State Matrix Pine Script v1
 ```
 
 ---

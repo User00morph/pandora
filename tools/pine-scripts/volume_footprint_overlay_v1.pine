@@ -1,0 +1,146 @@
+//@version=6
+// Volume Footprint OVERLAY — POC / VAH / VAL on Price Chart
+// Companion to volume_footprint_v1.pine
+// Pandora OS | D.S.E Trading | 2026-05-20
+//
+// Add BOTH to TradingView:
+//   1. volume_footprint_v1.pine      (separate pane — delta histogram)
+//   2. volume_footprint_overlay_v1.pine (main chart — POC + value area)
+//
+// STIS Application:
+//   POC = highest-volume price anchor in the session (institutional reference)
+//   VAH = top of value area (70% vol distribution ceiling)
+//   VAL = bottom of value area (70% vol distribution floor)
+//   Prices OUTSIDE the value area are premium/discount — expect return
+//   Prices INSIDE the value area are "fair value" — range behavior expected
+
+indicator("VF Overlay — POC/VAH/VAL [STIS]", shorttitle="VF-OVL[STIS]",
+  overlay=true,
+  max_bars_back=500)
+
+// ─── INPUTS ───────────────────────────────────────────────────────────────────
+
+poc_window  = input.int(50,    "POC Lookback (bars)",  minval=10, maxval=300)
+va_pct      = input.float(70.0,"Value Area %",         minval=50, maxval=95, step=5.0)
+show_poc    = input.bool(true, "Show POC Line")
+show_va     = input.bool(true, "Show Value Area Band")
+show_labels = input.bool(true, "Show Labels")
+extend_right = input.bool(true, "Extend Lines Right")
+
+poc_col = input.color(color.new(color.yellow, 0), "POC Color")
+vah_col = input.color(color.new(color.aqua,   30), "VAH Color")
+val_col = input.color(color.new(color.orange,  30), "VAL Color")
+va_fill = input.color(color.new(color.blue,    90), "Value Area Fill")
+
+// ─── VOLUME ESTIMATION (same as main script) ─────────────────────────────────
+
+bar_range  = high - low
+buy_ratio  = bar_range > 0.0 ? (close - low) / bar_range : 0.5
+sell_ratio = bar_range > 0.0 ? (high - close) / bar_range : 0.5
+buy_vol    = volume * buy_ratio
+sell_vol   = volume * sell_ratio
+delta      = buy_vol - sell_vol
+
+// ─── POC CALCULATION ─────────────────────────────────────────────────────────
+// POC = price level of the bar with highest volume in the lookback window
+
+highest_vol = ta.highest(volume, poc_window)
+poc_price   = volume == highest_vol ? (high + low) / 2.0 : na
+
+// Carry forward the last POC value
+var float poc_level = na
+if not na(poc_price)
+    poc_level := poc_price
+
+// ─── VALUE AREA CALCULATION ──────────────────────────────────────────────────
+// VAH and VAL = price range containing va_pct% of the window's total volume
+//
+// Method: Use volume-weighted percentile of price over the window
+// VAH ≈ price level exceeded by (100-va_pct)/2 % of volume from above
+// VAL ≈ price level exceeded by (100-va_pct)/2 % of volume from below
+//
+// Simplified Pine Script implementation:
+// Find the volume threshold above which bars fall in the "value zone"
+// VAH = highest high among those bars, VAL = lowest low among those bars
+
+total_window_vol = math.sum(volume, poc_window)
+va_vol_target    = total_window_vol * (va_pct / 100.0)
+
+// Volume threshold: bars above this threshold are "high volume" bars (value area members)
+vol_threshold = ta.percentile_linear_interpolation(volume, poc_window, 100.0 - va_pct)
+
+// VA high and low from qualifying bars
+va_high = bar_range > 0 and volume >= vol_threshold ? high : na
+va_low  = bar_range > 0 and volume >= vol_threshold ? low  : na
+
+vah_level = ta.highest(va_high, poc_window)
+val_level = ta.lowest(va_low,  poc_window)
+
+// ─── PLOTS ────────────────────────────────────────────────────────────────────
+
+// POC line
+poc_plot = plot(show_poc ? poc_level : na,
+  "POC", color=poc_col, linewidth=2,
+  style=plot.style_linebr)
+
+// VAH and VAL lines
+vah_plot = plot(show_va ? vah_level : na,
+  "VAH", color=vah_col, linewidth=1,
+  style=plot.style_linebr)
+
+val_plot = plot(show_va ? val_level : na,
+  "VAL", color=val_col, linewidth=1,
+  style=plot.style_linebr)
+
+// Value area fill
+fill(vah_plot, val_plot, color=va_fill, title="Value Area Fill")
+
+// ─── LABELS ───────────────────────────────────────────────────────────────────
+
+if show_labels and barstate.islast
+    if not na(poc_level)
+        label.new(bar_index + 2, poc_level,
+          "POC " + str.tostring(poc_level, "#.####"),
+          color=color.new(color.yellow, 0),
+          textcolor=color.black,
+          style=label.style_label_left,
+          size=size.small)
+
+    if not na(vah_level)
+        label.new(bar_index + 2, vah_level,
+          "VAH " + str.tostring(vah_level, "#.####"),
+          color=color.new(color.aqua, 0),
+          textcolor=color.black,
+          style=label.style_label_left,
+          size=size.small)
+
+    if not na(val_level)
+        label.new(bar_index + 2, val_level,
+          "VAL " + str.tostring(val_level, "#.####"),
+          color=color.new(color.orange, 0),
+          textcolor=color.black,
+          style=label.style_label_left,
+          size=size.small)
+
+// ─── BACKGROUND TINT FOR VALUE AREA ──────────────────────────────────────────
+// Subtle tint when price is OUTSIDE the value area (premium/discount)
+
+price_above_va = not na(vah_level) and close > vah_level
+price_below_va = not na(val_level)  and close < val_level
+
+bgcolor(price_above_va ? color.new(color.lime,   97) : na, title="Above VA (premium)")
+bgcolor(price_below_va ? color.new(color.orange, 97) : na, title="Below VA (discount)")
+
+// ─── ALERT CONDITIONS ─────────────────────────────────────────────────────────
+
+alertcondition(ta.cross(close, poc_level),
+  "Price Crosses POC",
+  "STIS Footprint Overlay: Price crossed POC at {{close}} — {{ticker}}")
+
+alertcondition(ta.cross(close, vah_level),
+  "Price Crosses VAH",
+  "STIS Footprint Overlay: Price crossed VAH at {{close}} — {{ticker}}")
+
+alertcondition(ta.cross(close, val_level),
+  "Price Crosses VAL",
+  "STIS Footprint Overlay: Price crossed VAL at {{close}} — {{ticker}}")

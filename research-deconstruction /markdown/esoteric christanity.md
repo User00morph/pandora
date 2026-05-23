@@ -31,7 +31,7 @@ was but the herald of one much greater than he who should follow that he was the
 the Forerunner of the great dignitaries running ahead of the Chariot of his master crying allow to all people gathered on the road that they must make
 way for the approaching great man shouting constantly make ye a way make ye a way for the Lord and accordingly
 there was a new wave of excitement among John's following which spread rapidly to the surrounding country at this promise
-of the coming of the Lord the master perhaps even the Messiah of the Jews and many more came unto John and with him
+of the coming of the Lord themaster perhaps even the Messiah of the Jews and many more came unto John and with him
 waited for the coming of the master this John John the Baptist was born in the Hill Country of Judea nearly 30 years
 before he appeared as a prophet his father was of the Priestly order or Temple cast who had reached an advanced
 age and who lived with his aged wife in retirement away from the noise and confusion of the world waiting the

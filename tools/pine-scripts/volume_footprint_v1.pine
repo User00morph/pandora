@@ -1,0 +1,293 @@
+//@version=6
+// Volume Footprint Indicator v1 — STIS Pine Script Library
+// Pandora OS | D.S.E Trading | 2026-05-20
+//
+// What this builds (free Bookmap/Sierra Chart alternative):
+//   — Volume Delta per bar (buy vol - sell vol, estimated from price position)
+//   — Cumulative Session Delta (running directional pressure total)
+//   — Delta % (delta as % of total bar volume — conviction signal)
+//   — Bar Imbalance Detection (bid/ask asymmetry >3:1 = institutional absorption)
+//   — Imbalance Cluster Detection (3+ consecutive imbalanced bars)
+//   — Session POC Approximation (highest-volume bar anchor within rolling window)
+//   — Session Value Area (bars contributing 70% of session volume)
+//   — Stats table: buy vol, sell vol, net delta, dominant side
+//
+// SOVEREIGN APPLICATION:
+//   When a GEX level (HVL, GEX 1-3) coincides with a high-delta imbalance cluster
+//   = highest-probability reaction zone in the entire STIS stack.
+//   Read this indicator alongside skill_footprint-read.md
+//
+// Buy/Sell estimation method:
+//   buy_vol  = volume × (close - low)  / (high - low)
+//   sell_vol = volume × (high - close) / (high - low)
+//   Edge case (doji, high = low): 50/50 split
+
+indicator("Volume Footprint [STIS]", shorttitle="VF[STIS]",
+  overlay=false,
+  max_bars_back=500,
+  max_lines_count=50,
+  max_labels_count=50)
+
+// ─── INPUTS ───────────────────────────────────────────────────────────────────
+
+grp_delta      = "Delta Settings"
+grp_imbalance  = "Imbalance Detection"
+grp_poc        = "Value Area / POC"
+grp_display    = "Display"
+grp_colors     = "Colors"
+
+imb_ratio      = input.float(3.0,  "Imbalance Ratio (e.g. 3.0 = 3:1)",   minval=1.5, maxval=10.0, step=0.5, group=grp_imbalance)
+cluster_min    = input.int(3,      "Cluster Min (consecutive bars)",       minval=2,   maxval=10,              group=grp_imbalance)
+poc_window     = input.int(50,     "POC / Value Area Lookback (bars)",     minval=10,  maxval=200,             group=grp_poc)
+va_pct         = input.float(70.0, "Value Area % (default 70)",            minval=50,  maxval=95, step=5.0,   group=grp_poc)
+
+show_delta     = input.bool(true,  "Show Delta Histogram",                 group=grp_display)
+show_cum       = input.bool(true,  "Show Cumulative Delta",                group=grp_display)
+show_imb       = input.bool(true,  "Show Imbalance Markers",               group=grp_display)
+show_poc       = input.bool(true,  "Show POC Line",                        group=grp_display)
+show_va        = input.bool(true,  "Show Value Area Band",                 group=grp_display)
+show_table     = input.bool(true,  "Show Session Stats Table",             group=grp_display)
+
+bull_col       = input.color(color.new(color.lime,  10), "Bull Delta Color",       group=grp_colors)
+bear_col       = input.color(color.new(color.red,   10), "Bear Delta Color",       group=grp_colors)
+neut_col       = input.color(color.new(color.gray,  30), "Neutral Color",          group=grp_colors)
+imb_bull_col   = input.color(color.new(color.aqua,  20), "Bull Imbalance Color",   group=grp_colors)
+imb_bear_col   = input.color(color.new(color.orange,20), "Bear Imbalance Color",   group=grp_colors)
+poc_col        = input.color(color.new(color.yellow,  0), "POC Color",             group=grp_colors)
+va_col         = input.color(color.new(color.blue,  85), "Value Area Fill Color",  group=grp_colors)
+
+// ─── BUY / SELL VOLUME ESTIMATION ────────────────────────────────────────────
+
+bar_range = high - low
+safe_range = bar_range > 0.0 ? bar_range : 1.0  // prevent division by zero (doji bars)
+
+buy_ratio  = bar_range > 0.0 ? (close - low) / safe_range : 0.5
+sell_ratio = bar_range > 0.0 ? (high - close) / safe_range : 0.5
+
+buy_vol  = volume * buy_ratio
+sell_vol = volume * sell_ratio
+delta    = buy_vol - sell_vol
+delta_pct = volume > 0 ? delta / volume * 100 : 0.0  // delta as % of total vol
+
+// ─── CUMULATIVE SESSION DELTA ─────────────────────────────────────────────────
+// Reset on session open (works on intraday timeframes)
+
+is_new_session = ta.change(time("D")) != 0 or (timeframe.isintraday and ta.change(time(timeframe.period)) != 0 and hour == 0 and minute == 0)
+
+var float cum_delta = 0.0
+if is_new_session
+    cum_delta := delta
+else
+    cum_delta += delta
+
+// ─── IMBALANCE DETECTION ─────────────────────────────────────────────────────
+
+bull_imb = sell_vol > 0 and (buy_vol / sell_vol) >= imb_ratio
+bear_imb = buy_vol  > 0 and (sell_vol / buy_vol) >= imb_ratio
+
+// Cluster detection — N consecutive bars in same imbalance direction
+var int bull_streak = 0
+var int bear_streak = 0
+
+if bull_imb
+    bull_streak += 1
+    bear_streak := 0
+else if bear_imb
+    bear_streak += 1
+    bull_streak := 0
+else
+    bull_streak := 0
+    bear_streak := 0
+
+bull_cluster = bull_streak >= cluster_min
+bear_cluster = bear_streak >= cluster_min
+
+// ─── POC AND VALUE AREA (rolling window) ─────────────────────────────────────
+// POC = bar with highest volume in the lookback window
+// Value Area = bars contributing poc_pct% of total volume in the window
+
+// Find the bar with max volume in window
+highest_vol = ta.highest(volume, poc_window)
+
+// POC price approximation: mid-price of the highest-volume bar
+// (We use a price tracking approach — track which bar had the highest volume)
+var float poc_price     = na
+var float va_high_price = na
+var float va_low_price  = na
+
+// Build POC as the mid-price of the max-vol bar within the window
+if volume == highest_vol
+    poc_price := (high + low) / 2
+
+// Value Area approximation:
+// VA = range from 15th to 85th percentile of price weighted by volume over the window
+// Simplified: find the high of top-volume bars and low of top-volume bars
+// that together account for va_pct% of total window volume
+
+total_window_vol = math.sum(volume, poc_window)
+va_vol_target    = total_window_vol * (va_pct / 100)
+
+// Track running VA bounds using a simplified approach:
+// VA high = highest high among bars where volume exceeds the volume percentile threshold
+// VA low  = lowest low among same set
+vol_percentile_thresh = ta.percentile_linear_interpolation(volume, poc_window, 100 - va_pct)
+
+va_high_price := ta.highest(high,  poc_window)  // will refine below
+va_low_price  := ta.lowest(low,    poc_window)
+
+// Refine: only include bars above the volume threshold in VA bounds
+// (This is the clean approximation available in Pine Script v6)
+va_high_price := volume >= vol_percentile_thresh ?
+  math.max(nz(va_high_price[1], high), high) : nz(va_high_price[1], high)
+va_low_price  := volume >= vol_percentile_thresh ?
+  math.min(nz(va_low_price[1], low),  low)  : nz(va_low_price[1], low)
+
+// ─── DELTA HISTOGRAM ─────────────────────────────────────────────────────────
+
+delta_color = delta > 0 ? bull_col : delta < 0 ? bear_col : neut_col
+
+// Add intensity scaling — stronger delta = more opaque color
+delta_intensity = volume > 0 ? math.abs(delta_pct) / 100 : 0
+scaled_bull     = color.new(color.lime, math.max(0, math.min(90, int(90 - delta_intensity * 80))))
+scaled_bear     = color.new(color.red,  math.max(0, math.min(90, int(90 - delta_intensity * 80))))
+delta_col_scaled = delta > 0 ? scaled_bull : delta < 0 ? scaled_bear : neut_col
+
+plot(show_delta ? delta : na,
+  "Volume Delta",
+  color=delta_col_scaled,
+  style=plot.style_columns,
+  linewidth=1)
+
+hline(0, "Zero", color=color.new(color.gray, 60), linestyle=hline.style_dotted)
+
+// ─── CUMULATIVE DELTA LINE ────────────────────────────────────────────────────
+
+cum_col = cum_delta > 0 ? color.new(color.lime, 20) : color.new(color.red, 20)
+plot(show_cum ? cum_delta : na, "Cumulative Delta", color=cum_col, linewidth=2)
+
+// Reference line at cum delta zero (session baseline)
+// (Plotted as a flat reference only — visual anchor)
+plot(show_cum ? 0 : na, "Cum Baseline", color=color.new(color.white, 70), linewidth=1, style=plot.style_stepline)
+
+// ─── IMBALANCE MARKERS ───────────────────────────────────────────────────────
+
+// Individual imbalance bars — diamonds on histogram
+plotshape(show_imb and bull_imb and not bull_cluster, "Bull Imbalance",
+  shape.diamond, location.absolute,
+  color=imb_bull_col, size=size.tiny,
+  offset=0)
+
+plotshape(show_imb and bear_imb and not bear_cluster, "Bear Imbalance",
+  shape.diamond, location.absolute,
+  color=imb_bear_col, size=size.tiny,
+  offset=0)
+
+// Cluster confirmation — larger shape on the bar that completes the cluster
+plotshape(show_imb and bull_cluster and bull_streak == cluster_min, "Bull Cluster",
+  shape.triangleup, location.belowbar,
+  color=color.new(color.aqua, 0), size=size.small,
+  text="◆ CLUSTER", textcolor=color.aqua)
+
+plotshape(show_imb and bear_cluster and bear_streak == cluster_min, "Bear Cluster",
+  shape.triangledown, location.abovebar,
+  color=color.new(color.orange, 0), size=size.small,
+  text="◆ CLUSTER", textcolor=color.orange)
+
+// ─── POC LINE ─────────────────────────────────────────────────────────────────
+// Note: POC is plotted in a separate pane — use price value scaled to delta pane
+// This plots the POC as a reference line on the zero axis with a label only
+
+// We can't directly show the POC price in a non-overlay pane
+// So we output the POC info via the stats table instead
+// The POC line is best used as an OVERLAY indicator — see STIS integration notes below
+
+// ─── STATS TABLE ─────────────────────────────────────────────────────────────
+
+// Session accumulators
+var float session_buy  = 0.0
+var float session_sell = 0.0
+var float session_peak_delta = 0.0
+var float session_trough_delta = 0.0
+
+if is_new_session
+    session_buy   := buy_vol
+    session_sell  := sell_vol
+    session_peak_delta   := delta
+    session_trough_delta := delta
+else
+    session_buy   += buy_vol
+    session_sell  += sell_vol
+    if delta > session_peak_delta
+        session_peak_delta := delta
+    if delta < session_trough_delta
+        session_trough_delta := delta
+
+session_net    = session_buy - session_sell
+dominant       = session_net > 0 ? "BUYERS" : session_net < 0 ? "SELLERS" : "EQUAL"
+dominant_color = session_net > 0 ? color.lime : session_net < 0 ? color.red : color.gray
+
+if show_table and barstate.islast
+    var table stats = table.new(position.top_left, 2, 9,
+      border_width=1, border_color=color.new(color.gray, 50),
+      frame_color=color.new(color.white, 70), frame_width=1)
+
+    hdr_bg = color.new(color.gray, 30)
+    row_bg = color.new(color.black, 60)
+
+    table.cell(stats, 0, 0, "VOLUME FOOTPRINT", text_color=color.white, bgcolor=hdr_bg, text_size=size.small)
+    table.cell(stats, 1, 0, "SESSION", text_color=color.white, bgcolor=hdr_bg, text_size=size.small)
+
+    table.cell(stats, 0, 1, "Buy Vol",  text_color=color.gray,  bgcolor=row_bg, text_size=size.small)
+    table.cell(stats, 1, 1, str.tostring(session_buy,  "#,###"), text_color=color.lime, bgcolor=row_bg, text_size=size.small)
+
+    table.cell(stats, 0, 2, "Sell Vol", text_color=color.gray,  bgcolor=row_bg, text_size=size.small)
+    table.cell(stats, 1, 2, str.tostring(session_sell, "#,###"), text_color=color.red,  bgcolor=row_bg, text_size=size.small)
+
+    table.cell(stats, 0, 3, "Net Delta", text_color=color.gray, bgcolor=row_bg, text_size=size.small)
+    table.cell(stats, 1, 3, str.tostring(session_net,  "#,###"), text_color=dominant_color, bgcolor=row_bg, text_size=size.small)
+
+    table.cell(stats, 0, 4, "Dominant",  text_color=color.gray, bgcolor=row_bg, text_size=size.small)
+    table.cell(stats, 1, 4, dominant,    text_color=dominant_color, bgcolor=row_bg, text_size=size.small)
+
+    table.cell(stats, 0, 5, "Bar Delta",  text_color=color.gray, bgcolor=row_bg, text_size=size.small)
+    table.cell(stats, 1, 5, str.tostring(delta, "#,###") + " (" + str.tostring(delta_pct, "#.0") + "%)",
+      text_color=delta > 0 ? color.lime : color.red, bgcolor=row_bg, text_size=size.small)
+
+    table.cell(stats, 0, 6, "Peak Delta",   text_color=color.gray, bgcolor=row_bg, text_size=size.small)
+    table.cell(stats, 1, 6, str.tostring(session_peak_delta, "#,###"),   text_color=color.lime, bgcolor=row_bg, text_size=size.small)
+
+    table.cell(stats, 0, 7, "Trough Delta", text_color=color.gray, bgcolor=row_bg, text_size=size.small)
+    table.cell(stats, 1, 7, str.tostring(session_trough_delta, "#,###"), text_color=color.red,  bgcolor=row_bg, text_size=size.small)
+
+    imb_status = bull_imb ? "BULL IMB" : bear_imb ? "BEAR IMB" : bull_cluster ? "▲ CLUSTER" : bear_cluster ? "▼ CLUSTER" : "clean"
+    imb_col    = bull_imb or bull_cluster ? color.aqua : bear_imb or bear_cluster ? color.orange : color.gray
+    table.cell(stats, 0, 8, "Imbalance", text_color=color.gray, bgcolor=row_bg, text_size=size.small)
+    table.cell(stats, 1, 8, imb_status,  text_color=imb_col,    bgcolor=row_bg, text_size=size.small)
+
+// ─── BACKGROUND: SESSION DIRECTIONAL TINT ────────────────────────────────────
+
+bg_tint = cum_delta > 0 ? color.new(color.lime, 97) :
+          cum_delta < 0 ? color.new(color.red,  97) :
+          na
+
+bgcolor(bg_tint, title="Session Delta Background")
+
+// ─── ALERT CONDITIONS ─────────────────────────────────────────────────────────
+
+alertcondition(bull_cluster and bull_streak == cluster_min,
+  "Bull Imbalance Cluster",
+  "STIS Footprint: Bull imbalance cluster detected — {{ticker}} {{interval}}")
+
+alertcondition(bear_cluster and bear_streak == cluster_min,
+  "Bear Imbalance Cluster",
+  "STIS Footprint: Bear imbalance cluster detected — {{ticker}} {{interval}}")
+
+alertcondition(math.abs(delta_pct) > 80,
+  "Extreme Delta Bar",
+  "STIS Footprint: Extreme delta bar ({{plot_0}}) — {{ticker}} {{interval}}")
+
+// ─── COMPANION OVERLAY SCRIPT NOTE ───────────────────────────────────────────
+// For POC / VAH / VAL lines directly on the price chart:
+// Use volume_footprint_overlay_v1.pine (companion script — set overlay=true)
+// That script draws the POC line and VA band directly on the candlestick chart.
+// This script (overlay=false) handles the delta histogram and imbalance signals.

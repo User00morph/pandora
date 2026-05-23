@@ -339,5 +339,15 @@ dpsa_doctrine_[name].md
 
 ---
 
+## INCOMING D.R.D RESEARCH
+
+| Topic | Brief | Confidence | Deployed |
+|-------|-------|------------|---------|
+| US Corporation / Sovereign Living Entity | [`drd_brief_dpsa_us-corporation-sovereign-living-entity_deployed.md`](../D.R.D/briefs/drd_brief_dpsa_us-corporation-sovereign-living-entity_deployed.md) | Mixed (Established core + Probable mechanisms) | 2026-05-19 |
+
+Key findings for D.P.S.A: Identity fork at birth (legal PERSON ≠ living being); manifestation = God-energy you were born with (unlearn limits, don't acquire); "I can't" = "I choose not to"; trauma locks the abundance channel (healing changes the broadcast frequency); sovereignty = Kings (external control) + Priests (internal discipline) — both must be active simultaneously.
+
+---
+
 *D.P.S.A | Pandora OS | Department 10 of 12*
 *"The most significant territory you will ever govern is the space between stimulus and response. That is where sovereignty actually lives."*

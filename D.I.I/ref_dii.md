@@ -56,4 +56,14 @@ Load when: starting a new tool, connecting an external repo, or continuing agent
 
 ---
 
+## INCOMING D.R.D RESEARCH
+
+| Topic | Brief | Confidence | Deployed |
+|-------|-------|------------|---------|
+| US Corporation / Sovereign Living Entity | [`drd_brief_dii_us-corporation-sovereign-living-entity_deployed.md`](../D.R.D/briefs/drd_brief_dii_us-corporation-sovereign-living-entity_deployed.md) | Mixed (Established DeFi mechanics + Probable legal structure) | 2026-05-19 |
+
+Key findings for D.I.I: DeFi 5-pillar banking exit (stablecoins/lending/DEX/insurance/margin) — operational now, "code is law"; trust holds crypto assets = no capital gains nexus; Wyoming DAO LLC (2021 Act) = sovereign business structure for DeFi-native ventures; AI bubble = current wealth transfer trigger — build on DeFi rails, not centralized infra dependency; code sovereignty = self-hosted models + decentralized compute (Akash/Bittensor) as Phase 2 target. QUEUED: Wyoming DAO LLC research, trust-held crypto reporting obligations.
+
+---
+
 *D.I.I | Technology fused with divine stewardship. Read this. Load only what the session requires.*
