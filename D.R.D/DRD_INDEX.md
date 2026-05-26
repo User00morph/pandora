@@ -82,6 +82,10 @@ STAGE 4 — DEPLOYED            briefs/
 | **SNRS v3 — Western Lunar Mansions (28 Manzil)** | pre-western-knowledge | raw-extract | Established (within tradition) | D.P.S.A, D.O.M | 2026-05-10 |
 | **SNRS v3 — Progressed Lunar Phases** | consciousness | raw-extract | Established (within tradition) | D.P.S.A | 2026-05-10 |
 | **SNRS v3 — Heliocentric Astrology / Soul Chart** | consciousness | raw-extract | Established (Bailey tradition) | D.P.S.A | 2026-05-10 |
+| **[Urhobo + Ijaw/Izon Ancestral Architecture](deconstructions/pre-western-knowledge/drd_decode_urhobo-ijaw-ancestral-architecture_v1.md)** | **pre-western-knowledge / divine-feminine / human-history** | **decoded + reconstructed** | **Probable–Established (within tradition)** | **D.O.M, D.P.S.A, D.C.E** | **2026-05-26** |
+| ↳ [Niger Delta Sovereign Ancestral Intelligence — Working Brief](reconstructions/pre-western-knowledge/drd_reconstruct_niger-delta-sovereign-ancestral-intelligence_v1.md) | pre-western-knowledge | reconstructed | Probable | D.O.M, D.P.S.A, D.C.E (rootwurk) | 2026-05-26 |
+| **[Magik TikTok Collection — Raw Extract](research/magik/drd_research_magik-tiktok-collection_raw-extract.md)** | **pre-western-knowledge / consciousness** | **decoded** | **Established (direct testimony)** | **D.O.M, D.P.S.A, D.B.S** | **2026-05-26** |
+| ↳ [Sovereign Magik Decode](deconstructions/drd_decode_magik-tiktok-collection_v1.md) | pre-western-knowledge / consciousness | decoded | Established | D.O.M (framework), D.P.S.A (framework) | 2026-05-26 |
 
 ---
 
