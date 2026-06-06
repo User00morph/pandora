@@ -39,6 +39,19 @@ When arriving from D.R.D session intake, expect a pre-refined brief containing:
 - Raw material identified and filed
 - Skills flagged: check against D.C.E session routing table above
 
+## INCOMING D.R.D RESEARCH
+
+| Topic | Brief | Key Finding |
+|-------|-------|-------------|
+| Rashad Jamal Spells Series — Language Doctrine | [`drd_brief_dce_rashad-jamal-group-b-spells_deployed.md`](../D.R.D/briefs/drd_brief_dce_rashad-jamal-group-b-spells_deployed.md) | Language = base spell-delivery system. Every word is a spell. Sovereign language = active counter-operation. Run language audit before all content. |
+
+**2026-06-06 key findings:**
+- Language is the base spell-delivery system (ESTABLISHED). "Spell" is inside "spelling." English was engineered to deliver FSS through everyday speech.
+- Sovereign content = broadcast magic. Three levels: individual (private), relational (direct), broadcast (many). D.C.E operates at broadcast level.
+- Language audit protocol: run before every production session — flag scarcity/limitation vocabulary, replace with sovereign equivalents.
+- FSS vocabulary map (5 layers) gives D.C.E concrete replacement vocabulary per suppression layer.
+- Lions/Sharks content strategy: build from sovereign frequency depth, not algorithm competition.
+
 ## CROSS-DEPARTMENT
 D.R.D → D.C.E: Reconstructed research becomes DECODED series content
 D.S.E → D.C.E: Offer positioning becomes content series

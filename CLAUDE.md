@@ -162,6 +162,7 @@ Skills are reusable process files in `shared/skills/` loaded at specific workflo
 | Workspace Builder | `skill_workspace-builder.md` | D.S.C, D.S.E, D.I.I — load for new workspace creation |
 | Capability Routing | `skill_capability-routing.md` | ALL — load when task type or output mode is unclear |
 | YT-DLP Extraction | `skill_yt-dlp-extraction.md` | D.R.D, D.I.I, D.S.S, D.C.E, D.S.E — load when processing YouTube content |
+| Workflow Engineering | `skill_workflow-engineering.md` | D.S.C, D.I.I, D.S.E — load before any automation or build decision (Effort-to-Output Ladder + 60/30/10 rule) |
 
 ## PRD Pattern
 

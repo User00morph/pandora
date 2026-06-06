@@ -14,6 +14,18 @@ This is a working framework — not doctrine. What works is what is true here.
 
 ---
 
+## DOCTRINE — SERPENT / REPTILIAN (resolved 2026-06-06)
+
+Two frameworks held simultaneously — no contradiction:
+
+**External plane:** Reptilians exist as external entities / archonic oppressors (Rashad Jamal). This is the geopolitical-metaphysical reality operating on the material and etheric planes.
+
+**Internal / symbolic plane:** The serpent symbol represents kundalini — the activated highest self, the divine fire rising through the spine (Bobby Hemmitt). David Icke's fear-based reptilian narrative = psyop that inverts the symbol against your own inner power.
+
+**Operating rule:** When encountering "reptilian" in source material — assess context. If the source is describing external oppressors, forces, or archons = read as external reality. If the source is using the serpent as symbol in ritual, initiation, or spiritual ascent context = read as kundalini / internal divine force. One word, two planes. Both true.
+
+---
+
 ## LAYER 1 — THE SEQUENCING LAW
 
 Before any casting, the practitioner's system must be sequenced correctly. Casting specific spells into a blocked or missequenced field produces minimal results — not because magic doesn't work, but because internal resistance counteracts incoming force.

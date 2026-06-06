@@ -86,25 +86,67 @@ Based on answers:
 - Where human review happens
 - Reference material locations
 
-**5. Write stage contracts (L2 per stage):**
-```
-# [Stage Name]
-## Purpose
-[What happens here in one sentence]
+**5. Write stage contracts (L2 per stage) — ICM format:**
+
+Every stage CONTEXT.md uses exactly this three-section shape. No exceptions.
+
+```markdown
 ## Inputs
-[Specific files from previous stage or config]
+
+| Source | File/Location | Section/Scope | Why |
+|--------|--------------|---------------|-----|
+| Previous stage | ../01-[name]/output/ | Full file | Source material |
+| Constraints | _config/constraints.md | "Non-negotiables" section | Rules to apply |
+| Skill | shared/skills/skill_X.md | [Specific section] | [What it provides] |
+
 ## Process
-[Steps — with judgment checkpoints marked explicitly]
-## Done looks like
-[One sentence, testable]
-## Output goes to
-[Exact path]
+
+1. Step one
+2. Step two — ⚑ CHECKPOINT (present [X] before proceeding)
+3. Step three
+
+## Outputs
+
+| Artifact | Location | Format |
+|----------|----------|--------|
+| [artifact-name] | output/[topic-slug]-[artifact].md | Markdown |
 ```
+
+**Stage handoff rule:** Stage N writes to `stages/0N-name/output/`. Stage N+1's CONTEXT.md reads from `../0N-name/output/`. Human edits the output file — next stage picks up the edited version. No orchestration layer. Just files.
+
+**File naming in output folders:** `[topic-slug]-[stage-artifact].md`
+Example: `sovereign-entity-script.md`, `sovereign-entity-spec.md`
 
 **6. Populate _config/:**
 - constraints.md — non-negotiable rules for this workspace
 - quality-standards.md — what "good" looks like, stated as testable criteria
 - [domain-specific context] — business rules, voice file, client brief
+
+**7. Add checkpoints to creative stages:**
+
+Any stage where the model makes creative or interpretive decisions needs at least one checkpoint — a pause where a completed unit of work is presented and Morph steers before the next unit begins. Linear stages (extraction, conversion, rendering) run straight through.
+
+```markdown
+## Checkpoints
+
+| After Step | Agent Presents | Morph Decides |
+|------------|----------------|---------------|
+| Step 2 | Draft framework options | Which direction to develop |
+| Step 4 | Full first draft | Approve or redirect before polish |
+```
+
+**8. Add audit sections to build stages:**
+
+Build and creative stages run a quality audit after completing the process but before writing to output/. Each check must have an unambiguous pass/fail condition. If any check fails, agent revises before saving.
+
+```markdown
+## Audit
+
+| Check | Pass Condition |
+|-------|---------------|
+| [Check name] | [Specific, testable condition] |
+| Stage outputs nothing unnecessary | Output file contains only deliverable — no process notes |
+```
 
 ---
 
@@ -115,6 +157,31 @@ Walk through what was built:
 - "The _config/ files are where [stable reference] lives — never duplicate them inside stages"
 - "Human review happens at [Q4 answer] — these are non-negotiable"
 - "First thing to populate after this build: [most impactful _config/ file]"
+
+---
+
+## QUESTIONNAIRE DESIGN RULES (ICM Pattern 8)
+
+When building a workspace that will be used repeatedly, design a setup questionnaire. Rules:
+
+1. **Flat structure.** No category groupings. Numbered list only.
+2. **All at once.** Every question appears in one pass. Morph answers everything in a single message.
+3. **System-level only.** Configure things that stay stable across runs: brand, voice, design, defaults. Per-run details are collected conversationally at each pipeline start.
+4. **Derive, do not ask.** If a field can be inferred from another answer, the agent fills it in. Do not add a question for something that can be derived.
+5. **Sensible defaults.** Every question has a default or example so Morph can skip what they don't care about.
+6. **Ask once, never again.** After setup, answers are baked into workspace files permanently via `{{PLACEHOLDER}}` replacement.
+
+**Questionnaire structure:**
+```markdown
+# [Workspace] Setup
+
+Answer all questions in one message. Defaults shown where applicable.
+
+1. [System-level question] (default: [example])
+2. [System-level question] (default: [example])
+   — Derived from Q2: [derived field] (agent fills this in)
+3. [System-level question]
+```
 
 ---
 
@@ -137,9 +204,18 @@ Before considering any workspace complete:
 ```
 □ Can someone open the folder and know what it is? (CLAUDE.md answers in first paragraph)
 □ Can someone see the workflow? (Stages numbered, CONTEXT.md explains flow)
-□ Can someone run a stage without asking? (Each stage contract has Inputs/Process/Done)
+□ Can someone run a stage without asking? (Each stage contract has Inputs/Process/Done/Outputs table)
 □ Can someone change a reference without breaking things? (_config/ separate from stages)
 □ Can someone understand why things are this way? (Key Decisions in CLAUDE.md)
+
+ICM quality guardrails:
+□ All CONTEXT.md / ref files: under 80 lines (routing only — never content)
+□ All reference/skill files: under 200 lines (split if longer)
+□ Inputs tables specify SECTIONS not just files (selective section routing)
+□ All references are ONE-WAY (no circular dependencies — if A→B then B does not →A)
+□ No content duplicated across files (one home per piece of information)
+□ Creative stages have at least one checkpoint and an audit section
+□ No stage outputs committed (output/ folders contain only .gitkeep before first run)
 ```
 
 If any answer is NO — the workspace is not complete. Fix the weakest point first.

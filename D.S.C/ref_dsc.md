@@ -28,6 +28,19 @@
 
 ---
 
+## INCOMING D.R.D RESEARCH
+
+| Topic | Brief | Key Finding |
+|-------|-------|-------------|
+| Rashad Jamal Spells Series — Strategic Doctrine | [`drd_brief_dsc_rashad-jamal-group-b-spells_deployed.md`](../D.R.D/briefs/drd_brief_dsc_rashad-jamal-group-b-spells_deployed.md) | Lions/Sharks doctrine + FSS as project diagnostic. Pandora OS = structural counter-architecture to the FSS (dept-by-dept map). |
+
+**2026-06-06 key findings:**
+- Lions/Sharks doctrine (ESTABLISHED): sovereign strategy is to operate from native element — creation-primary, permission-not-required. Never compete in shark water.
+- Pandora OS = counter-FSS architecture: each department directly addresses one FSS suppression layer. D.S.C holds this map as the system's strategic identity.
+- FSS Project Diagnostic: run every new project through the diagnostic at intake — which spell layer is it operating in? Does it create sovereign capacity or dependency?
+- Systems as crystallized intention: system quality standard = does it create sovereign capacity, not dependency reinforced?
+- Sovereignty gate: Auset Daemon, MCP connectors, all D.I.I builds — does Morph remain the principal, not the client?
+
 ## D.R.D MIRROR INTAKE
 When arriving from D.R.D session intake, expect a pre-refined brief containing:
 - Task + goal (one line each)

@@ -4,7 +4,7 @@
 ---
 
 ## ACTIVE STATE
-47 items in pipeline. See `DRD_INDEX.md` for full map.
+49 items in pipeline (Jake VIP pipeline added 2 entries). See `DRD_INDEX.md` for full map.
 
 | Status | Count | Next Action |
 |--------|-------|-------------|
@@ -14,7 +14,21 @@
 | Deployed | 2 | — |
 | D.O.M Protocol | 1 | Active — dom_ancestral_niger-delta-altar-protocol_v1.md |
 
-**Most recent work:** Don Killam Sovereign Entity Stack — 14 YT videos extracted (244K words), Stage 3–4 decode complete, brief deployed to D.S.E — 2026-06-04
+**Most recent work:** Jake VIP Sessions (7 sessions, 25 docs + transcript) — full D.R.D pipeline complete, dual brief deployed to D.I.I + D.S.E, new skill created — 2026-06-06
+
+**DONE (2026-06-06 session — Jake VIP Agentic Business OS):**
+- Raw catalog filed: `research/tech-decentralization/drd_research_jake-vip-sessions-raw-catalog_2026-06-06.md`
+- Master decode: `deconstructions/drd_decode_jake-vip-agentic-business-os_v1.md`
+- D.I.I brief deployed: `briefs/drd_brief_dii_agentic-framework-icm-security_v1.md`
+- D.S.E brief deployed: `briefs/drd_brief_dse_sovereign-business-pipeline-stack_v1.md`
+- New skill: `shared/skills/skill_workflow-engineering.md` (Effort-to-Output Ladder + 60/30/10)
+- D.I.I ref card updated (new routing + full incoming research block)
+- D.S.E ref card updated (new routing + full incoming research block)
+- DRD_INDEX updated
+- CLAUDE.md skills library updated
+- Key OS upgrade: Pandora architecture externally validated as ICM (MIT-licensed MWP paper, github.com/RinDig)
+
+**NEXT (from this session):** Continue to one of the open pipelines — Reptilian doctrine decision needed for D.O.M / VID-48+50 manual review / Don Killam Phase 1 execution sequence / or begin deploying new D.S.E frameworks into live enterprise work.
 
 **DONE (2026-06-04 session — Don Killam Sovereign Entity):**
 - Extracted all 14 videos from PLWKcfqsabTLUDzfteFe3THpM5656piXR5 (244,164 words, 0 failures)
