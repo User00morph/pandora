@@ -296,5 +296,17 @@ dsc_transmutation_[system-name]_v[X].md
 
 ---
 
+---
+
+## INCOMING D.R.D RESEARCH
+
+| Topic | Brief | Confidence | Deployed |
+|-------|-------|------------|---------|
+| US Corporation / Sovereign Living Entity | [`drd_brief_dsc_us-corporation-sovereign-living-entity_deployed.md`](../D.R.D/briefs/drd_brief_dsc_us-corporation-sovereign-living-entity_deployed.md) | Mixed (Established institutional architecture + Probable transitions) | 2026-05-27 |
+
+Key findings for D.S.C: US Corporation = DC Organic Act 1871 + Federal Reserve 1913 + Bretton Woods 1944 = three-layer corporate commercial framework; SWF network = $15T / 13% world GDP = global extraction mechanism; BRICS dollar exit = observable now = all multi-year project timelines must account for repricing event; blockchain = Aquarian Age designed transition; XRP = institutional monetary bridge (not sovereignty instrument); Bitcoin = disruption instrument; DeFi = sovereign financial exit architecture — design all Pandora OS revenue infrastructure for DeFi rails from Phase 1.
+
+---
+
 *D.S.C | Pandora OS | Department 1 of 12*
 *"The system is the seed. The Sovereign is the gardener. Consciousness is the soil."*

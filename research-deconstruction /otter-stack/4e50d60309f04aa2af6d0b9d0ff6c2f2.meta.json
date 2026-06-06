@@ -1,0 +1,71 @@
+{
+  "file": "4e50d60309f04aa2af6d0b9d0ff6c2f2.MP4",
+  "language": "en",
+  "language_confidence": 0.999,
+  "duration_seconds": 52.6,
+  "processing_seconds": 57.0,
+  "word_count": 115,
+  "segments": [
+    {
+      "start": 0.34,
+      "end": 3.34,
+      "text": "The business receives an EIN from the IRS."
+    },
+    {
+      "start": 3.34,
+      "end": 6.34,
+      "text": "The business forms a multi-member LLC."
+    },
+    {
+      "start": 6.34,
+      "end": 12.34,
+      "text": "The LLC files IRS Form 2553 and is now taxed as an S Corporation."
+    },
+    {
+      "start": 12.34,
+      "end": 15.34,
+      "text": "Its members are considered shareholders."
+    },
+    {
+      "start": 15.34,
+      "end": 21.34,
+      "text": "Income expenses and shareholder K-1s are reported on IRS Form 1120S."
+    },
+    {
+      "start": 21.34,
+      "end": 24.34,
+      "text": "No federal income tax is due with this return."
+    },
+    {
+      "start": 24.34,
+      "end": 29.34,
+      "text": "Schedule K-1 includes the shareholder's share of ordinary business income"
+    },
+    {
+      "start": 29.34,
+      "end": 32.34,
+      "text": "as well as other separately stated items."
+    },
+    {
+      "start": 32.34,
+      "end": 37.34,
+      "text": "That income is subject to ordinary income tax on the shareholder's personal return."
+    },
+    {
+      "start": 37.34,
+      "end": 43.34,
+      "text": "Shareholders who participate in business activity are expected to receive reasonable compensation"
+    },
+    {
+      "start": 43.34,
+      "end": 45.34,
+      "text": "through payroll from the S Corp."
+    },
+    {
+      "start": 45.34,
+      "end": 51.34,
+      "text": "And the shareholder receives an IRS Form W-2 as well as a Schedule K-1."
+    }
+  ],
+  "status": "ok"
+}

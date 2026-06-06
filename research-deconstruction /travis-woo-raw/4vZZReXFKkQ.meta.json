@@ -1,0 +1,152 @@
+{
+  "video_id": "4vZZReXFKkQ",
+  "title": "Claude Code Just Got a Trading Agent Dashboard",
+  "language": "en",
+  "language_confidence": 0.993,
+  "duration_seconds": 225.0,
+  "processing_seconds": 71.0,
+  "word_count": 832,
+  "status": "ok",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "text": "What you can see on screen right now are eight AI agents within the terminal or working in parallel to achieve my trading goals."
+    },
+    {
+      "start": 8.0,
+      "end": 15.0,
+      "text": "We've got a back tester, we've got a researcher, a quant, a strategy builder and they're all doing specific tasks."
+    },
+    {
+      "start": 15.0,
+      "end": 19.0,
+      "text": "And they're doing so within one single view on the terminal."
+    },
+    {
+      "start": 19.0,
+      "end": 28.0,
+      "text": "This view is incredible because I can now, with my arrow keys, only navigate between all of these different agents and see the tasks that they're doing."
+    },
+    {
+      "start": 28.0,
+      "end": 36.0,
+      "text": "You can see right now, there are agents doing jobs that are completed. These ones are being worked on and these ones need input from me."
+    },
+    {
+      "start": 36.0,
+      "end": 46.0,
+      "text": "I'm just going to explain how to use it here. You can use it for any application you want, but for trading, this kind of turns Claude code in your terminal into kind of like a delegation hub."
+    },
+    {
+      "start": 46.0,
+      "end": 52.0,
+      "text": "Like it's kind of incredible if you want to build amazing strategies and see all from that bird's eye view."
+    },
+    {
+      "start": 52.0,
+      "end": 58.0,
+      "text": "So there's nothing really that difficult about this right. I've put a prompt in my zero one community."
+    },
+    {
+      "start": 58.0,
+      "end": 66.0,
+      "text": "You can take that prompt and do exactly what I've done on the screen here on your own computer just to see how it works and use it, but you can apply it to it almost anything."
+    },
+    {
+      "start": 66.0,
+      "end": 72.0,
+      "text": "The key is that you tell the Claude that you want it to do something with agent view."
+    },
+    {
+      "start": 72.0,
+      "end": 77.0,
+      "text": "So make sure you tell it agent view somewhere in the prompt and this is what will output."
+    },
+    {
+      "start": 77.0,
+      "end": 91.0,
+      "text": "So if I want to go up and down, I can use my arrow keys. I can see what's being worked on here. All I have to do is I can either use my mouse and click into it and it's saying here, do you want to proceed. Let's go. Yes, so I've just delegated to that one."
+    },
+    {
+      "start": 91.0,
+      "end": 98.0,
+      "text": "And in order to return, I just use the arrow key to the left and it takes me back to this part and I can see I go up with the up arrow key."
+    },
+    {
+      "start": 98.0,
+      "end": 104.0,
+      "text": "It says it's building a pine something. It needs my input. So I'm going to click the right arrow key to go into that agent."
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "text": "I can see that it wants me to click proceed. Yes, I just click left again. Go down. I can just go through all of these and say, okay, that needs my input."
+    },
+    {
+      "start": 112.0,
+      "end": 122.0,
+      "text": "Do you want me to write it? I just say yes. I can come out. I can see the other tasks that are being worked on. What does it want me to do? I can say yes. I can just go back."
+    },
+    {
+      "start": 122.0,
+      "end": 129.0,
+      "text": "And I've got this delegation system, this kind of view to interact with every agent and every task that every agent is doing."
+    },
+    {
+      "start": 129.0,
+      "end": 139.0,
+      "text": "I think if you're someone who builds with multiple agents at a single time, and these jobs have to be done in parallel, like this is a truly incredible upgrade."
+    },
+    {
+      "start": 139.0,
+      "end": 148.0,
+      "text": "I created something like this for myself manually using T marks and C marks and all kinds of stuff. This is now a native within Claude code solution to that problem."
+    },
+    {
+      "start": 148.0,
+      "end": 155.0,
+      "text": "So if you're building trading strategies and you're doing lots of research and you want to know and you want to have a view of what everyone's doing all at the same time."
+    },
+    {
+      "start": 155.0,
+      "end": 162.0,
+      "text": "I mean, this is the way to do it. I don't need to go on and on. I think you all understand it. It's super easy to use. I don't know what else more I could say."
+    },
+    {
+      "start": 162.0,
+      "end": 168.0,
+      "text": "I'm definitely going to be using agent view for basically all of my workflows moving forward that have multiple agents."
+    },
+    {
+      "start": 168.0,
+      "end": 179.0,
+      "text": "Makes me also wonder when I made that video about having 32 AI trading firm agents operating for me all the time makes me think you know that required a whole build of a talk or paper clip."
+    },
+    {
+      "start": 179.0,
+      "end": 191.0,
+      "text": "Well, we can mostly on a very basic level just do all of that in here. We could have an infinite amount of agents just spawn doing jobs here and our job simply becomes a, you know, this thing needs input."
+    },
+    {
+      "start": 191.0,
+      "end": 198.0,
+      "text": "And I just have to kind of come in and say, yeah, that's fine. Do that and go back and you know, I'm just approving stuff at this point."
+    },
+    {
+      "start": 198.0,
+      "end": 215.0,
+      "text": "I would imagine you could even build a agent that's able to read this and approve things for you or if you installed in every single agent, the dangerously skip permissions setting where it basically approves a lot of things and doesn't need approval for you then this list of needs input goes way down."
+    },
+    {
+      "start": 215.0,
+      "end": 219.0,
+      "text": "So yeah, I've got out there build some cool strategies with this and let me know what you build."
+    },
+    {
+      "start": 219.0,
+      "end": 225.0,
+      "text": "So another cool feature and I'll put a copy and paste prompt for you down in the top line of the description and I'll see you later."
+    }
+  ]
+}

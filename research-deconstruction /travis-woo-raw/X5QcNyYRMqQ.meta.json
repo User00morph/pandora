@@ -1,0 +1,1562 @@
+{
+  "video_id": "X5QcNyYRMqQ",
+  "title": "How to handle Regime Changes (by ex HFT quant trader)",
+  "language": "en",
+  "language_confidence": 0.934,
+  "duration_seconds": 2227.4,
+  "processing_seconds": 370.4,
+  "word_count": 5802,
+  "status": "ok",
+  "segments": [
+    {
+      "start": 1.14,
+      "end": 5.54,
+      "text": "Hi, everyone, welcome to this video. So this video is going to be how to adapt to"
+    },
+    {
+      "start": 5.54,
+      "end": 11.86,
+      "text": "regime changes. And so the goal of this video really is to share like how you can adapt"
+    },
+    {
+      "start": 11.86,
+      "end": 17.22,
+      "text": "your strategy to when there's huge changes in the distribution of your data, which we call"
+    },
+    {
+      "start": 17.22,
+      "end": 25.22,
+      "text": "like a regime change. So for example, taking like a strategy that's not adaptive, that might"
+    },
+    {
+      "start": 25.22,
+      "end": 32.82,
+      "text": "look like something like this to make it more adaptive. So it looks a much better equity curve."
+    },
+    {
+      "start": 34.34,
+      "end": 40.18,
+      "text": "And as such, more than four ways, but we're going to look at four different methods to handle"
+    },
+    {
+      "start": 41.14,
+      "end": 48.66,
+      "text": "regime shifts and to make our training more adaptive. But before we go into, we need to define"
+    },
+    {
+      "start": 48.66,
+      "end": 53.94,
+      "text": "what actually is a regime change. So we need some sort of mathematical definition."
+    },
+    {
+      "start": 54.82,
+      "end": 60.82,
+      "text": "And so to summarize the one sentence, we can say that it can be modeled as when the time series"
+    },
+    {
+      "start": 60.82,
+      "end": 69.28,
+      "text": "exhibits non-stationary dynamics. So we need to understand what is stationarity. So stationarity"
+    },
+    {
+      "start": 69.28,
+      "end": 74.24,
+      "text": "is when the statistical properties are invariant over time. So this means that they stay constant"
+    },
+    {
+      "start": 75.52,
+      "end": 82.88,
+      "text": "over time. And the properties more specifically are the mean, which is a measure of central location."
+    },
+    {
+      "start": 83.36,
+      "end": 90.72,
+      "text": "So that's the the the the highest point essentially in an distribution. And the the"
+    },
+    {
+      "start": 90.72,
+      "end": 96.32,
+      "text": "variants, which is a measure of the spread of the distributions. Maybe I'll show you like a"
+    },
+    {
+      "start": 96.32,
+      "end": 101.68,
+      "text": "distribution hit. Okay. So this is the returns distribution for Bitcoin dollar. So the the"
+    },
+    {
+      "start": 101.68,
+      "end": 110.14,
+      "text": "central location is like the the peak of the distribution, the central location. And then the"
+    },
+    {
+      "start": 110.3,
+      "end": 117.34,
+      "text": "spread is like the the width of the distribution essentially. And then we've got the the third"
+    },
+    {
+      "start": 118.06,
+      "end": 124.46,
+      "text": "moment is the skewness, which measures like how symmetric it is. So if it's not symmetric then it's"
+    },
+    {
+      "start": 124.46,
+      "end": 132.78,
+      "text": "skewed on one side. So that's one important measure. And then the other one another important measure is"
+    },
+    {
+      "start": 132.78,
+      "end": 139.98,
+      "text": "the ketosis, which essentially is a measure of your fat tails, how these the tails,"
+    },
+    {
+      "start": 139.98,
+      "end": 147.26,
+      "text": "right, which is like extreme events. And the higher the ketosis, the more chance of like a very"
+    },
+    {
+      "start": 147.26,
+      "end": 155.34,
+      "text": "extreme event happening. So these are the four moments of of a distribution, which is and the stationary"
+    },
+    {
+      "start": 155.34,
+      "end": 162.3,
+      "text": "assumes that they're constant and essentially invariant over time. But we're going to show you that"
+    },
+    {
+      "start": 162.94,
+      "end": 170.06,
+      "text": "impractice this is never there are there are never stationary times those. I think impractice there's"
+    },
+    {
+      "start": 170.06,
+      "end": 178.78,
+      "text": "only a for example, there's very few that are stationary for example, you could have like a very high"
+    },
+    {
+      "start": 178.78,
+      "end": 185.74,
+      "text": "sharp training strategy and you look at the the PNL of it, that would probably be stationary because it's"
+    },
+    {
+      "start": 185.74,
+      "end": 192.56,
+      "text": "like a pretty much like a straight line. But let's have a look at the yeah so anyway, here's"
+    },
+    {
+      "start": 192.56,
+      "end": 198.16,
+      "text": "the for example, we're just looking at the the the moments of the distribution. We can see like a concrete"
+    },
+    {
+      "start": 198.16,
+      "end": 205.84,
+      "text": "example where the the mean is positive so on average it goes up standard deviation the measure of the"
+    },
+    {
+      "start": 205.84,
+      "end": 215.31,
+      "text": "the variance of 3% and then the skewed this means it's positively skewed and then a ketosis of"
+    },
+    {
+      "start": 215.31,
+      "end": 223.55,
+      "text": "like free so that there's tails here fat tails so that the likely the higher the ketosis the higher"
+    },
+    {
+      "start": 223.55,
+      "end": 230.75,
+      "text": "the chance of extreme price movements and the key question here is like our BTC return stationary"
+    },
+    {
+      "start": 231.87,
+      "end": 238.51,
+      "text": "there are lots of like statistical tests that we could do but I think we can just look empirically"
+    },
+    {
+      "start": 238.51,
+      "end": 246.91,
+      "text": "and just see like so while donor's grouped the the returns by the moments by year aggregating"
+    },
+    {
+      "start": 246.91,
+      "end": 253.15,
+      "text": "the the statistical moments and you can see here like for example in 2000 like the pretty much positive"
+    },
+    {
+      "start": 253.15,
+      "end": 261.07,
+      "text": "apart from a negative mean in 2022 and in 2022 and in 2022 and in 2006 and you can see for example in"
+    },
+    {
+      "start": 261.07,
+      "end": 271.42,
+      "text": "2000 26 there's more extreme price movements in 2022 and let's say compared to like 2021 and"
+    },
+    {
+      "start": 271.42,
+      "end": 275.9,
+      "text": "when we look at that the symmetry we can see like there's a negative symmetry here for when"
+    },
+    {
+      "start": 277.76,
+      "end": 285.44,
+      "text": "2022 and in this is dark pertaining to when I think FTX collapsed right so this like just crushed"
+    },
+    {
+      "start": 285.84,
+      "end": 294.85,
+      "text": "BTC okay so so you should see here and even just by looking at the chart you can sort you know"
+    },
+    {
+      "start": 294.85,
+      "end": 303.74,
+      "text": "you don't have to be a rocket scientist to to see here that there's like trends here and you know"
+    },
+    {
+      "start": 304.94,
+      "end": 312.3,
+      "text": "huge fluctuations in prices so for example here in 2002 it like shoots down right but then in"
+    },
+    {
+      "start": 313.18,
+      "end": 321.82,
+      "text": "2024 25 it just like shoots up so this huge structural changes in the distribution of the returns"
+    },
+    {
+      "start": 322.46,
+      "end": 327.42,
+      "text": "and so the key question is is like how do you handle this like non-stationarity behavior and"
+    },
+    {
+      "start": 327.42,
+      "end": 331.58,
+      "text": "especially like in super-ficed learning which is the most common form of like machine learning"
+    },
+    {
+      "start": 333.25,
+      "end": 340.13,
+      "text": "so let's say we've got a model to predict feature returns and we're just going to use the current"
+    },
+    {
+      "start": 340.13,
+      "end": 347.49,
+      "text": "return this is what's called like an auto aggressive model in econometric this is called an AR1 model"
+    },
+    {
+      "start": 348.53,
+      "end": 356.69,
+      "text": "and so we're essentially saying is that the future which is log return is the future log return is"
+    },
+    {
+      "start": 356.69,
+      "end": 365.25,
+      "text": "basically equals a weight which we will determine by machine learning the weight multiplied by the current"
+    },
+    {
+      "start": 365.25,
+      "end": 371.41,
+      "text": "log return plus a bias so before we do that we need to add to to calculate the log returns"
+    },
+    {
+      "start": 371.41,
+      "end": 376.77,
+      "text": "which we do now okay and I've created a function here that trains a linear aggression model"
+    },
+    {
+      "start": 378.37,
+      "end": 383.57,
+      "text": "so we split the data into train and test what's really important here is that we don't shuffle the"
+    },
+    {
+      "start": 383.57,
+      "end": 389.41,
+      "text": "data so we what we call preserve temporal order which is the order of the time so we never like"
+    },
+    {
+      "start": 389.41,
+      "end": 396.46,
+      "text": "leak any future data point it it does not know about in the in the train so we've done that"
+    },
+    {
+      "start": 397.66,
+      "end": 402.22,
+      "text": "and then we fit the data with the training data so we don't fit it with all the data because we need to"
+    },
+    {
+      "start": 402.22,
+      "end": 408.54,
+      "text": "preserve some data for our back test but we're going to do with the back test of test against all the"
+    },
+    {
+      "start": 408.54,
+      "end": 414.22,
+      "text": "the ensemble and the outer sample of data just to show because it's also important that we have good"
+    },
+    {
+      "start": 414.22,
+      "end": 421.1,
+      "text": "in some in sample statistics as well and so I've just got this model and so what I've done is I've"
+    },
+    {
+      "start": 422.46,
+      "end": 430.22,
+      "text": "run the model I just against the previous return to protect the future return okay and you can see this is the"
+    },
+    {
+      "start": 430.22,
+      "end": 439.54,
+      "text": "equity equity curve but this I'm wrong with this so this is the what's the weight so this is a mean"
+    },
+    {
+      "start": 439.62,
+      "end": 445.62,
+      "text": "reversion model because it has a negative weighting and then there's a positive bias as well"
+    },
+    {
+      "start": 446.74,
+      "end": 455.78,
+      "text": "so but that the problem is it looks identical to the actual time series itself it's just in a different"
+    },
+    {
+      "start": 455.78,
+      "end": 462.9,
+      "text": "scale so this automatically is like a red flag and we look at the distribution of the signal which is"
+    },
+    {
+      "start": 462.98,
+      "end": 468.66,
+      "text": "basically maybe we'll show you the signal it's basically the sign of the prediction why I had"
+    },
+    {
+      "start": 468.66,
+      "end": 477.7,
+      "text": "been the model's prediction and we convert into our signal is and then we obviously calculate the"
+    },
+    {
+      "start": 477.7,
+      "end": 484.9,
+      "text": "what the the trade would be if we look at the distribution it's just like 98% of the time it's"
+    },
+    {
+      "start": 484.9,
+      "end": 492.9,
+      "text": "predicting to go up so this is why it looks equivalent to the actual underlying time series because"
+    },
+    {
+      "start": 493.94,
+      "end": 500.02,
+      "text": "it's just going up all the time so this is not really adaptive and you can see it's not adaptive because"
+    },
+    {
+      "start": 500.02,
+      "end": 508.34,
+      "text": "when we we saw in like in 2022 to 23 is that you know it goes down on average and you can see here"
+    },
+    {
+      "start": 508.34,
+      "end": 515.7,
+      "text": "there there it also goes down so it's not adaptive to these regime changes so what can we do about it"
+    },
+    {
+      "start": 516.5,
+      "end": 521.54,
+      "text": "and I mentioned one of the one of the things we can do is this slight sliding window approach"
+    },
+    {
+      "start": 522.9,
+      "end": 529.38,
+      "text": "and personally not a big fan of it because essentially you're just looking for a local pattern localized"
+    },
+    {
+      "start": 529.38,
+      "end": 536.74,
+      "text": "pattern to predict the next time slice and it's also very sensitive to how big your window"
+    },
+    {
+      "start": 536.82,
+      "end": 543.38,
+      "text": "sizes and so I've just shown like an example here it's like okay we split into let's say like"
+    },
+    {
+      "start": 543.38,
+      "end": 549.7,
+      "text": "end windows we'll predict we train on the first and okay windows to predict the next"
+    },
+    {
+      "start": 550.9,
+      "end": 559.3,
+      "text": "end windows so you can see like for example here like okay we're using the the first four windows"
+    },
+    {
+      "start": 559.3,
+      "end": 565.94,
+      "text": "to predict the fifth window and then we just shift it across and predict okay but this but we're not"
+    },
+    {
+      "start": 565.94,
+      "end": 573.94,
+      "text": "using all the data to to predict and you know this could possibly work but I'm just not a person"
+    },
+    {
+      "start": 573.94,
+      "end": 580.82,
+      "text": "fan just feel it's like a team move version of like okay because you're just taking a subset of of the"
+    },
+    {
+      "start": 580.82,
+      "end": 588.91,
+      "text": "data right so another form is that we can encode memory and so essentially what we can do it"
+    },
+    {
+      "start": 588.91,
+      "end": 596.51,
+      "text": "is it's like take this like several data points like because financial times these data is extremely noisy"
+    },
+    {
+      "start": 597.23,
+      "end": 604.19,
+      "text": "and we can compress it into a single file you can take a vector of pass returns and compress it into a"
+    },
+    {
+      "start": 604.19,
+      "end": 613.47,
+      "text": "single scalar and this is essentially like a form of like a hidden state and the idea is that we can"
+    },
+    {
+      "start": 613.47,
+      "end": 622.59,
+      "text": "encode like the memory or the the current dynamics of the returns and this is what we do here"
+    },
+    {
+      "start": 622.59,
+      "end": 627.47,
+      "text": "ah it's really important that we're doing this rolling statistics so this is basically just looking at"
+    },
+    {
+      "start": 627.47,
+      "end": 634.77,
+      "text": "the previous 40 returns and taking the average and it was really important though is that I'm doing it"
+    },
+    {
+      "start": 634.77,
+      "end": 640.45,
+      "text": "on not on closed log return but the lag because otherwise would have data leakage because it would"
+    },
+    {
+      "start": 640.53,
+      "end": 647.49,
+      "text": "be encoding the future return it would not know about and so that would be data leakage there"
+    },
+    {
+      "start": 648.53,
+      "end": 655.3,
+      "text": "so that's a very important note and so we're just like summer right we're adding up and then we're taking the"
+    },
+    {
+      "start": 655.3,
+      "end": 663.14,
+      "text": "mean and so we're going to do exactly the same model or to a aggressive model but instead of just"
+    },
+    {
+      "start": 663.14,
+      "end": 670.4,
+      "text": "passing in the the lag one we're going to take the the moving average of it and you can see here"
+    },
+    {
+      "start": 670.48,
+      "end": 677.92,
+      "text": "automatically that it looks much better now so when there was like the huge price drop from"
+    },
+    {
+      "start": 677.92,
+      "end": 689.25,
+      "text": "2020 to 2022 to 2023 we don't see the huge drop in the drawdown right for example hand this is the"
+    },
+    {
+      "start": 689.25,
+      "end": 694.77,
+      "text": "beginner 2020 6 there's a big change rate so but let's have a look at the distribution of the data you"
+    },
+    {
+      "start": 694.77,
+      "end": 701.01,
+      "text": "can see here that it was roughly about 100 you know data point like times it went and predict down"
+    },
+    {
+      "start": 701.01,
+      "end": 707.41,
+      "text": "right and you can see it there's actually increase so it is adaptive right so if we should have a"
+    },
+    {
+      "start": 707.41,
+      "end": 713.09,
+      "text": "looking to see what the model is so this is a momentum type of model right and this is the beauty of"
+    },
+    {
+      "start": 713.09,
+      "end": 717.97,
+      "text": "like linear regression algorithms because I can just easily interpret it if this is a neural network I would"
+    },
+    {
+      "start": 717.97,
+      "end": 725.57,
+      "text": "have no clue like why did it decide to go up or down but this is like because it's just you know"
+    },
+    {
+      "start": 725.57,
+      "end": 733.46,
+      "text": "there's just two parameters I can really interpret like the the the dynamics and you can see here"
+    },
+    {
+      "start": 733.46,
+      "end": 740.1,
+      "text": "that it's increased the number of data points that it's predicted down so it's more adaptive when"
+    },
+    {
+      "start": 740.1,
+      "end": 747.22,
+      "text": "there was actually like a regime change like we've put in 2022 okay so now we looked at encoding memory"
+    },
+    {
+      "start": 747.3,
+      "end": 754.74,
+      "text": "but what about modeling relative memory so for example we could pass in the the moving average"
+    },
+    {
+      "start": 754.74,
+      "end": 761.76,
+      "text": "but we could also pass in the the current log return and we look at the models here is taken the"
+    },
+    {
+      "start": 761.76,
+      "end": 769.44,
+      "text": "model is essentially taken the difference between a weighted difference of the the current log return"
+    },
+    {
+      "start": 769.92,
+      "end": 781.47,
+      "text": "against and you know against a weighted value of the the moving average and you can see here"
+    },
+    {
+      "start": 781.47,
+      "end": 786.83,
+      "text": "that there's obviously a bigger weight in care for the the moving average and you can see here that"
+    },
+    {
+      "start": 786.83,
+      "end": 793.79,
+      "text": "it's even more you know it looks completely different from the natural underlying so from our original"
+    },
+    {
+      "start": 794.75,
+      "end": 799.63,
+      "text": "model that we did the linear model with just the lag one which is pretty much you know going up all the"
+    },
+    {
+      "start": 799.63,
+      "end": 805.31,
+      "text": "whole time you can see here it looks completely different right to it's more adaptive so when there's"
+    },
+    {
+      "start": 805.31,
+      "end": 811.23,
+      "text": "a huge structural change a regime change for example here you can see that it still makes money and if we"
+    },
+    {
+      "start": 811.23,
+      "end": 819.47,
+      "text": "looked at the the winning rate it would probably only be about like 51% 50.5% won't be like a huge winning rate"
+    },
+    {
+      "start": 820.19,
+      "end": 826.51,
+      "text": "but you can just see here that it's more adaptive right and this is essentially just a form of"
+    },
+    {
+      "start": 826.59,
+      "end": 831.31,
+      "text": "feature engineering for our supervised learning and again if we look at the the distribution of"
+    },
+    {
+      "start": 831.31,
+      "end": 838.67,
+      "text": "the the signals you can see that it's it's increased the number of times it's predicted down so"
+    },
+    {
+      "start": 838.67,
+      "end": 845.31,
+      "text": "that previously it was about 300 and now this is like over 400 so you can see by making it more"
+    },
+    {
+      "start": 845.31,
+      "end": 851.15,
+      "text": "adaptive to you know to bet down that when it actually does go down that's a we make money here"
+    },
+    {
+      "start": 852.88,
+      "end": 859.52,
+      "text": "so that's in a super that's covering how to essentially do feature engineering to make your"
+    },
+    {
+      "start": 860.72,
+      "end": 868.24,
+      "text": "great features that are more adaptive to non-stationality right but now we're going to look at a different"
+    },
+    {
+      "start": 868.24,
+      "end": 874.72,
+      "text": "form of learning algorithms which are called online learning and essentially we're going to look at what's"
+    },
+    {
+      "start": 874.8,
+      "end": 880.32,
+      "text": "called this passive aggressive regressor so it's what it's going to do is it's going to"
+    },
+    {
+      "start": 880.32,
+      "end": 886.8,
+      "text": "to continually change the weights of our linear regression so for example it could like in one"
+    },
+    {
+      "start": 886.8,
+      "end": 894.56,
+      "text": "date time step it could be said okay this is a momentum type of strategy a positive coefficient and"
+    },
+    {
+      "start": 894.56,
+      "end": 902.32,
+      "text": "suddenly maybe a few data points it changes to be a meme revisions has a negative a negative weight"
+    },
+    {
+      "start": 903.04,
+      "end": 908.74,
+      "text": "and the idea is is that how how does it change the weight so it uses this what's called a"
+    },
+    {
+      "start": 908.74,
+      "end": 915.86,
+      "text": "passive aggressive learning and essentially what happens is if it if it predicts correctly it doesn't"
+    },
+    {
+      "start": 915.86,
+      "end": 923.62,
+      "text": "change the weight okay but then if the if the model the the predictions to deviate the way too much"
+    },
+    {
+      "start": 924.18,
+      "end": 930.66,
+      "text": "then it corrects it so this is a form of like error correction and it's proportional to the"
+    },
+    {
+      "start": 930.66,
+      "end": 938.18,
+      "text": "amount of error in the prediction so for example here and it was very important is that for example"
+    },
+    {
+      "start": 938.18,
+      "end": 944.34,
+      "text": "just all the the learning that we've been doing our machine learning has just been all past all the"
+    },
+    {
+      "start": 944.34,
+      "end": 950.5,
+      "text": "data out once it's like a full batch and then it's oh and I don't have an important thing is that this is"
+    },
+    {
+      "start": 950.5,
+      "end": 959.57,
+      "text": "the learning regression is a closed form solution so you pass all the data around it's a closed form"
+    },
+    {
+      "start": 959.57,
+      "end": 968.66,
+      "text": "solution ordinarily squares and then all together what minimizes the the error okay but with this"
+    },
+    {
+      "start": 968.66,
+      "end": 974.66,
+      "text": "let's go back to here this is more this online learning is more of a stream we don't pass all the"
+    },
+    {
+      "start": 974.66,
+      "end": 982.74,
+      "text": "data at once so if this like compliments non-stationarity in financial times is because we just get a new"
+    },
+    {
+      "start": 982.74,
+      "end": 989.86,
+      "text": "data point we pass it in make a prediction if the predictions wrong we make an adjustment to the whites"
+    },
+    {
+      "start": 990.5,
+      "end": 995.86,
+      "text": "and then these are what's called like hyper parameters I won't go into what all these hyper parameters are"
+    },
+    {
+      "start": 996.34,
+      "end": 1000.82,
+      "text": "but again we're just going to use the the previous the current return to predict the future"
+    },
+    {
+      "start": 1001.62,
+      "end": 1008.18,
+      "text": "a log return we've got the thing here like a standard scalar which is to scale it for the because we"
+    },
+    {
+      "start": 1009.06,
+      "end": 1014.1,
+      "text": "point this out so this is what's called a stochastic gradient descent this is like the most common"
+    },
+    {
+      "start": 1014.9,
+      "end": 1023.63,
+      "text": "machine learning algorithm to do the learning so we've got a machine learning algorithm to adjust our"
+    },
+    {
+      "start": 1023.63,
+      "end": 1030.59,
+      "text": "weights to like error correction so I think the most important thing here is that you know the train step"
+    },
+    {
+      "start": 1030.59,
+      "end": 1038.19,
+      "text": "is not as a partial fit so we just pass in one data point at a time make the fit it so basically"
+    },
+    {
+      "start": 1038.19,
+      "end": 1044.51,
+      "text": "run the stochastic gradient descent work out what the the weight in the biases at each time step"
+    },
+    {
+      "start": 1044.51,
+      "end": 1049.55,
+      "text": "because we're going to record it and display it in a pandas data frame then we also take the the"
+    },
+    {
+      "start": 1049.55,
+      "end": 1055.79,
+      "text": "predicted value and we take the the sign of it that's our signal and again we just calculate what"
+    },
+    {
+      "start": 1055.79,
+      "end": 1063.71,
+      "text": "the the trade return would be the log return more specifically and and then we just put it into"
+    },
+    {
+      "start": 1063.71,
+      "end": 1069.95,
+      "text": "this records was because we're going to store it in a pandas data frame and here out of the loop we then"
+    },
+    {
+      "start": 1069.95,
+      "end": 1076.75,
+      "text": "create our data frame the results and then we just take the cumulative trade log return to display our"
+    },
+    {
+      "start": 1076.75,
+      "end": 1083.23,
+      "text": "growth equity curve and and we're also just going to calculate the the the directional hit rate right"
+    },
+    {
+      "start": 1083.95,
+      "end": 1089.31,
+      "text": "without any form of like hyper optimization of the parameters right so we can just look and see what's"
+    },
+    {
+      "start": 1089.31,
+      "end": 1098.35,
+      "text": "happening here so it's one like 50 just over 50% of the the time and you can see if it's one or not and you"
+    },
+    {
+      "start": 1098.35,
+      "end": 1105.23,
+      "text": "can see what's very important here is that for example in the the second tick it put it the"
+    },
+    {
+      "start": 1105.23,
+      "end": 1113.15,
+      "text": "what the weight is a momentum a star model right but in the next tick it's a meme reversion model"
+    },
+    {
+      "start": 1113.15,
+      "end": 1124.43,
+      "text": "oh poor pardon me and yeah this is and you can see it's changing right it stays momentum but then"
+    },
+    {
+      "start": 1124.43,
+      "end": 1129.87,
+      "text": "it changes to meme reversion right and this is the again the beauty of doing this on a"
+    },
+    {
+      "start": 1129.87,
+      "end": 1134.19,
+      "text": "linear regression because you know there's just two parameters here to do the the learning so we don't"
+    },
+    {
+      "start": 1134.19,
+      "end": 1139.39,
+      "text": "have this thing what's called the curse of dimensionality we have like so many parameters that it"
+    },
+    {
+      "start": 1139.39,
+      "end": 1148.03,
+      "text": "becomes like an NP hard problem so you case in that's the and you can see the the weights are"
+    },
+    {
+      "start": 1148.03,
+      "end": 1155.07,
+      "text": "adaptive right and in our supervised that that weight is constant and it's invariant over time right"
+    },
+    {
+      "start": 1155.07,
+      "end": 1162.08,
+      "text": "and you can see here that it's adaptive and we can actually you know we can little or maybe I'll just show"
+    },
+    {
+      "start": 1162.08,
+      "end": 1168.08,
+      "text": "the equity curve and we look at the distribution here is actually nearly 50 50 going up and 50 going down"
+    },
+    {
+      "start": 1168.08,
+      "end": 1176.64,
+      "text": "right so and we look at the equity curve it's not it doesn't the returns and we need to"
+    },
+    {
+      "start": 1176.64,
+      "end": 1183.92,
+      "text": "would have to calculate the the sharp of this right but it looks a lot more smoother right obviously"
+    },
+    {
+      "start": 1183.92,
+      "end": 1189.76,
+      "text": "the returns aren't great as the supervised but we haven't done any form of like hyped up hyped up"
+    },
+    {
+      "start": 1189.76,
+      "end": 1196.88,
+      "text": "parameter optimization which is these the models parameters we haven't optimized any of these to improve"
+    },
+    {
+      "start": 1196.88,
+      "end": 1203.36,
+      "text": "this right so just pick this and again this is this passive aggressive learning great and then we have"
+    },
+    {
+      "start": 1203.44,
+      "end": 1209.04,
+      "text": "a look at the underlying time series you can see here when it was like shooting down it actually makes"
+    },
+    {
+      "start": 1209.04,
+      "end": 1215.68,
+      "text": "money when it was shooting down and let's have another example so when it was like trending upwards that's"
+    },
+    {
+      "start": 1215.68,
+      "end": 1223.12,
+      "text": "it also made money here as well so you can see that it's made money both when it's trended down"
+    },
+    {
+      "start": 1223.12,
+      "end": 1231.33,
+      "text": "downwards and it's when it's operating when it's trended trending upwards but we can make this even"
+    },
+    {
+      "start": 1231.33,
+      "end": 1239.25,
+      "text": "more adaptive by just choosing some good hype up parameters to this okay so that's online learning"
+    },
+    {
+      "start": 1239.25,
+      "end": 1247.62,
+      "text": "so now let's look into reinforcement learning so the next video I'm going to do is going to be"
+    },
+    {
+      "start": 1248.66,
+      "end": 1255.3,
+      "text": "a video on reinforcement learning so it's a whole video dedicated to itself because this video would be"
+    },
+    {
+      "start": 1255.3,
+      "end": 1260.02,
+      "text": "like two hours long if we just if I went into the into the depth of reinforcement learning"
+    },
+    {
+      "start": 1261.2,
+      "end": 1266.16,
+      "text": "so reinforcement learning is quite similar to the online learning where it's like if there's good"
+    },
+    {
+      "start": 1266.16,
+      "end": 1274.16,
+      "text": "behavior or good trading we give it reward but if it's bad trades we penalize it so the idea is"
+    },
+    {
+      "start": 1274.16,
+      "end": 1285.44,
+      "text": "that it makes good trades and we can formulate trading as oh that's a good point so okay so with this"
+    },
+    {
+      "start": 1286.32,
+      "end": 1291.52,
+      "text": "reinforcement learning I just want you to imagine that's you know we're at a casino we've got a"
+    },
+    {
+      "start": 1291.52,
+      "end": 1300.4,
+      "text": "Hawaii Hawaiian shirts on sipping cocktails and we've gone to a bandit so this is like a bandit"
+    },
+    {
+      "start": 1300.4,
+      "end": 1306.8,
+      "text": "but we're going to go to like a two arm bandit and essentially trading you can you can model it"
+    },
+    {
+      "start": 1306.8,
+      "end": 1315.52,
+      "text": "as a two arm bandit problem okay which is we don't know the we pull on one essentially let's say"
+    },
+    {
+      "start": 1315.52,
+      "end": 1320.8,
+      "text": "the right arm is to predict going up and the left arm to predict going down right and this is"
+    },
+    {
+      "start": 1321.52,
+      "end": 1327.6,
+      "text": "we don't know what the underlying distribution of the data is all right and it's partially observable"
+    },
+    {
+      "start": 1327.6,
+      "end": 1333.76,
+      "text": "we only we don't know what the true distribution of the of the of the of the rewards right so"
+    },
+    {
+      "start": 1333.84,
+      "end": 1340.4,
+      "text": "we need to play the game or play on this bandit to understand the true distribution and obviously"
+    },
+    {
+      "start": 1340.4,
+      "end": 1346.48,
+      "text": "it could also the distribution could completely change it could be non-stationary right so we're just"
+    },
+    {
+      "start": 1346.48,
+      "end": 1353.68,
+      "text": "to just to drink the break you in because we're going to just look at a basic two arm bandit problem"
+    },
+    {
+      "start": 1355.54,
+      "end": 1364.11,
+      "text": "so yeah oh this is the for the actual algorithm that we use and we're going to use this reinforced"
+    },
+    {
+      "start": 1364.11,
+      "end": 1370.51,
+      "text": "algorithm which is the foundation of all policy gradient learning our algorithms is this reinforced"
+    },
+    {
+      "start": 1370.51,
+      "end": 1376.94,
+      "text": "algorithm because usually when you how reinforcement learning is introduces with this like q learning"
+    },
+    {
+      "start": 1377.9,
+      "end": 1383.9,
+      "text": "which is not you're not optimizing the the strategy itself for you so then it's optimizing the value"
+    },
+    {
+      "start": 1383.9,
+      "end": 1388.86,
+      "text": "function anyway that's maybe a bit out of scope so basically what we're going to look at is where we're"
+    },
+    {
+      "start": 1388.86,
+      "end": 1394.38,
+      "text": "we're going to the first thing we're going to do is look at partially observable stationary two arm"
+    },
+    {
+      "start": 1394.38,
+      "end": 1399.9,
+      "text": "bandits okay what the hell does that mean so basically we're saying that it's a two arm bandit"
+    },
+    {
+      "start": 1399.9,
+      "end": 1408.78,
+      "text": "essentially it's a coin toss right and you know you can even pick heads or tails and this is a two arm"
+    },
+    {
+      "start": 1408.78,
+      "end": 1413.58,
+      "text": "bandit because there's two choices right can pick heads or tells we don't know the distribution"
+    },
+    {
+      "start": 1413.58,
+      "end": 1420.94,
+      "text": "and this is a stationary bias coin so this coin is biased so it's not 5050 but and by default here"
+    },
+    {
+      "start": 1420.94,
+      "end": 1426.94,
+      "text": "it's like 70% probability of going heads we don't know the underlying distribution we can only"
+    },
+    {
+      "start": 1427.98,
+      "end": 1435.95,
+      "text": "estimate by playing this game okay and also this is the the policy so the policy is is that"
+    },
+    {
+      "start": 1435.95,
+      "end": 1441.31,
+      "text": "you pass in some state and it gives you an action and the action here it's essentially it's the"
+    },
+    {
+      "start": 1441.31,
+      "end": 1449.17,
+      "text": "strategy and it gives you an action like what you do should you go heads or should go tails right"
+    },
+    {
+      "start": 1450.21,
+      "end": 1458.75,
+      "text": "and that's the so that that's our first environment and this is this like stationary bias coin"
+    },
+    {
+      "start": 1459.55,
+      "end": 1466.35,
+      "text": "so what we're going to do is we're we're in initial like we set the to make this deterministic we set"
+    },
+    {
+      "start": 1466.35,
+      "end": 1472.99,
+      "text": "them seeds we've got our policy which is essentially the the the strategy of like choose an"
+    },
+    {
+      "start": 1472.99,
+      "end": 1480.35,
+      "text": "action based on the the state and this is actually stateless so just put that out there so this is like a"
+    },
+    {
+      "start": 1480.35,
+      "end": 1485.71,
+      "text": "dummy input and we do look a forward pass so we basically sample an action from the current"
+    },
+    {
+      "start": 1485.71,
+      "end": 1494.11,
+      "text": "policy slash strategy and we then interact with the environment okay if we take this action"
+    },
+    {
+      "start": 1494.67,
+      "end": 1500.03,
+      "text": "like what's the reward and the reward is like if it heads if you if you guess correctly"
+    },
+    {
+      "start": 1501.07,
+      "end": 1507.87,
+      "text": "then you get a dollar and if you lose then you lose one dollar right we're just going to keep it like"
+    },
+    {
+      "start": 1507.87,
+      "end": 1516.35,
+      "text": "as a static reward because it just minimizes the noise right and then we do this the reinforcement"
+    },
+    {
+      "start": 1516.91,
+      "end": 1523.23,
+      "text": "reinforced algorithm which is basically we take the the negation of the log probability multiplied by"
+    },
+    {
+      "start": 1523.31,
+      "end": 1528.91,
+      "text": "the reward and that's our loss function and then what what we do is just do the run the optimization"
+    },
+    {
+      "start": 1530.51,
+      "end": 1537.31,
+      "text": "but we is in the imperative that we zero out the gradient because we don't the the gradients get accumulated"
+    },
+    {
+      "start": 1537.31,
+      "end": 1542.91,
+      "text": "but anyway don't worry too much about the the the details here and then after a certain amount of time steps"
+    },
+    {
+      "start": 1542.91,
+      "end": 1550.43,
+      "text": "then we just log the the current rewards but and this is the the experiment here and I'm just"
+    },
+    {
+      "start": 1550.51,
+      "end": 1558.03,
+      "text": "sure like for example the the for this we've said it to a 70% run over like 2,000 episodes"
+    },
+    {
+      "start": 1558.03,
+      "end": 1565.15,
+      "text": "and let's see what what is the strategy or the policy it's guessed so you can see here's the rewards"
+    },
+    {
+      "start": 1565.15,
+      "end": 1572.99,
+      "text": "over time you can see it's like positive it never has that negative rewards what's interesting is is that"
+    },
+    {
+      "start": 1572.99,
+      "end": 1580.42,
+      "text": "you can see here that's the you can see like the policy it has like it believes like"
+    },
+    {
+      "start": 1582.82,
+      "end": 1589.46,
+      "text": "heads with just over 60% probability of going heads or this is just or I should also mention"
+    },
+    {
+      "start": 1589.46,
+      "end": 1594.98,
+      "text": "this is a stochastic strategy right so it's sampling from a distribution and it's but it's"
+    },
+    {
+      "start": 1594.98,
+      "end": 1602.83,
+      "text": "changing here to say like okay it's 100% that it should be going heads here and you can see like it goes like"
+    },
+    {
+      "start": 1602.83,
+      "end": 1611.55,
+      "text": "okay it's just over 60% to predict heads but as as it's learning it's this policy gradient"
+    },
+    {
+      "start": 1611.55,
+      "end": 1617.07,
+      "text": "learning it's conversion to say like okay she just always go up and that's the optimal it's just always"
+    },
+    {
+      "start": 1617.07,
+      "end": 1626.24,
+      "text": "better up right because 70% the time it goes heads so that's the for a stationary bander right but"
+    },
+    {
+      "start": 1626.24,
+      "end": 1631.84,
+      "text": "that's just a toy example right and now we just add a bit more complexity and just a bit more"
+    },
+    {
+      "start": 1631.84,
+      "end": 1638.72,
+      "text": "of reward real world scenario so now what we're going to do is look at partially observable"
+    },
+    {
+      "start": 1638.72,
+      "end": 1644.64,
+      "text": "non-stationary to unbound it and we're just going to simplify things there we could maybe use like a"
+    },
+    {
+      "start": 1644.64,
+      "end": 1654.96,
+      "text": "cyclic thing function to you know to it's cycle between different probabilities right but we're"
+    },
+    {
+      "start": 1654.96,
+      "end": 1659.73,
+      "text": "just going to keep it basic here I'm just saying like after a certain amount of time it's going to"
+    },
+    {
+      "start": 1660.21,
+      "end": 1667.57,
+      "text": "switch so before the switch it's the probability of heads is going to be 70% then after the switch"
+    },
+    {
+      "start": 1667.57,
+      "end": 1675.97,
+      "text": "after 1,000 episodes a by default it's then going to be a 2020% probability so the distribution is going"
+    },
+    {
+      "start": 1675.97,
+      "end": 1682.53,
+      "text": "to change over time right and obviously we can't observe this we can only partially observe it by"
+    },
+    {
+      "start": 1682.53,
+      "end": 1687.49,
+      "text": "playing the game and fully understand it so for example when you're doing like interviews in the"
+    },
+    {
+      "start": 1687.49,
+      "end": 1691.89,
+      "text": "asking you like maybe it runs a market making this this is what essentially what you're doing"
+    },
+    {
+      "start": 1691.89,
+      "end": 1700.29,
+      "text": "trying to work out what's the distribution of the data like set prices based on on on that distribution"
+    },
+    {
+      "start": 1701.25,
+      "end": 1710.69,
+      "text": "is similar right okay so that's our non-stationary bias coin and here's a very important part is that"
+    },
+    {
+      "start": 1710.69,
+      "end": 1718.61,
+      "text": "we need to have some form of regularization so a very key important concept in reinforcement learning"
+    },
+    {
+      "start": 1718.61,
+      "end": 1725.65,
+      "text": "is exploration versus exploitation you can't for example if you just did exploitation the whole time"
+    },
+    {
+      "start": 1726.69,
+      "end": 1732.77,
+      "text": "you would end up in a local optima and you always want to make sure you never go into like a local"
+    },
+    {
+      "start": 1732.77,
+      "end": 1739.17,
+      "text": "optima so imagine like you in a maze right you could go down a route which is maybe the the"
+    },
+    {
+      "start": 1739.17,
+      "end": 1745.09,
+      "text": "shortest path so far but it could you know like the long term is that it's a dead end right"
+    },
+    {
+      "start": 1746.45,
+      "end": 1754.05,
+      "text": "so you need to to constantly explore different options and to ensure that it doesn't"
+    },
+    {
+      "start": 1754.05,
+      "end": 1761.81,
+      "text": "go into a local optima local optima we use this what's called entropy so this is what's called Shannon"
+    },
+    {
+      "start": 1762.77,
+      "end": 1770.72,
+      "text": "entropy and even if you don't understand the mass it doesn't we can build intuition here what what"
+    },
+    {
+      "start": 1770.72,
+      "end": 1779.74,
+      "text": "what it's doing so for example on a coin toss the the the the max uncertainty is when the probability of"
+    },
+    {
+      "start": 1779.74,
+      "end": 1787.74,
+      "text": "heads is 50 50 right that's intuitive because and then the you know the entropy of it is one point"
+    },
+    {
+      "start": 1788.46,
+      "end": 1794.38,
+      "text": "however if it's biased and it's biased like it's just heads 0% of the time that means it's"
+    },
+    {
+      "start": 1794.38,
+      "end": 1804.5,
+      "text": "100% tails then the entropy is zero so essentially what this entropy regularization is doing is ensuring"
+    },
+    {
+      "start": 1804.5,
+      "end": 1813.54,
+      "text": "that you you don't always just sample heads all the time or just sample tails all the time that you"
+    },
+    {
+      "start": 1813.54,
+      "end": 1820.66,
+      "text": "also because when the distribution changes you may see that okay you actually you go heads you get"
+    },
+    {
+      "start": 1820.66,
+      "end": 1825.78,
+      "text": "reward but over time anyway it might be better if I just show you the example right so for example this is"
+    },
+    {
+      "start": 1825.78,
+      "end": 1834.56,
+      "text": "up it's just pretty much the the same what it just changed the environment and we add the entropy loss"
+    },
+    {
+      "start": 1834.56,
+      "end": 1839.92,
+      "text": "so now the loss is just two terms which is the policy loss in the entropy so we calculate the"
+    },
+    {
+      "start": 1839.92,
+      "end": 1846.64,
+      "text": "entropy of the distribution so far the empirical distribution and you know it's exactly the same"
+    },
+    {
+      "start": 1846.64,
+      "end": 1853.28,
+      "text": "but we just calculate the entropy and then we got this entropy beta which is just a waiting of the"
+    },
+    {
+      "start": 1853.28,
+      "end": 1859.76,
+      "text": "entropy so we can make it less sensitive to entropy or more sensitive to entropy and then it's just"
+    },
+    {
+      "start": 1859.76,
+      "end": 1865.92,
+      "text": "the summation of the policy loss and the entropy loss right and again just remember because the with"
+    },
+    {
+      "start": 1866.0,
+      "end": 1873.04,
+      "text": "machine learning it's about minimizing so we because we just take it then we just negate it right so"
+    },
+    {
+      "start": 1874.24,
+      "end": 1880.08,
+      "text": "again with the entropy beta we just take the the the the the negation of the of the the weight"
+    },
+    {
+      "start": 1881.04,
+      "end": 1888.0,
+      "text": "and again we do the the machine learning it's such a the same okay and we're going to run"
+    },
+    {
+      "start": 1888.0,
+      "end": 1895.2,
+      "text": "two experiments one with the vanilla reinforce which has no entropy regularization and then we're going to"
+    },
+    {
+      "start": 1895.2,
+      "end": 1902.34,
+      "text": "want run same again but with entropy regularization and you're going to see something very interesting here"
+    },
+    {
+      "start": 1902.98,
+      "end": 1911.54,
+      "text": "okay so this point remember this coin a bandit changes so just again just imagine you're at the casino"
+    },
+    {
+      "start": 1911.54,
+      "end": 1916.98,
+      "text": "we're even choosing one handle the other we notice like okay this hand is given as money the other one's"
+    },
+    {
+      "start": 1916.98,
+      "end": 1923.14,
+      "text": "not so we just choose the left arm right but after I set amount of time the dodgy casino changes time"
+    },
+    {
+      "start": 1923.22,
+      "end": 1929.86,
+      "text": "like changes and flip it right if I if you can see here what's happening with our vanilla without the"
+    },
+    {
+      "start": 1929.86,
+      "end": 1936.1,
+      "text": "entropy regularization it's making money but soon as the distribution changes there's a regime change"
+    },
+    {
+      "start": 1936.82,
+      "end": 1945.14,
+      "text": "it loses money and we can see what happens on the in this diagram around the right so you can see with the"
+    },
+    {
+      "start": 1945.14,
+      "end": 1953.78,
+      "text": "vanilla it's got into a local optimum which is to to go heads which is the optimal for the for the left"
+    },
+    {
+      "start": 1953.78,
+      "end": 1960.18,
+      "text": "before the regime change but when there's a ratio just make it very clear this black line is when the"
+    },
+    {
+      "start": 1960.18,
+      "end": 1967.3,
+      "text": "regime change regime change happens so that the the distribution changes this is when the probability of"
+    },
+    {
+      "start": 1967.3,
+      "end": 1973.94,
+      "text": "heads is 70% and this is when then it switches and then it comes to 20% and you can see here that it just"
+    },
+    {
+      "start": 1973.94,
+      "end": 1980.9,
+      "text": "always stays at 1% so it does no exploration here it's just pure exploitation it found this local"
+    },
+    {
+      "start": 1980.9,
+      "end": 1987.14,
+      "text": "optimum it's got into it and there's no regularization so it just stays there so when the actual distribution"
+    },
+    {
+      "start": 1987.14,
+      "end": 1995.14,
+      "text": "of the returns or so the the bandet changes it doesn't adapt but you can see here with the entropy"
+    },
+    {
+      "start": 1995.14,
+      "end": 2004.59,
+      "text": "regularization it is never going to like 1% it sort of does hair but as soon as the distribution changes"
+    },
+    {
+      "start": 2004.59,
+      "end": 2010.59,
+      "text": "and it's done the regime change you can see it has adapted hair so it goes all the way but so it was"
+    },
+    {
+      "start": 2010.59,
+      "end": 2018.19,
+      "text": "predicting heads but soon as the change it notice there's a change in the distribution of the"
+    },
+    {
+      "start": 2018.19,
+      "end": 2030.61,
+      "text": "of its rewards so the the policy has changed to to predict heads so tails and you can see like it"
+    },
+    {
+      "start": 2030.61,
+      "end": 2036.69,
+      "text": "does it hair right so you can see this is adaptive and you can even by changing the the the beta"
+    },
+    {
+      "start": 2036.69,
+      "end": 2044.69,
+      "text": "the entropy beta that we can make this even like more quickly adapt even more so and again this is"
+    },
+    {
+      "start": 2045.01,
+      "end": 2051.39,
+      "text": "like it's a way more complicated so I can't just do this all in one video it needs a dedicated"
+    },
+    {
+      "start": 2051.39,
+      "end": 2056.43,
+      "text": "video by itself but I just wanted to share just some of the principles of like how to handle"
+    },
+    {
+      "start": 2057.23,
+      "end": 2064.61,
+      "text": "regime changes in using reinforcement learning okay so that's the the end of the video so"
+    },
+    {
+      "start": 2065.33,
+      "end": 2070.05,
+      "text": "just to conclude so we've like mathematically defined what is a regime change which is when"
+    },
+    {
+      "start": 2070.05,
+      "end": 2077.01,
+      "text": "exhibits like non stationary dynamics in a in a financial time or at any time series we've shown"
+    },
+    {
+      "start": 2077.01,
+      "end": 2081.09,
+      "text": "some avenues here to make your machine learning models adaptive so for example if you're doing"
+    },
+    {
+      "start": 2081.09,
+      "end": 2088.45,
+      "text": "supervised learning that you can encode like hidden states and this makes it more your supervised learning"
+    },
+    {
+      "start": 2088.45,
+      "end": 2093.65,
+      "text": "more adaptive we've also looked at online learning which is actually quite similar to reinforcement"
+    },
+    {
+      "start": 2093.65,
+      "end": 2099.25,
+      "text": "learning but there's some key fundamental differences using this passive aggressive learning so"
+    },
+    {
+      "start": 2100.29,
+      "end": 2106.13,
+      "text": "it penalizes it's like a form of like online error correction so it adjusts the weights if it make"
+    },
+    {
+      "start": 2106.13,
+      "end": 2116.26,
+      "text": "if the errors the predictions are wrong it adjusts the weights and so this allows us to adapt to any"
+    },
+    {
+      "start": 2116.26,
+      "end": 2123.86,
+      "text": "changes in the distribution of the returns and then we also looked at this this policy gradient"
+    },
+    {
+      "start": 2123.86,
+      "end": 2129.3,
+      "text": "reinforcement learning and that's just a quick look and there's actually another key fundamental"
+    },
+    {
+      "start": 2129.3,
+      "end": 2134.98,
+      "text": "differences well with the online learning it's just it doesn't consider the cumulative returns right"
+    },
+    {
+      "start": 2134.98,
+      "end": 2142.03,
+      "text": "so it doesn't make a decision now that will give us a better future return like it let's say long term return"
+    },
+    {
+      "start": 2142.03,
+      "end": 2147.79,
+      "text": "it's just always like looking okay what's the best return like now and hearing now where it's"
+    },
+    {
+      "start": 2148.35,
+      "end": 2154.51,
+      "text": "reinforcement learning length you can make some I don't know maybe short term bad decisions but"
+    },
+    {
+      "start": 2154.51,
+      "end": 2162.91,
+      "text": "more long term it's much better so imagine like again like a maze you could easily if you just you could"
+    },
+    {
+      "start": 2162.91,
+      "end": 2171.07,
+      "text": "easily go into like a local optima but then you know this better it's not the most optimal right and again"
+    },
+    {
+      "start": 2171.07,
+      "end": 2178.03,
+      "text": "with like trading like if you had like free actions like to buy or go long short or just hold"
+    },
+    {
+      "start": 2178.03,
+      "end": 2185.17,
+      "text": "or essentially do nothing right it could be that you know by holding that you make more returns right"
+    },
+    {
+      "start": 2185.89,
+      "end": 2190.93,
+      "text": "so but yeah we're looking to this and more detail later but then you just looked at it with key"
+    },
+    {
+      "start": 2190.93,
+      "end": 2196.45,
+      "text": "fingers that we looked at the entropy regularization so this allows us to balance it doesn't get to a"
+    },
+    {
+      "start": 2196.45,
+      "end": 2206.53,
+      "text": "local optima and it's a form of keeping it not getting in a local optima of exploitation that it"
+    },
+    {
+      "start": 2206.53,
+      "end": 2215.34,
+      "text": "it looks for any changes in the distribution of the data right okay so I think that concludes everything"
+    },
+    {
+      "start": 2215.34,
+      "end": 2222.86,
+      "text": "so I hope that was useful please like subscribe and also give me your comments as well I'll be very"
+    },
+    {
+      "start": 2222.86,
+      "end": 2228.3,
+      "text": "interested to read them okay thank you very much cheers bye"
+    }
+  ]
+}

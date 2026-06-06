@@ -10,8 +10,12 @@
 | Pandora OS | Citrinitas | Building | Complete department architecture |
 | Client Engagement System | Albedo | Building | Populate client template workspace |
 | Sovereign Trading Intelligence System (STIS) | Nigredo → Albedo | All 5 layers + 11 skills built (v1.0) | Complete Albedo phase gate — paper trading |
+| Sovereign Tech Enterprise (Agentic Engineering) | Nigredo → Albedo | Blueprint filed v1.0 | Name the LLC → execute formation sequence |
 
-Last updated: 2026-05-20
+**Sovereign Enterprise Blueprint:** `dse_blueprint_sovereign-enterprise-architecture_v1.md`
+**Entity stack brief:** `D.R.D/briefs/drd_brief_dse_private-sector-bihness-sovereign-entity-stack_deployed.md`
+
+Last updated: 2026-06-02
 
 ## SESSION ROUTING
 | Session Type | Stage File | Skills |

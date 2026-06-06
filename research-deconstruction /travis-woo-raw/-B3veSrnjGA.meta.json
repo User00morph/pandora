@@ -1,0 +1,937 @@
+{
+  "video_id": "-B3veSrnjGA",
+  "title": "MTP Backtesting Software Tutorial",
+  "language": "en",
+  "language_confidence": 0.997,
+  "duration_seconds": 1255.9,
+  "processing_seconds": 164.3,
+  "word_count": 3107,
+  "status": "ok",
+  "segments": [
+    {
+      "start": 0.3,
+      "end": 6.18,
+      "text": "Alright guys, this is my first tutorial of the new back testing tool for MTP."
+    },
+    {
+      "start": 6.18,
+      "end": 10.02,
+      "text": "This is something you should definitely use in familiarized yourself with."
+    },
+    {
+      "start": 10.02,
+      "end": 15.66,
+      "text": "This is much more powerful than the back testing we can do on trading view."
+    },
+    {
+      "start": 15.66,
+      "end": 23.17,
+      "text": "However, trading view is still going to be useful for generating signals, seeing the signal"
+    },
+    {
+      "start": 23.17,
+      "end": 25.29,
+      "text": "on the chart and sending alerts."
+    },
+    {
+      "start": 25.29,
+      "end": 28.81,
+      "text": "But for back testing, this is really powerful."
+    },
+    {
+      "start": 28.81,
+      "end": 33.81,
+      "text": "It's going to make back testing much more efficient and better at finding the optimized"
+    },
+    {
+      "start": 33.81,
+      "end": 35.81,
+      "text": "best parameters."
+    },
+    {
+      "start": 35.81,
+      "end": 41.57,
+      "text": "It's also going to help us visualize and get data on a portfolio level, and this is the"
+    },
+    {
+      "start": 41.57,
+      "end": 43.25,
+      "text": "big reason why I commissioned this project."
+    },
+    {
+      "start": 43.25,
+      "end": 47.65,
+      "text": "By the way, I'm spending a lot of money on this, but I think it'll pay back over the"
+    },
+    {
+      "start": 47.65,
+      "end": 52.85,
+      "text": "years and please use it because I spent a lot of money so you didn't have to, whatever"
+    },
+    {
+      "start": 52.85,
+      "end": 59.53,
+      "text": "you spent to access this software is very, very small compared to what I'm spending."
+    },
+    {
+      "start": 59.53,
+      "end": 67.61,
+      "text": "But now we can see on a portfolio level, so in the Discord there's the login credentials."
+    },
+    {
+      "start": 67.61,
+      "end": 71.5,
+      "text": "So let me walk through essentially how it works."
+    },
+    {
+      "start": 71.5,
+      "end": 77.66,
+      "text": "Now it allows us to choose a number of assets and we've just put in the biggest major ones."
+    },
+    {
+      "start": 77.66,
+      "end": 85.46,
+      "text": "S&B 500, the NASDAQ, the Japanese stock market, the European stock market, Bitcoin, gold"
+    },
+    {
+      "start": 85.46,
+      "end": 86.46,
+      "text": "and silver."
+    },
+    {
+      "start": 86.93,
+      "end": 92.64,
+      "text": "It lets us choose a start date and you can see in here we have all our different parameters"
+    },
+    {
+      "start": 92.64,
+      "end": 95.26,
+      "text": "that we can choose from."
+    },
+    {
+      "start": 95.26,
+      "end": 97.89,
+      "text": "Now there's two ways you can use it."
+    },
+    {
+      "start": 97.89,
+      "end": 103.17,
+      "text": "One is you can get optimized settings for the S&B 500, optimized settings for Bitcoin, optimized"
+    },
+    {
+      "start": 103.17,
+      "end": 105.77,
+      "text": "settings for gold."
+    },
+    {
+      "start": 105.77,
+      "end": 106.77,
+      "text": "You can do that."
+    },
+    {
+      "start": 106.77,
+      "end": 113.09,
+      "text": "But where I think it's more valuable is creating generalized settings that work on all of the assets"
+    },
+    {
+      "start": 113.09,
+      "end": 115.09,
+      "text": "and maybe we just stick with those."
+    },
+    {
+      "start": 115.09,
+      "end": 117.33,
+      "text": "This is a philosophical decision."
+    },
+    {
+      "start": 117.33,
+      "end": 122.41,
+      "text": "If you weren't about trading systems, you have to be wary of overfitting, which is when"
+    },
+    {
+      "start": 122.41,
+      "end": 129.94,
+      "text": "you, your trading system is so close to exactly what happened in the past that it's unlikely"
+    },
+    {
+      "start": 129.94,
+      "end": 132.24,
+      "text": "to repeat in the future."
+    },
+    {
+      "start": 132.24,
+      "end": 136.92,
+      "text": "And this allows us for the first time we couldn't do this on trading view to create the best"
+    },
+    {
+      "start": 136.92,
+      "end": 141.96,
+      "text": "generalized settings that worked the same on all these."
+    },
+    {
+      "start": 141.96,
+      "end": 146.64,
+      "text": "So I'm going to show you an example of how to do that and kind of walk you through."
+    },
+    {
+      "start": 146.64,
+      "end": 151.36,
+      "text": "So first I'm going to, I'm going to, I'm going to, I'm going to date on the portfolio level."
+    },
+    {
+      "start": 151.36,
+      "end": 155.84,
+      "text": "So let's go ahead and put on all of these different assets."
+    },
+    {
+      "start": 155.84,
+      "end": 162.15,
+      "text": "Now for the start date, I'm going to choose 1965, why am I choosing 1965?"
+    },
+    {
+      "start": 162.15,
+      "end": 167.03,
+      "text": "Gold didn't really move before 1965, it was fixed to the dollar."
+    },
+    {
+      "start": 167.03,
+      "end": 169.51,
+      "text": "It started to move a couple years later."
+    },
+    {
+      "start": 169.51,
+      "end": 176.51,
+      "text": "But the period from say 1920 to 1965 is just the S&P 500 and we're trying to get an idea with"
+    },
+    {
+      "start": 176.51,
+      "end": 178.67,
+      "text": "gold and NASDAQ and silver and all these things."
+    },
+    {
+      "start": 178.67,
+      "end": 182.01,
+      "text": "So I recommend starting around this time."
+    },
+    {
+      "start": 182.01,
+      "end": 186.37,
+      "text": "Now for risk, you can choose a certain amount of capital to start with."
+    },
+    {
+      "start": 186.37,
+      "end": 190.65,
+      "text": "Just like on trading, you can start with a percentage of equity or you can do fixed units, which"
+    },
+    {
+      "start": 190.65,
+      "end": 196.54,
+      "text": "is like contracts, percentage of equity or number of units."
+    },
+    {
+      "start": 196.54,
+      "end": 201.06,
+      "text": "Now strategy, we're going to come back to this because you're going to see, it's going to automatically"
+    },
+    {
+      "start": 201.06,
+      "end": 204.56,
+      "text": "come up with the best, most generalized settings."
+    },
+    {
+      "start": 204.56,
+      "end": 208.44,
+      "text": "So for optimization, we can optimize for a number of things."
+    },
+    {
+      "start": 208.44,
+      "end": 212.48,
+      "text": "Sharp is like a smooth return, Sortino's related."
+    },
+    {
+      "start": 212.48,
+      "end": 220.04,
+      "text": "I like Kalmar, Kalmar is basically the biggest return relative to the maximum drawdown."
+    },
+    {
+      "start": 220.04,
+      "end": 225.34,
+      "text": "Kalmar is to help me make the most possible money regardless of the path."
+    },
+    {
+      "start": 225.34,
+      "end": 229.06,
+      "text": "Sharp cares about, was it a smooth path to make the money, I don't care I just want to make"
+    },
+    {
+      "start": 229.06,
+      "end": 230.6,
+      "text": "money."
+    },
+    {
+      "start": 230.6,
+      "end": 234.6,
+      "text": "I'm actually not sure what multi-variant means I'm going to need to ask."
+    },
+    {
+      "start": 234.6,
+      "end": 238.8,
+      "text": "So when we go to parameter optimization, which I know it's the word optimization, but"
+    },
+    {
+      "start": 238.8,
+      "end": 243.24,
+      "text": "it's optimizing, something that works generally on all these settings, right, or for all"
+    },
+    {
+      "start": 243.24,
+      "end": 250.42,
+      "text": "these assets, it's going to do and number of back tests."
+    },
+    {
+      "start": 250.42,
+      "end": 255.14,
+      "text": "So we can pick 200, we can pick any number, it's going to do this many back tests and it's going"
+    },
+    {
+      "start": 255.14,
+      "end": 257.37,
+      "text": "to pick the best one."
+    },
+    {
+      "start": 257.37,
+      "end": 263.65,
+      "text": "Now another way to prevent overfitting is rather than just pick the best parameter, I'm going"
+    },
+    {
+      "start": 263.65,
+      "end": 269.25,
+      "text": "to identify a range of 20 parameters, this is the number here, that work and pick something"
+    },
+    {
+      "start": 269.25,
+      "end": 270.53,
+      "text": "in the middle."
+    },
+    {
+      "start": 270.53,
+      "end": 280.93,
+      "text": "So the idea is if the stop loss works from 3 to 10, I want to pick 6, which is in the middle."
+    },
+    {
+      "start": 280.93,
+      "end": 285.73,
+      "text": "So that way it's more likely, even if 3 was the best possible, one of 2 was unprofitable,"
+    },
+    {
+      "start": 285.73,
+      "end": 287.92,
+      "text": "we don't want to do that, right?"
+    },
+    {
+      "start": 287.92,
+      "end": 293.52,
+      "text": "So now that we have our assets and the date set and our goal, we're optimizing for Kalmar,"
+    },
+    {
+      "start": 293.52,
+      "end": 298.96,
+      "text": "we're going to do 200 back tests, and I wanted to do, pick the 20 best parameters for each and"
+    },
+    {
+      "start": 298.96,
+      "end": 305.9,
+      "text": "pick them on in the middle, we're going to hit optimize, okay?"
+    },
+    {
+      "start": 305.9,
+      "end": 314.29,
+      "text": "So it's going to do this pretty quickly here, okay, 20% done, so it's going to be done in about"
+    },
+    {
+      "start": 314.29,
+      "end": 315.29,
+      "text": "15 seconds."
+    },
+    {
+      "start": 315.61,
+      "end": 324.06,
+      "text": "And what it's doing is it's running 200 back tests right now, and so it's picking these for our"
+    },
+    {
+      "start": 324.06,
+      "end": 331.18,
+      "text": "particular settings, it's picking these as the best parameters, and you can see now it filled that out"
+    },
+    {
+      "start": 331.18,
+      "end": 338.18,
+      "text": "on the left side, so we can take that into the back test. So it's saying a stop loss of 7, a TP of 49,"
+    },
+    {
+      "start": 339.14,
+      "end": 349.0,
+      "text": "work back for the stop loss 293 days, TP looking back 16 days, pyramid of 5, so min pyramid is"
+    },
+    {
+      "start": 349.0,
+      "end": 354.52,
+      "text": "interesting, this is a concept that's important, which isn't on the trading view one yet, I might add it,"
+    },
+    {
+      "start": 354.52,
+      "end": 363.5,
+      "text": "but if you have min pyramids set to 3, it doesn't take the first two trades, and this helps you"
+    },
+    {
+      "start": 363.5,
+      "end": 369.18,
+      "text": "because any bad asset can still make an occasional breakout, but only the best assets can get into a"
+    },
+    {
+      "start": 369.18,
+      "end": 374.38,
+      "text": "third breakout, right? So that protects you, and I think min pyramid would be useful if we're"
+    },
+    {
+      "start": 374.38,
+      "end": 379.75,
+      "text": "trading weak assets, but since we only trade the best, it doesn't matter as much, it's got the look back"
+    },
+    {
+      "start": 379.75,
+      "end": 386.49,
+      "text": "age. I'll be updating this, but it's going to have conditional clothes, it's going to have moving average,"
+    },
+    {
+      "start": 386.49,
+      "end": 392.23,
+      "text": "stuff like that, we're going to add it. So I'm going to hit walk forward, optimize two, and see how this"
+    },
+    {
+      "start": 392.23,
+      "end": 400.95,
+      "text": "changes things. What walk forward optimization does is, it basically is testing a 10 year"
+    },
+    {
+      "start": 400.95,
+      "end": 408.81,
+      "text": "block at a time, and then seeing how it performs, basically it's splitting the back test up in a different"
+    },
+    {
+      "start": 410.01,
+      "end": 417.1,
+      "text": "regimes, so the idea is it's going to help create, I don't fully understand it if I'm being honest,"
+    },
+    {
+      "start": 417.1,
+      "end": 422.71,
+      "text": "I mean, I'm, I'm like you, I'm kind of a normie, I didn't code this, I commissioned the code,"
+    },
+    {
+      "start": 423.59,
+      "end": 428.23,
+      "text": "but the developer thinks walk forward optimization is maybe the most important thing to prevent"
+    },
+    {
+      "start": 428.23,
+      "end": 437.85,
+      "text": "overfitting because it lets you create a system and then test on new data, which wasn't seen, so okay,"
+    },
+    {
+      "start": 438.41,
+      "end": 445.38,
+      "text": "so here we can see for instance, let's look at max pyramid, and the 1980s 10 pyramid was the best,"
+    },
+    {
+      "start": 446.58,
+      "end": 454.18,
+      "text": "and the 2010s, for a pyramid was the best, so it's going to pick something in between right,"
+    },
+    {
+      "start": 455.1,
+      "end": 461.94,
+      "text": "so there was a time in the 1990s when a minimum period of three was superior, okay, so this gives us"
+    },
+    {
+      "start": 461.94,
+      "end": 467.46,
+      "text": "some more information, but anyways it's time to run the back test because the parameter optimization"
+    },
+    {
+      "start": 467.46,
+      "end": 475.88,
+      "text": "gave us the best settings for this particular, so now we can also others one other thing relative"
+    },
+    {
+      "start": 475.88,
+      "end": 487.08,
+      "text": "weights, so I might say I want to run a bigger portion of gold and a little bit less NASDAQ to balance"
+    },
+    {
+      "start": 487.08,
+      "end": 491.88,
+      "text": "it a little bit more and I want a bit more Bitcoin, so I'm going to go back into parameter optimization,"
+    },
+    {
+      "start": 493.13,
+      "end": 498.97,
+      "text": "oops, now I'm going to parameter optimization, and I'm going to optimize again, so it can optimize"
+    },
+    {
+      "start": 498.97,
+      "end": 503.45,
+      "text": "based on relative weights, and depending on you see this, it might also pick the best relative weights,"
+    },
+    {
+      "start": 504.39,
+      "end": 510.55,
+      "text": "so you can see how much faster this is than doing this on trading view, it's doing 200 trials"
+    },
+    {
+      "start": 511.42,
+      "end": 519.21,
+      "text": "and it's just picking, it's like, it's just not something human could do, okay, so now the"
+    },
+    {
+      "start": 519.21,
+      "end": 524.97,
+      "text": "parameters change slightly but not too much which is good because we want to see it's just generally good,"
+    },
+    {
+      "start": 524.97,
+      "end": 531.93,
+      "text": "right, so here we went from 7 to 6 for the stop loss and we've been trading at 5, which is close"
+    },
+    {
+      "start": 532.01,
+      "end": 539.62,
+      "text": "enough, the pyramid maximum from 5 to 7, Cp went from 49 to 41, it's basically stayed mostly the"
+    },
+    {
+      "start": 539.62,
+      "end": 546.38,
+      "text": "same which is exactly what we want to see, now we can run the back test, so there's different metrics,"
+    },
+    {
+      "start": 547.1,
+      "end": 553.54,
+      "text": "again hey it's not the best shore pressure but that's not what we're optimizing for red, so it can show"
+    },
+    {
+      "start": 554.02,
+      "end": 563.35,
+      "text": "the individual equity returns, gold, really, carried significantly, that's interesting,"
+    },
+    {
+      "start": 564.89,
+      "end": 571.94,
+      "text": "so we might want to increase some of these other ones, but anyways we go to period returns and this is"
+    },
+    {
+      "start": 571.94,
+      "end": 577.06,
+      "text": "starting to give us a better data of what to expect, so this with this particular back test,"
+    },
+    {
+      "start": 577.78,
+      "end": 584.9,
+      "text": "this is the distribution of years and we can see that for this back test, 70% of years we're"
+    },
+    {
+      "start": 584.9,
+      "end": 589.62,
+      "text": "mining and 30% are losing and that might scare you guys, but this is one of the reason I encourage you to"
+    },
+    {
+      "start": 589.62,
+      "end": 593.46,
+      "text": "stick with us, I've had a losing years trading, we're going to have some losing years, some of the winning"
+    },
+    {
+      "start": 593.46,
+      "end": 598.74,
+      "text": "years are going to be really big, with this particular back test, the average losing year it was negative 11,"
+    },
+    {
+      "start": 598.74,
+      "end": 606.47,
+      "text": "negative 12%, the average winning year was 47%, which created an average year of 30%. Now I'm going to show you,"
+    },
+    {
+      "start": 606.47,
+      "end": 611.43,
+      "text": "we'll try to optimize a bit more, I did find ways to get like 75 or 80% winning years but there's"
+    },
+    {
+      "start": 611.43,
+      "end": 617.59,
+      "text": "going to be some losing years, but you can see the winning years are significantly bigger and it also"
+    },
+    {
+      "start": 617.59,
+      "end": 625.94,
+      "text": "is going to give us data on different timeframes, so if we go to decade, it won 100, this particular"
+    },
+    {
+      "start": 625.94,
+      "end": 635.54,
+      "text": "back test at 100% of decades, the average decade is 22,000% return, which is 20x, so your 100,000 would"
+    },
+    {
+      "start": 635.54,
+      "end": 645.78,
+      "text": "turn into 2,000, but you can see that all of these years we're like weaker like 400% to 300,600%"
+    },
+    {
+      "start": 645.78,
+      "end": 651.75,
+      "text": "we're just good, but I'm going to show you how to get more and say in return, a lot of it was in the 2020s"
+    },
+    {
+      "start": 651.75,
+      "end": 659.85,
+      "text": "because of Bitcoin in this back test, now we can also look at days, we can look at a different period"
+    },
+    {
+      "start": 659.85,
+      "end": 666.73,
+      "text": "returns, see winning days, 48% losing days, 41% this is data we didn't have on trading view,"
+    },
+    {
+      "start": 667.37,
+      "end": 672.41,
+      "text": "so you might think, well, I want to win all every day, well, this is normal to lose about half the"
+    },
+    {
+      "start": 672.41,
+      "end": 678.94,
+      "text": "days and win slightly more days and you're average 20 days a lot more, slightly more, now you might"
+    },
+    {
+      "start": 678.94,
+      "end": 686.18,
+      "text": "also be wondering why it doesn't add up to 100 because it doesn't trade every single day, so we can also"
+    },
+    {
+      "start": 686.18,
+      "end": 698.66,
+      "text": "look at a week, 54% of weeks for winning with this back test, 52%, so it just compounds over time, the"
+    },
+    {
+      "start": 698.66,
+      "end": 709.21,
+      "text": "longer the time friend, the better it does, 56% of winning months, 56% of winning quarters, so later on"
+    },
+    {
+      "start": 709.21,
+      "end": 714.17,
+      "text": "we're going to optimize this and you're going to get trade data, typically the win rate is around 50%"
+    },
+    {
+      "start": 716.1,
+      "end": 725.93,
+      "text": "and the win is a little bit less than 2 times bigger than the loss, so it's you know,"
+    },
+    {
+      "start": 726.98,
+      "end": 731.14,
+      "text": "small expecting seed but one of the beautiful things about the system is that it's likely to"
+    },
+    {
+      "start": 731.22,
+      "end": 736.66,
+      "text": "keep working forever relatively because we've done so many things to create a make it robust"
+    },
+    {
+      "start": 737.54,
+      "end": 745.64,
+      "text": "between in sample out of sample the walk forward parameter optimization testing, sorry parameter"
+    },
+    {
+      "start": 745.64,
+      "end": 753.0,
+      "text": "sensitivity testing is what we call median parameter setting and then also running on so many assets"
+    },
+    {
+      "start": 753.0,
+      "end": 758.44,
+      "text": "for so many decades, it's really generalized it's likely to keep working, so there's a couple of things"
+    },
+    {
+      "start": 758.52,
+      "end": 763.32,
+      "text": "we can do one thing if you want to juice the returns you just risk more, so I'm going to change 100%"
+    },
+    {
+      "start": 763.32,
+      "end": 771.34,
+      "text": "of equity to 200% also there was right now is a 47% max drawdown, what's double and see what happens"
+    },
+    {
+      "start": 771.34,
+      "end": 779.98,
+      "text": "just increase that, so now our max drawdown is 76% which all of you guys maybe wouldn't want to handle"
+    },
+    {
+      "start": 779.98,
+      "end": 790.58,
+      "text": "see might want to risk less but you can see how that changes the average year, the average winning"
+    },
+    {
+      "start": 790.58,
+      "end": 796.66,
+      "text": "year is now 100% gain the average losing year is negative 22, so if you want to be more aggressive"
+    },
+    {
+      "start": 796.66,
+      "end": 802.54,
+      "text": "this is how you can do it, so I'm going to play around with some things we're going to have optimization"
+    },
+    {
+      "start": 802.54,
+      "end": 816.9,
+      "text": "waiting optimization to give you an idea but I just want to try some things like change the size of a little"
+    },
+    {
+      "start": 816.9,
+      "end": 829.53,
+      "text": "bit 70% winning years, I'm going to go back to parameter optimization now where we have comma 200 trail trials"
+    },
+    {
+      "start": 830.17,
+      "end": 835.83,
+      "text": "just play with this increase the number of trials and parameters this is going to make it take longer"
+    },
+    {
+      "start": 838.55,
+      "end": 845.19,
+      "text": "so I'm just going to run it again but you can just see how powerful this is and how useful this is going to"
+    },
+    {
+      "start": 845.19,
+      "end": 853.91,
+      "text": "be it's running 300 it's running 300 back tests and it's picking the best one that's the most it's"
+    },
+    {
+      "start": 853.91,
+      "end": 859.4,
+      "text": "not picking the best one it's identifying the 30 best parameters and picking something in the middle okay"
+    },
+    {
+      "start": 860.2,
+      "end": 864.92,
+      "text": "so this one changed the min pyramid to one which is quite interesting where it doesn't take the first break"
+    },
+    {
+      "start": 864.92,
+      "end": 872.66,
+      "text": "out it only takes the second break out that's quite interesting let's see how this changes the back test"
+    },
+    {
+      "start": 872.66,
+      "end": 883.86,
+      "text": "so let's run a new back test okay and see how much this improved things actually so now we have 75% winning"
+    },
+    {
+      "start": 883.86,
+      "end": 891.51,
+      "text": "years I'm going to change the rest of you again average losing year is negative nine average winning is 41"
+    },
+    {
+      "start": 895.14,
+      "end": 901.22,
+      "text": "the sharp one up a lot or a little bit so I'm going to try increasing the risk"
+    },
+    {
+      "start": 902.98,
+      "end": 911.86,
+      "text": "insane that's great actually this is kind of crazy again you see how much gold carry this portfolio"
+    },
+    {
+      "start": 911.86,
+      "end": 920.17,
+      "text": "so I'm interested in playing around with that a little bit but I mean this looks pretty good to me"
+    },
+    {
+      "start": 920.17,
+      "end": 928.2,
+      "text": "negative draw out a max 55% 75% winning years the average winning year is 60% the average losing"
+    },
+    {
+      "start": 928.2,
+      "end": 935.05,
+      "text": "is 13% again must you guys want to probably make money every year but it's not so simple to do it's"
+    },
+    {
+      "start": 935.05,
+      "end": 941.03,
+      "text": "also not necessary to grow a wealthy I'm just going to play with this a little bit more I'm going to"
+    },
+    {
+      "start": 941.03,
+      "end": 952.22,
+      "text": "reduce gold's position because it was such an outsized part of that particular back test so I'm just"
+    },
+    {
+      "start": 952.22,
+      "end": 961.77,
+      "text": "going to try it so I'm going to run new settings and again you can instead of just doing this on the"
+    },
+    {
+      "start": 961.77,
+      "end": 967.03,
+      "text": "portfolio level you could do it for individual assets and optimize for those whether that's going to"
+    },
+    {
+      "start": 967.03,
+      "end": 974.66,
+      "text": "get better returns or not I don't know look how just changing reducing gold in the portfolio"
+    },
+    {
+      "start": 975.96,
+      "end": 981.32,
+      "text": "the stop loss multiple came down quite a bit so let's see we're running the new back test and see"
+    },
+    {
+      "start": 984.18,
+      "end": 988.66,
+      "text": "now it was Bitcoin that's carried the most not gold so I don't necessarily want that much"
+    },
+    {
+      "start": 988.66,
+      "end": 998.7,
+      "text": "portfolio volatility but now we are up to 77% winning years losing years I mean this is really great right"
+    },
+    {
+      "start": 998.7,
+      "end": 1006.47,
+      "text": "average winning year and the max drawdown is 39%. Now I'm going to reduce Bitcoin more and run the"
+    },
+    {
+      "start": 1006.47,
+      "end": 1014.76,
+      "text": "back test again because the idea is that to increase winning years you have more balance so we're going to"
+    },
+    {
+      "start": 1014.76,
+      "end": 1033.05,
+      "text": "we're going to make it so it optimizes waiting to which gives an idea of how many contracts to run okay and"
+    },
+    {
+      "start": 1033.05,
+      "end": 1043.8,
+      "text": "then I'm going to do one more thing at the end so it's on the back test again now the SPX is the biggest one"
+    },
+    {
+      "start": 1043.88,
+      "end": 1050.07,
+      "text": "on the curve let's see how this change then similar so I mean portfolio waiting doesn't necessarily"
+    },
+    {
+      "start": 1050.07,
+      "end": 1055.59,
+      "text": "need to change things that much now the last thing I'm going to do so we have this percentage of equity"
+    },
+    {
+      "start": 1055.59,
+      "end": 1064.46,
+      "text": "I'm going to change it to fix the units and units 10 I boy that is essentially one contract we'll start"
+    },
+    {
+      "start": 1064.46,
+      "end": 1073.34,
+      "text": "with say a $25,000 account and let's set to for 10 years ago and this will kind of tell us how much money"
+    },
+    {
+      "start": 1073.42,
+      "end": 1085.27,
+      "text": "we made if we traded this this way so let's set 2015 till now I must run the back test"
+    },
+    {
+      "start": 1088.5,
+      "end": 1097.02,
+      "text": "it's showing a million dollar game with a 61% drawdown so I mean this is how it would have looked"
+    },
+    {
+      "start": 1099.82,
+      "end": 1109.3,
+      "text": "by year you know it's interesting it's showing 59% for 2025 when I did 500% for 2025"
+    },
+    {
+      "start": 1110.54,
+      "end": 1117.35,
+      "text": "but this just gives an idea of what's possible but look with this particular settings it actually"
+    },
+    {
+      "start": 1117.35,
+      "end": 1126.31,
+      "text": "didn't basically didn't make anything from 2021 2022 2022 2023 it's interesting and just want crazy in"
+    },
+    {
+      "start": 1127.43,
+      "end": 1135.5,
+      "text": "December 2020 but that's the power of compounding averaging 70% a year these years to 100% 100%"
+    },
+    {
+      "start": 1135.98,
+      "end": 1144.34,
+      "text": "so I do think I'm going to run one more parameter optimization for the past 10 years and see"
+    },
+    {
+      "start": 1144.98,
+      "end": 1152.39,
+      "text": "but the idea is to use the thing that generally works the most and I mean I'm still happy to use a stop"
+    },
+    {
+      "start": 1152.39,
+      "end": 1162.52,
+      "text": "loss of around 5 it kind of makes sense to me okay so let's run the back test and see"
+    },
+    {
+      "start": 1164.54,
+      "end": 1171.22,
+      "text": "2 million okay now I'm curious about the years so it's showing it's interesting it shows a 5% return"
+    },
+    {
+      "start": 1171.22,
+      "end": 1179.06,
+      "text": "for 2025 probably because silver was a small part of the portfolio but some of these years were"
+    },
+    {
+      "start": 1179.06,
+      "end": 1185.86,
+      "text": "such big returns I'm going to increase silver and see how that if that if it like picks that up"
+    },
+    {
+      "start": 1186.71,
+      "end": 1195.08,
+      "text": "because that's I mean the reason one of the reasons we did so well last year was because of silver"
+    },
+    {
+      "start": 1195.08,
+      "end": 1218.97,
+      "text": "run the back test again and that made things worse why doesn't it show a huge gain on silver I think"
+    },
+    {
+      "start": 1219.05,
+      "end": 1230.25,
+      "text": "maybe it doesn't compound I'm kind of confused still it's good this this is now showing a hundred"
+    },
+    {
+      "start": 1230.25,
+      "end": 1241.78,
+      "text": "percent winning years so it can't be too much about that it's probably because it goes down because it's"
+    },
+    {
+      "start": 1241.78,
+      "end": 1251.96,
+      "text": "not compounding okay anyways I'll be fine this helpful and useful and please share performance"
+    },
+    {
+      "start": 1251.96,
+      "end": 1255.8,
+      "text": "returns you got with the group okay appreciate you all in a well huh"
+    }
+  ]
+}

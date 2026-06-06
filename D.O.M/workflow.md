@@ -4,6 +4,30 @@
 
 ---
 
+## CURRENT STATE — 2026-05-26
+
+**DONE:**
+- Niger Delta Ancestral Altar Protocol v1 — `ancestral/dom_ancestral_niger-delta-altar-protocol_v1.md`
+- Niger Delta Ancestral Altar Protocol v2 — `ancestral/dom_ancestral_niger-delta-altar-protocol_v2.md`
+  - v2 additions: Part 0 (Two Working Modes + Elevation Sensing Protocol), Healing Mode for recent ancestors, 7 Risks framework (replaces "What Not To Do"), devotion framing in Premise, 4 Elements in Practice added to Part VI
+  - Source: drd_decode_rootwurk-tiktok-collection_v1.md
+
+**DECIDED:**
+- v2 is the active protocol — v1 superseded
+- Altar is the primary ancestral practice foundation
+- Two modes (Healing/Elevating vs Petitioning) must be maintained as distinct operations
+- Elevation Sensing Protocol is the core skill to develop in the first months
+
+**NEXT:**
+- Perform the opening ceremony using v2
+- Build lineage names recovery file (`dom_ancestral_lineage-names_v1.md`) — requires Morph input on family names
+- Begin dream log (`dom_ancestral_dream-log_2026-05.md`)
+- D.C.E rootwurk content production — ON HOLD (not pursuing at this time)
+
+---
+
+---
+
 ## WHAT THIS WORKFLOW IS
 
 The process for developing, testing, and integrating new magical practices, rituals, or working methods into Morph's sovereign system. Also used when revisiting existing practices that need refinement or retirement.

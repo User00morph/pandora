@@ -1,0 +1,942 @@
+{
+  "video_id": "GE4JISxYuXY",
+  "title": "Options Flow: The Edge You've Been Looking For",
+  "language": "en",
+  "language_confidence": 0.99,
+  "duration_seconds": 802.6,
+  "processing_seconds": 144.5,
+  "word_count": 1961,
+  "status": "ok",
+  "segments": [
+    {
+      "start": 0.11,
+      "end": 7.11,
+      "text": "Drawing lines and boxes on chart, believing there is liquidity and confirming trades by FWG closed will never make you profitable."
+    },
+    {
+      "start": 7.11,
+      "end": 12.11,
+      "text": "You see, we've been told by many influencers that liquidity is what runs the markets."
+    },
+    {
+      "start": 12.11,
+      "end": 15.11,
+      "text": "But my question to you, where is data?"
+    },
+    {
+      "start": 15.11,
+      "end": 19.11,
+      "text": "What company on Wall Street uses these concepts?"
+    },
+    {
+      "start": 19.11,
+      "end": 23.11,
+      "text": "Answer is right. No one. No one uses these concepts."
+    },
+    {
+      "start": 23.11,
+      "end": 29.11,
+      "text": "Those concepts are made for influences to make profits on you to sell courses."
+    },
+    {
+      "start": 29.11,
+      "end": 33.11,
+      "text": "It's not about psychology, like guru always say, it's about your edge."
+    },
+    {
+      "start": 33.11,
+      "end": 39.11,
+      "text": "And if you tired of blowing accounts and losing, and if you want to take trades like these from this month,"
+    },
+    {
+      "start": 39.11,
+      "end": 46.11,
+      "text": "listen closely, I'm going to reveal that single market mechanic that made me profitable and made me consistent."
+    },
+    {
+      "start": 46.11,
+      "end": 51.11,
+      "text": "You see, option slow is what causes price and futures like NQ or ES to move."
+    },
+    {
+      "start": 51.11,
+      "end": 58.11,
+      "text": "Because future markets are underlying of indices, market makers have to hatch their positions on art."
+    },
+    {
+      "start": 58.11,
+      "end": 71.11,
+      "text": "Market makers that provide liquidity on SPI, QQQ, SPX, NDX, those biggest, biggest options for indices."
+    },
+    {
+      "start": 71.11,
+      "end": 74.11,
+      "text": "Have to hatch their positions on ES and NQ."
+    },
+    {
+      "start": 74.11,
+      "end": 80.11,
+      "text": "So, most traders, when they learn options, they learn it from their own perspective."
+    },
+    {
+      "start": 80.11,
+      "end": 85.11,
+      "text": "You buy a call, Delta goes up, you profit when NQ goes up."
+    },
+    {
+      "start": 85.11,
+      "end": 92.11,
+      "text": "Okay, that's very simple. But that tells you almost nothing about what actually moves to market."
+    },
+    {
+      "start": 92.11,
+      "end": 98.11,
+      "text": "The thing that moves NQ every single day is what the other side of your trade has to do."
+    },
+    {
+      "start": 98.11,
+      "end": 105.11,
+      "text": "So, when you buy a call, when you long someone sold it to you, that's someone almost always a market maker."
+    },
+    {
+      "start": 105.11,
+      "end": 107.11,
+      "text": "We call them a dealer."
+    },
+    {
+      "start": 108.11,
+      "end": 111.11,
+      "text": "And you see from ICT perspective, that's always liquidity."
+    },
+    {
+      "start": 111.11,
+      "end": 116.11,
+      "text": "That's always someone on the other side from the trade, that's always someone who runs their stop losses."
+    },
+    {
+      "start": 116.11,
+      "end": 119.11,
+      "text": "You know, but that's completely wrong."
+    },
+    {
+      "start": 119.11,
+      "end": 123.11,
+      "text": "The dealer has a problem. They just took on the risk, they don't want."
+    },
+    {
+      "start": 123.11,
+      "end": 126.11,
+      "text": "So, they immediately start hatching."
+    },
+    {
+      "start": 126.11,
+      "end": 134.11,
+      "text": "That hatching, buying or selling NQ futures to stay neutral, that is the flow that you see on your tape, right?"
+    },
+    {
+      "start": 134.11,
+      "end": 138.3,
+      "text": "So, that happens every single day."
+    },
+    {
+      "start": 138.3,
+      "end": 142.3,
+      "text": "This is the foundation of everything that we're going to cover today."
+    },
+    {
+      "start": 142.3,
+      "end": 144.3,
+      "text": "So, who exactly is this dealer?"
+    },
+    {
+      "start": 144.3,
+      "end": 152.3,
+      "text": "When you go and buy a call option on NQ, you're clicking buy on your platform, whatever broker that is."
+    },
+    {
+      "start": 152.3,
+      "end": 154.3,
+      "text": "But who is on other side?"
+    },
+    {
+      "start": 154.3,
+      "end": 158.3,
+      "text": "Okay? In most cases, it's a market maker."
+    },
+    {
+      "start": 158.3,
+      "end": 162.3,
+      "text": "These are firms like Jay and Street, and so on."
+    },
+    {
+      "start": 162.3,
+      "end": 169.3,
+      "text": "Whose entire business model is to create markets, you know, to provide liquidity in option markets."
+    },
+    {
+      "start": 169.3,
+      "end": 172.37,
+      "text": "So, here's the key thing about them."
+    },
+    {
+      "start": 172.37,
+      "end": 175.37,
+      "text": "They don't have a view on where NQ is going."
+    },
+    {
+      "start": 175.37,
+      "end": 178.37,
+      "text": "Okay? They don't profit from NQ going anywhere."
+    },
+    {
+      "start": 178.37,
+      "end": 181.37,
+      "text": "They just have to create markets."
+    },
+    {
+      "start": 181.37,
+      "end": 185.37,
+      "text": "They have to make sure that markets aren't there because that's their job."
+    },
+    {
+      "start": 185.37,
+      "end": 193.37,
+      "text": "So, the moment they sell you call, they turn around and immediately buy NQ futures to offset the risk."
+    },
+    {
+      "start": 193.37,
+      "end": 200.37,
+      "text": "And the moment anything changes, price moves, volatility moves, time passes, they have to rehatch."
+    },
+    {
+      "start": 200.37,
+      "end": 202.37,
+      "text": "They have to adjust their position, right?"
+    },
+    {
+      "start": 202.37,
+      "end": 205.37,
+      "text": "So, that constant rehatching is mechanical."
+    },
+    {
+      "start": 205.37,
+      "end": 207.37,
+      "text": "There is nothing emotional about it."
+    },
+    {
+      "start": 207.37,
+      "end": 209.37,
+      "text": "There is no one hunting your stop loss."
+    },
+    {
+      "start": 209.37,
+      "end": 214.37,
+      "text": "It just happens every day for billions, dollars worth of it."
+    },
+    {
+      "start": 214.37,
+      "end": 220.37,
+      "text": "One thing that I want you to remember from this video is dealers are always trying to be Dalton neutral."
+    },
+    {
+      "start": 220.37,
+      "end": 224.37,
+      "text": "So, every time price moves, they rehatch."
+    },
+    {
+      "start": 224.37,
+      "end": 226.37,
+      "text": "Every time, volume moves, they rehatch."
+    },
+    {
+      "start": 226.37,
+      "end": 230.37,
+      "text": "Every time time passes, they have to rehatch."
+    },
+    {
+      "start": 230.37,
+      "end": 234.37,
+      "text": "So, next time you're watching NQ around 10 a.m."
+    },
+    {
+      "start": 234.37,
+      "end": 237.37,
+      "text": "And it just starts drifting car out of nowhere."
+    },
+    {
+      "start": 237.37,
+      "end": 245.37,
+      "text": "Or you see some bullshit PA like everyone say in April, March, February, every month possible."
+    },
+    {
+      "start": 245.37,
+      "end": 250.37,
+      "text": "Ask yourself, what's option slow is doing in that moment?"
+    },
+    {
+      "start": 250.37,
+      "end": 254.37,
+      "text": "Nine times out of a 10, when move looks random, it's not."
+    },
+    {
+      "start": 254.37,
+      "end": 255.37,
+      "text": "Okay, it's mechanical."
+    },
+    {
+      "start": 255.37,
+      "end": 259.37,
+      "text": "And once you understand this mechanic, you're going to become profitable."
+    },
+    {
+      "start": 259.37,
+      "end": 261.37,
+      "text": "Okay, let's get into the actual Greeks."
+    },
+    {
+      "start": 261.37,
+      "end": 264.37,
+      "text": "Greeks are the mechanics that move the markets."
+    },
+    {
+      "start": 264.37,
+      "end": 271.37,
+      "text": "So, starting with Delta Delta tells you how much an option price moves for every $1 move on NQ."
+    },
+    {
+      "start": 271.37,
+      "end": 278.37,
+      "text": "So, let's say if you buy a call, which is an equivalent of long in option markets,"
+    },
+    {
+      "start": 278.37,
+      "end": 282.37,
+      "text": "the dealer soldered to you now has negative Delta."
+    },
+    {
+      "start": 282.37,
+      "end": 285.37,
+      "text": "NQ is going up, hurts them."
+    },
+    {
+      "start": 285.37,
+      "end": 288.37,
+      "text": "To fix that, they buy NQ futures."
+    },
+    {
+      "start": 288.37,
+      "end": 290.37,
+      "text": "Okay, now they're neutral again."
+    },
+    {
+      "start": 290.37,
+      "end": 292.37,
+      "text": "They have to stay neutral."
+    },
+    {
+      "start": 292.37,
+      "end": 296.37,
+      "text": "When you buy a put, which is a equivalent of short in option market,"
+    },
+    {
+      "start": 296.37,
+      "end": 298.37,
+      "text": "dealer has positive Delta."
+    },
+    {
+      "start": 298.37,
+      "end": 301.37,
+      "text": "And you're going down, hurts them."
+    },
+    {
+      "start": 301.37,
+      "end": 304.4,
+      "text": "To fix that, they sell NQ futures."
+    },
+    {
+      "start": 304.4,
+      "end": 307.4,
+      "text": "So, if you look at the table right here,"
+    },
+    {
+      "start": 307.4,
+      "end": 312.3,
+      "text": "the dealer always does the opposite of what you did."
+    },
+    {
+      "start": 312.3,
+      "end": 315.3,
+      "text": "So, you need to burn the start into your memory."
+    },
+    {
+      "start": 315.3,
+      "end": 320.3,
+      "text": "This is the mechanical foundation of everything that we're going to talk about today."
+    },
+    {
+      "start": 321.3,
+      "end": 323.3,
+      "text": "Now, Delta is in the fixed number."
+    },
+    {
+      "start": 323.3,
+      "end": 326.3,
+      "text": "It's changes constantly as price moves."
+    },
+    {
+      "start": 326.3,
+      "end": 329.3,
+      "text": "So, the rate of change is called Gamma."
+    },
+    {
+      "start": 329.3,
+      "end": 335.3,
+      "text": "And Gamma is the most important Greek is the most important options mechanic for understanding"
+    },
+    {
+      "start": 335.3,
+      "end": 338.3,
+      "text": "what NQ, ES is going to do."
+    },
+    {
+      "start": 338.3,
+      "end": 340.3,
+      "text": "So, here is the problem for dealers."
+    },
+    {
+      "start": 340.3,
+      "end": 348.3,
+      "text": "If price moves, their Delta changes, which means their hatch is constantly getting out of the balance."
+    },
+    {
+      "start": 348.3,
+      "end": 350.3,
+      "text": "They have to keep adjusting."
+    },
+    {
+      "start": 350.3,
+      "end": 358.3,
+      "text": "Now, there are two regimes based on whether dealers are long Gamma or short Gamma."
+    },
+    {
+      "start": 358.3,
+      "end": 362.3,
+      "text": "Positive Gamma meaning dealers are long Gamma."
+    },
+    {
+      "start": 362.3,
+      "end": 367.3,
+      "text": "If you look at the green column, when NQ goes up, their Delta increases."
+    },
+    {
+      "start": 367.3,
+      "end": 369.3,
+      "text": "So, they sell to re- hatch."
+    },
+    {
+      "start": 369.3,
+      "end": 374.3,
+      "text": "When NQ goes down, their Delta decreases, so they buy."
+    },
+    {
+      "start": 374.3,
+      "end": 378.3,
+      "text": "They're constantly fighting the move price gets pinned."
+    },
+    {
+      "start": 378.3,
+      "end": 382.3,
+      "text": "So, price is going to stay inside that range."
+    },
+    {
+      "start": 382.3,
+      "end": 387.3,
+      "text": "So, from the other side, negative Gamma meaning dealers are short Gamma."
+    },
+    {
+      "start": 387.3,
+      "end": 393.3,
+      "text": "So, if you look at the red column, when NQ goes up, they need to buy more."
+    },
+    {
+      "start": 393.3,
+      "end": 396.3,
+      "text": "When NQ goes down, they need to sell more."
+    },
+    {
+      "start": 396.3,
+      "end": 399.3,
+      "text": "They're amplifying every move."
+    },
+    {
+      "start": 399.3,
+      "end": 401.3,
+      "text": "So, price is going to accelerate."
+    },
+    {
+      "start": 401.3,
+      "end": 405.3,
+      "text": "You see how we're going to adopt different market conditions."
+    },
+    {
+      "start": 405.3,
+      "end": 411.3,
+      "text": "Just by utilizing this simple concept of positive and negative Gamma."
+    },
+    {
+      "start": 411.3,
+      "end": 417.3,
+      "text": "But to simplify it, all positive Gamma means mean re-boring environment."
+    },
+    {
+      "start": 417.3,
+      "end": 422.3,
+      "text": "And negative Gamma means aggressive continuation environment."
+    },
+    {
+      "start": 422.3,
+      "end": 426.3,
+      "text": "But let's break down positive Gamma in detail because this is the environment."
+    },
+    {
+      "start": 426.3,
+      "end": 429.3,
+      "text": "NQ is most of the time."
+    },
+    {
+      "start": 429.3,
+      "end": 433.3,
+      "text": "So, we know it's from 80, 70% of the time."
+    },
+    {
+      "start": 433.3,
+      "end": 435.3,
+      "text": "We're going to stay in the range."
+    },
+    {
+      "start": 435.3,
+      "end": 436.3,
+      "text": "You can see that here."
+    },
+    {
+      "start": 436.3,
+      "end": 438.3,
+      "text": "Okay, there's a simple NQ theory."
+    },
+    {
+      "start": 438.3,
+      "end": 441.3,
+      "text": "So, if you see NQ starts moving up."
+    },
+    {
+      "start": 441.3,
+      "end": 446.36,
+      "text": "That cold dealers sold are getting closer to in the money."
+    },
+    {
+      "start": 446.36,
+      "end": 449.36,
+      "text": "Okay, their Delta is going to increase."
+    },
+    {
+      "start": 449.36,
+      "end": 452.36,
+      "text": "Now, the existing NQ hatch is too small."
+    },
+    {
+      "start": 452.36,
+      "end": 456.36,
+      "text": "And they need to sell NQ to get back to neutral."
+    },
+    {
+      "start": 456.36,
+      "end": 461.36,
+      "text": "So, NQ then moves down, Delta decreases, hatch is now too large."
+    },
+    {
+      "start": 461.36,
+      "end": 463.36,
+      "text": "And they need to buy NQ."
+    },
+    {
+      "start": 463.36,
+      "end": 466.36,
+      "text": "So, this is the home mechanic of how their work is."
+    },
+    {
+      "start": 466.36,
+      "end": 470.36,
+      "text": "You can see why this creates this rubber band effect, this mini-reverting environment."
+    },
+    {
+      "start": 470.36,
+      "end": 474.36,
+      "text": "Every move in either direction gets faded by dealer mechanics."
+    },
+    {
+      "start": 474.36,
+      "end": 478.36,
+      "text": "And on your chart, it's going to be tight ranges, field breakouts,"
+    },
+    {
+      "start": 478.36,
+      "end": 485.36,
+      "text": "absorption at the highs and, you know, weeks slowly drifting lower."
+    },
+    {
+      "start": 485.36,
+      "end": 490.39,
+      "text": "So, the best trading approach in this environment is faith extensions."
+    },
+    {
+      "start": 490.39,
+      "end": 493.39,
+      "text": "Take profits quickly, don't chase breakouts."
+    },
+    {
+      "start": 493.39,
+      "end": 499.39,
+      "text": "If you want to trade continuation, please wait until enough confirmation."
+    },
+    {
+      "start": 499.39,
+      "end": 503.39,
+      "text": "Now, negative gamma, this is the regime that traps most of the traders."
+    },
+    {
+      "start": 503.39,
+      "end": 507.39,
+      "text": "So, it has the same mechanic, but the opposite result."
+    },
+    {
+      "start": 507.39,
+      "end": 511.39,
+      "text": "If NQ moves up, dealers are short those calls."
+    },
+    {
+      "start": 511.39,
+      "end": 518.39,
+      "text": "So, their negative Delta exposure gets worse as price rises, okay?"
+    },
+    {
+      "start": 518.39,
+      "end": 521.39,
+      "text": "So, they need to buy NQ to re- hatch."
+    },
+    {
+      "start": 521.39,
+      "end": 524.39,
+      "text": "That buying adds to the upward move."
+    },
+    {
+      "start": 524.39,
+      "end": 527.39,
+      "text": "NQ moves down, they need to sell more."
+    },
+    {
+      "start": 527.39,
+      "end": 530.39,
+      "text": "That selling adds to the downward move."
+    },
+    {
+      "start": 530.39,
+      "end": 533.39,
+      "text": "So, instead of fighting them move, they are sponsoring it."
+    },
+    {
+      "start": 533.39,
+      "end": 535.39,
+      "text": "They are part of the move."
+    },
+    {
+      "start": 535.39,
+      "end": 540.39,
+      "text": "So, this is why NQ can drop those ridiculous 400, 500 points in a matter of few hours."
+    },
+    {
+      "start": 540.39,
+      "end": 545.39,
+      "text": "That's why dealers are being to sell mechanically, okay?"
+    },
+    {
+      "start": 545.39,
+      "end": 548.42,
+      "text": "Every down take triggers more selling."
+    },
+    {
+      "start": 548.42,
+      "end": 551.42,
+      "text": "And, on your chart, it's going to be a strong trend."
+    },
+    {
+      "start": 551.42,
+      "end": 555.42,
+      "text": "Normally, you're going to think how the hell do I get in this position now,"
+    },
+    {
+      "start": 555.42,
+      "end": 557.42,
+      "text": "because I want to be a part of it."
+    },
+    {
+      "start": 557.42,
+      "end": 561.55,
+      "text": "So, your approach for negative gamma,"
+    },
+    {
+      "start": 561.55,
+      "end": 563.55,
+      "text": "do not fade these moves."
+    },
+    {
+      "start": 563.55,
+      "end": 566.55,
+      "text": "If you do, you're finding a mechanical force."
+    },
+    {
+      "start": 566.55,
+      "end": 577.55,
+      "text": "And, you just need to make sure you have enough confirmation from other catalysts from other mechanics like order flow like AMT and so on."
+    },
+    {
+      "start": 577.55,
+      "end": 580.55,
+      "text": "Now, let's talk about what happens when volatility moves."
+    },
+    {
+      "start": 580.55,
+      "end": 582.55,
+      "text": "That's vana."
+    },
+    {
+      "start": 582.55,
+      "end": 585.55,
+      "text": "So, you don't need to understand the full math behind it."
+    },
+    {
+      "start": 585.55,
+      "end": 587.55,
+      "text": "Let me explain in a simple way."
+    },
+    {
+      "start": 587.55,
+      "end": 591.55,
+      "text": "When VIX is going to drop, dealers are forced to buy NQ."
+    },
+    {
+      "start": 591.55,
+      "end": 596.55,
+      "text": "When VIX arises, dealers are forced to sell NQ."
+    },
+    {
+      "start": 596.55,
+      "end": 599.55,
+      "text": "So, you see it constantly the same scenario."
+    },
+    {
+      "start": 599.55,
+      "end": 602.55,
+      "text": "VIX is going to spike, NQ drops hard."
+    },
+    {
+      "start": 602.55,
+      "end": 609.55,
+      "text": "Everyone is going to panic, but then a few days later, nothing changes, no big news,"
+    },
+    {
+      "start": 609.55,
+      "end": 612.55,
+      "text": "but NQ just starts slowly drifting higher."
+    },
+    {
+      "start": 612.55,
+      "end": 615.55,
+      "text": "There is no buyer on the table, there is no reason for that."
+    },
+    {
+      "start": 615.55,
+      "end": 619.55,
+      "text": "No catalysts, and it's normally where people get liquidity a lot."
+    },
+    {
+      "start": 619.55,
+      "end": 623.55,
+      "text": "It just grinds up, but the reason for that is vana."
+    },
+    {
+      "start": 623.55,
+      "end": 630.55,
+      "text": "So, VIX is quite fading back down, and dealers are mechanically buying NQ in the background."
+    },
+    {
+      "start": 630.55,
+      "end": 631.55,
+      "text": "Okay?"
+    },
+    {
+      "start": 631.55,
+      "end": 636.55,
+      "text": "That is one thing you can see neither on order flow nor on the chart."
+    },
+    {
+      "start": 636.55,
+      "end": 639.58,
+      "text": "So, how I use it practically."
+    },
+    {
+      "start": 639.58,
+      "end": 644.58,
+      "text": "Every morning I check VIX first before I even look at NQ."
+    },
+    {
+      "start": 644.58,
+      "end": 651.58,
+      "text": "If VIX is declining and buys long, if VIX is rising, I much more cautious on long."
+    },
+    {
+      "start": 651.58,
+      "end": 652.58,
+      "text": "Okay?"
+    },
+    {
+      "start": 652.58,
+      "end": 655.58,
+      "text": "That same mechanic is now working against me."
+    },
+    {
+      "start": 655.58,
+      "end": 656.58,
+      "text": "Okay?"
+    },
+    {
+      "start": 656.58,
+      "end": 658.58,
+      "text": "So, this is one rule for you to remember."
+    },
+    {
+      "start": 658.58,
+      "end": 663.58,
+      "text": "Every time every morning check the sod before you look at anything else."
+    },
+    {
+      "start": 663.58,
+      "end": 665.58,
+      "text": "Last Greek is charm."
+    },
+    {
+      "start": 665.58,
+      "end": 671.58,
+      "text": "This one is very simple, and I will keep it short, because for your morning trading, it barely affects you."
+    },
+    {
+      "start": 671.58,
+      "end": 677.58,
+      "text": "So, as the big goes on, options from current price start losing their belts, just because of time passing."
+    },
+    {
+      "start": 677.58,
+      "end": 686.58,
+      "text": "So, dealers slowly remove their NQ hatches as a result, and that creates a slow directional drift in the afternoon."
+    },
+    {
+      "start": 686.58,
+      "end": 688.58,
+      "text": "That's charm."
+    },
+    {
+      "start": 688.58,
+      "end": 696.62,
+      "text": "So, but if you are like me and you trade the first 90 minutes, charm is basically zero and you window."
+    },
+    {
+      "start": 696.62,
+      "end": 707.62,
+      "text": "The morning, you know, I trade the morning, and this is the cleanest time window for these mechanics to play out."
+    },
+    {
+      "start": 707.62,
+      "end": 717.68,
+      "text": "What you're going to read on your table is pure gamma or vanna, but the one practical thing charm gives you every afternoon."
+    },
+    {
+      "start": 717.68,
+      "end": 724.68,
+      "text": "And you get to put toward the nearest key gamma exposure level as charm runs."
+    },
+    {
+      "start": 724.68,
+      "end": 725.68,
+      "text": "Okay?"
+    },
+    {
+      "start": 725.68,
+      "end": 740.81,
+      "text": "So, by the close, NQ tends to be sitting near or at the significant level either the HVL or the zero DTE put support, call resistance, whatever you name."
+    },
+    {
+      "start": 740.81,
+      "end": 741.81,
+      "text": "Okay?"
+    },
+    {
+      "start": 741.81,
+      "end": 751.81,
+      "text": "So, in your morning prep, look at where NQ closed yesterday and match it with your option provider levels."
+    },
+    {
+      "start": 751.81,
+      "end": 753.81,
+      "text": "Let's wrap up this first episode."
+    },
+    {
+      "start": 753.81,
+      "end": 759.81,
+      "text": "We have four weeks, four forces, and each one creates a different type of NQ behavior."
+    },
+    {
+      "start": 759.81,
+      "end": 764.81,
+      "text": "So, delta tells you which direction dealers are hedging right now."
+    },
+    {
+      "start": 764.81,
+      "end": 770.81,
+      "text": "Gamma tells you whether move, get, pin, or accelerate it."
+    },
+    {
+      "start": 770.81,
+      "end": 777.81,
+      "text": "Vanna tells you what happens when big moves and charm tells you about time-based drift."
+    },
+    {
+      "start": 777.81,
+      "end": 784.81,
+      "text": "Every morning, before you trade, one question, which of these forces is dominant today."
+    },
+    {
+      "start": 784.81,
+      "end": 785.81,
+      "text": "Okay?"
+    },
+    {
+      "start": 785.81,
+      "end": 789.81,
+      "text": "This framework is not about entries, okay?"
+    },
+    {
+      "start": 789.81,
+      "end": 790.81,
+      "text": "It's not about psychology."
+    },
+    {
+      "start": 790.81,
+      "end": 797.81,
+      "text": "It gives you context and context and defining the right market conditions is what separates"
+    },
+    {
+      "start": 797.81,
+      "end": 801.81,
+      "text": "consistently profitable traders from everyone else."
+    }
+  ]
+}

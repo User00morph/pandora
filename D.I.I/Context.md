@@ -288,5 +288,17 @@ dii_oracle_[method].md
 
 ---
 
+---
+
+## INCOMING D.R.D RESEARCH
+
+| Topic | Brief | Confidence | Deployed |
+|-------|-------|------------|---------|
+| US Corporation / Sovereign Living Entity | [`drd_brief_dii_us-corporation-sovereign-living-entity_deployed.md`](../D.R.D/briefs/drd_brief_dii_us-corporation-sovereign-living-entity_deployed.md) | Mixed (Established DeFi mechanics + Probable legal structure) | 2026-05-27 (updated) |
+
+Key findings for D.I.I: DeFi = functional banking exit architecture (operational now — stablecoins / lending / DEX / insurance / margin); Trust + crypto = no taxable event; Wyoming DAO LLC = sovereign business structure for DeFi-native operations; XRP = institutional bridge (NOT the sovereign tech stack's settlement layer); Bitcoin/ETH inside FIET = correct architecture; blockchain = Aquarian Age tech (information liberation + binding layer — use the freedom side, avoid the binding side); 2026 = Silicon breakout year = strategic build window; D.I.I is the Aquarian department — build on Aquarian rails.
+
+---
+
 *D.I.I | Pandora OS | Department 7 of 12*
 *"A tool used with clear intention produces different results than the same tool used without it."*

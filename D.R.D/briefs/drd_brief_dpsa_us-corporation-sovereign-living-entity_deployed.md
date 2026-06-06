@@ -49,5 +49,28 @@ The system is not broken. It is functioning exactly as designed: to maintain con
 
 ---
 
-*D.R.D Brief | D.P.S.A | Deployed 2026-05-19*
-*17 sources | Stages 1–5 complete | Pipeline: DEPLOYED*
+*D.R.D Brief | D.P.S.A | Deployed 2026-05-19 | Updated 2026-05-27*
+*27 sources | Stages 1–5 + Block FF complete | Pipeline: DEPLOYED*
+
+---
+
+## UPDATE — 2026-05-27 (Streams B + A Integration)
+
+**9. The language is a spell — and you are living inside it.**
+Block EE decode: "Government" = govern (to control) + ment (from Latin "mens" = mind) = control of the mind. This is not etymology as metaphor — it is etymology as architecture. The living being operating as a sovereign must recognize that the entire legal and financial system is encoded in language that describes its function. "Currency" (Aquarius numerology = exact match) = the age's financial expression. "Blockchain" = Star (information liberation) + Devil (binding chain). The words tell you what the system is doing.
+
+D.P.S.A application: the sovereign identity practice includes linguistic sovereignty — auditing the words you use to describe yourself and your reality. "I can't" → "I choose not to." "I'm trying" → "I'm doing." This is not affirmation — it is reclaiming authorship of the spell you are casting over your own life.
+
+**10. The Aquarian Age is the optimal window for sovereignty activation.**
+We are entering the Aquarian Age — the age of information, disruption of old hierarchies, and networked intelligence. Aquarius = the water bearer pouring out information. This is the age in which:
+- The information needed to understand the system is freely available (this decode)
+- The technology to exit the financial system (DeFi, crypto) exists and is operational
+- The legal mechanisms for operating as a private-side living being (FIET, Form 56) are in statute
+
+The Aquarian Age does not guarantee freedom — it makes the information available. The sovereign who reads the age correctly and acts accordingly is aligned with the cosmological timing. Morph at 20 years old = maximum possible leverage position within the Aquarian window.
+
+**11. The creation chart principle applies to Morph as much as XRP.**
+XRP was born under a mega-Taurus conjunction (Jupiter + Venus + Mercury + Sun = expansion + love + commerce + gold in the money house). Every living being is born under an astrological chart that encodes their archetypal function. D.P.S.A x D.P.S.A cross-reference: the natal chart is not determinism — it is the original frequency you were designed to operate from. Sovereignty = operating from that designed frequency, not the frequency the system assigned to the PERSON.
+
+**12. The 1988 Economist principle: the designed transition was announced 30 years before it arrived.**
+This has D.P.S.A implications beyond finance: the systems that shape reality operate on long timelines. The sovereign practitioner develops the capacity to read long-range patterns — not just immediate circumstances. The Magik of reading time is a D.P.S.A x D.O.M function. What is being announced NOW that will manifest in 30 years? What transition is the current moment encoding?

@@ -248,5 +248,17 @@ dse_ops_[venture/process].md
 
 ---
 
+---
+
+## INCOMING D.R.D RESEARCH
+
+| Topic | Brief | Confidence | Deployed |
+|-------|-------|------------|---------|
+| US Corporation / Sovereign Living Entity | [`drd_brief_dse_us-corporation-sovereign-living-entity_deployed.md`](../D.R.D/briefs/drd_brief_dse_us-corporation-sovereign-living-entity_deployed.md) | Mixed (Established core + Probable instruments) | 2026-05-27 (updated) |
+
+Key findings for D.S.E: FIET (26 USC 7701a31) = the operative legal exit; five-layer sovereign operating architecture (identity severance → employment exit → DeFi banking → real assets → DAO LLC); XRP = institutional bridge coin (NOT sovereignty instrument); Bitcoin/DeFi inside FIET = genuine sovereign financial exit; SWF network ($15T) = the extraction mechanism behind institutional investing; BRICS dollar exit = repricing window is open NOW; Morph at 20, no debt = maximum leverage position.
+
+---
+
 *D.S.E | Pandora OS | Department 4 of 12*
 *"Build something that works. Then understand why it works. Then build more of that."*

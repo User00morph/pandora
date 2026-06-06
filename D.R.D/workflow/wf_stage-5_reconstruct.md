@@ -30,6 +30,15 @@ If the research found something that contradicts an existing OS position — nam
 **5. WHAT DOES THIS MEAN FOR THE REQUESTING DEPARTMENT?**
 Translate findings into the specific context of whoever requested the research. What changes? What does this enable? What should be reconsidered?
 
+**5B. GAME THEORY SYNTHESIS** *(if Game Theory Overlay was run at Stage 4)*
+The Overlay produced: stated vs. actual game, player/operator map, extraction tier, coordination mechanism, cycle phase, constraints, and leverage point.
+
+The reconstruction now answers:
+- What is the sovereign position on how this system actually works — now that the board is mapped?
+- What does the current cycle phase mean for Morph's positioning or action within this domain?
+- What is the identified leverage point — and is it actionable from the sovereign position?
+- If a game reset is signaled: what old patterns are breaking, and what does the emerging architecture look like?
+
 **6. WHAT FOLLOW-UP RESEARCH WOULD STRENGTHEN WEAK FINDINGS?**
 Identify the specific questions that remain open and what sources would resolve them. Add these to `DRD_INDEX.md` under QUEUED RESEARCH.
 
@@ -37,9 +46,17 @@ Identify the specific questions that remain open and what sources would resolve 
 
 ## CRITICAL RULE
 
+**Category A (evaluative):**
 > The reconstruction must be honest about uncertainty.
 > "The evidence suggests X, though Y remains contested" is a stronger sovereign position than false certainty.
 > False certainty fails when tested. Honest uncertainty can be built on.
+
+**Category B (confirmation):**
+> The sovereign position is the reconstruction's foundation — not its conclusion to be earned.
+> The reconstruction confirms and strengthens it with whatever tier evidence was found.
+> Items that could not be confirmed are listed as HELD (internal doctrine) or FLAGGED (Morph decides).
+> The reconstruction does not revise the sovereign position downward based on absence of corroboration.
+> It states what was confirmed, what tier that confirmation reached, and what remains as a FLAG for Morph.
 
 ---
 
@@ -51,12 +68,26 @@ Identify the specific questions that remain open and what sources would resolve 
 
 ## CONFIDENCE LEVELS
 [Each finding: ESTABLISHED / PROBABLE / POSSIBLE / CONTESTED / NEEDS EVIDENCE]
+[Category B: include Confirmation Depth Score from Stage 3 Expansion Protocol]
+
+## CONFIRMATION DEPTH (Category B)
+For each confirmed claim, summarize the expansion stack:
+  → Tier confirmed + highest tier source
+  → Cross-domain count (how many independent domains confirm it)
+  → Chronological depth (ancient–modern convergence if applicable)
+  → Internal Pandora cross-refs (which OS files corroborate it)
+  → Adversarial check passed (counter-position dismissed + why)
+
+Claims that pass 3+ expansion vectors → file as ESTABLISHED
+Claims that pass 1–2 expansion vectors → file as PROBABLE
+Claims with no expansion vectors yet → HELD or FLAGGED for Morph
 
 ## IMPLICATIONS
 [What this means for the requesting department and the OS]
 
-## OPEN QUESTIONS
+## OPEN QUESTIONS / EXPANSION TARGETS
 [What follow-up research would address, with domain and priority]
+[Category B: specifically — what would elevate current PROBABLE findings to ESTABLISHED]
 ```
 
 ## FILING

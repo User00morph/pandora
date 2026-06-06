@@ -66,5 +66,45 @@ Home affordability is the ONE unfudgeable economic indicator. When even dual-inc
 
 ---
 
-*D.R.D Brief | D.S.E | Deployed 2026-05-19*
-*17 sources | Stages 1–5 complete | Pipeline: DEPLOYED*
+*D.R.D Brief | D.S.E | Deployed 2026-05-19 | Updated 2026-05-27*
+*27 sources | Stages 1–5 + Block FF complete | Pipeline: DEPLOYED*
+
+---
+
+## UPDATE — 2026-05-27 (Streams B + A Integration)
+
+**8. The Federal Reserve system was designed — and is private.**
+The Jekyll Island meeting (1910): JP Morgan agents secretly designed the Federal Reserve and sold it to the US government. Not federal. Not a reserve in the traditional sense. The design: "let us be your bank." The banks issue the nation's money (as debt), charge interest, and are never fully accountable. The 24 Treasury Primary Dealer banks are MANDATED to always buy US debt. This is why US debt is always "in demand" — it has a captive buyer by law.
+
+D.S.E implication: every dollar of revenue generated operates inside this system by default. The sovereign business architecture exits this by routing revenue through the FIET → DeFi stablecoins → hard asset accumulation, breaking the debt-money nexus at each step.
+
+**9. The global SWF network is the extraction mechanism ($15T / 13% world GDP).**
+Sovereign Wealth Funds manage $15 trillion — 13% of global GDP. They are NOT government savings accounts in the traditional sense. They are geopolitical leverage instruments. Norwegian SWF (oil/gas profits) invests globally to generate returns. Gulf SWFs (petrodollar recycling) are integral to US Treasury demand. Chinese SWFs (forex reserves) are a strategic economic weapon. BRICS nations are now redirecting SWF reserves AWAY from US Treasuries = dollar destabilization in progress.
+
+D.S.E implication: the institutions buying equity in the businesses you might work for or sell to are SWF-backed. Understanding this changes how you price sovereignty: the sovereign entrepreneur builds businesses that extract value FROM the system without depending on SWF-backed institutional relationships for survival.
+
+**10. XRP is NOT a sovereignty instrument — this is the critical distinction.**
+XRP/Ripple was designed to work WITH banks and governments. It is seeking regulatory legitimacy (SEC lawsuit navigation). It is positioned as the institutional cross-border settlement layer — the Federal Reserve's preferred blockchain rail. Its esoteric architecture confirms this: Zeus/Jupiter = the king, the lawgiver, expansion WITHIN the existing hierarchical order. XRP may perform financially. But it is not an exit vehicle.
+
+BITCOIN/DEFI = the genuine sovereign financial exit:
+- Bitcoin: no company, no CEO, cannot be seized at the protocol layer — the revolution instrument
+- DeFi: "the code is the law" — no intermediary, no KYC, no 1099 reporting at the protocol level
+- Trust + DeFi: Bitcoin/ETH held inside FIET = no SSN attached to the asset = exits income nexus
+
+**D.S.E financial sovereignty stack (updated):**
+| Asset | Role | Sovereignty Level |
+|-------|------|------------------|
+| Bitcoin | Hard digital asset — exit vehicle | HIGH |
+| DeFi (Aave / Uniswap) | Banking layer — no intermediary | HIGH |
+| Gold / land | Pre-system hard asset | VERY HIGH |
+| FIET trust | Legal container — removes SSN nexus | CRITICAL |
+| XRP | May perform — NOT an exit vehicle | LOW (institutional) |
+
+**11. The BRICS dollar exit changes the timing.**
+BRICS nations are actively redirecting sovereign wealth reserves away from US Treasuries. When the dollar loses reserve currency status:
+- Dollar-denominated cash becomes the worst-performing asset
+- Hard assets (gold, land, Bitcoin) are on the correct side of the repricing
+- The transition to a digital monetary rail (crypto/blockchain) accelerates
+- The sovereign who is positioned IN real assets and OUT of dollar cash = survives the transfer
+
+This is not speculation — the SWF and BRICS reserve shift is already observable. The window for positioning is open NOW. Morph at 20, no debt, maximum mobility = optimal entry position.

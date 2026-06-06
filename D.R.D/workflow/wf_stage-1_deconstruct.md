@@ -18,9 +18,11 @@ No topic is a single question. This stage maps what actually needs to be answere
 3. Pre-Western Knowledge Systems
 4. The Divine Feminine
 5. Consciousness Research
-6. Systemic Analysis
+6. Systemic Analysis  ← activates Game Theory Overlay at Stage 4
 ```
 If it crosses domains — assign primary domain, note secondaries.
+
+**Domain 6 flag:** If the primary domain is Systemic Analysis — or if the topic involves power structures, institutions, economic systems, geopolitics, or any multi-actor system — note here: `→ GAME THEORY OVERLAY active at Stage 4`. This tells Stage 4 to run Part C (the Jiang framework) in addition to Parts A and B.
 
 **2. MAP THE SUB-QUESTIONS**
 Take the stated topic and write out every sub-question it contains. Do not answer yet — only map.
@@ -38,7 +40,10 @@ Example:
 > - What are the confounding factors?
 
 **3. STATE THE EXISTING POSITION** *(if one exists)*
-What is currently believed about this topic inside the OS? Write it plainly. This is not to defend it — it is to make the bias visible so research can account for it.
+
+**Category A (evaluative):** What is currently believed about this topic inside the OS? Write it plainly. This is not to defend it — it is to make the bias visible so research can account for it.
+
+**Category B (confirmation):** What has Morph already gathered and reconstructed? State it as the anchor truth. Sub-questions are not interrogating this position — they are mapping what would confirm and strengthen it. The sovereign position is the starting point, not a hypothesis to test.
 
 ---
 

@@ -1,0 +1,7 @@
+FILE: 4e50d60309f04aa2af6d0b9d0ff6c2f2.MP4
+LANGUAGE: en (1.0)
+DURATION: 52.6s
+PROCESSED: 57.0s
+============================================================
+
+The business receives an EIN from the IRS. The business forms a multi-member LLC. The LLC files IRS Form 2553 and is now taxed as an S Corporation. Its members are considered shareholders. Income expenses and shareholder K-1s are reported on IRS Form 1120S. No federal income tax is due with this return. Schedule K-1 includes the shareholder's share of ordinary business income as well as other separately stated items. That income is subject to ordinary income tax on the shareholder's personal return. Shareholders who participate in business activity are expected to receive reasonable compensation through payroll from the S Corp. And the shareholder receives an IRS Form W-2 as well as a Schedule K-1.

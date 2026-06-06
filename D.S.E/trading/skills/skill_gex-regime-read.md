@@ -1,9 +1,22 @@
 # SKILL — GEX Regime Read
 **Gamma Exposure Daily Classification | Pre-Session Protocol**
-**Load when:** Opening any trading session BEFORE looking at any chart. Run after Observer Gate, before chart analysis.
-**Department:** D.S.E trading workspace | STIS Layer 1b
-**Source decoded:** `drd_decode_quant-options-ai-trading-stack_v1.md`
-**Framework:** `dse_framework_gex-options-mechanics.md`
+
+```
+STATUS:     active
+VERSION:    2.0
+LOAD WHEN:  Step 4 of morning-session-sequence. After Observer Gate + Vanna check.
+            Before any chart analysis.
+DEPARTMENT: D.S.E | STIS Layer 1b | GEX mechanical layer
+LOADS:      skill_vanna-protocol.md (must run first — VIX before GEX)
+            skill_gex-level-hierarchy.md (reference for level interpretation)
+PRODUCES:   GEX Regime Read output block — regime, vanna, charm, level stack,
+            dominant Greek, daily range, session posture
+CROSS-REF:  skill_gex-daily-model.md (intraday application of these levels)
+            skill_four-forces-dominance-read.md (aggregate all forces)
+            skill_gamma-regime-mechanics.md (why the regime behaves as it does)
+SOURCE:     drd_decode_quant-options-ai-trading-stack_v1.md
+FRAMEWORK:  dse_framework_gex-options-mechanics.md
+```
 
 ---
 

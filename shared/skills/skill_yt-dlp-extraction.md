@@ -235,6 +235,18 @@ Then use `offset` + `limit` on the Read tool to load only the relevant lines.
 
 ---
 
+## REGISTERED SINGLE VIDEO SOURCES
+
+```
+Brian Scott — The Money Simulation: Currency Behaves Like Code
+URL:      https://youtu.be/irfXyWX9jTk
+Domain:   systemic-analysis, consciousness, simulation-hypothesis
+Added:    2026-06-02
+Status:   Raw extract filed — drd_research_brian-scott-money-simulation_raw-extract.md (~6,293 words)
+```
+
+---
+
 ## REGISTERED PLAYLIST SOURCES
 
 ```
@@ -305,6 +317,53 @@ OUTPUTS GENERATED:
   drd_decode_quant-options-ai-trading-stack_v1.md              → full D.R.D decode + STIS integration map
   dse_framework_gex-options-mechanics.md                       → new L1 fundamental framework (GEX + Greeks)
   tools/pine-scripts/markov_state_matrix.pine                  → Markov State Matrix Pine Script v1
+```
+
+---
+
+Don Killam — Sovereign Entity / Business Structure Series
+URL:      https://youtube.com/playlist?list=PLWKcfqsabTLUDzfteFe3THpM5656piXR5
+Domain:   sovereign-entity
+Added:    2026-06-04
+Status:   Fully extracted + decoded (14/14 videos — 0 TRANSCRIPT_UNAVAILABLE)
+
+EXTRACTED (raw extract files in D.R.D/research/sovereign-entity/):
+  14 videos, ~244K words → DECODED (drd_decode_don-killam-sovereign-entity-stack_v1.md)
+
+OUTPUTS GENERATED:
+  drd_research_don-killam-[01-14]-[slug]_raw-extract.md  → 14 raw transcript files
+  drd_decode_don-killam-sovereign-entity-stack_v1.md      → full D.R.D Stage 3–4 decode
+  drd_brief_dse_don-killam-sovereign-entity-extensions_v1.md → D.S.E integration brief
+
+KEY TOPICS: status correction, name as LLC, ministry trust (unincorporated association),
+  non-grantor irrevocable spendthrift trust, GAAP/FASB framework, 1099-OID (HELD),
+  TDA/Treasury Direct (HELD), manufacturing spend, private banking posture,
+  admin process ladder (SEC/FINRA/FTC), baby land deeds, patent of nativity,
+  ULC ordination, baptismal certificate, 1041 vs 1040, Form 3115, Form 3949-A
+
+---
+
+Rashad Jamal — Full Lectures Collection
+URL:      https://youtube.com/playlist?list=PLWKcfqsabTLVikPa593Nl3pn9cEPrF-dY
+Domain:   kemetic, consciousness, pre-western-knowledge, suppressed-science, human-history, D.O.M, D.B.S
+Added:    2026-05-28
+Status:   Fully extracted (44/48 videos — 4 TRANSCRIPT_UNAVAILABLE)
+
+EXTRACTED:
+  Group C (11 videos — medium lectures):    kemetic/drd_research_rashad-jamal-group-c_raw-extract.md           → ~128,230 words
+  Group B (9 videos — The Spells series):   kemetic/drd_research_rashad-jamal-group-b-spells_raw-extract.md    → ~246,588 words
+  Group A (11 videos — shorts/clips):       kemetic/drd_research_rashad-jamal-group-a-shorts_raw-extract.md    → ~24,014 words
+  Group E (10/12 videos — consciousness):   consciousness/drd_research_rashad-jamal-playlist-group-e_raw-extract.md → ~167,441 words
+  Group D (3/5 videos — indigenous/hist):   human-history/drd_research_rashad-jamal-playlist-group-d-indigenous_raw-extract.md → ~48,080 words
+
+TRANSCRIPT_UNAVAILABLE (subtitles disabled — candidates for Whisper):
+  E: Understanding The Brain, Consciousness and Kemetic Science (Kemetic YogaSkills)
+  E: Do you use illusions?
+  D: Why Ancient Egypt Worshiped The Sun (It wasn't a God, it was a Technology)
+  D: Unlocking Tartarian Mysteries: Dr. Ali Muhammad on America's Secret Indigenous Blueprint
+
+TOTAL: ~614,353 words across 44 videos
+
 ```
 
 ---

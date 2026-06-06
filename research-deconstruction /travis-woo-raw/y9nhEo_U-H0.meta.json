@@ -1,0 +1,1212 @@
+{
+  "video_id": "y9nhEo_U-H0",
+  "title": "New MTP Backtesting Tool is Cooking",
+  "language": "en",
+  "language_confidence": 0.995,
+  "duration_seconds": 810.1,
+  "processing_seconds": 119.4,
+  "word_count": 1854,
+  "status": "ok",
+  "segments": [
+    {
+      "start": 0.37,
+      "end": 7.5,
+      "text": "I currently owe my developer about $7,000 with a software that I'm going to give you for free."
+    },
+    {
+      "start": 7.5,
+      "end": 15.5,
+      "text": "I've spent tens of thousands of dollars on developer fees software in the last year and a half."
+    },
+    {
+      "start": 15.5,
+      "end": 21.04,
+      "text": "And people ask, why am I stuff this so expensive at $1,500 a year?"
+    },
+    {
+      "start": 21.04,
+      "end": 26.04,
+      "text": "It's so cheap. I've spent much more than you have to spend to get the same thing."
+    },
+    {
+      "start": 26.04,
+      "end": 33.36,
+      "text": "And I let people sell it too. So, miss me with that question. Anyways, let's get into it."
+    },
+    {
+      "start": 33.36,
+      "end": 36.55,
+      "text": "So, I'm still kind of playing around with this."
+    },
+    {
+      "start": 36.55,
+      "end": 40.55,
+      "text": "But what it does is, let's me test the basket of assets."
+    },
+    {
+      "start": 40.55,
+      "end": 47.62,
+      "text": "The S&B 500 Bitcoin, European stock market gold, silver, the Nasdaq and NK225."
+    },
+    {
+      "start": 47.62,
+      "end": 54.87,
+      "text": "I can do it just the relative weights. I get to adjust the equity risks or the number of contracts."
+    },
+    {
+      "start": 54.87,
+      "end": 60.42,
+      "text": "And the strategy, I'm not going to give it all away, but here are the parameters."
+    },
+    {
+      "start": 60.42,
+      "end": 63.42,
+      "text": "Stop-wise, take profit, pyramid, break out."
+    },
+    {
+      "start": 63.42,
+      "end": 65.54,
+      "text": "There's a couple of things I still want to add."
+    },
+    {
+      "start": 65.54,
+      "end": 71.61,
+      "text": "It's going to let us optimize for a specific measure, whether that's..."
+    },
+    {
+      "start": 71.61,
+      "end": 79.61,
+      "text": "I like Kalmar as an equity, as a max historical, max return for a drawdown, basically."
+    },
+    {
+      "start": 79.61,
+      "end": 84.61,
+      "text": "It looks at the max historical drawdown and works up and made it for the best return."
+    },
+    {
+      "start": 84.61,
+      "end": 90.6,
+      "text": "If you're going to optimize for Sharps or Tino, CGR, the number of trials."
+    },
+    {
+      "start": 90.6,
+      "end": 93.6,
+      "text": "So, it's going to run a bunch of back tests."
+    },
+    {
+      "start": 93.6,
+      "end": 98.92,
+      "text": "And then, I can set it to optimize for certain..."
+    },
+    {
+      "start": 98.92,
+      "end": 104.08,
+      "text": "Not optimized, but take a medium number of parameters and pick the best one in the middle."
+    },
+    {
+      "start": 104.08,
+      "end": 108.24,
+      "text": "So, let's try some things. Now, I've set my date to 1965."
+    },
+    {
+      "start": 108.24,
+      "end": 113.4,
+      "text": "The reason is, gold wasn't really set free until around this time around 1970."
+    },
+    {
+      "start": 113.4,
+      "end": 116.5,
+      "text": "So, I was just start with this."
+    },
+    {
+      "start": 116.5,
+      "end": 122.5,
+      "text": "Now, if I want to optimize the parameters, I can just put it optimize and you can see it's cute."
+    },
+    {
+      "start": 122.5,
+      "end": 130.88,
+      "text": "There's 200 trials running, Kalmar, and it's doing 200 back tests right now."
+    },
+    {
+      "start": 130.88,
+      "end": 134.88,
+      "text": "And it's going to pick the best settings and it's going to spit it out."
+    },
+    {
+      "start": 134.88,
+      "end": 138.88,
+      "text": "So, there's a danger of overfitting. You guys understand."
+    },
+    {
+      "start": 138.88,
+      "end": 145.01,
+      "text": "And one of the ways that we just reduced the danger of overfitting is it didn't pick the best parameter."
+    },
+    {
+      "start": 145.01,
+      "end": 150.01,
+      "text": "It found a range of the 20 best parameters and picked something right in the middle."
+    },
+    {
+      "start": 150.01,
+      "end": 155.71,
+      "text": "We're also having data going back over 60 years."
+    },
+    {
+      "start": 155.71,
+      "end": 161.71,
+      "text": "And another way that we're going to reduce optimization overfitting is by adding a bunch of uncorrelated assets."
+    },
+    {
+      "start": 161.71,
+      "end": 164.71,
+      "text": "And it trades all the assets exactly the same."
+    },
+    {
+      "start": 164.71,
+      "end": 171.71,
+      "text": "So, this is going to give us pretty robust and realistic back test of what we could potentially expect in the future."
+    },
+    {
+      "start": 171.71,
+      "end": 176.71,
+      "text": "So, here we'll tell us, for instance, our stop loss is going to be almost 8ATR."
+    },
+    {
+      "start": 176.71,
+      "end": 179.71,
+      "text": "Our TPS are going to be about 50."
+    },
+    {
+      "start": 179.71,
+      "end": 185.67,
+      "text": "This is how much I want to put in min pyramid means."
+    },
+    {
+      "start": 185.67,
+      "end": 189.67,
+      "text": "I'm going to have to ask my developer on how all the breakout levels need to be."
+    },
+    {
+      "start": 189.67,
+      "end": 192.67,
+      "text": "So, right now we just have the SPX."
+    },
+    {
+      "start": 192.67,
+      "end": 200.47,
+      "text": "So, we can see our CAGR, Kalmar, Sharpe, and Sartino."
+    },
+    {
+      "start": 200.47,
+      "end": 204.47,
+      "text": "And the Sharpe is not very good, but it doesn't need to be a good system."
+    },
+    {
+      "start": 204.47,
+      "end": 206.47,
+      "text": "I think it's sort of overrated."
+    },
+    {
+      "start": 206.47,
+      "end": 212.3,
+      "text": "So, just from the SPX, right now we have our average year is 10%."
+    },
+    {
+      "start": 212.3,
+      "end": 218.3,
+      "text": "So, this isn't really a big improvement over just by and hold on the SP500,"
+    },
+    {
+      "start": 218.3,
+      "end": 221.3,
+      "text": "especially considering that we're going to be paying taxes on this."
+    },
+    {
+      "start": 221.3,
+      "end": 224.4,
+      "text": "However, one thing we could do is simply risk more."
+    },
+    {
+      "start": 224.4,
+      "end": 227.4,
+      "text": "So, I'm going to explain to you guys what risk premium is here."
+    },
+    {
+      "start": 227.4,
+      "end": 232.43,
+      "text": "So, look, I'm going to do the exact same back test, just with bigger size."
+    },
+    {
+      "start": 232.43,
+      "end": 234.78,
+      "text": "What's going to happen?"
+    },
+    {
+      "start": 234.78,
+      "end": 236.78,
+      "text": "Now, our average year is 35%."
+    },
+    {
+      "start": 236.78,
+      "end": 238.78,
+      "text": "Our average winning year is 67%."
+    },
+    {
+      "start": 238.78,
+      "end": 240.78,
+      "text": "Our average losing year is 29%."
+    },
+    {
+      "start": 240.78,
+      "end": 245.94,
+      "text": "From drawdown adjusted returns, this is not better than buy and hold."
+    },
+    {
+      "start": 245.94,
+      "end": 249.94,
+      "text": "But it crushes buying hold of Y, simply because we tolerate a bigger drawdown."
+    },
+    {
+      "start": 249.94,
+      "end": 252.23,
+      "text": "Think about that."
+    },
+    {
+      "start": 252.23,
+      "end": 254.94,
+      "text": "Here, our max drawdown is 78%."
+    },
+    {
+      "start": 254.94,
+      "end": 259.83,
+      "text": "So, a lot more than the max drawdown of just holding the SP500."
+    },
+    {
+      "start": 259.83,
+      "end": 261.83,
+      "text": "So, it's difficult."
+    },
+    {
+      "start": 261.83,
+      "end": 268.47,
+      "text": "A lot of people couldn't do that, but if we were to compound 35% a year,"
+    },
+    {
+      "start": 268.47,
+      "end": 274.53,
+      "text": "we'll still get the, we can go to decade on the decade view."
+    },
+    {
+      "start": 274.53,
+      "end": 279.5,
+      "text": "What does this work?"
+    },
+    {
+      "start": 279.5,
+      "end": 286.29,
+      "text": "The average decade would be about a 10x."
+    },
+    {
+      "start": 286.29,
+      "end": 290.58,
+      "text": "Okay, so your 100,000 would be a million in 10 years."
+    },
+    {
+      "start": 290.58,
+      "end": 292.58,
+      "text": "And your million would be 10 million."
+    },
+    {
+      "start": 292.58,
+      "end": 300.48,
+      "text": "So, in 20 years, you could go from 100,000 to 10 million."
+    },
+    {
+      "start": 300.48,
+      "end": 311.49,
+      "text": "Although, you would have, I'm kind of confused."
+    },
+    {
+      "start": 311.49,
+      "end": 313.49,
+      "text": "All of these are showing winning decades."
+    },
+    {
+      "start": 313.49,
+      "end": 325.41,
+      "text": "I guess, I'm going to, I'm going to converse with the dev here right now."
+    },
+    {
+      "start": 325.41,
+      "end": 329.68,
+      "text": "Okay."
+    },
+    {
+      "start": 329.68,
+      "end": 334.8,
+      "text": "Why would this show, oh, was in decade?"
+    },
+    {
+      "start": 334.8,
+      "end": 339.44,
+      "text": "Not showing, was in decade on the bar chart."
+    },
+    {
+      "start": 339.44,
+      "end": 343.7,
+      "text": "Also, what is men pyramid mean?"
+    },
+    {
+      "start": 343.7,
+      "end": 346.02,
+      "text": "Okay."
+    },
+    {
+      "start": 346.02,
+      "end": 349.02,
+      "text": "So, let's add gold into the max."
+    },
+    {
+      "start": 349.02,
+      "end": 353.71,
+      "text": "But there's other, we're still going to add things, by the way."
+    },
+    {
+      "start": 353.71,
+      "end": 358.0,
+      "text": "But we're going to add gold, and then I'm going to optimize the parameters."
+    },
+    {
+      "start": 358.0,
+      "end": 359.38,
+      "text": "Okay."
+    },
+    {
+      "start": 359.38,
+      "end": 363.38,
+      "text": "For the best return for whatever the maximum drawdown is."
+    },
+    {
+      "start": 363.38,
+      "end": 366.58,
+      "text": "So, it's running 200 trials."
+    },
+    {
+      "start": 366.58,
+      "end": 369.58,
+      "text": "And it's picking the parameters that are in the middle."
+    },
+    {
+      "start": 369.58,
+      "end": 371.58,
+      "text": "Not the best parameters."
+    },
+    {
+      "start": 371.58,
+      "end": 376.96,
+      "text": "But here we have stop loss of 5, which is what we've been using in our group."
+    },
+    {
+      "start": 376.96,
+      "end": 381.92,
+      "text": "And the stop loss A to our period of 102, we've been using 100."
+    },
+    {
+      "start": 381.92,
+      "end": 383.95,
+      "text": "So, this doesn't really tell us that much, actually."
+    },
+    {
+      "start": 383.95,
+      "end": 390.21,
+      "text": "This is very close to, this is very close to the settings that we've been using."
+    },
+    {
+      "start": 390.21,
+      "end": 392.81,
+      "text": "But it's going to get helpful."
+    },
+    {
+      "start": 392.81,
+      "end": 395.81,
+      "text": "So, here we'll run the back test."
+    },
+    {
+      "start": 395.81,
+      "end": 401.64,
+      "text": "And notice, by adding gold, because of the,"
+    },
+    {
+      "start": 401.64,
+      "end": 406.93,
+      "text": "I'm correlation, the max drawdown went from negative 78 to negative 45%."
+    },
+    {
+      "start": 406.93,
+      "end": 407.93,
+      "text": "Okay."
+    },
+    {
+      "start": 407.93,
+      "end": 410.18,
+      "text": "Now, let's go back to period returns."
+    },
+    {
+      "start": 410.18,
+      "end": 413.18,
+      "text": "I'm only interested in decade and year."
+    },
+    {
+      "start": 413.18,
+      "end": 418.7,
+      "text": "If we go down to the daily, if we go down to the daily, it's just nice."
+    },
+    {
+      "start": 418.7,
+      "end": 424.7,
+      "text": "34% winning days, 29% losing days, average winning days a little bit bigger."
+    },
+    {
+      "start": 424.7,
+      "end": 428.82,
+      "text": "If you're trying to day trade consistently, this isn't for you."
+    },
+    {
+      "start": 428.82,
+      "end": 430.82,
+      "text": "And it's very hard to do that."
+    },
+    {
+      "start": 430.82,
+      "end": 433.82,
+      "text": "So here with weeks, we win more weeks than we lose."
+    },
+    {
+      "start": 433.82,
+      "end": 436.82,
+      "text": "Now we're starting to see edge once we go on the weekly."
+    },
+    {
+      "start": 436.82,
+      "end": 439.14,
+      "text": "All right, let's go to month."
+    },
+    {
+      "start": 439.14,
+      "end": 443.14,
+      "text": "Now we're at 46% a month's win, 34% lose."
+    },
+    {
+      "start": 443.14,
+      "end": 446.14,
+      "text": "average winning month is 8% average losing month is negative 5."
+    },
+    {
+      "start": 446.14,
+      "end": 448.3,
+      "text": "Starting to look pretty good, right?"
+    },
+    {
+      "start": 448.3,
+      "end": 449.3,
+      "text": "Go to quarter."
+    },
+    {
+      "start": 449.3,
+      "end": 452.65,
+      "text": "We win more quarters than we lose."
+    },
+    {
+      "start": 452.65,
+      "end": 454.65,
+      "text": "The average winning quarter is much bigger and now we go to the year."
+    },
+    {
+      "start": 454.65,
+      "end": 455.65,
+      "text": "Okay."
+    },
+    {
+      "start": 455.65,
+      "end": 459.65,
+      "text": "So here average year is 30% still."
+    },
+    {
+      "start": 459.65,
+      "end": 461.65,
+      "text": "So we didn't really improve that."
+    },
+    {
+      "start": 461.65,
+      "end": 464.65,
+      "text": "But we did it on a much smaller drawdown, right?"
+    },
+    {
+      "start": 464.65,
+      "end": 466.65,
+      "text": "average losing your negative 13%."
+    },
+    {
+      "start": 466.65,
+      "end": 468.65,
+      "text": "And we got our winning years to 68%."
+    },
+    {
+      "start": 468.65,
+      "end": 471.22,
+      "text": "So this is starting to look pretty good."
+    },
+    {
+      "start": 471.22,
+      "end": 473.22,
+      "text": "Now, on the decade, it's one every decade."
+    },
+    {
+      "start": 473.22,
+      "end": 477.77,
+      "text": "The average decade is 10x."
+    },
+    {
+      "start": 477.77,
+      "end": 479.77,
+      "text": "And that could be increased."
+    },
+    {
+      "start": 479.77,
+      "end": 481.77,
+      "text": "Once again, we could just increase the equity."
+    },
+    {
+      "start": 481.77,
+      "end": 484.77,
+      "text": "Risk premium is the fundamental here."
+    },
+    {
+      "start": 484.77,
+      "end": 487.9,
+      "text": "So now I'm just going to start adding more stuff."
+    },
+    {
+      "start": 487.9,
+      "end": 488.9,
+      "text": "I'm going to add Bitcoin."
+    },
+    {
+      "start": 488.9,
+      "end": 491.22,
+      "text": "I'm just going to add everything and kind of see."
+    },
+    {
+      "start": 491.22,
+      "end": 495.44,
+      "text": "So I'm adding that the European stock market, Nasdaq,"
+    },
+    {
+      "start": 495.44,
+      "end": 499.44,
+      "text": "the Japanese stock market, and silver."
+    },
+    {
+      "start": 499.44,
+      "end": 502.44,
+      "text": "So we're going to go parameter optimization."
+    },
+    {
+      "start": 502.44,
+      "end": 505.94,
+      "text": "We can't."
+    },
+    {
+      "start": 505.94,
+      "end": 512.51,
+      "text": "It's not set up to optimize for equity yet."
+    },
+    {
+      "start": 512.51,
+      "end": 516.59,
+      "text": "Or relative weight."
+    },
+    {
+      "start": 516.59,
+      "end": 518.59,
+      "text": "So that's something we're going to come into."
+    },
+    {
+      "start": 518.59,
+      "end": 520.59,
+      "text": "So here, that actually changes the stock loss."
+    },
+    {
+      "start": 520.59,
+      "end": 522.59,
+      "text": "It's here multiple quite a bit."
+    },
+    {
+      "start": 522.59,
+      "end": 524.59,
+      "text": "Something, notice I haven't even walked at the trade."
+    },
+    {
+      "start": 524.59,
+      "end": 526.59,
+      "text": "When right, we have trade data."
+    },
+    {
+      "start": 526.59,
+      "end": 527.59,
+      "text": "We can get into that."
+    },
+    {
+      "start": 527.59,
+      "end": 530.26,
+      "text": "So interesting."
+    },
+    {
+      "start": 530.26,
+      "end": 535.22,
+      "text": "Here it's saying max drawdown is negative 8%."
+    },
+    {
+      "start": 535.22,
+      "end": 538.22,
+      "text": "So I have a question about how this works."
+    },
+    {
+      "start": 538.22,
+      "end": 541.91,
+      "text": "Let's look."
+    },
+    {
+      "start": 541.91,
+      "end": 553.18,
+      "text": "I think what happens is it sputs the 100 up between all these."
+    },
+    {
+      "start": 553.18,
+      "end": 554.18,
+      "text": "I'm not sure."
+    },
+    {
+      "start": 554.18,
+      "end": 555.18,
+      "text": "So it's."
+    },
+    {
+      "start": 555.18,
+      "end": 557.18,
+      "text": "What's changes is a 200."
+    },
+    {
+      "start": 557.18,
+      "end": 563.48,
+      "text": "I'm just going to increase the size and see."
+    },
+    {
+      "start": 563.48,
+      "end": 564.48,
+      "text": "Okay."
+    },
+    {
+      "start": 564.48,
+      "end": 566.34,
+      "text": "I see."
+    },
+    {
+      "start": 566.34,
+      "end": 568.34,
+      "text": "So 500 implies."
+    },
+    {
+      "start": 568.34,
+      "end": 569.34,
+      "text": "11 average."
+    },
+    {
+      "start": 569.34,
+      "end": 570.34,
+      "text": "Right."
+    },
+    {
+      "start": 570.34,
+      "end": 571.34,
+      "text": "So let's put it 500."
+    },
+    {
+      "start": 571.34,
+      "end": 576.64,
+      "text": "So now we're seeing."
+    },
+    {
+      "start": 576.64,
+      "end": 578.64,
+      "text": "77% winning years."
+    },
+    {
+      "start": 578.64,
+      "end": 581.64,
+      "text": "So this starts to become a lot more comfortable to hold."
+    },
+    {
+      "start": 581.64,
+      "end": 582.64,
+      "text": "Right."
+    },
+    {
+      "start": 582.64,
+      "end": 584.64,
+      "text": "Because you can make a ton of money."
+    },
+    {
+      "start": 584.64,
+      "end": 585.64,
+      "text": "I'm going to jack this up even more."
+    },
+    {
+      "start": 585.64,
+      "end": 587.64,
+      "text": "You can make a ton of money."
+    },
+    {
+      "start": 587.64,
+      "end": 590.93,
+      "text": "Not like having a lot of losing years."
+    },
+    {
+      "start": 590.93,
+      "end": 591.93,
+      "text": "It's uncomfortable."
+    },
+    {
+      "start": 591.93,
+      "end": 594.31,
+      "text": "So this is quite good."
+    },
+    {
+      "start": 594.31,
+      "end": 595.31,
+      "text": "So you can also get period returns."
+    },
+    {
+      "start": 595.31,
+      "end": 598.31,
+      "text": "Now we're at 73% winning years."
+    },
+    {
+      "start": 598.31,
+      "end": 602.69,
+      "text": "We've basically kept the average here the same."
+    },
+    {
+      "start": 602.69,
+      "end": 609.09,
+      "text": "But we have a higher sharp rate."
+    },
+    {
+      "start": 609.09,
+      "end": 610.09,
+      "text": "Essentially."
+    },
+    {
+      "start": 610.09,
+      "end": 612.09,
+      "text": "I drawdown is relatively the same."
+    },
+    {
+      "start": 612.09,
+      "end": 614.09,
+      "text": "So let's go get trade data."
+    },
+    {
+      "start": 614.09,
+      "end": 616.66,
+      "text": "Trade."
+    },
+    {
+      "start": 616.66,
+      "end": 619.88,
+      "text": "So it only has a 50% win rate."
+    },
+    {
+      "start": 619.88,
+      "end": 623.49,
+      "text": "A 2004 and 52 trades."
+    },
+    {
+      "start": 623.49,
+      "end": 625.49,
+      "text": "That's a sufficiently big sample."
+    },
+    {
+      "start": 627.7,
+      "end": 629.7,
+      "text": "average win average loss."
+    },
+    {
+      "start": 629.7,
+      "end": 630.7,
+      "text": "Perfect factor."
+    },
+    {
+      "start": 630.7,
+      "end": 632.18,
+      "text": "Okay."
+    },
+    {
+      "start": 632.18,
+      "end": 633.18,
+      "text": "So."
+    },
+    {
+      "start": 633.18,
+      "end": 643.24,
+      "text": "Yeah."
+    },
+    {
+      "start": 643.24,
+      "end": 644.24,
+      "text": "This tells me a lot."
+    },
+    {
+      "start": 644.24,
+      "end": 645.24,
+      "text": "Now we could go in here."
+    },
+    {
+      "start": 645.24,
+      "end": 647.24,
+      "text": "And I would like to increase gold."
+    },
+    {
+      "start": 647.24,
+      "end": 648.24,
+      "text": "It's position size."
+    },
+    {
+      "start": 648.24,
+      "end": 651.4,
+      "text": "And I would like to reduce silver's position size."
+    },
+    {
+      "start": 651.4,
+      "end": 652.4,
+      "text": "Why?"
+    },
+    {
+      "start": 652.4,
+      "end": 654.4,
+      "text": "Because it's just to get assets relatively uncorrelated."
+    },
+    {
+      "start": 654.4,
+      "end": 658.4,
+      "text": "So I'm going to run the same equity size and see how this might change things."
+    },
+    {
+      "start": 658.4,
+      "end": 664.5,
+      "text": "77% winning years."
+    },
+    {
+      "start": 664.5,
+      "end": 668.21,
+      "text": "This didn't really make much of a difference."
+    },
+    {
+      "start": 668.21,
+      "end": 671.46,
+      "text": "So what's increased Bitcoin and see what happens."
+    },
+    {
+      "start": 671.46,
+      "end": 674.46,
+      "text": "So I'm kind of interested for optimizing for."
+    },
+    {
+      "start": 674.46,
+      "end": 680.12,
+      "text": "Of that increase in percentage winning years."
+    },
+    {
+      "start": 680.12,
+      "end": 682.12,
+      "text": "And that actually made quite a big difference."
+    },
+    {
+      "start": 682.12,
+      "end": 686.38,
+      "text": "Okay."
+    },
+    {
+      "start": 686.38,
+      "end": 688.18,
+      "text": "Yeah."
+    },
+    {
+      "start": 688.18,
+      "end": 689.18,
+      "text": "I mean, this looks really good."
+    },
+    {
+      "start": 689.18,
+      "end": 690.18,
+      "text": "Honestly at this point."
+    },
+    {
+      "start": 690.18,
+      "end": 693.18,
+      "text": "I've done a decade."
+    },
+    {
+      "start": 693.18,
+      "end": 697.32,
+      "text": "Let's go back to the decade."
+    },
+    {
+      "start": 697.32,
+      "end": 699.32,
+      "text": "So now we're at 5,000."
+    },
+    {
+      "start": 699.32,
+      "end": 702.09,
+      "text": "Which is it would be a 50 x."
+    },
+    {
+      "start": 702.09,
+      "end": 703.09,
+      "text": "Right."
+    },
+    {
+      "start": 703.09,
+      "end": 705.09,
+      "text": "So now you're 100,000 turns to 5 million."
+    },
+    {
+      "start": 705.09,
+      "end": 714.37,
+      "text": "You're 5 million turns into 250 million."
+    },
+    {
+      "start": 714.37,
+      "end": 715.37,
+      "text": "Is that right?"
+    },
+    {
+      "start": 715.37,
+      "end": 716.37,
+      "text": "In 20 years."
+    },
+    {
+      "start": 716.37,
+      "end": 718.37,
+      "text": "This would be 250 million."
+    },
+    {
+      "start": 718.37,
+      "end": 719.82,
+      "text": "That's sad."
+    },
+    {
+      "start": 719.82,
+      "end": 722.82,
+      "text": "You would need to sit through a 50% drawn on at some point."
+    },
+    {
+      "start": 722.82,
+      "end": 724.82,
+      "text": "And you would also be."
+    },
+    {
+      "start": 724.82,
+      "end": 727.36,
+      "text": "You would also be."
+    },
+    {
+      "start": 727.36,
+      "end": 728.36,
+      "text": "Um."
+    },
+    {
+      "start": 728.36,
+      "end": 732.6,
+      "text": "Pank taxes along the way."
+    },
+    {
+      "start": 732.6,
+      "end": 734.6,
+      "text": "So you wouldn't actually get a return quite like this."
+    },
+    {
+      "start": 734.6,
+      "end": 735.6,
+      "text": "But."
+    },
+    {
+      "start": 735.6,
+      "end": 737.89,
+      "text": "Now here we have trade data."
+    },
+    {
+      "start": 737.89,
+      "end": 743.95,
+      "text": "50% win rate."
+    },
+    {
+      "start": 743.95,
+      "end": 744.95,
+      "text": "But the wins are."
+    },
+    {
+      "start": 744.95,
+      "end": 746.95,
+      "text": "Twice as big as the losses."
+    },
+    {
+      "start": 747.95,
+      "end": 749.95,
+      "text": "And again, to me."
+    },
+    {
+      "start": 749.95,
+      "end": 752.95,
+      "text": "One of the things that I."
+    },
+    {
+      "start": 752.95,
+      "end": 756.95,
+      "text": "Really like about this system is since it's based around getting paid for risk"
+    },
+    {
+      "start": 756.95,
+      "end": 757.95,
+      "text": "Premium."
+    },
+    {
+      "start": 757.95,
+      "end": 760.95,
+      "text": "Which is compensation for taking risk."
+    },
+    {
+      "start": 760.95,
+      "end": 764.21,
+      "text": "And it's not based around statistical arbitrage something weird."
+    },
+    {
+      "start": 764.21,
+      "end": 766.21,
+      "text": "And again, this is."
+    },
+    {
+      "start": 766.21,
+      "end": 768.85,
+      "text": "Optimizing a specific way."
+    },
+    {
+      "start": 768.85,
+      "end": 772.85,
+      "text": "It's optimized to pick the most general parameter that works."
+    },
+    {
+      "start": 772.85,
+      "end": 776.17,
+      "text": "Across a bunch of assets going back 60 years."
+    },
+    {
+      "start": 777.23,
+      "end": 779.23,
+      "text": "So it's it's not optimized in the way."
+    },
+    {
+      "start": 779.23,
+      "end": 782.23,
+      "text": "It's like it's like extremely generalized."
+    },
+    {
+      "start": 782.23,
+      "end": 785.97,
+      "text": "But it's a very likely to continue to work."
+    },
+    {
+      "start": 785.97,
+      "end": 788.97,
+      "text": "Now adding new assets over time of."
+    },
+    {
+      "start": 788.97,
+      "end": 790.48,
+      "text": "I don't know."
+    },
+    {
+      "start": 790.48,
+      "end": 792.48,
+      "text": "The South Korean stock market."
+    },
+    {
+      "start": 792.48,
+      "end": 795.48,
+      "text": "Or maybe Indian stock market or Africa emerges."
+    },
+    {
+      "start": 795.48,
+      "end": 796.48,
+      "text": "Could be quite interesting."
+    },
+    {
+      "start": 796.48,
+      "end": 797.48,
+      "text": "But."
+    },
+    {
+      "start": 797.48,
+      "end": 799.12,
+      "text": "Um."
+    },
+    {
+      "start": 799.12,
+      "end": 800.15,
+      "text": "Yeah."
+    },
+    {
+      "start": 800.15,
+      "end": 801.15,
+      "text": "Anyways, if you're interested."
+    },
+    {
+      "start": 801.15,
+      "end": 803.15,
+      "text": "There's a link down below."
+    },
+    {
+      "start": 803.15,
+      "end": 804.15,
+      "text": "And I will."
+    },
+    {
+      "start": 804.15,
+      "end": 805.5,
+      "text": "Uh."
+    },
+    {
+      "start": 805.5,
+      "end": 806.5,
+      "text": "Uh."
+    },
+    {
+      "start": 806.5,
+      "end": 807.5,
+      "text": "Consent anymore info."
+    },
+    {
+      "start": 807.5,
+      "end": 808.5,
+      "text": "So just thought that link."
+    },
+    {
+      "start": 808.5,
+      "end": 809.5,
+      "text": "And all hook you up."
+    }
+  ]
+}

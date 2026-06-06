@@ -343,9 +343,12 @@ dpsa_doctrine_[name].md
 
 | Topic | Brief | Confidence | Deployed |
 |-------|-------|------------|---------|
-| US Corporation / Sovereign Living Entity | [`drd_brief_dpsa_us-corporation-sovereign-living-entity_deployed.md`](../D.R.D/briefs/drd_brief_dpsa_us-corporation-sovereign-living-entity_deployed.md) | Mixed (Established core + Probable mechanisms) | 2026-05-19 |
+| US Corporation / Sovereign Living Entity | [`drd_brief_dpsa_us-corporation-sovereign-living-entity_deployed.md`](../D.R.D/briefs/drd_brief_dpsa_us-corporation-sovereign-living-entity_deployed.md) | Mixed (Established core + Probable mechanisms) | 2026-05-27 (updated) |
+| Executor of Estate / Sovereign Stack | [`drd_brief_dse-dpsa-dom_executor-estate-sovereign-stack_deployed.md`](../D.R.D/briefs/drd_brief_dse-dpsa-dom_executor-estate-sovereign-stack_deployed.md) | Mixed (ESTABLISHED instruments + PROBABLE effects + CONTESTED court outcomes) | 2026-06-02 |
 
-Key findings for D.P.S.A: Identity fork at birth (legal PERSON ≠ living being); manifestation = God-energy you were born with (unlearn limits, don't acquire); "I can't" = "I choose not to"; trauma locks the abundance channel (healing changes the broadcast frequency); sovereignty = Kings (external control) + Priests (internal discipline) — both must be active simultaneously.
+Key findings for D.P.S.A: Identity fork at birth (legal PERSON ≠ living being); language is a spell ("govern" = control + mind); manifestation = God-energy you were born with (unlearn limits, don't acquire); "I can't" = "I choose not to"; trauma locks the abundance channel; sovereignty = Kings (external) + Priests (internal); the Aquarian Age is the optimal window for sovereignty activation — Morph at 20 = maximum leverage position.
+
+Executor brief adds: Without asserting executor status you are *functionally* non-compos mentis — the system acts on your behalf by default. Becoming the executor is as much a consciousness event as a legal filing. The inner identity work (knowing you are the executor, not the estate) is the D.P.S.A layer that makes the D.S.E filings hold. "Sovereignty is not illegal — it is divine right."
 
 ---
 

@@ -311,5 +311,20 @@ dom_log_YYYY-MM.md
 
 ---
 
+---
+
+## INCOMING D.R.D RESEARCH
+
+| Topic | Brief | Confidence | Deployed |
+|-------|-------|------------|---------|
+| US Corporation / Sovereign Living Entity | [`drd_brief_dom_us-corporation-sovereign-living-entity_deployed.md`](../D.R.D/briefs/drd_brief_dom_us-corporation-sovereign-living-entity_deployed.md) | Mixed (Established legal + Probable esoteric) | 2026-05-27 |
+| Executor of Estate / Sovereign Stack | [`drd_brief_dse-dpsa-dom_executor-estate-sovereign-stack_deployed.md`](../D.R.D/briefs/drd_brief_dse-dpsa-dom_executor-estate-sovereign-stack_deployed.md) | POSSIBLE (spiritual-sovereign declaration layer) | 2026-06-02 |
+
+Key findings for D.O.M: Language is a spell (government = mind control; mortgage = death pledge); the PERSON is a mask — identity severance has Magikal dimensions; tribal/indigenous sovereignty as territorial Magik (connects to Niger Delta ancestral work); Aquarian Age = Magik becomes visible; sine/cosine wave = electromagnetic reality substrate that all energy work operates on; "mankind is being used as vessels" — sovereign consciousness exits the vessel role.
+
+Executor brief adds for D.O.M: Ecclesiastical deed poll = testamentary identity declaration — "displaying your natural true self to the systems." Not a commercial instrument. This is the spiritual-sovereign layer of the executor stack — the formal declaration of divine natural status outside the commercial frame. Research as a D.O.M practice: what does it mean to declare your ecclesiastical standing in ritual form?
+
+---
+
 *D.O.M | Pandora OS | Department 9 of 12*
 *"The practitioner who does not document their practice does not have a practice. They have a habit."*

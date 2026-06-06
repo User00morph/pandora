@@ -1,0 +1,562 @@
+{
+  "video_id": "XfUAMnLPUUk",
+  "title": "GEX Daily Model: The Only Trading Strategy You Will Ever Need!",
+  "language": "en",
+  "language_confidence": 0.996,
+  "duration_seconds": 796.3,
+  "processing_seconds": 111.4,
+  "word_count": 2009,
+  "status": "ok",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.6,
+      "text": "There is a hidden force behind every move in the markets, yet barely anyone truly understands it."
+    },
+    {
+      "start": 5.6,
+      "end": 11.04,
+      "text": "People prefer to believe they trade with banks, run style classes, and follow smart money."
+    },
+    {
+      "start": 11.04,
+      "end": 16.16,
+      "text": "The real price driver behind every major move is gamma and dealer hedging."
+    },
+    {
+      "start": 16.16,
+      "end": 21.2,
+      "text": "But what if I told you, there is a way to track this dealer hedging on the daily basis"
+    },
+    {
+      "start": 21.2,
+      "end": 25.68,
+      "text": "to capitalize on it, on to catch these high-edge opportunities."
+    },
+    {
+      "start": 25.68,
+      "end": 30.48,
+      "text": "And from now on, I'm going to have my own Discord server, link is going to be in the description"
+    },
+    {
+      "start": 30.48,
+      "end": 37.44,
+      "text": "where I'm going to drop my gamma levels, where I'm going to explain more valuable things and"
+    },
+    {
+      "start": 37.44,
+      "end": 42.08,
+      "text": "drop more value as I always do, so check this out. In this video, I'm going to demonstrate"
+    },
+    {
+      "start": 42.08,
+      "end": 48.96,
+      "text": "you how I use gamma and how I build my Azure rounded, but before we get to talk about how I actually"
+    },
+    {
+      "start": 48.96,
+      "end": 53.52,
+      "text": "use it, let's talk about what gamma even is. Because most of the people who heard the word"
+    },
+    {
+      "start": 53.52,
+      "end": 58.4,
+      "text": "either keep pass it or think it's too complex to model with. Of course, it's way easier to be"
+    },
+    {
+      "start": 58.4,
+      "end": 64.08,
+      "text": "if you trade with the banks by drawing a few lines and the boxes on the chart, and especially when"
+    },
+    {
+      "start": 64.08,
+      "end": 70.88,
+      "text": "everyone else around does it. But let's talk about options. You probably know what an option is."
+    },
+    {
+      "start": 71.68,
+      "end": 76.56,
+      "text": "You pay a premium, you get the right to buy or sell something at a specific price."
+    },
+    {
+      "start": 76.56,
+      "end": 82.0,
+      "text": "Now, every option has something called Delta. Delta tells you how much the option price moves"
+    },
+    {
+      "start": 82.08,
+      "end": 89.2,
+      "text": "when the stock moves one dollar. If Delta is 0.5, the option gains 50 cents when the stock"
+    },
+    {
+      "start": 89.2,
+      "end": 96.56,
+      "text": "goes up a dollar. Gamma is just the next layer, so Gamma tells you how fast Delta is changing,"
+    },
+    {
+      "start": 96.56,
+      "end": 104.14,
+      "text": "but here is why it matters, and why most people miss it completely. And you buy an option,"
+    },
+    {
+      "start": 104.14,
+      "end": 109.82,
+      "text": "a market maker is an other side of that trade. They sold it to you, and now they have a problem."
+    },
+    {
+      "start": 109.82,
+      "end": 114.62,
+      "text": "They're exposed to this directional risk, and they don't want to take this risk on, right?"
+    },
+    {
+      "start": 114.62,
+      "end": 122.46,
+      "text": "Their job is to create markets. So what they do, they have to hatch. They buy or sell the actual stocks"
+    },
+    {
+      "start": 122.46,
+      "end": 130.7,
+      "text": "to offset the risk. So this process is called Delta hedging, and as price moves, their Delta changes"
+    },
+    {
+      "start": 130.7,
+      "end": 137.34,
+      "text": "because of Gamma. So why does this actually move markets? Imagine a massive amount of call options"
+    },
+    {
+      "start": 137.34,
+      "end": 143.74,
+      "text": "are sitting at this 700-dense strike on QQQ, which is a massive option contract."
+    },
+    {
+      "start": 144.54,
+      "end": 152.78,
+      "text": "Market makers sold all those calls to hatch. They need to buy QQQ as price approaches 710."
+    },
+    {
+      "start": 152.78,
+      "end": 158.86,
+      "text": "So because their Delta is increasing and they need to stay neutral. That buying pushes price up,"
+    },
+    {
+      "start": 158.86,
+      "end": 165.58,
+      "text": "which increases Delta further, which forces more buying, and you get this self-reinforcing loop,"
+    },
+    {
+      "start": 165.58,
+      "end": 171.02,
+      "text": "where price gets magnetically put forward that strike. This is called a Gamma's crease,"
+    },
+    {
+      "start": 171.02,
+      "end": 178.38,
+      "text": "and the opposite happens on the downside. Large put positions force market makers to sell as price"
+    },
+    {
+      "start": 178.38,
+      "end": 184.62,
+      "text": "drops, accelerating to move lower. And these are not random levels. These are not levels drawn by"
+    },
+    {
+      "start": 184.62,
+      "end": 190.7,
+      "text": "some random guy's support and resistance. They come directly from where the options positioning is"
+    },
+    {
+      "start": 190.7,
+      "end": 197.42,
+      "text": "heaviest. This is why they work so good. This is why price respects them over and over again."
+    },
+    {
+      "start": 197.42,
+      "end": 202.54,
+      "text": "Now let's talk about how I actually mapped this out before every training day. So there are a few key"
+    },
+    {
+      "start": 202.54,
+      "end": 208.14,
+      "text": "levels that I look at and I want to explain each one because people misused and constantly. They treat"
+    },
+    {
+      "start": 208.14,
+      "end": 213.98,
+      "text": "them as supported in resistance, which is a big mistake. So starting off call resistance and put"
+    },
+    {
+      "start": 213.98,
+      "end": 220.62,
+      "text": "support. These are your macro boundaries. Call resistance is where the heaviest call open interest sits."
+    },
+    {
+      "start": 220.94,
+      "end": 228.22,
+      "text": "Where dealer hatching creates a ceiling. Vice versa, put support is the floor. So these levels,"
+    },
+    {
+      "start": 228.94,
+      "end": 236.38,
+      "text": "they are not going to move much data day to day. You know, you can treat them as your weekly range,"
+    },
+    {
+      "start": 236.38,
+      "end": 242.86,
+      "text": "monthly range, whatever. These are the biggest levels and they're the heaviest. HVL, high volatility"
+    },
+    {
+      "start": 242.86,
+      "end": 249.66,
+      "text": "levels. So this is one of the most important and most misunderstood levels. HVL is the strike where Gamma"
+    },
+    {
+      "start": 250.22,
+      "end": 256.62,
+      "text": "flips above it, dealers are long gamma, meaning they dampen moves, they fade moves, below it,"
+    },
+    {
+      "start": 256.62,
+      "end": 264.3,
+      "text": "they're short gamma, meaning they amplify moves. So when price is about HVL, expect mean reversion,"
+    },
+    {
+      "start": 265.18,
+      "end": 273.74,
+      "text": "choppy grinding action and when price is below HVL, expect acceleration, trend base, bigger ranges."
+    },
+    {
+      "start": 274.3,
+      "end": 282.22,
+      "text": "But do not solely rely on gamma conditions. Sometimes, like this month, we've been all the time"
+    },
+    {
+      "start": 282.22,
+      "end": 287.98,
+      "text": "under this positive gamma and you sold a result. We've had the craziest rally that I ever seen."
+    },
+    {
+      "start": 288.7,
+      "end": 296.78,
+      "text": "You know, you always want to combine these information. You know, this HVL Gamma flip with other"
+    },
+    {
+      "start": 296.86,
+      "end": 305.02,
+      "text": "conferences like dealer positioning, options, metrics, your overall macro. You know, you always"
+    },
+    {
+      "start": 305.02,
+      "end": 312.46,
+      "text": "want to stack these conferences up. Zero DTE levels are the same concepts, co-resistance, put support,"
+    },
+    {
+      "start": 312.46,
+      "end": 319.1,
+      "text": "HVL, but calculated only from options, expiring the same bay. And on any given bay,"
+    },
+    {
+      "start": 319.1,
+      "end": 327.82,
+      "text": "zero DTE options represent a massive chunk of total volume. So since 2022, we have zero DTE options"
+    },
+    {
+      "start": 327.82,
+      "end": 334.3,
+      "text": "introduced to us. And nowadays, they are 40, 50% of the whole volume. You know, total volume in the"
+    },
+    {
+      "start": 334.3,
+      "end": 342.86,
+      "text": "options markets, which is total madness. So they are tighter, more reactive and often more precise than"
+    },
+    {
+      "start": 342.86,
+      "end": 348.06,
+      "text": "the all-expiry levels. You're going to see them respected in today. And other levels that we're"
+    },
+    {
+      "start": 348.06,
+      "end": 355.18,
+      "text": "going to use are gecks 1 through 10. So gecks stands for gamma exposure. These are the top 10 strikes"
+    },
+    {
+      "start": 355.18,
+      "end": 362.14,
+      "text": "ranked by absolute gamma exposure where gecks 1 is the heaviest, the strike with the most dealer"
+    },
+    {
+      "start": 362.14,
+      "end": 370.53,
+      "text": "hatching activity around it. Gecks 2 is the next and so on. So here is important to understand these levels"
+    },
+    {
+      "start": 370.61,
+      "end": 376.29,
+      "text": "are going to be your targets. These levels are going to be your confirmation, but it's not"
+    },
+    {
+      "start": 376.29,
+      "end": 384.29,
+      "text": "going to be your trade narrative. So you build your trade narrative based off main levels. All expiry,"
+    },
+    {
+      "start": 384.29,
+      "end": 392.85,
+      "text": "zero DTE gamma wall as well. I forgot to mention gamma wall is the strike where the single largest"
+    },
+    {
+      "start": 393.41,
+      "end": 400.85,
+      "text": "positive gamma constant trades. So think of it as a strongest version of coal resistance at level"
+    },
+    {
+      "start": 400.85,
+      "end": 409.73,
+      "text": "where dealer hatching pressure is so intense that price tends to stall bonds or consolidate around it."
+    },
+    {
+      "start": 409.73,
+      "end": 416.53,
+      "text": "Let's talk about real examples of the trades that I took this month. So here we can see this is my dashboard"
+    },
+    {
+      "start": 416.53,
+      "end": 425.18,
+      "text": "where I derive all of my levels. So we are currently on QQQ. As you can see here, these are our key"
+    },
+    {
+      "start": 425.18,
+      "end": 431.66,
+      "text": "levels, right? This is our spot price, coexistence, coexistence, coexistence, zero DTE, same thing, you know,"
+    },
+    {
+      "start": 431.66,
+      "end": 437.5,
+      "text": "HVL, put support, put support, put support, zero DTE, but here you can see all of these beautiful levels."
+    },
+    {
+      "start": 437.5,
+      "end": 445.5,
+      "text": "So I got plenty other information here, but we're not going to focus on this right now. Let's just keep it"
+    },
+    {
+      "start": 445.82,
+      "end": 452.22,
+      "text": "simple. So here on the dashboard, you can see all of the levels that are available to us. You can see"
+    },
+    {
+      "start": 452.22,
+      "end": 462.62,
+      "text": "core resistance, put support, same for zero DTE with HVL, zero DTE, gamma wall, zero DTE, and all"
+    },
+    {
+      "start": 462.62,
+      "end": 470.38,
+      "text": "of the gamma exposure levels. I already marked them up for this day. So this is 12 May, New York,"
+    },
+    {
+      "start": 470.38,
+      "end": 477.6,
+      "text": "open session on QQQ, which is a master. You can see what happens inside of this session, right?"
+    },
+    {
+      "start": 477.6,
+      "end": 489.2,
+      "text": "So, treat this as your daily range, right? From 710 to 755. If we're going to break this HVL zero DTE,"
+    },
+    {
+      "start": 489.2,
+      "end": 498.0,
+      "text": "then we're going to go and test this core resistance zero DTE, which is 720, I believe I forgot already."
+    },
+    {
+      "start": 498.0,
+      "end": 507.5,
+      "text": "So here we can see that we opened right at this gamma exposure level 2. We had some support here,"
+    },
+    {
+      "start": 507.5,
+      "end": 516.06,
+      "text": "we found support, we went directly and tested this gamma exposure level 3, but it's not enough for me to"
+    },
+    {
+      "start": 516.06,
+      "end": 523.58,
+      "text": "take a trade yet. I want to see some major level major consequences to play out in order for me to take"
+    },
+    {
+      "start": 524.14,
+      "end": 531.02,
+      "text": "highest probability opportunity pass. So here as you can see, we came right into that 710 level,"
+    },
+    {
+      "start": 531.58,
+      "end": 539.66,
+      "text": "tested it, top ticked, and then we have this initiation through that gamma exposure level 3. So for me,"
+    },
+    {
+      "start": 539.66,
+      "end": 546.78,
+      "text": "it's not enough to take a trade right from here, because we have this level in the way, right? So once we"
+    },
+    {
+      "start": 546.78,
+      "end": 552.06,
+      "text": "break that level, once we build some value, which is also important, you know, you always combine all of"
+    },
+    {
+      "start": 552.7,
+      "end": 560.56,
+      "text": "those two worlds of futures and options world. So once you have this initiation, once we build"
+    },
+    {
+      "start": 560.56,
+      "end": 568.08,
+      "text": "some value, we came back right into that gamma exposure level 3 and we sold off. So I took this trade"
+    },
+    {
+      "start": 568.08,
+      "end": 574.64,
+      "text": "this week, this is how it looked on my orderful platform. So here, as you can see, we've had this"
+    },
+    {
+      "start": 574.72,
+      "end": 582.48,
+      "text": "overnight high, you know, this value area high, we came out of this and for me, I did not sell"
+    },
+    {
+      "start": 582.48,
+      "end": 590.48,
+      "text": "here, you know, because I've had this zone, you know, in my way. So I wanted to us to see and break this zone,"
+    },
+    {
+      "start": 590.48,
+      "end": 598.0,
+      "text": "then we came back to this gamma exposure level 3, which aligns with our cash session value area high."
+    },
+    {
+      "start": 598.56,
+      "end": 607.44,
+      "text": "And then I sold here. My first target was around 2R and my second target was around 29,"
+    },
+    {
+      "start": 607.44,
+      "end": 616.16,
+      "text": "1,100, which is this put supports U of DTE on NQ, right? So you want to combine these two."
+    },
+    {
+      "start": 616.83,
+      "end": 622.35,
+      "text": "Let's break down one more trade, the R2 confidate. So in order to do this, we analyzed data from"
+    },
+    {
+      "start": 622.43,
+      "end": 628.21,
+      "text": "Thursday, you always want to do this, because this is another day data. And here, we can see this"
+    },
+    {
+      "start": 628.21,
+      "end": 637.89,
+      "text": "core resistance 700, 0-DTE 700, you know, P major level. And what I can see here is that we have no"
+    },
+    {
+      "start": 637.89,
+      "end": 644.93,
+      "text": "gamma exposure above this 700 level. You see that, this is very concentrated level. And for me,"
+    },
+    {
+      "start": 644.93,
+      "end": 650.69,
+      "text": "if we're going to break this level, we are going to see some initiation to the upside. So here on trading"
+    },
+    {
+      "start": 650.69,
+      "end": 659.76,
+      "text": "you, I already marked them up. Here you see, we opened right around this level. See how we are bouncing,"
+    },
+    {
+      "start": 659.76,
+      "end": 668.0,
+      "text": "you know, here we found some resistance, then try to break it, we broke it, then it turns to support."
+    },
+    {
+      "start": 669.04,
+      "end": 680.83,
+      "text": "And then, you know, for me, when we open this way, and we break this level violently, and here we have no"
+    },
+    {
+      "start": 680.83,
+      "end": 685.71,
+      "text": "other levels. You know, it's basically all-time high movement. You know, there is nothing, there is"
+    },
+    {
+      "start": 685.71,
+      "end": 695.18,
+      "text": "nothing to the left. For me, that's a major, major bullish sign. So what I've done here, I took,"
+    },
+    {
+      "start": 696.4,
+      "end": 706.66,
+      "text": "this is trade right here. So as you can see, this is my zone from, from order flow. This is my zone"
+    },
+    {
+      "start": 706.66,
+      "end": 714.66,
+      "text": "from RTH session volume profile. We broke that zone that was aligning with co-resistance zero"
+    },
+    {
+      "start": 714.66,
+      "end": 723.54,
+      "text": "d to e slash co-resistance all of that. You know, then we formed this LBN, we pulled back and this is exactly"
+    },
+    {
+      "start": 723.54,
+      "end": 733.94,
+      "text": "at this point. I took my log with 125 R risks to reward, right? So I was targeting some levels from"
+    },
+    {
+      "start": 733.94,
+      "end": 742.82,
+      "text": "NQ exposure, and I fixed my trade around 704 when we converted into QQQQ. And you know, most people who"
+    },
+    {
+      "start": 742.82,
+      "end": 749.54,
+      "text": "watch this video will think they get it and they will write them down. They slap them on a chart and"
+    },
+    {
+      "start": 749.54,
+      "end": 757.7,
+      "text": "wonder why it stops working, because it's not about TV levels. It's about understanding the why behind them."
+    },
+    {
+      "start": 757.78,
+      "end": 765.14,
+      "text": "Why price gravitates to certain levels? Why some days are choppy and some days trend hard? This is"
+    },
+    {
+      "start": 765.14,
+      "end": 772.58,
+      "text": "DH, you know? And in this video, I tried to explain this to you. So if you want to follow along as I work"
+    },
+    {
+      "start": 772.58,
+      "end": 779.38,
+      "text": "through this everyday, I've got a discord community since now. And I'm going to drop my pre-market"
+    },
+    {
+      "start": 779.38,
+      "end": 786.58,
+      "text": "gamma analysis levels I'm watching and my thoughts and let's see what we can do. I've never done this."
+    },
+    {
+      "start": 787.46,
+      "end": 793.22,
+      "text": "And you know, this link is going to be in the description. And in this video, I'll make something click for you."
+    },
+    {
+      "start": 793.22,
+      "end": 796.02,
+      "text": "You know what to do. See you in the next one."
+    }
+  ]
+}

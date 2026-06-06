@@ -1,0 +1,1442 @@
+{
+  "video_id": "ZVMTeDBmSrI",
+  "title": "I Re-Created A Quant Trading Strategy With Claude Code",
+  "language": "en",
+  "language_confidence": 0.999,
+  "duration_seconds": 1634.7,
+  "processing_seconds": 398.7,
+  "word_count": 5469,
+  "status": "ok",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.24,
+      "text": "I've realized something about trading, average people who are trying to do day trading even"
+    },
+    {
+      "start": 4.24,
+      "end": 10.32,
+      "text": "all the way up to professionals doing trading, they do it completely different than how hedge funds do it."
+    },
+    {
+      "start": 10.32,
+      "end": 15.36,
+      "text": "Now I want to tell you something that I've learnt recently that completely shattered my view of trading."
+    },
+    {
+      "start": 15.36,
+      "end": 23.2,
+      "text": "And that is that quants are not using trend lines and indicators on a chart to make their decisions."
+    },
+    {
+      "start": 23.2,
+      "end": 28.48,
+      "text": "And you might be thinking, well how on earth do you do it then? Well that's exactly what I'm going to show you in this video."
+    },
+    {
+      "start": 28.48,
+      "end": 32.64,
+      "text": "In the depths of trading Twitter, I found a thread by a person called Rowan."
+    },
+    {
+      "start": 32.64,
+      "end": 38.56,
+      "text": "He is a quant. He makes tons of money as a quant. And he's laid out on the table all of the"
+    },
+    {
+      "start": 38.56,
+      "end": 44.08,
+      "text": "secrets that these hedge fund quants use that get them the results that they do, which outperforms"
+    },
+    {
+      "start": 44.08,
+      "end": 50.0,
+      "text": "your normal trader and is far more consistent, but significantly more complex. I've gone through"
+    },
+    {
+      "start": 50.0,
+      "end": 56.24,
+      "text": "all of his work on what's called the hedge fund method. And I've simplified it into a single video and that's"
+    },
+    {
+      "start": 56.8,
+      "end": 61.23,
+      "text": "what you're watching today. So in this video, I'm going to give you a few things. Number one,"
+    },
+    {
+      "start": 61.23,
+      "end": 66.19,
+      "text": "I'm going to share exactly what the hedge fund method is. Number two, I'm going to convert all of"
+    },
+    {
+      "start": 66.19,
+      "end": 72.43,
+      "text": "that hedge fund method into a format that is understood by AI. And in third, I'm going to give you an exact"
+    },
+    {
+      "start": 72.43,
+      "end": 79.23,
+      "text": "copy and paste prompt that you can put into your Claude code or any LLM right now and have this whole method"
+    },
+    {
+      "start": 79.23,
+      "end": 85.31,
+      "text": "installed into your own trading strategies. And if you're using Claude code, you can use this prompt as a"
+    },
+    {
+      "start": 85.39,
+      "end": 92.19,
+      "text": "skill in your AI. So anytime you have a new strategy, it will automatically apply this method on top of it."
+    },
+    {
+      "start": 92.19,
+      "end": 97.39,
+      "text": "And by the end of the video, you'll have all the tools necessary to operate like a hedge fund quant. And right"
+    },
+    {
+      "start": 97.39,
+      "end": 112.19,
+      "text": "after you subscribe, let's get into it. In this video, we're going to go over the 10 elements that make"
+    },
+    {
+      "start": 112.19,
+      "end": 118.19,
+      "text": "up the hedge fund method. And after all of that has been explained, I'm going to give you a couple of prompts."
+    },
+    {
+      "start": 118.19,
+      "end": 123.87,
+      "text": "One is going to be to install this onto your Claude code or any LLM that you use. And the other one"
+    },
+    {
+      "start": 123.87,
+      "end": 128.59,
+      "text": "will be a visualization that you can put onto your trading view chart using pine script. I want you to"
+    },
+    {
+      "start": 128.59,
+      "end": 134.35,
+      "text": "know that these prompts are entirely free for you to copy and paste and take. I don't even want your email."
+    },
+    {
+      "start": 134.35,
+      "end": 141.09,
+      "text": "You can find those prompts on my github link in the top line of the description. The first thing to"
+    },
+    {
+      "start": 141.09,
+      "end": 147.17,
+      "text": "understand is that these hedge funds and the quants are not operating using the same data that you and I are."
+    },
+    {
+      "start": 147.17,
+      "end": 152.85,
+      "text": "I think for the most part, you and I go on vibes. Kind of like feeling our way around the investing"
+    },
+    {
+      "start": 152.85,
+      "end": 157.17,
+      "text": "that I've got a good feeling about Bitcoin or I've got a good feeling about Palantir. And it's all"
+    },
+    {
+      "start": 157.17,
+      "end": 164.05,
+      "text": "about feelings, quants and hedge funds do their absolute best to quantify these feelings, actually put"
+    },
+    {
+      "start": 164.05,
+      "end": 168.61,
+      "text": "numerical values to them. And it's a bit like going outside and saying, oh it's windy today, I'm going"
+    },
+    {
+      "start": 168.61,
+      "end": 173.81,
+      "text": "to make this decision as a result. Whereas if a quant or a hedge fund went out there, they want a numerical"
+    },
+    {
+      "start": 173.81,
+      "end": 178.69,
+      "text": "value. How strong is the wind? What direction is it pointing? And then with those numbers, they can make"
+    },
+    {
+      "start": 178.69,
+      "end": 183.89,
+      "text": "decisions. So I want to introduce to you something called states. Every hedge fund and quant will"
+    },
+    {
+      "start": 183.89,
+      "end": 189.41,
+      "text": "operate with these states. There are only three states. There is a bull state, a sideways state,"
+    },
+    {
+      "start": 189.41,
+      "end": 195.73,
+      "text": "and a bare state. Now a bull state is defined as the last 20 days when you add up all of the returns"
+    },
+    {
+      "start": 195.73,
+      "end": 203.17,
+      "text": "of the last 20 days, are they at 5% or more return? For example, if you had a 1% gain every single"
+    },
+    {
+      "start": 203.17,
+      "end": 209.49,
+      "text": "day for 20 days, that would represent a 20% gain and obviously would be in a bull state. If you had 15"
+    },
+    {
+      "start": 209.49,
+      "end": 216.93,
+      "text": "of the days as a 1% increase, but five of the days were a 1% decrease, then overall you would have a 10%"
+    },
+    {
+      "start": 216.93,
+      "end": 223.57,
+      "text": "gain over that 20 day period, which would again match the criteria for a bull state. Now if the last 20 days"
+    },
+    {
+      "start": 223.57,
+      "end": 230.37,
+      "text": "were a negative 5% or greater, meaning minus 5, minus 6, so on and so forth, then that would be"
+    },
+    {
+      "start": 230.37,
+      "end": 235.89,
+      "text": "classified as a bare state. An anything in between is a sideways state. I know this sounds very"
+    },
+    {
+      "start": 235.89,
+      "end": 240.45,
+      "text": "elementary, but waiting till you see how they use this information. And so the next step of the process"
+    },
+    {
+      "start": 240.45,
+      "end": 247.09,
+      "text": "is obvious. We need to figure out what the state is currently, what is today's state. And so what they do"
+    },
+    {
+      "start": 247.09,
+      "end": 252.29,
+      "text": "is they go back over the course of the entire asset history. Let's say it's Bitcoin. And they actually"
+    },
+    {
+      "start": 252.29,
+      "end": 258.13,
+      "text": "run an algorithm for every single day of the history of Bitcoin and label each day with its state."
+    },
+    {
+      "start": 258.13,
+      "end": 262.93,
+      "text": "So if you can imagine now you've got the entire price history of Bitcoin or any asset. And every"
+    },
+    {
+      "start": 262.93,
+      "end": 268.29,
+      "text": "single day starting from the 20th day because that's the first time you actually have a 20 day looking"
+    },
+    {
+      "start": 268.29,
+      "end": 275.73,
+      "text": "back period. All the way through to today has a label. And each day is a specific state. And this brings"
+    },
+    {
+      "start": 275.73,
+      "end": 279.65,
+      "text": "us to the third rule that they use as part of this hedge fund method. And it's something called the"
+    },
+    {
+      "start": 279.65,
+      "end": 286.53,
+      "text": "Markov property. And it's this whole idea that the market only moves to the next place as a result"
+    },
+    {
+      "start": 286.53,
+      "end": 292.05,
+      "text": "of where it is today. And this goes completely against the way that traders view things. They kind of"
+    },
+    {
+      "start": 292.05,
+      "end": 297.65,
+      "text": "look back throughout history and try to determine what's going to happen tomorrow. But the Markov"
+    },
+    {
+      "start": 297.65,
+      "end": 303.49,
+      "text": "property focuses solely on today. So let me give you a bit of an analogy. Let's say you're driving from"
+    },
+    {
+      "start": 303.49,
+      "end": 309.41,
+      "text": "Little Rock, Arkansas, all the way up to New York City. The route you take to get to New York City will"
+    },
+    {
+      "start": 309.41,
+      "end": 314.53,
+      "text": "entirely depend on the starting location. This might sound very obvious, but let me make it even clearer."
+    },
+    {
+      "start": 314.61,
+      "end": 319.09,
+      "text": "The way you get to New York City from Little Rock, Arkansas is not the same way you get there"
+    },
+    {
+      "start": 319.09,
+      "end": 324.13,
+      "text": "from Nebraska. And it goes without saying that as you make your way on that journey, let's say you get to"
+    },
+    {
+      "start": 324.13,
+      "end": 329.89,
+      "text": "Ohio, for example. The journey to get to New York City from Ohio is also different. The journey"
+    },
+    {
+      "start": 329.89,
+      "end": 336.21,
+      "text": "to New York from Ohio is entirely unique. It doesn't matter at all that you started in Little Rock"
+    },
+    {
+      "start": 336.21,
+      "end": 341.41,
+      "text": "if you're in Ohio trying to get to New York. I hope I've made that quite clear. To summarize,"
+    },
+    {
+      "start": 341.41,
+      "end": 345.57,
+      "text": "the past doesn't really indicate where the future is going to go. And you might be thinking,"
+    },
+    {
+      "start": 345.57,
+      "end": 350.05,
+      "text": "well, Lewis, didn't we just do like the 20 day thing back in history throughout the whole history of"
+    },
+    {
+      "start": 350.05,
+      "end": 355.49,
+      "text": "Bitcoin? Why would we do that if their past was irrelevant? And maybe I was a bit extreme there. But"
+    },
+    {
+      "start": 355.49,
+      "end": 362.05,
+      "text": "the Markov principle really is looking at today. Today has the most weight. And it brings us to this"
+    },
+    {
+      "start": 362.05,
+      "end": 367.89,
+      "text": "thing called the hedge fund matrix, which before this video, I had no idea this thing exists and it"
+    },
+    {
+      "start": 367.89,
+      "end": 372.61,
+      "text": "makes all the sense in the world. And it brings everything we've talked about already together."
+    },
+    {
+      "start": 372.61,
+      "end": 378.69,
+      "text": "Now with all that data that we've got from their entire history of Bitcoin, there are moments in time where"
+    },
+    {
+      "start": 378.69,
+      "end": 385.33,
+      "text": "the state shifts. So we might go from a sideways market to a bull market or a bull state. And we might"
+    },
+    {
+      "start": 385.33,
+      "end": 391.81,
+      "text": "go from a bull state to a bare state. And each one of those transitions is counted and logged."
+    },
+    {
+      "start": 391.81,
+      "end": 397.17,
+      "text": "So what they do is is that they look back in time at every time that transition took place between"
+    },
+    {
+      "start": 397.17,
+      "end": 403.33,
+      "text": "a bull and a sideways market, for example. And they tell you them all down. So we have now a complete"
+    },
+    {
+      "start": 403.33,
+      "end": 409.49,
+      "text": "record of the transitions that have occurred and how many times they occurred. So the amount of times"
+    },
+    {
+      "start": 409.49,
+      "end": 417.09,
+      "text": "we went from bare to bull, bull to bare, from sideways to bull, sideways to bare, bare to sideways, bull to"
+    },
+    {
+      "start": 417.09,
+      "end": 422.61,
+      "text": "sideways, every single combination. We've now tallyed them all down. And we can put a numerical value"
+    },
+    {
+      "start": 422.69,
+      "end": 426.93,
+      "text": "on the amount of times that it happened. Now that we've got those counts and that tally,"
+    },
+    {
+      "start": 426.93,
+      "end": 433.65,
+      "text": "we can turn them into percentages. And that brings us to this very simple 3x3 grid. And it's kind of"
+    },
+    {
+      "start": 433.65,
+      "end": 438.21,
+      "text": "difficult to explain. So I'm going to show you on screen right here. What you're seeing on screen are"
+    },
+    {
+      "start": 438.21,
+      "end": 446.13,
+      "text": "three rows that represent today's state. The three columns represent tomorrow's state. And every row"
+    },
+    {
+      "start": 446.13,
+      "end": 452.37,
+      "text": "has to add up to 100% because something does have to happen tomorrow with 100% certainty."
+    },
+    {
+      "start": 452.37,
+      "end": 458.05,
+      "text": "The market does have to end up in one of those buckets. And so you'll notice that there is a"
+    },
+    {
+      "start": 458.05,
+      "end": 464.37,
+      "text": "most probable outcome for tomorrow's price. And this is where we get the whole concept of the trend is your"
+    },
+    {
+      "start": 464.37,
+      "end": 470.29,
+      "text": "friend. If you're in a bare state, the most likely outcome for the next day is also going to be a"
+    },
+    {
+      "start": 470.29,
+      "end": 476.13,
+      "text": "bare state. But it's not 100% certain. There are other outcomes that can take place. But the hedge funds"
+    },
+    {
+      "start": 476.21,
+      "end": 482.21,
+      "text": "and the quants are specifically using probabilities to determine what the next days moves are."
+    },
+    {
+      "start": 482.21,
+      "end": 487.17,
+      "text": "And that's moving and progressing every single day as it looks back all those transitions or the"
+    },
+    {
+      "start": 487.17,
+      "end": 492.37,
+      "text": "tally's and all the probabilities that they can see what the outcome of the following day is most likely"
+    },
+    {
+      "start": 492.37,
+      "end": 497.97,
+      "text": "to be. So you'll see on the screen right now that we have a diagonal line of cells running from the top"
+    },
+    {
+      "start": 497.97,
+      "end": 503.41,
+      "text": "left to the bottom right. And these three cells represent the market staying exactly the same."
+    },
+    {
+      "start": 503.41,
+      "end": 507.65,
+      "text": "That would be like ball state into ball state, bare state into bare state, sideways and"
+    },
+    {
+      "start": 507.65,
+      "end": 513.33,
+      "text": "sideways. And the reason I highlight this diagonal is because it shows something called persistence."
+    },
+    {
+      "start": 513.33,
+      "end": 520.77,
+      "text": "And that persistence brings about a word called stickiness. And every state has a stickiness score essentially."
+    },
+    {
+      "start": 520.77,
+      "end": 527.01,
+      "text": "How sticky is a ball market? Well, if we are in a ball state today accounting for the last 20 days,"
+    },
+    {
+      "start": 527.01,
+      "end": 533.01,
+      "text": "it's more likely for it to be another ball state tomorrow than it is any of the other states."
+    },
+    {
+      "start": 533.01,
+      "end": 538.53,
+      "text": "Ball states tend to be quite sticky states and also bare markets do as well. And so at all times"
+    },
+    {
+      "start": 538.53,
+      "end": 544.61,
+      "text": "there's a live matrix score board determining the likelihood of the outcome of tomorrow. And this is"
+    },
+    {
+      "start": 544.61,
+      "end": 549.65,
+      "text": "what the quants and the hedge funds use to determine where to place their bets today. So if you know that"
+    },
+    {
+      "start": 549.65,
+      "end": 555.81,
+      "text": "the stickiness score of a ball state is 80% for example. Well then you can quite easily hedge your bets"
+    },
+    {
+      "start": 555.81,
+      "end": 560.85,
+      "text": "on tomorrow also being a ball state and as a result going long. They're not saying tomorrow"
+    },
+    {
+      "start": 560.85,
+      "end": 566.61,
+      "text": "will be a ball state. They're saying there's an 80% chance. There's an 80% probability"
+    },
+    {
+      "start": 566.61,
+      "end": 571.49,
+      "text": "that it will be a ball state tomorrow as well. And just to make this super cool and amazing for you,"
+    },
+    {
+      "start": 571.49,
+      "end": 577.09,
+      "text": "I've actually created a pine script for an indicator that shows the matrix on a chart that you can"
+    },
+    {
+      "start": 577.09,
+      "end": 581.09,
+      "text": "use right now. So when we get to the tutorial element of this video where I explain how to do it,"
+    },
+    {
+      "start": 581.09,
+      "end": 585.73,
+      "text": "I'm going to show you exactly how to install this pine script into your trading view and you can see"
+    },
+    {
+      "start": 585.73,
+      "end": 592.37,
+      "text": "this 3x3 matrix on your chart for any asset you want. How cool is that? I think it's about time to"
+    },
+    {
+      "start": 592.37,
+      "end": 598.45,
+      "text": "subscribe. Don't you? So to summarize what we've covered so far we've talked about what is a state. So we"
+    },
+    {
+      "start": 598.45,
+      "end": 603.73,
+      "text": "know what the states are. We've also decided today's state that's the calculation that the hedge funds"
+    },
+    {
+      "start": 603.73,
+      "end": 608.37,
+      "text": "do to decide to determine where we are today based on the last 20 days of movement. We've talked about"
+    },
+    {
+      "start": 608.37,
+      "end": 613.33,
+      "text": "the Markov property that was number 3. Number 4 we talked about this transition matrix here that the"
+    },
+    {
+      "start": 613.33,
+      "end": 618.77,
+      "text": "hedge fund is using by that 3x3 grid. And number 5 we talked about this persistence, the diagonal line"
+    },
+    {
+      "start": 618.77,
+      "end": 624.29,
+      "text": "that I showed you there, the stickiness score of the asset. But number 6 is kind of an interesting move,"
+    },
+    {
+      "start": 624.29,
+      "end": 631.09,
+      "text": "which I never expected. And it is what if we don't just want a one day forecast? What if we want to look"
+    },
+    {
+      "start": 631.09,
+      "end": 636.77,
+      "text": "further in the future? How do we use all this mathematics and all the information we've gathered so far"
+    },
+    {
+      "start": 636.77,
+      "end": 641.97,
+      "text": "to determine a more far-reaching prediction of the future? Well there actually is a calculation for"
+    },
+    {
+      "start": 641.97,
+      "end": 646.21,
+      "text": "that and I'm going to show you. And it's something called squaring the matrix. The great thing is"
+    },
+    {
+      "start": 646.21,
+      "end": 651.57,
+      "text": "is that you don't need any new mathematics you've already got it already. So all you have to do is simply"
+    },
+    {
+      "start": 651.57,
+      "end": 659.41,
+      "text": "multiply the matrix by itself. So if you want a two-day matrix you square the matrix by itself. If you want"
+    },
+    {
+      "start": 659.41,
+      "end": 664.45,
+      "text": "a three-day forecast you cube it against itself. And don't worry I'm going to show you an example of"
+    },
+    {
+      "start": 664.45,
+      "end": 669.41,
+      "text": "this with real numbers. But it goes on and on and on depending on how far away you want that prediction."
+    },
+    {
+      "start": 669.41,
+      "end": 675.33,
+      "text": "And of course as you keep squaring and cubing against yourself the number ultimately of percentage"
+    },
+    {
+      "start": 675.33,
+      "end": 679.97,
+      "text": "the probability percentage is going down over time. So let's do a three example and I think by the"
+    },
+    {
+      "start": 679.97,
+      "end": 685.17,
+      "text": "end of this you'll understand it. So path number one would be like going from ball to ball. So from the"
+    },
+    {
+      "start": 685.17,
+      "end": 691.01,
+      "text": "example we used earlier, there's an 80% chance that if we are in a ball state now it would be a ball state tomorrow."
+    },
+    {
+      "start": 691.01,
+      "end": 699.17,
+      "text": "But the chance of that ball state remaining for the following day is essentially 0.8 representing 80%"
+    },
+    {
+      "start": 699.41,
+      "end": 707.73,
+      "text": "times by 0.8 with timesing it by itself which leaves us with 0.64 which is 64%. So we've got our two-day"
+    },
+    {
+      "start": 707.73,
+      "end": 714.13,
+      "text": "forecast predicting suggesting that there's a 64% probability that in two days time we will still"
+    },
+    {
+      "start": 714.13,
+      "end": 719.49,
+      "text": "be in a ball state. And so by doing that calculation for all the different combinations you end up with"
+    },
+    {
+      "start": 719.49,
+      "end": 725.65,
+      "text": "the ability and a basically a way to kind of show on a huge matrix with percentage probabilities"
+    },
+    {
+      "start": 725.65,
+      "end": 731.25,
+      "text": "all perfectly laid out. What the chances are that that asset will be in a specific state"
+    },
+    {
+      "start": 731.25,
+      "end": 735.97,
+      "text": "in a specific amount of days. You can see our differences from doing trend lines and stuff right?"
+    },
+    {
+      "start": 735.97,
+      "end": 740.53,
+      "text": "This is mathematical and equation based and this is what quants are doing. This is other people who"
+    },
+    {
+      "start": 740.53,
+      "end": 748.37,
+      "text": "understand this as college kids end up landing jobs at a $650,000 a year out of college and that's true"
+    },
+    {
+      "start": 748.37,
+      "end": 753.41,
+      "text": "and I am making a video about that. But if you extrapolate this idea out quite a bit instead of looking"
+    },
+    {
+      "start": 753.41,
+      "end": 758.45,
+      "text": "two or three days ahead where we're doing nice cute little squaring and then cubing these numbers"
+    },
+    {
+      "start": 758.45,
+      "end": 764.05,
+      "text": "in let's say you want to do a 28 day forecast. We're now we're getting into something where"
+    },
+    {
+      "start": 764.05,
+      "end": 769.97,
+      "text": "we're now multiplying the matrix by the 28th power and these numbers start to get mind boggling."
+    },
+    {
+      "start": 769.97,
+      "end": 774.85,
+      "text": "And actually if you look at it on a chart to see the kind of distribution of percentages"
+    },
+    {
+      "start": 774.85,
+      "end": 781.57,
+      "text": "you'll see that it all basically converges into a single slither and that slither represents how"
+    },
+    {
+      "start": 781.57,
+      "end": 786.29,
+      "text": "the probability of any of these outcomes is so small that there's no meaning for signal that"
+    },
+    {
+      "start": 786.29,
+      "end": 792.53,
+      "text": "you're getting from it. For example, it might say 28 days time there's a 0.2% chance of this outcome,"
+    },
+    {
+      "start": 792.53,
+      "end": 797.73,
+      "text": "there's a 0.2% chance of this outcome, this outcome, this error, they're all going to be uniform"
+    },
+    {
+      "start": 797.73,
+      "end": 802.61,
+      "text": "like 0.2%, but there's going to be so many outcomes and so many ways to get there that there's not"
+    },
+    {
+      "start": 802.61,
+      "end": 809.17,
+      "text": "really any point in using that projection down the line. And that is number seven, the stationary distribution."
+    },
+    {
+      "start": 809.17,
+      "end": 814.05,
+      "text": "And so how do you actually extract signals from all of this to actually make some trades?"
+    },
+    {
+      "start": 814.05,
+      "end": 818.53,
+      "text": "Well, it requires a process called signal generation and that's number eight. Because when I'm"
+    },
+    {
+      "start": 818.53,
+      "end": 822.69,
+      "text": "thinking about this and like, okay, all this maths is good, but what do I do with that information?"
+    },
+    {
+      "start": 822.69,
+      "end": 827.57,
+      "text": "Well, despite all of the calculations and all the equations that have come to this point,"
+    },
+    {
+      "start": 827.57,
+      "end": 833.41,
+      "text": "the calculation is incredibly easy. And that's what I found with the way the quants operate. They do lots"
+    },
+    {
+      "start": 833.41,
+      "end": 838.93,
+      "text": "of complex things in the background, only to simplify it with that foundation. So what they do is"
+    },
+    {
+      "start": 838.93,
+      "end": 844.77,
+      "text": "is one simple calculation of this thing, minus this thing. And so let's talk about it. Basically,"
+    },
+    {
+      "start": 844.77,
+      "end": 850.29,
+      "text": "they're looking at tomorrow, the probability of tomorrow being a bullstate. And what they do is is that"
+    },
+    {
+      "start": 850.29,
+      "end": 856.53,
+      "text": "they subtract the likelihood of it being a bear market tomorrow from the bull market, probability."
+    },
+    {
+      "start": 856.53,
+      "end": 862.05,
+      "text": "And here's the genius part. The larger the number that you get as a result, the more money you will"
+    },
+    {
+      "start": 862.05,
+      "end": 868.05,
+      "text": "put into that trade. So the differential between the bull and the bear in this case determines how big"
+    },
+    {
+      "start": 868.05,
+      "end": 872.61,
+      "text": "that trade is going to be. So you're managing risk that way as well. So let me give you a concrete"
+    },
+    {
+      "start": 872.61,
+      "end": 878.93,
+      "text": "example. So let's say the chance of a bullstate tomorrow is 65%. And the chance of a bear state tomorrow"
+    },
+    {
+      "start": 878.93,
+      "end": 884.21,
+      "text": "is 20%. And of course, because we have to add up to 100, there's a 15% chance that we're going to be in"
+    },
+    {
+      "start": 884.21,
+      "end": 891.33,
+      "text": "a sideways state tomorrow. So to extract your trading signal from this or you do is take 65% which is the"
+    },
+    {
+      "start": 891.33,
+      "end": 898.45,
+      "text": "bull probability tomorrow, minus 20%, which is the bear probability for tomorrow. And you're left"
+    },
+    {
+      "start": 898.45,
+      "end": 904.93,
+      "text": "with 45%. So we've got the direction because it's plus 45%. So we know that the idea is that we're"
+    },
+    {
+      "start": 904.93,
+      "end": 911.41,
+      "text": "going to go long. So each quant and hedge fund will have their own calculation for how strong is 45%"
+    },
+    {
+      "start": 911.41,
+      "end": 916.05,
+      "text": "and how much will they put on that trade. I'd imagine that every hedge fund is going to be slightly different"
+    },
+    {
+      "start": 916.05,
+      "end": 921.41,
+      "text": "in that way. No, some people might look at a plus 45% as a really strong signal and put lots more"
+    },
+    {
+      "start": 921.41,
+      "end": 925.97,
+      "text": "into that trade. And others might look at that as a little bit weaker and put less in. But the point is"
+    },
+    {
+      "start": 925.97,
+      "end": 930.93,
+      "text": "is giving you the direction. And you might be wondering, well, how could that ever be negative? Well,"
+    },
+    {
+      "start": 930.93,
+      "end": 935.41,
+      "text": "you're doing the same calculation. You're taking the bear percentage away from the bull percentage."
+    },
+    {
+      "start": 935.41,
+      "end": 939.81,
+      "text": "So if the bear percentage is a larger number than the bull percentage, then you're going to end up with a"
+    },
+    {
+      "start": 939.81,
+      "end": 946.05,
+      "text": "negative number. And so the signal is to go short. And the degree to which that outcome is revealed"
+    },
+    {
+      "start": 946.05,
+      "end": 950.93,
+      "text": "is the degree to which you enter that trade. And so this is far from the idea of like Bitcoin"
+    },
+    {
+      "start": 950.93,
+      "end": 956.61,
+      "text": "fills bullish today. And it fills good today. This is like far away from that. This is calculations to say,"
+    },
+    {
+      "start": 956.61,
+      "end": 961.09,
+      "text": "you know, this is how bullish I am or this is how bearish I am. And this is how much money goes in"
+    },
+    {
+      "start": 961.09,
+      "end": 968.53,
+      "text": "as a result of that. It's calculated. It's simple, but complex. It's truly amazing. So now as we move"
+    },
+    {
+      "start": 968.53,
+      "end": 972.93,
+      "text": "into step number nine of the 10 that we're going to go over in this video before we get into the"
+    },
+    {
+      "start": 972.93,
+      "end": 977.25,
+      "text": "tutorial, the tutorials relatively quick. I've just got a copy and paste prompt for you. So cool."
+    },
+    {
+      "start": 977.25,
+      "end": 983.09,
+      "text": "In step nine, we're going to do something called walk forward back testing. Now, this walk forward back"
+    },
+    {
+      "start": 983.09,
+      "end": 987.73,
+      "text": "testing has taken me a lot of time to try and comprehend. And I'm not entirely sure I still do,"
+    },
+    {
+      "start": 987.73,
+      "end": 992.45,
+      "text": "but I'm going to explain what I do understand and hopefully it'll make sense. Now, when you're trading,"
+    },
+    {
+      "start": 992.45,
+      "end": 998.21,
+      "text": "often times will create a strategy and we'll do a back test on it. That back test basically takes"
+    },
+    {
+      "start": 998.21,
+      "end": 1003.33,
+      "text": "all of the data that has happened in the past and applies the strategy to all of that history."
+    },
+    {
+      "start": 1003.33,
+      "end": 1008.37,
+      "text": "So the issue is and this is where people come into a problem, especially as retail traders,"
+    },
+    {
+      "start": 1008.37,
+      "end": 1014.85,
+      "text": "is that you take that strategy with all the information. It's learnt from all of the data, right?"
+    },
+    {
+      "start": 1014.85,
+      "end": 1021.57,
+      "text": "And you take that strategy and implement it into, let's say, 2020. Now, it's not a good back test"
+    },
+    {
+      "start": 1021.57,
+      "end": 1028.69,
+      "text": "because the data from 2020 has already been baked in to the entire back test and you're applying it"
+    },
+    {
+      "start": 1028.69,
+      "end": 1034.37,
+      "text": "back in time. This is really complex, but it's not a good back test because it's already learnt from"
+    },
+    {
+      "start": 1034.37,
+      "end": 1040.45,
+      "text": "the future. If you're placing the strategy into 2020, for example, it already has the future outcomes"
+    },
+    {
+      "start": 1040.45,
+      "end": 1046.05,
+      "text": "baked into the strategy. And so it doesn't make any sense. If we've got all the data right now as of today,"
+    },
+    {
+      "start": 1046.13,
+      "end": 1051.49,
+      "text": "that means it's learnt from 2020. It's learnt from 2021 already. And so this walk forward,"
+    },
+    {
+      "start": 1051.49,
+      "end": 1057.49,
+      "text": "back testing thing is a mitigation against that. Now, it's massively computationally heavy,"
+    },
+    {
+      "start": 1057.49,
+      "end": 1064.21,
+      "text": "or at least it was before AI, hint hint. But every single day has to be entirely recarculated."
+    },
+    {
+      "start": 1064.21,
+      "end": 1070.29,
+      "text": "So the whole matrix has to be entirely redone. So we never have that issue of having a strategy that's"
+    },
+    {
+      "start": 1070.29,
+      "end": 1075.33,
+      "text": "learnt from all the data applied to the past and it just doesn't work. From my understanding that's"
+    },
+    {
+      "start": 1075.33,
+      "end": 1080.29,
+      "text": "how it works and if you don't understand, you kind of don't need to because it's going to be in the AI"
+    },
+    {
+      "start": 1080.29,
+      "end": 1086.21,
+      "text": "to do this for you. Now, we're at number 10 and things are about to get mind-blowing, okay? And so prepare."
+    },
+    {
+      "start": 1086.21,
+      "end": 1092.37,
+      "text": "Earlier on, we talked about defining a state, like what are the numbers that define a state? We said,"
+    },
+    {
+      "start": 1092.37,
+      "end": 1098.77,
+      "text": "you know, 5% and up means a ball, negative 5% and down means a bear and anything in between is sideways."
+    },
+    {
+      "start": 1098.77,
+      "end": 1104.37,
+      "text": "But that's subjective, like who decided that? We decided that humans decided that that's a subjective"
+    },
+    {
+      "start": 1104.37,
+      "end": 1110.85,
+      "text": "interpretation of what a ball and bear means. And obviously then we come into this natural floor of"
+    },
+    {
+      "start": 1110.85,
+      "end": 1116.69,
+      "text": "the system. Doesn't work now, does it? How can we have these subjective opinions and everything else is kind of"
+    },
+    {
+      "start": 1116.69,
+      "end": 1123.01,
+      "text": "calculated and mathematical? But we're still left with the weakest link, which is our subjective view."
+    },
+    {
+      "start": 1123.01,
+      "end": 1129.09,
+      "text": "And so step number 10 closes all of that out and solves that problem, solves that subjective behavior"
+    },
+    {
+      "start": 1129.09,
+      "end": 1134.45,
+      "text": "that ultimately allows us to really determine what ball means, what bear means and what sideways means."
+    },
+    {
+      "start": 1134.45,
+      "end": 1139.73,
+      "text": "And this is called the hidden Markov model. And this is a part of the process that looks back"
+    },
+    {
+      "start": 1139.73,
+      "end": 1144.93,
+      "text": "over all of the price history of the asset we're looking at, all of the transitions, but all of the"
+    },
+    {
+      "start": 1144.93,
+      "end": 1150.69,
+      "text": "states and the labels that we attached to them earlier have been removed. So it's not learning from the"
+    },
+    {
+      "start": 1150.69,
+      "end": 1156.77,
+      "text": "labeling of states anymore. It's actually doing a whole pass through the strategy of pattern recognition"
+    },
+    {
+      "start": 1156.85,
+      "end": 1161.89,
+      "text": "itself. It's looking at details like the continuation of the price going up or the price going down."
+    },
+    {
+      "start": 1161.89,
+      "end": 1166.85,
+      "text": "It's looking at a whole load of different data points without the labels. And so to make this like"
+    },
+    {
+      "start": 1166.85,
+      "end": 1172.45,
+      "text": "super simple to understand, it's almost like a babysitter. They come into the house and there's a whole"
+    },
+    {
+      "start": 1172.45,
+      "end": 1178.13,
+      "text": "bunch of children in there. They don't immediately know, you know, this child has ADHD, this child,"
+    },
+    {
+      "start": 1178.13,
+      "end": 1182.61,
+      "text": "sleeps all the time, this child is crazy and violent. You know, they don't know any of that stuff."
+    },
+    {
+      "start": 1182.69,
+      "end": 1187.33,
+      "text": "And so a few days later though, once they've sat there and they've observed the children and the way"
+    },
+    {
+      "start": 1187.33,
+      "end": 1192.05,
+      "text": "they act and the way they interact with each other, you can determine a whole bunch of things about each"
+    },
+    {
+      "start": 1192.05,
+      "end": 1198.21,
+      "text": "child and a sign or prescribe a personality to each child. But it takes time to kind of analyze and sit back"
+    },
+    {
+      "start": 1198.21,
+      "end": 1203.25,
+      "text": "and watch. And that's what this hidden Markov model is doing. And after all of that, now it's determined"
+    },
+    {
+      "start": 1203.25,
+      "end": 1209.25,
+      "text": "the personalities of the children. You'll actually put a label on the children, like ADHD,"
+    },
+    {
+      "start": 1209.33,
+      "end": 1214.69,
+      "text": "violent, sleepy. It will do that across all of them. And it's doing the same thing across the"
+    },
+    {
+      "start": 1214.69,
+      "end": 1222.45,
+      "text": "data of the chart. So it's now actually prescribing a ball state, a best state, and a sideways state,"
+    },
+    {
+      "start": 1222.45,
+      "end": 1227.97,
+      "text": "without any labels existing previously. And so when you overlap the two of those, where you've got the,"
+    },
+    {
+      "start": 1227.97,
+      "end": 1234.45,
+      "text": "you know, the 5% is a ball, negative 5% and below is a bear, the subjective labels that we gave. And"
+    },
+    {
+      "start": 1234.45,
+      "end": 1241.65,
+      "text": "also the hidden Markov method labels that were generated, you can overlap them and see where they"
+    },
+    {
+      "start": 1241.65,
+      "end": 1247.41,
+      "text": "are confirming each other. And when they confirm each other, that gives you the green light to move ahead."
+    },
+    {
+      "start": 1247.41,
+      "end": 1252.29,
+      "text": "Right. Now that we've understood all of that, I hope you have, that was all 10 of the elements that"
+    },
+    {
+      "start": 1252.29,
+      "end": 1258.21,
+      "text": "make up this hedge fund method, but it's all kind of useless to you as just information. We need a real"
+    },
+    {
+      "start": 1258.21,
+      "end": 1264.13,
+      "text": "way to apply this into our own trading strategies and specifically using AI, get this onto our computers"
+    },
+    {
+      "start": 1264.13,
+      "end": 1268.13,
+      "text": "and running for us. So you're going to get a couple of things here. The first thing you're going to get"
+    },
+    {
+      "start": 1268.13,
+      "end": 1275.41,
+      "text": "is a Claude code skill. This skill, you can install into your computer, especially if you're using Claude code,"
+    },
+    {
+      "start": 1275.41,
+      "end": 1279.89,
+      "text": "if you're not using Claude code and any other LLM, you can actually take the one shop prompt and it will"
+    },
+    {
+      "start": 1279.89,
+      "end": 1285.81,
+      "text": "just learn it on your system, regardless of whether it's Claude code or not. But this skill, this system,"
+    },
+    {
+      "start": 1285.81,
+      "end": 1292.61,
+      "text": "will be applied to any trading strategy that you ask it to apply it to. So if I've got my strategy for"
+    },
+    {
+      "start": 1292.61,
+      "end": 1298.61,
+      "text": "bittensor and all the subnets like I actually do in real life, I can copy and paste this prompt into"
+    },
+    {
+      "start": 1298.61,
+      "end": 1303.97,
+      "text": "my Claude code, it can learn it and determine what needs to change about my strategy to go in"
+    },
+    {
+      "start": 1303.97,
+      "end": 1308.77,
+      "text": "accordance to this hedge fund method. That'll be a copy and paste prompt that will take you through"
+    },
+    {
+      "start": 1308.77,
+      "end": 1314.05,
+      "text": "from beginning to end very simply regardless of how much experience you have with AI or with trading."
+    },
+    {
+      "start": 1314.05,
+      "end": 1318.53,
+      "text": "And then as a little bonus, I've created a pine script as I mentioned earlier. This is a way to"
+    },
+    {
+      "start": 1318.53,
+      "end": 1324.85,
+      "text": "visualize the 3x3 grid of probabilities on your chart inside trading view. This would be a separate"
+    },
+    {
+      "start": 1324.85,
+      "end": 1329.89,
+      "text": "copy and paste that you can go straight into your pine script editor on trading view and paste it in."
+    },
+    {
+      "start": 1329.89,
+      "end": 1336.74,
+      "text": "So with that, let's get into the tutorial. All right. So first things first is you're going to go to the"
+    },
+    {
+      "start": 1336.74,
+      "end": 1342.5,
+      "text": "first line in the description of the video and you'll be brought to a GitHub page. The GitHub page is going"
+    },
+    {
+      "start": 1342.5,
+      "end": 1346.34,
+      "text": "to give you all the code of everything I've worked on. So far it's going to give you the pine script,"
+    },
+    {
+      "start": 1346.34,
+      "end": 1351.46,
+      "text": "the one-shot prompt for you to install on your Claude code or any LLM for that matter."
+    },
+    {
+      "start": 1351.46,
+      "end": 1356.42,
+      "text": "I'm going to walk you through how to do that. So you've come over to the GitHub right now and you can"
+    },
+    {
+      "start": 1356.42,
+      "end": 1363.14,
+      "text": "see a series of things. If you just kind of come down and see you can see the two elements of this,"
+    },
+    {
+      "start": 1363.14,
+      "end": 1368.98,
+      "text": "the on camera build that we're doing right now. This is the Markov hedge fund method. If you click that,"
+    },
+    {
+      "start": 1368.98,
+      "end": 1374.82,
+      "text": "it will open up a link in another tab and we're also going to click the pine script bonus as well"
+    },
+    {
+      "start": 1374.82,
+      "end": 1379.94,
+      "text": "if you're going to use this for trading view. So here is the hedge fund method skill that you're"
+    },
+    {
+      "start": 1379.94,
+      "end": 1386.34,
+      "text": "going to install into your AI. So you're going to copy it from this moment onwards all the way down,"
+    },
+    {
+      "start": 1386.34,
+      "end": 1391.38,
+      "text": "it's going to, this is all the information that I've kind of put together so that you can"
+    },
+    {
+      "start": 1392.18,
+      "end": 1397.22,
+      "text": "create the skill in your system. So I've copied it, you're going to come over here, you're going to click paste"
+    },
+    {
+      "start": 1397.22,
+      "end": 1402.34,
+      "text": "and click enter. There's going to be an onboarding process that you'll go through where it's just"
+    },
+    {
+      "start": 1402.42,
+      "end": 1407.6,
+      "text": "going to install this whole thing into your computer. If you're on cloud code, it's going to create"
+    },
+    {
+      "start": 1407.6,
+      "end": 1413.44,
+      "text": "a skill. So anytime you have a trading strategy, you can just say, hey, can you do the Markov run the Markov"
+    },
+    {
+      "start": 1413.44,
+      "end": 1418.72,
+      "text": "skill here, it'll go through the whole process to make sure that the strategy is beefed up. So it's"
+    },
+    {
+      "start": 1418.72,
+      "end": 1424.72,
+      "text": "said, I'm going to install the Markov hedge fund method skill into this file about 90 seconds on Mac and"
+    },
+    {
+      "start": 1424.72,
+      "end": 1430.4,
+      "text": "Linux and up to 2 to 3 minutes on Windows. Don't need any keys or accounts or admin passwords. Great."
+    },
+    {
+      "start": 1430.4,
+      "end": 1436.4,
+      "text": "This is Rowan's framework on Rowan chain and observable Markov regime model that builds a bear,"
+    },
+    {
+      "start": 1436.4,
+      "end": 1443.28,
+      "text": "a bull bear sideways transition matrix from any ticker. Great. So if you're ready, you just type go and it"
+    },
+    {
+      "start": 1443.28,
+      "end": 1448.72,
+      "text": "will start the process. And it's basically done with the process now. We've been about two minutes and"
+    },
+    {
+      "start": 1448.72,
+      "end": 1454.0,
+      "text": "21 into this. And you can see that phase four of this whole process of the onboarding. It says it's going"
+    },
+    {
+      "start": 1454.0,
+      "end": 1463.12,
+      "text": "to run a Markov regime, basically, on the SPY 10 year chart. And this is just a demo to show that it"
+    },
+    {
+      "start": 1463.12,
+      "end": 1468.56,
+      "text": "does in fact work. You could also then after this, just say, hey, run it on Bitcoin, run it on Ethereum,"
+    },
+    {
+      "start": 1468.56,
+      "end": 1473.2,
+      "text": "whatever you want to do, and it will apply the Markov regime. Everything we've talked about today"
+    },
+    {
+      "start": 1473.2,
+      "end": 1478.88,
+      "text": "to that asset. And it really can be an any asset. And just like that, the whole Markov hedge fund method"
+    },
+    {
+      "start": 1478.88,
+      "end": 1484.8,
+      "text": "skill has been installed. So whenever you want to use it on a strategy, you just type forward slash"
+    },
+    {
+      "start": 1484.8,
+      "end": 1490.4,
+      "text": "Markov. And you can see hedge fund method. You type that there and then talk about your strategy or"
+    },
+    {
+      "start": 1490.4,
+      "end": 1496.0,
+      "text": "whatever. And that's how it works. Next, we're going to just talk about how we can apply the"
+    },
+    {
+      "start": 1496.0,
+      "end": 1501.68,
+      "text": "pine script into our trading view. Now you do this come over to the pine script page that we talked about"
+    },
+    {
+      "start": 1501.68,
+      "end": 1507.28,
+      "text": "earlier. Click copy raw file right up here. Then you can go over to your trading view. I've already"
+    },
+    {
+      "start": 1507.28,
+      "end": 1512.64,
+      "text": "got mine installed, but I'm going to delete it so you can see it all work. On the right hand side,"
+    },
+    {
+      "start": 1512.64,
+      "end": 1518.48,
+      "text": "this is on the desktop, out by the way. We've got a mountain looking icon. That is the pine script icon."
+    },
+    {
+      "start": 1518.48,
+      "end": 1525.12,
+      "text": "You can click that. And sometimes it helps just to bring this out a little bit further. We can do control"
+    },
+    {
+      "start": 1525.12,
+      "end": 1530.48,
+      "text": "a or command a to select everything. And we want to delete that. Then we're going to click command v,"
+    },
+    {
+      "start": 1530.48,
+      "end": 1535.84,
+      "text": "which is paste. This is the pine script right here. And all we want to do is click the play button here,"
+    },
+    {
+      "start": 1536.16,
+      "end": 1540.64,
+      "text": "which is to add to chart. We can now close this. And we wait for it to populate on the chart."
+    },
+    {
+      "start": 1541.04,
+      "end": 1545.04,
+      "text": "And remember, this is the Bitcoin chart. And there we go. The Markov regime has been"
+    },
+    {
+      "start": 1545.84,
+      "end": 1550.88,
+      "text": "laid on here. This will work for any asset, because it's just doing a bit of calculations automatically."
+    },
+    {
+      "start": 1550.88,
+      "end": 1557.68,
+      "text": "And the one to look at. Obviously, we've explained the nine, the nine kind of card view."
+    },
+    {
+      "start": 1557.68,
+      "end": 1564.24,
+      "text": "But the long run mix is the one that I like to look for. So if we look at the ball percentage for"
+    },
+    {
+      "start": 1564.24,
+      "end": 1571.84,
+      "text": "tomorrow, it's 29% chance of tomorrow being a ball run. Tomorrow being a bear market is 42%"
+    },
+    {
+      "start": 1571.84,
+      "end": 1577.44,
+      "text": "chance and 29% chance of it going sideways. And so that bear market being the highest percentage,"
+    },
+    {
+      "start": 1577.44,
+      "end": 1584.64,
+      "text": "the highest likelihood is because we have bear behavior recently, right? It's just it's a sticky"
+    },
+    {
+      "start": 1584.64,
+      "end": 1590.4,
+      "text": "state as we talked about. So that's how it works. It all works here. I'll actually go and change the chart."
+    },
+    {
+      "start": 1590.4,
+      "end": 1598.19,
+      "text": "Maybe we do, let's say xRP for example. And again, it applies the numbers for xRP as well. And you can do"
+    },
+    {
+      "start": 1598.19,
+      "end": 1604.51,
+      "text": "really anything here. I don't know what else I can kind of show stocks, Tesla. There it is. The Markov regime"
+    },
+    {
+      "start": 1604.51,
+      "end": 1610.67,
+      "text": "works for that as well. All right. So I hope you've got tremendous use from this. This is one part of a"
+    },
+    {
+      "start": 1610.67,
+      "end": 1616.59,
+      "text": "potential series on the topic of quant strategies that we can use AI to implement. If at any point"
+    },
+    {
+      "start": 1616.59,
+      "end": 1622.51,
+      "text": "you're doing this process and you hit a roadblock, you can always get in touch with me on zero one"
+    },
+    {
+      "start": 1622.51,
+      "end": 1627.07,
+      "text": "systems. It's the second link in the description. That's the only place really where I can provide"
+    },
+    {
+      "start": 1627.07,
+      "end": 1632.19,
+      "text": "feedback and help people with issues and bugs that they have along the way. So check that out if you're"
+    },
+    {
+      "start": 1632.19,
+      "end": 1634.19,
+      "text": "interested and I'll see you in the next one."
+    }
+  ]
+}

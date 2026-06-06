@@ -1,0 +1,1327 @@
+{
+  "video_id": "PgwctmzVUCI",
+  "title": "This Claude Code Trick Saves You $1000s on TradingView",
+  "language": "en",
+  "language_confidence": 0.998,
+  "duration_seconds": 1415.6,
+  "processing_seconds": 217.8,
+  "word_count": 5145,
+  "status": "ok",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.56,
+      "text": "What you're seeing on screen right now are 10 of the most valuable features that come"
+    },
+    {
+      "start": 4.56,
+      "end": 12.08,
+      "text": "with the max plan on trading view. This is a $270 a month plan. I've got them all functioning"
+    },
+    {
+      "start": 12.08,
+      "end": 18.8,
+      "text": "perfectly on my free account. I've done it entirely on Cloud Code and I'm going to teach you how to do it"
+    },
+    {
+      "start": 18.8,
+      "end": 22.88,
+      "text": "today as well. So in today's video, I'm going to give you three different things. Number one,"
+    },
+    {
+      "start": 22.88,
+      "end": 27.36,
+      "text": "I'm going to teach you about all of the different features that we're replicating today in our free account."
+    },
+    {
+      "start": 27.44,
+      "end": 31.44,
+      "text": "Number two, I'm going to teach you how to install this into your own trading view."
+    },
+    {
+      "start": 31.44,
+      "end": 35.76,
+      "text": "And number three, I'm going to make it so insanely easy. I'm going to give you one copy and"
+    },
+    {
+      "start": 35.76,
+      "end": 41.44,
+      "text": "paste prompt. Absolutely free that you can copy and paste into your Cloud and have the whole thing set up."
+    },
+    {
+      "start": 41.44,
+      "end": 47.52,
+      "text": "And I'm going to demo that whole process in this video. So right after you subscribe, let's get into it."
+    },
+    {
+      "start": 53.78,
+      "end": 58.1,
+      "text": "So to find a prompt, absolutely for free, all you have to do is click the link in the top line of the"
+    },
+    {
+      "start": 58.1,
+      "end": 62.82,
+      "text": "description of this video. Once you're in, you just come up to the top here and click Classroom,"
+    },
+    {
+      "start": 62.82,
+      "end": 68.82,
+      "text": "then the YouTube video prompts. These are all absolutely free forever. Copy this entire prompt."
+    },
+    {
+      "start": 68.82,
+      "end": 73.38,
+      "text": "And you can do that right now and build this thing right now without any of my explanation."
+    },
+    {
+      "start": 73.38,
+      "end": 76.9,
+      "text": "And you can jump straight to the part of the video where we go over the demo. But if you do want to"
+    },
+    {
+      "start": 76.9,
+      "end": 82.42,
+      "text": "understand what's going on here and which paid features we are replicating, then that's what I'm about to get into"
+    },
+    {
+      "start": 82.5,
+      "end": 87.7,
+      "text": "right now. So you might not know that the free plan with trading view gives you basically two slots to"
+    },
+    {
+      "start": 87.7,
+      "end": 93.54,
+      "text": "do whatever you can with. You get two slots for indicators. You can't use other charts on the same screen."
+    },
+    {
+      "start": 93.54,
+      "end": 99.06,
+      "text": "There's a whole bunch of stuff you can't do. It's extremely limited. But I was looking at it and I thought,"
+    },
+    {
+      "start": 99.06,
+      "end": 104.18,
+      "text": "this seems really weird to have such limitations. We have access to something called Pinescript."
+    },
+    {
+      "start": 104.18,
+      "end": 109.54,
+      "text": "And Pinescript used to be this inaccessible thing and was only available to people who could code in"
+    },
+    {
+      "start": 109.62,
+      "end": 114.9,
+      "text": "Pinescript, right? But now we have AI. The AI can do all of this coding for us. We don't need"
+    },
+    {
+      "start": 114.9,
+      "end": 119.3,
+      "text": "this limitation there anymore. We can now do anything we want. So it got me thinking,"
+    },
+    {
+      "start": 119.3,
+      "end": 125.7,
+      "text": "how many of these massively paid features can we incorporate for free using Pinescript in our free"
+    },
+    {
+      "start": 125.7,
+      "end": 131.38,
+      "text": "accounts? And it turns out there's nine or ten of them that are incredibly powerful that we can use."
+    },
+    {
+      "start": 131.38,
+      "end": 136.18,
+      "text": "And while some of them we cannot replicate things like how the top tier of trading view doesn't show"
+    },
+    {
+      "start": 136.18,
+      "end": 141.14,
+      "text": "you any ads. We can't stop that unless we actually build an ad blocker with which we probably could"
+    },
+    {
+      "start": 141.14,
+      "end": 146.82,
+      "text": "do actually using claw but not for this video. But things like historical charts and historical data"
+    },
+    {
+      "start": 146.82,
+      "end": 152.5,
+      "text": "and alerting systems, these things are very limited if not completely not on the free plan but we're"
+    },
+    {
+      "start": 152.5,
+      "end": 158.1,
+      "text": "going to do it anyway. So the first and most obvious one here is the inability to have multiple"
+    },
+    {
+      "start": 158.1,
+      "end": 161.78,
+      "text": "indicators on the screen. What you have with the free trading view account is you're allowed two"
+    },
+    {
+      "start": 161.78,
+      "end": 166.42,
+      "text": "indicators on your chart at any time if you want more than that than you've got to upgrade."
+    },
+    {
+      "start": 166.42,
+      "end": 172.82,
+      "text": "But what are indicators really? It's really just a background pine script that uses the data of the"
+    },
+    {
+      "start": 172.82,
+      "end": 178.58,
+      "text": "chart to overlay something on the chart. So essentially what we're able to do is take the structure"
+    },
+    {
+      "start": 178.58,
+      "end": 183.86,
+      "text": "of multiple indicators. You could even do like a hundred indicators here, not that that would be useful"
+    },
+    {
+      "start": 183.86,
+      "end": 189.94,
+      "text": "but you could package those 100 indicators into the pine script to fill the slot of a single"
+    },
+    {
+      "start": 189.94,
+      "end": 194.18,
+      "text": "indicator. People who are serious about trading will have loads of indicators on screen,"
+    },
+    {
+      "start": 194.18,
+      "end": 199.38,
+      "text": "trying to find conferences and all of that stuff. We can now do that absolutely for free just being"
+    },
+    {
+      "start": 199.38,
+      "end": 205.86,
+      "text": "smart with some pine script. Now what you also have on the max plan is the ability to have a four chart"
+    },
+    {
+      "start": 206.5,
+      "end": 211.86,
+      "text": "paid layout. Essentially having four charts on the screen at a single time is something that people"
+    },
+    {
+      "start": 211.86,
+      "end": 216.82,
+      "text": "will pay a lot of money for so you can see everything moving all at once. You might have multiple trades"
+    },
+    {
+      "start": 216.82,
+      "end": 221.7,
+      "text": "going, you might be looking at these different assets for confluence to make a trade in the asset"
+    },
+    {
+      "start": 221.7,
+      "end": 225.78,
+      "text": "that you're actually looking at. But a lot of people use those different charts to have different"
+    },
+    {
+      "start": 225.78,
+      "end": 230.9,
+      "text": "timeframes for the same asset that they're looking on. So they might be looking at Tesla to the dollar,"
+    },
+    {
+      "start": 230.9,
+      "end": 235.46,
+      "text": "right? And people will pay to be able to have the one hour chart, the one day chart, the one week"
+    },
+    {
+      "start": 235.46,
+      "end": 242.02,
+      "text": "and the one month all on the same screen. Whatever it is, you can't do that on the free account, unless you can."
+    },
+    {
+      "start": 242.02,
+      "end": 247.46,
+      "text": "My work around for this was to actually create a multi time frame dashboard that goes straight"
+    },
+    {
+      "start": 247.46,
+      "end": 252.5,
+      "text": "onto your screen that shows you on the asset that you're looking at on the different timeframes,"
+    },
+    {
+      "start": 252.5,
+      "end": 256.74,
+      "text": "what's happening on those different timeframes. So we're not looking at the four different charts,"
+    },
+    {
+      "start": 256.74,
+      "end": 261.7,
+      "text": "we're actually just looking at a condensed view of what's happening on the other charts without needing"
+    },
+    {
+      "start": 261.7,
+      "end": 266.1,
+      "text": "to have four of them on the screen. The next feature we're going to replicate is the premium screen at all."
+    },
+    {
+      "start": 266.1,
+      "end": 271.06,
+      "text": "Now what the screen at all does, it looks out at a watch list to see if that criteria is being met"
+    },
+    {
+      "start": 271.06,
+      "end": 275.78,
+      "text": "across different assets. The great thing is with PineScript we can literally entirely replace"
+    },
+    {
+      "start": 275.78,
+      "end": 281.22,
+      "text": "that feature. Just sprinkle in a little bit of PineScript seasoning and we've completely replicated"
+    },
+    {
+      "start": 281.22,
+      "end": 285.78,
+      "text": "what people pay a lot of money for. And the fourth thing we've replicated is something that we're"
+    },
+    {
+      "start": 285.78,
+      "end": 292.74,
+      "text": "calling the Anchored V-Wap. Now V-Wap stands for volume-weighted average price and this is really useful for"
+    },
+    {
+      "start": 292.74,
+      "end": 296.9,
+      "text": "people and this is why people pay lots of money for it is that they can look at certain events that"
+    },
+    {
+      "start": 296.9,
+      "end": 302.34,
+      "text": "took place and you can define these moments in time that say it's Elon Musk going on to set"
+    },
+    {
+      "start": 302.34,
+      "end": 306.98,
+      "text": "a day-night live talking about Dogecoin. What Elon Musk does this crazy demonstration of the new"
+    },
+    {
+      "start": 306.98,
+      "end": 312.58,
+      "text": "Tesla car and it's amazing, you can highlight that moment in time and calculate the moves from that moment"
+    },
+    {
+      "start": 312.58,
+      "end": 317.7,
+      "text": "onwards. It allows you to see what people have been doing, post that event, or you could even look"
+    },
+    {
+      "start": 317.7,
+      "end": 322.26,
+      "text": "to see what people were doing before that event. That data might be useful to you somehow. And again,"
+    },
+    {
+      "start": 322.26,
+      "end": 326.5,
+      "text": "you can determine when that moment in time is and we can entirely replicate that for free. I think"
+    },
+    {
+      "start": 326.5,
+      "end": 331.14,
+      "text": "it's about time you subscribe, isn't it? The fifth one is one I use all the time and it's incredible"
+    },
+    {
+      "start": 331.14,
+      "end": 335.38,
+      "text": "and I can't believe it's taking me this long to figure out I could do it for free but it's entirely free"
+    },
+    {
+      "start": 335.38,
+      "end": 340.18,
+      "text": "and it's entirely just as useful as the paid version. And I'm calling this the volume profile slash"
+    },
+    {
+      "start": 340.18,
+      "end": 345.86,
+      "text": "POC. POC in this case stands for a point of control and let me explain how it works. So essentially"
+    },
+    {
+      "start": 345.86,
+      "end": 351.7,
+      "text": "shows on the chart is what's called a histogram and that histogram shows horizontally which"
+    },
+    {
+      "start": 351.7,
+      "end": 357.46,
+      "text": "prices in the all the price history were most traded because this can serve as really useful information"
+    },
+    {
+      "start": 357.46,
+      "end": 362.26,
+      "text": "if you're looking for resistances and supports of price action in the future and it displays it"
+    },
+    {
+      "start": 362.26,
+      "end": 367.38,
+      "text": "on the right of the chart so you can actually see where these high trading areas are. So if you're trying"
+    },
+    {
+      "start": 367.38,
+      "end": 373.22,
+      "text": "to make the case for a reversal or a continuation or a support or a retest or whatever it is this"
+    },
+    {
+      "start": 373.22,
+      "end": 378.98,
+      "text": "histogram is so valuable. There's a reason why this is a feature on the max plan at trading view."
+    },
+    {
+      "start": 378.98,
+      "end": 384.74,
+      "text": "Again, entirely free using this one-shot prompt. Now feature 6 is also super cool and it replaces"
+    },
+    {
+      "start": 384.74,
+      "end": 390.5,
+      "text": "the need for the feature of a second chart having a second chart on the screen and what our adapted"
+    },
+    {
+      "start": 390.5,
+      "end": 395.78,
+      "text": "feature does is it takes the higher timeframes or whatever different timeframes you want from the chart"
+    },
+    {
+      "start": 395.78,
+      "end": 400.02,
+      "text": "and displays them on the chart while you're looking at a single chart. So you can have all of that on your"
+    },
+    {
+      "start": 400.02,
+      "end": 404.42,
+      "text": "screen without needing additional charts on the screen. Again think about this you would have had to have"
+    },
+    {
+      "start": 404.42,
+      "end": 409.54,
+      "text": "paid for this before and now it's completely free. Now the seventh feature that we're replicating here"
+    },
+    {
+      "start": 409.54,
+      "end": 414.5,
+      "text": "usually would require you every time you jump onto your chart or you reload your trading view up you're"
+    },
+    {
+      "start": 414.5,
+      "end": 419.78,
+      "text": "going to have to draw these lines by hand again. I'm talking about things like the day high the"
+    },
+    {
+      "start": 419.78,
+      "end": 425.22,
+      "text": "month high the week high the highs and lows the opening price the low and close like all of that stuff"
+    },
+    {
+      "start": 425.22,
+      "end": 429.54,
+      "text": "is just on your screen and updating every time you load up this pine script. So you're not even to"
+    },
+    {
+      "start": 429.54,
+      "end": 434.5,
+      "text": "redraw these things because the chart has moved because it's moving as the chart moves. Now this next"
+    },
+    {
+      "start": 434.5,
+      "end": 440.42,
+      "text": "feature is called Sessions and this is an insanely valuable feature that's on the top plan of trading"
+    },
+    {
+      "start": 440.42,
+      "end": 446.1,
+      "text": "view and we get this absolutely for free as well. Essentially what it does is it shades on the chart"
+    },
+    {
+      "start": 446.1,
+      "end": 451.14,
+      "text": "a specific color you can determine all of these things by the way like which color which market all the"
+    },
+    {
+      "start": 451.14,
+      "end": 456.5,
+      "text": "colors and customization is completely up to you. It will shade the opening and closing times of London"
+    },
+    {
+      "start": 456.5,
+      "end": 462.42,
+      "text": "and New York and the Asian markets and it'll also highlight these high volatility what we call"
+    },
+    {
+      "start": 462.42,
+      "end": 468.9,
+      "text": "kill zones and you can use these kill zones to understand when times of high volatility are going to"
+    },
+    {
+      "start": 468.9,
+      "end": 473.3,
+      "text": "are going to take place based on when these markets are open or when they're overlapping or where these"
+    },
+    {
+      "start": 473.3,
+      "end": 478.42,
+      "text": "kill zones are. Now number nine I absolutely love because on the free plan you can I don't even know"
+    },
+    {
+      "start": 478.42,
+      "end": 482.34,
+      "text": "if you can set any alerts to be honest and need to check that. If so if something happens on the chart"
+    },
+    {
+      "start": 482.34,
+      "end": 486.98,
+      "text": "you want to be alerted as to the fact that that's happened. I know that on the lower tiers you get a"
+    },
+    {
+      "start": 486.98,
+      "end": 492.58,
+      "text": "certain amount of alerts but we can override that alerting system by sprinkling in a little bit of"
+    },
+    {
+      "start": 492.58,
+      "end": 498.98,
+      "text": "Claude code. So now we can actually have smart alerts. So instead of having different alerting tools"
+    },
+    {
+      "start": 498.98,
+      "end": 503.62,
+      "text": "that you have you're making your own alerting tool based on the trading view chart and you can actually"
+    },
+    {
+      "start": 503.62,
+      "end": 509.06,
+      "text": "set up an infinite amount of alerts about your trading. Not that you're necessarily going to want to do"
+    },
+    {
+      "start": 509.06,
+      "end": 513.94,
+      "text": "that. You have almost unlimited capacity now and in the demo we're about to get into. You can set"
+    },
+    {
+      "start": 513.94,
+      "end": 518.66,
+      "text": "up these alerts however you want. You can have a message sent to your telegram to your Slack to your"
+    },
+    {
+      "start": 518.66,
+      "end": 524.18,
+      "text": "Discord to your email. You can have it all set up with this smart alert feature that completely removes"
+    },
+    {
+      "start": 524.18,
+      "end": 528.74,
+      "text": "the need for a lot of alerts on trading view. Now that we've replaced all of those features I want to"
+    },
+    {
+      "start": 528.74,
+      "end": 533.38,
+      "text": "tell you like when when you go through this demo process we're about to kind of go through together here"
+    },
+    {
+      "start": 533.38,
+      "end": 538.74,
+      "text": "you have the ability to select any of these features that you want and so if there's five of them"
+    },
+    {
+      "start": 538.74,
+      "end": 543.86,
+      "text": "that you do want and four of them that you don't you can just select the ones you do want and the onboarding"
+    },
+    {
+      "start": 543.86,
+      "end": 549.86,
+      "text": "process will tailor the entire experience for what you're looking for. At the end of all of that it will"
+    },
+    {
+      "start": 549.86,
+      "end": 554.66,
+      "text": "generate you a specific pine script for your needs and that's the pine script that we're going to put"
+    },
+    {
+      "start": 554.66,
+      "end": 559.22,
+      "text": "into trading view and in reality you don't even need to copy and paste it into trading view because"
+    },
+    {
+      "start": 559.22,
+      "end": 564.02,
+      "text": "Claude is going to do it for you. As I mentioned to you before all you need to do is go to the top"
+    },
+    {
+      "start": 564.02,
+      "end": 569.46,
+      "text": "line in the description of this video click through to zero one systems this is absolutely free by the way"
+    },
+    {
+      "start": 569.46,
+      "end": 573.78,
+      "text": "you'll end up on this page that you're seeing on the screen click over to classroom on the top"
+    },
+    {
+      "start": 573.78,
+      "end": 578.82,
+      "text": "you'll see the YouTube video prompts button right there and you just have to find the get max trading"
+    },
+    {
+      "start": 578.82,
+      "end": 584.74,
+      "text": "view plan features for free on here it might be somewhere down here but ultimately every video I make on"
+    },
+    {
+      "start": 584.74,
+      "end": 590.42,
+      "text": "YouTube is here you may recognize some of these so what we're going to do is just triple click there"
+    },
+    {
+      "start": 590.42,
+      "end": 595.22,
+      "text": "click copy and we're going to come over to our terminal we're going to start a new terminal session here"
+    },
+    {
+      "start": 595.22,
+      "end": 600.42,
+      "text": "and as always we're just going to start with Claude and for me specifically you don't have to do this"
+    },
+    {
+      "start": 600.42,
+      "end": 605.94,
+      "text": "is I put dangerously skipped permissions on this just allows things to move a little bit quicker and"
+    },
+    {
+      "start": 605.94,
+      "end": 612.66,
+      "text": "all we're going to do is paste in that huge prompt voila it's now going to take us on this onboarding process"
+    },
+    {
+      "start": 612.66,
+      "end": 618.18,
+      "text": "to kind of any of the elements that we want to adapt like which assets we're looking at or which"
+    },
+    {
+      "start": 618.18,
+      "end": 622.74,
+      "text": "indicator we want to adapt the colors that we want to use we can customize all of that depending on"
+    },
+    {
+      "start": 622.74,
+      "end": 628.1,
+      "text": "what you want so it's a good idea to have an idea of what you want in the first place and this will be"
+    },
+    {
+      "start": 628.1,
+      "end": 633.38,
+      "text": "able to do it so one thing we're using from my viral video that came out a while ago about connecting"
+    },
+    {
+      "start": 633.38,
+      "end": 638.82,
+      "text": "Claude code to trading view is that we use something called trading view mcp essentially allowing"
+    },
+    {
+      "start": 638.82,
+      "end": 645.3,
+      "text": "trading view to communicate with Claude back and forth in real time so anything you say to Claude can"
+    },
+    {
+      "start": 645.3,
+      "end": 650.18,
+      "text": "then be can then actually happen on trading view on the screen so if I've actually changed my screen to"
+    },
+    {
+      "start": 650.18,
+      "end": 656.26,
+      "text": "look like this you can see on the right hand side is the trading view desktop app that's open and on"
+    },
+    {
+      "start": 656.26,
+      "end": 660.74,
+      "text": "the left you can see my terminal view so anything that we do on the left there's a certain point where"
+    },
+    {
+      "start": 660.74,
+      "end": 665.94,
+      "text": "it starts to create the trip there pine script you'll see that all happen on the screen on the right"
+    },
+    {
+      "start": 665.94,
+      "end": 671.94,
+      "text": "it's incredible to see so it's gonna take us through a series of steps the first step is that it wants to"
+    },
+    {
+      "start": 671.94,
+      "end": 678.82,
+      "text": "install this mcp this connection between Claude code and trading view if it hasn't been installed already on"
+    },
+    {
+      "start": 678.82,
+      "end": 684.1,
+      "text": "your computer it will go ahead and install it there will be a process for it it will walk you through the"
+    },
+    {
+      "start": 684.1,
+      "end": 689.54,
+      "text": "entire process just follow it along it's made to be super easy like regardless of your technical ability"
+    },
+    {
+      "start": 689.54,
+      "end": 695.14,
+      "text": "just follow the process and it will install this mcp on your trading view at a certain point it might"
+    },
+    {
+      "start": 695.14,
+      "end": 699.22,
+      "text": "ask you to restart your terminal I'm gonna show you how to do that in just a second but for right now"
+    },
+    {
+      "start": 699.22,
+      "end": 705.3,
+      "text": "it's gonna ask me some questions and it says step one or four how big do you want it because we can go"
+    },
+    {
+      "start": 705.3,
+      "end": 710.26,
+      "text": "max like with all of this stuff as many indicators as we need as many alerts as we need but we need to"
+    },
+    {
+      "start": 710.26,
+      "end": 715.3,
+      "text": "actually have a number we need to know what we're working towards so it says how big do you want your all in one"
+    },
+    {
+      "start": 715.3,
+      "end": 721.22,
+      "text": "indicator do you want to curate it so you get to pick your features or do you want everything at the"
+    },
+    {
+      "start": 721.22,
+      "end": 727.06,
+      "text": "maximum limit that we have and so I'm gonna say curate so I'm gonna select this one and click enter"
+    },
+    {
+      "start": 727.06,
+      "end": 732.82,
+      "text": "and it should just give me a series of options that I can select from and I can choose which ones I want to"
+    },
+    {
+      "start": 732.82,
+      "end": 738.1,
+      "text": "actually use for this process so there it is this is the first one in terms of overlays what do I want"
+    },
+    {
+      "start": 738.1,
+      "end": 743.3,
+      "text": "we've got a moving average suite which has four different moving averages this will replace the extra"
+    },
+    {
+      "start": 743.3,
+      "end": 749.14,
+      "text": "indicator slots that we were limited by previously we've got the v-wap and anchored v-wap we've got the"
+    },
+    {
+      "start": 749.14,
+      "end": 754.26,
+      "text": "key levels we've got higher time frame levels yeah so I'm gonna select all of them so I can do this and"
+    },
+    {
+      "start": 754.26,
+      "end": 759.3,
+      "text": "you'll see a check mark appears every time I want all of those actually so let's go to next now we're on"
+    },
+    {
+      "start": 759.3,
+      "end": 764.98,
+      "text": "to context tools so we can select do we want the volume profile the session kilzones I really want that"
+    },
+    {
+      "start": 765.62,
+      "end": 771.14,
+      "text": "signal markers for by or cell yeah I'll have that too and we can click next which dashboards in"
+    },
+    {
+      "start": 771.14,
+      "end": 777.54,
+      "text": "alert do you want well I want a multi symbol screener I want the smarter alerts definitely and I want"
+    },
+    {
+      "start": 777.54,
+      "end": 782.18,
+      "text": "the multi time frame dashboard as well I'll click submit on that and submit all of my answers so"
+    },
+    {
+      "start": 782.18,
+      "end": 788.98,
+      "text": "if you did have to restart your session after the install of the trading v-wap or you have to do is start"
+    },
+    {
+      "start": 788.98,
+      "end": 795.38,
+      "text": "a new terminal so you come into your new terminal you do the same thing we do we do clawed dangerously"
+    },
+    {
+      "start": 796.02,
+      "end": 804.42,
+      "text": "skip permissions and you'll see here you actually can do a forward slash and then type mcp"
+    },
+    {
+      "start": 804.42,
+      "end": 809.54,
+      "text": "once you do that you can click enter and it shows you all the mcp that you're using you'll come"
+    },
+    {
+      "start": 809.54,
+      "end": 815.46,
+      "text": "down here you'll see the trading view one you'll be able to click enter and then restart and this will"
+    },
+    {
+      "start": 815.46,
+      "end": 822.1,
+      "text": "get it activated for you you then can close that terminal out start a new one and then copy and paste"
+    },
+    {
+      "start": 822.1,
+      "end": 828.5,
+      "text": "the original prompt back in and that's it's really quite easy it will explain it all for you as well so"
+    },
+    {
+      "start": 828.5,
+      "end": 833.94,
+      "text": "it says nice let's pick the tools that you're actually use it showed me the list that's fine"
+    },
+    {
+      "start": 833.94,
+      "end": 838.9,
+      "text": "and it's locked it in here's what you picked basically the whole toolkit but except one which was the"
+    },
+    {
+      "start": 838.9,
+      "end": 844.42,
+      "text": "volume profile skipped one because I've got free will so we've got the moving average sweet the v-wap"
+    },
+    {
+      "start": 844.42,
+      "end": 849.3,
+      "text": "and could v-wap key levels all of that stuff yeah and it's just kind of putting a disclaimer here we can't"
+    },
+    {
+      "start": 849.3,
+      "end": 856.1,
+      "text": "genuinely rebuild some of them in pine script but we can kind of like do our best with pine script"
+    },
+    {
+      "start": 856.1,
+      "end": 860.58,
+      "text": "and replicate the features just in a different way than the features would appear on the paid one so"
+    },
+    {
+      "start": 860.58,
+      "end": 865.46,
+      "text": "it's just a bit of a disclaimer there but it even said we don't everything that you tick though we"
+    },
+    {
+      "start": 865.46,
+      "end": 871.38,
+      "text": "absolutely can replicate so in this case everything here is replicatable so step number two or four let me"
+    },
+    {
+      "start": 871.38,
+      "end": 877.86,
+      "text": "tune these to how you actually trade I've got nine quick questions one at a time say defaults to any or"
+    },
+    {
+      "start": 877.86,
+      "end": 883.94,
+      "text": "defaults for everything and I'll pick sensibly so for moving averages this is where you can really tailor"
+    },
+    {
+      "start": 883.94,
+      "end": 889.62,
+      "text": "it to the way you want if you look at the 52 week moving average or someone else looks at the 19-day"
+    },
+    {
+      "start": 889.7,
+      "end": 894.66,
+      "text": "moving average you can absolutely tell it and you can have as many moving averages as you want"
+    },
+    {
+      "start": 894.66,
+      "end": 900.98,
+      "text": "like literally whatever your heart's desire whatever the other traders have said you can install it all"
+    },
+    {
+      "start": 900.98,
+      "end": 907.94,
+      "text": "on there in whatever color you want without any limit so for me for this maybe we'll do one where we can"
+    },
+    {
+      "start": 907.94,
+      "end": 918.1,
+      "text": "tune it specifically so I will say defaults for everything except I definitely want the 52-day"
+    },
+    {
+      "start": 918.82,
+      "end": 925.46,
+      "text": "moving average right so I can just add one in there right so as a defaults for everything except"
+    },
+    {
+      "start": 925.46,
+      "end": 931.62,
+      "text": "I definitely want the 52-day moving average the thing about this is that you can spend a good chunk of"
+    },
+    {
+      "start": 931.62,
+      "end": 936.98,
+      "text": "time here if you've got an actual strategy you can get spend a good chunk of time here really tailoring"
+    },
+    {
+      "start": 936.98,
+      "end": 942.34,
+      "text": "each one of these things so that you get a dashboard that is perfect for your strategy and any signals"
+    },
+    {
+      "start": 942.34,
+      "end": 946.58,
+      "text": "that you want to generate and it's also worth noting that at any time whatever you see on your trading"
+    },
+    {
+      "start": 946.58,
+      "end": 950.82,
+      "text": "view side you can change the asset whenever you want right so you can just come over to as you know how to"
+    },
+    {
+      "start": 950.82,
+      "end": 955.38,
+      "text": "use trading view you come over here choose whatever asset that you're looking for it might be bitcoin for"
+    },
+    {
+      "start": 955.38,
+      "end": 960.42,
+      "text": "example and it will just apply look as even opened up the pine script editor here for me now so I'm actually"
+    },
+    {
+      "start": 960.42,
+      "end": 966.18,
+      "text": "going to move this across so we can see more of the trading view thing happening it's loading up the whole"
+    },
+    {
+      "start": 966.18,
+      "end": 972.18,
+      "text": "pine script it's creating the pine script for me based on all the answers that I've given you can change the"
+    },
+    {
+      "start": 972.18,
+      "end": 976.82,
+      "text": "asset that you want to look at in the cloud code and it will change it on the trading view or you"
+    },
+    {
+      "start": 976.82,
+      "end": 981.22,
+      "text": "can just go to trading view and change the asset there or you could have it like you know multiple assets"
+    },
+    {
+      "start": 981.22,
+      "end": 984.82,
+      "text": "that you want to be tracking you could say could we not track on one of these dashboards you know"
+    },
+    {
+      "start": 984.82,
+      "end": 990.9,
+      "text": "Tesla Apple Google Bitcoin Ethereum and it will just do that so it's just going to I'm just going to click"
+    },
+    {
+      "start": 990.9,
+      "end": 996.1,
+      "text": "allow on a few of these things as it comes up it's so low maintenance it's unbelievable it's like"
+    },
+    {
+      "start": 996.1,
+      "end": 1002.66,
+      "text": "this is why the connection between trading view and cloud code got almost 900,000 views on a video it's"
+    },
+    {
+      "start": 1002.66,
+      "end": 1008.74,
+      "text": "so cool it's insanely cool so let's wait for this pine script to get written and all of a sudden it"
+    },
+    {
+      "start": 1008.74,
+      "end": 1014.18,
+      "text": "will just pop up on the screen and we can enable it and see it on our chart for the very first time and"
+    },
+    {
+      "start": 1014.18,
+      "end": 1019.3,
+      "text": "this is a really important thing to see here is that there are actually some mistakes in the first"
+    },
+    {
+      "start": 1019.3,
+      "end": 1025.22,
+      "text": "in the first version of the pine script but what's great here is look it says hit one small error it should"
+    },
+    {
+      "start": 1025.3,
+      "end": 1030.02,
+      "text": "be this in in pine script version 6 patching it it's just going to fix the issue so it's been"
+    },
+    {
+      "start": 1030.02,
+      "end": 1035.94,
+      "text": "installed in such a way into your computer that any issues that do come up in the pine script just get fixed"
+    },
+    {
+      "start": 1035.94,
+      "end": 1042.02,
+      "text": "and when it's all fixed then it just goes onto the screen and it's incredible and just four minutes later"
+    },
+    {
+      "start": 1042.02,
+      "end": 1048.34,
+      "text": "the pine script is complete and you've now replicated potentially nine of the biggest features"
+    },
+    {
+      "start": 1048.34,
+      "end": 1054.5,
+      "text": "that you find on the top tier account of trading view for free using cloud code using pine script"
+    },
+    {
+      "start": 1054.58,
+      "end": 1059.46,
+      "text": "and they're all doing it automatically together cloud is talking to trading view,"
+    },
+    {
+      "start": 1059.46,
+      "end": 1064.58,
+      "text": "trading view is talking to cloud it's a match made in heaven it's writing all of the different modules"
+    },
+    {
+      "start": 1064.58,
+      "end": 1069.06,
+      "text": "now on the left hand side for the pine script and very shortly the pine script will be installed"
+    },
+    {
+      "start": 1069.06,
+      "end": 1074.5,
+      "text": "onto the chart on the right and then boom it will all be there all right there you are there is the pine"
+    },
+    {
+      "start": 1074.5,
+      "end": 1080.42,
+      "text": "script all over here it's absolutely incredible all we have to do now is click that play button boom it's"
+    },
+    {
+      "start": 1080.5,
+      "end": 1085.86,
+      "text": "actually done it let's close the pine script it's done the entire thing you can see the symbols"
+    },
+    {
+      "start": 1085.86,
+      "end": 1089.7,
+      "text": "that it's tracking on the right hand side we can change any of those just by talking to cloud we can"
+    },
+    {
+      "start": 1089.7,
+      "end": 1094.74,
+      "text": "see on the on the on the top side the different timeframes that we're working with and the trend that"
+    },
+    {
+      "start": 1094.74,
+      "end": 1099.14,
+      "text": "there are on those different timeframes and what the RSI is on those different timeframes you can see even"
+    },
+    {
+      "start": 1099.14,
+      "end": 1104.02,
+      "text": "the intricate by and sell signals in here you can see all the moving averages you can see everything"
+    },
+    {
+      "start": 1104.02,
+      "end": 1108.82,
+      "text": "we've installed i mean look at that indicator name it's got everything in there one thing i'm"
+    },
+    {
+      "start": 1108.82,
+      "end": 1112.9,
+      "text": "noticing that i really liked was actually the thing that we missed out and so i'm actually going to"
+    },
+    {
+      "start": 1112.9,
+      "end": 1118.5,
+      "text": "go back and it said it there it's even suggested it in my in my terminal turn on the volume profile too so i'm"
+    },
+    {
+      "start": 1118.5,
+      "end": 1124.74,
+      "text": "actually going to say that and type that in and it will run the updates and actually add the volume profile"
+    },
+    {
+      "start": 1124.74,
+      "end": 1129.46,
+      "text": "as well this is the one where it shows you know which levels have been traded the most and so we'll"
+    },
+    {
+      "start": 1129.46,
+      "end": 1134.1,
+      "text": "wait for that to get added and then we'll start the setting up with the alerts and this is very much"
+    },
+    {
+      "start": 1134.1,
+      "end": 1139.14,
+      "text": "a starting point like whatever you can imagine you now have the ability to talk to cloud code"
+    },
+    {
+      "start": 1139.14,
+      "end": 1143.78,
+      "text": "to have it update things and change things and change some assets change the colors for goodness"
+    },
+    {
+      "start": 1143.78,
+      "end": 1148.42,
+      "text": "sake you can do whatever you want add a feature and if you do add a feature please tell me in the"
+    },
+    {
+      "start": 1148.42,
+      "end": 1153.06,
+      "text": "comments because i'd love to see that people doing cool stuff with this and if you've even watched my"
+    },
+    {
+      "start": 1153.06,
+      "end": 1158.74,
+      "text": "other video about setting up cloud and trading view to actually execute trades for you you can do so"
+    },
+    {
+      "start": 1158.74,
+      "end": 1163.22,
+      "text": "by clicking the i in the top right of this video and it'll take you to the instructions on how to"
+    },
+    {
+      "start": 1163.3,
+      "end": 1168.58,
+      "text": "set that whole thing up as well which is incredibly useful you if you paired that with this and maybe"
+    },
+    {
+      "start": 1168.58,
+      "end": 1173.3,
+      "text": "the Markov method that we've talked about in a previous video that went absolutely crazy as well you can"
+    },
+    {
+      "start": 1173.3,
+      "end": 1179.3,
+      "text": "create insanely complex strategies very simply by following these one-shot prompts and so the new"
+    },
+    {
+      "start": 1179.3,
+      "end": 1184.1,
+      "text": "pine script is in we're going to delete it as an indicator on there and click the play button once again"
+    },
+    {
+      "start": 1184.1,
+      "end": 1189.3,
+      "text": "and once we do that let's move this slightly out the way here let's click the play button and see what happens"
+    },
+    {
+      "start": 1189.38,
+      "end": 1194.66,
+      "text": "yep well there it is it's absolutely done what i wanted it to let's close that down you can see here"
+    },
+    {
+      "start": 1194.66,
+      "end": 1199.22,
+      "text": "on the on the side it's shown me the volume so i know that this price level right here on the Tesla chart"
+    },
+    {
+      "start": 1199.22,
+      "end": 1204.58,
+      "text": "is a very highly traded point this one also is which shows me this is a good region for a support and"
+    },
+    {
+      "start": 1204.58,
+      "end": 1209.94,
+      "text": "there's a and there's a resistance level here which we actually can see reflected in the chart anyway so"
+    },
+    {
+      "start": 1209.94,
+      "end": 1214.9,
+      "text": "all of that has been entirely set up what we can also do is you know if you can say that the London the"
+    },
+    {
+      "start": 1214.9,
+      "end": 1218.74,
+      "text": "London market opening times and closing times we want that and to be in a different color and it"
+    },
+    {
+      "start": 1218.74,
+      "end": 1225.3,
+      "text": "would just change it there's a lot of flexibility here to use so the next thing we need to do is set up the"
+    },
+    {
+      "start": 1225.3,
+      "end": 1231.3,
+      "text": "alerts so i'm just going to go to a chord on the left hand side and say can we do the alerts now and so this is"
+    },
+    {
+      "start": 1231.3,
+      "end": 1236.9,
+      "text": "going to be set up relatively easy again this whole one-shot prompt has made to be easy we don't need to"
+    },
+    {
+      "start": 1236.9,
+      "end": 1242.66,
+      "text": "see trading views so much now because we've got everything set up on the screen so it says on it the"
+    },
+    {
+      "start": 1242.66,
+      "end": 1248.1,
+      "text": "whole point of module 10 is that one trading view alert can cover every condition you enable so we're"
+    },
+    {
+      "start": 1248.1,
+      "end": 1254.02,
+      "text": "essentially using one of the alerts rather than using multiple alerts but that one alert is going to"
+    },
+    {
+      "start": 1254.02,
+      "end": 1259.22,
+      "text": "alert on a lot of different things going to have a lot richer information we just need to create a single"
+    },
+    {
+      "start": 1259.22,
+      "end": 1265.22,
+      "text": "any alert function call alert on the indicator and let me wire it up for you directly first let me confirm"
+    },
+    {
+      "start": 1265.22,
+      "end": 1270.82,
+      "text": "the indicators actually on your chart it needs to be there for your alert to attach then we can create the"
+    },
+    {
+      "start": 1271.38,
+      "end": 1277.14,
+      "text": "and it's just check that it said yes good the free plan unlocked all in one is on your chart so the alert has"
+    },
+    {
+      "start": 1277.14,
+      "end": 1282.18,
+      "text": "something to attach to there are zero alerts right now so it's a clean slate on your phone or your"
+    },
+    {
+      "start": 1282.18,
+      "end": 1288.58,
+      "text": "desktop trading view takes about 20 seconds tap the alarm clock icon so that's what we're going to do so"
+    },
+    {
+      "start": 1288.58,
+      "end": 1293.78,
+      "text": "the alarm clock icon is just on the right there as we've opened that up it's going to ask me now to"
+    },
+    {
+      "start": 1293.78,
+      "end": 1301.3,
+      "text": "create an alert the condition needs to be on that first drop down and it needs to pick this the"
+    },
+    {
+      "start": 1301.3,
+      "end": 1307.14,
+      "text": "one that we've actually been using we're going to choose it to once per bar close just as this is telling"
+    },
+    {
+      "start": 1307.14,
+      "end": 1313.22,
+      "text": "us and it's going to choose to and we have to now choose how it's going to notify us so that can be by email"
+    },
+    {
+      "start": 1313.22,
+      "end": 1318.42,
+      "text": "or web hook URL or play a sound or whatever it is you can you can apply all of that there and obviously"
+    },
+    {
+      "start": 1318.42,
+      "end": 1322.74,
+      "text": "you can change any of these features whatever you want you're creating the single alert and that"
+    },
+    {
+      "start": 1322.74,
+      "end": 1327.94,
+      "text": "single alert will provide you with all the information you need as as rich a context within the alert because"
+    },
+    {
+      "start": 1327.94,
+      "end": 1333.06,
+      "text": "because if you think about it the alert isn't using a single indicator it's not using in a traditional"
+    },
+    {
+      "start": 1333.06,
+      "end": 1338.34,
+      "text": "sense it's not using a single indicator to provide an alert it's actually using all of the indicators"
+    },
+    {
+      "start": 1338.34,
+      "end": 1343.3,
+      "text": "we've created to produce an alert and so it's one of those indicators that's triggered that has generated"
+    },
+    {
+      "start": 1343.3,
+      "end": 1347.46,
+      "text": "the alert but you're actually getting a lot more information from every indicator that you've installed in"
+    },
+    {
+      "start": 1347.46,
+      "end": 1352.34,
+      "text": "your single indicator whatever your cloud code is telling you to do in the setup here is what you should"
+    },
+    {
+      "start": 1352.34,
+      "end": 1356.66,
+      "text": "do right it might be different than what I'm doing on the screen because it's based on what I've selected"
+    },
+    {
+      "start": 1356.66,
+      "end": 1361.38,
+      "text": "on my checklist then you continually follow the instructions it says right here tell me once you've hit"
+    },
+    {
+      "start": 1361.38,
+      "end": 1366.5,
+      "text": "create and I'll run the alert to underscore list to confirm that it registered correctly so once you've"
+    },
+    {
+      "start": 1366.5,
+      "end": 1372.26,
+      "text": "created your alert just do that and all should be well and good if this one shot prompt was an absolute"
+    },
+    {
+      "start": 1372.26,
+      "end": 1377.7,
+      "text": "mind blow for you then I can guarantee the other prompts are going to be mind blowing to you as well for"
+    },
+    {
+      "start": 1377.7,
+      "end": 1383.38,
+      "text": "example the self-improving agent that we created an insider trading agent that we created"
+    },
+    {
+      "start": 1383.38,
+      "end": 1390.02,
+      "text": "or even recreating certain elements of hedge fund strategy using AI as well or with their own very simple"
+    },
+    {
+      "start": 1390.02,
+      "end": 1394.66,
+      "text": "one-shot prompts you can copy and paste using the link in the top line of the description"
+    },
+    {
+      "start": 1394.66,
+      "end": 1399.94,
+      "text": "registering for free with zero one systems coming over to the classroom button clicking YouTube"
+    },
+    {
+      "start": 1399.94,
+      "end": 1405.14,
+      "text": "video prompts and getting access to all the prompts for free forever for every video where I do a demo"
+    },
+    {
+      "start": 1405.14,
+      "end": 1410.82,
+      "text": "like this let me know how the setup goes and I'll see you in the next one"
+    }
+  ]
+}

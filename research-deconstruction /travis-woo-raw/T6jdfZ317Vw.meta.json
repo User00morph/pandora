@@ -1,0 +1,1577 @@
+{
+  "video_id": "T6jdfZ317Vw",
+  "title": "How To Create A Personal Zero Human Trading Firm",
+  "language": "en",
+  "language_confidence": 0.998,
+  "duration_seconds": 3078.4,
+  "processing_seconds": 739.6,
+  "word_count": 8478,
+  "status": "ok",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.0,
+      "text": "Right now, while you're trading reading charts and analyzing news, other people are using AI to do that whole thing,"
+    },
+    {
+      "start": 7.0,
+      "end": 10.0,
+      "text": "completely autonomously 24 hours a day."
+    },
+    {
+      "start": 10.0,
+      "end": 12.0,
+      "text": "They don't take a salary and they have no days off."
+    },
+    {
+      "start": 12.0,
+      "end": 15.0,
+      "text": "And that's not some outrageous future that we're thinking of."
+    },
+    {
+      "start": 15.0,
+      "end": 16.0,
+      "text": "That's happening right now."
+    },
+    {
+      "start": 16.0,
+      "end": 17.0,
+      "text": "Yesterday is Dota."
+    },
+    {
+      "start": 17.0,
+      "end": 19.0,
+      "text": "Here's the founder of Paperclip."
+    },
+    {
+      "start": 19.0,
+      "end": 25.0,
+      "text": "It's an open source AI agent framework which just crossed 50,000 stars on GitHub."
+    },
+    {
+      "start": 25.0,
+      "end": 28.0,
+      "text": "And if you don't know GitHub, that's a lot of attention."
+    },
+    {
+      "start": 28.0,
+      "end": 32.0,
+      "text": "But here's anonymous by choice which you'll see in this interview."
+    },
+    {
+      "start": 32.0,
+      "end": 38.0,
+      "text": "Today's going to show you live on screen how to create a zero human AI trading firm."
+    },
+    {
+      "start": 38.0,
+      "end": 42.0,
+      "text": "By the end of this video, you're going to know what paperclip is and how it works."
+    },
+    {
+      "start": 42.0,
+      "end": 48.0,
+      "text": "You're going to know how to transition your thinking from single AI agents into teams of agents."
+    },
+    {
+      "start": 48.0,
+      "end": 52.0,
+      "text": "And you're going to see the full architecture of a zero human trading firm."
+    },
+    {
+      "start": 52.0,
+      "end": 59.0,
+      "text": "One that can research ideas, back test strategies, manage risks, and even execute trades while you're not there."
+    },
+    {
+      "start": 59.0,
+      "end": 63.0,
+      "text": "So if you've ever wanted to expand your trading efforts, this is free."
+    },
+    {
+      "start": 63.0,
+      "end": 65.0,
+      "text": "It's completely open source."
+    },
+    {
+      "start": 65.0,
+      "end": 68.0,
+      "text": "And by the end of this video, you're going to be able to build it yourself."
+    },
+    {
+      "start": 68.0,
+      "end": 71.0,
+      "text": "Okay, Dota, what you're going to break down for us today."
+    },
+    {
+      "start": 71.0,
+      "end": 72.0,
+      "text": "All right."
+    },
+    {
+      "start": 72.0,
+      "end": 79.0,
+      "text": "So we are going to look at Paperclip, which is a AI agent orchestration software."
+    },
+    {
+      "start": 79.0,
+      "end": 84.0,
+      "text": "That's put together by me and our team that will show you how you can basically create."
+    },
+    {
+      "start": 84.0,
+      "end": 87.0,
+      "text": "We're calling it zero human companies, though."
+    },
+    {
+      "start": 87.0,
+      "end": 90.0,
+      "text": "I guess I'll even start right out of the gate and say,"
+    },
+    {
+      "start": 90.0,
+      "end": 98.61,
+      "text": "I find that AI agents are actually best suited for companies where humans are kind of guiding them and shaping them."
+    },
+    {
+      "start": 98.61,
+      "end": 101.61,
+      "text": "So maybe think of this more as like an AI team."
+    },
+    {
+      "start": 101.61,
+      "end": 106.61,
+      "text": "So yeah, paperclip is a tool that you can use to build an AI team for really any part of your business."
+    },
+    {
+      "start": 106.61,
+      "end": 112.61,
+      "text": "And an important part about Paperclip is it gives you kind of accountability for these AI agents and"
+    },
+    {
+      "start": 112.61,
+      "end": 117.61,
+      "text": "the ability to sort of inject your taste and shape them and guide them and organize their work."
+    },
+    {
+      "start": 117.61,
+      "end": 121.61,
+      "text": "In a way that I don't really think exists in kind of any other software."
+    },
+    {
+      "start": 121.61,
+      "end": 123.61,
+      "text": "It's free and open source."
+    },
+    {
+      "start": 123.61,
+      "end": 128.61,
+      "text": "So yeah, I think we can use it to build out some assistance for our trading."
+    },
+    {
+      "start": 128.61,
+      "end": 133.67,
+      "text": "Okay, so for my audience here, when they finish this video, what are they going to leave with?"
+    },
+    {
+      "start": 133.67,
+      "end": 140.67,
+      "text": "So first thing you're going to know is like what paperclip is and how to actually use it."
+    },
+    {
+      "start": 140.67,
+      "end": 149.67,
+      "text": "The second thing would be really just kind of like the basics of how to think in terms of working with these AI agent teams."
+    },
+    {
+      "start": 149.67,
+      "end": 160.67,
+      "text": "And then, you know, the third thing would be hopefully some ideas on how it might help your trading, how it can help sort of your risk management, your research coming up with new strategies."
+    },
+    {
+      "start": 160.67,
+      "end": 170.67,
+      "text": "So yeah, if you're looking to sort of use AI assistance to help you with your investments, I think paperclip will be a great tool for it."
+    },
+    {
+      "start": 170.67,
+      "end": 175.67,
+      "text": "So I think one of the things that I can do is I can share my screen."
+    },
+    {
+      "start": 175.67,
+      "end": 178.67,
+      "text": "So we can include in the show notes."
+    },
+    {
+      "start": 178.67,
+      "end": 185.67,
+      "text": "We can include in the show notes a link to how you install paperclip."
+    },
+    {
+      "start": 185.67,
+      "end": 191.67,
+      "text": "It's very, very easy. You can just do it with one command."
+    },
+    {
+      "start": 191.67,
+      "end": 195.67,
+      "text": "You can see on our website, paperclip.ing."
+    },
+    {
+      "start": 195.67,
+      "end": 198.67,
+      "text": "We have the command right here."
+    },
+    {
+      "start": 198.67,
+      "end": 203.67,
+      "text": "If you want to get started, just copy and paste this into your terminal."
+    },
+    {
+      "start": 203.67,
+      "end": 211.67,
+      "text": "So you can use paperclip even if you are like not super technical, though, and I would say that we're making it easier every day."
+    },
+    {
+      "start": 212.67,
+      "end": 216.67,
+      "text": "But let me show you kind of like the paperclip instance. Just give you like an overview."
+    },
+    {
+      "start": 216.67,
+      "end": 218.67,
+      "text": "It will start a new organization."
+    },
+    {
+      "start": 218.67,
+      "end": 224.67,
+      "text": "And we can start to set it up from scratch in for ways that that might help the trading."
+    },
+    {
+      "start": 224.67,
+      "end": 227.73,
+      "text": "So how does that sound sounds perfect."
+    },
+    {
+      "start": 227.73,
+      "end": 230.73,
+      "text": "Okay, great. So this is paperclip."
+    },
+    {
+      "start": 230.73,
+      "end": 233.73,
+      "text": "I use paperclip to make paperclip."
+    },
+    {
+      "start": 233.73,
+      "end": 241.73,
+      "text": "When you look at it at first, it looks sort of very much like a kind of project manager."
+    },
+    {
+      "start": 241.73,
+      "end": 244.73,
+      "text": "Hopefully it feels like very intuitive and very easy to use."
+    },
+    {
+      "start": 244.73,
+      "end": 249.73,
+      "text": "One of those things that you can do here is you can come here and look at the org chart."
+    },
+    {
+      "start": 249.73,
+      "end": 257.73,
+      "text": "And you can see here that we've got our CEO, CTO, and I've got a number of agents here underneath the CTO."
+    },
+    {
+      "start": 257.73,
+      "end": 265.73,
+      "text": "The coding area is actually one of the biggest departments in paperclip right now because it's coding kind of based project."
+    },
+    {
+      "start": 265.73,
+      "end": 269.73,
+      "text": "One of the important things about using paperclip is you can bring your own agent."
+    },
+    {
+      "start": 269.73,
+      "end": 275.73,
+      "text": "You can use Codex. You can use Cloud Code. You can use Open Cloud Hermes."
+    },
+    {
+      "start": 275.73,
+      "end": 284.73,
+      "text": "Really sort of Gemini, Pi, any agent that you want to use can be integrated into a paperclip organization."
+    },
+    {
+      "start": 284.73,
+      "end": 294.73,
+      "text": "The thesis is that really there's more and more agent, more harnesses, let's say, being created both sort of open source ones, but then even close source ones right there."
+    },
+    {
+      "start": 294.73,
+      "end": 304.73,
+      "text": "You're seeing tools like a lawyer like Harvey or coding agents like Dev Interfactory and or the Figma Design agent."
+    },
+    {
+      "start": 304.73,
+      "end": 312.89,
+      "text": "And all of these things you can hook into your paperclip organization and they can communicate with one another."
+    },
+    {
+      "start": 312.89,
+      "end": 323.89,
+      "text": "Let's see, for example, we have the marketing department here and I've got content strategist community manager, video writer."
+    },
+    {
+      "start": 323.89,
+      "end": 336.59,
+      "text": "And let me give you an example that we're using sort of for our kind of company and then we can sort of port the idea over."
+    },
+    {
+      "start": 336.59,
+      "end": 338.59,
+      "text": "But I think it's illustrative."
+    },
+    {
+      "start": 338.59,
+      "end": 349.59,
+      "text": "We on GitHub, we crossed 40,000 stars the other day. Actually, I think right now we're actually about across 50,000."
+    },
+    {
+      "start": 349.59,
+      "end": 355.59,
+      "text": "And one of the things that I really wanted was to sort of celebrate that with a tweet and so you can see here."
+    },
+    {
+      "start": 355.59,
+      "end": 360.59,
+      "text": "We've got this like video where it says, oh, celebrating 40,000 stars."
+    },
+    {
+      "start": 360.59,
+      "end": 370.88,
+      "text": "And one of the things that I really wanted is I thought, hey, I don't want to just post a screenshot like I would have a month ago. I want to actually have an entire video."
+    },
+    {
+      "start": 370.88,
+      "end": 386.88,
+      "text": "So what I did here is I went and I asked my CEO, I said, hire a video writer and ask her I'm not going to type it all out and ask her to create a marketing video celebrating 40,000 stars."
+    },
+    {
+      "start": 386.88,
+      "end": 392.88,
+      "text": "So what I did there is I asked my CEO to hire a new video editor."
+    },
+    {
+      "start": 392.88,
+      "end": 398.88,
+      "text": "And then I asked it to give her the the skills to make a video."
+    },
+    {
+      "start": 398.88,
+      "end": 411.88,
+      "text": "So if you've used agents already, you might be familiar with this skills.sh website, right here, which has a lot of skills that you can use for your ages."
+    },
+    {
+      "start": 411.88,
+      "end": 420.88,
+      "text": "There's a really, really popular one number five, remotion best practices, which gives your agents the ability to do these kind of video based skills."
+    },
+    {
+      "start": 420.88,
+      "end": 430.68,
+      "text": "And so there's a skills manager built into paperclip. So you can ask your CEO to do things for you."
+    },
+    {
+      "start": 430.68,
+      "end": 450.68,
+      "text": "The analogy of paperclip is that you are the the board and you ask your CEO to basically do things for you ask your CEO to sort of act out in the app and do what you are asking."
+    },
+    {
+      "start": 450.68,
+      "end": 461.68,
+      "text": "And so in this case, we ask it to hire a new employee, we ask him to give her the skills to be able to use remotion and then, you know, they're automatically hired."
+    },
+    {
+      "start": 461.68,
+      "end": 470.68,
+      "text": "And then what I was able to do is I if made an issue for the video editor and I said, plan a video for the stats dashboard."
+    },
+    {
+      "start": 470.68,
+      "end": 475.68,
+      "text": "So go look at the dashboard and our stats look here, I didn't even spell this properly."
+    },
+    {
+      "start": 475.68,
+      "end": 496.68,
+      "text": "Make a plan for a remotion video that can celebrate 40,000 stars, et cetera, et cetera. Right. So what's happening here is I was able to just write like this one short paragraph and get a whole plan 40,000 stars with stats, you know, and it wrote out the plan and I read it and sort of edited it from there."
+    },
+    {
+      "start": 496.68,
+      "end": 508.68,
+      "text": "And and really what I when I actually read the plan, I wanted some feed, I wanted to give it some feedback, I said, well, your cuts need to be two seconds, not six and have the 40,000 stars be animated and all these things so."
+    },
+    {
+      "start": 508.68,
+      "end": 518.94,
+      "text": "So we had a bit of a conversation back and forth over four or five minutes and then well, at the after it was done this video that you see was basically created."
+    },
+    {
+      "start": 519.94,
+      "end": 544.94,
+      "text": "And and so the answer is like, how and and couldn't you do this with cloud code already and the answer is like, yes, you could do this with cloud code already, but let me point out some interesting things, which is one this prompt is is quite short like why why did it looks so good will one because within the paperclip organization, we already knew where the dashboard was we could mention another project where we built the the dashboard previously."
+    },
+    {
+      "start": 544.94,
+      "end": 552.94,
+      "text": "We we have access configured already for these agents to have access to our internal stats and our dashboards."
+    },
+    {
+      "start": 552.94,
+      "end": 568.94,
+      "text": "Three, we have a branding guide already created that the organization like knows how to find there's already a paperclip branding guide, so when you ask it to make sure that it's on brand it understands this institutional knowledge."
+    },
+    {
+      "start": 568.94,
+      "end": 583.1,
+      "text": "And and so because you have this like all of this company knowledge built into paperclip something that would have taken you maybe half an hour 45 minutes to sort of copy and paste into your cloud code."
+    },
+    {
+      "start": 583.1,
+      "end": 595.1,
+      "text": "Either like command line or into the cloud code app becomes saying that it's almost like an after thought one little paragraph and now you get this incredibly high quality video that is like super high context to your business."
+    },
+    {
+      "start": 595.1,
+      "end": 605.16,
+      "text": "So even though you might not be making videos day to day surely you can see the general pattern, which is you can multiply this sort of leverage across your entire business."
+    },
+    {
+      "start": 605.16,
+      "end": 614.35,
+      "text": "Because or across like you're you're you're trading and your knowledge workflow because it understands how you do work and it keeps."
+    },
+    {
+      "start": 615.35,
+      "end": 617.35,
+      "text": "This conversation now is a memory."
+    },
+    {
+      "start": 618.35,
+      "end": 634.51,
+      "text": "So when I come back later and I want to do another video you're able to like go back and make iterations on the same video or also learn from how we do video so for example we've done a couple other videos with this video editor."
+    },
+    {
+      "start": 634.51,
+      "end": 643.54,
+      "text": "And and let's say that for example I always notice that kind of the default option with cloud is that it's."
+    },
+    {
+      "start": 643.54,
+      "end": 648.31,
+      "text": "It always makes the cuts too long right they're always six seconds instead of two."
+    },
+    {
+      "start": 648.31,
+      "end": 662.31,
+      "text": "One of the things that we do is you run over you can run over the history of your video creations and and learn sort of the principles and the styles of what you're doing."
+    },
+    {
+      "start": 662.31,
+      "end": 678.31,
+      "text": "And and make it so it does it right the first time next time and so I think that's one of the key things that is like important for success with these kind of agent tools is this idea that like you need to give them your taste."
+    },
+    {
+      "start": 678.31,
+      "end": 688.31,
+      "text": "Right because these agents while they can create anything they can't know what you value you have to be able to sort of imbue your taste."
+    },
+    {
+      "start": 688.31,
+      "end": 706.31,
+      "text": "So this would be kind of a first layer of some of the things that you can do with paper clip there are so so yeah so this is an existing sort of instance we've got an org chart with all of these different agents that have kind of different personalities."
+    },
+    {
+      "start": 706.31,
+      "end": 716.31,
+      "text": "We've got projects here where it's we can configure for different ideas that we're working on you can set up routines so for example."
+    },
+    {
+      "start": 716.31,
+      "end": 727.31,
+      "text": "I use Twitter bookmarks pretty heavily in order to kind of capture thoughts that I'm interested in day to day and I have a routine here where."
+    },
+    {
+      "start": 728.98,
+      "end": 746.23,
+      "text": "What I ask it to do is every day sync all of our bookmarks and then I have some guidelines in terms of what I expect and how I wanted to capture these and and then."
+    },
+    {
+      "start": 747.23,
+      "end": 760.23,
+      "text": "Right a report for me and then I can sort of see each day all of the things that I bookmarked and ways that they could be helpful for paper clip."
+    },
+    {
+      "start": 761.26,
+      "end": 766.26,
+      "text": "So for example we could look at some recent runs."
+    },
+    {
+      "start": 767.49,
+      "end": 773.49,
+      "text": "And we can see here that we've got you know highest value moves build a lightweight execution adapter."
+    },
+    {
+      "start": 774.49,
+      "end": 793.49,
+      "text": "You know product ties memory all of these things it talks about you know the new mem palace that was going around Twitter and in this version right now all it does is create a report but really in the future versions they will sort of be like actionable items here where you can say like oh I love this idea I want you to like build it create it create a new issue right."
+    },
+    {
+      "start": 794.49,
+      "end": 799.49,
+      "text": "So you know paper is open source and it's pretty young we released it on March."
+    },
+    {
+      "start": 800.49,
+      "end": 812.71,
+      "text": "Or if it's now April 8 so we're about 34 days old try to get your take yeah and so these would be some things that we're working on making like giving this kind of more interaction."
+    },
+    {
+      "start": 812.71,
+      "end": 825.71,
+      "text": "Yeah so when I think about this from a trading perspective you're you're you're trying to make some money in the markets you are just one person you now have this capability to not just be one person."
+    },
+    {
+      "start": 825.71,
+      "end": 836.71,
+      "text": "But you will now have to expand your mind beyond you so you have to assume the role of coordinator and know of all things."
+    },
+    {
+      "start": 837.71,
+      "end": 851.71,
+      "text": "So a lot of the time these roles because in my experience from it they can determine what their roles and responsibilities should be but it's going to be so much richer if you can input your taste as you have said."
+    },
+    {
+      "start": 851.71,
+      "end": 859.9,
+      "text": "So when I'm thinking about this from a trading perspective from trying to make some money I think a lot of the time we."
+    },
+    {
+      "start": 860.9,
+      "end": 868.9,
+      "text": "Pull in our information and knowledge from other places so I imagine a world I used bookmarks all the time as well on Twitter but."
+    },
+    {
+      "start": 868.9,
+      "end": 884.0,
+      "text": "But marks in the trading world might not necessarily be of much use but what might be of use is for example pulling all the transcripts from a YouTube channel and determining what the strategy is and."
+    },
+    {
+      "start": 884.0,
+      "end": 900.0,
+      "text": "And then maybe you pulled them from five different YouTube channels and then compare them and see what are the similarities and how could we build a trading strategy based on that and what you're suggesting is that these agents could essentially meet together and."
+    },
+    {
+      "start": 900.0,
+      "end": 910.03,
+      "text": "Talk about the similarities and pull the transcripts and do that all for you yeah so you know maybe we could work on we could try to do something like this so."
+    },
+    {
+      "start": 910.03,
+      "end": 919.03,
+      "text": "You know we can call this Lewis ventures and it's an automated like trading hedge fund."
+    },
+    {
+      "start": 919.03,
+      "end": 923.03,
+      "text": "You know where we trade."
+    },
+    {
+      "start": 923.03,
+      "end": 934.18,
+      "text": "Maybe we trade you know crypto or traditional equities we can sort of configure it so the first thing that you do here is you come in and you name your company so this is what you'll be greeted with when you kind of."
+    },
+    {
+      "start": 934.18,
+      "end": 946.18,
+      "text": "Start the onboarding process you can create your first agent right now the first agent we suggest is a CEO I think in soon you'll do more kind of teams right rather than sort of the."
+    },
+    {
+      "start": 946.18,
+      "end": 956.18,
+      "text": "Always running the entire company I think both like cloud code and code acts are good defaults for your CEO I do think it's really important that you choose."
+    },
+    {
+      "start": 956.18,
+      "end": 975.18,
+      "text": "A frontier model for your CEO you're going to have a better first experience as things stand out of recording you can use your subscriptions both through cloud code and code acts right now in the news is sort of bit of like ambiguity around."
+    },
+    {
+      "start": 975.18,
+      "end": 982.18,
+      "text": "What counts as a harness I suppose for especially cloud code maybe you've seen this around open claw."
+    },
+    {
+      "start": 982.18,
+      "end": 990.31,
+      "text": "At the moment cloud code like paperclip runs using the cloud code sort of."
+    },
+    {
+      "start": 990.31,
+      "end": 998.31,
+      "text": "Harness on your local machine and such so that you're able to use your subscription billing at the moment for with paper."
+    },
+    {
+      "start": 998.31,
+      "end": 1001.31,
+      "text": "So if you come here."
+    },
+    {
+      "start": 1001.31,
+      "end": 1015.22,
+      "text": "What next it runs an environment check and yeah so now you want to give your agent to something to do we could say oh hire your first engineer and create a hiring plan."
+    },
+    {
+      "start": 1015.22,
+      "end": 1025.22,
+      "text": "You know maybe you want to have finding engineer maybe you don't right I don't know that we necessarily want an engineer at first but you know whatever we can try it."
+    },
+    {
+      "start": 1025.22,
+      "end": 1031.22,
+      "text": "And let's say break the roadmap and the concrete has start delegating work we need to probably specify this little more and say."
+    },
+    {
+      "start": 1032.22,
+      "end": 1051.38,
+      "text": "We like like what do we want to trade like what venue do we want to trade on I think that the more detail we can give it in the outset the better results we're going to get like do want to trade on hyper liquid you know trade crypto we want to watch YouTube channels do we want to trade sort of traditional markets lose what do you think."
+    },
+    {
+      "start": 1051.38,
+      "end": 1063.18,
+      "text": "Let's say we're going to trade in bit tensor do you know about potential bit tensor yes bit tensor okay."
+    },
+    {
+      "start": 1063.18,
+      "end": 1068.07,
+      "text": "Yeah and in a bit bit tensor ecosystem."
+    },
+    {
+      "start": 1068.07,
+      "end": 1075.07,
+      "text": "Okay great you know I don't I've actually never really use the bit tensor ecosystem I'm going to some of the videos I've got coming up."
+    },
+    {
+      "start": 1075.07,
+      "end": 1078.2,
+      "text": "It's going to it's mind blowing."
+    },
+    {
+      "start": 1079.2,
+      "end": 1086.2,
+      "text": "So plan around that we'll need to develop strategies."
+    },
+    {
+      "start": 1089.23,
+      "end": 1095.23,
+      "text": "Strategies let's say we should have some some some transcriptions if this works."
+    },
+    {
+      "start": 1095.23,
+      "end": 1102.23,
+      "text": "We need to have back testing we need to have data gathering we need."
+    },
+    {
+      "start": 1103.23,
+      "end": 1126.58,
+      "text": "To write the trading execution layer and we need to be able to retire old strategies if we find that their edge is degrading and and we need to log it all for accounting and we need to log it all for accounting now you can fill out here really as much as little as you want right this is just kind of our agents first."
+    },
+    {
+      "start": 1126.58,
+      "end": 1132.58,
+      "text": "task but now that we sort of have this we will like create this and launch it up so."
+    },
+    {
+      "start": 1132.58,
+      "end": 1145.58,
+      "text": "This side by the you see over here are different companies that you can run within paperclip and yeah you can see right here this is the one that we're working on."
+    },
+    {
+      "start": 1146.58,
+      "end": 1165.58,
+      "text": "I have some others that and well what we're going to do here is we're going to sort of let our CEO run he's going to do his work he is reading his reference files he's doing his thing right so let's just let the CEO work while we kind of."
+    },
+    {
+      "start": 1165.58,
+      "end": 1171.58,
+      "text": "talk more about maybe some of the more advanced features let's let's hop back over to."
+    },
+    {
+      "start": 1171.58,
+      "end": 1177.42,
+      "text": "The paperclip company while this works and we'll come back."
+    },
+    {
+      "start": 1177.42,
+      "end": 1182.83,
+      "text": "Some of the other things are like a bit more advanced in."
+    },
+    {
+      "start": 1183.83,
+      "end": 1199.34,
+      "text": "Paperclip is this idea that you often want to have a bit more control around like verifying the work so for example."
+    },
+    {
+      "start": 1199.34,
+      "end": 1207.34,
+      "text": "One of the things that you're able to do when you create a new issue is you can actually set up reviewers and approvers."
+    },
+    {
+      "start": 1207.34,
+      "end": 1223.34,
+      "text": "This is one of the key work flow design patterns that are really that's a really important in agent work flows is this idea that you might have that when a task finishes you probably want another agent to review the original agents work."
+    },
+    {
+      "start": 1223.34,
+      "end": 1235.34,
+      "text": "Of course as the underlying models get better like having them check up on each other maybe we'll become less relevant in a few years as the models are stronger but for now it's incredibly important."
+    },
+    {
+      "start": 1235.34,
+      "end": 1240.34,
+      "text": "That you you have review for your critical work."
+    },
+    {
+      "start": 1240.34,
+      "end": 1243.34,
+      "text": "I think that the."
+    },
+    {
+      "start": 1243.34,
+      "end": 1262.56,
+      "text": "The downside of course is that you pay extra in terms of tokens because now not only are you paying to do the work but you're also paying to sort of verify the work but I think for any kind of like critical workflow like it is in most of our sort of like trading work you definitely want those sort of."
+    },
+    {
+      "start": 1262.56,
+      "end": 1275.56,
+      "text": "checks and balances so if we're saying you know I want you to go out to YouTube and and transcribe the video and come up with trading strategy ideas that doesn't necessarily need this kind of like intense workflow and approval but if you're saying like."
+    },
+    {
+      "start": 1275.56,
+      "end": 1284.56,
+      "text": "Oh, I want you to sort of verify the back testing hygiene of this strategy and then make sure like the red team verifies that."
+    },
+    {
+      "start": 1284.56,
+      "end": 1299.88,
+      "text": "You know that the kind of edge holds in adversarial situations and then like we sort of have risk management sign off on it when you have this kind of like more elaborate and more like mission critical pieces you certainly want to be."
+    },
+    {
+      "start": 1299.88,
+      "end": 1311.88,
+      "text": "Be using these kind of like reviewers and approvers even in like web development you'll often use this for QA that's like a simple case where it's just like build this feature and have QA look at it and make sure that it's right."
+    },
+    {
+      "start": 1311.88,
+      "end": 1324.55,
+      "text": "And one of the key things that you need to do is you need to make sure that you are managing your skills as you go that the."
+    },
+    {
+      "start": 1326.06,
+      "end": 1334.7,
+      "text": "You need to make sure that your like giving your agents the capabilities necessary."
+    },
+    {
+      "start": 1334.7,
+      "end": 1345.7,
+      "text": "To do their work on the world so what I mean is if you're going to have QA verify how."
+    },
+    {
+      "start": 1345.7,
+      "end": 1354.7,
+      "text": "Like that feature works you need to give it something like the agent browser skill so that's one of the like main skills that you can get here at."
+    },
+    {
+      "start": 1354.7,
+      "end": 1364.7,
+      "text": "Skills.sh yeah the agent browser skill actually gives your agent access to a browser this is also very useful when you need it to sort of navigate the internet."
+    },
+    {
+      "start": 1365.7,
+      "end": 1379.7,
+      "text": "All right if we look back over here at Lewis Ventures we can see that we have this pending request from the CEO to hire a CTO so we're going to approve this."
+    },
+    {
+      "start": 1380.7,
+      "end": 1390.53,
+      "text": "And now that he's yeah there we go all right now here is also a hiring plan and technical roadmap."
+    },
+    {
+      "start": 1390.53,
+      "end": 1396.53,
+      "text": "Well, let me finish my previous idea which is that this idea that you need to give your agents tools which is to say."
+    },
+    {
+      "start": 1396.53,
+      "end": 1411.29,
+      "text": "A key thing that you want to be thinking about when you use agents is how do I wrap what they're doing into a skill you as an agent operator should always be thinking about."
+    },
+    {
+      "start": 1412.29,
+      "end": 1417.29,
+      "text": "What skills you need to give your agents to do their work and so."
+    },
+    {
+      "start": 1417.29,
+      "end": 1427.29,
+      "text": "You know if I was executing trades on hyper liquid I might have both like some hard code and hyper liquid skill or I assume we'll have similar on bit tensor or."
+    },
+    {
+      "start": 1427.29,
+      "end": 1437.64,
+      "text": "You're like doing trading on the Ethereum chain or in your Charles Schwab account right like every time you sort of have these different kind of instances where."
+    },
+    {
+      "start": 1437.64,
+      "end": 1445.09,
+      "text": "You you expect your agent to do something on a regular basis you want to create skills for that."
+    },
+    {
+      "start": 1445.09,
+      "end": 1452.09,
+      "text": "Of course we talked about there's a skills manager built into paperclip when you sort of submit."
+    },
+    {
+      "start": 1453.09,
+      "end": 1461.41,
+      "text": "You can use slash to reference your skills if there's skills you especially express you want your agent to use."
+    },
+    {
+      "start": 1461.41,
+      "end": 1464.47,
+      "text": "Yeah, so so that's a key like like."
+    },
+    {
+      "start": 1464.47,
+      "end": 1472.47,
+      "text": "I don't like point in using agents is right skills for your agents you'll you'll find that your work is a lot better."
+    },
+    {
+      "start": 1472.47,
+      "end": 1486.47,
+      "text": "Yeah, the kind of thing that I think about when I think about assigning skills or or thinking about processes that repeat and then making skills from them is that my immediate thought was well I'll just make a skill guy."
+    },
+    {
+      "start": 1486.47,
+      "end": 1492.47,
+      "text": "As one of the agents who kind of tracks what everyone's to obviously this is rocking up the cost."
+    },
+    {
+      "start": 1492.47,
+      "end": 1501.47,
+      "text": "But you kind of it's almost like a verifier where they look at all the processes that keep getting done by the agents and then say and then just automatically put those into skills."
+    },
+    {
+      "start": 1501.47,
+      "end": 1511.86,
+      "text": "I 100% agree that something that we've built even in the paperclip organization is we actually have a skill consultant here."
+    },
+    {
+      "start": 1511.86,
+      "end": 1518.86,
+      "text": "And that's his job especially when we find cases where some of the skills that we have aren't working so well."
+    },
+    {
+      "start": 1518.86,
+      "end": 1533.5,
+      "text": "So for example right here we're saying you know validate the Q the QA browser has agent reliability why can't he access the authenticated instance and so he's he's actually an agent within our org that that goes and refine skills I'll tell you what."
+    },
+    {
+      "start": 1533.5,
+      "end": 1552.88,
+      "text": "This is an idea that has been showing up so often we're actually integrating it into paperclip core where he will just sort of be a background process that runs for you automatically where it sort of services to you saying hey these are some things that we've realized your org does all the time and you need these skills and."
+    },
+    {
+      "start": 1552.88,
+      "end": 1569.45,
+      "text": "But today if you download the version that we have today what you're suggesting is exactly right it's like make a skills kind of agent whose job it is to periodically reflect on higher org works and pull those out."
+    },
+    {
+      "start": 1569.45,
+      "end": 1581.45,
+      "text": "Okay, so we have got a things are starting to work now we haven't even read our technical hiring roadmap yet and our dashboard is showing there's actually six live."
+    },
+    {
+      "start": 1581.45,
+      "end": 1586.45,
+      "text": "tasks coming in so if we look at these issues."
+    },
+    {
+      "start": 1586.45,
+      "end": 1599.45,
+      "text": "Wow the the CTO is already decided to architect and build the training platform building out metrics the market data collector the bit tensor subnet data collector and the product scaffolding."
+    },
+    {
+      "start": 1599.45,
+      "end": 1606.45,
+      "text": "So you know we probably need to come back and look at these plans before we just let them run run with them but."
+    },
+    {
+      "start": 1606.45,
+      "end": 1614.45,
+      "text": "Okay, we asked our agents to do the work and they're doing the work so let's look here the foundation one the CTO is submitted."
+    },
+    {
+      "start": 1614.45,
+      "end": 1626.45,
+      "text": "We need the core infrastructure which is the CTO's first sprint and then there are future hires as the CTO identifies these needs so."
+    },
+    {
+      "start": 1626.45,
+      "end": 1636.74,
+      "text": "This says in this plan it said hire decisions for phase two three will be driven by the CTO's assessment of where the bottleneck is after phase two is underway."
+    },
+    {
+      "start": 1636.74,
+      "end": 1641.74,
+      "text": "Yeah, so one of the things that we have here actually you can see is that these are all."
+    },
+    {
+      "start": 1641.74,
+      "end": 1651.74,
+      "text": "All cubed by default the agents only will run one at a time we are able to set the."
+    },
+    {
+      "start": 1651.74,
+      "end": 1666.88,
+      "text": "Where is it max concurrent runs we could set this higher to say like three or something I'm not actually sure if these cute runs will kick off this probably a bug."
+    },
+    {
+      "start": 1666.88,
+      "end": 1679.88,
+      "text": "But I'm just letting you know that you can actually configure these to run more than one at a time."
+    },
+    {
+      "start": 1679.88,
+      "end": 1683.2,
+      "text": "I guess we're just going to have to wait for this to run."
+    },
+    {
+      "start": 1684.2,
+      "end": 1700.16,
+      "text": "So the way you're interacting with paperclip there is very much like for lack of a better word website interface and then your your your kind of just using it like that."
+    },
+    {
+      "start": 1700.16,
+      "end": 1708.16,
+      "text": "How I maybe I'll share how I've used it because I'm sure you get all these different ways that people have been using paperclip."
+    },
+    {
+      "start": 1708.16,
+      "end": 1716.66,
+      "text": "Essentially I created a mus like I used paperclip in my."
+    },
+    {
+      "start": 1716.66,
+      "end": 1735.14,
+      "text": "Terminal so I ended up just ultimately ended up creating like a like a local host, but it just records my what it transcribes my voice and then I'm just talking to it as this like big brother type of guide to my business."
+    },
+    {
+      "start": 1735.14,
+      "end": 1741.14,
+      "text": "And then it goes into the back end of paperclip and just does all of this for me so."
+    },
+    {
+      "start": 1741.14,
+      "end": 1743.62,
+      "text": "You know I was."
+    },
+    {
+      "start": 1743.62,
+      "end": 1763.62,
+      "text": "I like to kind of like sit my chair sit back and just just brainstorm this whole thing like yeah I want a quant team and this quant team this will be split up into three different departments and this one department tests outlandest strategies this one tests kind of moderate ones and this one is more safe."
+    },
+    {
+      "start": 1763.62,
+      "end": 1776.62,
+      "text": "And we're going to iteratively test all of the strategies that we put together and this is going to need this different person and this different person and just talking freely at it and I'm saying and I want all of them to be doing it all at the same time."
+    },
+    {
+      "start": 1776.62,
+      "end": 1786.62,
+      "text": "And that last sentence that I said there kind of I noticed it now because I had 3060 or so tasks issues running at the same time."
+    },
+    {
+      "start": 1786.62,
+      "end": 1793.62,
+      "text": "That must have in the way I used it because just kind of got into the back end and changed that setting."
+    },
+    {
+      "start": 1793.62,
+      "end": 1799.62,
+      "text": "You know to do that automatically because I didn't realize it wasn't there by default so."
+    },
+    {
+      "start": 1799.62,
+      "end": 1804.62,
+      "text": "I just I kind of went over to chat GPT."
+    },
+    {
+      "start": 1804.62,
+      "end": 1815.62,
+      "text": "And I also just talked freely to chat GPT to say can you or like organize their architecture for this entire organization with all the roles and responsibilities."
+    },
+    {
+      "start": 1815.62,
+      "end": 1818.72,
+      "text": "So I can give that to paperclip in my terminal."
+    },
+    {
+      "start": 1818.72,
+      "end": 1824.72,
+      "text": "And then and then it just spun up the 32 things all at once and it created the company and everything."
+    },
+    {
+      "start": 1824.72,
+      "end": 1832.78,
+      "text": "So I didn't do any of the manual clicking, which I thought was maybe maybe an interesting way to use it."
+    },
+    {
+      "start": 1832.78,
+      "end": 1837.07,
+      "text": "Yeah, I love that I love that and so."
+    },
+    {
+      "start": 1838.07,
+      "end": 1845.07,
+      "text": "What what agent harness were you using was a codex code code like what in your terminal code sort of doing the work."
+    },
+    {
+      "start": 1845.07,
+      "end": 1855.07,
+      "text": "Yeah, so that's a really important and powerful like piece of paperclip, which is that everything you see here and a lot of things you even don't."
+    },
+    {
+      "start": 1855.07,
+      "end": 1866.07,
+      "text": "Has an agent surface there is a paperclip skill included with paperclip that's that has documented all of what can be done."
+    },
+    {
+      "start": 1866.07,
+      "end": 1872.07,
+      "text": "What can be done creating issues closing issues adding comments creating projects artifacts."
+    },
+    {
+      "start": 1872.07,
+      "end": 1887.07,
+      "text": "Goals and hiring and skills and every piece of of paperclip has an agent surface such that if you're more comfortable just running it through your cloud code is kind of a CEO, you can 100% do that."
+    },
+    {
+      "start": 1887.07,
+      "end": 1893.07,
+      "text": "Yeah, I found it useful to have paperclip in the way that you're looking at it just to see what was happening."
+    },
+    {
+      "start": 1893.07,
+      "end": 1897.07,
+      "text": "Almost like this was the inner working and I was engaging with it somewhere else."
+    },
+    {
+      "start": 1897.07,
+      "end": 1899.07,
+      "text": "Yeah, it's kind of interesting."
+    },
+    {
+      "start": 1899.07,
+      "end": 1915.07,
+      "text": "I love it and so something that so I think that's a good way to use it a second way that people are doing it is they hire a open claw and they will use that open claw also as their CEO so then they can talk from discord or telegram or wherever they want."
+    },
+    {
+      "start": 1915.07,
+      "end": 1930.84,
+      "text": "I think it introduces some kind of variance in terms of how good your open claw is and like now you're going through open claw so but for the most part we have sort of good kind of reports per me people do the same thing."
+    },
+    {
+      "start": 1930.84,
+      "end": 1941.84,
+      "text": "And then we are also working on sort of a first party like paperclip agent that will be kind of built into the app so you can kind of have like a chat surface."
+    },
+    {
+      "start": 1941.84,
+      "end": 1947.84,
+      "text": "You just talk within the app which will be really important to do similarly what you're talking about."
+    },
+    {
+      "start": 1947.84,
+      "end": 1957.13,
+      "text": "So yeah and I think and then we're really like part of what we're trying to do is to make it such that the."
+    },
+    {
+      "start": 1957.13,
+      "end": 1965.22,
+      "text": "That the experience that you get as you get more sophisticated with paperclip."
+    },
+    {
+      "start": 1965.22,
+      "end": 1974.22,
+      "text": "You'll find paperclip will be the best like the UI will be like one of the best ways that you would want to interact with it when you're kind of doing active work but then at the same time."
+    },
+    {
+      "start": 1974.22,
+      "end": 1987.22,
+      "text": "The underlying agents are getting better and the kind of control plane is getting better such that you don't have to micromanage it as much right so it's this kind of like dual this like barbell strategy where."
+    },
+    {
+      "start": 1987.22,
+      "end": 2000.57,
+      "text": "The org model is trained well enough to to act independently in a way that is pretty predictable but then you can also sort of like dip in adjust plans course correct you know while you."
+    },
+    {
+      "start": 2000.57,
+      "end": 2011.92,
+      "text": "Like when you need to yeah so so if you're kind of envisioning how this looks let's say we had four hours to set this up."
+    },
+    {
+      "start": 2011.92,
+      "end": 2021.92,
+      "text": "When we get to that end point and where we're looking at this thing run what could what what where does your mind go in terms of like the full capability of this thing."
+    },
+    {
+      "start": 2021.92,
+      "end": 2025.21,
+      "text": "I think specifically for trading."
+    },
+    {
+      "start": 2025.21,
+      "end": 2041.21,
+      "text": "I think that the first thing that I want is like a back testing ideas team so what I would essentially set up is I would have a set of researchers whose job is literally like every night what I expect you to do."
+    },
+    {
+      "start": 2041.21,
+      "end": 2054.21,
+      "text": "Is like come up with ideas for new ideas that we're going to to back test right I would sort of either have."
+    },
+    {
+      "start": 2054.21,
+      "end": 2067.21,
+      "text": "I would give my agents a set of sources like I would say go look at archive go look at you to go look at trading view go look at like I would come up with I would even have my research research on area of."
+    },
+    {
+      "start": 2067.21,
+      "end": 2074.21,
+      "text": "Maybe 20 or 30 different sources of alpha that I can think of and I would say like."
+    },
+    {
+      "start": 2074.21,
+      "end": 2081.21,
+      "text": "Go to all these places and come up with new ideas I would also ask them to set up."
+    },
+    {
+      "start": 2082.27,
+      "end": 2110.27,
+      "text": "So you can remember of all of these kind of like back testing strategies or ideas that we have I need you to make sure that you keep track of which ones we've already tried and what the results were you can almost think of like each strategy is almost like an initiative or an effort right like you know something stupid like oh if I want to test like the EMA crossing of these two time frames like for the most simple hello world example you would."
+    },
+    {
+      "start": 2111.27,
+      "end": 2123.3,
+      "text": "You want to make sure that your entire system is kind of tracking from the outset like how like what was good what do we try what do we use what do we discard right."
+    },
+    {
+      "start": 2123.3,
+      "end": 2138.3,
+      "text": "And so that would be the very first thing is I would have this kind of like idea generation inflow which is either like one team for generating ideas or potentially two teams like one that's like researchers and the other that sort of distills just depends on your needs."
+    },
+    {
+      "start": 2139.3,
+      "end": 2142.3,
+      "text": "Oh yeah the carry on sorry I'm interrupting you know please."
+    },
+    {
+      "start": 2143.66,
+      "end": 2156.66,
+      "text": "Well on on the on the channel recently we've been I've been guiding people through the process of actually setting up your own trading agent so it actually makes the trades for you so you build you build a strategy with your whole kind of."
+    },
+    {
+      "start": 2156.66,
+      "end": 2171.66,
+      "text": "I don't know it's it's I guess can be quite complex or it can be relatively simple but it all it essentially only trade when the confirmations are all aligned and it will sell and the set and with certain criteria and I'm interested now because."
+    },
+    {
+      "start": 2171.66,
+      "end": 2183.66,
+      "text": "Yes, it would be good to have a research team and they're iterating on these different strategies you know they might be pulling this week we're testing the moon phase versus you know the."
+    },
+    {
+      "start": 2183.66,
+      "end": 2190.66,
+      "text": "I don't know why you're in Iran or something and using that to try and piece together a strategy and it's making it better every single time."
+    },
+    {
+      "start": 2190.66,
+      "end": 2202.72,
+      "text": "But adding an execution layer on to that is like the real the real game changer because once you can it in my in the organization that I set up with there was a whole process for risk management so."
+    },
+    {
+      "start": 2202.72,
+      "end": 2209.72,
+      "text": "There's a team for risk management they did a whole bunch of different things but one of their roles was to delay the."
+    },
+    {
+      "start": 2210.72,
+      "end": 2220.88,
+      "text": "Switch from paper trading into real trading until they saw certain metrics were met with the paper trading and then they would slowly deploy capital."
+    },
+    {
+      "start": 2221.88,
+      "end": 2239.88,
+      "text": "From then like a real firm and so they're operating in that way and then it's like oh wait we should actually elevate this now to paper trading with that moon phase and oil strategy that we created and it's actually going to the agent that we've already created on the channel to just go and do the trade."
+    },
+    {
+      "start": 2240.88,
+      "end": 2252.88,
+      "text": "It's kind of the you know is one thing doing the research but it's another thing getting the thing to actually trade the money and that's so exciting if you can find a strategy or create a strategy that has a."
+    },
+    {
+      "start": 2252.88,
+      "end": 2263.88,
+      "text": "You know high sharp score and very low draw down and if you can get one that actually makes money like profit even if it's just a scent like you're making a sense it's it's."
+    },
+    {
+      "start": 2263.88,
+      "end": 2277.88,
+      "text": "It's if you can make a scent with a trading strategy and AI trading strategy you're doing well also it's very hard to do it but how hard is it to do it with you've got a team of 20 people doing more research than any human could do."
+    },
+    {
+      "start": 2277.88,
+      "end": 2286.26,
+      "text": "Kind of puts it puts you in a position where you're the auto in your favor kind of or more in your favor than they've ever been."
+    },
+    {
+      "start": 2286.26,
+      "end": 2302.26,
+      "text": "I guess that I would also say that like the best results you're going to have with paper clip and probably a lot of other agent frameworks are like I wouldn't really scale up faster than you need."
+    },
+    {
+      "start": 2302.26,
+      "end": 2313.26,
+      "text": "Like I think if you sort of come to paper clip and you do sort of create 30 agents on day one you're not going to get great results and it will be like too expensive and too slow."
+    },
+    {
+      "start": 2313.26,
+      "end": 2324.49,
+      "text": "I think that like the best way to do this is to start small and I would actually kind of hand create my initial teen where."
+    },
+    {
+      "start": 2325.49,
+      "end": 2332.03,
+      "text": "Just try to keep it as simple as possible to your like system which would be like research back test."
+    },
+    {
+      "start": 2332.03,
+      "end": 2351.03,
+      "text": "I don't know like red team execution and like risk management or something like I would probably just have those six in the beginning maybe something around like deployment and and then like or maybe even less like really you just add new agents as you need them and as things are kind of like."
+    },
+    {
+      "start": 2351.03,
+      "end": 2362.03,
+      "text": "Well it's like you you just have one agent and it's like working and then from there what you do is when it starts to kind of break then you break pieces apart it when you kind of need more sort of back and forth between them."
+    },
+    {
+      "start": 2362.03,
+      "end": 2372.03,
+      "text": "I think that's going to be the right approach is build it up as much as like it's really incredible to kind of like wave your hand and then have a massive team."
+    },
+    {
+      "start": 2372.03,
+      "end": 2395.74,
+      "text": "These agents will perform poorly if you don't take the time to really train them deeply in terms of like your values and your instructions and so like in here I would go to instructions and like fill out yeah this age the CEO doesn't even have any instructions at all and you certainly need to fill that out like even for my own kind of like instructions for my coder."
+    },
+    {
+      "start": 2396.74,
+      "end": 2412.99,
+      "text": "This is really growing quite a lot every day in how I expect it to sort of operate and so you you have to do that and you have to kind of like have you really want to be on like solid footing before you like."
+    },
+    {
+      "start": 2414.54,
+      "end": 2416.54,
+      "text": "Fan out to broadly I suppose."
+    },
+    {
+      "start": 2416.54,
+      "end": 2426.54,
+      "text": "Yeah you're absolutely right because what I saw was on on X I saw this complete flood of people doing some crazy stuff and I was like okay."
+    },
+    {
+      "start": 2426.54,
+      "end": 2437.54,
+      "text": "How can we push this to 100 immediately and you know I found myself in your right I found myself creating agents after the fact to optimize cost."
+    },
+    {
+      "start": 2438.54,
+      "end": 2447.54,
+      "text": "And then I found an eight I had to get an agent to look at people who are doing redundant jobs and I kept having to do these things to like patch the holes that."
+    },
+    {
+      "start": 2447.54,
+      "end": 2452.54,
+      "text": "Just doing a blast of agents is obviously going to create so."
+    },
+    {
+      "start": 2452.54,
+      "end": 2460.54,
+      "text": "Yeah putting meaningful time into your agents just like you would real people if that you were depending on these people to generate you money."
+    },
+    {
+      "start": 2461.54,
+      "end": 2463.73,
+      "text": "I guess you do have to give that time."
+    },
+    {
+      "start": 2463.73,
+      "end": 2480.73,
+      "text": "I was building a hyper liquid trading bot before I started paperclip and it had it was like making some money for it was making pretty decent money for the first kind of two to three weeks it was discovering it was run a nightly lab."
+    },
+    {
+      "start": 2480.73,
+      "end": 2498.79,
+      "text": "Where he would come up with about 30 strategies and then back test them and then we would eventually promote them so we eventually went through several thousand strategies and landed on kind of three or four that we found were working sort of within that."
+    },
+    {
+      "start": 2498.79,
+      "end": 2513.79,
+      "text": "And it started to work really well until kind of I was using open clause that's sort of harness and and I built trading bots before and I've been kind of like like it's not easy right it takes sort of a long time to kind of get your."
+    },
+    {
+      "start": 2513.79,
+      "end": 2518.79,
+      "text": "You know back testing hygiene right and the execution right and all these things and so."
+    },
+    {
+      "start": 2518.79,
+      "end": 2533.07,
+      "text": "I'm not trying to say that it was like immediately a money printer I'm saying like I've been working on bots for I don't even know how long like well over 10 years and so I was able to kind of use open plot a come up with a new version."
+    },
+    {
+      "start": 2533.07,
+      "end": 2548.07,
+      "text": "And what basically happened to me with open clock great piece software love it super fun but like I just wasn't able to manage the details of the project and sort of like dip in where I needed and it just started started to fall apart and basically lost all the money that it made and I."
+    },
+    {
+      "start": 2548.07,
+      "end": 2558.52,
+      "text": "I tried to correct it and put in these constraints and we'd skip cron jobs and forget things and like wouldn't do the checks that I had you know there's even this weird situation where."
+    },
+    {
+      "start": 2558.52,
+      "end": 2566.29,
+      "text": "I started writing code that would force the the risk management so for example."
+    },
+    {
+      "start": 2566.29,
+      "end": 2576.29,
+      "text": "Like you want kind of your your your your you know your portfolio has like exposure to where like oh you know we only want this much it."
+    },
+    {
+      "start": 2576.29,
+      "end": 2586.29,
+      "text": "You know beta exposure to Bitcoin or something and and and you put in these like portfolio level risk constraints and."
+    },
+    {
+      "start": 2587.29,
+      "end": 2595.29,
+      "text": "And what I realized was that like the LLM would sometimes forget those constraints and not do them and so you have to actually put stuff like that into hard code."
+    },
+    {
+      "start": 2595.29,
+      "end": 2610.38,
+      "text": "And so I basically had like an API like another service endpoint that would enforce the risk constraints and that worked really well until my open clock figured out that it could redeploy the service for risk constraints."
+    },
+    {
+      "start": 2610.38,
+      "end": 2626.38,
+      "text": "And then like it would just circumvent them anyway because it would just redeploy if it didn't like what the risk constraint was and so there's this like there's definitely these like things you have to be super careful about like your you can't little have an LLM."
+    },
+    {
+      "start": 2626.38,
+      "end": 2648.28,
+      "text": "Even have access to your your hardest constraints because if they can redeploy it they can just circumvent it and LLMs are like little children right like one prompt injection and then they're like steal all your money and then apologize right so you do have to kind of like be careful about."
+    },
+    {
+      "start": 2648.28,
+      "end": 2656.14,
+      "text": "Make sure you're building those like know what's good for an LLM and what's not exactly."
+    },
+    {
+      "start": 2657.14,
+      "end": 2671.14,
+      "text": "Attention to detail take care of these agents that your yeah the time and attention give time and attention so don't be thoughtful about what their roles are and that would be the ultimately the but the best basis to start from the foundation."
+    },
+    {
+      "start": 2673.3,
+      "end": 2679.3,
+      "text": "So where did we get to I know you've got a hard stop but where did we get to with the simple prompt that we gave it the beginning."
+    },
+    {
+      "start": 2679.3,
+      "end": 2690.35,
+      "text": "Yeah, let's see here so we've got you know I wonder where I'd even put the code for these things look at this like I'm gonna like where is the code."
+    },
+    {
+      "start": 2691.35,
+      "end": 2705.24,
+      "text": "So let me tell you one thing paperclip is not a code of you tool the goal with paperclip is that you are managing your like business outcomes not pull requests."
+    },
+    {
+      "start": 2705.24,
+      "end": 2723.24,
+      "text": "So that is another sort of kind of like important piece to understand when you're using paperclip is it assumes that if you're the you're using external tools like in this case if you're writing a trading bot surely you are going to want to look at the code once in a while."
+    },
+    {
+      "start": 2723.24,
+      "end": 2731.24,
+      "text": "And it assumes that you have cursor and you have a get repo and you're using GitHub and you like use GitHub and cursor to manage your pull requests."
+    },
+    {
+      "start": 2732.24,
+      "end": 2739.24,
+      "text": "While there's tools here for like helping your like code review process certainly in managing work trees and all that."
+    },
+    {
+      "start": 2740.24,
+      "end": 2746.24,
+      "text": "It's it's it's not designed to be a code view tool so."
+    },
+    {
+      "start": 2747.24,
+      "end": 2760.75,
+      "text": "Yeah look here so it's helping us figure out where the code actually is yeah the code is yeah committed local and master thank you that's very very helpful really what I'm looking for here is a file path on my machine."
+    },
+    {
+      "start": 2761.75,
+      "end": 2775.82,
+      "text": "Here's what I'll tell you we are working on better results here it is here's the folder we are working on kind of better work space support within paperclip such that."
+    },
+    {
+      "start": 2779.16,
+      "end": 2797.18,
+      "text": "What we just went through is a bit more straightforward but here I can show you the code that we have in cursor if that's useful let's see how do we share our screen switch windows I think it's just magic for people when they see this stuff and then this."
+    },
+    {
+      "start": 2797.18,
+      "end": 2804.18,
+      "text": "For me it was kind of my like magic when I was talking to call code for the first time and then I see that it's actually created."
+    },
+    {
+      "start": 2805.18,
+      "end": 2817.22,
+      "text": "Folders and files and stuff in the background it's written all this stuff in there and you just don't know because I come from a zero development background everything I've learned has been purely from vibe coding."
+    },
+    {
+      "start": 2818.22,
+      "end": 2821.66,
+      "text": "It's just fascinating to me to know that I've said something and then."
+    },
+    {
+      "start": 2822.66,
+      "end": 2837.66,
+      "text": "Initially it was just fascinating for me that a file was created it not in the traditional way where I've just right collecting click new folder new and then you know haven't done it manually it's just kind of amazing and then this obviously it's just on steroids now."
+    },
+    {
+      "start": 2837.66,
+      "end": 2844.66,
+      "text": "Yeah so we've got here in cursor this kind of like rudimentary back testing engine we've got."
+    },
+    {
+      "start": 2844.66,
+      "end": 2853.66,
+      "text": "Some you know basic metrics like sharp ratio and optimizer I think that like look that your results."
+    },
+    {
+      "start": 2854.66,
+      "end": 2870.92,
+      "text": "Yeah here's a simple moving average cross strategy your results are still very much going to be dependent on your ability to articulate the degree of like professionalism that you expect."
+    },
+    {
+      "start": 2870.92,
+      "end": 2893.98,
+      "text": "How I would really do this is I would have I would do a lot more planning around what back testing library am I going to use if any like are we writing our own or are we kind of using one off the shelf there's a there's actually quite a lot that are super good that that maybe you should be using instead of writing your own."
+    },
+    {
+      "start": 2894.98,
+      "end": 2903.98,
+      "text": "There's a lot of like trading bots that are that are decent and open source you know I think it just depends on where you are like if you're kind of like I would rather sort of."
+    },
+    {
+      "start": 2905.59,
+      "end": 2916.22,
+      "text": "You know use a well tested back testing library that I find on GitHub or whether you want to kind of like write it from scratch and rust or something because you're super hardcore."
+    },
+    {
+      "start": 2916.22,
+      "end": 2926.22,
+      "text": "The more kind of guidance that you can give your agents upfront in the planning phase is going to help right the idea that you might be able to."
+    },
+    {
+      "start": 2927.42,
+      "end": 2939.42,
+      "text": "Yeah, so that's my overarching sort of suggestion is like you now have the power of super human AI at your fingertips sign up for a GPT."
+    },
+    {
+      "start": 2939.42,
+      "end": 2952.42,
+      "text": "Pro plan 200 dollars a month and ask it on max pro mode what some of the strategies are that you should be looking at what your work flows should look like and."
+    },
+    {
+      "start": 2952.42,
+      "end": 2961.42,
+      "text": "And use like what what does good data hygiene for back testing look like and make sure that you enforce that rigorously right and so."
+    },
+    {
+      "start": 2961.42,
+      "end": 2976.42,
+      "text": "Make sure that you're injecting kind of those values and the maximum amount of professionals that you can in your planning and then that will show up in your agents there's there's kind of no silver bullet there just make sure that you're kind of."
+    },
+    {
+      "start": 2977.42,
+      "end": 2979.42,
+      "text": "Yeah, planning deep with detail."
+    },
+    {
+      "start": 2980.42,
+      "end": 2984.42,
+      "text": "Yeah and and and just just to kind of closes out just an idea."
+    },
+    {
+      "start": 2984.42,
+      "end": 3001.42,
+      "text": "If you've got of if you can find a really successful open source strategy on GitHub, you can just give the GitHub to an agent in in paper clip and say, you know, use this as the baseline and let's paper trade some testing to see if we're going to improve it in some way."
+    },
+    {
+      "start": 3002.42,
+      "end": 3023.42,
+      "text": "Right and then you make in your own thing on what somebody else's has made it's almost like, you know, you made you made paper clip and it's incredible, but people have their own specific needs and they're building their own things on top of it and it's it's just it's so collaborative and I really am enjoying this phase of where we are right now in the world because."
+    },
+    {
+      "start": 3023.42,
+      "end": 3036.42,
+      "text": "It's going from, you know, in in crypto we went from this is a decentralized thing and it's so exciting all the way through to now basically crypto for the most part is going to be used centrally."
+    },
+    {
+      "start": 3037.42,
+      "end": 3052.42,
+      "text": "You know, the big banks are going to be running it and it's all going to be is controlled in many ways, you know, it's gone from decentralized decentralized and I'm seeing AI now kind of move from centralized to decentralized."
+    },
+    {
+      "start": 3053.42,
+      "end": 3070.42,
+      "text": "And that is kind of fun like is collaborative, you can make improvements on things are already good and you can use good things as well. You just have to have a little bit of technical knowledge I guess to get it done, but look paper clip is an incredible addition to the ecosystem."
+    },
+    {
+      "start": 3070.42,
+      "end": 3078.42,
+      "text": "It's been so much fun using it and I've been watching your interviews elsewhere as well. So thanks for giving your time to all those interviews and mine."
+    }
+  ]
+}

@@ -177,6 +177,21 @@ Evidence tier: Tier 1-2 for nutritional content; Tier 2-3 for medicinal claims
 
 ---
 
+## FORMULA PROTOCOLS
+
+### Golden Paste — Anti-Inflammatory + Immune Sovereignty Formula
+**Source:** VID-42 personal testimony | **Confidence:** T3 | **Full protocol:** `dbs_herb_golden-paste_v1.md`
+
+Coconut oil (12–16 oz base) + turmeric (1–1.5 tsp) + basil powder non-holy (1 tsp) + garlic (1 tsp) + ashwagandha (1 tsp) + amla (1 tsp) + moringa (1 tsp, confirm via source video).
+
+Take 1 tablespoon of concentrated paste daily. Do not dilute. Concentration is the key variable.
+
+**Why it works:** Coconut oil = fat carrier for fat-soluble curcumin (bioavailability stack). Four simultaneous anti-inflammatory pathways. Immune + adaptation layer. Nutritional foundation. See full file for mechanism, contraindications, and confidence breakdown.
+
+**⚠️ Moringa pending confirmation:** Watch VID-42 (`research-deconstruction /pandora-vids-raw/v15044gf0000d7kmldfog65i0a3otgng.MP4`) to verify 7th ingredient. Secondary candidate: Shatavari.
+
+---
+
 ## WOMEN'S BODILY AUTONOMY — RESEARCH FRAMEWORK
 
 This is a dedicated research focus within D.B.S. The scope:

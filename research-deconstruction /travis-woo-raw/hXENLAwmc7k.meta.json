@@ -1,0 +1,1222 @@
+{
+  "video_id": "hXENLAwmc7k",
+  "title": "AI Just Killed the $300 Volume Profile Market",
+  "language": "en",
+  "language_confidence": 0.999,
+  "duration_seconds": 1457.1,
+  "processing_seconds": 285.4,
+  "word_count": 4029,
+  "status": "ok",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.28,
+      "text": "Today, we're building the same kind of footprint indicator that platforms like Bookmap"
+    },
+    {
+      "start": 5.28,
+      "end": 8.0,
+      "text": "charge $300 a month for completely free."
+    },
+    {
+      "start": 8.0,
+      "end": 10.64,
+      "text": "And by the end, the full pine script is yours."
+    },
+    {
+      "start": 10.64,
+      "end": 16.32,
+      "text": "The catch, the AI doing this is Claude Opus 4.6 thinking, $20 a month to access."
+    },
+    {
+      "start": 16.32,
+      "end": 17.92,
+      "text": "Unless you know what I'm about to show you."
+    },
+    {
+      "start": 17.92,
+      "end": 21.36,
+      "text": "Google Antigravity, free tier, Claude wired straight into the IDE,"
+    },
+    {
+      "start": 21.36,
+      "end": 24.0,
+      "text": "no credit card, no trial. Let's go."
+    },
+    {
+      "start": 24.0,
+      "end": 26.96,
+      "text": "All right, let's get into it. I'm opening up Antigravity."
+    },
+    {
+      "start": 26.96,
+      "end": 30.0,
+      "text": "This is the IDE where Claude AI lives."
+    },
+    {
+      "start": 30.0,
+      "end": 34.8,
+      "text": "Think of it as your coding partner that actually understands pine script, not just auto-complete,"
+    },
+    {
+      "start": 34.8,
+      "end": 36.32,
+      "text": "actual reasoning about your code."
+    },
+    {
+      "start": 37.6,
+      "end": 42.88,
+      "text": "First thing we need is a clean workspace, no messy files, no random scripts scattered on the"
+    },
+    {
+      "start": 42.88,
+      "end": 47.6,
+      "text": "desktop. So I'm creating a brand new project folder, volume footprint indicator."
+    },
+    {
+      "start": 47.6,
+      "end": 51.52,
+      "text": "That's the name. Now, inside this folder, I'm setting up four subfolders."
+    },
+    {
+      "start": 53.1,
+      "end": 58.38,
+      "text": "Watch this, versions. For every iteration of our pine script as we build phase by phase,"
+    },
+    {
+      "start": 58.38,
+      "end": 63.66,
+      "text": "screenshots, for our reference images, notes, for anything we discover along the way."
+    },
+    {
+      "start": 64.22,
+      "end": 69.26,
+      "text": "And final, for the polished, published, ready indicator at the end. This might seem like"
+    },
+    {
+      "start": 69.26,
+      "end": 74.22,
+      "text": "overkill for a trading view indicator, but this is how real projects get organized. Trust me,"
+    },
+    {
+      "start": 74.22,
+      "end": 81.02,
+      "text": "by phase five, you'll be glad we did this. Next, I'm creating a readme file, readme.md. This is"
+    },
+    {
+      "start": 81.02,
+      "end": 85.42,
+      "text": "the blueprint. The mission statement for the entire build. Here's what goes in."
+    },
+    {
+      "start": 85.9,
+      "end": 91.18,
+      "text": "Build a pine script V6 indicator that approximates the functionality shown in two reference images."
+    },
+    {
+      "start": 91.18,
+      "end": 98.3,
+      "text": "Constraints. Pine script V6 only, no external APIs must run on trading views free tier,"
+    },
+    {
+      "start": 98.3,
+      "end": 104.14,
+      "text": "and the performance target under 500 milliseconds to render on a one-hour chart with 5000 bars."
+    },
+    {
+      "start": 104.14,
+      "end": 108.38,
+      "text": "That's tight, but that's the goal. Now, here's where it gets exciting. These are the two images"
+    },
+    {
+      "start": 108.38,
+      "end": 113.42,
+      "text": "I'm feeding to clawed as reference. This first one is a professional footprint chart."
+    },
+    {
+      "start": 113.42,
+      "end": 118.62,
+      "text": "Horizontal volume bars at every single price level. Blue clusters, green session profiles,"
+    },
+    {
+      "start": 118.62,
+      "end": 124.38,
+      "text": "yellow POC lines glowing across the screen. This is what $50 a month software looks like."
+    },
+    {
+      "start": 124.38,
+      "end": 129.66,
+      "text": "And the second one, a full step profile, actual bid and ask numbers at every price row."
+    },
+    {
+      "start": 130.53,
+      "end": 136.85,
+      "text": "Color coded cells, green for buy heavy, blue for sell heavy, yellow for high activity zones,"
+    },
+    {
+      "start": 136.85,
+      "end": 142.45,
+      "text": "delta values, stacked imbalances. That's our target. That's what we're reverse engineering and"
+    },
+    {
+      "start": 142.45,
+      "end": 150.18,
+      "text": "pine script. All right, now the real magic. I'm sending claw to a very specific prompt. Not"
+    },
+    {
+      "start": 150.18,
+      "end": 155.46,
+      "text": "some vague right me a footprint indicator. No, I'm telling it exactly who it is, what rules to follow,"
+    },
+    {
+      "start": 155.46,
+      "end": 161.62,
+      "text": "and how to deliver. You're an expert pine script V6 developer. You understand order flow approximations,"
+    },
+    {
+      "start": 161.62,
+      "end": 166.9,
+      "text": "volume profile math, and lower time frame data fetching. Use request dot security underscore,"
+    },
+    {
+      "start": 166.9,
+      "end": 173.14,
+      "text": "lower TF only. Use box dot new and line dot new for the visual bars. Never use plot for"
+    },
+    {
+      "start": 173.14,
+      "end": 178.02,
+      "text": "horizontal histograms. Clean up old drawings to avoid memory limits and comment every single block of"
+    },
+    {
+      "start": 178.02,
+      "end": 183.46,
+      "text": "code because this entire build is going on YouTube. And here's the critical part. We're building this"
+    },
+    {
+      "start": 183.46,
+      "end": 190.5,
+      "text": "in seven phases. One at a time, no skipping, no adding features I didn't ask for. After each phase,"
+    },
+    {
+      "start": 190.5,
+      "end": 196.61,
+      "text": "I tested live and trading view before we move on. That's discipline. That's how you build something"
+    },
+    {
+      "start": 196.61,
+      "end": 205.17,
+      "text": "that actually works. And watch what Claude sends back. Ready for phase one. Three words."
+    },
+    {
+      "start": 206.0,
+      "end": 211.36,
+      "text": "Clean, no fluff, no over explanation, just ready to build. If you're learning pine script or you've"
+    },
+    {
+      "start": 211.36,
+      "end": 216.08,
+      "text": "ever wanted to build a real indicator from scratch with AI, drop a like. It genuinely helps more"
+    },
+    {
+      "start": 216.08,
+      "end": 221.87,
+      "text": "traders find this walk through. So the workspace is set. The blueprint is locked in. Claude knows"
+    },
+    {
+      "start": 221.87,
+      "end": 228.08,
+      "text": "exactly what we're building and how we're building it. Let's start phase one. Phase one,"
+    },
+    {
+      "start": 228.08,
+      "end": 234.42,
+      "text": "empty file to working volume profile on a live chart. Here's the build, a visible range volume profile,"
+    },
+    {
+      "start": 234.42,
+      "end": 241.06,
+      "text": "VRVP. It grabs the highest high and lowest low of the last 200 bars. Splits that range into 50"
+    },
+    {
+      "start": 241.06,
+      "end": 246.42,
+      "text": "horizontal rows and counts how much volume landed in each one. One approximation upfront we're using"
+    },
+    {
+      "start": 246.42,
+      "end": 253.06,
+      "text": "each bars close to a sign volume. Not perfect, but it's fast, clean, and gets us 80% there."
+    },
+    {
+      "start": 253.06,
+      "end": 259.54,
+      "text": "We refine later. Key decisions. Max boxes in lines set to 500 trading views hard limits."
+    },
+    {
+      "start": 259.54,
+      "end": 266.02,
+      "text": "Two arrays with VR, so they persist. Full cleanup before every redraw. Skip that. You hit the object"
+    },
+    {
+      "start": 266.02,
+      "end": 272.02,
+      "text": "limit in minutes. The core math is one loop. One. Close to row. Add volume. Done. The highest"
+    },
+    {
+      "start": 272.02,
+      "end": 276.34,
+      "text": "volume row. That's your point of control. Institutions watch this level. Now it's on your"
+    },
+    {
+      "start": 276.34,
+      "end": 283.54,
+      "text": "chart for free. First compile, first render, blue histogram, yellow POC line, switch timeframes."
+    },
+    {
+      "start": 283.54,
+      "end": 288.61,
+      "text": "It adapts everywhere. Foundation locked. Phase two. Phase two. This is where things get real."
+    },
+    {
+      "start": 289.46,
+      "end": 295.22,
+      "text": "We're telling Claude to pull lower time frame data using using request.security underscore,"
+    },
+    {
+      "start": 295.22,
+      "end": 301.78,
+      "text": "lower TF and build a mini volume profile inside each candle. The LTF mapping is automatic."
+    },
+    {
+      "start": 301.78,
+      "end": 307.62,
+      "text": "One hour chart pulls 15 minute candles. Five minute chart pulls one minute candles. Each bar gets"
+    },
+    {
+      "start": 307.62,
+      "end": 312.74,
+      "text": "split into rows and volume is distributed proportionally across every row, the LTF candle touches."
+    },
+    {
+      "start": 313.38,
+      "end": 320.99,
+      "text": "Not just the clothes anymore, the full range, paste it, compile, and it works. But look at this,"
+    },
+    {
+      "start": 320.99,
+      "end": 326.59,
+      "text": "solid blue blocks everywhere. You can't even see the price action. Functionally, correct, visually,"
+    },
+    {
+      "start": 326.59,
+      "end": 333.15,
+      "text": "terrible. So I screenshot this mess, go back to Claude and say fix it. This is Phase 2.5"
+    },
+    {
+      "start": 333.15,
+      "end": 338.51,
+      "text": "the refinement pass, switch from box.new to line.new, time-based positioning, transparency crank"
+    },
+    {
+      "start": 338.51,
+      "end": 345.31,
+      "text": "to 88% make it ghostly, night and day, same data, candles fully visible, when volume rows floating"
+    },
+    {
+      "start": 345.31,
+      "end": 351.97,
+      "text": "underneath like a heat signature, gold POC markers on each bar. Now it looks premium. Phase 3,"
+    },
+    {
+      "start": 351.97,
+      "end": 356.77,
+      "text": "the split footprint. This is the moment it stops looking like a volume indicator and starts"
+    },
+    {
+      "start": 356.77,
+      "end": 363.25,
+      "text": "looking like order flow. The tick rule, if the LTF candle closes above it's open, that volume is classified"
+    },
+    {
+      "start": 363.25,
+      "end": 371.01,
+      "text": "as buying pressure. Closes below, selling pressure, equal split 50 50. Each row now draws two lines,"
+    },
+    {
+      "start": 371.01,
+      "end": 376.85,
+      "text": "green extending right for buyers, red extending left for sellers, plus a delta number floating above"
+    },
+    {
+      "start": 376.85,
+      "end": 384.77,
+      "text": "each bar. First compile error. Pinescript V6 gotcha. Size.small is a string, not a type keyword."
+    },
+    {
+      "start": 384.77,
+      "end": 390.93,
+      "text": "One line fix. Back in 30 seconds. And there it is, green and red splitting from each bar center."
+    },
+    {
+      "start": 390.93,
+      "end": 396.53,
+      "text": "Delta numbers stacking across the chart. Positive green, buyers in control. Cluster of red,"
+    },
+    {
+      "start": 396.53,
+      "end": 402.37,
+      "text": "sellers stepping in. POC in yellow, session profile on the right. Remember, this is the tick rule."
+    },
+    {
+      "start": 402.45,
+      "end": 406.85,
+      "text": "And approximation, not real order flow. This is educational. Drop a like if you're building along."
+    },
+    {
+      "start": 407.81,
+      "end": 414.14,
+      "text": "Phase 4 adds value area. All right. Phase 3 is on the chart, but something's wrong. The delta"
+    },
+    {
+      "start": 414.14,
+      "end": 420.14,
+      "text": "numbers are showing. The POC line is there. But the per candle volume bars, the right side profile,"
+    },
+    {
+      "start": 420.14,
+      "end": 425.58,
+      "text": "gone. Completely invisible. The rendering broke. The old line-based approach was to transparent"
+    },
+    {
+      "start": 425.58,
+      "end": 432.46,
+      "text": "tooth in. Functionally the math is working. Visually useless. So I screenshot this. Go back to"
+    },
+    {
+      "start": 432.46,
+      "end": 439.34,
+      "text": "antigravity and write what I call an atomic prompt. One prompt. Two tasks. No ambiguity. Fix everything"
+    },
+    {
+      "start": 439.34,
+      "end": 445.98,
+      "text": "in one shot. Task 1. Restore the right side volume profile. But not that old flat blue from phase 1."
+    },
+    {
+      "start": 446.74,
+      "end": 454.18,
+      "text": "I'm telling Claude to use solid ATAS green. Muted. 35% opacity. Invisible borders. Clean institutional"
+    },
+    {
+      "start": 454.18,
+      "end": 459.81,
+      "text": "look. 50 rows of volume data stacking on the right side of the chart. Task 2. Rebuild the per"
+    },
+    {
+      "start": 459.81,
+      "end": 467.33,
+      "text": "candle step profiles from scratch. This time using box.new instead of line.new. Solid blue. 40% opacity."
+    },
+    {
+      "start": 467.33,
+      "end": 473.09,
+      "text": "The LTF mapping is tighter now. Five minute chart pulls 30 second candles. One hour chart pulls five"
+    },
+    {
+      "start": 473.09,
+      "end": 479.33,
+      "text": "minute candles. Each bar gets split into rows automatically. Eight rows on a five minute chart. 15 rows"
+    },
+    {
+      "start": 479.33,
+      "end": 487.41,
+      "text": "on the one hour. While I'm in there, I sneak in value area, VAH and VAL. Starting from the POC,"
+    },
+    {
+      "start": 487.41,
+      "end": 493.89,
+      "text": "the script expands outward, row by row, adding whichever adjacent row has higher volume until it captures"
+    },
+    {
+      "start": 493.89,
+      "end": 498.77,
+      "text": "70% of total volume. That gives you the zone where institutions did most of their business. All right,"
+    },
+    {
+      "start": 498.77,
+      "end": 506.56,
+      "text": "let's paste this into trading view, paste, compile, and there it is. Delta numbers floating above"
+    },
+    {
+      "start": 506.56,
+      "end": 511.2,
+      "text": "every candle, green for buying pressure, red for selling pressure. The POC cutting across an"
+    },
+    {
+      "start": 511.2,
+      "end": 517.36,
+      "text": "amber, VAH and VAL framing the values own in dash lines and look at what price does around the POC,"
+    },
+    {
+      "start": 518.48,
+      "end": 524.8,
+      "text": "bounces, retests, holds, these aren't random lines. That's where the heaviest volume concentration"
+    },
+    {
+      "start": 524.8,
+      "end": 530.75,
+      "text": "lives. Remember, the tick rule is an approximation, not real order flow. This is educational. How you"
+    },
+    {
+      "start": 530.75,
+      "end": 537.23,
+      "text": "use this tool is on you, but you can see it. The POC working like support, VAH acting as resistance,"
+    },
+    {
+      "start": 537.87,
+      "end": 544.03,
+      "text": "volume leaves footprints that price remembers. Next phase, we turn this into a back test strategy."
+    },
+    {
+      "start": 544.59,
+      "end": 549.58,
+      "text": "Stay tuned. All right, so here's what happened. Everything I've tried to build so far with AI,"
+    },
+    {
+      "start": 551.06,
+      "end": 558.42,
+      "text": "failed. The volume footprint, invisible bars, the step profiles, wouldn't render. Three phases of"
+    },
+    {
+      "start": 558.5,
+      "end": 564.02,
+      "text": "iteration, and the chart still looked empty. So I changed the approach completely. Instead of"
+    },
+    {
+      "start": 564.02,
+      "end": 568.74,
+      "text": "describing what I want from scratch, I took an existing indicator source code, a session breakout"
+    },
+    {
+      "start": 568.74,
+      "end": 574.5,
+      "text": "indicator that already works, and I attached it as a reference file, not to copy it, not to steal code."
+    },
+    {
+      "start": 575.22,
+      "end": 581.7,
+      "text": "Just so the AI can read it like documentation and understand what features exist. Then I wrote one massive prompt,"
+    },
+    {
+      "start": 582.1,
+      "end": 587.54,
+      "text": "and the rules were strict. Do not copy any code, do not use the same variable names, do not use the"
+    },
+    {
+      "start": 587.62,
+      "end": 593.86,
+      "text": "same colors, do not use the same labels. Use completely different architecture. Split the logic into"
+    },
+    {
+      "start": 593.86,
+      "end": 600.18,
+      "text": "multiple small functions, different color palette, different visual identity. I told it. Use TP1,"
+    },
+    {
+      "start": 600.18,
+      "end": 607.78,
+      "text": "TP2, TP3 as labels, not pipe characters. Use AsiaBO, not Asia Break. Use Amber for Asia,"
+    },
+    {
+      "start": 607.78,
+      "end": 614.02,
+      "text": "Emerald for London, Violet for New York, everything original. 400 lines, one shot, paste into trading view,"
+    },
+    {
+      "start": 614.02,
+      "end": 622.03,
+      "text": "and error. Cannot use BG color in local scope. Classic PineScript trap, the BG color function has to"
+    },
+    {
+      "start": 622.03,
+      "end": 627.23,
+      "text": "live at the global scope. Can't nest it inside an if block, one message. Fix this error."
+    },
+    {
+      "start": 627.23,
+      "end": 633.46,
+      "text": "Cloud moves the BG color to global scope, wraps it in a turnery conditional. Done. Look at this."
+    },
+    {
+      "start": 633.46,
+      "end": 640.02,
+      "text": "Three session boxes. Asia and Warmember, London, Emerald Green, New York and Violet. Each one with a"
+    },
+    {
+      "start": 640.02,
+      "end": 646.83,
+      "text": "dashed border and transparent fill showing exactly when that session was active. Inside each box,"
+    },
+    {
+      "start": 646.83,
+      "end": 652.59,
+      "text": "volume profile, horizontal bars showing where volume concentrated during that session, and the gold"
+    },
+    {
+      "start": 652.59,
+      "end": 657.23,
+      "text": "POC line point of control extending to the right. That's the price level where the most trading"
+    },
+    {
+      "start": 657.23,
+      "end": 664.14,
+      "text": "happened. When price breaks outside the session range? Breakout signal. Triangle marker plus TP1,"
+    },
+    {
+      "start": 664.14,
+      "end": 669.9,
+      "text": "TP2, TP3 targets projecting from the breakout price. Each one based on the session's range"
+    },
+    {
+      "start": 669.9,
+      "end": 678.03,
+      "text": "times a multiplier. And the dashboard. Bull B.O. count. Bear B.O. count. TP hits. And a column I added"
+    },
+    {
+      "start": 678.03,
+      "end": 683.31,
+      "text": "that the original doesn't have. Fakeouts. How many times the breakout reverse back inside the range?"
+    },
+    {
+      "start": 683.31,
+      "end": 688.59,
+      "text": "That's the difference. Same concept. Completely rebuilt from scratch. Original code, original colors."
+    },
+    {
+      "start": 688.59,
+      "end": 694.27,
+      "text": "Original features the reference didn't even have. All right. So here's the move. I've got my power"
+    },
+    {
+      "start": 694.27,
+      "end": 700.83,
+      "text": "session pulse indicator. PSP pot fully built. Sessions breakouts targets fake out detection."
+    },
+    {
+      "start": 700.83,
+      "end": 706.67,
+      "text": "The whole dashboard. But now I want to level it up with a full volume profile and imbalances overlay."
+    },
+    {
+      "start": 706.67,
+      "end": 712.43,
+      "text": "Think bull bear volume bars. Zero volume gap zones and a delta summary panel. All stacked right"
+    },
+    {
+      "start": 712.43,
+      "end": 719.09,
+      "text": "on top of my existing indicator. So how do I do it? I grab two reference documents. First one is the"
+    },
+    {
+      "start": 719.09,
+      "end": 724.29,
+      "text": "actual pine script source code. Second one is the feature description. Explains exactly how"
+    },
+    {
+      "start": 724.29,
+      "end": 729.73,
+      "text": "the profile construction works, how gaps zones are detected, and how the delta panel aggregates"
+    },
+    {
+      "start": 729.73,
+      "end": 736.21,
+      "text": "by cell pressure across vertical sections. Now here's the key. I'm not copying any of that code."
+    },
+    {
+      "start": 736.21,
+      "end": 742.69,
+      "text": "I feed both documents into the AI as reference material only. Then I write a detailed prompt and"
+    },
+    {
+      "start": 742.85,
+      "end": 747.73,
+      "text": "I mean detailed. Every feature is speced out. Look back bars, row count, price source,"
+    },
+    {
+      "start": 747.73,
+      "end": 753.17,
+      "text": "profile width, bull bear volume assignment logic, gaps zone rendering, delta panel with sections,"
+    },
+    {
+      "start": 753.17,
+      "end": 759.09,
+      "text": "colors, toggles, everything. I also tell the AI to keep every single line of my existing PSP code"
+    },
+    {
+      "start": 759.09,
+      "end": 765.25,
+      "text": "untouched. Use a VP underscore prefix for all new variables. Add the new logic strictly after all"
+    },
+    {
+      "start": 765.33,
+      "end": 772.45,
+      "text": "existing code, no interleaving. The AI generates the full file. 600 plus lines. All my original"
+    },
+    {
+      "start": 772.45,
+      "end": 779.01,
+      "text": "PSP code intact at the top, and the entire volume profile module appended at the bottom. New input groups,"
+    },
+    {
+      "start": 779.01,
+      "end": 784.85,
+      "text": "new rendering logic, new delta panel, all clean. Now I paste it into the trading view pine editor."
+    },
+    {
+      "start": 784.85,
+      "end": 792.21,
+      "text": "Hit save and three errors. First one, max lines count is set to 1000. But pine script version six"
+    },
+    {
+      "start": 792.21,
+      "end": 798.69,
+      "text": "has a hard cap at 500. Can't exceed it. Easy fix just set it back to 500. Second and third errors,"
+    },
+    {
+      "start": 798.69,
+      "end": 804.85,
+      "text": "Tay dot highest and Todd dot lowest. I call them inside an if bar state dot i last block. Pine doesn't"
+    },
+    {
+      "start": 804.85,
+      "end": 811.17,
+      "text": "like that. These functions need to run on every single bar for consistency. They maintain internal state."
+    },
+    {
+      "start": 811.17,
+      "end": 816.37,
+      "text": "So the fix is simple. Pull both calls out to global scope. Let them execute every bar. Then just"
+    },
+    {
+      "start": 816.37,
+      "end": 823.57,
+      "text": "reference the values inside the if block. Three lines changed. Save again. Zero errors. The indicator"
+    },
+    {
+      "start": 823.57,
+      "end": 830.85,
+      "text": "compiles clean. Now look at this. This is the final result running live on Bitcoin five minute chart."
+    },
+    {
+      "start": 831.65,
+      "end": 837.25,
+      "text": "On the left side, you've got your session boxes. Asia, London, New York, each one tracked with breakout"
+    },
+    {
+      "start": 837.25,
+      "end": 842.53,
+      "text": "labels, deviation targets and fake out detection. That's the original PSP pot doing its thing. But now"
+    },
+    {
+      "start": 842.53,
+      "end": 849.17,
+      "text": "look at the right side. That's the new volume profile. Green bars. That's where buyers stacked up."
+    },
+    {
+      "start": 849.17,
+      "end": 854.45,
+      "text": "Pink bars. That's seller volume. The wider the bar, the heavier the volume at that price level."
+    },
+    {
+      "start": 855.01,
+      "end": 860.53,
+      "text": "You can literally see where the big money was sitting and those purple zones stretching across the chart."
+    },
+    {
+      "start": 860.53,
+      "end": 865.49,
+      "text": "Those are volume gaps. Price levels where zero volume was traded. These are inefficiencies."
+    },
+    {
+      "start": 866.29,
+      "end": 872.05,
+      "text": "When price comes back to these zones, it either rips through them or reverses hard. That's where"
+    },
+    {
+      "start": 872.37,
+      "end": 878.88,
+      "text": "the edges. Now check the delta panel on the far right. Every section shows you the exact percentage."
+    },
+    {
+      "start": 879.44,
+      "end": 886.32,
+      "text": "Buyers versus sellers. Green means bulls are in control. Red means sellers dominated. You can see it"
+    },
+    {
+      "start": 886.32,
+      "end": 891.12,
+      "text": "a glance where the pressure is shifting. But here's the thing. This is just phase one. We built the"
+    },
+    {
+      "start": 891.12,
+      "end": 897.76,
+      "text": "indicator. Now what? Now we go to the AI and we ask it. Based on this data, where do I buy? Where do I sell?"
+    },
+    {
+      "start": 897.76,
+      "end": 903.92,
+      "text": "Give me the exact rules. Then we take those rules and we turn this into a fully automated strategy."
+    },
+    {
+      "start": 903.92,
+      "end": 910.56,
+      "text": "And after that, we back tested hundreds of trades. Real data. Real results. That's coming next."
+    },
+    {
+      "start": 911.12,
+      "end": 917.44,
+      "text": "All right. So now we've got the indicator fully built. Volume profile, gaps zones, delta panel."
+    },
+    {
+      "start": 917.44,
+      "end": 921.34,
+      "text": "Everything's on the chart. But here's the problem. I can see all this data."
+    },
+    {
+      "start": 921.98,
+      "end": 926.7,
+      "text": "But I still don't know where to buy and where to sell. So I go to the AI and I say,"
+    },
+    {
+      "start": 927.18,
+      "end": 932.38,
+      "text": "look at everything this indicator already has. Sessions, breakouts, fake out detection,"
+    },
+    {
+      "start": 932.38,
+      "end": 938.7,
+      "text": "volume profile, delta percentages. Designed me a trade strategy that uses all of it. Tell me the exact"
+    },
+    {
+      "start": 938.7,
+      "end": 943.9,
+      "text": "conditions for a buy. Tell me the exact conditions for a sell. And great every setup. So I know which ones"
+    },
+    {
+      "start": 943.9,
+      "end": 949.74,
+      "text": "are high probability and which ones are garbage. And the AI comes back with a full confluence based system."
+    },
+    {
+      "start": 950.38,
+      "end": 956.46,
+      "text": "Four layers of confirmation before any signal fires. Layer one, session breakout confirmed,"
+    },
+    {
+      "start": 956.46,
+      "end": 961.74,
+      "text": "no fake out. Layer two, volume delta is skewed in the breakout direction, buyers dominating for"
+    },
+    {
+      "start": 961.74,
+      "end": 968.46,
+      "text": "long sellers for shorts. Layer three, breakout bar volume is above average. Layer four,"
+    },
+    {
+      "start": 969.02,
+      "end": 974.06,
+      "text": "session POC is behind the move, meaning institutions loaded inside the range before pushing out."
+    },
+    {
+      "start": 974.7,
+      "end": 981.58,
+      "text": "If all four layers align, that's an A plus setup. Three layers, B grade, two, C grade. Anything"
+    },
+    {
+      "start": 981.58,
+      "end": 986.67,
+      "text": "below that gets rejected. No signal, no trade. Then I tell it to implement the whole thing in"
+    },
+    {
+      "start": 986.67,
+      "end": 992.11,
+      "text": "pine script. It builds a complete trade signal module. Independent session tracking, bar by bar,"
+    },
+    {
+      "start": 992.11,
+      "end": 997.63,
+      "text": "delta calculation, a confluence scoring function by and sell arrows on the chart. Right grade"
+    },
+    {
+      "start": 997.63,
+      "end": 1003.31,
+      "text": "labels showing A plus B or C and even automatic stop loss lines drawn at the session POC. I"
+    },
+    {
+      "start": 1003.31,
+      "end": 1008.91,
+      "text": "pasted into trading view. One error. Taidout sum doesn't exist in pine script version 6. They"
+    },
+    {
+      "start": 1008.91,
+      "end": 1014.67,
+      "text": "removed it. Quick fix, replace it with Taidout Semay times the length, same math, different syntax,"
+    },
+    {
+      "start": 1014.67,
+      "end": 1021.42,
+      "text": "save again, zero errors, compiles clean. All right, quick pause. If you want this indicator, I'm giving"
+    },
+    {
+      "start": 1021.42,
+      "end": 1028.22,
+      "text": "it away. Completely free, but I need three small things from you. Number one, 500 likes on this video."
+    },
+    {
+      "start": 1028.22,
+      "end": 1033.26,
+      "text": "That's the target. Number two, see that height button below the video? YouTube just rolled this out,"
+    },
+    {
+      "start": 1033.34,
+      "end": 1039.34,
+      "text": "tap it. We need 50 hips. That's it. Number three, drop a comment. Just two words,"
+    },
+    {
+      "start": 1039.34,
+      "end": 1045.98,
+      "text": "volume indicator. That's the whole ask likes, hips comment. Here's why it matters to me. When I see"
+    },
+    {
+      "start": 1045.98,
+      "end": 1052.46,
+      "text": "those numbers move, it tells me you actually want this stuff. That's the fuel that keeps me building"
+    },
+    {
+      "start": 1052.46,
+      "end": 1058.14,
+      "text": "tools like this and giving them away. And the second this video hits the targets. I'm posting the"
+    },
+    {
+      "start": 1058.14,
+      "end": 1063.02,
+      "text": "full script on my WhatsApp channel links right below the video. Join it now so you don't miss"
+    },
+    {
+      "start": 1063.02,
+      "end": 1070.11,
+      "text": "the drop. All right, back to building. All right, let's talk about the exact logic this indicator"
+    },
+    {
+      "start": 1070.11,
+      "end": 1077.34,
+      "text": "uses to fire an entry. Because we completely ripped out the old retail breakout code, it's gone."
+    },
+    {
+      "start": 1077.34,
+      "end": 1083.58,
+      "text": "Instead, we built a four step institutional entry model directly into pine script. It looks for"
+    },
+    {
+      "start": 1083.58,
+      "end": 1089.58,
+      "text": "four things to align perfectly. First, the previous session POC, second, a liquidity sweeper trap,"
+    },
+    {
+      "start": 1089.58,
+      "end": 1096.62,
+      "text": "third, a market structure shift, which we call an MSS, and fourth, a massive volume surge. In other words,"
+    },
+    {
+      "start": 1096.62,
+      "end": 1102.22,
+      "text": "the indicator sits on its hands until it sees smart money sweep retail stops, break structure and"
+    },
+    {
+      "start": 1102.22,
+      "end": 1107.7,
+      "text": "step in with heavy volume. Only then does it print a signal. Look at this example on Bitcoin."
+    },
+    {
+      "start": 1108.26,
+      "end": 1114.37,
+      "text": "Right here in the Asia session, we get a cell signal. But notice the details. The indicator"
+    },
+    {
+      "start": 1114.37,
+      "end": 1120.77,
+      "text": "immediately detects the trap, prints the MSS label, and dynamically draws our stop loss right above the"
+    },
+    {
+      "start": 1120.77,
+      "end": 1127.97,
+      "text": "POC. A few candles later, our first structural target is hit. A clean one-to-one risk reward set up."
+    },
+    {
+      "start": 1128.37,
+      "end": 1133.73,
+      "text": "But here's the question. How does it handle a massive trend day? Watch this. Coming out of the London"
+    },
+    {
+      "start": 1134.61,
+      "end": 1139.65,
+      "text": "price dips, grabs liquidity, and the indicator fires a perfect buy signal. We get our entry,"
+    },
+    {
+      "start": 1139.65,
+      "end": 1145.82,
+      "text": "the first target gets hit, and then the market absolutely takes off. Straight up into the New York"
+    },
+    {
+      "start": 1145.82,
+      "end": 1153.54,
+      "text": "session. Now I know what you're thinking. How do I know when to get out? Stop. Look at the top of this rally."
+    },
+    {
+      "start": 1154.46,
+      "end": 1160.38,
+      "text": "Right as the New York session loses momentum. The indicator prints a brand new MSS and trap label."
+    },
+    {
+      "start": 1160.94,
+      "end": 1164.3,
+      "text": "Right at the very top. This isn't a fake out. This is an early warning system."
+    },
+    {
+      "start": 1164.94,
+      "end": 1169.02,
+      "text": "It's telling you the structure just shifted on heavy volume, and it's time to protect your"
+    },
+    {
+      "start": 1169.02,
+      "end": 1174.94,
+      "text": "capital. This one label could save you from giving back all your profits on a reversal."
+    },
+    {
+      "start": 1176.11,
+      "end": 1179.07,
+      "text": "After building dozens of pine script indicators, I can tell you this."
+    },
+    {
+      "start": 1179.71,
+      "end": 1186.35,
+      "text": "Tracking volume profile and market structure dynamically is an absolute game changer. It's not just an"
+    },
+    {
+      "start": 1186.35,
+      "end": 1192.91,
+      "text": "entry tool. It's basically a risk manager sitting right on your trading view chart. If you're getting"
+    },
+    {
+      "start": 1192.91,
+      "end": 1197.71,
+      "text": "value out of this build so far, drop a like. It helps the channel reach more traders like you."
+    },
+    {
+      "start": 1197.71,
+      "end": 1203.55,
+      "text": "Let's move on to the next phase. Okay, now convert this indicator into a complete trading view strategy."
+    },
+    {
+      "start": 1203.55,
+      "end": 1209.39,
+      "text": "I took the new code, hit compile, added it to the chart, and opened the strategy tester. And this is where"
+    },
+    {
+      "start": 1209.39,
+      "end": 1214.9,
+      "text": "things get real. First up, the 15 minute Bitcoin chart. It is absolutely profitable."
+    },
+    {
+      "start": 1216.74,
+      "end": 1222.34,
+      "text": "But here's the reality of quantitative trading. If you flip this to a different time frame, it might"
+    },
+    {
+      "start": 1222.42,
+      "end": 1228.34,
+      "text": "bleed money. And remember, these are back test results on historical data. Past performance does not"
+    },
+    {
+      "start": 1228.34,
+      "end": 1234.18,
+      "text": "guarantee future results. And this isn't a real trading account. So good for a spin across different"
+    },
+    {
+      "start": 1234.18,
+      "end": 1241.31,
+      "text": "markets all on the 15 minute time frame. And honestly, some of the results were brutal on Tesla and"
+    },
+    {
+      "start": 1241.31,
+      "end": 1247.7,
+      "text": "video. It was purely loss making. The structure logic just kept getting stopped out. I ran it on a"
+    },
+    {
+      "start": 1247.7,
+      "end": 1254.54,
+      "text": "theorem and it got chopped up even worse. A 21% win rate with a negative profit curve. But here's"
+    },
+    {
+      "start": 1254.54,
+      "end": 1261.38,
+      "text": "the question. Does the logic actually work anywhere? Watch this. I ran the exact same strategy on Apple."
+    },
+    {
+      "start": 1261.38,
+      "end": 1268.9,
+      "text": "And suddenly something clicked. A 45% win rate with a profit factor of 5.9. It performed incredibly"
+    },
+    {
+      "start": 1268.9,
+      "end": 1274.74,
+      "text": "well out of the box. I tested 4x next, specifically Euro USD and it was profitable there too,"
+    },
+    {
+      "start": 1274.74,
+      "end": 1280.5,
+      "text": "holding a clean 1.5 profit factor. Then I checked the SPX index and the results were mixed."
+    },
+    {
+      "start": 1281.06,
+      "end": 1286.82,
+      "text": "It technically stayed above water with a profit factor of 1.02. But it spent half the time in drawdown."
+    },
+    {
+      "start": 1289.58,
+      "end": 1295.22,
+      "text": "And when I tried running it on NQ futures, the strategy completely flatline. The order flow logic just"
+    },
+    {
+      "start": 1295.22,
+      "end": 1300.88,
+      "text": "didn't translate. Notice what's happening here? Full transparency. I am not happy with these"
+    },
+    {
+      "start": 1300.88,
+      "end": 1306.72,
+      "text": "strategy results as they are right now. This is not some holy grail that beats every market."
+    },
+    {
+      "start": 1306.72,
+      "end": 1312.08,
+      "text": "There is a lot of work left to do on this system. But that's exactly why I built this video. I've shown"
+    },
+    {
+      "start": 1312.08,
+      "end": 1317.6,
+      "text": "you the entire process. The PineScript code, the session logic, the volume footprint approximation,"
+    },
+    {
+      "start": 1318.24,
+      "end": 1326.05,
+      "text": "it's all yours now to take upgrade and refine. All right, you see platforms out there charging"
+    },
+    {
+      "start": 1326.05,
+      "end": 1333.12,
+      "text": "20, 30, even 100 dollars a month for premium indicators, exactly like this one. But the system we"
+    },
+    {
+      "start": 1333.12,
+      "end": 1340.19,
+      "text": "just built right here, I'm giving it to you completely for free. So look, if you followed along with the"
+    },
+    {
+      "start": 1340.19,
+      "end": 1346.83,
+      "text": "build, you might be wondering how to actually use this in a live market. Honestly, looking at raw volume"
+    },
+    {
+      "start": 1346.83,
+      "end": 1352.51,
+      "text": "can be confusing at first. So here is how we clean it up. We're going to add a secondary indicator"
+    },
+    {
+      "start": 1352.51,
+      "end": 1359.87,
+      "text": "to the chart called the swing arm ATR. Think of it like a super trend, but much more precise for what we"
+    },
+    {
+      "start": 1359.87,
+      "end": 1366.11,
+      "text": "need. Watch this. Notice these zones forming on the chart. When price pushes into this green zone"
+    },
+    {
+      "start": 1366.11,
+      "end": 1371.47,
+      "text": "and you get a buy signal, you don't just jump in. You look down at the volume profile we built. If the"
+    },
+    {
+      "start": 1371.47,
+      "end": 1377.63,
+      "text": "volume is spiking right here, that's your confirmation. Here's how I approach the risk on this setup."
+    },
+    {
+      "start": 1377.63,
+      "end": 1384.24,
+      "text": "I'm taking the entry right on the breakout. The stop loss goes tight right below the zone."
+    },
+    {
+      "start": 1385.12,
+      "end": 1391.2,
+      "text": "By keeping the stop tight, we're aiming for a 1-3 risk reward ratio. Now I know what you're thinking."
+    },
+    {
+      "start": 1391.76,
+      "end": 1397.76,
+      "text": "How do I know if I'm reading the volume right? Here's a trick I use. Just take a screenshot of your chart,"
+    },
+    {
+      "start": 1397.76,
+      "end": 1403.76,
+      "text": "drop it into Claud Aye and ask it to explain the volume distribution. It's an absolute game changer for"
+    },
+    {
+      "start": 1403.76,
+      "end": 1410.64,
+      "text": "learning order flow. But here is the single most important rule of this entire system. The POC line,"
+    },
+    {
+      "start": 1410.64,
+      "end": 1416.08,
+      "text": "the point of control, specifically the peak volume area from the previous Asian or London session."
+    },
+    {
+      "start": 1416.9,
+      "end": 1422.98,
+      "text": "After building dozens of pine script tools, this is the logic that holds up. If the market is trading"
+    },
+    {
+      "start": 1422.98,
+      "end": 1429.14,
+      "text": "above the POC, we're in an uptrend. If it's below, we're in a downtrend. It really is that simple."
+    },
+    {
+      "start": 1429.7,
+      "end": 1434.18,
+      "text": "When you combine that POC logic with the ATR confirmation, the chart just makes sense."
+    },
+    {
+      "start": 1435.22,
+      "end": 1440.5,
+      "text": "If you got value from this build today, hit the like and share buttons so we can keep making these free"
+    },
+    {
+      "start": 1440.5,
+      "end": 1445.7,
+      "text": "tools. The link to download the indicator is right down in the description. As always,"
+    },
+    {
+      "start": 1446.34,
+      "end": 1452.34,
+      "text": "trade your own setups, manage your risk, and never risk money you can't afford to lose. This is"
+    },
+    {
+      "start": 1452.34,
+      "end": 1456.82,
+      "text": "an educational tool. How you use it is on you. See you in the next one."
+    }
+  ]
+}

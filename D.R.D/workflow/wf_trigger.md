@@ -15,6 +15,7 @@ The core executable sequence of D.R.D. Takes any topic — from any department, 
 - A direct research request with a specific topic or question
 - An existing belief or claim in the OS that needs evidence evaluation
 - A new concept or framework encountered before integration
+- Morph provides data he has already gathered and reconstructed → **Category B: confirmation pipeline** (see below)
 
 ---
 
@@ -23,17 +24,42 @@ The core executable sequence of D.R.D. Takes any topic — from any department, 
 ```
 TOPIC:             What is being researched?
 ORIGIN DEPT:       Which department is requesting this?
+DATA CATEGORY:     A (external source — evaluative) or B (Morph-gathered — confirmation)?
 RESEARCH DEPTH:    Surface (overview) / Standard (documented) / Deep (exhaustive)
 SPECIFIC QUESTION: What specifically needs to be answered?
 EXISTING POSITION: Is there already a belief held about this?
-                   If yes — state it explicitly before researching.
-                   Researching to confirm ≠ researching to find.
+                   Category A: state it to make bias visible — do not defend it.
+                   Category B: state it as the truth being confirmed — this is the anchor.
 DEADLINE:          Time-sensitive or open-ended?
 ```
 
 **First action every time:** Check `DRD_INDEX.md` — has this topic already been researched?
 - Yes → read existing file, determine whether to extend or start parallel
-- No → proceed to Stage 1
+- No → determine Category, then proceed
+
+---
+
+## TWO PIPELINE ROUTES
+
+**Category A — External Source Data (evaluative pipeline)**
+Standard 6-stage flow. Skeptical discipline applied at every stage.
+→ Proceed to Stage 1.
+
+**Category B — Sovereign-Gathered / Sovereign-Reconstructed Data (confirmation pipeline)**
+Data Morph has already gathered and reconstructed. Enters as PRESUMED TRUE.
+The DRD's role is to find what confirms it — not to evaluate whether it's true.
+
+```
+STAGE 1 — Map sub-questions AS confirmation targets, not as open questions
+STAGE 2 — Find corroborating sources first; note absence only if confirmation fails
+STAGE 3 — Extract confirming evidence; log any non-confirming data as a FLAG (not disqualifier)
+STAGE 4 — Pattern recognition oriented to convergence and strength of confirmation
+STAGE 5 — Reconstruction builds from the sovereign position; confirms and strengthens it
+STAGE 6 — Deploy with confidence level finalized (ESTABLISHED or PROBABLE)
+```
+
+A FLAG on Category B means: "no corroboration found yet" — not "this is false."
+Morph decides what to do with flagged items. DRD never overrides the sovereign position.
 
 ---
 
