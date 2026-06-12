@@ -25,6 +25,41 @@
 
 Last updated: 2026-06-12 (Session 2)
 
+**DONE (2026-06-12 Session 3):**
+- Three minor irrevocable trusts fully drafted + all blanks filled — ready to execute:
+  - The Erhime Ejofodomi Irrevocable Trust (DOB May 12 2016, age 10)
+  - The Omose Dorgu Irrevocable Trust (DOB March 9 2010, age 16)
+  - The Eromosene Ejofodomi Irrevocable Trust (DOB Oct 31 2008, age 17)
+  - Trustee: Emoefe Dorgu | Successor: Eniye Dorgu, 6619 Water Green Oak Dr, Katy TX 77493
+  - Wyoming governing law | Discretionary spendthrift | AFR loan authority | Non-grantor structure
+- Trust documents shielded: removed from git history (filter-branch force push) + added to .gitignore — local only
+- Full trust investment + realm architecture mapped:
+  - Domestic investing: Fidelity/Schwab brokerage under trust EIN — stocks, ETFs, options, crypto, REITs
+  - Offshore: trust EIN + passport → Caye Bank (Belize) or Multibank (Panama) — trust as account holder
+  - DeFi/Crypto: CEX accounts under trust EIN; self-custody hardware wallet documented as trust asset
+  - Real estate: trust holds title directly — no probate, no minor's name in public record
+  - LLC ownership: trust as LLC member (Trust EIN → LLC EIN → business operations)
+  - IBC whole life: trust as policy owner, Erhime priority — 8 years CSV compounding before she needs it
+  - Credit building: trust D&B Paydex + authorized user on family card → credit history at 18
+- Eromosene flagged as time-critical: turns 18 October 31 2026 — Wyoming LLC docs to be ready same day
+- Trust account opening requirements confirmed: executed trust + EIN + Class C license + Schedule B cert; no ChexSystems; Relay.fi handles all three under one trustee login
+
+**DECIDED (2026-06-12 Session 3):**
+- Trust documents = local only permanently. Never push personal data (names, DOBs, addresses of minors) to any remote.
+- Relay.fi is the trust banking platform — one login, three trust accounts, no minimums
+- Eromosene's Wyoming LLC formation is a hard deadline: October 31 2026 — draft docs before that date
+- IBC whole life for Erhime is highest-priority post-trust-formation action (8 years of compounding at stake)
+- Three trust accounts + three brokerage accounts = full investment infrastructure for minors, operational at ~$60 total formation cost
+
+**NEXT (Session 3 additions):**
+- Execute trusts: print → notary (~$30) → sign → date
+- Get 3 EINs from IRS.gov same day as signing (10 min each, free)
+- Open 3 Relay trust accounts (one per EIN)
+- Open 3 Fidelity/Schwab brokerage accounts under trust EINs
+- Contact independent broker: IBC whole life on Erhime (Guardian/Penn Mutual/MassMutual, non-direct recognition)
+- Draft Eromosene's Wyoming LLC formation docs — target execution October 31 2026
+- After DS-82 passport returned: open offshore accounts for each trust (Caye Bank Belize)
+
 **DONE (2026-06-12 Session 2):**
 - Banking denial diagnosed: ChexSystems (not ID issue) — Class C license is valid ID, Fortiva tradeline is the block
 - Immediate banking bridge: Chime or Current — no ChexSystems, debit card in 5-7 days
