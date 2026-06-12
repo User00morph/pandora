@@ -1,0 +1,74 @@
+# Trading Raw Extract — 2026-05-27
+**Source file:** f7d8850678ba40b5893b46618287bca8.MP4
+**Model:** faster-whisper small
+**Word count:** ~496
+
+---
+
+I'm going to explain to you the high net worth strategy
+called buy, borrow, die.
+This is something wealthy people do
+to grow their wealth uninterrupted
+while paying less taxes legally,
+avoiding paying a bunch of taxes.
+This isn't a way to get rich,
+but it's an idea of what you can do as you're wealthy,
+become more wealthy and what you could do in the future.
+So taxes, I mean, it's just legal game, right?
+And if it all went to schools and libraries and hospitals,
+by the way, I'm up here at the hospital,
+pretty rad hospital.
+I would be really stoked to pay taxes,
+but a lot of it goes to blowing up hospitals
+in the Middle East.
+So, I mean, there's various reasons
+you might not want to pay as much taxes.
+So check it out.
+The concept buy, borrow, die, buy, you buy
+liquid assets, A plus assets
+that are accepted as collateral.
+You can borrow against them at a lower interest rate
+than the growth of that asset,
+and you can die without paying the asset
+or paying the loan off, okay?
+So just to give you examples,
+the number one collateralized asset for this
+is S&P 500 ETF, SPI, okay?
+You can borrow maybe 60% against it
+and pay around a 5% interest rate.
+So if you have a million dollars of SPI,
+you could borrow $600,000 up to potentially
+and pay 5% a year on that loan.
+Now, if you've been holding this thing
+and it's appreciated, that 5% a year
+might be significantly less than selling $600,000,
+where now you have to pay taxes on that.
+And if you did that, now you have $600,000 less
+of SPI that doesn't compound anymore, okay?
+So it is gonna be less in taxes
+and potentially also less than holding your asset,
+which is why buy, borrow, die potentially,
+potentially never pay it off.
+You can, you can't, you cannot, it's up to you.
+Now, an example of this is say that you
+wanna put $200,000 down on a house
+or you wanna put buy a boat or something like that.
+And you have cashflow coming in,
+but you need it today, there's a deal today.
+Well, if you say you have that million dollar
+SPI position, you can go
+and you can very quickly do a collateralized loan
+since it's collateralized, it's faster
+and you get cash to your account.
+You get that $200,000, pay no taxes
+because the government doesn't see that as taxes.
+You are gonna owe 5%, 6%, but again,
+on average that's less than how much
+the S&P 500 grows on a yearly basis.
+And you have the money.
+Now, you could pay it off
+if you have cashflow coming in, pay it off later
+or just buy more SPI.
+But again, this isn't a way to get rich
+but this is like one of the strategies used
+by the wealth to protect their wealth.

@@ -108,6 +108,14 @@ Agents do NOT read other outputs to learn patterns. Early outputs are the worst 
 
 5. **Start fresh when context decays.** When response quality degrades mid-session — open new conversation. Paste only what the next task needs. Long context with accumulated noise consistently underperforms clean context with targeted information.
 
+6. **Compress in-session (don't wait for decay).** Active compression prevents accumulation before it becomes a problem:
+   - Tool results older than 10 steps: replace with 1-line summary of what was found and acted on
+   - Phase transition (research → build, decode → reconstruct): summarize + clear the prior phase before starting the next
+   - Failed attempts: compress to "Attempt [X] failed: [reason]. Resolution: [fix]." — never leave dead-end debugging chains in context
+   - Conversation history: keep last 10 turns verbatim, summarize everything older
+   - Tool count ceiling: **≤19 tools in context** before any reasoning task. Above 19, model reasoning degrades (benchmark: Llama 3.1 8B failed at 46 tools, succeeded at 19)
+   - MCP tool schemas are expensive: GitHub MCP = 80 tools = ~55K tokens loaded at init. Use CLI (Bash) when the model already knows the tool from training. Use MCP only when abstraction or governance justifies the token tax.
+
 ---
 
 ## DEPARTMENT CONTEXT BUDGETS

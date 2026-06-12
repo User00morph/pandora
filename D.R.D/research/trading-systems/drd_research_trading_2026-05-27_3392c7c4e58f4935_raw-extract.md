@@ -1,0 +1,43 @@
+# Trading Raw Extract — 2026-05-27
+**Source:** 3392c7c4e58f4935ac8917ae9cb98709.MP4
+**Words:** ~280
+
+---
+
+So for people who don't know what that means,
+what does that mean?
+Tokenization is the act of taking a real asset,
+an asset that has some utility,
+and you take that asset and you custody it,
+so you hold it somewhere,
+and then you mint and burn tokens against it.
+So, and then those tokens can trade 24-7
+and have access to the world of decentralized finance.
+So the basic example of a tokenized asset is a stable coin
+and it works in the exact same way.
+I take a dollar, I put a dollar or a treasury note or bill
+in a box somewhere where it's custodied,
+and then I mint a token representing that dollar,
+and now that token gets access
+to everything crypto has to offer.
+24-7 trading, instant settlement,
+real-time payments that are 24-7,
+and then all of the software that people build
+in the crypto world to allow for trading, lending,
+and borrowing is accessible as well.
+And I think the interesting thing that it allows
+that is very difficult to do now is it can take things
+that are illiquid and not tradable
+and make them tradable.
+So I wrote a piece in the Washington Post
+in January of this year about how private markets
+need to be unlocked and tokenization
+could actually be the gateway
+because in the same way that for stable coin
+we can take dollars and custody them.
+It's very easy to take private companies and custody them
+and you can mint tokens against that
+and suddenly you have real-time 24-7 trading
+of private assets, which solves a lot
+of the historical problems that we've had
+with private assets.

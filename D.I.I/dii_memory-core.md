@@ -57,6 +57,28 @@ Cross-session decisions, discoveries, and patterns. Most recent first.
 
 ---
 
+### 2026-06-10 — CyberPower Tower Specs Confirmed + Cleaned
+**Context:** Morph provided dxdiag screenshots. Prior blueprint specs (Ryzen AI 5, AMD Radeon, 7B–13B capable) were incorrect assumptions. Real machine confirmed.
+
+**Confirmed specs:**
+- CPU: AMD FX-4300 Quad-Core @ ~3.8GHz (AM3+, Bulldozer, 2012-era)
+- GPU: NVIDIA GeForce GTX 1050 — 2GB VRAM (CUDA)
+- RAM: 16GB DDR3
+- Motherboard: Gigabyte GA-78LMT-S2
+- OS: Windows 10 Home 64-bit — **fresh wipe complete**
+- Thermal: fans cleaned, system ready to activate
+
+**Role recalibrated:**
+- Not a 7B–13B node. 2GB VRAM caps GPU inference at 1B–2B models.
+- Correct role: lightweight always-on utility node (fast small model tasks, Auset routing)
+- Mac Mini M4 Pro 48GB is the primary acquisition — more urgent, not less
+
+**Blueprint updated:** `dii_blueprint_sovereign-hardware-stack_v1.md`
+
+**Next:** Install Ollama → pull Gemma 2B Q4 + Llama 3.2 1B → wire OLLMCP + Zapier MCP
+
+---
+
 ### 2026-05-01 — Sovereignty Architecture + Hardware Roadmap
 **Context:** Morph intends to decentralize tech stack by leveraging open-source AI as big tech monopoly weakens. Full exit from API dependency is the end state.
 

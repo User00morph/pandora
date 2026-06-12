@@ -42,34 +42,37 @@ This machine remains the portable layer. The Mac Mini becomes the sovereign comp
 
 ---
 
-### HP All-in-One 24-ct2024 (Next Gen AI PC)
+### CyberPower Tower — Node 2 (Lightweight Always-On)
 | Spec | Detail |
 |------|--------|
-| Model | HP All-in-One 24-ct2024 — Product ID: 85UG7AA#ABA |
-| Case | CyberPower C Series tower housing |
-| Display | 23.8" built-in screen |
-| Processor | AMD Ryzen AI 5 (built-in NPU — Neural Processing Unit) |
-| Graphics | Gigabyte AMD Radeon discrete GPU |
+| Motherboard | Gigabyte GA-78LMT-S2 (AM3+) |
+| CPU | AMD FX-4300 Quad-Core @ ~3.8GHz (Bulldozer, 2012-era) |
+| GPU | NVIDIA GeForce GTX 1050 — **2GB VRAM** (CUDA capable) |
+| RAM | 16GB DDR3 |
 | Cooler | DeepCool CPU cooler + Corsair case fans |
-| OS | Windows 10 Home / Windows 11 |
-| AI Capability | 7B–13B models via Ollama (CPU + NPU + AMD Radeon) |
-| Status | In inventory — needs compressed air cleaning before use |
+| OS | Windows 10 Home 64-bit (Build 19045) — fresh wipe |
+| AI Capability | 1B–2B models GPU-accelerated | 7B CPU-only (slow) |
+| Status | **Cleaned + wiped — ready to activate** |
+| Confirmed via | dxdiag screenshots — 2026-06-09 |
 
-**Immediate action required:** Dust buildup on fans is severe.
-Run compressed air through all fans before powering on — thermal throttling
-or fan failure risk if used in current condition.
+**Role in the stack — recalibrated:**
+The GTX 1050's 2GB VRAM is the hard ceiling. GPU-accelerated inference is limited to
+1B–2B models. 7B+ models would run CPU-only on the FX-4300 — too slow for real use.
 
-**This is a capable sovereign compute node — already owned.**
-The AMD Ryzen AI 5 has a dedicated NPU (AMD XDNA architecture) built into the chip.
-The discrete Gigabyte AMD Radeon GPU adds GPU-accelerated inference via ROCm on Linux
-or DirectML on Windows — faster than CPU-only inference.
+This machine is a **lightweight always-on utility node**, not a primary inference node.
+Best use: Auset's fast routing tasks, summarization, classification, lightweight
+automation — tasks where 1B–2B model quality is sufficient and speed matters.
+For reasoning depth, Claude API remains primary until Mac Mini M4 Pro arrives.
 
-**To confirm:** Exact GPU model (Radeon RX series?), RAM amount, and storage size.
-Run `dxdiag` on Windows or open Task Manager → Performance to see these numbers.
+**What runs well (GPU-accelerated):**
+| Model | VRAM | Speed |
+|-------|------|-------|
+| Llama 3.2 1B Q4 | ~1GB | Fast |
+| Gemma 2B Q4 | ~1.5GB | Good |
+| Phi-3 Mini 3.8B Q4 | ~2.3GB | Offloads to CPU — marginal |
 
-**Role in the stack:** Always-on local AI node. Run Ollama server on this machine.
-Any device on the local network queries it — one brain, multiple access points.
-No cloud. No subscription. Low power draw (~90W max).
+**Mac Mini M4 Pro 48GB remains the primary acquisition target.**
+This node handles lightweight/always-on load. Mac Mini handles 70B frontier inference.
 
 ---
 

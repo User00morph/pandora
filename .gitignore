@@ -2,5 +2,9 @@
 D.P.S.A/natal/dpsa_natal_morph_birthdata.md
 m.d
 
-# Raw video data
+# Raw audio/video data — too large for GitHub, stored locally only
 *.mp4
+*.mp3
+*.m4a
+*.wav
+*.aac

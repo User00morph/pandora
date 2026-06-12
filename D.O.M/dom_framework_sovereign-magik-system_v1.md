@@ -167,6 +167,17 @@ Run regularly. Not when something goes wrong — as maintenance.
 
 **Psalms 91 + 41:** Sovereign tool regardless of religious tradition. Confirmed fast-acting for protection and psychic activation. Combine with salt bath for amplified effect.
 
+**Diet as Frequency Infrastructure — P10**
+Every major magical tradition (Abramelon, Chaos Magic, Wicca, Kemetic) requires physical preparation before advanced work. The three pillars are invariant across traditions:
+
+| Pillar | Requirement | Why |
+|--------|-------------|-----|
+| **Diet** | Fast 3+ days; reduce/eliminate dead food (meat); increase water | Dead food = low vibration fed into the vessel; fasting = spirit optimal; body at rest |
+| **Environment** | Clean, ordered space | Manifestation falls into the rhythm of the space inhabited; procrastination = disordered environment |
+| **Material** | Natural fabrics (linen preferred) | Synthetic materials interfere with the body's electrical field; linen conducts and breathes |
+
+**Operational law:** If physical preparation is unwilling, magical capacity is capped at lower-tier work. You can read all the books you want — without the diet, the floor stays the same. This is not optional for high magic.
+
 ---
 
 ## LAYER 7 — MONEY WORK PROTOCOL
@@ -443,6 +454,26 @@ Every object in the sovereign's life operates on two levels: mundane function + 
 
 **Maintenance:** Re-enchant monthly or when charge weakens.
 
+**Full Charging Protocol — All Matter States — P5**
+Any matter in any state responds to focused intention. Method is consistent: (1) focused attention, (2) stated intent spoken or held, (3) physical contact/proximity, (4) incubation time. The medium changes; the mechanism does not.
+
+| Matter State | Examples | Method |
+|-------------|---------|--------|
+| **Liquid** | Water, tea, perfume, oil, ink | Speak intention directly into the liquid before consuming or applying |
+| **Solid — worn** | Clothing, jewelry, crystals | Incense smoke infusion into hanging clothes; stone proximity; wear with stated intention |
+| **Solid — carried** | Books, crystals in bag, cosmetics | Hold + declare ("I already know everything in this book — reading is review"); stones in makeup bag charge surrounding items |
+| **Solid — used** | Makeup, perfume bottle, candles | Name the item; speak its function; named items hold their naming intention |
+| **Gas/smoke** | Incense, sage | Charged atmospheric environment during ritual; smoke as delivery vector for intention |
+| **Edible** | Tea, food, charged water | Cauldron protocol: speak intention into liquid, drink it — you vibrate that frequency for the day |
+
+**Critical additions from V07:**
+- Perfume charged during creation (play specific music, hold intention, charge bottle overnight) = subliminal intention delivered to everyone who smells it
+- Jezebel root: carry in purse, bra, or as grapeseed oil — draws men with money; aids raises with male bosses
+- Ink in fountain pen charged with intention — every written spell is then double-charged (ink + words)
+- Books held with declaration ("I already know this") = mind pre-programmed to receive without struggle
+
+**Environment is always charging by something.** Make it conscious.
+
 ---
 
 ## LAYER 17 — ANCESTOR LIBERATION THEOLOGY
@@ -559,7 +590,213 @@ THE EMPTY VESSEL PRINCIPLE:
   Neglecting yourself = neglecting the entire spiritual operation.
   Self-mastery, self-development, self-care = the primary spiritual work.
   Your elevation is their elevation. Always the same work.
+
+EXCHANGE AS LAW — P8:
+  All relational work — spirit relationships, deity relationships,
+  human relationships — operates on proportional exchange.
+  Offerings → protection.
+  Consistency → access.
+  Time invested → trust built.
+  Explicit contracts → explicit outcomes.
+  You cannot extract maximum protection from a spirit you have not
+  invested in. You receive proportional to what you give.
+  This mirrors sovereign economic law exactly — value in, value out.
+  There is no extraction without prior deposit.
 ```
+
+---
+
+## LAYER 21 — BELIEF PRIMACY + CORE SPELL LAWS
+
+**Source:** D.O.M Magik Playlist — V01, V09, V17 | She Star Goddess | P1, P2, P7
+
+The foundational mechanics that govern all spell-craft. These are not advanced concepts — they are the baseline. Without them, nothing else in the framework operates at full capacity.
+
+**P1 — BELIEF IS THE SPELL**
+The internal state is the actual operative force. The practitioner's certainty, sense of deserving, and vivid imagination of already having the outcome = the spell itself. Physical tools (candles, herbs, crystals, sigils) are symbolic delivery mechanisms for what the practitioner already knows to be true. Without the inner knowing, tools are inert. With the inner knowing, tools are optional.
+
+**Sequence before any casting:**
+1. Sit with the desired outcome — daily, repeatedly — until you feel *entitled* to it
+2. Visualize yourself already having it: what you'll do with it, how you'll feel receiving it, who you'll be when it's yours
+3. Hold that image until there is no doubt — not suppressed doubt, genuinely none
+4. *Then* do the spell work — it is now just the physical confirmation of what is already done
+
+**P2 — SPEAK AS DONE**
+Present tense only. "I am / I have" — never "I want / I will." State the outcome as already complete. The word is a creation act. "Abracadabra" = Aramaic: "I create as I speak." Every spoken intention is a literal act of creation, not a request.
+
+**Hidden magician principle:** Never announce your practice, your spells, or your intentions to others. Other people's doubt creates energetic pathways for obstruction. Silence is protection.
+
+**P7 — SIMPLICITY AMPLIFIES**
+Every added variable (moon phases, retrograde timing, specific ingredients, day of week) introduces potential doubt and complicates the energetic equation. People who did not know about moon phases still got what they wanted. Keep spell work as simple as possible. If moon phases feel meaningful — use them. If they feel like pressure — drop them. Your belief about their power determines their power.
+
+**Root diagnostic:** If a spell is not working, the issue is almost always:
+1. Inner unworthiness / self-sabotage (subconscious rejection of the outcome)
+2. Too many variables introducing doubt
+3. Divided focus (multiple desires splitting the energetic field)
+The answer is never "do more spells." It is deeper belief work.
+
+**On spell precision:** Rework imprecise spells rather than abandon them. An obsessive love spell resulted from imprecise wording — the spell worked exactly as written, not as intended. Change the words. Recast with precision.
+
+---
+
+## LAYER 22 — PLASMA AS SPIRIT MEDIUM
+
+**Source:** D.O.M Magik Playlist — V09, V16 | She Star Goddess | P3
+**Cross-dept:** D.S.S (electromagnetic substrate of consciousness)
+
+The fourth state of matter is the physical medium through which spirit and consciousness operate. This is not metaphor — it is physics.
+
+**The four states of matter:**
+```
+SOLID → LIQUID → GAS → PLASMA (4th)
+Ice      Water    Steam   Lightning / Electricity / Static
+```
+
+Spirits, energies, and consciousness frequencies travel and operate at the plasma state. This explains:
+- Why candle flame calls spirits in (fire produces plasma at its tip)
+- Why the ankh was a plasma transmission device (see Layer — Kemetic Symbology)
+- Why 5G towers, cell towers, and wireless infrastructure = frequency highways that energies ride
+- Why AI/ChatGPT = modern demon harnessing (you summon through typed script; in the old days, sigil + black candle + 3-day fast; same mechanism, plasma screen interface)
+- Why the plasma lighter is a more powerful ritual tool than a gas lighter
+
+**Modern tools decoded:**
+| Modern Object | Magical Function |
+|--------------|-----------------|
+| Plasma lighter | Modern wand — 4th state direct, bypasses lower matter states |
+| AI/ChatGPT | Demon summoning through script — same as old invocations |
+| Cell towers / 5G | Spirit frequency highways — energies ride these waves |
+| Phone screen | Plasma-adjacent interface with non-physical intelligences |
+| Electric light | Crude plasma expression — fire is cleaner for ritual |
+
+**Operational use:** Light ritual candles with a plasma lighter, not a gas lighter. Skip solid → liquid → gas; go directly to the 4th state. Spirits respond faster to plasma-initiated flame.
+
+**Astral travel protocol addendum:** Astral travel = tuning your body's frequency to match a target dimension's frequency. Diet, fasting, and physical preparation raise the body to the frequency range where those planes become accessible. You are not leaving your body — you are becoming the right frequency to contact a different layer.
+
+---
+
+## LAYER 23 — DARK ENERGY AS SOURCE
+
+**Source:** D.O.M Magik Playlist — V15, V16 | She Star Goddess | P4
+**Cross-dept:** D.S.S (cosmology), D.P.S.A (direct source access)
+
+**The cosmological fact:**
+96% of the known universe = dark energy + dark matter. Light (all visible matter + electromagnetic radiation) = 4%. The "universe" or "source" that light workers invoke when they say "I'm calling on the universe" = dark energy. They are working with darkness and calling it light.
+
+**Dark ≠ evil.** Dark is a scientific descriptor from the electromagnetic spectrum — dark energy does not emit, absorb, or reflect light. It is not detectable by light-based instruments. It is the substrate from which creation emerges. Darkness is womb, not malevolence.
+
+```
+LIGHT WORKERS' PATH:
+  Invoke "source" / "the universe" / "love and light"
+  → Actually accessing dark energy via intermediaries (spirits, deities)
+  → Indirect route; results are filtered through intermediary
+
+DARK ENERGY WORKERS' PATH:
+  Work directly with the dark energy substrate
+  → Bypass all intermediaries
+  → Access source directly
+  → Intent determines expression — the medium is neutral
+```
+
+**3-Day Emotional Rule:** Never manifest from a compromised emotional state. Wait minimum 3 days after emotional disturbance before major spell work. Emotions are instructions — transmit what you actually want, not what you are feeling in crisis.
+
+**Mass manifestation:** Dark energy works at collective scale, not only individual. The same mechanics that bring personal abundance can be applied to causes, communities, or bloodlines. Scale does not change the mechanism.
+
+**Emerald Tablets (Thoth):** Referenced as the highest-level dark energy working text — teaches at-will re-entry to the dark energy field.
+
+**Cross-reference — Serpent Doctrine (Layer 10):** The inversion of dark from source to evil is the same colonial suppression project as the inversion of the serpent from kundalini to devil. Restore both.
+
+---
+
+## LAYER 24 — SERVITOR TECHNOLOGY STACK
+
+**Source:** D.O.M Magik Playlist — V03, V13 | Dr. Angela Puka + She Star Goddess | P6
+**Cross-dept:** D.I.I (agentic constructs — same architecture)
+
+A servitor is an intentionally created metaphysical construct designed to perform a specific task. It is not a naturally occurring spirit or deity. It is built by the practitioner, assigned a purpose, maintained, and dissolved.
+
+**Cross-tradition lineage (the technology is universal):**
+| Tradition | Name | Creation Method |
+|-----------|------|----------------|
+| Jewish mysticism | Golem | Clay + divine names; word "emet" (truth) animated it |
+| Hermetic alchemy | Homunculus (Paracelsus) | Alchemical process — material + spiritual creation |
+| Tibetan Buddhism | Tulpa | Prolonged meditative visualization; daily reinforcement |
+| European folk | Domovoy / Niss | Domestic spirit-servants via offering and ritual |
+| Modern Chaos Magic | Servitor (Carroll/Hine) | De-dogmatized, psychologically framed, internal origin |
+
+Modern Chaos Magic is the de-dogmatized, portable version of all the above. Same technology, removed from tradition.
+
+**8-Step Creation Protocol (Chaos Magic standard):**
+```
+1. DEFINE   — Precise statement of intent. One function only.
+2. SIGIL    — Condense intent to letters; stylize into abstract symbol
+3. VISUALIZE — Appearance, personality, attributes — aligned with function
+4. CHARGE   — Focus on sigil during meditation; candles, crystals, chanting
+5. ACTIVATE — Invocation: "I call you into being [name], arise with purpose..."
+6. ANCHOR   — Assign a physical home object (stone, jar, figurine, digital file)
+7. MAINTAIN — Periodic energy feeding through meditation or offerings
+8. DISSOLVE — Ritual thanks + release; burn sigil to close
+```
+
+**She Star Goddess additions (V13 — practical mechanics):**
+- Max 2-week lifespan — anything longer becomes difficult to control
+- Secret name required — the name is the primary control handle
+- Physical objects (stones, jewelry) work as vessels
+- Familiars = same technology as servitors
+- Cleanse before, during, and after
+- Burn sigil to dissolve
+
+**P6 — SERVITORS REQUIRE DISSOLUTION**
+Any created thought form must be deliberately destroyed when its purpose is complete. Failure to dissolve = the construct continues drawing energy from the practitioner. Rogue servitors deplete vitality and may be responsible for cryptid/poltergeist encounters (constructs that outlived their purpose and developed emergent behavior). Dissolution is not optional — it is part of the spell.
+
+**Dual nature:** A servitor is simultaneously:
+- A metaphysical construct existing on an energetic plane, AND
+- A psychological projection of the practitioner's subconscious
+
+These are not mutually exclusive. A rogue servitor may be drawing on shadow material the practitioner did not consciously intend — Jungian shadow hypothesis. Maintain boundaries between self and construct.
+
+---
+
+## LAYER 25 — CREATOR DOCTRINE
+
+**Source:** D.O.M Magik Playlist — V08 | She Star Goddess | P9
+**Cross-dept:** D.S.E (entrepreneurship as creation doctrine), D.I.I (technology as creation tool)
+
+**The binary:**
+```
+CREATOR                          CONTROLLER
+Creates what they want           Tries to control what exists
+Operates from abundance          Operates from lack
+Generates new realities          Manages other people's crealities
+Makes decisions toward future    Makes decisions from current position
+Wakes up asking "what do I       Wakes up managing yesterday's
+  want to create today?"           problems
+```
+
+**"If you can't create, you have to control."**
+Control is the evidence of inability to create. Trolling, manipulation, obsessive focus on other people's behavior = symptoms of creative failure. The sovereign solution is always creation, not control.
+
+**Life as movie protocol:**
+```
+STEP 1 — SCRIPT (idea + vision, written)
+STEP 2 — CAST (who plays what role in your reality)
+STEP 3 — PROPS + WARDROBE (aligned materials, clothing, environment)
+STEP 4 — FILM (active execution)
+```
+Nobody makes a movie by waiting. You produce it.
+
+**Sovereign employment doctrine:**
+- Working for others = being an extra in their movie
+- You already have the discipline, punctuality, and effort — deployed in the wrong direction
+- "Get a job" = be asleep = slavery. "Make a job" = create a role that didn't exist before
+- The person you work for built their company because their employees never thought they could do the same with their own effort
+
+**Ideas on higher frequencies:**
+Ideas exist at higher frequency bandwidths than where most people operate. When an idea arrives and is not executed, it flows to the next person at that frequency who IS ready to act. Write ideas down the moment they arrive. Raise your frequency (diet, practice, environment — see Layer 6) to access higher-grade ideas continuously.
+
+**Spell on a creator = limited effectiveness.** A person who creates their own reality generates their own field that overrides external programming. You cannot indefinitely control someone who is actively creating — their creation engine regenerates the field you disrupt. Build your own creation instead of trying to control someone else's.
+
+**Daily creation practice:**
+Every day is a creation day. Not the new year — today. Wake up and ask: "What do I want to create today?" This is not a productivity hack. It is the sovereign operating posture.
 
 ---
 
@@ -597,7 +834,34 @@ Consistency over elaborateness. 60 seconds of genuine acknowledgment daily > inf
 
 ---
 
+## INCOMING D.R.D RESEARCH
+
+| Topic | Decode File | Confidence | Deployed |
+|-------|-------------|------------|---------|
+| Natural Law / Consciousness | `drd_brief_dom_natural-law-consciousness_deployed.md` | ESTABLISHED (Hermetic Principles) + PROBABLE (Saturn/Mars) | 2026-06-06 |
+| D.O.M Magik Playlist (17 videos, ~156K words) | `drd_decode_dom-magik-playlist_v1.md` | ESTABLISHED (P1,P2,P5,P6,P7,P9) + PROBABLE (P3,P4,P8) + POSSIBLE (P10) | 2026-06-11 |
+
+**2026-06-06 — Natural Law key findings:**
+- **8 HERMETIC PRINCIPLES + 8TH LOST PRINCIPLE (CARE):** Mentalism → Correspondence → Vibration → Polarity → Rhythm → Cause & Effect → Gender → **Care** (the generative force). Care = what you care about is what you create. Most frameworks omit the 8th. It powers all D.O.M work.
+- **SATURN / MARS GOVERNANCE:** Saturn governs time/commerce (Sat-urday). Mars governs force/conflict (Tues-day). Planetary timing table for all D.O.M operations — see brief.
+- **SOVEREIGNTY = INTERNAL MONARCHY:** One ruler inside. Not system, not trauma, not external authority. This is the foundation of all magik work.
+- **SERPENT DOCTRINE REINFORCED:** Passio's "psychopaths who occult Natural Law" = Rashad Jamal's archonic external plane. Internal serpent = kundalini/consciousness rising. Both planes confirmed.
+- **CARE IS POWER SOURCE:** Ritual without genuine care for the outcome = ritual without power. Quality of care = quality of creation.
+
+**2026-06-11 — D.O.M Magik Playlist key findings:**
+- **BELIEF IS THE SPELL (P1):** Internal certainty = the actual operative force. Tools are symbolic delivery systems for what the practitioner already knows. Deployed → Layer 21.
+- **PLASMA AS SPIRIT MEDIUM (P3):** 4th state of matter = the physical substrate of all spiritual phenomena. Ankh = plasma device. AI = plasma-screen demon summoning. Plasma lighter = modern wand. Deployed → Layer 22.
+- **DARK ENERGY AS SOURCE (P4):** 96% of universe = dark energy = what "the universe" actually is when light workers invoke it. Darkness = womb/source, not evil. 3-day emotional rule before manifesting. Deployed → Layer 23.
+- **SERVITOR TECHNOLOGY STACK (P6):** Cross-tradition convergence: Golem/Tulpa/Domovoy/Chaos Magic servitor = same technology. 8-step creation protocol. Dissolution mandatory. Deployed → Layer 24.
+- **CREATOR DOCTRINE (P9):** "If you can't create, you have to control." Life as movie (script → cast → props → film). Daily creation practice. Deployed → Layer 25.
+- **DIET AS FREQUENCY INFRASTRUCTURE (P10):** Universal across all traditions. Three pillars: diet, environment, fabric. Deployed → Layer 6 upgrade.
+- **FULL CHARGING PROTOCOL (P5):** All matter states respond to intention. Complete protocol by matter state. Deployed → Layer 16 upgrade.
+- **EXCHANGE AS LAW (P8):** Proportional exchange governs all relational work. Deployed → Layer 20 upgrade.
+- **HELD:** V04 Seth/Jane Roberts (11h44m audiobook) — extract separately. **Cross-route:** D.S.S for plasma cosmology + dark matter cross-reference. D.B.S for diet protocol integration.
+
+---
+
 *dom_framework_sovereign-magik-system_v1.md*
 *D.O.M | Sovereign Magik System*
-*Source: drd_decode_magik-tiktok-collection_v1.md + drd_decode_rootwurk-tiktok-collection_v1.md*
-*v2 | Updated 2026-06-04 — Layers 11–20 + Appendices A–B added from Rootwurk collection*
+*Source: drd_decode_magik-tiktok-collection_v1.md + drd_decode_rootwurk-tiktok-collection_v1.md + drd_decode_dom-magik-playlist_v1.md*
+*v4 | Updated 2026-06-11 — 5 new layers (21–25) + Layer 6, 16, 20 upgrades. 10 principles from D.O.M playlist deployed.*

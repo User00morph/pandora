@@ -164,3 +164,19 @@ This is not bypass work ("just believe it"). It is a graduated activation sequen
 - Specific affirmations feel true, not performative
 
 **This is the foundation of all other systems in this framework.** No archetype work, transmutation practice, or spell sequence operates at full power without this architecture installed.
+
+---
+
+## INCOMING D.R.D RESEARCH
+
+| Topic | Brief | Confidence | Deployed |
+|-------|-------|------------|---------|
+| Natural Law / Consciousness | [`drd_brief_dpsa_natural-law-consciousness_deployed.md`](../D.R.D/briefs/drd_brief_dpsa_natural-law-consciousness_deployed.md) | ESTABLISHED (Passio framework) + ESTABLISHED (LLP self-actualization) | 2026-06-06 |
+
+**2026-06-06 — Natural Law / Consciousness key findings:**
+- **CONSCIOUSNESS DEVELOPMENT MAP (6 stages):** Unconscious/Fear → Awakening Knowledge → Truth Acceptance → Conscience Activation → Sovereign Behavior → Sovereign World Contribution. Maps onto SFRP phases 1–6.
+- **TWO PILLARS OF ENLIGHTENMENT:** Sacred Feminine (care/creativity/compassion = drives action) + Sacred Masculine (self-defense principle = will to act). Neither alone = enlightenment. Both required.
+- **CONSCIENCE = KNOWLEDGE:** Latin con + scire = "to know with." Not a feeling — the capacity to distinguish right from wrong. The prison door key.
+- **SELF-ACTUALIZATION = PATH TO SOVEREIGNTY:** The system's primary tool is preventing it. Public school = inputs for conformity, not knowledge. D.P.S.A work = removing the conditioning to reveal sovereign nature.
+- **MORAL RELATIVISM = ENEMY DOCTRINE:** The belief that right and wrong don't exist severs behavior from consequence. Named and rejected as operating principle.
+- **SFRP + CONSCIOUSNESS MAP INTEGRATION:** SFRP Phase 1–6 maps exactly to Consciousness Stages 0–5. Both frameworks are the same path from different angles.

@@ -1,0 +1,44 @@
+# Trading Raw Extract — 2026-05-28
+**Source:** 0e27635b3a6c46ffa40ab9f670de86da.MP4
+**Words:** ~546
+
+---
+
+I'm about to tell you the best entry model for when to enter a trade and I don't even
+think it's debatable. So check it out. Is it retracement to a Fibonacci? Is it buying inside
+a fair value gap? Is it waiting for a discount? Is it buying a supply zone? No, it's none of
+those. So let me tell you the story of William O'Neill, a young analyst who by the way, if
+you haven't read this book, How to Make Money in Stocks, almost all the top stock
+traders are students of William O'Neill. I'm talking to guys who actually win the
+National Stock Investing Championships. They all use variations of this
+strategy. They're verified in same returns all using the same entry model for
+the most part. So check it out. William O'Neill was a young analyst, financial
+analyst, and he came across this fund firm called Dreyfus that was putting up
+crazy numbers. It was insane, eye-popping. It was crushing. It was growing so fast.
+And he was able to find their trades and chart all their trades. And he found
+something very interesting. They were always buying only, only new all-time
+highs. That's the entry model. Only buy new all-time highs. New all-time
+highs. How is that the entry model? Well, when you come back to that in a moment,
+but imagine that you're buying low prices. You're trying to buy a discount. Well,
+there's thousands of stocks you can pick from. There's thousands of crypto that
+you can pick from. How do you sort through all this and say this one is at
+a discount and it's going to go back up. And what happens when it keeps going
+lower? It becomes more attractive and more attractive and it's cheaper and
+cheaper and cheaper. Well, the problem is of all these thousands of
+assets you could buy, a lot of them actually do go to zero. Companies go
+bankrupt. They go to business. And also, cryptos go to zero. Not so many make
+new all-time highs. So by only buying new all-time highs, what you're doing is
+you're creating a filter. Okay? It's a screener at the same time. Because if
+you only buy new all-time highs, you will always be in the trends of these
+things that just go straight up where otherwise you're like, how do I get
+into this thing? It's too late. Well, if you bought a new all-time high, you're in
+those things that go up like crazy and you're never in the things that are
+going to zero because they don't make new all-time highs. It's a screener
+because it's long only and you're only long the strongest assets because
+only the strongest assets make new all-time highs. So it saves you. If you
+want a really simple system, you just screen for new all-time highs and
+you're just buying new all-time highs. It doesn't make you feel smart because
+you're always kind of going with the crowd. But buying all-time highs and
+buying high prices is the simplest and most elegant entry model because it's
+also a screener. So if you want to see my version of how we do this, comment
+MTP down below and I will send you more info.

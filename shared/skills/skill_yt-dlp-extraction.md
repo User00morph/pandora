@@ -321,6 +321,32 @@ OUTPUTS GENERATED:
 
 ---
 
+Pandora Tech Playlist — Agentic Systems / AI Infrastructure
+URL:      https://youtube.com/playlist?list=PLWKcfqsabTLUxfC7OFs7UZ8EIJ6hjY_M8
+Domain:   tech-decentralization / agentic-systems / local-ai-infrastructure
+Added:    2026-06-09
+Status:   Tier 1 (5 videos) fully extracted + decoded
+
+EXTRACTED (raw extracts in D.R.D/research/tech-decentralization/):
+  CLI vs MCP: How AI Agents Choose the Right Tool      → ~2,008 words
+  Context Engineering in 29 Minutes                    → ~6,782 words
+  Running LLMs Locally (Ollama + MCP)                  → ~5,995 words
+  Claude Architect: Multi-Agent Orchestration           → ~23,499 words
+  Build Agentic GraphRAG (MCP + Knowledge Graph)        → ~10,551 words
+  TOTAL TIER 1: ~48,835 words across 5 videos
+
+DECODED: drd_decode_tech-playlist-tier1-agentic-systems_v1.md
+KEY OUTPUTS: CLI/MCP decision rule, 4 context strategies (WSCI), local model stack
+  (Ollama + OLLMCP + Zapier MCP), Hub+Spoke orchestration, Graph RAG architecture
+
+REMAINING (Tier 2-4 — not yet extracted, 30 videos):
+  Tier 2: Sell Claude Code to Businesses, Senior Engineers + AI, $5K in 7 Days,
+           System Design (APIs/DBs/CDNs), LM Studio
+  Tier 3: DACM/Akash (decentralized AI compute), Linux, Origin Pilot Quantum OS
+  Tier 4: Alex Gladstein (decentralized tech freedom), DeFi animated, Privacy
+
+---
+
 Don Killam — Sovereign Entity / Business Structure Series
 URL:      https://youtube.com/playlist?list=PLWKcfqsabTLUDzfteFe3THpM5656piXR5
 Domain:   sovereign-entity
@@ -363,6 +389,39 @@ TRANSCRIPT_UNAVAILABLE (subtitles disabled — candidates for Whisper):
   D: Unlocking Tartarian Mysteries: Dr. Ali Muhammad on America's Secret Indigenous Blueprint
 
 TOTAL: ~614,353 words across 44 videos
+
+```
+
+---
+
+D.O.M Magik Playlist
+URL:      https://youtube.com/playlist?list=PLWKcfqsabTLXDVusrLKN0XFMR73bxkStG
+Domain:   magik / spell-craft / elemental-work / servitor-craft / deity-work / protection / kemetic-symbology
+Added:    2026-06-11
+Status:   17/18 extracted (0 TRANSCRIPT_UNAVAILABLE) — #04 Seth/Jane Roberts audiobook HELD (11h44m)
+
+EXTRACTED (raw extract files in D.R.D/research/magik/):
+  01. Spells and Getting What You Want              → ~13,379 words  | spell-craft
+  02. Earth, Air, Water & Fire — The Elementals     → ~15,036 words  | elemental-work
+  03. Creating Servitors in Esoteric Traditions      → ~7,633 words   | servitor-craft
+  05. This Will Find You When Funds Are Deposited   → ~4,953 words   | manifestation
+  06. Protect Energy From Dark Cults & Occult       → ~6,047 words   | protection
+  07. Charge Everyday Items to Attract What You Want→ ~24,726 words  | enchantment
+  08. Create Your Life — Cosmic People Create       → ~22,490 words  | sovereign-creation
+  09. Magic Practices and Manifesting               → ~34,156 words  | practice
+  10. Sex Magick                                    → ~2,466 words   | sex-magick
+  11. Be Careful with Baneful Magick                → ~2,876 words   | baneful-magick
+  12. How To Work with Deities The Way I Do         → ~2,855 words   | deity-work
+  13. How to Create a Servitor                      → ~2,096 words   | servitor-craft
+  14. How to Build Relationships with your Spirits  → ~3,037 words   | spirit-work
+  15. Dark Energy Workers                           → ~4,440 words   | dark-energy
+  16. The Real Meaning of The Ankh                  → ~4,791 words   | kemetic-symbology
+  17. Writing Spells — Powerful                     → ~2,625 words   | spell-craft
+  18. Protection Spell Against All Lower Entities   → ~2,521 words   | protection
+  TOTAL: ~156,127 words across 17 videos
+
+HELD:
+  04. The Nature of Personal Reality — Seth/Jane Roberts Audiobook Pt.1 (11:44:15) → extract separately
 
 ```
 

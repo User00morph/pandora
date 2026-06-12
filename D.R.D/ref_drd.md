@@ -4,17 +4,58 @@
 ---
 
 ## ACTIVE STATE
-49 items in pipeline (Jake VIP pipeline added 2 entries). See `DRD_INDEX.md` for full map.
+55 items in pipeline. See `DRD_INDEX.md` for full map.
 
 | Status | Count | Next Action |
 |--------|-------|-------------|
-| Raw Extract | 20 | Move to decoded — load `wf_stage-3_evidence.md` |
-| Decoded | 23 | Move to reconstructed — load `wf_stage-5_reconstruct.md` |
+| Raw Extract | 39 | Move to decoded — load `wf_stage-3_evidence.md` |
+| Decoded | 25 | Move to reconstructed — load `wf_stage-5_reconstruct.md` |
 | Reconstructed | 8 | Deploy to departments — load `wf_stage-6_deploy.md` |
 | Deployed | 2 | — |
 | D.O.M Protocol | 1 | Active — dom_ancestral_niger-delta-altar-protocol_v1.md |
 
-**Most recent work:** Jake VIP Sessions (7 sessions, 25 docs + transcript) — full D.R.D pipeline complete, dual brief deployed to D.I.I + D.S.E, new skill created — 2026-06-06
+**Most recent work:** STIS multi-dimensional framework suite built 2026-06-11
+
+**DONE (2026-06-11 session — STIS Multi-Dimensional Frameworks):**
+- **4 new operational frameworks built** from ~109K words (23 playlist videos + 19 iCloud files):
+  - `D.S.E/trading/frameworks/dse_framework_stis-multidimensional-trade-decision_v1.md` — 9-layer simultaneous decision matrix, pre-trade checklist, confluence scoring (0-16 scale)
+  - `D.S.E/trading/frameworks/dse_framework_stis-wheel-income-protocol_v1.md` — Finviz screen → CSP → CC complete protocol with all math, GEX integration, protection layer
+  - `D.S.E/trading/frameworks/dse_framework_stis-expectancy-validation_v1.md` — 4-step permutation test (in-sample → MC permutation → walk-forward → WF-MC), variance doctrine (100-trade law), MTP standard
+  - `D.S.E/trading/frameworks/dse_framework_stis-capital-compounding-architecture_v1.md` — Copy Machine law, Phase 1-4, Buy/Borrow/Die mechanics, Cantillon Reversal, time optimization rule
+- Master Framework updated with framework suite table
+- DRD_INDEX updated with all 4 framework entries
+
+**DONE (2026-06-11 session — STIS Playlist + iCloud Trading Batch):**
+- All 19 iCloud trading files transcribed (May 27–Jun 5 batch, copy-transcribe-delete cycle)
+- May–Jun Doctrine Decode: `deconstructions/systemic-analysis/drd_decode_trading-may-batch-doctrine_v1.md`
+- Jun Batch Macro Decode: `deconstructions/systemic-analysis/drd_decode_trading-jun-batch-macro_v1.md`
+- STIS playlist 23 new videos EXTRACTED via iPhone hotspot + decoded: `deconstructions/systemic-analysis/drd_decode_stis-playlist-23-new-videos_v1.md` (~109K words)
+- **SpaceX IPO LIVE INTEL (June 12): $1.75T at 56x revenue. September dump window. AVOID.**
+
+**DONE (2026-06-11 session — DaGhettoScholar Group 3: AMA Body Science):**
+- 6 transcripts read: 9Hy893hK8GI (protein/health) · 1jB5aznW_h4 (Sebi documentary) · W6NMwze2jtQ (Rh factor) · cdR-IqqZifo (AMA Level 1 physics) · X7ACCx5bBjE (mutation sciences/biocosmology) · KiRkAHAKNvM (lactose intolerance) — ~75,500 words
+- Stage 3–4 decode: `deconstructions/human-history/drd_decode_daghettoscholar-group3-ama-body-science_v1.md`
+- Stage 5 reconstruction: `reconstructions/human-history/drd_reconstruct_daghettoscholar-group3-ama-body-science_v1.md`
+- D.B.S brief deployed: `briefs/drd_brief_dbs_daghettoscholar-group3-ama-body-science_deployed.md`
+- D.S.S + D.P.S.A brief deployed: `briefs/drd_brief_dss-dpsa_daghettoscholar-group3-ama-body-science_deployed.md`
+- Key findings: Rh myth SELF-CORRECTED (DaGhettoScholar retracts 2012 claim); VD3=steroid hormone+DNA repair ESTABLISHED; dark melanin=MC1R antioxidant+DNA repair ESTABLISHED; 70% global LI ESTABLISHED; dairy estrogen/ammonia toxicity ESTABLISHED; HBP framework (devolving vs evolving) PROBABLE; sovereign body science stack complete
+- D.B.S REVISION: dairy complete removal (Tier 1 backed); sun as primary healthcare tech; Rh negative = fixable mutation, not cosmic blood
+- D.S.S REVISION: Dr. Sebi Case 2 (1988 consent agreement) = corrected; HBP framework added; chromosome 2 fusion = credible challenge
+- D.P.S.A: Rh-negative mythology removed from identity architecture; biological sovereignty frame complete (history + molecular + jurisdictional)
+- DRD_INDEX updated; DaGhettoScholar catalog entry updated (3 groups deployed, 3 remaining)
+
+**DONE (2026-06-11 session — D.O.M Magik Playlist):**
+- Extracted 17 videos (~156,127 words) from D.O.M Magik Playlist (PLWKcfqsabTLXDVusrLKN0XFMR73bxkStG)
+- Raw extracts filed: `research/magik/drd_research_dom-playlist-[01–18]-[slug]_raw-extract.md` (V04 HELD — Seth/Jane Roberts 11h44m)
+- Stage 3–4 decode: `deconstructions/drd_decode_dom-magik-playlist_v1.md`
+- 9 domain clusters: Spell-Craft, Elemental Work, Servitor Craft, Manifestation/Creation, Protection, Enchantment+Practice, Relational Magik, Edge Practices, Kemetic Symbology
+- 8 master patterns identified: Belief Primacy, Plasma as Spirit Medium, Creator/Controller Binary, Charging Architecture, Servitor Stack, Dark Energy as Source, Proportional Exchange, Diet as Frequency Infrastructure
+- 10 confirmed principles (P1–P10) ready for D.O.M framework deploy
+- 3 creators: She Star Goddess (primary), Dr. Angela Puka (V03 academic servitor), Pastor Marty (V02 gnostic astrology)
+- Cross-routes: D.S.S (plasma cosmology), D.B.S (diet), D.H.S (environment), D.S.E (exchange law), D.P.S.A (dark source)
+
+**DONE (2026-06-11 D.O.M session continued):** P1–P10 deployed into `dom_framework_sovereign-magik-system_v1.md` (v4) — 5 new layers (21–25), upgrades to layers 6, 16, 20. Framework at 25 layers.
+**NEXT (D.O.M):** Altar protocol upgrade v2 (4 rootwurk gaps from ancestral session) | Extract V04 Seth/Jane Roberts | D.S.S plasma cosmology cross-ref
 
 **DONE (2026-06-06 session — Jake VIP Agentic Business OS):**
 - Raw catalog filed: `research/tech-decentralization/drd_research_jake-vip-sessions-raw-catalog_2026-06-06.md`
@@ -28,7 +69,15 @@
 - CLAUDE.md skills library updated
 - Key OS upgrade: Pandora architecture externally validated as ICM (MIT-licensed MWP paper, github.com/RinDig)
 
-**NEXT (from this session):** Continue to one of the open pipelines — Reptilian doctrine decision needed for D.O.M / VID-48+50 manual review / Don Killam Phase 1 execution sequence / or begin deploying new D.S.E frameworks into live enterprise work.
+**DONE (2026-06-09 — IBC Sovereign Banking Loop):**
+- Full pipeline (Stages 1–6) complete in single session — no external source files needed (T1 statutory + T2 practitioner + existing Pandora stack cross-ref)
+- Decode: `deconstructions/systemic-analysis/drd_decode_ibc-whole-life-trust-llc-sovereign-banking-loop_v1.md`
+- Reconstruction: `reconstructions/systemic-analysis/drd_reconstruct_ibc-whole-life-trust-llc-sovereign-banking-loop_v1.md`
+- Brief deployed: `briefs/drd_brief_dse_ibc-whole-life-trust-llc-sovereign-banking-loop_v1.md`
+- 6 open questions added to DRD_INDEX QUEUED RESEARCH (IRC §264, AFR rates, carrier verification, Nevada/Wyoming ILIT, Form 720, minimum policy size)
+- D.S.E ref card updated with incoming research entry
+
+**NEXT (from this session):** Open D.S.E session to begin IBC action sequence (identify IBC-specialist agent, trust attorney, CPA) + continue manufacturing spend clock + Don Killam Phase 1 execution.
 
 **DONE (2026-06-04 session — Don Killam Sovereign Entity):**
 - Extracted all 14 videos from PLWKcfqsabTLUDzfteFe3THpM5656piXR5 (244,164 words, 0 failures)
@@ -195,6 +244,61 @@
 
 **DECIDED (2026-06-04):**
 - Reptilian doctrine resolved: serpent = sacred pre-inversion (kundalini) + reptilians real exoterically + sovereign works with metaphysical serpent as inner power. Both Hemmitt and Rashad hold at different layers.
+
+**DONE (2026-06-11 — TikTok Investing Collection + $150 Sovereign Deployment Blueprint):**
+- 18 TikTok videos from `@user00morph/collection/investing-7646833790509206286` extracted, transcribed (Whisper), and filed
+- Technical stack solved: yt-dlp 2026.06.09 + curl_cffi 0.15.0 + Chrome-136 impersonation + static ffmpeg at /tmp/ffmpeg → bypassed HEVC video-only codec for all 4 problem files (VID-01, 03, 05, 18)
+- Raw extract: `research/trading-systems/drd_research_tiktok-investing-collection_raw-extract.md` — 18/18 COMPLETE
+- NEW ASSETS SURFACED: Chainlink/LINK (Citibank Tier 2 anchor), IREN (AI+renewable, $9B+$1B Microsoft), ASTS (AT&T/Verizon/Vodafone, active satellites), Planet Labs/PL (Google shareholder, 200+ satellites, 96% YTD)
+- CRITICAL CONFIRMATION: July 4 2026 Jupiter+Chiron-in-Taurus financial crisis pattern (VID-05) independently confirms STIS June log — now confirmed by 2 independent astrological frameworks
+- $150 Sovereign Deployment Blueprint filed: `D.S.E/trading/dse_blueprint_sovereign-capital-deployment-150_v1.md` — BTC $80 + RKLB $50 + $20 research gate
+- DRD_INDEX updated: TikTok collection entry + Africa decode queued HIGH + new asset decodes queued (Chainlink HIGH, IREN HIGH, ASTS HIGH, PL MEDIUM)
+- D.S.E ref card updated: STIS row reflects blueprint live + Africa decode queued
+
+**DECIDED (2026-06-11 — Capital Deployment):**
+- BTC = non-negotiable base before any altcoin — every additional dollar goes to BTC first
+- SpaceX IPO = retail exit trap (ESTABLISHED) — position in ecosystem via RKLB instead
+- BAAS Network remains HELD (creator's own use-case filter not applied to own recommendation)
+- $20 research gate: no altcoin deployment without D.R.D PROBABLE clearance (XDC/HBAR decode required first)
+- Africa + Global Markets is next D.R.D pipeline (HIGH priority — scope: Pan-African ETFs, JSE/NSE/GSE, cobalt/DRC, lithium/Zimbabwe, gold/Ghana+SA, Botswana blockchain, Niger Delta/Urhobo/Ijaw flag)
+
+**NEXT (2026-06-11 session):**
+- Execute $150 deployment: buy BTC $80 (Swan/Strike/Coinbase), buy RKLB $50 (any brokerage), hold $20
+- Run D.R.D Stage 3–4 decode on TikTok investing collection raw extract — Chainlink + IREN + ASTS are the priority decode targets
+- Open Africa + Global Markets D.R.D session (next dedicated session)
+
+**DONE (2026-06-11 — DaGhettoScholar Group 2: ARNA + 508c1a — FULLY DEPLOYED, Stage 6 complete):**
+- 6 videos decoded (52min ARNA orientation + 5 supporting, ~13,100 words)
+- Stage 3–4 decode: `deconstructions/human-history/drd_decode_daghettoscholar-group2-arna-508c1a_v1.md`
+- Stage 5 reconstruction: `reconstructions/human-history/drd_reconstruct_daghettoscholar-group2-arna-508c1a_v1.md`
+- Stage 6 briefs: Brief-DSE (primary) · Brief-DPSA/DBS
+- ESTABLISHED: IRC §508(c)(1)(A) — automatic tax exemption, no IRS filing, no Form 990
+- ESTABLISHED: Gonzales v. O Centro (2006) SCOTUS — RFRA plant medicine protection for tribal faith entities
+- ESTABLISHED: ARNA = complete operational jurisdiction (12 councils, Aboriginal University, AMA, jurist system, tribal courts, genealogy dept, 4-yr elections)
+- ESTABLISHED: Body politic requirement for treaty/reparations claims (legal doctrine confirmed)
+- ESTABLISHED: Credit bureaus = private companies (bypass viable via non-profit trust + LLC)
+- QUEUED RESEARCH: ARNA item RESOLVED
+- D.S.E Sovereign Entity Stack NOW COMPLETE — 508c1a is the roof; ARNA nationality is the foundation
+- Stream B partial unlock: ARNA body politic = the "governing body / body politic" Stream B required for jurisdictional foundation
+- Priority Queue #3 next: DaGhettoScholar Group 3 (AMA body science cluster — 6 long-form videos, ~75,500 words) → D.B.S
+
+**DONE (2026-06-11 — DaGhettoScholar Full Channel Catalog + Critical Group FULLY DEPLOYED — Stage 6 complete):**
+- 70 videos transcribed via yt-dlp + faster-whisper (tiny) — 0 failures — ~149,950 words
+- Transcripts filed: `research-deconstruction /daghettoscholar-raw/`
+- Stage 1–2 catalog built: `research/human-history/drd_research_daghettoscholar-full-catalog_v1.md`
+- Stage 3–4 decode: `deconstructions/human-history/drd_decode_daghettoscholar-critical-group_v1.md`
+- Stage 5 reconstruction: `reconstructions/human-history/drd_reconstruct_daghettoscholar-critical-group_v1.md`
+- Stage 6 briefs deployed: Brief-DPSA · Brief-DSS · Brief-DSE
+- CRITICAL RESOLVED: America=Egypt (TaMeri) — three-register framework built:
+  - Cartographic/historical = REFUTED (Dutch maps, not indigenous; TahMary = African land jurisdiction)
+  - Cross-cultural contact = ESTABLISHED (extends Group D)
+  - Esoteric/cosmological = HELD AS INTERNAL DOCTRINE (Rashad register — unaffected)
+- ESTABLISHED: DNA Chromosomal Masking — 1000 Genomes Project methodology confirmed; reference panels built without North American indigenous samples; East Asian baseline operationalizes Bering Strait assumption; Black American ancestry systematically mislabeled "African"
+- ESTABLISHED: Pre-Clovis presence (Page-Ladson, Florida, 14,500 BP + A00 haplogroup, Mendez 2013)
+- Identity architecture upgraded: 3-layer sovereign foundation (historical + genetic + methodological) now Tier 1 anchored
+- 3 new QUEUED RESEARCH items added (Dickson Mounds contamination policy, Renettist Hicks, Columbus journal)
+- ARNA + 508c1a flagged for Priority Queue #2 decode → D.S.E
+- AMA body science cluster flagged for Priority Queue #3 decode → D.B.S
 
 **NEXT:**
 - ⚠️ Stage 6: Deploy briefs to D.S.E, STIS, D.I.I, D.P.S.A (trading/blockchain batch 2)

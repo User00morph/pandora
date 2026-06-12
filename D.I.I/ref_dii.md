@@ -10,6 +10,13 @@
 | Pandora OS infrastructure | 🔴 RUBEDO | Active — agents + MCPs in build |
 | Auset Daemon (ductor) | 🔴 RUBEDO | LIVE 2026-06-06 — 24/7 persistent agent, Telegram-connected |
 
+## SESSION LOG — 2026-06-09
+- DONE: Tech Playlist Tier 1 (5 videos, ~48,835 words) fully extracted + decoded. Raw extracts filed in `D.R.D/research/tech-decentralization/`. Decode: `drd_decode_tech-playlist-tier1-agentic-systems_v1.md`.
+- DONE: CLI/MCP decision rule established. 4 context strategies (WSCI) decoded. Local model stack (Ollama + OLLMCP + Zapier MCP) confirmed. Hub+Spoke orchestration architecture mapped. GraphRAG architecture assessed.
+- DECIDED: CyberPower Tower = Node 2 (lightweight utility, NOT 7B–13B capable). Real specs: AMD FX-4300 + GTX 1050 2GB VRAM + 16GB DDR3. Machine cleaned + fresh wipe done. Mac Mini M4 Pro 48GB = primary acquisition, more urgent now.
+- DECIDED: proto_context-hygiene.md needs COMPRESS protocol upgrade (in-session tool result clearing — currently missing). Auset needs CLI/MCP routing rule + tool count ceiling (≤19).
+- NEXT: (1) Activate HP All-in-One: clean fans → Ollama install → OLLMCP bridge → Zapier MCP. (2) Add COMPRESS protocol to `proto_context-hygiene.md`. (3) Encode CLI/MCP rule in Auset config. (4) Mac Mini acquisition.
+
 ## SESSION LOG — 2026-06-06
 - DONE: Auset daemon installed + deployed. Ductor v0.17.0 running as macOS launchd service (PID active). Bot token + user ID configured. Pandora workspace wired via --add-dir. Heartbeat active (60min interval, quiet 23:00–07:00). Agent responding on Telegram.
 - DONE: ICM repo fetched from `github.com/RinDig/Interpreted-Context-Methdology`. Full CONVENTIONS.md (15 patterns) + README (full spec) incorporated. Token-saving patterns encoded into `proto_context-hygiene.md` + `skill_workspace-builder.md`.
@@ -68,6 +75,7 @@ Load when: starting a new tool, connecting an external repo, or continuing agent
 
 | Topic | Brief | Confidence | Deployed |
 |-------|-------|------------|---------|
+| Tech Playlist Tier 1 — Agentic Systems Fundamentals | [`drd_decode_tech-playlist-tier1-agentic-systems_v1.md`](../D.R.D/deconstructions/tech-deconstruction/drd_decode_tech-playlist-tier1-agentic-systems_v1.md) | ESTABLISHED (CLI/MCP rule, WSCI strategies, Hub+Spoke) + PROBABLE (RAG-over-tools, think tool 54%) | 2026-06-09 |
 | Agentic Framework: ICM Validation + Security + Governance | [`drd_brief_dii_agentic-framework-icm-security_v1.md`](../D.R.D/briefs/drd_brief_dii_agentic-framework-icm-security_v1.md) | ESTABLISHED (ICM validation, security, governance) + PROBABLE (L1/L2/L3, 60/30/10) | 2026-06-06 |
 | US Corporation / Sovereign Living Entity | [`drd_brief_dii_us-corporation-sovereign-living-entity_deployed.md`](../D.R.D/briefs/drd_brief_dii_us-corporation-sovereign-living-entity_deployed.md) | Mixed (Established DeFi mechanics + Probable legal structure) | 2026-05-19 |
 
