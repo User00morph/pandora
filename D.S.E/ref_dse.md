@@ -25,6 +25,26 @@
 
 Last updated: 2026-06-12 (Session 2)
 
+**DONE (2026-06-12 Session 4):**
+- Auset Solutions LLC formation state changed: New Mexico → Wyoming (stronger charging order protection, member privacy, no state income tax, ~$25-50/yr registered agent)
+- Wyoming LLC filing confirmed: wyobiz.wyo.gov → $100 filing fee → Northwest Registered Agent (~$25/yr) → EIN same day
+- Ministry as Trust Protector architecture confirmed: Wyoming NJSA (§4-10-111) adds House of Auset as Trust Protector over all three minor trusts once ministry is formally established — no court required
+- Trust Protector powers: direct trustee, remove/replace trustee, modify limited trust terms, veto distributions
+- Full governance stack mapped: House of Auset (Trust Protector) → 3 minor trusts → 3 LLCs → bank/investment/offshore accounts
+- House of Auset and Auset Solutions LLC confirmed as separate entities (see DECIDED below)
+
+**DECIDED (2026-06-12 Session 4):**
+- Auset Solutions LLC = Wyoming LLC. File at wyobiz.wyo.gov ($100 + ~$25 registered agent).
+- House of Auset (ministry) and Auset Solutions LLC are TWO SEPARATE entities — different legal structures, different functions, different EINs. Ministry is the governing/spiritual body. LLC is the operating business. Ministry owns the LLC as member once trust stack is complete.
+- Ministry oversight of minor trusts = Trust Protector role via Wyoming NJSA — execute after ministry is formally established
+
+**NEXT (Session 4 additions):**
+- File Auset Solutions LLC at wyobiz.wyo.gov ($100 + Northwest registered agent ~$25)
+- Get EIN for Auset Solutions LLC same day (IRS.gov, free, instant)
+- Open Relay business account under LLC EIN
+- Draft Eromosene Wyoming LLC docs (target: ready before October 31 2026)
+- Draft NJSA adding House of Auset as Trust Protector on all three minor trusts (after ministry formation)
+
 **DONE (2026-06-12 Session 3):**
 - Three minor irrevocable trusts fully drafted + all blanks filled — ready to execute:
   - The Erhime Ejofodomi Irrevocable Trust (DOB May 12 2016, age 10)
