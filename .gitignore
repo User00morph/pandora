@@ -2,6 +2,9 @@
 D.P.S.A/natal/dpsa_natal_morph_birthdata.md
 m.d
 
+# Minor trust documents — real names, DOBs, addresses (local only, never push)
+D.S.E/documents/trusts/
+
 # Raw audio/video data — too large for GitHub, stored locally only
 *.mp4
 *.mp3
