@@ -14,7 +14,35 @@
 | Deployed | 2 | — |
 | D.O.M Protocol | 1 | Active — dom_ancestral_niger-delta-altar-protocol_v1.md |
 
-**Most recent work:** STIS multi-dimensional framework suite built 2026-06-11
+**Most recent work:** Don Killam V04 — Passport + Private National Entity + Sovereign Safeguard Architecture decoded 2026-06-12
+
+**DONE (2026-06-12 — Don Killam V04 Passport + Sovereign Safeguard Architecture):**
+- Stage 3–4 decode complete: `deconstructions/drd_decode_don-killam-v04-passport-private-national-entity_v1.md`
+- Passport via alternative docs ESTABLISHED (T1 — travel.state.gov confirmed): baptismal cert + family Bible records + affidavit of live birth = valid pathway
+- EIN without SSN ESTABLISHED (T2 IRS practice)
+- Unincorporated association / ministry trust = common law jurisdiction ESTABLISHED
+- 5-Layer Sovereign Safeguard Architecture built: Identity Correction → Passport Bridge → Entity Formation → Private Motor Carrier Documentation → Encounter Protocol
+- Resolved 607 UNC "Driving/Traveling HELD" flag — standalone theory = high risk; full entity stack = MANAGED risk
+- 4 new HIGH priority queued research items added to DRD_INDEX (NM vehicle retitling, ARNA conveyance docs, passport alt-doc process, case law validation)
+- DRD_INDEX updated
+
+**DECIDED (2026-06-12):**
+- The traveling doctrine is NOT wrong — the sequencing is wrong. Stack must be built FIRST, then the posture is adopted
+- Vehicle titled to LLC is Layer 3 — requires LLC fully formed with EIN before title transfer
+- Passport via alternative docs is Layer 2 — do before attempting any private traveling posture
+- ARNA nationality card is the primary private national entity ID for encounters
+
+**NEXT (safeguard architecture):**
+- Research NM vehicle retitling to LLC process (HIGH)
+- Research ARNA private conveyance documentation (HIGH)
+- Stage 5 reconstruction → Stage 6 brief deploy to D.S.E
+- Note: passport renewal is DS-82 (existing passport expired 2026) — alternative doc pathway is parallel private record-building, not required for renewal
+
+**NEXT (additional — 2026-06-12 session):**
+- Africa + Global Markets decode (HIGH — overseas investing)
+- Offshore account architecture research (queued)
+- "Ebonics" creator videos — locate file/handle to extract
+- Don Killam V04 Stage 5 reconstruction → Stage 6 brief
 
 **DONE (2026-06-11 session — STIS Multi-Dimensional Frameworks):**
 - **4 new operational frameworks built** from ~109K words (23 playlist videos + 19 iCloud files):

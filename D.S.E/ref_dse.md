@@ -13,6 +13,7 @@
 | Auset Solutions LLC (Sovereign Tech Enterprise) | Nigredo → Albedo | Manufacturing spend SOP live (2026-06-09). NM filing, ausetsolutions.com. | Day 1: file via Bizee → domain → EIN → VoIP → email |
 
 **Sovereign Enterprise Blueprint:** `dse_blueprint_sovereign-enterprise-architecture_v1.md`
+**Entity Stack Blueprint (ACTIVE):** `D.S.E/documents/dse_blueprint_sovereign-entity-stack_morph_v1.md` — 4-phase build, gating criteria, attorney/CPA questions, carrier selection
 **Entity stack brief:** `D.R.D/briefs/drd_brief_dse_private-sector-bihness-sovereign-entity-stack_deployed.md`
 
 **STIS quick refs:**
@@ -22,7 +23,35 @@
 - Active log: `D.S.E/trading/logs/dse_log_trading_2026-06.md`
 - Tool launcher: `tools/stis.py`
 
-Last updated: 2026-06-11
+Last updated: 2026-06-12
+
+**DONE (2026-06-12 session):**
+- Don Killam V04 passport decode complete → 5-Layer Sovereign Safeguard Architecture built (`D.R.D/deconstructions/drd_decode_don-killam-v04-passport-private-national-entity_v1.md`)
+- Resolved 607 UNC "Driving/Traveling HELD" — stack-dependent, not standalone theory. Class C license retained as Layer 0 safeguard while building stack.
+- Fortiva / DNF Associates full dispute package drafted + filed → `D.S.E/documents/dse_doc_fortiva-dnf-dispute-package_v1.md` — Letters A/B/C + execution checklist. FTC Identity Theft Report is first action.
+- EIN architecture confirmed: trust-owned LLC separates EIN from personal SSN. Bootstrap with personal SSN on SS-4 → restructure to trust once ministry formed.
+- Banking access solution: Capital One 360 (first attempt) → Ally → GO2bank. Chase Business Complete once LLC has EIN (no ChexSystems for business accounts).
+- Passport renewal: DS-82 (expired 2026 → submit expired passport + photo + $130). No alternative docs needed — existing passport is the proof.
+- Dr. Nwosu (Auset Solutions first client) — full client workspace created:
+  - Outreach email v2: `D.S.E/clients/dr-nwosu/dse_doc_dr-nwosu-outreach-email_v1.md`
+  - Consulting agreement v1: `D.S.E/clients/dr-nwosu/dse_doc_dr-nwosu-consulting-agreement_v1.md`
+  - Proposal covers: AI automation, custom dev/software, self-hosted data infrastructure, entity structure intelligence, hardware ask (Mac Mini M4 Pro 48GB), LLC startup assistance
+
+**DECIDED (2026-06-12):**
+- Auset Solutions LLC = tech + dev firm, not just consulting. "We build" positioning.
+- Dr. Nwosu engagement is first revenue + proof of model. Priority client.
+- Entity structure: file LLC via Bizee (NM) → EIN → Chase Business Complete → ministry trust → transfer LLC ownership to trust
+- Vehicle titled to LLC is Layer 3 of safeguard architecture — do after LLC + EIN confirmed
+- Fortiva dispute letters send same week as FTC Identity Theft Report filed
+
+**NEXT:**
+- File Auset Solutions LLC via Bizee (NM) — $50 state fee + Bizee Silver package
+- Get EIN via IRS.gov SS-4 (10 min, instant)
+- Open Chase Business Complete account
+- Send Dr. Nwosu email (after LLC is filed — sign as Founder of registered entity)
+- File FTC Identity Theft Report → send Fortiva dispute package
+- Renew passport via DS-82
+- ULC ordination → ministry trust formation (Phase A, Governing Body protocol)
 
 **Master Execution Roadmap:** `D.S.E/documents/dse_blueprint_master-execution-roadmap_v1.md`
 → MacBook Air → Hetzner VPS → Mac Mini escalation path | 4 income streams sequenced | 7 compounding loops mapped | status correction full sequence | sibling/family enterprise structure | 90-day sprint checklist
