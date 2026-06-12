@@ -2,7 +2,16 @@
 D.P.S.A/natal/dpsa_natal_morph_birthdata.md
 m.d
 
-# Minor trust documents — real names, DOBs, addresses (local only, never push)
+# Ministry founding documents — real names, officer structure (local only, never push)
+D.O.M/house-of-auset/
+
+# Client documents — real names, agreements, personal data (local only, never push)
+D.S.E/clients/
+
+# Personal legal documents — disputes, personal identifying info (local only, never push)
+D.S.E/documents/dse_doc_*
+
+# Trust documents — real names, DOBs, addresses (local only, never push)
 D.S.E/documents/trusts/
 
 # Raw audio/video data — too large for GitHub, stored locally only
