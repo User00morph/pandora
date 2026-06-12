@@ -38,11 +38,19 @@
 - Stage 5 reconstruction → Stage 6 brief deploy to D.S.E
 - Note: passport renewal is DS-82 (existing passport expired 2026) — alternative doc pathway is parallel private record-building, not required for renewal
 
+**DONE (2026-06-12 Session 2):**
+- Minor Sovereignty + Wealth Architecture built (D.S.E) — trust-per-minor EIN pathway, loan mechanics (non-taxable), kiddie tax navigation, IBC policy for minors, vehicle doctrine, birth-to-18 timeline
+- Private national filing plan surfaced from V04 decode and ARNA decodes — 7-step sequence documented in minor architecture file
+- Banking denial diagnosed: ChexSystems (Fortiva tradeline). Chime/Current bridge confirmed. Business account bypasses ChexSystems entirely.
+- Three-track execution plan confirmed: passport DS-82 (expedited) + FTC/Fortiva dispute + SSN card replacement
+
 **NEXT (additional — 2026-06-12 session):**
 - Africa + Global Markets decode (HIGH — overseas investing)
 - Offshore account architecture research (queued)
 - "Ebonics" creator videos — locate file/handle to extract
 - Don Killam V04 Stage 5 reconstruction → Stage 6 brief
+- Research: intrafamily loan AFR documentation templates for trust → beneficiary loans
+- Research: Wyoming trust formation (guardian-formed, minor beneficiary) — attorney gate or DIY threshold
 
 **DONE (2026-06-11 session — STIS Multi-Dimensional Frameworks):**
 - **4 new operational frameworks built** from ~109K words (23 playlist videos + 19 iCloud files):

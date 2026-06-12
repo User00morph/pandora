@@ -23,7 +23,37 @@
 - Active log: `D.S.E/trading/logs/dse_log_trading_2026-06.md`
 - Tool launcher: `tools/stis.py`
 
-Last updated: 2026-06-12
+Last updated: 2026-06-12 (Session 2)
+
+**DONE (2026-06-12 Session 2):**
+- Banking denial diagnosed: ChexSystems (not ID issue) — Class C license is valid ID, Fortiva tradeline is the block
+- Immediate banking bridge: Chime or Current — no ChexSystems, debit card in 5-7 days
+- Confirmed: LLC business account bypasses ChexSystems entirely (D&B screens business accounts, not ChexSystems)
+- Relay / Mercury identified as cleanest business account open for new LLC (no personal credit pull)
+- EIN confirmed: one EIN covers domestic + offshore + international brokerage + crypto exchanges
+- STIS Wyoming LLC confirmed as second entity (trading/investing/offshore — separate from Auset Solutions)
+- Wyoming selected over NM for STIS: no state income tax, strongest charging order protection, member privacy, $100 fee
+- Passport renewal confirmed as offshore banking gate — Class C license not accepted by most offshore banks
+- DS-82 pathway confirmed: expired 2026 passport + photo + $130; expedited recommended (+$60, 2-3 weeks)
+- SSN card replacement: ssa.gov online or SSA office walk-in with Class C license; free; 10-14 days
+- Three parallel tracks: (1) DS-82 passport renewal expedited, (2) FTC report → Fortiva dispute package → ChexSystems dispute, (3) SSN card replacement
+- Minor Sovereignty + Wealth Architecture built: `D.S.E/documents/dse_doc_minor-sovereignty-wealth-architecture_v1.md`
+  - Trust structure (guardian as trustee, minor as beneficiary) — each trust gets own EIN
+  - Loan mechanics: trust loans at AFR to beneficiary = NOT taxable income (loan proceeds ≠ distribution)
+  - Kiddie tax (IRC §1(g)) navigated via trust accumulation + loan mechanics
+  - 16/17-year-old wage pathway: up to ~$15K/year from family entity = below standard deduction = zero federal tax
+  - IBC whole life policy on minors: cheapest premiums, decades of CSV build, policy loans non-taxable at 18+
+  - Vehicle doctrine: trust/LLC holds title early; personal guarantee on loan initially, refinance to business-only at 2-year LLC mark
+  - Full birth-to-sovereign-entity timeline mapped (Day 1 → Age 18)
+
+**DECIDED (2026-06-12 Session 2):**
+- Auset Solutions NM LLC = active income (consulting, dev, client work)
+- STIS Wyoming LLC = passive/investment income (trading, offshore, asset holding) — file after hardware upgrade
+- Relay or Mercury is the first business bank account (no ChexSystems, no personal pull)
+- Chase Business Complete = Zelle-native account, opened after ChexSystems cleared on personal name
+- Offshore account opens under STIS LLC EIN with passport (not Class C license) — after DS-82 renewal
+- Personal offshore accounts are a detour — open directly under LLC from day one, no re-titling needed
+- Trust-per-minor structure: one trust per minor, each with own EIN, guardian as trustee
 
 **DONE (2026-06-12 session):**
 - Don Killam V04 passport decode complete → 5-Layer Sovereign Safeguard Architecture built (`D.R.D/deconstructions/drd_decode_don-killam-v04-passport-private-national-entity_v1.md`)
@@ -44,14 +74,20 @@ Last updated: 2026-06-12
 - Vehicle titled to LLC is Layer 3 of safeguard architecture — do after LLC + EIN confirmed
 - Fortiva dispute letters send same week as FTC Identity Theft Report filed
 
-**NEXT:**
+**NEXT (updated 2026-06-12 Session 2):**
+- File FTC Identity Theft Report at IdentityTheft.gov → get report # (15 min, free — unlocks everything)
+- Replace SSN card: ssa.gov or SSA office walk-in with Class C license (free, 10-14 days)
+- Send Fortiva dispute package same week as FTC report — certified mail, all 4 letters
+- Request ChexSystems report at chexsystems.com → dispute Fortiva entry with FTC report number
+- Renew passport via DS-82 — EXPEDITED ($130 + $60 expedite) — gate for offshore banking
 - File Auset Solutions LLC via Bizee (NM) — $50 state fee + Bizee Silver package
 - Get EIN via IRS.gov SS-4 (10 min, instant)
-- Open Chase Business Complete account
+- Open Relay or Mercury business account under LLC EIN (no ChexSystems block)
 - Send Dr. Nwosu email (after LLC is filed — sign as Founder of registered entity)
-- File FTC Identity Theft Report → send Fortiva dispute package
-- Renew passport via DS-82
+- Chase Business Complete (after ChexSystems cleared on personal name — Zelle-native)
 - ULC ordination → ministry trust formation (Phase A, Governing Body protocol)
+- STIS Wyoming LLC (after hardware upgrade) → second EIN → Interactive Brokers → offshore account under LLC
+- Trust-per-minor (after Auset LLC established) — guardian forms trust + EIN for each of the 3 minors
 
 **Master Execution Roadmap:** `D.S.E/documents/dse_blueprint_master-execution-roadmap_v1.md`
 → MacBook Air → Hetzner VPS → Mac Mini escalation path | 4 income streams sequenced | 7 compounding loops mapped | status correction full sequence | sibling/family enterprise structure | 90-day sprint checklist
