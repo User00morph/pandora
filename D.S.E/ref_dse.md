@@ -25,6 +25,28 @@
 
 Last updated: 2026-06-12 (Session 2)
 
+**DONE (2026-06-12 Session 5):**
+- Eromosene Wyoming LLC docs drafted — local only (`D.S.E/documents/trusts/dse_doc_eromosene-wyoming-llc_v1.md`)
+  - Articles of Organization (file at wyobiz.wyo.gov, $100)
+  - Operating Agreement (trust as sole member, Emoefe as manager → Eromosene at 18)
+  - Manager Transition Resolution (execute October 31, 2026 — hard deadline)
+  - LLC EIN → bank + brokerage + offshore accounts under LLC
+  - Upstream distribution cycle documented: LLC earns → distributes to trust → trust loans to beneficiary at AFR (non-taxable)
+- Corrected: Eromosene is male
+- LLC → Trust funding cycle confirmed: LLC distributes profits to trust (pass-through, Form 1041) → trust accumulates → trust loans to beneficiary at AFR → loan proceeds non-taxable → cycle repeats
+- IBC whole life policy architecture per trust confirmed:
+  - No legal limit on number of policies per trust
+  - One well-funded whole life per trust to start — fund to 7-pay MEC ceiling, then open second policy
+  - Carrier requirement: non-direct recognition only (Guardian, Penn Mutual, MassMutual)
+  - Erhime (age 10) is highest priority — lowest premium, longest compounding runway
+  - Omose (16) + Eromosene (17) — open policies immediately after trusts are executed
+  - Quantity strategy: maximize one policy → open second once first hits MEC limit
+
+**DECIDED (2026-06-12 Session 5):**
+- Eromosene LLC formation is a hard deadline — October 31 2026. Docs ready. File before that date.
+- Minimum three IBC whole life policies — one per trust. Scale to second policy per trust as capital grows.
+- LLC accounts and trust accounts operate as one system — LLC is the earning engine, trust is the vault
+
 **DONE (2026-06-12 Session 4):**
 - Auset Solutions LLC formation state changed: New Mexico → Wyoming (stronger charging order protection, member privacy, no state income tax, ~$25-50/yr registered agent)
 - Wyoming LLC filing confirmed: wyobiz.wyo.gov → $100 filing fee → Northwest Registered Agent (~$25/yr) → EIN same day
