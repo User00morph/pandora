@@ -23,7 +23,42 @@
 - Active log: `D.S.E/trading/logs/dse_log_trading_2026-06.md`
 - Tool launcher: `tools/stis.py`
 
-Last updated: 2026-06-12 (Session 2)
+Last updated: 2026-06-12 (Session 6)
+
+**DONE (2026-06-12 Session 6):**
+- Ministry formation sequence fully encoded:
+  - Step 1: ULC ordination (ulc.org, free, 2 min) → minister standing established
+  - Step 2: Sign Founding Declaration + Bylaws (notary) → ministry exists in law
+  - Step 3: EIN for House of Auset (IRS.gov, entity type: church) → ministry has tax ID
+  - Step 4: Relay/Mercury bank account under ministry EIN → ministry treasury operational
+- 8-entity sovereign stack confirmed and fully mapped:
+  - House of Auset (508c1a ministry) — EIN 1 — governing body / holding entity
+  - Auset Solutions LLC (Wyoming) — EIN 2 — active income engine
+  - Erhime Ejofodomi Irrevocable Trust — EIN 3 — minor wealth vault
+  - Erhime's Wyoming LLC — EIN 4 — trust investment engine
+  - Omose Dorgu Irrevocable Trust — EIN 5 — minor wealth vault
+  - Omose's Wyoming LLC — EIN 6 — trust investment engine
+  - Eromosene Ejofodomi Irrevocable Trust — EIN 7 — minor wealth vault
+  - Eromosene Ejofodomi LLC — EIN 8 — trust investment engine (Oct 31 2026 hard deadline)
+- House of Auset confirmed as holding company equivalent — 508c1a status makes it better than a standard holding company (investment gains + upstream LLC distributions operate tax-exempt inside the ministry)
+- Marie founding request letter drafted + emailed to Katelynmarie821@icloud.com — includes 4 verses, Sophia mentioned as third signatory, both signature pages attached (Declaration + Bylaws)
+- Sovereign Entity Stack Complete Framework created: `D.S.E/documents/dse_framework_sovereign-entity-stack-complete_v1.md`
+  - Full stack diagram, EIN map, funding cycle, ministry financial architecture, IBC protocol, offshore pathway, Trust Protector mechanism, execution sequence (17 steps), legal authorities table, Stream B gate
+
+**DECIDED (2026-06-12 Session 6):**
+- House of Auset = the holding company. 508c1a > Wyoming LLC holding company — tax-exempt on all investment and trading income at the top of the stack.
+- Marie = High Priestess (Meri-Ka). Sophia = Elder/Deacon (Seshat). Emoefe = Kheri-Heb. Triad is complete once both sign.
+- Ministry must be formally established (ordination + signed docs + EIN) BEFORE filing NJSA to add it as Trust Protector.
+- Ministry bank account at Relay/Mercury — not Chase, not personal bank — clean EIN-only opening, no ChexSystems.
+
+**NEXT (Session 6 additions):**
+- ULC ordination: ulc.org → free → 2 min → screenshot + save credential
+- Schedule Marie signing (in person or notarized remote) — Sophia outreach follows
+- File House of Auset EIN on IRS.gov same day as founding docs signed (entity type: church)
+- Open ministry Relay account under ministry EIN
+- Proceed to file Auset Solutions Wyoming LLC (wyobiz.wyo.gov, $100 + ~$25 reg agent)
+- Complete 3-track execution: DS-82 passport + ChexSystems dispute + SSN card replacement
+- After ministry established: execute NJSA adding ministry as Trust Protector on all 3 minor trusts
 
 **DONE (2026-06-12 Session 5):**
 - Eromosene Wyoming LLC docs drafted — local only (`D.S.E/documents/trusts/dse_doc_eromosene-wyoming-llc_v1.md`)
