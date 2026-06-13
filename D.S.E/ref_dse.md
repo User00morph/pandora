@@ -23,7 +23,21 @@
 - Active log: `D.S.E/trading/logs/dse_log_trading_2026-06.md`
 - Tool launcher: `tools/stis.py`
 
-Last updated: 2026-06-12 (Session 6)
+Last updated: 2026-06-12 (Session 7)
+
+**DONE (2026-06-12 Session 7):**
+- Marie financial framework explainer drafted — `D.O.M/house-of-auset/dom_doc_marie-financial-framework-explainer_v1.md` (local only)
+  - 6-part plain language breakdown: deliberate obscuring of financial knowledge, EIN mechanics, three entity containers (LLC/Trust/508c1a), full stack assembled, identity layer, what it unlocks
+  - Written as if explaining to someone entering a financial math class — exposes why the complexity is intentional, who wrote the code and for whom, and what the structures actually do in plain terms
+  - Closes with the spiritual-to-material connection: why the House of Auset is more than a financial tool
+- Humanized email version drafted + sent to Katelynmarie821@icloud.com
+  - Subject: "the thing nobody ever taught us — and what it actually unlocks"
+  - Conversational, personal tone — opens with a question, walks through the obscuring first, explains each container in plain language, closes as an invitation not a pitch
+  - Gmail draft ID: r4704659573564342189
+
+**DECIDED (2026-06-12 Session 7):**
+- Marie explainer is a two-layer document: formal framework (local file) + humanized email (Gmail draft sent). Both serve different purposes — file is reference, email is the conversation starter.
+- Financial education framing (deliberate complexity = gatekeeping) is the correct entry point for presenting this to anyone outside the architecture.
 
 **DONE (2026-06-12 Session 6):**
 - Ministry formation sequence fully encoded:
