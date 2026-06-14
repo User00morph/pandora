@@ -23,7 +23,26 @@
 - Active log: `D.S.E/trading/logs/dse_log_trading_2026-06.md`
 - Tool launcher: `tools/stis.py`
 
-Last updated: 2026-06-12 (Session 7)
+Last updated: 2026-06-14 (Session 8)
+
+**DONE (2026-06-14 Session 8):**
+- Full entity stack visual map created — `D.S.E/documents/trusts/dse_visual_sovereign-entity-map_v1.md` (local only — contains minor DOBs)
+  - ASCII architecture diagram: Morph → Ministry → LLC + 3 Trusts → 3 LLCs
+  - Money flow diagram: income → LLC/LLCs → Ministry/Trusts → AFR loan → beneficiary → repay → cycle
+  - Governance layer: ordained minister, trustee, manager, Trust Protector chain
+  - Protection layer: charging order, creditor isolation, no probate
+  - 8-EIN reference table
+  - Stream B gate map: 4-layer structure required before debt discharge deployment
+- NJSA explained: Wyoming §4-10-111 — all interested parties sign to add Trust Protector without court, executed after ministry formally established
+- Debt discharge framework mapped — Stream B gate remains ACTIVE:
+  - Two-monetary-system foundation (1787 constitutional money vs. 1913 FRN debt instruments)
+  - Identity layer: juristic person (civil fiction) vs. natural person — UCC-1 + Form 56 + W-8BEN + Notice of Status required first
+  - Instrument-to-debt matching: student loans (1099-OID), IRS liability (Form 56), mortgage (UCC + bill of exchange), credit card (debt validation), auto (title challenge)
+  - Gate: ministry + trusts + LLC operational + status correction + attorney retained
+
+**DECIDED (2026-06-14 Session 8):**
+- Visual entity map is local-only permanently (contains minor DOBs). Sanitized version already exists in pushed framework doc.
+- Debt discharge is not standalone — the entity stack IS the proper structure required before Stream B opens. Building the stack = building toward the gate.
 
 **DONE (2026-06-12 Session 7):**
 - Marie financial framework explainer drafted — `D.O.M/house-of-auset/dom_doc_marie-financial-framework-explainer_v1.md` (local only)
