@@ -13,7 +13,7 @@
 | Auset Solutions LLC (Sovereign Tech Enterprise) | Nigredo → Albedo | Manufacturing spend SOP live (2026-06-09). NM filing, ausetsolutions.com. | Day 1: file via Bizee → domain → EIN → VoIP → email |
 
 **Sovereign Enterprise Blueprint:** `dse_blueprint_sovereign-enterprise-architecture_v1.md`
-**Entity Stack Blueprint (ACTIVE):** `D.S.E/documents/dse_blueprint_sovereign-entity-stack_morph_v1.md` — 4-phase build, gating criteria, attorney/CPA questions, carrier selection
+**Entity Stack Blueprint (ACTIVE):** `D.S.E/documents/dse_blueprint_sovereign-entity-stack_morph_v1.md` — v2 (2026-06-14): 4-phase build, Week 1 execution checklist (Day 1 through Month 5), PE framework + Pandora mapping, gating criteria, attorney/CPA questions, carrier selection
 **Entity stack brief:** `D.R.D/briefs/drd_brief_dse_private-sector-bihness-sovereign-entity-stack_deployed.md`
 
 **STIS quick refs:**
@@ -23,7 +23,23 @@
 - Active log: `D.S.E/trading/logs/dse_log_trading_2026-06.md`
 - Tool launcher: `tools/stis.py`
 
-Last updated: 2026-06-14 (Session 8)
+Last updated: 2026-06-14 (Session 9)
+
+**DONE (2026-06-14 Session 9):**
+- EIN accounts vs. HYSA — full comparison mapped: entity accounts bypass ChexSystems, FDIC scales to $2M across 8 EINs, D&B Paydex credit building per entity, PE-equivalent compounding vehicles unlocked (Solo 401K $69K/yr, DSCR real estate, cost segregation, QSBS §1202 $10M gain exclusion, private placements, IBC as internal bank)
+- Zelle access mapped — Relay/Mercury have no Zelle; Chase Business Complete is the target (no ChexSystems, soft credit pull only); dual account strategy: Relay (operations) + Chase Business (Zelle receives)
+- Banks with Zelle for business EIN accounts ranked: Chase Business Complete #1, US Bank Silver #2, BofA Business #3
+- Status correction + private national full review — Pandora has 5 layers: identity correction, passport via alt docs, entity buffer, vehicle doctrine, encounter protocol. ARNA body politic elevates individual paperwork to institutional standing. Ministry is the load-bearing wall.
+- Trust "owning" the living person — CQV framework mapped: living man → directs trust → trust holds civil person (EMOEFE DORGU) → civil person operates LLC in commerce → living man unreachable above the chain. 8-entity stack is already the structural expression of this; status correction affidavit is the paperwork that puts it on the record.
+- Dr. Nwosu loan structure — 4 options mapped: (1) her practice LLC loans to Auset Solutions, (2) self-directed 401K private loan, (3) prepaid retainer (cleanest — no loan structure needed), (4) revenue-based financing agreement. Auset Solutions must be registered first.
+- Sole proprietor EIN clarification — living person can get EIN as sole proprietor but no legal separation; LLC/Trust/Ministry EIN = actual separate entity with liability wall
+- Foreign-born SSN holder + 19yr old W-2 sovereign architecture mapped (Session 9 new work)
+
+**DECIDED (2026-06-14 Session 9):**
+- Prepaid retainer from Dr. Nwosu is the cleanest capital path — no loan documentation, her practice deducts it, no personal funds involved
+- Chase Business Complete is the Zelle target — apply under LLC EIN after Wyoming Articles filed
+- Dual banking: Relay (stack operations) + Chase Business (Zelle/client-facing)
+- CQV trust holding the civil person is structurally already in place via the entity stack — status correction affidavit makes it explicit on the record
 
 **DONE (2026-06-14 Session 8):**
 - Full entity stack visual map created — `D.S.E/documents/trusts/dse_visual_sovereign-entity-map_v1.md` (local only — contains minor DOBs)
