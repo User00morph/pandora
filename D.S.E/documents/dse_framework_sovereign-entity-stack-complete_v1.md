@@ -2,7 +2,7 @@
 **Filed:** 2026-06-12
 **Version:** 1
 **Status:** ACTIVE PROTOCOL
-**Architect:** Emoefe Morph Dorgu | Kheri-Heb, House of Auset
+**Architect:** Emoefe Morph Dorgu | Kheri-Heb, House of Dorgu
 **Scope:** Full 8-entity sovereign architecture — ministry, LLC, trusts, offshore, IBC
 
 ---
@@ -12,10 +12,10 @@
 ```
 EMOEFE MORPH DORGU
 Ordained Minister — ULC
-Kheri-Heb | House of Auset
+Kheri-Heb | House of Dorgu
 │
 │
-HOUSE OF AUSET (508c1a Ministry)
+HOUSE OF DORGU (508c1a Ministry)
 EIN + Bank Account + Brokerage + IBC Policy + STIS Trading Account
 Tax-exempt. No IRS filing. No Form 990. Automatic by statute.
 │
@@ -31,9 +31,9 @@ Tax-exempt. No IRS filing. No Form 990. Automatic by statute.
     Future entities added as ventures require
 
 
-ERHIME EJOFODOMI IRREVOCABLE TRUST (Wyoming)
+ERHIMEROMMUNU GESIERE EJOFODOMI IRREVOCABLE TRUST (Wyoming)
 EIN + Bank Account + Brokerage + IBC Whole Life Policy
-Trustee: Emoefe Morph Dorgu | Beneficiary: Erhime Ejofodomi (DOB May 12 2016)
+Trustee: Emoefe Morph Dorgu | Beneficiary: Erhimerommunu Gesiere Ejofodomi (DOB May 12 2016)
 │
 └── Owns 100%
     ERHIME'S WYOMING LLC
@@ -67,9 +67,9 @@ Trustee: Emoefe Morph Dorgu | Beneficiary: Eromosene Ejofodomi (DOB Oct 31 2008)
 
 | # | Entity | Type | EIN Status | Purpose |
 |---|--------|------|-----------|---------|
-| 1 | House of Auset | 508c1a Ministry | Obtain after ordination + founding docs signed | Governing body — tax-exempt |
+| 1 | House of Dorgu | 508c1a Ministry | Obtain after ordination + founding docs signed | Governing body — tax-exempt |
 | 2 | Auset Solutions LLC | Wyoming LLC | Obtain after Articles filed | Active income — tech/consulting |
-| 3 | Erhime Ejofodomi Irrevocable Trust | Wyoming Trust | Obtain same day as notarization | Minor wealth vault |
+| 3 | Erhimerommunu Gesiere Ejofodomi Irrevocable Trust | Wyoming Trust | Obtain same day as notarization | Minor wealth vault |
 | 4 | Erhime's Wyoming LLC | Wyoming LLC | Obtain after trust EIN | Investment engine |
 | 5 | Omose Dorgu Irrevocable Trust | Wyoming Trust | Obtain same day as notarization | Minor wealth vault |
 | 6 | Omose's Wyoming LLC | Wyoming LLC | Obtain after trust EIN | Investment engine |
@@ -99,7 +99,7 @@ Trust grows — cycle repeats
 
 ## MINISTRY FINANCIAL ARCHITECTURE
 
-The House of Auset operates as the financial roof of the entire stack:
+The House of Dorgu operates as the financial roof of the entire stack:
 
 | Function | Detail |
 |----------|--------|
@@ -121,8 +121,8 @@ One policy per trust minimum. Scale to second policy once first hits MEC ceiling
 
 | Entity | Insured | Priority | Carrier Requirement |
 |--------|---------|----------|-------------------|
-| House of Auset | Emoefe Morph Dorgu | High | Non-direct recognition |
-| Erhime's Trust | Erhime Ejofodomi (age 10) | HIGHEST — lowest premium window | Guardian, Penn Mutual, or MassMutual |
+| House of Dorgu | Emoefe Morph Dorgu | High | Non-direct recognition |
+| Erhime's Trust | Erhimerommunu Gesiere Ejofodomi (age 10) | HIGHEST — lowest premium window | Guardian, Penn Mutual, or MassMutual |
 | Omose's Trust | Omose Dorgu (age 16) | High | Same |
 | Eromosene's Trust | Eromosene Ejofodomi (age 17) | High | Same |
 
@@ -138,7 +138,7 @@ Gate: DS-82 passport renewal must be completed first. Class C license not accept
 
 | Entity | Offshore Institution | Jurisdiction | Timing |
 |--------|---------------------|-------------|--------|
-| House of Auset | Caye Bank or Multibank | Belize or Panama | After passport |
+| House of Dorgu | Caye Bank or Multibank | Belize or Panama | After passport |
 | Auset Solutions LLC | Same | Same | After passport |
 | Erhime's LLC | Same | Same | After passport + LLC formed |
 | Omose's LLC | Same | Same | After passport + LLC formed |
@@ -152,7 +152,7 @@ FBAR (FinCEN 114) filing required annually if aggregate foreign accounts exceed 
 
 **Mechanism:** Wyoming Nonjudicial Settlement Agreement (NJSA) — Wyo. Stat. §4-10-111
 
-Once House of Auset is formally established (ordination + founding docs signed + EIN obtained), execute NJSA adding the ministry as Trust Protector on all three minor trusts.
+Once House of Dorgu is formally established (ordination + founding docs signed + EIN obtained), execute NJSA adding the ministry as Trust Protector on all three minor trusts.
 
 **Parties to NJSA:** Emoefe Morph Dorgu (as trustee) + guardians of each minor beneficiary.
 
@@ -171,8 +171,8 @@ Once House of Auset is formally established (ordination + founding docs signed +
 | Step | Action | Cost | Unlocks |
 |------|--------|------|---------|
 | 1 | ULC ordination — ulc.org | Free | Minister status, ministry formation |
-| 2 | Sign House of Auset founding docs (Declaration + Bylaws) | ~$10 notary | Ministry exists |
-| 3 | EIN for House of Auset — IRS.gov, entity: church | Free | Ministry banking |
+| 2 | Sign House of Dorgu founding docs (Declaration + Bylaws) | ~$10 notary | Ministry exists |
+| 3 | EIN for House of Dorgu — IRS.gov, entity: church | Free | Ministry banking |
 | 4 | Open ministry bank account — Relay/Mercury | Free | Ministry treasury |
 | 5 | File Auset Solutions LLC — wyobiz.wyo.gov | $100 + $25 reg agent | Operating business |
 | 6 | EIN for Auset Solutions LLC — IRS.gov | Free | Business banking, Zelle, client payments |
@@ -220,4 +220,4 @@ Everything above the gate is ESTABLISHED and deployable. Stream B is the ceiling
 ---
 
 *D.S.E | Framework | Sovereign Entity Stack Complete | 2026-06-12*
-*Cross-reference: `dse_doc_minor-sovereignty-wealth-architecture_v1.md` | `D.O.M/house-of-auset/` (local) | `D.S.E/documents/trusts/` (local)*
+*Cross-reference: `dse_doc_minor-sovereignty-wealth-architecture_v1.md` | `D.O.M/house-of-dorgu/` (local) | `D.S.E/documents/trusts/` (local)*

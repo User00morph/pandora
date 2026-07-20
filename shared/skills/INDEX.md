@@ -39,6 +39,7 @@ These skills are loaded on demand by departments at specific workflow stages. Th
 | Voice Architecture | `skill_voice-architecture.md` | D.C.E, D.S.E |
 | Layer Triage | `skill_layer-triage.md` | D.S.C, D.S.E, D.I.I, D.R.D |
 | Workspace Builder | `skill_workspace-builder.md` | D.S.C, D.S.E, D.I.I |
+| Etymology Decoder | `skill_etymology-decoder.md` | D.R.D, D.S.E, D.O.M, D.P.S.A |
 
 ---
 

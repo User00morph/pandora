@@ -345,10 +345,13 @@ dpsa_doctrine_[name].md
 |-------|-------|------------|---------|
 | US Corporation / Sovereign Living Entity | [`drd_brief_dpsa_us-corporation-sovereign-living-entity_deployed.md`](../D.R.D/briefs/drd_brief_dpsa_us-corporation-sovereign-living-entity_deployed.md) | Mixed (Established core + Probable mechanisms) | 2026-05-27 (updated) |
 | Executor of Estate / Sovereign Stack | [`drd_brief_dse-dpsa-dom_executor-estate-sovereign-stack_deployed.md`](../D.R.D/briefs/drd_brief_dse-dpsa-dom_executor-estate-sovereign-stack_deployed.md) | Mixed (ESTABLISHED instruments + PROBABLE effects + CONTESTED court outcomes) | 2026-06-02 |
+| Amber Collection — Divine Feminine, Bloodline & Identity Guardrail | [`drd_brief_dpsa_amber-divine-feminine-bloodline-identity_deployed.md`](../D.R.D/briefs/drd_brief_dpsa_amber-divine-feminine-bloodline-identity_deployed.md) | Mixed (Isis/Mary Magdalene ESTABLISHED, 3rd convergence; Black Madonna PROBABLE; bloodline claim stands on existing OS Tier 1 evidence) | 2026-07-04 |
 
 Key findings for D.P.S.A: Identity fork at birth (legal PERSON ≠ living being); language is a spell ("govern" = control + mind); manifestation = God-energy you were born with (unlearn limits, don't acquire); "I can't" = "I choose not to"; trauma locks the abundance channel; sovereignty = Kings (external) + Priests (internal); the Aquarian Age is the optimal window for sovereignty activation — Morph at 20 = maximum leverage position.
 
 Executor brief adds: Without asserting executor status you are *functionally* non-compos mentis — the system acts on your behalf by default. Becoming the executor is as much a consciousness event as a legal filing. The inner identity work (knowing you are the executor, not the estate) is the D.P.S.A layer that makes the D.S.E filings hold. "Sovereignty is not illegal — it is divine right."
+
+Amber brief adds: Isis-as-independent-creator-force and "Mary as antenna" extend the four sovereign-feminine capacities already identified in the VID-47 cross-reference (hold / receive feedback / remain open without losing structure / create from coherence) with a documented ancient-textual anchor. **Hard guardrail:** literal 12-strand DNA / hybrid-bloodline claims are false biochemistry, same risk category as the Rh-negative mythology already purged from this department's identity work — do not let it in here, even though the symbolic/kundalini reading is fine as D.O.M practice doctrine. QUARANTINED and tabled (no D.P.S.A action): a trans/LGBT-as-soul-imprisonment claim from the same source — held, not integrated, per Morph's 2026-07-04 instruction.
 
 ---
 

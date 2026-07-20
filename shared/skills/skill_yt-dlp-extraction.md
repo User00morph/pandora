@@ -339,11 +339,30 @@ DECODED: drd_decode_tech-playlist-tier1-agentic-systems_v1.md
 KEY OUTPUTS: CLI/MCP decision rule, 4 context strategies (WSCI), local model stack
   (Ollama + OLLMCP + Zapier MCP), Hub+Spoke orchestration, Graph RAG architecture
 
-REMAINING (Tier 2-4 — not yet extracted, 30 videos):
-  Tier 2: Sell Claude Code to Businesses, Senior Engineers + AI, $5K in 7 Days,
-           System Design (APIs/DBs/CDNs), LM Studio
-  Tier 3: DACM/Akash (decentralized AI compute), Linux, Origin Pilot Quantum OS
-  Tier 4: Alex Gladstein (decentralized tech freedom), DeFi animated, Privacy
+UPDATE 2026-06-20: Playlist re-checked, now 40 videos total (was ~35). Tier 2 monetization/LM
+Studio/TradingView already decoded separately (drd_decode_tech-playlist-tier2-monetization-local-ai-tradingview_v1.md).
+
+Tier 3 (4 videos, home-server/local-AI-hardware) EXTRACTED + DECODED 2026-06-20:
+  Turning an Old Laptop into a Home Server! (2026)      → ~6,941 words
+  Olares One: Run AI Locally + Self-Host Everything     → ~4,044 words
+  The Local AI Hardware Mistake Everyone Makes          → ~4,681 words
+  Awesome AI models on Flash Drive or SSD. GSN Offline. → ~3,493 words
+  TOTAL TIER 3: ~19,159 words across 4 videos
+  DECODED: drd_decode_tech-playlist-tier3-home-server-hardware_v1.md
+  KEY OUTPUTS: Ubuntu Server + CasaOS as alt to Proxmox, Tailscale > playit.gg for remote
+    access, Mac Mini vs. NVIDIA rig tension logged, Olares One appliance tracked, MoE model
+    priority (Qwen 3.6 35B-class) for speed
+
+REMAINING (not yet extracted — still queued):
+  System Design (APIs/DBs/CDNs) ×2 (duplicate-length entries), Senior Engineers + AI (3:58:18,
+    flagged for targeted processing not full load), $5K in 7 Days, Sell Claude Code to Local
+    Businesses, DACM/Akash (decentralized AI compute), Origin Pilot Quantum OS, Linux
+    (Women in Linux), Alex Gladstein, DeFi animated, Privacy (BSidesCache), OpenClaw Deep Dive,
+    LLM Wiki in Obsidian, CloakBrowser, Claude Cowork, credit repair hack, Every AI Agent Hack,
+    How Computers Work (11h54m — long-form, targeted processing only), How Python Actually Works,
+    ML Trading Indicator in Python, AI Industrial Revolution, Jaron Lanier interview,
+    Scientific Dialogue on Future of AI, DeepSeek's New AI, Data Analyst career video,
+    First $10K with Claude
 
 ---
 

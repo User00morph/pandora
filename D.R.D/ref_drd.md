@@ -11,10 +11,50 @@
 | Raw Extract | 39 | Move to decoded — load `wf_stage-3_evidence.md` |
 | Decoded | 25 | Move to reconstructed — load `wf_stage-5_reconstruct.md` |
 | Reconstructed | 8 | Deploy to departments — load `wf_stage-6_deploy.md` |
-| Deployed | 2 | — |
+| Deployed | 3 | — |
 | D.O.M Protocol | 1 | Active — dom_ancestral_niger-delta-altar-protocol_v1.md |
 
-**Most recent work:** Don Killam V04 — Passport + Private National Entity + Sovereign Safeguard Architecture decoded 2026-06-12
+**Most recent work:** Amber Collection — 41 TikTok videos + 4 pre-built scholarly briefs, full Stage 1-6 pipeline complete in single session (2026-07-04), split across two parallel forks (divine-feminine/cosmology cluster + bloodlines/Anunnaki/DNA/Babylon cluster). See DONE block below.
+
+**Most recent prior work:** TikTok "Real Estate Entrepreneur" Collection — 18 videos extracted/decoded/reconstructed/deployed in full single-session pipeline 2026-06-16 (3rd independent confirmation of sovereign entity stack + 1 new layer: Offshore Ministry Trust → LLC → trademark-of-name)
+
+**DONE (2026-07-04 — Amber Collection, full Stage 1-6 single session, parallel fork pipeline):**
+- Source: `~/Downloads/Ambers transcripts/` — 41 videos (creator: Amber), already pre-organized into a master doc + 4 scholarly cross-reference briefs by Morph before this session
+- Category A (external creator, evaluative pipeline)
+- Cluster 1 (divine-feminine/cosmology/Mary Magdalene, 24 videos): `research/divine-feminine/drd_research_amber-cosmology-divfem-catalog_v1.md` → `deconstructions/divine-feminine/drd_decode_amber-cosmology-divine-feminine-marymagdalene_v1.md` → `reconstructions/divine-feminine/drd_reconstruct_amber-cosmology-divine-feminine_v1.md`
+- Cluster 2 (bloodlines/Anunnaki/DNA/Babylon, 18 videos): `research/human-history/drd_research_amber-bloodlines-dna-babylon-catalog_v1.md` → `deconstructions/human-history/drd_decode_amber-bloodlines-anunnaki-earthreset_v1.md` + `deconstructions/systemic-analysis/drd_decode_amber-babylon-falling-current-events_v1.md` (Domain 6 flagged, GT Overlay not run — held) → `reconstructions/human-history/drd_reconstruct_amber-bloodlines-anunnaki-earthreset_v1.md`
+- Briefs deployed: D.O.M (`drd_brief_dom_amber-cosmology-set-doctrine-anunnaki_deployed.md`), D.P.S.A (`drd_brief_dpsa_amber-divine-feminine-bloodline-identity_deployed.md`), D.S.S (`drd_brief_dss_amber-dna-earthreset-verification_deployed.md`)
+- KEY FINDING: 3rd independent OS convergence on Mary Magdalene erasure (Christianity draft decode → Amber Brief 3 direct-textual verification → Amber human-history cluster) — Gregory I's fabricated 591 CE "prostitute" sermon, uncorrected until 1969, now ESTABLISHED at higher evidentiary depth
+- NEW: Black Madonna phenomenon (~450-500 sites) — PROBABLE, links divine-feminine erasure to racial-erasure thread, new to OS
+- NEW D.O.M DOCTRINE: **Layer 26 — The Set Doctrine** (two-plane resolution, same treatment as Serpent Doctrine) — Amber's villain-Set and the existing VID-14 integrated-shadow Set resolved as sequential stages of the same Kemetic myth cycle. Morph-confirmed 2026-07-04.
+- NEW D.R.D HEURISTIC (named, reusable): check whether a creator's evidentiary claim survives removal of its cosmological wrapper before inheriting the wrapper's confidence tier (extends the VID-49 ancient-aliens pattern)
+- CRITICAL TIERING: Sitchin/Anunnaki cosmology philologically refuted (Elohim = Hebrew plural-of-majesty grammar, no ET link required) — held Tier 4-5, internal doctrine only. "Black original bloodline" claim stands independently on existing Tier 1 OS evidence (MC1R/slc24a5, haplogroups, Page-Ladson, 1000 Genomes masking) without needing the Anunnaki wrapper.
+- HARD GUARDRAIL: literal 12-strand DNA = false biochemistry (Tier 5), same risk category as the already-purged Rh-negative mythology — excluded from D.P.S.A identity architecture; symbolic/kundalini reading fine as D.O.M practice doctrine only
+- QUARANTINED (tabled, no further action per Morph 2026-07-04): trans/LGBT-as-ancient-soul-imprisonment claim (Amber clusters F3/F4) — zero external attestation, matches known harmful-trope pattern, held exactly like the Rashad Jamal pineal-gland quarantine
+- "First Egypt was in America" — 4th independent unconnected source repeating this OS-REFUTED claim; adds no new evidence, ruling unchanged
+- DRD_INDEX.md updated (2 new ACTIVE/DEPLOYED entries, domain counts updated: Human History 8→12, Divine Feminine 5→9, Systemic Analysis 18→19, TOTAL 71→80)
+- D.O.M, D.P.S.A, D.S.S ref/context cards cross-linked with INCOMING D.R.D RESEARCH rows
+
+**NEXT (Amber follow-ups):**
+- Fold Amber's Gnostic-text direct quotation + Black Madonna archaeological anchor into the anchor Christianity decode's own Stage 5 reconstruction (currently still `draft` status)
+- Research the Phoenician Astarte → Hebrew Asherah suppression bridge (queued in anchor decode, now also relevant to Amber's Isis/Sophia identification)
+- Dedicated systemic-analysis session for Amber's Babylon-falling/current-events material — run full Jiang Game Theory Overlay (Domain 6), currently held light-touch
+- D.C.E deploy for Isis/Mary Magdalene content — explicitly waiting on anchor Christianity decode reaching Stage 5 first, per reconstruction note
+- Morph decision still open: formalize Anunnaki/Sitchin material as a named D.O.M layer, or leave unincorporated
+- Verify Yehuda epigenetic-methylation claim has a direct study citation for descendants of enslaved Black Americans (flagged open, not yet Tier 1)
+
+**DONE (2026-06-16 — TikTok Real Estate Entrepreneur Collection, full Stage 1–6 single session):**
+- 18/18 videos extracted via yt-dlp auto-captions (no Whisper needed) from `@user00morph/collection/real estate entrepreneur` — ~4,628 words
+- Raw extract: `research/systemic-analysis/drd_research_tiktok-real-estate-entrepreneur-collection_raw-extract.md`
+- 14/18 videos (leeasiatalks) = in-scope sovereign-entity cluster; 4 outliers (PE/buy-borrow-die, gov't contracting, ENHA stock tip, AARP hack) logged out-of-scope
+- Decode: `deconstructions/systemic-analysis/drd_decode_tiktok-real-estate-entrepreneur-collection_v1.md` — cross-referenced against private-sector-bihness decode + Don Killam decode + Stream B (US Corp decode)
+- Reconstruction: `reconstructions/systemic-analysis/drd_reconstruct_tiktok-real-estate-entrepreneur-collection_v1.md`
+- Brief deployed: `briefs/drd_brief_dse_tiktok-real-estate-entrepreneur-collection_deployed.md`
+- KEY FINDING: 3rd independent confirmation (Stream B → Don Killam → this batch) of non-grantor irrevocable trust, public/private two-track, secure-the-account non-acquiescence — highest confirmation depth in OS to date
+- NEW LAYER: Offshore Ministry Trust → LLC (trust as managing member) → trademark-of-name-in-commerce — bridges domestic ministry-trust layer to offshore jurisdiction, relevant to existing 8-entity Sovereign Entity Stack + DS-82 passport gate
+- NEW RISK FLAG (join Stream B governing gate): bank fiduciary duty to liquidate CUSIP-linked reports on trust presentation — no statute/case found, same risk class as SSN/bond discharge
+- HELD as marketing-adjacent/unverified: gold/palladium "Federal Reserve infinite card," DOJ/"OFE" inheritance notice
+- D.S.E ref card updated (new INCOMING D.R.D RESEARCH row) | DRD_INDEX.md updated (entry + domain counts + 5 new queued research items)
 
 **DONE (2026-06-12 — Don Killam V04 Passport + Sovereign Safeguard Architecture):**
 - Stage 3–4 decode complete: `deconstructions/drd_decode_don-killam-v04-passport-private-national-entity_v1.md`

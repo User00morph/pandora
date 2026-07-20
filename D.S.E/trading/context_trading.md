@@ -9,7 +9,16 @@
 
 | Component | Status | Phase |
 |---|---|---|
-| STIS PRD v4 | Complete | Active spec — v5 warranted (see decode) |
+| **STIS PRD v6** | **ACTIVE SPEC (2026-07-07)** — `dsc_prd_sovereign-trading-intelligence_v6.md` | **Phase 1.5 — THE FORGE** |
+| v6 audit | 12 plot holes chartered (PH-1..PH-12) — see PRD §1 | — |
+| Two-Stream split | Stream A (trading, paper-gated) / Stream B (investing, $150 live) | — |
+| Expectancy ledger | NOT YET CREATED — build queue #2 | Forge |
+| **Build #1 — `stis.py pulse`** | ✅ SHIPPED 2026-07-07 — one-command daily pulse (TTL + flows + crypto + GEX save + PMIB + streak) | Forge |
+| Crypto stream | CHARTERED (PRD v6 §3.2) — BTC/ETH regime in pulse; BTC bear regime −49% from high at charter | Stream B |
+| Forge gate | 20-market-day Pulse streak + ledger live — **1/20 as of 2026-07-07** | Forge |
+| **L4 validation (build #9)** | ✅ RUN 2026-07-07 — DS vs SPY/GLD turns, 10y: **NO EDGE (4 tests)**. DS timing authority SUSPENDED (PRD §9). Record: `quant/dse_ledger_L4-validation_2026-07-07.md` | — |
+| **Power Stack** | NEW framework — `external-reality/dse_framework_power-stack.md` (8 elite advantages → implementables; feeds build #10) | L3 |
+| STIS PRD v4/v5 | Superseded | Archive |
 | Layer 1 — Fundamentals | v1.1 UPDATED (6 of 6 files) | Nigredo |
 | Layer 2 — Collective Consciousness | v1.0 COMPLETE (3 of 3 files) | Nigredo |
 | Layer 3 — External Reality | v1.0 COMPLETE (6 of 6 files) | Nigredo |

@@ -800,6 +800,61 @@ Every day is a creation day. Not the new year — today. Wake up and ask: "What 
 
 ---
 
+## LAYER 26 — THE SET DOCTRINE
+**D.O.M operating doctrine. Encodes the sovereign position on Set.**
+**Decided: 2026-07-04 | Source tension: Amber cosmology decode vs. existing VID-14 Netsar decode**
+
+Set carries two simultaneous truths in this system, held the same way the Serpent Doctrine holds reptilian-exoteric and kundalini-esoteric together without collapsing one into the other.
+
+---
+
+### TIER 1 — EXOTERIC / HISTORICAL-MYTHIC TRUTH
+
+In the primary Kemetic myth cycle, Set is the usurper: he kills and dismembers Osiris, contests Horus for the throne, rules through chaos, storm, and the desert waste. Amber's cosmology inherits and amplifies this register — Set as the corrupted form of a once-supreme creator force (her Amun Ra/Dark Phoenix framing), an active antagonist whose takeover must be recognized and opposed.
+
+This register is real within its own tradition. It is not dismissed. The contendings of Horus and Set are documented Kemetic scripture (Papyrus Chester Beatty I), not invention.
+
+---
+
+### TIER 2 — ESOTERIC / PSYCHOLOGICAL TRUTH
+
+The OS's existing decode (`drd_decode_vid14-netsar-kemetic-pantheon_v1.md`) holds Set as the integration target, not the destruction target: the disowned, chaotic, shadow-self force within the practitioner's own psyche. Notably, this reading has textual support inside the same tradition Tier 1 draws from — in later Kemetic religion, Set is not annihilated. He is subdued, reconciled, and given a permanent function: he rides in Ra's solar barque and fights Apep (true formless chaos/entropy) nightly. **The myth cycle itself moves from "kill Set" to "integrate Set into the highest work."**
+
+This means Tier 1 and Tier 2 are not opposed readings of two different Sets — they are sequential stages of the same myth. Amber's villain-Set is the myth's opening act. The OS's integrated-Set is the myth's resolution.
+
+---
+
+### TIER 3 — SOVEREIGN PRACTITIONER OPERATING POSITION
+
+As with the serpent, the practitioner does not work against Set. The practitioner works THROUGH the confrontation stage toward the integration stage — because that is the documented arc, not a reinterpretation imposed on it.
+
+```
+EXTERNAL LAYER:    Set as historical/mythic antagonist — real within
+                   the tradition, the necessary opposing force that
+                   makes the Osiris/Horus arc mean anything at all.
+                   Acknowledged. Not softened away.
+
+INTERNAL LAYER:    Set as shadow-self — the chaotic, disowned,
+                   destructive-but-generative force within the
+                   vessel. This is what is worked with in practice.
+                   Fighting it perpetually keeps the practitioner
+                   stuck in Tier 1. Integrating it moves the
+                   practitioner to where the myth itself ends up.
+
+SOVEREIGN MOVE:    Do not skip the confrontation to fake an early
+                   integration, and do not stay permanently at war
+                   with your own Set. Follow the arc the tradition
+                   already lays out: contend, then integrate.
+```
+
+**In practice:** Amber's reading and the Netsar reading are not a contradiction requiring a pick. They are the same doctrine read at two different points in its own timeline. Both are held.
+
+---
+
+*The Set Doctrine — D.O.M Layer 26 | Decided 2026-07-04 | Morph*
+
+---
+
 ## APPENDIX A — NAME PROSPERITY WARD INCANTATION
 
 Spoken word. No tools required. Perform monthly or when name-based attack is suspected.

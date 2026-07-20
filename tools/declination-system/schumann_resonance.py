@@ -35,13 +35,22 @@ WIND_URL  = "https://services.swpc.noaa.gov/json/rtsw/rtsw_wind_1m.json"
 KP_3H_URL = "https://services.swpc.noaa.gov/json/geospace/geospace_3_hour_kp.json"
 
 
+def _ssl_context():
+    import ssl
+    try:
+        import certifi
+        return ssl.create_default_context(cafile=certifi.where())
+    except ImportError:
+        return ssl.create_default_context()
+
+
 def fetch_json(url: str, timeout: int = 15):
     req = urllib.request.Request(url, headers={
         'User-Agent': 'PandoraOS-STIS/1.0 (educational use)',
         'Accept': 'application/json',
     })
     try:
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
+        with urllib.request.urlopen(req, timeout=timeout, context=_ssl_context()) as resp:
             return json.loads(resp.read().decode('utf-8'))
     except Exception as e:
         print(f"  [FETCH ERROR] {url}: {e}")
@@ -56,10 +65,12 @@ def get_current_kp() -> dict:
 
     # Data is a list; most recent entry last
     recent = data[-1] if data else {}
-    kp = recent.get('kp_index') or recent.get('kp') or recent.get('Kp')
+    kp = next((recent[k] for k in ('estimated_kp', 'kp_index', 'kp', 'Kp')
+               if recent.get(k) is not None), None)
     time_tag = recent.get('time_tag') or recent.get('observed_time')
     try:
-        kp_float = float(str(kp).rstrip('PpGg')) if kp is not None else None
+        # strings arrive like '0Z', '3P', '4M' — strip the trailing qualifier
+        kp_float = float(str(kp).rstrip('ZzPpMmGg')) if kp is not None else None
     except (ValueError, TypeError):
         kp_float = None
     return {'kp': kp_float, 'time_utc': time_tag, 'raw': recent}

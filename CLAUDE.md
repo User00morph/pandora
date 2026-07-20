@@ -163,6 +163,8 @@ Skills are reusable process files in `shared/skills/` loaded at specific workflo
 | Capability Routing | `skill_capability-routing.md` | ALL — load when task type or output mode is unclear |
 | YT-DLP Extraction | `skill_yt-dlp-extraction.md` | D.R.D, D.I.I, D.S.S, D.C.E, D.S.E — load when processing YouTube content |
 | Workflow Engineering | `skill_workflow-engineering.md` | D.S.C, D.I.I, D.S.E — load before any automation or build decision (Effort-to-Output Ladder + 60/30/10 rule) |
+| Etymology Decoder | `skill_etymology-decoder.md` | D.R.D, D.S.E, D.O.M, D.P.S.A — load when decoding statutory/root term meaning against current usage (Black's Law cross-ref, Kemetic roots) |
+| Fiduciary, Trust & Corporate Law Intelligence | `skill_fiduciary-corporate-law.md` | D.S.E, D.R.D, D.I.I, D.O.M — load when forming/restructuring entities or trusts, analyzing UBIT/grantor-trust exposure, or drafting trust/entity instruments. Analysis only — never substitutes for a licensed attorney before execution. |
 
 ## PRD Pattern
 

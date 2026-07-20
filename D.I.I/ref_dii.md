@@ -10,6 +10,11 @@
 | Pandora OS infrastructure | 🔴 RUBEDO | Active — agents + MCPs in build |
 | Auset Daemon (ductor) | 🔴 RUBEDO | LIVE 2026-06-06 — 24/7 persistent agent, Telegram-connected |
 
+## SESSION LOG — 2026-07-18
+- DONE: OptiPlex 5040 "Vault" build SOP written → `dii_SOP_optiplex-5040-build_v1.md` (6 phases: parts harvest → OS → base layer → AI services → cloud services → backup → command-layer wiring).
+- DECIDED (earlier today, encoded in SOP): 2-server split — 5040 absorbs Vault+Engine roles; OptiPlex #2 = parts donor only (DDR3L RAM + Intel E1G42ETBLK NIC), chassis retired; CyberPower donates GTX 1050 → becomes "The Archive" (Restic target, wake-on-schedule).
+- NEXT: (1) Execute SOP Phase 0 — parts harvest + 5040 RAM/storage verification (storage gate: SSD purchase if HDD). (2) Envy Node 4 wipe + build SOP. (3) Sync `dii_blueprint_sovereign-hardware-stack_v1.md` + roadmap to revised topology (both stale).
+
 ## SESSION LOG — 2026-06-09
 - DONE: Tech Playlist Tier 1 (5 videos, ~48,835 words) fully extracted + decoded. Raw extracts filed in `D.R.D/research/tech-decentralization/`. Decode: `drd_decode_tech-playlist-tier1-agentic-systems_v1.md`.
 - DONE: CLI/MCP decision rule established. 4 context strategies (WSCI) decoded. Local model stack (Ollama + OLLMCP + Zapier MCP) confirmed. Hub+Spoke orchestration architecture mapped. GraphRAG architecture assessed.

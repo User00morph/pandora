@@ -3,7 +3,7 @@ D.P.S.A/natal/dpsa_natal_morph_birthdata.md
 m.d
 
 # Ministry founding documents — real names, officer structure (local only, never push)
-D.O.M/house-of-auset/
+D.O.M/house-of-dorgu/
 
 # Ancestral knowledge captures — personal/family data (local only, never push)
 D.O.M/ancestral/
@@ -14,8 +14,14 @@ D.S.E/clients/
 # Personal legal documents — disputes, personal identifying info (local only, never push)
 D.S.E/documents/dse_doc_*
 
+# Identity theft report — personal identifying info (local only, never push)
+IDTheftReport_*.pdf
+
 # Trust documents — real names, DOBs, addresses (local only, never push)
 D.S.E/documents/trusts/
+
+# Decode briefs naming minor beneficiaries — local only, never push
+D.R.D/deconstructions/drd_decode_ig-reel-trust-lien-umbrella-protocol_v1.md
 
 # Raw audio/video data — too large for GitHub, stored locally only
 *.mp4

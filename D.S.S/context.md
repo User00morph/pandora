@@ -281,5 +281,15 @@ dss_anomaly_[phenomenon].md
 
 ---
 
+## INCOMING D.R.D RESEARCH
+
+| Topic | Brief | Confidence | Deployed |
+|-------|-------|------------|---------|
+| Amber Collection — DNA / Epigenetics / Earth-Reset Verification | [`drd_brief_dss_amber-dna-earthreset-verification_deployed.md`](../D.R.D/briefs/drd_brief_dss_amber-dna-earthreset-verification_deployed.md) | Mixed — literal 12-strand DNA REFUTED (Tier 5); MC1R/slc24a5 melanin science ESTABLISHED (independent corroboration); Yehuda epigenetic-methylation claim OPEN (unverified) | 2026-07-04 |
+
+Key findings: literal 12-strand DNA has no molecular mechanism — Tier 5, same risk category as the Rh-negative mythology already purged elsewhere in the OS; symbolic/epigenetic-activation reading only. Open verification item flagged HIGH if it becomes load-bearing: no direct citation found yet for Yehuda-style epigenetic-methylation findings specifically in descendants of enslaved Black Americans — do not treat as established until checked.
+
+---
+
 *D.S.S | Pandora OS | Department 8 of 12*
 *"The suppression of knowledge is a historical fact. The recovery of it requires the same rigor as its original production."*

@@ -29,7 +29,7 @@ KEMETIC PRIVATE MINISTRY TRUST
   ← Files: nothing (unincorporated, exempt)
 
 AUSET SOLUTIONS LLC → S-Corp (Form 2553, Phase 3 gate)
-  ← NM filing, EIN, ausetsolutions.com
+  ← WY filing, EIN, ausetsolutions.com
   ← Revenue: agentic engineering, ICM workflow builds,
      dev software, automation cultivation, vibe coding services
   ← Accounting method: ACCRUAL (Form 3115, file at Phase 3)
@@ -76,20 +76,107 @@ WHOLE LIFE POLICY (inside ILIT)
 **Gate:** Day 1. No revenue threshold required.
 
 **Actions:**
-- [ ] File Auset Solutions LLC (NM via Bizee)
+- [ ] File Auset Solutions LLC (WY via wyobiz.wyo.gov)
 - [ ] Obtain EIN (IRS online — same day)
 - [ ] Open business bank account under LLC EIN
 - [ ] Set up VoIP number (business line)
 - [ ] Domain: ausetsolutions.com (already acquired)
 - [ ] Route ALL incoming cash through LLC account — no personal receipt
 - [ ] Establish Kemetic Private Ministry Trust
-  - Docs already drafted: `D.O.M/house-of-auset/`
-  - Review `dom_bylaws_house-of-auset_v1.md` + `dom_founding-declaration_house-of-auset_v1.md`
+  - Docs already drafted: `D.O.M/house-of-dorgu/`
+  - Review `dom_bylaws_house-of-dorgu_v1.md` + `dom_founding-declaration_house-of-dorgu_v1.md`
   - Sign and date both documents. Witness or notarize.
   - No state filing. No attorney required. Common law only.
 - [ ] S-Corp election → HOLD (below $40K/year threshold — overhead exceeds benefit)
 - [ ] ILIT → HOLD (requires attorney + CPA — premature)
+- [ ] Personal trust → HOLD (Phase 2 gate — build when assets exist to protect)
 - [ ] Trading LLC → HOLD (no capital to trade — build and validate STIS automation first)
+
+---
+
+**PHASE 1 — WEEK-BY-WEEK EXECUTION**
+
+```
+MONDAY JUNE 16 — DAY 1 (all five actions same day)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+□ ULC ordination
+    ulc.org → Get Ordained → free, 5 min
+    Ororodekeme = ordained minister, permanent
+    Print certificate. File with House of Dorgu docs.
+
+□ File Auset Solutions LLC
+    wyobiz.wyo.gov → Wyoming → $100 + Northwest Registered Agent (~$25/yr)
+    Registered agent: Northwest Registered Agent (WY)
+    Manager-managed, single member: Ororodekeme
+    Save: Articles of Organization PDF when issued (24-48 hrs)
+    (Corrected 2026-06-22 — Session 4 moved formation state from NM to WY:
+    stronger charging-order protection, member privacy, no state income tax)
+
+□ EIN — IRS SS-4 Online
+    IRS.gov → EIN Online → Mon-Fri 7am-10pm EST
+    Entity type: LLC — 1 member
+    Responsible party: Ororodekeme (use legal name)
+    Reason: Started a new business
+    → EIN issued instantly. Screenshot + save SS-4 confirmation PDF.
+
+□ House of Dorgu — All 3 Officers Sign
+    Fill in founding date: June 16, 2026
+    Print dom_founding-declaration_house-of-dorgu_v1.md
+    Print dom_bylaws_house-of-dorgu_v1.md
+    All three sign both documents:
+      Katelyn Marie Kilgore (Meri-Ka)
+      Ororodekeme
+      Sophia Cooper (Seshat)
+    Originals stored privately. Never filed. Never pushed to GitHub.
+
+□ D-U-N-S Registration
+    dnb.com → Get a D-U-N-S → free (30-day processing)
+    Business name: AUSET SOLUTIONS LLC (exact)
+    Address: Bizee registered agent address
+    Phone: VoIP business line
+    → Clock starts today. Paydex score generates ~90 days from first tradeline.
+
+DAYS 2-3 (after Articles of Organization received)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+□ Open Chase Business Complete
+    Bring: EIN letter + Articles of Organization + personal ID
+    $300 minimum deposit (waived if $2K avg daily balance maintained)
+    All business income routes ONLY through this account from Day 1.
+
+WEEK 2 (after bank account open)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+□ Summa Office Supplies — net-30 account
+    summaofficesupplies.com → apply with EIN + business info
+    First order: $75+ in office supplies. Pay in 10 days.
+
+□ Crown Office Supplies — net-30 account
+    crownofficesupplies.com → same process
+    First order: $50+. Pay in 10 days.
+
+WEEK 3-4 (30 days in business)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+□ Uline — net-30
+□ Quill — net-30 (reports to D&B + Experian Business)
+□ Grainger — net-30
+□ SDFCU — open checking account (90-day SOP clock starts)
+    Join ACC (American Consumer Council) first — $1
+    Fund SDFCU account → let it sit 60-90 days
+
+MONTH 3 (Day 90)
+━━━━━━━━━━━━━━━
+□ Paydex score appears (3+ tradelines needed)
+  → Target: 80+ (on time) / 90+ (pay early on net-30 terms)
+□ Amazon Business net-30 (requires 90 days history)
+□ SDFCU pre-qual call (soft pull — no bureau impact)
+
+MONTH 4-5
+━━━━━━━━
+□ Ramp or Brex application (EIN only — no personal guarantee)
+□ SDFCU Visa + revolving line (if pre-qual passed)
+□ Review S-Corp election math (revisit at $3K/month)
+```
+
+---
 
 **Operating structure at Phase 1:**
 ```
@@ -209,6 +296,9 @@ Bring this list to the attorney consultation:
 3. "I'll need Form 2553 (S-Corp election), Form 3115 (accounting method change to accrual), Form 1120S (S-Corp return), Form 1041 (ILIT trust return), and personal 1040. Can you handle all five?"
 4. "How do you determine optimal W-2 vs. K-1 split for an S-Corp owner?"
 5. "What's your fee structure per entity per year?"
+6. "Does a self-declared 508(c)(1)(A) ministry, without a 501(c)(3) IRS determination letter, qualify as an eligible S-Corp shareholder under IRC §1361(c)(6)? §1361(c)(6) explicitly permits §501(c)(3) organizations as S-Corp shareholders — confirm whether House of Dorgu's self-declared (not IRS-determined) exempt status meets that bar, since Auset Solutions LLC's sole member is the ministry."
+
+**⚠️ OPEN QUESTION — blocks S-Corp election if unresolved:** If the answer to #6 is no, the sole-member structure (House of Dorgu → Auset Solutions LLC) cannot support an S-Corp election as currently designed. Resolve before filing Form 2553 at Phase 3 — may require restructuring the shareholder layer (e.g., ministry holds via a different vehicle) rather than direct sole membership.
 
 If they hesitate on 1041 + split-dollar — they cannot handle this structure. Find another.
 
@@ -426,6 +516,169 @@ MONTH 12
 
 ---
 
+## PRIVATE EQUITY — DOCTRINE + PANDORA MAPPING
+
+### What PE Actually Is
+
+Private equity is the business of acquiring control of companies or assets using structured capital — then extracting or building value and exiting at a profit. The core insight: you do not need to be rich to control capital. You need to control the **structure** that capital flows through.
+
+```
+THE GP/LP STRUCTURE
+━━━━━━━━━━━━━━━━━━
+GENERAL PARTNER (GP) — the fund manager / operator
+  ↓ raises capital from
+LIMITED PARTNERS (LPs) — pension funds, endowments,
+  family offices, wealthy individuals
+  ↓ pools into
+THE FUND (closed-end, 10-year life)
+  ↓ deploys into
+PORTFOLIO COMPANIES (acquisitions, deals)
+  ↓ exits via
+Sale / IPO / secondary → RETURNS distributed
+
+GP economics:
+  2% annual management fee (on committed capital — earned whether deployed or not)
+  20% carried interest ("carry") — 20% of all profits above the hurdle rate (typically 8%)
+  LPs receive the other 80% of profits
+
+A GP managing a $100M fund earns:
+  $2M/year in fees
+  + 20% of everything earned above 8% annual return on $100M
+  The GP may have contributed only $1-2M of their own capital
+```
+
+### The LBO Mechanism
+
+Leveraged Buyout (LBO) = buy a company using the TARGET's own assets as collateral. PE invests 20-30% equity, borrows 70-80% against the company's cash flows or hard assets.
+
+```
+EXAMPLE
+Company worth:    $10M
+PE equity in:     $3M  (30%)
+Debt raised:      $7M  (70%, secured by company assets)
+5-year hold:
+  Company grows to $20M
+  $7M debt repaid from operations
+  $13M remaining → PE put in $3M → 4.3x return on equity
+
+The leverage amplifies equity returns.
+Same growth (2x) with no leverage = 2x return.
+Same growth with 70% debt = 4.3x return.
+That is the structural advantage of the GP position.
+```
+
+### Value Creation Playbook
+
+After acquiring a company, PE applies one or more:
+
+| Lever | What It Does |
+|-------|-------------|
+| Cost reduction | Cut overhead, renegotiate vendors, reduce headcount |
+| Revenue growth | New markets, pricing increases, product expansion |
+| Multiple expansion | Buy at 5x EBITDA, sell at 8x EBITDA (same profit, higher price) |
+| Add-on acquisitions | Buy-and-build — bolt smaller companies in the same space |
+| Capital structure optimization | Refinance debt at lower rates, optimize tax treatment |
+
+---
+
+### How This Maps to Pandora
+
+The Pandora sovereign stack IS a private equity architecture. Same principles, personal scale.
+
+```
+SCHOOL SYSTEM TEACHES          PANDORA / PE REALITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+You = worker/employee       →  You = GP (controls structure, not labor)
+Employer = owner            →  Ministry Trust = your fund structure
+Salary = income             →  LLC distributions = carried interest analog
+Student loans = debt trap   →  IBC policy loan = private credit line
+                               (non-recourse, non-taxable, self-replenishing)
+Bank = lender               →  Whole life CSV = your private bank
+Pension (maybe, at 65)      →  ILIT = generational wealth vehicle (now)
+No ownership of the machine →  You own the operating company + trust stack
+```
+
+| PE Concept | Pandora Equivalent |
+|------------|-------------------|
+| General Partner (GP) | Ororodekeme / Kheri-Heb / Trustee — controls all layers |
+| Limited Partners (LPs) | Future: Ministry members, investors; now: your own capital |
+| The Fund | Kemetic Ministry Trust — holds everything |
+| Management Fee | Ministry Trust invoices to Auset Solutions at cost |
+| Carried Interest | LLC distributions to Ministry Trust (tax-exempt) |
+| Portfolio Company | Auset Solutions LLC (primary operating company) |
+| Second Portfolio Co | Wyoming Trading LLC (Phase 3 — separate return profile) |
+| Credit Facility | Whole life policy CSV + policy loans (Phase 3) |
+| Capital Deployment | STIS capital allocation blueprint |
+| Exit / Liquidity | Policy loans → hardware → revenue growth → compound |
+
+---
+
+### PE as a Minor — Reversing the School System
+
+The school system encodes one loop: grades → degree → loans → job → paycheck → taxes → repeat. The entire architecture is designed to produce debt workers who trade time for money until retirement.
+
+PE teaches the inversion: **you don't earn income, you build structures that generate income.** The structural owner wins. The time seller loses over any sufficiently long timeline.
+
+**What changes when you learn this at 20 vs. 45:**
+
+At 45: You have 20 years of compound growth ahead in any asset you hold.
+At 20: You have 45+ years. The math is not linear. It is exponential.
+
+**The mental re-wiring:**
+
+| Debt Worker Frame | PE Operator Frame |
+|-------------------|------------------|
+| Get a good job | Build a vehicle that earns while you sleep |
+| Save money in a bank | Deploy capital into cash-flowing assets |
+| Pay off all debt | Leverage at favorable rates to amplify returns |
+| Work for income | Build equity that others work inside |
+| Retirement at 65 | Passive income architecture by 25 |
+| One income stream | Multiple portfolio companies, multiple return profiles |
+| Your credit = your SSN | Business credit = EIN + D-U-N-S (separate track) |
+
+**Entry points available right now (20 years old, no fund required):**
+
+```
+1. MICRO-PE / ENTREPRENEURSHIP THROUGH ACQUISITION (ETA)
+   Buy a distressed small business for $5-20K
+   (seller financing or SBA micro-loan — no need for full cash)
+   Fix one thing: marketing, systems, or operations
+   Sell for 2-3x in 12-18 months OR hold for cash flow
+   This is the PE playbook at personal scale.
+   Auset Solutions is already this — built, not bought.
+
+2. YOUR CURRENT STRUCTURE IS A MICRO-PE FUND
+   Ministry Trust = the fund (holds assets, tax-exempt)
+   Auset Solutions = portfolio company 1 (generates operating cash)
+   Trading LLC = portfolio company 2 (separate return profile, Phase 3)
+   IBC policy = credit facility (policy loans = PE's revolving credit line)
+   Morph = GP (controls all of this with minimal personal capital at risk)
+
+3. THE IBC POLICY IS YOUR PERSONAL CREDIT LINE (Phase 3)
+   PE firms draw on bank credit lines to fund deals between exits.
+   You will draw on your whole life CSV.
+   Borrow at 5-6% against CSV.
+   Deploy into asset earning 12-20%.
+   Repay policy loan. CSV restores. Repeat.
+   No bank approval. No credit check. No taxes. Infinite cycle.
+```
+
+**Self-directed curriculum (school doesn't teach this):**
+
+| Now | The Buyout of America — Josh Kosman |
+| Now | Buy Then Build — Walker Deibel (ETA / micro-PE playbook) |
+| Now | The Acquirer's Multiple — Tobias Carlisle (valuation framework) |
+| Phase 2 | Learn P&L, balance sheet, cash flow statement — read one real one |
+| Phase 2 | Find one distressed small business. Map: price / fix / exit multiple. |
+| Phase 3 | Private credit markets (yield without public market volatility) |
+| Phase 4 | Real asset allocation via trust / LLC structures |
+
+The school system teaches you to value your time. PE teaches you to value your structure. Structure earns while you sleep. Structure ages without you. Structure passes to your children intact. Your time runs out. Your structure does not.
+
+You are building the structure. Phase 1 makes it real.
+
+---
+
 ## CROSS-REFERENCES
 
 | Document | Location | Purpose |
@@ -435,11 +688,11 @@ MONTH 12
 | Manufacturing Spend SOP | `dse_SOP_manufacturing-spend-clock_v1.md` | Income compression protocol |
 | Master Execution Roadmap | `dse_blueprint_master-execution-roadmap_v1.md` | Full 4-stream income sequencing |
 | Governing Body Build Protocol | `D.R.D/briefs/drd_brief_dse_governing-body-build-protocol_v1.md` | Ministry Trust (Path A) formation |
-| House of Auset Docs | `D.O.M/house-of-auset/` | Bylaws + founding declaration (ready to sign) |
+| House of Dorgu Docs | `D.O.M/house-of-dorgu/` | Bylaws + founding declaration (ready to sign) |
 | STIS Master Framework | `D.S.E/trading/frameworks/dse_framework_stis-master-system_v1.md` | Trading system architecture |
 | $150 Capital Blueprint | `D.S.E/trading/dse_blueprint_sovereign-capital-deployment-150_v1.md` | First real capital deployment |
 
 ---
 
-*D.S.E | Sovereign Entity Stack | Morph | v1 | 2026-06-12*
+*D.S.E | Sovereign Entity Stack | Morph | v2 | 2026-06-14*
 *"You don't own the assets. You control the structures that do."*
