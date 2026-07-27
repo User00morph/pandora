@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pandoc --version)",
+      "Bash(python3 -c \"import pypdf; print\\('pypdf available'\\)\")",
+      "Bash(python3 -c \"import PyPDF2; print\\('PyPDF2 available'\\)\")",
+      "Bash(mdls:*)",
+      "Bash(mdimport -X)",
+      "Bash(python3:*)",
+      "Bash(mdimport -t -d3 -o /tmp/qb_out.txt \"/Users/emoefedorgu/Desktop/Pandora/research-deconstruction /markdown/the scrolls/quantum body.pdf\")",
+      "Bash(osascript -l JavaScript /tmp/pdfextract.js \"/Users/emoefedorgu/Desktop/Pandora/research-deconstruction /markdown/the scrolls/quantum body.pdf\" 1 33)",
+      "Bash(osascript -l JavaScript /tmp/pdfextract.js \"/Users/emoefedorgu/Desktop/Pandora/research-deconstruction /markdown/the scrolls/dynamic aether.pdf\" 5 21)",
+      "Read(//usr/bin/**)",
+      "Read(//opt/homebrew/**)",
+      "Read(//Users/emoefedorgu/**)",
+      "Bash(rm -rf \"D.R.D/research/human-history suppressed-science pre-western-knowledge divine-feminine consciousness systemic-analysis\" \"D.R.D/deconstructions/human-history suppressed-science pre-western-knowledge divine-feminine consciousness systemic-analysis\" \"D.R.D/reconstructions/human-history suppressed-science pre-western-knowledge divine-feminine consciousness systemic-analysis\" D.R.D/stages)",
+      "Bash(mkdir -p D.R.D/__TRACKED_VAR__/__TRACKED_VAR__)",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/aloistr/swisseph/master/ephe/seas_18.se1\" -o seas_18.se1)",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/aloistr/swisseph/master/ephe/sefstars.txt\" -o sefstars.txt)",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/aloistr/swisseph/master/ephe/sepl_18.se1\" -o sepl_18.se1)",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/aloistr/swisseph/master/ephe/semo_18.se1\" -o semo_18.se1)",
+      "Bash(pip3 install:*)",
+      "WebSearch"
+    ]
+  }
+}

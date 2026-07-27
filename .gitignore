@@ -29,3 +29,11 @@ D.R.D/deconstructions/drd_decode_ig-reel-trust-lien-umbrella-protocol_v1.md
 *.m4a
 *.wav
 *.aac
+
+# Personal legal/financial documents — dispute letters, complaint filings (local only, never push)
+D.S.E/documents/fortiva-dnf-print-ready/
+
+# OS and Python clutter — never useful in the repo
+.DS_Store
+__pycache__/
+*.pyc
