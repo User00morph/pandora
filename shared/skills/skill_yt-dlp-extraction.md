@@ -446,4 +446,40 @@ HELD:
 
 ---
 
+Forex Trading Playlist — tikitrades / D.TRD source material
+URL:      https://youtube.com/playlist?list=PLA5_nxZ4hgTpOSy2D7WuPHOQbx4Ct6czu
+Domain:   trading-systems (forex), destined for D.TRD (tikitrades)
+Added:    2026-07-26
+Status:   Raw extract complete (15/17 videos — 1 unavailable/private, 1 transcript-disabled)
+
+EXTRACTED (raw extract file in D.R.D/research/trading-systems/):
+  drd_research_forex-trading-playlist_raw-extract.md → 15 videos, ~76,441 words
+
+  01. How To Start Forex Trading For Beginners (2023) Full Course  → ~7,042 words
+  03. The Best Strategy For Forex Beginners!                        → ~2,784 words
+  04. Why You Should Start Forex !!                                 → ~6,411 words
+  05. How To Use The IML Harmonic Scanner !! 90% Accurate            → ~6,634 words
+  07. WHAT IS FOREX TRADING (FOR BEGINNERS)                          → ~9,257 words
+  08. 1on1 w Eniyede                                                 → ~6,621 words
+  09. 100 Flip Trade for the Week                                    → ~791 words
+  10. Morph 1 on 1                                                   → ~8,924 words
+  11. How I Trade 6/19/24                                            → ~1,380 words
+  12. INTRODUCTION TO FOREX TRADING (FOR BEGINNERS)                  → ~1,222 words
+  13. Top 3 Trades for the 6M candle close!                          → ~4,975 words
+  14. This Secret EMA Strategy Changed My Forex Trading              → ~3,837 words
+  15. Elite Weekly Meeting ~ 30 June 2024                             → ~7,997 words
+  16. Finally Exposing My Best EMA Fibonacci Day Trading Strategy!   → ~3,956 words
+  17. I Tested Letting Claude Trade For A Month and Made $102k        → ~4,610 words
+
+UNAVAILABLE:
+  02. (private/hidden video — no metadata retrievable)
+
+TRANSCRIPT_UNAVAILABLE (subtitles disabled — candidate for Whisper):
+  06. Live Trading Session with Happiness Hanson (3rd December, 2024)
+
+NEXT: awaiting D.R.D Stage 3–5 refinement (deconstruction → decode → reconstruct) before
+  integration into trd_framework_support-resistance-system_v1.md or other D.TRD files.
+
+---
+
 *SKILL_YT_DLP_EXTRACTION | Pandora OS | D.R.D refinement required before integration*

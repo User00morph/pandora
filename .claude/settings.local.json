@@ -20,7 +20,8 @@
       "Bash(curl -sL \"https://raw.githubusercontent.com/aloistr/swisseph/master/ephe/sepl_18.se1\" -o sepl_18.se1)",
       "Bash(curl -sL \"https://raw.githubusercontent.com/aloistr/swisseph/master/ephe/semo_18.se1\" -o semo_18.se1)",
       "Bash(pip3 install:*)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(claude mcp *)"
     ]
   }
 }

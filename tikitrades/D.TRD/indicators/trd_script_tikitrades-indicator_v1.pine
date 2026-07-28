@@ -1,0 +1,140 @@
+//@version=6
+indicator("TikiTrades", overlay=true, max_labels_count=300)
+
+grpEMA = "Baseline EMAs"
+emaFastLen = input.int(9, "Fast EMA", group=grpEMA)
+emaMidLen = input.int(18, "Mid EMA", group=grpEMA)
+emaBaseLen = input.int(50, "Baseline EMA", group=grpEMA)
+smaBaseLen = input.int(50, "Baseline SMA", group=grpEMA)
+
+grpHTF = "Higher Timeframe (Step 1)"
+htf = input.timeframe("240", "HTF (use 240 on a 1H chart, D on a 4H chart)", group=grpHTF)
+
+grpStruct = "Structure (KimG BOS)"
+structMode = input.string("Fast (low-lag)", "Structure mode", options=["Fast (low-lag)", "Confirmed (pivot)"], group=grpStruct)
+swingLen = input.int(10, "Structure lookback bars", group=grpStruct)
+crossFreshBars = input.int(5, "EMA cross validity window (bars)", group=grpStruct)
+
+grpSession = "Session / Killzone Filter (Step 0)"
+useSession = input.bool(true, "Restrict signals to killzones", group=grpSession)
+londonSess = input.session("0700-1600", "London killzone (UTC)", group=grpSession)
+nySess = input.session("1200-2100", "New York killzone (UTC)", group=grpSession)
+tokLonSess = input.session("0700-0900", "Tokyo/London overlap (UTC, GJ)", group=grpSession)
+
+grpCorr = "Cross-Instrument Correlation Guard"
+useCorr = input.bool(true, "Warn if correlated pair also signals", group=grpCorr)
+otherSym = input.symbol("OANDA:GBPJPY", "Other instrument (Gold vs GJ)", group=grpCorr)
+
+grpRisk = "Risk Reminder"
+isGold = input.bool(true, "This chart is Gold", group=grpRisk)
+goldStopCap = input.float(30, "Gold stop cap (points)", group=grpRisk)
+
+grpDisplay = "Display"
+compactTable = input.bool(true, "Compact table (verdict only)", group=grpDisplay)
+
+ema9 = ta.ema(close, emaFastLen)
+ema18 = ta.ema(close, emaMidLen)
+ema50 = ta.ema(close, emaBaseLen)
+sma50 = ta.sma(close, smaBaseLen)
+baseline = (ema50 + sma50) / 2
+
+plot(ema9, "9 EMA", color=color.new(color.red, 0))
+plot(ema18, "18 EMA", color=color.new(color.blue, 0))
+plot(ema50, "50 EMA", color=color.new(color.orange, 0), linewidth=2)
+plot(sma50, "50 SMA", color=color.new(color.gray, 0), linewidth=2)
+
+htfEma50 = request.security(syminfo.tickerid, htf, ta.ema(close, emaBaseLen), lookahead=barmerge.lookahead_off)
+htfSma50 = request.security(syminfo.tickerid, htf, ta.sma(close, smaBaseLen), lookahead=barmerge.lookahead_off)
+htfLowSec = request.security(syminfo.tickerid, htf, low, lookahead=barmerge.lookahead_off)
+htfHighSec = request.security(syminfo.tickerid, htf, high, lookahead=barmerge.lookahead_off)
+htfBaseline = (htfEma50 + htfSma50) / 2
+
+htfTouchBuy = htfLowSec <= htfBaseline
+htfTouchSell = htfHighSec >= htfBaseline
+ltfTouchBuy = low <= baseline
+ltfTouchSell = high >= baseline
+
+fastLevelHigh = ta.highest(high, swingLen)[1]
+fastLevelLow = ta.lowest(low, swingLen)[1]
+fastBosUp = ta.crossover(close, fastLevelHigh)
+fastBosDown = ta.crossunder(close, fastLevelLow)
+
+swHigh = ta.pivothigh(high, swingLen, swingLen)
+swLow = ta.pivotlow(low, swingLen, swingLen)
+
+var float lastSwingHigh = na
+var float lastSwingLow = na
+if not na(swHigh)
+    lastSwingHigh := swHigh
+if not na(swLow)
+    lastSwingLow := swLow
+
+crossUpClose = ta.crossover(close, lastSwingHigh)
+crossDownClose = ta.crossunder(close, lastSwingLow)
+confirmedBosUp = not na(lastSwingHigh) and crossUpClose
+confirmedBosDown = not na(lastSwingLow) and crossDownClose
+
+useFast = structMode == "Fast (low-lag)"
+bosUp = useFast ? fastBosUp : confirmedBosUp
+bosDown = useFast ? fastBosDown : confirmedBosDown
+
+var string structureBias = "none"
+if bosUp
+    structureBias := "bull"
+if bosDown
+    structureBias := "bear"
+
+plotshape(bosUp, title="BOS Up", style=shape.triangleup, location=location.belowbar, color=color.new(color.lime, 0), size=size.tiny)
+plotshape(bosDown, title="BOS Down", style=shape.triangledown, location=location.abovebar, color=color.new(color.red, 0), size=size.tiny)
+
+bodyBeyondUp = math.min(open, close) > baseline
+bodyBeyondDown = math.max(open, close) < baseline
+
+emaCrossUp = ta.crossover(ema9, ema18)
+emaCrossDown = ta.crossunder(ema9, ema18)
+emaStackUp = ema9 > ema50 and ema18 > ema50
+emaStackDown = ema9 < ema50 and ema18 < ema50
+
+barsSinceCrossUp = ta.barssince(emaCrossUp)
+barsSinceCrossDown = ta.barssince(emaCrossDown)
+crossedUpRecently = not na(barsSinceCrossUp) and barsSinceCrossUp <= crossFreshBars
+crossedDownRecently = not na(barsSinceCrossDown) and barsSinceCrossDown <= crossFreshBars
+
+wickFlipBuy = low < low[1] and close > open and close > ema9
+wickFlipSell = high > high[1] and close < open and close < ema9
+
+inLondon = not na(time(timeframe.period, londonSess))
+inNY = not na(time(timeframe.period, nySess))
+inTokLon = not na(time(timeframe.period, tokLonSess))
+inSession = not useSession or inLondon or inNY or inTokLon
+
+aplusBuy = structureBias == "bull" and htfTouchBuy and ltfTouchBuy and bodyBeyondUp and emaStackUp and crossedUpRecently and wickFlipBuy and inSession
+aplusSell = structureBias == "bear" and htfTouchSell and ltfTouchSell and bodyBeyondDown and emaStackDown and crossedDownRecently and wickFlipSell and inSession
+
+if aplusBuy
+    label.new(bar_index, low, "BUY", style=label.style_label_up, color=color.new(color.green, 0), textcolor=color.white, size=size.small)
+if aplusSell
+    label.new(bar_index, high, "SELL", style=label.style_label_down, color=color.new(color.red, 0), textcolor=color.white, size=size.small)
+
+alertcondition(aplusBuy, "TikiTrades BUY", "TikiTrades: A+ mechanical BUY setup - verify news filter and KimG zone quality before entry")
+alertcondition(aplusSell, "TikiTrades SELL", "TikiTrades: A+ mechanical SELL setup - verify news filter and KimG zone quality before entry")
+
+otherAplusBuy = useCorr ? request.security(otherSym, timeframe.period, aplusBuy, lookahead=barmerge.lookahead_off) : false
+otherAplusSell = useCorr ? request.security(otherSym, timeframe.period, aplusSell, lookahead=barmerge.lookahead_off) : false
+corrWarning = useCorr and ((aplusBuy and otherAplusBuy) or (aplusSell and otherAplusSell))
+
+var table statusTbl = table.new(position.top_right, 2, 3, border_width=1)
+if barstate.islast
+    table.cell(statusTbl, 0, 0, "TikiTrades", bgcolor=color.new(color.black, 0), text_color=color.white)
+    verdict = aplusBuy ? "BUY" : aplusSell ? "SELL" : structureBias == "none" ? "WAIT" : "WAIT (" + structureBias + ")"
+    verdictColor = aplusBuy ? color.new(color.green, 0) : aplusSell ? color.new(color.red, 0) : color.new(color.gray, 0)
+    table.cell(statusTbl, 1, 0, verdict, bgcolor=verdictColor, text_color=color.white)
+    if not compactTable
+        bool htfT = structureBias == "bull" ? htfTouchBuy : structureBias == "bear" ? htfTouchSell : false
+        bool ltfT = structureBias == "bull" ? ltfTouchBuy : structureBias == "bear" ? ltfTouchSell : false
+        bool bodyT = structureBias == "bull" ? bodyBeyondUp : structureBias == "bear" ? bodyBeyondDown : false
+        bool stackT = structureBias == "bull" ? emaStackUp : structureBias == "bear" ? emaStackDown : false
+        table.cell(statusTbl, 0, 1, "Steps")
+        table.cell(statusTbl, 1, 1, (htfT and ltfT and bodyT and stackT) ? "4/4 OK" : "incomplete")
+    table.cell(statusTbl, 0, 2, "Correlation")
+    table.cell(statusTbl, 1, 2, corrWarning ? "warn: both" : "ok")
