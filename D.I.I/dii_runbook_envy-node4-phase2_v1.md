@@ -193,6 +193,31 @@ sudo systemd-cryptenroll --tpm2-device=auto --tpm2-pcrs=7 /dev/nvme0n1p3
 
 ---
 
+## ⚠️ FALSE CLOSE — 2026-09-21
+
+The gate was reported closed ("booted straight to login, no passphrase").
+**Verification over SSH proved otherwise:**
+
+```
+uptime:   up 3 days, 22 hours, 32 minutes   ← 19 min earlier it read 3d22h13m. SAME BOOT.
+crypttab: dm_crypt-0 UUID=a9531f34-... none luks   ← sed never applied
+```
+
+A real reboot resets uptime to under a minute. What was seen was a **lock screen or
+logout**, not a boot — on Ubuntu they look alike: a login prompt with no encryption
+prompt ahead of it. The disk had been unlocked since 2026-09-17, when the passphrase
+was last actually typed.
+
+**The enrollment in keyslot 1 is genuine.** But without the crypttab option the
+initramfs has no instruction to consult the TPM, so a real boot would still have
+prompted.
+
+**This is precisely why the proof condition is an observed reboot and not "it looked
+fine." A gate that reports success without being tested is worse than an open gate —
+it stops anyone from looking again.**
+
+---
+
 ## ▶ NEXT THREE COMMANDS — run in this order
 
 ```bash
@@ -210,6 +235,11 @@ Takes ~1 min. Firmware warnings on this hardware are normal — ignore them.
 sudo reboot
 ```
 **Be at the machine. HANDS OFF THE KEYBOARD.**
+
+**How to know it is a REAL reboot:** the screen goes fully black and the **HP logo /
+POST screen reappears.** No logo = not a reboot = a lock screen. Claude verifies
+independently by checking that `uptime` reads minutes rather than days — that is the
+part that cannot be misread.
 
 - Boots straight to login untouched → **GATE CLOSED** ✅
 - Stops and asks for the passphrase → **expected on Ubuntu.** Type it, log in, run Clevis below.
