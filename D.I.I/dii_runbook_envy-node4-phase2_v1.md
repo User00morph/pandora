@@ -180,9 +180,19 @@ The passphrase is the only way back into the disk.
 
 Replace `/dev/nvme0n1p3` with the real `crypto_LUKS` device from Block 0.
 
+✅ Passphrase verified against the header 2026-09-21.
+
+### 3a — enroll the TPM
+Prompts for your **existing LUKS passphrase**. Adds a new keyslot; yours stays.
 ```bash
 sudo systemd-cryptenroll --tpm2-device=auto --tpm2-pcrs=7 /dev/nvme0n1p3
 ```
+
+### 3b — confirm a TPM token now exists
+```bash
+sudo cryptsetup luksDump /dev/nvme0n1p3 | grep -A3 Tokens
+```
+Expect a `systemd-tpm2` token. **If nothing appears, STOP** — 3c onward is pointless.
 
 Then add `tpm2-device=auto` to the options column in `/etc/crypttab`.
 **Exact change on this machine** — the options field is currently just `luks`:
@@ -190,11 +200,26 @@ Then add `tpm2-device=auto` to the options column in `/etc/crypttab`.
 BEFORE: dm_crypt-0 UUID=a9531f34-112d-40c5-8c2b-4b733c1762f2 none luks
 AFTER:  dm_crypt-0 UUID=a9531f34-112d-40c5-8c2b-4b733c1762f2 none luks,tpm2-device=auto
 ```
-Then rebuild:
+### 3c — patch crypttab (exact command for this machine)
+```bash
+sudo sed -i 's|none luks$|none luks,tpm2-device=auto|' /etc/crypttab && cat /etc/crypttab
+```
+Must print: `dm_crypt-0 UUID=a9531f34-... none luks,tpm2-device=auto`
 
+### 3d — rebuild the initramfs
 ```bash
 sudo update-initramfs -u -k all
 ```
+
+### 3e — REBOOT, HANDS OFF THE KEYBOARD
+```bash
+sudo reboot
+```
+**Be physically at the machine.** Watch what happens at the encryption prompt.
+
+- **Comes back on its own → GATE CLOSED.** ✅
+- **Asks for the passphrase → not a failure.** Type it, log in, go to the Clevis fallback.
+  Ubuntu's initramfs ignoring `tpm2-device=auto` is the *expected* outcome, not a fault.
 
 ### Proof condition
 **Reboot and do not touch the keyboard.** The gate closes only when the machine
