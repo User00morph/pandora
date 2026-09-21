@@ -103,16 +103,42 @@ What each answers:
 
 ---
 
-## BLOCK 2 — BASE PACKAGES + NETWORK
+## BLOCK 2 — BASE PACKAGES + NETWORK  ← YOU ARE HERE
 
+**State verified 2026-09-21 over SSH:** 34 pending updates. `curl`, `tailscale`,
+`docker` all ABSENT. `git` present. Default target still `graphical.target`.
+
+**Order matters** — the Tailscale installer is a shell script fetched *with* curl,
+so curl must exist first. The original block had these reversed.
+
+### 2a — updates + curl (the long one, 34 packages)
 ```bash
-sudo apt update && sudo apt upgrade -y
-sudo apt install -y unattended-upgrades curl
-curl -fsSL https://tailscale.com/install.sh | sh
-sudo tailscale up
+sudo apt update && sudo apt upgrade -y && sudo apt install -y curl unattended-upgrades
 ```
 
-`tailscale up` prints a URL — open it, authenticate, join the tailnet.
+Let it fully finish before 2b.
+
+### 2b — Tailscale
+```bash
+curl -fsSL https://tailscale.com/install.sh | sh && sudo tailscale up
+```
+
+`tailscale up` prints a URL. Open it in the Envy's browser and authenticate.
+This gives the node a **permanent address** — the LAN IP already moved
+`.63 → .64` in a single session, which is why no other machine should ever
+address this node by DHCP IP.
+
+### ⚠️ Before you start
+- **The upgrade may pull a new kernel → reboot required.**
+  TPM unlock is NOT configured yet, so the node **will stop and demand the LUKS
+  passphrase**. Have it in hand. You are sitting at the machine, so this is fine.
+- **Do NOT reboot this node remotely until Block 3 passes.** It cannot come back
+  without a human. That gap is exactly what Block 3 closes.
+
+### Report back
+```bash
+tailscale ip -4
+```
 
 ---
 
