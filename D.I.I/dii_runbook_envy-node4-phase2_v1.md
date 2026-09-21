@@ -47,7 +47,7 @@ Run by Claude over SSH. **Results — do not re-run:**
 | Free space | 429G, 3% used |
 | crypttab | `dm_crypt-0 UUID=a9531f34-... none luks` |
 | TPM | `/dev/tpm0` + **`/dev/tpmrm0`** — resource manager present ✅ |
-| BIOS / Gate 3 | **PENDING** — see Block 1.5 |
+| BIOS / Gate 3 | **`F.08` — CONFIRMED 2026-09-21. The update never ran.** Deferred ticket, NOT a blocker. ⚠️ If ever flashed later it changes PCR 7 and breaks TPM unlock → re-enrollment required. |
 
 Enrollment targets **`p3`** — the LUKS container, **not** the LVM volume above it.
 
@@ -67,13 +67,17 @@ This keeps least-permissions intact. **No NOPASSWD sudoers file is created.**
 
 ---
 
-## BLOCK 1.5 — GATE 3 READING (paste on the Envy)
+## BLOCK 1.5 — GATE 3 READING ✅ COMPLETE — result: `F.08`
 
-```bash
-sudo dmidecode -s bios-version
-```
+The BIOS update never ran before the wipe. Windows is gone, so HP Support Assistant
+is no longer an option. **This is now a deferred ticket, not a blocker** — the gain was
+Raptor Lake-U microcode and power-management tuning, which matters only if the node
+shows instability under sustained inference load.
 
-`F.08` → the BIOS update never ran. **Deferred ticket, NOT a blocker.** Do not stall Phase 2.
+Revisit only if Phase 3 benchmarking shows thermal or power anomalies.
+
+**⚠️ Coupling to remember:** flashing the BIOS later changes PCR 7, which breaks
+TPM-bound LUKS unlock and forces re-enrollment. Keep the passphrase on paper.
 
 ---
 
