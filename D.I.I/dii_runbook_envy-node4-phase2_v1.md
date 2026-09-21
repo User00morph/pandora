@@ -7,7 +7,10 @@ Phase 1 is CLOSED: wiped, Ubuntu 26.04.1 installed, LUKS on.
 **Node facts (verified 2026-09-21):**
 | Fact | Value |
 |---|---|
-| Envy IP | `192.168.5.64` (**moved from .63 — DHCP churn; Tailscale fixes this in Block 2**) |
+| Envy IP (LAN) | `192.168.5.64` — **do not rely on this, it moved .63→.64 in one session** |
+| **Tailnet IP** | **`100.64.176.25`** — permanent, survives DHCP ✅ |
+| MagicDNS | `morph-hp-envy-x360-2-in-1-laptop-15-fe0xxx.tail2c389a.ts.net` |
+| Tailnet | `tail2c389a.ts.net`, owner `emoefe1838@` |
 | MacBook IP | `192.168.4.39` |
 | Username | `morph` |
 | LAN | `192.168.4.0/22` (**/22, not /24** — range is 192.168.4.0–192.168.7.255) |
@@ -149,7 +152,29 @@ tailscale ip -4
 2. Enrollment alone is a **silent no-op** — nothing told initramfs to ask the TPM,
    so the node would still prompt for a passphrase on every boot.
 
-### 🔴 WRITE THE LUKS PASSPHRASE DOWN ON PAPER BEFORE RUNNING THIS.
+### 🔴 STEP ZERO — VERIFY THE PASSPHRASE, THEN WRITE IT ON PAPER
+
+The SOP said "keep the passphrase." That is advice you can follow and still be wrong,
+because it never said to **prove** the passphrase you remember is the one in the header.
+Test it non-destructively first — this unlocks and modifies nothing:
+
+```bash
+sudo cryptsetup luksOpen --test-passphrase /dev/nvme0n1p3 && echo "PASSPHRASE OK"
+```
+
+Also confirm which keyslots exist. TPM enrollment **adds** a slot, it does not replace
+yours — verifying your slot survives is what makes the fallback real rather than assumed:
+
+```bash
+sudo cryptsetup luksDump /dev/nvme0n1p3 | grep -E "^Keyslot|^Version|^Cipher|Tokens"
+```
+
+**Do this BEFORE enrollment, not after.** Today a lost passphrase costs an afternoon —
+the disk is days old and nearly empty. After TPM binding it costs the entire inference
+tier the moment firmware state shifts. And with Gate 3 deferred, a firmware change is
+already on the backlog.
+
+### 🔴 THEN WRITE IT ON PAPER — not in a manager on this machine.
 PCR 7 changes on any BIOS update, Secure Boot toggle, or TPM clear.
 The passphrase is the only way back into the disk.
 
