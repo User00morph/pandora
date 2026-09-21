@@ -7,7 +7,7 @@ Phase 1 is CLOSED: wiped, Ubuntu 26.04.1 installed, LUKS on.
 **Node facts (verified 2026-09-21):**
 | Fact | Value |
 |---|---|
-| Envy IP | `192.168.5.63` |
+| Envy IP | `192.168.5.64` (**moved from .63 — DHCP churn; Tailscale fixes this in Block 2**) |
 | MacBook IP | `192.168.4.39` |
 | Username | `morph` |
 | LAN | `192.168.4.0/22` (**/22, not /24** — range is 192.168.4.0–192.168.7.255) |
@@ -33,7 +33,52 @@ Expect exactly one line starting `ssh-ed25519 AAAAC3Nza`.
 
 ---
 
-## BLOCK 0 — RECON (read-only, changes nothing)
+## BLOCK 0 — RECON ✅ COMPLETE 2026-09-21
+
+Run by Claude over SSH. **Results — do not re-run:**
+
+| Fact | Verified value |
+|---|---|
+| Hostname | `morph-HP-Envy-x360-2-in-1-Laptop-15-fe0xxx` |
+| OS | Ubuntu 26.04.1 LTS, kernel `7.0.0-31-generic` |
+| **LUKS device** | **`/dev/nvme0n1p3`** |
+| LUKS UUID | `a9531f34-112d-40c5-8c2b-4b733c1762f2` |
+| Layout | **LUKS → LVM → ext4** — the SOP never accounted for the LVM layer |
+| Free space | 429G, 3% used |
+| crypttab | `dm_crypt-0 UUID=a9531f34-... none luks` |
+| TPM | `/dev/tpm0` + **`/dev/tpmrm0`** — resource manager present ✅ |
+| BIOS / Gate 3 | **PENDING** — see Block 1.5 |
+
+Enrollment targets **`p3`** — the LUKS container, **not** the LVM volume above it.
+
+---
+
+## HOW THIS RUNS — division of labour
+
+Claude drives the node over SSH but **cannot answer a `sudo` password prompt**
+(the session is non-interactive). Rather than granting permanent passwordless root,
+the split is:
+
+- **Claude runs** every unprivileged command — reads, checks, verification, diagnosis.
+- **Morph pastes** the privileged blocks below. Each is self-contained and ends by
+  printing what Claude needs to see next.
+
+This keeps least-permissions intact. **No NOPASSWD sudoers file is created.**
+
+---
+
+## BLOCK 1.5 — GATE 3 READING (paste on the Envy)
+
+```bash
+sudo dmidecode -s bios-version
+```
+
+`F.08` → the BIOS update never ran. **Deferred ticket, NOT a blocker.** Do not stall Phase 2.
+
+---
+
+## BLOCK 0 (original recon — superseded, kept for reference)
+
 
 ```bash
 sudo apt install -y tpm2-tools
@@ -84,7 +129,13 @@ Replace `/dev/nvme0n1p3` with the real `crypto_LUKS` device from Block 0.
 sudo systemd-cryptenroll --tpm2-device=auto --tpm2-pcrs=7 /dev/nvme0n1p3
 ```
 
-Then add `tpm2-device=auto` to the options column in `/etc/crypttab` and rebuild:
+Then add `tpm2-device=auto` to the options column in `/etc/crypttab`.
+**Exact change on this machine** — the options field is currently just `luks`:
+```
+BEFORE: dm_crypt-0 UUID=a9531f34-112d-40c5-8c2b-4b733c1762f2 none luks
+AFTER:  dm_crypt-0 UUID=a9531f34-112d-40c5-8c2b-4b733c1762f2 none luks,tpm2-device=auto
+```
+Then rebuild:
 
 ```bash
 sudo update-initramfs -u -k all
