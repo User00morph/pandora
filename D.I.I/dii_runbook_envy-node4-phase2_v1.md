@@ -182,17 +182,39 @@ Replace `/dev/nvme0n1p3` with the real `crypto_LUKS` device from Block 0.
 
 ✅ Passphrase verified against the header 2026-09-21.
 
-### 3a — enroll the TPM
-Prompts for your **existing LUKS passphrase**. Adds a new keyslot; yours stays.
+### 3a — enroll the TPM ✅ DONE 2026-09-21
+Result: **"New TPM2 token enrolled as key slot 1."**
+Keyslot 0 = passphrase (intact) · Keyslot 1 = TPM. Fallback preserved.
 ```bash
 sudo systemd-cryptenroll --tpm2-device=auto --tpm2-pcrs=7 /dev/nvme0n1p3
 ```
 
-### 3b — confirm a TPM token now exists
+### 3b — confirm token ✅ SATISFIED by 3a's success message.
+
+---
+
+## ▶ NEXT THREE COMMANDS — run in this order
+
 ```bash
-sudo cryptsetup luksDump /dev/nvme0n1p3 | grep -A3 Tokens
+sudo sed -i 's|none luks$|none luks,tpm2-device=auto|' /etc/crypttab && cat /etc/crypttab
 ```
-Expect a `systemd-tpm2` token. **If nothing appears, STOP** — 3c onward is pointless.
+Must print: `dm_crypt-0 UUID=a9531f34-... none luks,tpm2-device=auto`
+If the line looks unchanged — **stop and report it.**
+
+```bash
+sudo update-initramfs -u -k all
+```
+Takes ~1 min. Firmware warnings on this hardware are normal — ignore them.
+
+```bash
+sudo reboot
+```
+**Be at the machine. HANDS OFF THE KEYBOARD.**
+
+- Boots straight to login untouched → **GATE CLOSED** ✅
+- Stops and asks for the passphrase → **expected on Ubuntu.** Type it, log in, run Clevis below.
+
+Your passphrase opens the disk either way. Nothing is at risk in this step.
 
 Then add `tpm2-device=auto` to the options column in `/etc/crypttab`.
 **Exact change on this machine** — the options field is currently just `luks`:
